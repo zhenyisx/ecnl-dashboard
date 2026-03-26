@@ -1102,6 +1102,162 @@
       font-size: 13px;
       color: var(--text-secondary);
     }
+
+    .team-filter-count {
+      font-size: 11px;
+      color: var(--text-secondary);
+      padding: 2px 12px 8px;
+      min-height: 18px;
+    }
+
+    /* ===== GLOBAL SEARCH ===== */
+    .global-search-wrap {
+      position: relative;
+    }
+
+    .global-search-clear {
+      position: absolute;
+      right: 22px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 14px;
+      color: var(--text-secondary);
+      padding: 2px 4px;
+      line-height: 1;
+      display: none;
+    }
+
+    .global-search-clear:hover { color: var(--text-primary); }
+
+    .global-search-status {
+      font-size: 11px;
+      color: var(--text-secondary);
+      padding: 2px 12px 6px;
+      min-height: 18px;
+    }
+
+    .search-results-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+
+    .search-results-table th {
+      padding: 8px 10px;
+      text-align: left;
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--text-secondary);
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+      border-bottom: 2px solid var(--border);
+      white-space: nowrap;
+      position: sticky;
+      top: 0;
+      background: var(--bg-surface);
+      z-index: 1;
+    }
+
+    .search-results-table th.col-right { text-align: center; }
+
+    .search-results-table td {
+      padding: 8px 10px;
+      border-bottom: 1px solid var(--border-light);
+      vertical-align: middle;
+    }
+
+    .search-results-table td.col-right { text-align: center; }
+
+    .search-results-table tbody tr {
+      cursor: pointer;
+      transition: background var(--transition-fast);
+    }
+
+    .search-results-table tbody tr:hover {
+      background: var(--row-hover);
+    }
+
+    .search-results-table tbody tr:last-child td { border-bottom: none; }
+
+    .search-conf-badge {
+      display: inline-block;
+      font-size: 10px;
+      font-weight: 600;
+      padding: 2px 7px;
+      border-radius: 10px;
+      background: var(--teal-surface);
+      color: var(--teal);
+      white-space: nowrap;
+    }
+
+    .search-flight-badge {
+      font-size: 10px;
+      color: var(--text-secondary);
+      white-space: nowrap;
+    }
+
+    .search-results-panel {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .search-results-header {
+      padding: 12px 16px;
+      background: var(--bg-surface-alt);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .search-results-title {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    .search-results-count {
+      font-size: 12px;
+      color: var(--text-secondary);
+    }
+
+    .search-no-results-msg {
+      padding: 48px 20px;
+      text-align: center;
+      color: var(--text-secondary);
+      font-size: 13px;
+    }
+
+    .search-progress {
+      padding: 10px 16px;
+      font-size: 12px;
+      color: var(--text-secondary);
+      border-bottom: 1px solid var(--border-light);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .search-progress-bar {
+      flex: 1;
+      height: 3px;
+      background: var(--border);
+      border-radius: 2px;
+      overflow: hidden;
+    }
+
+    .search-progress-fill {
+      height: 100%;
+      background: var(--teal);
+      border-radius: 2px;
+      transition: width 0.2s ease;
+    }
   </style>
 </head>
 
@@ -1150,6 +1306,24 @@
         </div>
         <ul class="conference-list" id="conferenceList"></ul>
         <div class="search-no-results" id="searchNoResults">No conferences match</div>
+
+        <div class="sidebar-section-title" style="margin-top:4px;">Filter Teams</div>
+        <div class="sidebar-search">
+          <input type="text" class="search-input" id="teamSearch" placeholder="Search teams…"
+            oninput="filterTeams(this.value)">
+        </div>
+        <div class="team-filter-count" id="teamFilterCount"></div>
+
+        <div class="sidebar-section-title" style="margin-top:4px;">Search All Conferences</div>
+        <div class="sidebar-search global-search-wrap">
+          <input type="text" class="search-input" id="globalTeamSearch"
+            placeholder="Team name across all conferences…"
+            oninput="onGlobalSearchInput(this.value)"
+            onkeydown="if(event.key==='Escape')clearGlobalSearch()">
+          <button class="global-search-clear" id="globalSearchClear"
+            onclick="clearGlobalSearch()" title="Clear search">✕</button>
+        </div>
+        <div class="global-search-status" id="globalSearchStatus"></div>
       </div>
 
       <div id="favoritesPanel" style="display:none;flex:1;overflow-y:auto;">
@@ -1472,6 +1646,175 @@
       } catch (e) { }
     }
 
+    // ========== GLOBAL TEAM SEARCH ==========
+    let globalSearchDebounce = null;
+    let globalSearchActive = false;
+
+    function onGlobalSearchInput(val) {
+      const clearBtn = document.getElementById('globalSearchClear');
+      if (clearBtn) clearBtn.style.display = val.length > 0 ? '' : 'none';
+
+      clearTimeout(globalSearchDebounce);
+      if (val.trim().length < 2) {
+        document.getElementById('globalSearchStatus').textContent =
+          val.length === 1 ? 'Type at least 2 characters…' : '';
+        if (globalSearchActive) {
+          globalSearchActive = false;
+          loadStandings();
+        }
+        return;
+      }
+      document.getElementById('globalSearchStatus').textContent = 'Searching…';
+      globalSearchDebounce = setTimeout(() => searchAllConferences(val.trim()), 300);
+    }
+
+    function clearGlobalSearch() {
+      const inp = document.getElementById('globalTeamSearch');
+      if (inp) inp.value = '';
+      const clearBtn = document.getElementById('globalSearchClear');
+      if (clearBtn) clearBtn.style.display = 'none';
+      document.getElementById('globalSearchStatus').textContent = '';
+      if (globalSearchActive) {
+        globalSearchActive = false;
+        loadStandings();
+      }
+    }
+
+    async function searchAllConferences(query) {
+      if (!currentAgeGroup) return;
+      globalSearchActive = true;
+      const q = query.toLowerCase();
+
+      // Update header
+      document.getElementById('breadcrumb').innerHTML =
+        `<span>${currentSeason}</span><span class="breadcrumb-sep">›</span>` +
+        `<span>${AGE_LABELS[currentAgeGroup] || currentAgeGroup}</span><span class="breadcrumb-sep">›</span>` +
+        `<span class="breadcrumb-current">Search: "${query}"</span>`;
+      document.getElementById('contentTitle').textContent = `Search results for "${query}"`;
+      document.getElementById('contentSubtitle').textContent = `${currentSeason} · ${AGE_LABELS[currentAgeGroup] || currentAgeGroup} · all conferences`;
+      document.getElementById('extLinks').innerHTML = '';
+
+      const container = document.getElementById('standingsContainer');
+      const conferences = Object.entries(getSeasonData().conferences);
+      const total = conferences.length;
+      let done = 0;
+
+      // Show progress panel immediately
+      container.innerHTML = `
+        <div class="search-results-panel" id="searchResultsPanel">
+          <div class="search-results-header">
+            <div class="search-results-title">🔍 "${query}"</div>
+            <div class="search-results-count" id="searchResultsCount">Searching ${total} conferences…</div>
+          </div>
+          <div class="search-progress" id="searchProgress">
+            <span id="searchProgressText">0 / ${total}</span>
+            <div class="search-progress-bar"><div class="search-progress-fill" id="searchProgressFill" style="width:0%"></div></div>
+          </div>
+          <table class="search-results-table" id="searchResultsTable">
+            <thead><tr>
+              <th style="width:44px">#</th>
+              <th style="width:32px"></th>
+              <th>Team</th>
+              <th>Conference</th>
+              <th>Flight</th>
+              <th class="col-right">GP</th>
+              <th class="col-right">W</th>
+              <th class="col-right">L</th>
+              <th class="col-right">D</th>
+              <th class="col-right">PTS</th>
+              <th class="col-right">GD</th>
+            </tr></thead>
+            <tbody id="searchResultsTbody"></tbody>
+          </table>
+        </div>`;
+
+      const tbody = document.getElementById('searchResultsTbody');
+      let totalMatches = 0;
+
+      // Fetch all conferences in parallel, append results as each arrives
+      const fetchPromises = conferences.map(async ([confName, conf]) => {
+        try {
+          const hierarchy = await getEventHierarchy(conf.eventId);
+          const divList = hierarchy.girlsDivAndFlightList || [];
+          const division = divList.find(d => d.divisionName === currentAgeGroup);
+          if (!division) return;
+
+          const flights = division.flightList || [];
+          const standingsResults = await Promise.all(
+            flights.map(f =>
+              getStandings(division.divisionID, f.flightID, conf.eventId)
+                .then(data => ({ flight: f, data }))
+                .catch(() => null)
+            )
+          );
+
+          standingsResults.forEach(result => {
+            if (!result || !result.data) return;
+            const teams = result.data.teamStandings || [];
+            teams.forEach((team, i) => {
+              if (!team.name.toLowerCase().includes(q)) return;
+              totalMatches++;
+              const rank = i + 1;
+              const gd = team.goaldifferential || 0;
+              const gdStr = gd > 0 ? `+${gd}` : `${gd}`;
+              const gdClass = gd > 0 ? 'gd-positive' : gd < 0 ? 'gd-negative' : '';
+              const isFav = favorites.has(team.name);
+              const rankHtml = rank <= 3
+                ? `<span class="rank-badge rank-${rank}">${rank}</span>`
+                : `<span style="padding-left:8px;font-weight:600;color:var(--text-secondary)">${rank}</span>`;
+              const row = document.createElement('tr');
+              row.dataset.conf = confName;
+              row.title = `Go to ${confName}`;
+              row.innerHTML = `
+                <td>${rankHtml}</td>
+                <td><button class="star-btn ${isFav ? 'starred' : ''}" data-team="${team.name.replace(/"/g,'&quot;')}" onclick="event.stopPropagation();toggleFavorite(this.dataset.team)" title="Favorite">${isFav ? '★' : '☆'}</button></td>
+                <td><div class="team-cell">
+                  ${team.teamLogoURL ? `<img class="team-logo" src="${team.teamLogoURL}" alt="" loading="lazy" onerror="this.style.display='none'">` : ''}
+                  <span class="team-name">${team.name}</span>
+                </div></td>
+                <td><span class="search-conf-badge">${confName}</span></td>
+                <td><span class="search-flight-badge">${result.flight.flightName}</span></td>
+                <td class="col-right">${team.gp || 0}</td>
+                <td class="col-right" style="font-weight:600">${team.wins || 0}</td>
+                <td class="col-right">${team.losses || 0}</td>
+                <td class="col-right">${team.draws || 0}</td>
+                <td class="col-right stat-highlight">${team.standingpoints || 0}</td>
+                <td class="col-right ${gdClass}">${gdStr}</td>`;
+              row.addEventListener('click', () => {
+                clearGlobalSearch();
+                selectConference(confName);
+              });
+              if (tbody) tbody.appendChild(row);
+              const countEl = document.getElementById('searchResultsCount');
+              if (countEl) countEl.textContent = `${totalMatches} match${totalMatches !== 1 ? 'es' : ''}`;
+            });
+          });
+        } catch (e) { /* skip failed conference */ }
+
+        done++;
+        const pText = document.getElementById('searchProgressText');
+        const pFill  = document.getElementById('searchProgressFill');
+        if (pText) pText.textContent = `${done} / ${total}`;
+        if (pFill)  pFill.style.width = `${Math.round((done / total) * 100)}%`;
+      });
+
+      await Promise.all(fetchPromises);
+
+      // Hide progress bar when done
+      const prog = document.getElementById('searchProgress');
+      if (prog) prog.style.display = 'none';
+
+      const countEl = document.getElementById('searchResultsCount');
+      if (countEl) countEl.textContent = `${totalMatches} match${totalMatches !== 1 ? 'es' : ''} found`;
+
+      if (totalMatches === 0 && tbody) {
+        tbody.innerHTML = `<tr><td colspan="11"><div class="search-no-results-msg">No teams found matching "${query}"</div></td></tr>`;
+      }
+
+      document.getElementById('globalSearchStatus').textContent =
+        `${totalMatches} match${totalMatches !== 1 ? 'es' : ''} across ${total} conferences`;
+    }
+
     // ========== SIDEBAR ==========
     function toggleSidebar() {
       const sb = document.getElementById('sidebar');
@@ -1511,6 +1854,40 @@
       const natEvents = getNationalEventsForSeason();
       if (!natEvents || !natEvents[currentPlayoffStage]) return null;
       return `${currentSeason}-${currentPlayoffStage}`;
+    }
+
+    function filterTeams(q) {
+      const query = q.trim().toLowerCase();
+      let visible = 0, total = 0;
+      document.querySelectorAll('#standingsContainer tbody tr').forEach(row => {
+        const nameEl = row.querySelector('.team-name');
+        if (!nameEl) return;
+        total++;
+        const match = !query || nameEl.textContent.toLowerCase().includes(query);
+        row.style.display = match ? '' : 'none';
+        if (match) visible++;
+      });
+      const countEl = document.getElementById('teamFilterCount');
+      if (countEl) {
+        countEl.textContent = query
+          ? `${visible} of ${total} team${total !== 1 ? 's' : ''} shown`
+          : '';
+      }
+    }
+
+    function clearTeamFilter() {
+      const el = document.getElementById('teamSearch');
+      if (el) el.value = '';
+      filterTeams('');
+      // Silently reset global search UI (loadStandings is already handling the navigation)
+      globalSearchActive = false;
+      clearTimeout(globalSearchDebounce);
+      const gInp = document.getElementById('globalTeamSearch');
+      if (gInp) gInp.value = '';
+      const gClear = document.getElementById('globalSearchClear');
+      if (gClear) gClear.style.display = 'none';
+      const gStatus = document.getElementById('globalSearchStatus');
+      if (gStatus) gStatus.textContent = '';
     }
 
     function updateStageTabsUI() {
@@ -1642,6 +2019,7 @@
         return;
       }
 
+      clearTeamFilter();
       container.innerHTML = `<div class="loading-container"><div class="spinner"></div><div class="loading-text">Loading ${currentPlayoffStage} standings…</div></div>`;
 
       try {
@@ -2005,6 +2383,8 @@
       const ageLabel = AGE_LABELS[currentAgeGroup] || currentAgeGroup;
       document.getElementById('contentTitle').textContent = `${currentConference} — ${ageLabel} (${currentAgeGroup})`;
       document.getElementById('contentSubtitle').textContent = `${currentSeason} Season`;
+
+      clearTeamFilter();
 
       const container = document.getElementById('standingsContainer');
       container.innerHTML = `<div class="loading-container"><div class="spinner"></div><div class="loading-text">Loading standings…</div></div>`;
