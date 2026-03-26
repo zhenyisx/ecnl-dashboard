@@ -1,0 +1,2151 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ECNL Girls Conference Standings</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    /* ===== THEME TOKENS ===== */
+    :root {
+      --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      --header-height: 60px;
+      --sidebar-width: 260px;
+      --radius-sm: 6px;
+      --radius-md: 10px;
+      --radius-lg: 14px;
+      --transition-fast: 0.18s ease;
+      --transition-med: 0.3s ease;
+    }
+
+    /* Light theme */
+    [data-theme="light"] {
+      --bg-body: #f0f4f8;
+      --bg-surface: #ffffff;
+      --bg-surface-alt: #f8fafc;
+      --bg-header: linear-gradient(135deg, #1a2332 0%, #243044 50%, #1e2d40 100%);
+      --text-primary: #1a2332;
+      --text-secondary: #6b7280;
+      --text-header: #ffffff;
+      --border: #d1d5db;
+      --border-light: #e5e7eb;
+      --teal: #2a9d8f;
+      --teal-glow: rgba(42, 157, 143, 0.12);
+      --teal-surface: #e6f7f5;
+      --gold: #e9c46a;
+      --gold-glow: rgba(233, 196, 106, 0.2);
+      --row-hover: #f1f5f9;
+      --row-stripe: #fafbfc;
+      --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+      --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
+      --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.15);
+      --star-color: #e9c46a;
+      --rank-1: linear-gradient(135deg, #fef3c7, #fde68a);
+      --rank-2: linear-gradient(135deg, #f1f5f9, #e2e8f0);
+      --rank-3: linear-gradient(135deg, #fef3e2, #fde0be);
+    }
+
+    /* Dark theme */
+    [data-theme="dark"] {
+      --bg-body: #0f1419;
+      --bg-surface: #1a2332;
+      --bg-surface-alt: #1e2d40;
+      --bg-header: linear-gradient(135deg, #0d1117 0%, #161b22 50%, #1a2332 100%);
+      --text-primary: #e6edf3;
+      --text-secondary: #8b949e;
+      --text-header: #e6edf3;
+      --border: #30363d;
+      --border-light: #21262d;
+      --teal: #3fbfb0;
+      --teal-glow: rgba(63, 191, 176, 0.15);
+      --teal-surface: rgba(63, 191, 176, 0.08);
+      --gold: #e9c46a;
+      --gold-glow: rgba(233, 196, 106, 0.15);
+      --row-hover: #21262d;
+      --row-stripe: #161b22;
+      --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+      --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+      --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.5);
+      --star-color: #e9c46a;
+      --rank-1: linear-gradient(135deg, #3a2f0b, #4a3d12);
+      --rank-2: linear-gradient(135deg, #1e2d40, #243044);
+      --rank-3: linear-gradient(135deg, #3a2a0b, #4a3512);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: var(--font);
+      background: var(--bg-body);
+      color: var(--text-primary);
+      height: 100vh;
+      overflow: hidden;
+      transition: background var(--transition-med), color var(--transition-med);
+    }
+
+    /* ===== HEADER ===== */
+    .header {
+      background: var(--bg-header);
+      color: var(--text-header);
+      padding: 0 24px;
+      height: var(--header-height);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .header-left {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .hamburger {
+      display: none;
+      background: none;
+      border: none;
+      color: var(--text-header);
+      font-size: 22px;
+      cursor: pointer;
+      padding: 6px;
+      border-radius: var(--radius-sm);
+      transition: background var(--transition-fast);
+      line-height: 1;
+    }
+
+    .hamburger:hover {
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    .header-logo {
+      font-size: 22px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      color: var(--gold);
+      text-shadow: 0 1px 4px rgba(233, 196, 106, 0.3);
+    }
+
+    .header-divider {
+      width: 1px;
+      height: 28px;
+      background: rgba(255, 255, 255, 0.15);
+    }
+
+    .header-title {
+      font-size: 14px;
+      font-weight: 500;
+      opacity: 0.85;
+    }
+
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .season-selector {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .refresh-btn {
+      background: rgba(42, 157, 143, 0.15);
+      border: 1px solid rgba(42, 157, 143, 0.4);
+      color: var(--teal);
+      padding: 6px 10px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      outline: none;
+      transition: all var(--transition-fast);
+      font-family: var(--font);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-right: 8px;
+    }
+
+    .refresh-btn:hover {
+      background: rgba(42, 157, 143, 0.25);
+    }
+
+    .season-selector label {
+      font-size: 13px;
+      opacity: 0.7;
+    }
+
+    .season-select {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      color: var(--text-header);
+      padding: 7px 14px;
+      border-radius: 8px;
+      font-size: 13px;
+      cursor: pointer;
+      outline: none;
+      transition: all var(--transition-fast);
+      font-family: var(--font);
+    }
+
+    .season-select:hover {
+      background: rgba(255, 255, 255, 0.15);
+    }
+
+    .season-select option {
+      background: #1a2332;
+      color: #fff;
+    }
+
+    .theme-toggle {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      color: var(--text-header);
+      padding: 6px 10px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      line-height: 1;
+      transition: all var(--transition-fast);
+    }
+
+    .theme-toggle:hover {
+      background: rgba(255, 255, 255, 0.15);
+    }
+
+    /* ===== LAYOUT ===== */
+    .layout {
+      display: flex;
+      height: calc(100vh - var(--header-height));
+      margin-top: var(--header-height);
+    }
+
+    .sidebar-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.4);
+      z-index: 49;
+      opacity: 0;
+      transition: opacity var(--transition-med);
+    }
+
+    .sidebar-overlay.visible {
+      display: block;
+      opacity: 1;
+    }
+
+    /* ===== SIDEBAR ===== */
+    .sidebar {
+      width: var(--sidebar-width);
+      min-width: var(--sidebar-width);
+      background: var(--bg-surface);
+      border-right: 1px solid var(--border);
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      padding: 20px 0 0;
+      transition: transform var(--transition-med), background var(--transition-med);
+      z-index: 50;
+    }
+
+    .sidebar-section-title {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--text-secondary);
+      padding: 10px 20px 6px;
+    }
+
+    .age-group-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      padding: 6px 16px 14px;
+    }
+
+    .age-tab {
+      padding: 8px 12px;
+      font-size: 12px;
+      font-weight: 600;
+      border-radius: 8px;
+      cursor: pointer;
+      border: 1px solid var(--border);
+      background: var(--bg-surface);
+      color: var(--text-primary);
+      transition: all var(--transition-fast);
+      text-align: center;
+      line-height: 1.3;
+      min-width: 64px;
+      font-family: var(--font);
+    }
+
+    .age-tab:hover {
+      border-color: var(--teal);
+      color: var(--teal);
+      box-shadow: var(--shadow-sm);
+      transform: translateY(-1px);
+    }
+
+    .age-tab.active {
+      background: var(--teal);
+      color: #fff;
+      border-color: var(--teal);
+      box-shadow: 0 2px 8px rgba(42, 157, 143, 0.35);
+      transform: translateY(-1px);
+    }
+
+    /* Search */
+    .sidebar-search {
+      padding: 4px 16px 10px;
+    }
+
+    .search-input {
+      width: 100%;
+      padding: 8px 12px 8px 32px;
+      font-size: 13px;
+      font-family: var(--font);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--bg-body) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%236b7280' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3Cline x1='21' y1='21' x2='16.65' y2='16.65'/%3E%3C/svg%3E") 10px center no-repeat;
+      outline: none;
+      transition: all var(--transition-fast);
+      color: var(--text-primary);
+    }
+
+    .search-input::placeholder {
+      color: var(--text-secondary);
+      opacity: 0.7;
+    }
+
+    .search-input:focus {
+      border-color: var(--teal);
+      box-shadow: 0 0 0 3px var(--teal-glow);
+      background-color: var(--bg-surface);
+    }
+
+    .conference-list {
+      list-style: none;
+      flex: 1;
+    }
+
+    .conference-item {
+      padding: 11px 20px;
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      border-left: 3px solid transparent;
+      transition: all var(--transition-fast);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--text-primary);
+    }
+
+    .conference-item:hover {
+      background: var(--teal-glow);
+      border-left-color: var(--teal);
+      color: var(--teal);
+    }
+
+    .conference-item.active {
+      background: var(--teal-surface);
+      border-left-color: var(--teal);
+      color: var(--teal);
+      font-weight: 700;
+    }
+
+    .conference-item.search-hidden {
+      display: none;
+    }
+
+    .conference-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--border);
+      flex-shrink: 0;
+      transition: all var(--transition-fast);
+    }
+
+    .conference-item:hover .conference-dot,
+    .conference-item.active .conference-dot {
+      background: var(--teal);
+      transform: scale(1.3);
+    }
+
+    .search-no-results {
+      padding: 16px 20px;
+      font-size: 12px;
+      color: var(--text-secondary);
+      font-style: italic;
+      display: none;
+    }
+
+    /* Favorites tab */
+    .sidebar-tabs {
+      display: flex;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 4px;
+    }
+
+    .sidebar-tab {
+      flex: 1;
+      padding: 10px 8px;
+      font-size: 12px;
+      font-weight: 600;
+      text-align: center;
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+      color: var(--text-secondary);
+      transition: all var(--transition-fast);
+      font-family: var(--font);
+      background: none;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+    }
+
+    .sidebar-tab:hover {
+      color: var(--teal);
+    }
+
+    .sidebar-tab.active {
+      color: var(--teal);
+      border-bottom-color: var(--teal);
+    }
+
+    .shortcut-hint {
+      font-size: 11px;
+      color: var(--text-secondary);
+      padding: 14px 20px;
+      border-top: 1px solid var(--border);
+      margin-top: auto;
+      background: var(--bg-surface-alt);
+    }
+
+    .shortcut-hint kbd {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 2px 6px;
+      font-size: 10px;
+      font-family: var(--font);
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+    }
+
+    /* ===== MAIN CONTENT ===== */
+    .main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      min-width: 0;
+    }
+
+    .content-header {
+      padding: 14px 28px;
+      background: var(--bg-surface);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-shrink: 0;
+      gap: 16px;
+      transition: background var(--transition-med);
+    }
+
+    .breadcrumb {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      color: var(--text-secondary);
+      margin-bottom: 4px;
+      flex-wrap: wrap;
+    }
+
+    .breadcrumb-sep {
+      opacity: 0.5;
+      font-size: 10px;
+    }
+
+    .breadcrumb-current {
+      color: var(--text-primary);
+      font-weight: 600;
+    }
+
+    .content-title {
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: -0.2px;
+    }
+
+    .content-subtitle {
+      font-size: 13px;
+      color: var(--text-secondary);
+      margin-top: 3px;
+    }
+
+    .ext-links {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .open-external {
+      padding: 8px 16px;
+      font-size: 12px;
+      font-weight: 600;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: var(--bg-surface);
+      color: var(--text-primary);
+      cursor: pointer;
+      text-decoration: none;
+      transition: all var(--transition-fast);
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      box-shadow: var(--shadow-sm);
+      font-family: var(--font);
+    }
+
+    .open-external:hover {
+      background: var(--teal-glow);
+      border-color: var(--teal);
+      color: var(--teal);
+      box-shadow: var(--shadow-md);
+      transform: translateY(-1px);
+    }
+
+    .open-external svg {
+      width: 14px;
+      height: 14px;
+      flex-shrink: 0;
+    }
+
+    /* ===== STANDINGS TABLE ===== */
+    .standings-scroll {
+      flex: 1;
+      overflow-y: auto;
+      padding: 20px 28px 40px;
+      transition: background var(--transition-med);
+    }
+
+    .standings-container {
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+
+    .flight-panel {
+      flex: 1;
+      min-width: 400px;
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+      transition: background var(--transition-med), border-color var(--transition-med);
+    }
+
+    .flight-header {
+      padding: 14px 20px;
+      background: var(--bg-surface-alt);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .flight-title {
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .flight-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--teal);
+    }
+
+    .flight-team-count {
+      font-size: 11px;
+      color: var(--text-secondary);
+      font-weight: 500;
+    }
+
+    .standings-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+
+    .standings-table th {
+      padding: 10px 12px;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-secondary);
+      border-bottom: 2px solid var(--border);
+      text-align: left;
+      white-space: nowrap;
+      cursor: pointer;
+      user-select: none;
+      transition: color var(--transition-fast);
+      position: sticky;
+      top: 0;
+      background: var(--bg-surface);
+    }
+
+    .standings-table th:hover {
+      color: var(--teal);
+    }
+
+    .standings-table th.sort-active {
+      color: var(--teal);
+    }
+
+    .standings-table th.sort-active::after {
+      content: ' ▾';
+      font-size: 9px;
+    }
+
+    .standings-table th.sort-active.sort-asc::after {
+      content: ' ▴';
+    }
+
+    .standings-table td {
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--border-light);
+      vertical-align: middle;
+      transition: background var(--transition-fast);
+    }
+
+    .standings-table tr:hover td {
+      background: var(--row-hover);
+    }
+
+    .standings-table tr:nth-child(even) td {
+      background: var(--row-stripe);
+    }
+
+    .standings-table tr:nth-child(even):hover td {
+      background: var(--row-hover);
+    }
+
+    /* Top 3 rank badges */
+    .rank-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 28px;
+      height: 28px;
+      border-radius: 8px;
+      font-weight: 800;
+      font-size: 13px;
+    }
+
+    .rank-1 {
+      background: var(--rank-1);
+      color: #b45309;
+    }
+
+    .rank-2 {
+      background: var(--rank-2);
+      color: var(--text-secondary);
+    }
+
+    .rank-3 {
+      background: var(--rank-3);
+      color: #b45309;
+    }
+
+    [data-theme="dark"] .rank-1 {
+      color: #fbbf24;
+    }
+
+    [data-theme="dark"] .rank-3 {
+      color: #fbbf24;
+    }
+
+    .team-cell {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 500;
+    }
+
+    .team-logo {
+      width: 28px;
+      height: 28px;
+      border-radius: 6px;
+      object-fit: contain;
+      background: var(--bg-body);
+      border: 1px solid var(--border-light);
+      flex-shrink: 0;
+    }
+
+    .team-name {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      max-width: 220px;
+    }
+
+    .star-btn {
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      padding: 2px 4px;
+      opacity: 0.3;
+      transition: all var(--transition-fast);
+      line-height: 1;
+    }
+
+    .star-btn:hover {
+      opacity: 0.8;
+      transform: scale(1.2);
+    }
+
+    .star-btn.starred {
+      opacity: 1;
+      color: var(--star-color);
+      text-shadow: 0 0 6px var(--gold-glow);
+    }
+
+    .stat-highlight {
+      font-weight: 700;
+      color: var(--teal);
+    }
+
+    .gd-positive {
+      color: var(--teal);
+      font-weight: 600;
+    }
+
+    .gd-negative {
+      color: #ef4444;
+      font-weight: 600;
+    }
+
+    /* Loading state */
+    .loading-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 80px 20px;
+      gap: 16px;
+    }
+
+    .spinner {
+      width: 40px;
+      height: 40px;
+      border: 3px solid var(--border);
+      border-top-color: var(--teal);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    .loading-text {
+      font-size: 13px;
+      color: var(--text-secondary);
+      font-weight: 500;
+    }
+
+    .error-message {
+      padding: 20px;
+      margin: 20px;
+      background: #fef2f2;
+      border: 1px solid #fecaca;
+      border-radius: var(--radius-md);
+      color: #991b1b;
+      font-size: 13px;
+    }
+
+    [data-theme="dark"] .error-message {
+      background: #2d1b1b;
+      border-color: #5c2020;
+      color: #fca5a5;
+    }
+
+    /* Favorites panel */
+    .favorites-empty {
+      padding: 40px 20px;
+      text-align: center;
+      color: var(--text-secondary);
+      font-size: 13px;
+    }
+
+    .favorites-empty .star-icon {
+      font-size: 32px;
+      margin-bottom: 12px;
+      display: block;
+    }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 900px) {
+      .standings-container {
+        flex-direction: column;
+      }
+
+      .flight-panel {
+        min-width: unset;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .hamburger {
+        display: block;
+      }
+
+      .header-title,
+      .header-divider {
+        display: none;
+      }
+
+      .sidebar {
+        position: fixed;
+        top: var(--header-height);
+        left: 0;
+        bottom: 0;
+        width: 280px;
+        min-width: 280px;
+        transform: translateX(-100%);
+        box-shadow: none;
+      }
+
+      .sidebar.open {
+        transform: translateX(0);
+        box-shadow: var(--shadow-lg);
+      }
+
+      .content-header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 12px 16px;
+      }
+
+      .standings-scroll {
+        padding: 16px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .header {
+        padding: 0 12px;
+      }
+
+      .header-logo {
+        font-size: 18px;
+      }
+
+      .standings-scroll {
+        padding: 12px;
+      }
+
+      .content-title {
+        font-size: 15px;
+      }
+    }
+
+    /* ===== PLAYOFFS & FINALS ===== */
+    .stage-tabs {
+      display: flex;
+      gap: 6px;
+      padding: 8px 12px 4px;
+    }
+
+    .stage-tab {
+      flex: 1;
+      padding: 7px 6px;
+      font-size: 11px;
+      font-weight: 600;
+      text-align: center;
+      cursor: pointer;
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius-sm);
+      color: var(--text-secondary);
+      background: var(--bg-surface-alt);
+      transition: all var(--transition-fast);
+      font-family: var(--font);
+    }
+
+    .stage-tab:hover {
+      border-color: var(--teal);
+      color: var(--teal);
+    }
+
+    .stage-tab.active {
+      background: var(--teal);
+      border-color: var(--teal);
+      color: #fff;
+    }
+
+    .playoff-age-group-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      padding: 4px 12px 8px;
+    }
+
+    .playoff-age-tab {
+      padding: 5px 10px;
+      font-size: 11px;
+      font-weight: 600;
+      border-radius: var(--radius-sm);
+      border: 1.5px solid var(--border);
+      background: var(--bg-surface-alt);
+      cursor: pointer;
+      color: var(--text-secondary);
+      transition: all var(--transition-fast);
+      font-family: var(--font);
+    }
+
+    .playoff-age-tab:hover {
+      border-color: var(--teal);
+      color: var(--teal);
+    }
+
+    .playoff-age-tab.active {
+      background: var(--teal);
+      border-color: var(--teal);
+      color: #fff;
+    }
+
+    /* Group stage grid */
+    .group-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 16px;
+      padding: 0;
+    }
+
+    .group-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .group-card-header {
+      padding: 9px 12px 8px;
+      background: var(--bg-surface-alt);
+      border-bottom: 1px solid var(--border-light);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .group-card-title {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    .group-card-links {
+      display: flex;
+      gap: 5px;
+    }
+
+    .group-card-link {
+      font-size: 10px;
+      font-weight: 600;
+      color: var(--teal);
+      text-decoration: none;
+      padding: 2px 7px;
+      border: 1px solid var(--teal);
+      border-radius: 4px;
+      transition: all var(--transition-fast);
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      white-space: nowrap;
+    }
+
+    .group-card-link:hover {
+      background: var(--teal);
+      color: #fff;
+    }
+
+    .group-card-link svg {
+      width: 10px;
+      height: 10px;
+    }
+
+    .group-standings-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 12px;
+    }
+
+    .group-standings-table th {
+      padding: 5px 6px;
+      text-align: center;
+      font-size: 10px;
+      font-weight: 600;
+      color: var(--text-secondary);
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+      border-bottom: 1px solid var(--border-light);
+      white-space: nowrap;
+    }
+
+    .group-standings-table th:nth-child(3) { text-align: left; }
+
+    .group-standings-table td {
+      padding: 5px 6px;
+      text-align: center;
+      border-bottom: 1px solid var(--border-light);
+    }
+
+    .group-standings-table tr:last-child td { border-bottom: none; }
+    .group-standings-table td:nth-child(3) { text-align: left; }
+
+    .group-standings-table tbody tr:hover {
+      background: var(--row-hover);
+    }
+
+    .bracket-banner {
+      margin: 16px 0 0;
+      padding: 14px 20px;
+      background: var(--teal-surface);
+      border: 1px solid var(--teal);
+      border-radius: var(--radius-md);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .bracket-banner-text {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--teal);
+    }
+
+    .bracket-banner-sub {
+      font-size: 11px;
+      color: var(--text-secondary);
+      margin-top: 2px;
+    }
+
+    .bracket-link {
+      padding: 8px 16px;
+      font-size: 12px;
+      font-weight: 700;
+      border-radius: var(--radius-sm);
+      background: var(--teal);
+      color: #fff;
+      text-decoration: none;
+      transition: all var(--transition-fast);
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    .bracket-link:hover {
+      opacity: 0.85;
+      transform: translateY(-1px);
+    }
+
+    .no-national-events {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 80px 20px;
+      gap: 12px;
+      text-align: center;
+    }
+
+    .no-national-events-icon { font-size: 40px; }
+
+    .no-national-events-text {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text-primary);
+    }
+
+    .no-national-events-sub {
+      font-size: 13px;
+      color: var(--text-secondary);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="header-left">
+      <button class="hamburger" onclick="toggleSidebar()" aria-label="Toggle menu">&#9776;</button>
+      <div class="header-logo">ECNL</div>
+      <div class="header-divider"></div>
+      <div class="header-title">Girls Conference Standings</div>
+    </div>
+    <div class="header-right">
+      <div class="season-selector">
+        <label>Season:</label>
+        <select class="season-select" id="seasonSelect" onchange="changeSeason(this.value)">
+          <option value="2025-26">2025-26</option>
+          <option value="2024-25">2024-25</option>
+          <option value="2023-24">2023-24</option>
+          <option value="2022-23">2022-23</option>
+          <option value="2021-22">2021-22</option>
+        </select>
+      </div>
+      <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" title="Toggle dark mode">🌙</button>
+    </div>
+  </div>
+
+  <div class="sidebar-overlay" id="sidebarOverlay" onclick="toggleSidebar()"></div>
+
+  <div class="layout">
+    <div class="sidebar" id="sidebar">
+      <div class="sidebar-tabs">
+        <button class="sidebar-tab active" id="tabConferences" onclick="switchTab('conferences')">Conferences</button>
+        <button class="sidebar-tab" id="tabFavorites" onclick="switchTab('favorites')">★ My Teams</button>
+        <button class="sidebar-tab" id="tabPlayoffs" onclick="switchTab('playoffs')">🏆 Playoffs</button>
+      </div>
+
+      <div id="conferencesPanel">
+        <div class="sidebar-section-title">Age Group</div>
+        <div class="age-group-tabs" id="ageGroupTabs"></div>
+
+        <div class="sidebar-section-title" style="margin-top:4px;">Conference</div>
+        <div class="sidebar-search">
+          <input type="text" class="search-input" id="confSearch" placeholder="Filter conferences…"
+            oninput="filterConferences(this.value)">
+        </div>
+        <ul class="conference-list" id="conferenceList"></ul>
+        <div class="search-no-results" id="searchNoResults">No conferences match</div>
+      </div>
+
+      <div id="favoritesPanel" style="display:none;flex:1;overflow-y:auto;">
+        <div class="favorites-empty" id="favoritesEmpty">
+          <span class="star-icon">☆</span>
+          Click the ★ next to any team to add them here
+        </div>
+        <ul class="conference-list" id="favoritesList"></ul>
+      </div>
+
+      <div id="playoffsPanel" style="display:none;flex:1;overflow-y:auto;flex-direction:column;">
+        <div class="sidebar-section-title">Stage</div>
+        <div class="stage-tabs">
+          <button class="stage-tab active" id="stagePlayoffs" onclick="selectStage('Playoffs')">Playoffs</button>
+          <button class="stage-tab" id="stageFinals" onclick="selectStage('Finals')">Finals</button>
+        </div>
+        <div class="sidebar-section-title" style="margin-top:4px;">Age Group</div>
+        <div id="playoffAgeGroupTabs" class="playoff-age-group-tabs"></div>
+      </div>
+
+      <div class="shortcut-hint">
+        <kbd>&larr;</kbd> <kbd>&rarr;</kbd> Age groups &nbsp;
+        <kbd>&uarr;</kbd> <kbd>&darr;</kbd> Conferences
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="content-header">
+        <div>
+          <div class="breadcrumb" id="breadcrumb"></div>
+          <div class="content-title" id="contentTitle">Select a conference</div>
+          <div class="content-subtitle" id="contentSubtitle">Choose an age group and conference from the sidebar</div>
+        </div>
+        <div class="ext-links" id="extLinks"></div>
+      </div>
+      <div class="standings-scroll" id="standingsScroll">
+        <div class="standings-container" id="standingsContainer"></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // ========== DATA ==========
+    const SEASONS = {
+      "2025-26": {
+        conferences: {
+          "Mid-Atlantic": { eventId: 3925 },
+          "Midwest": { eventId: 3926 },
+          "New England": { eventId: 3927 },
+          "North Atlantic": { eventId: 3928 },
+          "NorCal": { eventId: 3929 },
+          "Northwest": { eventId: 3930 },
+          "Ohio Valley": { eventId: 3931 },
+          "Southeast": { eventId: 3932 },
+          "Southwest": { eventId: 3933 },
+          "Texas": { eventId: 3934 }
+        }
+      },
+      "2024-25": {
+        conferences: {
+          "Mid-Atlantic": { eventId: 3157 },
+          "Midwest": { eventId: 3158 },
+          "New England": { eventId: 3159 },
+          "North Atlantic": { eventId: 3160 },
+          "NorCal": { eventId: 3161 },
+          "Northwest": { eventId: 3162 },
+          "Ohio Valley": { eventId: 3163 },
+          "Southeast": { eventId: 3164 },
+          "Southwest": { eventId: 3165 },
+          "Texas": { eventId: 3166 }
+        }
+      },
+      "2023-24": {
+        conferences: {
+          "Mid-Atlantic": { eventId: 2839 },
+          "Midwest": { eventId: 2849 },
+          "New England": { eventId: 2853 },
+          "North Atlantic": { eventId: 2850 },
+          "NorCal": { eventId: 2854 },
+          "Northwest": { eventId: 2855 },
+          "Ohio Valley": { eventId: 2856 },
+          "Southeast": { eventId: 2838 },
+          "Southwest": { eventId: 2837 },
+          "Texas": { eventId: 2857 }
+        }
+      },
+      "2022-23": {
+        conferences: {
+          "Mid-Atlantic": { eventId: 2523 },
+          "Midwest": { eventId: 2529 },
+          "New England": { eventId: 2531 },
+          "North Atlantic": { eventId: 2530 },
+          "NorCal": { eventId: 2528 },
+          "Northwest": { eventId: 2522 },
+          "Ohio Valley": { eventId: 2524 },
+          "Southeast": { eventId: 2527 },
+          "Southwest": { eventId: 2525 },
+          "Texas": { eventId: 2526 }
+        }
+      },
+      "2021-22": {
+        conferences: {
+          "Mid-Atlantic": { eventId: 2366 },
+          "Midwest": { eventId: 2369 },
+          "New England": { eventId: 2374 },
+          "North Atlantic": { eventId: 2373 },
+          "Northwest": { eventId: 2367 },
+          "Ohio Valley": { eventId: 2371 },
+          "Southeast": { eventId: 2372 },
+          "Southwest": { eventId: 2368 },
+          "Texas": { eventId: 2370 }
+        }
+      }
+    };
+
+    // National playoff/finals events per season
+    const NATIONAL_EVENTS = {
+      "2024-25": {
+        "Playoffs": { eventId: 3865 },
+        "Finals":   { eventId: 3975 }
+      }
+    };
+
+    // Age label map — maps division names (birth years) to friendly labels
+    function getAgeLabel(divName) {
+      const m = divName.match(/G(\d{4})/);
+      if (!m) return divName;
+      const birthYear = parseInt(m[1]);
+      const currentYear = new Date().getFullYear();
+      const age = currentYear - birthYear;
+      // Handle combined groups like "G2008/2007"
+      if (divName.includes('/')) {
+        const parts = divName.replace('G', '').split('/');
+        const ages = parts.map(p => 'U' + (currentYear - parseInt(p)));
+        return ages.join('/');
+      }
+      return `U${age}`;
+    }
+
+    // Dynamic age groups — populated from API
+    let AGE_GROUPS = [];  // populated dynamically
+    let AGE_LABELS = {};  // populated dynamically
+
+    const EXTERNAL_ICON = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3H3.5A1.5 1.5 0 0 0 2 4.5v8A1.5 1.5 0 0 0 3.5 14h8A1.5 1.5 0 0 0 13 12.5V10"/><path d="M9 2h5v5"/><path d="M14 2 7 9"/></svg>`;
+
+    const STORAGE_KEY = 'ecnl-dash-v2-state';
+    const FAVORITES_KEY = 'ecnl-dash-v2-favorites';
+
+    // ========== STATE ==========
+    let currentTab = 'conferences';   // 'conferences' | 'favorites' | 'playoffs'
+    let currentSeason = "2025-26";
+    let currentAgeGroup = null;  // set dynamically after API fetch
+    let currentConference = "Mid-Atlantic";
+    let eventHierarchy = {};     // cached: { eventId -> { divisions, flights } }
+    let seasonAgeGroups = {};    // cached: { season -> [divisionName, ...] }
+    let currentStandings = [];   // current flight data for sorting
+    let currentSortCol = 'rank';
+    let currentSortAsc = true;
+    let favorites = new Set();   // Set of "teamName" strings
+    // Playoffs state
+    let currentPlayoffStage = 'Playoffs';
+    let currentPlayoffAgeGroup = null;
+    let playoffAgeGroupsCache = {};  // { "2024-25-Playoffs": [...], ... }
+
+    // ========== API CACHE / FETCH ==========
+    const CACHE_PREFIX = 'ecnl-cache-';
+
+    async function fetchJSONWithCache(path) {
+      const cacheKey = CACHE_PREFIX + path;
+      try {
+        const cached = localStorage.getItem(cacheKey);
+        if (cached) return JSON.parse(cached);
+      } catch (e) { }
+
+      const resp = await fetch('/api/' + path);
+      if (!resp.ok) throw new Error(`API error ${resp.status}`);
+      const data = await resp.json();
+
+      try { localStorage.setItem(cacheKey, JSON.stringify(data)); } catch (e) { }
+      return data;
+    }
+
+    async function getEventHierarchy(eventId) {
+      if (eventHierarchy[eventId]) return eventHierarchy[eventId];
+      const data = await fetchJSONWithCache(`Event/get-event-schedule-or-standings/${eventId}`);
+      eventHierarchy[eventId] = data.data || data;
+      return eventHierarchy[eventId];
+    }
+
+    async function getStandings(divId, flightId, eventId) {
+      const data = await fetchJSONWithCache(`Event/get-standings-by-div-and-flight/${divId}/${flightId}/${eventId}`);
+      return (data.data && data.data[0]) ? data.data[0] : data.data || data;
+    }
+
+    async function forceRefreshCurrentView() {
+      if (!currentAgeGroup || !currentConference) return;
+
+      const conf = getSeasonData().conferences[currentConference];
+      if (!conf) return;
+
+      const btn = document.getElementById('refreshBtn');
+      if (btn) btn.innerHTML = `<span class="spinner" style="width:14px;height:14px;border-width:2px;display:inline-block;animation:spin 0.8s linear infinite;margin-right:6px"></span> Refreshing...`;
+
+      try {
+        const hierarchy = await getEventHierarchy(conf.eventId);
+        const divList = hierarchy.girlsDivAndFlightList || [];
+        const division = divList.find(d => d.divisionName === currentAgeGroup);
+        if (!division) return;
+
+        const flights = division.flightList || [];
+        const flightsIdsToClear = flights.map(f => f.flightID.toString());
+        const divisionIdString = division.divisionID.toString();
+        const eventIdString = conf.eventId.toString();
+
+        const keysToRemove = [];
+        for (let i = 0; i < localStorage.length; i++) {
+          const key = localStorage.key(i);
+          if (key && key.startsWith(CACHE_PREFIX)) {
+            // Only clear endpoints that match this age group and event
+            if (key.includes(eventIdString) && key.includes(divisionIdString)) {
+              if (flightsIdsToClear.some(fid => key.includes(fid))) {
+                 keysToRemove.push(key);
+              }
+            }
+          }
+        }
+        keysToRemove.forEach(k => localStorage.removeItem(k));
+
+        // Set localized last refreshed time
+        const now = new Date().toLocaleString(undefined, {
+          month: 'short', day: 'numeric', year: 'numeric',
+          hour: 'numeric', minute: '2-digit'
+        });
+        localStorage.setItem(`lastRefreshed-${eventIdString}-${divisionIdString}`, now);
+      } catch (e) { }
+
+      // Re-fetch this exact view
+      await loadStandings();
+    }
+
+    // ========== HELPERS ==========
+    function getSeasonData() { return SEASONS[currentSeason]; }
+
+    function getStandingsUrl(eventId, flightId) {
+      return `https://public.totalglobalsports.com/public/event/${eventId}/standings/${flightId}`;
+    }
+
+    function getSchedulesUrl(eventId, flightId) {
+      return `https://public.totalglobalsports.com/public/event/${eventId}/schedules/${flightId}`;
+    }
+
+    // ========== STORAGE ==========
+    function saveState() {
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify({
+          season: currentSeason, ageGroup: currentAgeGroup, conference: currentConference
+        }));
+      } catch (e) { }
+    }
+
+    function loadSavedState() {
+      try {
+        const s = JSON.parse(localStorage.getItem(STORAGE_KEY));
+        if (s) {
+          if (SEASONS[s.season]) currentSeason = s.season;
+          if (s.ageGroup) currentAgeGroup = s.ageGroup; // validated after API fetch
+          if (SEASONS[currentSeason].conferences[s.conference]) currentConference = s.conference;
+        }
+      } catch (e) { }
+    }
+
+    function saveFavorites() {
+      try { localStorage.setItem(FAVORITES_KEY, JSON.stringify([...favorites])); } catch (e) { }
+    }
+
+    function loadFavorites() {
+      try {
+        const f = JSON.parse(localStorage.getItem(FAVORITES_KEY));
+        if (f) favorites = new Set(f);
+      } catch (e) { }
+    }
+
+    // ========== URL HASH ==========
+    function pushHash() {
+      const h = `#season=${encodeURIComponent(currentSeason)}&age=${encodeURIComponent(currentAgeGroup)}&conf=${encodeURIComponent(currentConference)}`;
+      if (window.location.hash !== h) history.replaceState(null, '', h);
+    }
+
+    function loadFromHash() {
+      const hash = location.hash.slice(1);
+      if (!hash) return false;
+      const p = new URLSearchParams(hash);
+      let changed = false;
+      if (p.get('season') && SEASONS[p.get('season')]) { currentSeason = p.get('season'); changed = true; }
+      if (p.get('age')) { currentAgeGroup = p.get('age'); changed = true; } // validated after API fetch
+      if (p.get('conf') && SEASONS[currentSeason].conferences[p.get('conf')]) { currentConference = p.get('conf'); changed = true; }
+      return changed;
+    }
+
+    window.addEventListener('hashchange', () => {
+      if (loadFromHash()) { document.getElementById('seasonSelect').value = currentSeason; rebuildAll(); }
+    });
+
+    // ========== THEME ==========
+    function toggleTheme() {
+      const html = document.documentElement;
+      const isDark = html.getAttribute('data-theme') === 'dark';
+      html.setAttribute('data-theme', isDark ? 'light' : 'dark');
+      document.getElementById('themeToggle').textContent = isDark ? '🌙' : '☀️';
+      try { localStorage.setItem('ecnl-theme', isDark ? 'light' : 'dark'); } catch (e) { }
+    }
+
+    function loadTheme() {
+      try {
+        const t = localStorage.getItem('ecnl-theme');
+        if (t === 'dark') {
+          document.documentElement.setAttribute('data-theme', 'dark');
+          document.getElementById('themeToggle').textContent = '☀️';
+        }
+      } catch (e) { }
+    }
+
+    // ========== SIDEBAR ==========
+    function toggleSidebar() {
+      const sb = document.getElementById('sidebar');
+      const ov = document.getElementById('sidebarOverlay');
+      const open = sb.classList.toggle('open');
+      ov.classList.toggle('visible', open);
+    }
+
+    function closeSidebarIfMobile() {
+      if (window.innerWidth <= 768) {
+        document.getElementById('sidebar').classList.remove('open');
+        document.getElementById('sidebarOverlay').classList.remove('visible');
+      }
+    }
+
+    function switchTab(tab) {
+      currentTab = tab;
+      const isConf = tab === 'conferences';
+      const isFav  = tab === 'favorites';
+      const isPO   = tab === 'playoffs';
+      document.getElementById('conferencesPanel').style.display = isConf ? '' : 'none';
+      document.getElementById('favoritesPanel').style.display   = isFav  ? 'flex' : 'none';
+      document.getElementById('playoffsPanel').style.display    = isPO   ? 'flex' : 'none';
+      document.getElementById('tabConferences').classList.toggle('active', isConf);
+      document.getElementById('tabFavorites').classList.toggle('active', isFav);
+      document.getElementById('tabPlayoffs').classList.toggle('active', isPO);
+      if (isFav) buildFavoritesList();
+      if (isPO)  loadPlayoffsPanel();
+    }
+
+    // ========== PLAYOFFS & FINALS ==========
+    function getNationalEventsForSeason() {
+      return NATIONAL_EVENTS[currentSeason] || null;
+    }
+
+    function getPlayoffCacheKey() {
+      const natEvents = getNationalEventsForSeason();
+      if (!natEvents || !natEvents[currentPlayoffStage]) return null;
+      return `${currentSeason}-${currentPlayoffStage}`;
+    }
+
+    function updateStageTabsUI() {
+      const natEvents = getNationalEventsForSeason();
+      const stBtn     = document.getElementById('stagePlayoffs');
+      const stFinBtn  = document.getElementById('stageFinals');
+      if (!stBtn || !stFinBtn) return;
+      stFinBtn.style.display = (natEvents && natEvents['Finals']) ? '' : 'none';
+      stBtn.classList.toggle('active',    currentPlayoffStage === 'Playoffs');
+      stFinBtn.classList.toggle('active', currentPlayoffStage === 'Finals');
+    }
+
+    async function loadPlayoffsPanel() {
+      const natEvents = getNationalEventsForSeason();
+
+      if (!natEvents) {
+        document.getElementById('breadcrumb').innerHTML =
+          `<span>${currentSeason}</span><span class="breadcrumb-sep">›</span><span class="breadcrumb-current">Playoffs & Finals</span>`;
+        document.getElementById('contentTitle').textContent = 'Playoffs & Finals';
+        document.getElementById('contentSubtitle').textContent = 'No events available for this season';
+        document.getElementById('extLinks').innerHTML = '';
+        document.getElementById('standingsContainer').innerHTML = `
+          <div class="no-national-events">
+            <div class="no-national-events-icon">🏆</div>
+            <div class="no-national-events-text">No National Events</div>
+            <div class="no-national-events-sub">No Playoffs or Finals data is available for the ${currentSeason} season.</div>
+          </div>`;
+        return;
+      }
+
+      // Make sure the current stage has an event; fall back to Playoffs
+      if (!natEvents[currentPlayoffStage]) currentPlayoffStage = 'Playoffs';
+
+      updateStageTabsUI();
+      await loadPlayoffAgeGroups();
+
+      const key = getPlayoffCacheKey();
+      const groups = key ? (playoffAgeGroupsCache[key] || []) : [];
+      if (!currentPlayoffAgeGroup || !groups.includes(currentPlayoffAgeGroup)) {
+        currentPlayoffAgeGroup = groups[0] || null;
+      }
+      buildPlayoffAgeGroupTabs();
+      await loadPlayoffStandings();
+    }
+
+    async function loadPlayoffAgeGroups() {
+      const key = getPlayoffCacheKey();
+      if (!key) return;
+      if (playoffAgeGroupsCache[key]) return;
+
+      const natEvents = getNationalEventsForSeason();
+      const evt = natEvents[currentPlayoffStage];
+      if (!evt) return;
+
+      try {
+        const hierarchy = await getEventHierarchy(evt.eventId);
+        const divList = hierarchy.girlsDivAndFlightList || [];
+        const groups = divList.map(d => d.divisionName)
+          .sort((a, b) => {
+            const ya = parseInt((a.match(/G(\d{4})/) || [0, 9999])[1]);
+            const yb = parseInt((b.match(/G(\d{4})/) || [0, 9999])[1]);
+            return ya - yb;
+          });
+        playoffAgeGroupsCache[key] = groups;
+      } catch (e) {
+        playoffAgeGroupsCache[key] = [];
+      }
+    }
+
+    function buildPlayoffAgeGroupTabs() {
+      const key = getPlayoffCacheKey();
+      const groups = key ? (playoffAgeGroupsCache[key] || []) : [];
+      const c = document.getElementById('playoffAgeGroupTabs');
+      if (!c) return;
+      c.innerHTML = groups.map(ag =>
+        `<button class="playoff-age-tab ${ag === currentPlayoffAgeGroup ? 'active' : ''}" onclick="selectPlayoffAgeGroup('${ag}')">${getAgeLabel(ag)}</button>`
+      ).join('');
+    }
+
+    function selectStage(stage) {
+      currentPlayoffStage = stage;
+      currentPlayoffAgeGroup = null;
+      updateStageTabsUI();
+      loadPlayoffAgeGroups().then(() => {
+        const key = getPlayoffCacheKey();
+        const groups = key ? (playoffAgeGroupsCache[key] || []) : [];
+        currentPlayoffAgeGroup = groups[0] || null;
+        buildPlayoffAgeGroupTabs();
+        loadPlayoffStandings();
+      });
+    }
+
+    function selectPlayoffAgeGroup(ag) {
+      currentPlayoffAgeGroup = ag;
+      buildPlayoffAgeGroupTabs();
+      loadPlayoffStandings();
+    }
+
+    async function loadPlayoffStandings() {
+      const natEvents = getNationalEventsForSeason();
+      if (!natEvents) return;
+      const evt = natEvents[currentPlayoffStage];
+      if (!evt) return;
+
+      const ageLabel = currentPlayoffAgeGroup ? getAgeLabel(currentPlayoffAgeGroup) : '';
+      document.getElementById('breadcrumb').innerHTML =
+        `<span>${currentSeason}</span><span class="breadcrumb-sep">›</span>` +
+        `<span>Playoffs & Finals</span><span class="breadcrumb-sep">›</span>` +
+        `<span>${currentPlayoffStage}</span>` +
+        (currentPlayoffAgeGroup
+          ? `<span class="breadcrumb-sep">›</span><span class="breadcrumb-current">${ageLabel}</span>`
+          : '');
+      document.getElementById('contentTitle').textContent =
+        currentPlayoffAgeGroup
+          ? `${currentPlayoffStage} — ${ageLabel} (${currentPlayoffAgeGroup})`
+          : `${currentPlayoffStage}`;
+      document.getElementById('contentSubtitle').textContent = `${currentSeason} Season · National Event`;
+      document.getElementById('extLinks').innerHTML = '';
+
+      const container = document.getElementById('standingsContainer');
+
+      if (!currentPlayoffAgeGroup) {
+        container.innerHTML = `
+          <div class="no-national-events">
+            <div class="no-national-events-icon">📋</div>
+            <div class="no-national-events-text">Select an Age Group</div>
+            <div class="no-national-events-sub">Choose an age group from the sidebar to view standings</div>
+          </div>`;
+        return;
+      }
+
+      container.innerHTML = `<div class="loading-container"><div class="spinner"></div><div class="loading-text">Loading ${currentPlayoffStage} standings…</div></div>`;
+
+      try {
+        const hierarchy = await getEventHierarchy(evt.eventId);
+        const divList = hierarchy.girlsDivAndFlightList || [];
+        const division = divList.find(d => d.divisionName === currentPlayoffAgeGroup);
+
+        if (!division) {
+          container.innerHTML = `<div class="error-message">No data found for ${ageLabel} in ${currentPlayoffStage}</div>`;
+          return;
+        }
+
+        const flights = division.flightList || [];
+
+        // Classify flights: group stage vs bracket/knockout
+        const groupFlights   = flights.filter(f => /^Group [A-Za-z]/.test(f.flightName.trim()));
+        const bracketFlights = flights.filter(f => !/^Group [A-Za-z]/.test(f.flightName.trim()));
+        const isGroupStage   = groupFlights.length > 1;
+        const flightsToFetch = isGroupStage ? groupFlights : flights;
+
+        const standingsData = await Promise.all(
+          flightsToFetch.map(f =>
+            getStandings(division.divisionID, f.flightID, evt.eventId)
+              .then(data => ({ flight: f, data }))
+              .catch(() => ({ flight: f, data: null }))
+          )
+        );
+
+        // Populate extLinks with per-flight Schedules + Standings buttons
+        const extLinks = document.getElementById('extLinks');
+        if (isGroupStage) {
+          // Group stage: bracket link in header; each card has its own sched/stand links
+          const tgsUrlHeader = `https://public.totalglobalsports.com/public/event/${evt.eventId}/schedules-standings`;
+          extLinks.innerHTML = `<a class="open-external" href="${tgsUrlHeader}" target="_blank">${EXTERNAL_ICON} View Brackets on TGS</a>`;
+        } else {
+          // Single flights: per-flight Schedules + Standings buttons
+          extLinks.innerHTML = flightsToFetch.map(f => {
+            const schedUrl = getSchedulesUrl(evt.eventId, f.flightID);
+            const standUrl = getStandingsUrl(evt.eventId, f.flightID);
+            const prefix = flightsToFetch.length > 1 ? f.flightName + ' ' : '';
+            return `<a class="open-external" href="${schedUrl}" target="_blank">${EXTERNAL_ICON} ${prefix}Schedules</a>` +
+                   `<a class="open-external" href="${standUrl}" target="_blank">${EXTERNAL_ICON} ${prefix}Standings</a>`;
+          }).join('');
+        }
+
+        container.innerHTML = '';
+
+        if (isGroupStage) {
+          // Render as compact group cards grid
+          const grid = document.createElement('div');
+          grid.className = 'group-grid';
+
+          standingsData.forEach(({ flight, data }) => {
+            if (!data) return;
+            const teams = data.teamStandings || [];
+            const schedUrl = getSchedulesUrl(evt.eventId, flight.flightID);
+            const standUrl = getStandingsUrl(evt.eventId, flight.flightID);
+            const card = document.createElement('div');
+            card.className = 'group-card';
+            card.innerHTML = `
+              <div class="group-card-header">
+                <div class="group-card-title">${flight.flightName}</div>
+                <div class="group-card-links">
+                  <a class="group-card-link" href="${schedUrl}" target="_blank">${EXTERNAL_ICON} Sched</a>
+                  <a class="group-card-link" href="${standUrl}" target="_blank">${EXTERNAL_ICON} Stand</a>
+                </div>
+              </div>
+              <table class="group-standings-table">
+                <thead><tr>
+                  <th>#</th><th></th><th>Team</th>
+                  <th>GP</th><th>W</th><th>L</th><th>D</th><th>PTS</th><th>GD</th>
+                </tr></thead>
+                <tbody></tbody>
+              </table>`;
+            const tbody = card.querySelector('tbody');
+            teams.forEach((team, i) => {
+              const rank = i + 1;
+              const gd = team.goaldifferential || 0;
+              const gdStr = gd > 0 ? `+${gd}` : `${gd}`;
+              const gdClass = gd > 0 ? 'gd-positive' : gd < 0 ? 'gd-negative' : '';
+              const isFav = favorites.has(team.name);
+              const rankHtml = rank <= 3
+                ? `<span class="rank-badge rank-${rank}">${rank}</span>`
+                : `<span style="padding-left:4px;font-weight:600;color:var(--text-secondary)">${rank}</span>`;
+              tbody.innerHTML += `<tr>
+                <td>${rankHtml}</td>
+                <td><button class="star-btn ${isFav ? 'starred' : ''}" data-team="${team.name.replace(/"/g, '&quot;')}" onclick="toggleFavorite(this.dataset.team)" title="Favorite">${isFav ? '★' : '☆'}</button></td>
+                <td><span class="team-name" style="max-width:150px;display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${team.name}</span></td>
+                <td>${team.gp || 0}</td>
+                <td style="font-weight:600">${team.wins || 0}</td>
+                <td>${team.losses || 0}</td>
+                <td>${team.draws || 0}</td>
+                <td class="stat-highlight">${team.standingpoints || 0}</td>
+                <td class="${gdClass}">${gdStr}</td>
+              </tr>`;
+            });
+            grid.appendChild(card);
+          });
+          container.appendChild(grid);
+
+          // Bracket banner below the group grid
+          const tgsUrl = `https://public.totalglobalsports.com/public/event/${evt.eventId}/schedules-standings`;
+          const banner = document.createElement('div');
+          banner.className = 'bracket-banner';
+          banner.innerHTML = `
+            <div>
+              <div class="bracket-banner-text">🏆 Knockout Brackets</div>
+              <div class="bracket-banner-sub">Bracket results are rendered by TGS — not available via API</div>
+            </div>
+            <a class="bracket-link" href="${tgsUrl}" target="_blank">View Brackets on TGS ↗</a>`;
+          container.appendChild(banner);
+
+        } else {
+          // Finals or single-flight: reuse existing renderStandingsTable
+          standingsData.forEach(({ flight, data }) => {
+            if (!data) return;
+            const teams = data.teamStandings || [];
+            teams.forEach((t, i) => { t._origRank = i + 1; });
+            const panel = renderStandingsTable(data, flight.flightName, flight.flightID, evt.eventId);
+            container.appendChild(panel);
+          });
+        }
+
+      } catch (err) {
+        container.innerHTML = `<div class="error-message">
+          <strong>Error loading ${currentPlayoffStage} standings:</strong> ${err.message}<br>
+          <small>Make sure the proxy server is running (python proxy_server.py)</small>
+        </div>`;
+      }
+    }
+
+    function filterConferences(q) {
+      const query = q.trim().toLowerCase();
+      let visible = 0;
+      document.querySelectorAll('#conferenceList .conference-item').forEach(item => {
+        const match = !query || (item.dataset.conf || '').toLowerCase().includes(query);
+        item.classList.toggle('search-hidden', !match);
+        if (match) visible++;
+      });
+      document.getElementById('searchNoResults').style.display = visible === 0 ? 'block' : 'none';
+    }
+
+    // ========== DYNAMIC AGE GROUPS ==========
+    async function loadAgeGroupsForSeason() {
+      if (seasonAgeGroups[currentSeason]) {
+        AGE_GROUPS = seasonAgeGroups[currentSeason];
+        AGE_LABELS = {};
+        AGE_GROUPS.forEach(ag => { AGE_LABELS[ag] = getAgeLabel(ag); });
+        return;
+      }
+      // Fetch hierarchy from the first conference to discover age groups
+      const conf = Object.values(getSeasonData().conferences)[0];
+      const hierarchy = await getEventHierarchy(conf.eventId);
+      const divList = hierarchy.girlsDivAndFlightList || [];
+      // Sort by birth year descending (oldest first = U17/U18 before U12)
+      const groups = divList.map(d => d.divisionName)
+        .sort((a, b) => {
+          const ya = parseInt((a.match(/G(\d{4})/) || [0, 9999])[1]);
+          const yb = parseInt((b.match(/G(\d{4})/) || [0, 9999])[1]);
+          return ya - yb; // smaller birth year = older age group = first
+        });
+      AGE_GROUPS = groups;
+      AGE_LABELS = {};
+      groups.forEach(ag => { AGE_LABELS[ag] = getAgeLabel(ag); });
+      seasonAgeGroups[currentSeason] = groups;
+    }
+
+    // ========== BUILDERS ==========
+    function buildAgeGroupTabs() {
+      const c = document.getElementById('ageGroupTabs');
+      c.innerHTML = AGE_GROUPS.map(ag => {
+        const l = AGE_LABELS[ag] || ag;
+        return `<div class="age-tab ${ag === currentAgeGroup ? 'active' : ''}" onclick="selectAgeGroup('${ag}')"><span>${l}</span><br><span style="font-size:10px;font-weight:400;opacity:.7">${ag}</span></div>`;
+      }).join('');
+    }
+
+    function buildConferenceList() {
+      const c = document.getElementById('conferenceList');
+      const names = Object.keys(getSeasonData().conferences);
+      c.innerHTML = names.map(n =>
+        `<li class="conference-item ${n === currentConference ? 'active' : ''}" onclick="selectConference('${n}')" data-conf="${n}">
+      <span class="conference-dot"></span><span>${n}</span>
+    </li>`
+      ).join('');
+      const sv = document.getElementById('confSearch').value;
+      if (sv) filterConferences(sv);
+    }
+
+    function buildBreadcrumb() {
+      const al = AGE_LABELS[currentAgeGroup] || currentAgeGroup;
+      document.getElementById('breadcrumb').innerHTML =
+        `<span>${currentSeason}</span><span class="breadcrumb-sep">›</span>` +
+        `<span>${al}</span><span class="breadcrumb-sep">›</span>` +
+        `<span class="breadcrumb-current">${currentConference}</span>`;
+    }
+
+    function buildFavoritesList() {
+      const c = document.getElementById('favoritesList');
+      const empty = document.getElementById('favoritesEmpty');
+      if (favorites.size === 0) {
+        empty.style.display = '';
+        c.innerHTML = '';
+        return;
+      }
+      empty.style.display = 'none';
+      c.innerHTML = [...favorites].sort().map(name =>
+        `<li class="conference-item" onclick="void(0)" style="cursor:default;">
+      <button class="star-btn starred" onclick="toggleFavorite('${name.replace(/'/g, "\\'")}'); buildFavoritesList();" title="Remove">★</button>
+      <span>${name}</span>
+    </li>`
+      ).join('');
+    }
+
+    // ========== FAVORITES ==========
+    function toggleFavorite(teamName) {
+      if (favorites.has(teamName)) favorites.delete(teamName);
+      else favorites.add(teamName);
+      saveFavorites();
+      // Re-render current standings to update star states
+      const container = document.getElementById('standingsContainer');
+      container.querySelectorAll('.star-btn').forEach(btn => {
+        const n = btn.dataset.team;
+        btn.classList.toggle('starred', favorites.has(n));
+        btn.textContent = favorites.has(n) ? '★' : '☆';
+      });
+    }
+
+    // ========== STANDINGS RENDERING ==========
+    function renderStandingsTable(standings, flightName, flightId, eventId) {
+      const teams = standings.teamStandings || standings;
+      const panel = document.createElement('div');
+      panel.className = 'flight-panel';
+
+      panel.innerHTML = `
+    <div class="flight-header">
+      <div class="flight-title"><span class="flight-dot"></span>${flightName} Flight</div>
+      <span class="flight-team-count">${teams.length} teams</span>
+    </div>
+    <table class="standings-table">
+      <thead><tr>
+        <th data-col="rank" class="sort-active" style="width:48px">#</th>
+        <th style="width:36px"></th>
+        <th data-col="name">Team</th>
+        <th data-col="gp" style="text-align:center">GP</th>
+        <th data-col="wins" style="text-align:center">W</th>
+        <th data-col="losses" style="text-align:center">L</th>
+        <th data-col="draws" style="text-align:center">D</th>
+        <th data-col="standingpoints" style="text-align:center">PTS</th>
+        <th data-col="goalsfor" style="text-align:center">GF</th>
+        <th data-col="goalsagainst" style="text-align:center">GA</th>
+        <th data-col="goaldifferential" style="text-align:center">GD</th>
+        <th data-col="ppg" style="text-align:center">PPG</th>
+      </tr></thead>
+      <tbody></tbody>
+    </table>`;
+
+      const tbody = panel.querySelector('tbody');
+      teams.forEach((team, i) => {
+        const rank = i + 1;
+        const isFav = favorites.has(team.name);
+        const gd = team.goaldifferential || 0;
+        const gdClass = gd > 0 ? 'gd-positive' : gd < 0 ? 'gd-negative' : '';
+        const gdStr = gd > 0 ? `+${gd}` : `${gd}`;
+
+        let rankHtml;
+        if (rank <= 3) {
+          rankHtml = `<span class="rank-badge rank-${rank}">${rank}</span>`;
+        } else {
+          rankHtml = `<span style="padding-left:8px;font-weight:600;color:var(--text-secondary)">${rank}</span>`;
+        }
+
+        tbody.innerHTML += `
+      <tr>
+        <td>${rankHtml}</td>
+        <td><button class="star-btn ${isFav ? 'starred' : ''}" data-team="${team.name.replace(/"/g, '&quot;')}" onclick="toggleFavorite(this.dataset.team)" title="Add to favorites">${isFav ? '★' : '☆'}</button></td>
+        <td><div class="team-cell">
+          ${team.teamLogoURL ? `<img class="team-logo" src="${team.teamLogoURL}" alt="" loading="lazy" onerror="this.style.display='none'">` : ''}
+          <span class="team-name">${team.name}</span>
+        </div></td>
+        <td style="text-align:center">${team.gp || 0}</td>
+        <td style="text-align:center;font-weight:600">${team.wins || 0}</td>
+        <td style="text-align:center">${team.losses || 0}</td>
+        <td style="text-align:center">${team.draws || 0}</td>
+        <td style="text-align:center" class="stat-highlight">${team.standingpoints || 0}</td>
+        <td style="text-align:center">${team.goalsfor || 0}</td>
+        <td style="text-align:center">${team.goalsagainst || 0}</td>
+        <td style="text-align:center" class="${gdClass}">${gdStr}</td>
+        <td style="text-align:center">${(team.ppg || 0).toFixed(2)}</td>
+      </tr>`;
+      });
+
+      // Column sort
+      panel.querySelectorAll('th[data-col]').forEach(th => {
+        th.addEventListener('click', () => {
+          const col = th.dataset.col;
+          const allTh = panel.querySelectorAll('th[data-col]');
+          allTh.forEach(t => { t.classList.remove('sort-active', 'sort-asc'); });
+
+          // Determine sort direction
+          const rows = [...tbody.querySelectorAll('tr')];
+          const isNumeric = col !== 'name';
+
+          // Toggle direction
+          if (th._lastSortAsc === undefined) th._lastSortAsc = true;
+          else th._lastSortAsc = !th._lastSortAsc;
+          const asc = th._lastSortAsc;
+
+          th.classList.add('sort-active');
+          if (asc) th.classList.add('sort-asc');
+
+          const sorted = [...teams].sort((a, b) => {
+            let va = a[col], vb = b[col];
+            if (col === 'rank') { va = a._origRank; vb = b._origRank; }
+            if (isNumeric) return asc ? (va || 0) - (vb || 0) : (vb || 0) - (va || 0);
+            return asc ? String(va || '').localeCompare(vb || '') : String(vb || '').localeCompare(va || '');
+          });
+
+          // Re-render tbody
+          tbody.innerHTML = '';
+          sorted.forEach((team, i) => {
+            const rank = team._origRank;
+            const isFav = favorites.has(team.name);
+            const gd = team.goaldifferential || 0;
+            const gdClass = gd > 0 ? 'gd-positive' : gd < 0 ? 'gd-negative' : '';
+            const gdStr = gd > 0 ? `+${gd}` : `${gd}`;
+            let rankHtml;
+            if (rank <= 3) rankHtml = `<span class="rank-badge rank-${rank}">${rank}</span>`;
+            else rankHtml = `<span style="padding-left:8px;font-weight:600;color:var(--text-secondary)">${rank}</span>`;
+
+            tbody.innerHTML += `
+          <tr>
+            <td>${rankHtml}</td>
+            <td><button class="star-btn ${isFav ? 'starred' : ''}" data-team="${team.name.replace(/"/g, '&quot;')}" onclick="toggleFavorite(this.dataset.team)" title="Add to favorites">${isFav ? '★' : '☆'}</button></td>
+            <td><div class="team-cell">
+              ${team.teamLogoURL ? `<img class="team-logo" src="${team.teamLogoURL}" alt="" loading="lazy" onerror="this.style.display='none'">` : ''}
+              <span class="team-name">${team.name}</span>
+            </div></td>
+            <td style="text-align:center">${team.gp || 0}</td>
+            <td style="text-align:center;font-weight:600">${team.wins || 0}</td>
+            <td style="text-align:center">${team.losses || 0}</td>
+            <td style="text-align:center">${team.draws || 0}</td>
+            <td style="text-align:center" class="stat-highlight">${team.standingpoints || 0}</td>
+            <td style="text-align:center">${team.goalsfor || 0}</td>
+            <td style="text-align:center">${team.goalsagainst || 0}</td>
+            <td style="text-align:center" class="${gdClass}">${gdStr}</td>
+            <td style="text-align:center">${(team.ppg || 0).toFixed(2)}</td>
+          </tr>`;
+          });
+        });
+      });
+
+      return panel;
+    }
+
+    // ========== MAIN LOADER ==========
+    async function loadStandings() {
+      const conf = getSeasonData().conferences[currentConference];
+      if (!conf) return;
+
+      buildBreadcrumb();
+      const ageLabel = AGE_LABELS[currentAgeGroup] || currentAgeGroup;
+      document.getElementById('contentTitle').textContent = `${currentConference} — ${ageLabel} (${currentAgeGroup})`;
+      document.getElementById('contentSubtitle').textContent = `${currentSeason} Season`;
+
+      const container = document.getElementById('standingsContainer');
+      container.innerHTML = `<div class="loading-container"><div class="spinner"></div><div class="loading-text">Loading standings…</div></div>`;
+
+      try {
+        // Fetch event hierarchy to find divisions + flights for this age group
+        const hierarchy = await getEventHierarchy(conf.eventId);
+        const divList = hierarchy.girlsDivAndFlightList || [];
+
+        // Find matching division for current age group
+        const division = divList.find(d => d.divisionName === currentAgeGroup);
+        if (!division) {
+          container.innerHTML = `<div class="error-message">No data found for ${ageLabel} in ${currentConference}</div>`;
+          return;
+        }
+
+        const flights = division.flightList || [];
+        document.getElementById('contentSubtitle').textContent =
+          `${currentSeason} Season` + (flights.length > 1 ? ` · ${flights.length} flights` : '');
+
+        // Build external links and Refresh button
+        const extLinks = document.getElementById('extLinks');
+        let refreshHtml = '';
+        try {
+          const lastRefreshed = localStorage.getItem(`lastRefreshed-${conf.eventId}-${division.divisionID}`);
+          const btnText = lastRefreshed ? `↻ Last refresh: ${lastRefreshed}` : `↻ Refresh Data`;
+          refreshHtml = `<button id="refreshBtn" class="refresh-btn" onclick="forceRefreshCurrentView()" title="Refresh data for this age group">
+            ${btnText}
+          </button>`;
+        } catch (e) {
+          refreshHtml = `<button id="refreshBtn" class="refresh-btn" onclick="forceRefreshCurrentView()" title="Refresh data for this age group">↻ Refresh Data</button>`;
+        }
+
+        extLinks.innerHTML = refreshHtml + flights.map(f => {
+          const schedUrl = getSchedulesUrl(conf.eventId, f.flightID);
+          const standUrl = getStandingsUrl(conf.eventId, f.flightID);
+          const prefix = flights.length > 1 ? f.flightName + ' ' : '';
+          return `<a class="open-external" href="${schedUrl}" target="_blank">${EXTERNAL_ICON} ${prefix}Schedules</a>` +
+                 `<a class="open-external" href="${standUrl}" target="_blank">${EXTERNAL_ICON} ${prefix}Standings</a>`;
+        }).join('');
+
+        // Fetch standings for each flight in parallel
+        const standingsPromises = flights.map(f =>
+          getStandings(division.divisionID, f.flightID, conf.eventId)
+            .then(data => ({ flight: f, data }))
+        );
+
+        const allStandings = await Promise.all(standingsPromises);
+
+        container.innerHTML = '';
+        allStandings.forEach(({ flight, data }) => {
+          const teams = data.teamStandings || [];
+          teams.forEach((t, i) => { t._origRank = i + 1; });
+          const panel = renderStandingsTable(data, flight.flightName, flight.flightID, conf.eventId);
+          container.appendChild(panel);
+        });
+
+      } catch (err) {
+        container.innerHTML = `<div class="error-message">
+      <strong>Error loading standings:</strong> ${err.message}<br>
+      <small>Make sure the proxy server is running (python proxy_server.py)</small>
+    </div>`;
+      }
+
+      saveState();
+      pushHash();
+    }
+
+    // ========== SELECTORS ==========
+    function selectAgeGroup(ag) {
+      currentAgeGroup = ag;
+      buildAgeGroupTabs();
+      loadStandings();
+      closeSidebarIfMobile();
+    }
+
+    function selectConference(name) {
+      currentConference = name;
+      buildConferenceList();
+      loadStandings();
+      closeSidebarIfMobile();
+      setTimeout(() => {
+        const el = document.querySelector('.conference-item.active');
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }, 50);
+    }
+
+    async function changeSeason(season) {
+      currentSeason = season;
+      eventHierarchy = {};
+      currentPlayoffAgeGroup = null;
+      currentPlayoffStage = 'Playoffs';
+
+      if (currentTab === 'playoffs') {
+        await loadPlayoffsPanel();
+      } else {
+        // Reset conference to first available for the new season
+        currentConference = Object.keys(getSeasonData().conferences)[0];
+        currentAgeGroup = null;
+        await rebuildAll();
+      }
+    }
+
+    async function rebuildAll() {
+      await loadAgeGroupsForSeason();
+      // Validate currentAgeGroup against available groups
+      if (!currentAgeGroup || !AGE_GROUPS.includes(currentAgeGroup)) {
+        currentAgeGroup = AGE_GROUPS[0] || null;
+      }
+      // Validate currentConference
+      if (!getSeasonData().conferences[currentConference]) {
+        currentConference = Object.keys(getSeasonData().conferences)[0];
+      }
+      buildAgeGroupTabs();
+      buildConferenceList();
+      loadStandings();
+    }
+
+    // ========== KEYBOARD NAV ==========
+    document.addEventListener('keydown', (e) => {
+      if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT') return;
+      const names = Object.keys(getSeasonData().conferences);
+      const ci = names.indexOf(currentConference);
+      const ai = AGE_GROUPS.indexOf(currentAgeGroup);
+      switch (e.key) {
+        case 'ArrowLeft': e.preventDefault(); if (ai > 0) selectAgeGroup(AGE_GROUPS[ai - 1]); break;
+        case 'ArrowRight': e.preventDefault(); if (ai < AGE_GROUPS.length - 1) selectAgeGroup(AGE_GROUPS[ai + 1]); break;
+        case 'ArrowUp': e.preventDefault(); if (ci > 0) selectConference(names[ci - 1]); break;
+        case 'ArrowDown': e.preventDefault(); if (ci < names.length - 1) selectConference(names[ci + 1]); break;
+      }
+    });
+
+    // ========== INIT ==========
+    (async () => {
+      loadTheme();
+      loadFavorites();
+      if (!loadFromHash()) loadSavedState();
+      document.getElementById('seasonSelect').value = currentSeason;
+      await rebuildAll();
+    })();
+  </script>
+</body>
+
+</html>
