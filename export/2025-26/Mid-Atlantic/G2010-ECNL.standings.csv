@@ -1,0 +1,11 @@
+rank,team,club,teamID,gp,w,l,d,pts,ppg,gf,ga,gd
+1,VDA ECNL G10,Virginia Development Academy,19656,9,9,0,0,27,3.0,40,7,33
+2,Charlotte SA ECNL G10,Charlotte Soccer Academy,63697,9,8,1,0,24,2.67,34,12,22
+3,NC Courage ECNL G10,NC Courage Academy,69433,9,6,3,0,18,2.0,25,21,4
+4,Richmond United ECNL G10,Richmond United,62158,9,5,3,1,16,1.78,28,13,15
+5,Arlington Soccer ECNL G10,Arlington Soccer Association,82198,9,4,3,2,14,1.56,19,12,7
+6,Fairfax VA Union ECNL G10,Fairfax Virginia Union,96996,9,4,4,1,13,1.44,22,19,3
+7,Wilmington Hammerheads ECNL G10,Wilmington Hammerheads,69446,9,2,6,1,7,0.78,12,37,-25
+8,Beach FC (VA) ECNL G10,No Club Selection,67859,9,1,6,2,5,0.56,7,32,-25
+9,NC Fusion ECNL G10,NC Fusion,69224,9,0,6,3,3,0.33,9,24,-15
+10,NCFC Youth ECNL G10,NCFC Youth,69196,9,0,7,2,2,0.22,5,24,-19

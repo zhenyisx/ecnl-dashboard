@@ -1,0 +1,137 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2026-09-12,TBD,Group Play,Phoenix Rising FC ECNL G2008/09,,,Arizona Arsenal ECNL G2008/09,,,On Time,1085349
+2026-09-12,09:00 AM,Group Play,Eagles SC ECNL G2008/09,,,Legends FC (CA) ECNL G2008/09,Pleasant Valley Fields,Field 14,On Time,1085337
+2026-09-12,09:00 AM,Group Play,San Diego Surf ECNL G2008/09,,,Utah Royals FC AZ ECNL G2008/09,Surf Sports Park,Field 3,On Time,1085361
+2026-09-12,01:00 PM,Group Play,Pateadores Soccer Club ECNL G2008/09,,,Slammers FC HB Koge ECNL G2008/09,Orange County Great Park,Field 9,On Time,1085343
+2026-09-12,01:00 PM,Group Play,So Cal Blues ECNL G2008/09,,,Sporting California USA ECNL G2008/09,OC Great Park,Field 19,On Time,1085367
+2026-09-12,03:45 PM,Group Play,Rebels SC ECNL G2008/09,,,Legends FC Del Mar ECNL G2008/09,Monte Vista High School,Stadium,On Time,1085355
+2026-09-12,05:00 PM,Group Play,Beach Futbol Club (CA) ECNL G2008/09,,,LAFC So Cal ECNL G2008/09,Long Beach City College - Liberal Arts Campus,Field 2,On Time,1085331
+2026-09-13,TBD,Group Play,LV Heat Surf ECNL G2008/09,,,LA Breakers FC ECNL G2008/09,,,On Time,1085487
+2026-09-13,08:30 AM,Group Play,SLAMMERS FC ECNL G2008/09,,,Utah Royals FC AZ ECNL G2008/09,Saddleback College,Turf Field,On Time,1085373
+2026-09-19,TBD,Group Play,LAFC So Cal ECNL G2008/09,,,Rebels SC ECNL G2008/09,,,On Time,1085391
+2026-09-19,08:00 AM,Group Play,Legends FC Del Mar ECNL G2008/09,,,SLAMMERS FC ECNL G2008/09,Canyon Crest Academy,Stadium,On Time,1085403
+2026-09-19,08:00 AM,Group Play,Sporting California USA ECNL G2008/09,,,Slammers FC HB Koge ECNL G2008/09,San Bernardino Soccer Complex,Field 1,On Time,1085415
+2026-09-19,09:00 AM,Group Play,Eagles SC ECNL G2008/09,,,Pateadores Soccer Club ECNL G2008/09,Pleasant Valley Fields,Field 14,On Time,1085379
+2026-09-19,09:00 AM,Group Play,Legends FC (CA) ECNL G2008/09,,,So Cal Blues ECNL G2008/09,Silverlakes Complex,Field 24,On Time,1085397
+2026-09-19,12:00 PM,Group Play,Phoenix Rising FC ECNL G2008/09,,,LV Heat Surf ECNL G2008/09,PRFC Youth Soccer Facility,Field 2,On Time,1085409
+2026-09-19,01:00 PM,Group Play,LA Breakers FC ECNL G2008/09,,,Beach Futbol Club (CA) ECNL G2008/09,Bell Gardens Sports Complex,Field 4,On Time,1085385
+2026-09-20,11:00 AM,Group Play,Utah Royals FC AZ ECNL G2008/09,,,LV Heat Surf ECNL G2008/09,Bell Road Sports Complex,Field 16,On Time,1085421
+2026-09-26,TBD,Group Play,LAFC So Cal ECNL G2008/09,,,Eagles SC ECNL G2008/09,,,On Time,1085433
+2026-09-26,08:00 AM,Group Play,Sporting California USA ECNL G2008/09,,,San Diego Surf ECNL G2008/09,San Bernardino Soccer Complex,Field 1,On Time,1085457
+2026-09-26,12:00 PM,Group Play,Phoenix Rising FC ECNL G2008/09,,,Utah Royals FC AZ ECNL G2008/09,PRFC Youth Soccer Facility,Field 2,On Time,1085439
+2026-09-26,12:00 PM,Group Play,SLAMMERS FC ECNL G2008/09,,,Arizona Arsenal ECNL G2008/09,Saddleback College,Turf Field,On Time,1085451
+2026-09-26,01:00 PM,Group Play,LA Breakers FC ECNL G2008/09,,,Pateadores Soccer Club ECNL G2008/09,Bell Gardens Sports Complex,Field 4,On Time,1085427
+2026-09-26,03:30 PM,Group Play,Rebels SC ECNL G2008/09,,,Slammers FC HB Koge ECNL G2008/09,Monte Vista High School,Stadium,On Time,1085445
+2026-09-27,TBD,Group Play,LV Heat Surf ECNL G2008/09,,,Legends FC (CA) ECNL G2008/09,,,On Time,1085619
+2026-09-27,11:00 AM,Group Play,Beach Futbol Club (CA) ECNL G2008/09,,,Arizona Arsenal ECNL G2008/09,El Camino College,Stadium,On Time,1085463
+2026-10-03,08:00 AM,Group Play,Legends FC Del Mar ECNL G2008/09,,,So Cal Blues ECNL G2008/09,Orange Glen High School,Stadium,On Time,1085481
+2026-10-03,09:00 AM,Group Play,Eagles SC ECNL G2008/09,,,Sporting California USA ECNL G2008/09,Pleasant Valley Fields,Field 14,On Time,1085475
+2026-10-03,11:00 AM,Group Play,Beach Futbol Club (CA) ECNL G2008/09,,,Legends FC (CA) ECNL G2008/09,El Camino College,Stadium,On Time,1085469
+2026-10-03,11:00 AM,Group Play,Pateadores Soccer Club ECNL G2008/09,,,Rebels SC ECNL G2008/09,Great Park,Field 9,On Time,1085493
+2026-10-03,11:00 AM,Group Play,Utah Royals FC AZ ECNL G2008/09,,,LAFC So Cal ECNL G2008/09,Bell Road Sports Complex,Field 16,On Time,1085505
+2026-10-03,05:15 PM,Group Play,Slammers FC HB Koge ECNL G2008/09,,,San Diego Surf ECNL G2008/09,Saddleback College,Turf Field,On Time,1085499
+2026-10-04,TBD,Group Play,LV Heat Surf ECNL G2008/09,,,SLAMMERS FC ECNL G2008/09,,,On Time,1085661
+2026-10-04,12:00 PM,Group Play,Phoenix Rising FC ECNL G2008/09,,,LAFC So Cal ECNL G2008/09,PRFC Youth Soccer Facility,Field 2,On Time,1085511
+2026-10-17,TBD,Group Play,Eagles SC ECNL G2008/09,,,Legends FC Del Mar ECNL G2008/09,,,On Time,1085517
+2026-10-17,TBD,Group Play,SLAMMERS FC ECNL G2008/09,,,Beach Futbol Club (CA) ECNL G2008/09,,,On Time,1085541
+2026-10-17,09:00 AM,Group Play,Legends FC (CA) ECNL G2008/09,,,Sporting California USA ECNL G2008/09,Silverlakes Complex,Field 24,On Time,1085523
+2026-10-17,09:00 AM,Group Play,San Diego Surf ECNL G2008/09,,,So Cal Blues ECNL G2008/09,Surf Sports Park,Field 5,On Time,1085535
+2026-10-17,10:45 AM,Group Play,Rebels SC ECNL G2008/09,,,Arizona Arsenal ECNL G2008/09,Monte Vista High School,Stadium,On Time,1085529
+2026-10-17,05:15 PM,Group Play,Slammers FC HB Koge ECNL G2008/09,,,LA Breakers FC ECNL G2008/09,Saddleback College,Turf Field,On Time,1085547
+2026-10-18,01:00 PM,Group Play,Legends FC Del Mar ECNL G2008/09,,,Arizona Arsenal ECNL G2008/09,Miramesa High School ,Field 1 - Stadium,On Time,1085553
+2026-10-24,TBD,Group Play,Eagles SC ECNL G2008/09,,,San Diego Surf ECNL G2008/09,,,On Time,1085559
+2026-10-24,TBD,Group Play,Phoenix Rising FC ECNL G2008/09,,,Legends FC Del Mar ECNL G2008/09,,,On Time,1085583
+2026-10-24,TBD,Group Play,Slammers FC HB Koge ECNL G2008/09,,,SLAMMERS FC ECNL G2008/09,,,On Time,1085589
+2026-10-24,09:00 AM,Group Play,Legends FC (CA) ECNL G2008/09,,,Rebels SC ECNL G2008/09,Silverlakes Complex,Field 24,On Time,1085571
+2026-10-24,11:00 AM,Group Play,LA Breakers FC ECNL G2008/09,,,LAFC So Cal ECNL G2008/09,Bell Gardens Sports Complex,Field 4,On Time,1085565
+2026-10-24,11:00 AM,Group Play,Pateadores Soccer Club ECNL G2008/09,,,LV Heat Surf ECNL G2008/09,Silverlakes Sports Complex,Field 15,On Time,1085577
+2026-10-25,TBD,Group Play,So Cal Blues ECNL G2008/09,,,LV Heat Surf ECNL G2008/09,,,On Time,1085595
+2026-10-25,11:00 AM,Group Play,Utah Royals FC AZ ECNL G2008/09,,,Legends FC Del Mar ECNL G2008/09,Bell Road Sports Complex,Field 15,On Time,1085601
+2026-10-31,09:00 AM,Group Play,LA Breakers FC ECNL G2008/09,,,SLAMMERS FC ECNL G2008/09,Bell Gardens Sports Complex,Field 3,On Time,1085613
+2026-10-31,09:00 AM,Group Play,San Diego Surf ECNL G2008/09,,,Rebels SC ECNL G2008/09,Surf Sports Park,Field 1,On Time,1085631
+2026-10-31,09:00 AM,Group Play,Sporting California USA ECNL G2008/09,,,Phoenix Rising FC ECNL G2008/09,Ontario Sports Empire,Field 1,On Time,1085643
+2026-10-31,11:00 AM,Group Play,Beach Futbol Club (CA) ECNL G2008/09,,,Legends FC Del Mar ECNL G2008/09,El Camino College,Athletic Field,On Time,1085607
+2026-10-31,11:00 AM,Group Play,Pateadores Soccer Club ECNL G2008/09,,,So Cal Blues ECNL G2008/09,Great Park,Field 9,On Time,1085625
+2026-10-31,05:15 PM,Group Play,Slammers FC HB Koge ECNL G2008/09,,,LAFC So Cal ECNL G2008/09,Saddleback College,Turf Field,On Time,1085637
+2026-11-01,TBD,Group Play,Eagles SC ECNL G2008/09,,,Phoenix Rising FC ECNL G2008/09,,,On Time,1085649
+2026-11-07,TBD,Group Play,LAFC So Cal ECNL G2008/09,,,Legends FC (CA) ECNL G2008/09,,,On Time,1085655
+2026-11-07,09:00 AM,Group Play,San Diego Surf ECNL G2008/09,,,Legends FC Del Mar ECNL G2008/09,Surf Sports Park,Field 5,On Time,1085673
+2026-11-07,11:00 AM,Group Play,Pateadores Soccer Club ECNL G2008/09,,,Sporting California USA ECNL G2008/09,Great Park,Field 9,On Time,1085667
+2026-11-07,01:00 PM,Group Play,Utah Royals FC AZ ECNL G2008/09,,,LA Breakers FC ECNL G2008/09,Bell Road Sports Complex,Field 16,On Time,1085691
+2026-11-07,05:15 PM,Group Play,Slammers FC HB Koge ECNL G2008/09,,,Eagles SC ECNL G2008/09,Saddleback College,Turf Field,On Time,1085679
+2026-11-07,06:00 PM,Group Play,So Cal Blues ECNL G2008/09,,,Beach Futbol Club (CA) ECNL G2008/09,OC Great Park,Field 19,On Time,1085685
+2026-11-08,TBD,Group Play,Arizona Arsenal ECNL G2008/09,,,LA Breakers FC ECNL G2008/09,,,On Time,1085697
+2026-11-21,TBD,Group Play,Arizona Arsenal ECNL G2008/09,,,San Diego Surf ECNL G2008/09,,,On Time,1085703
+2026-11-21,TBD,Group Play,Beach Futbol Club (CA) ECNL G2008/09,,,Rebels SC ECNL G2008/09,,,On Time,1085709
+2026-11-21,TBD,Group Play,LAFC So Cal ECNL G2008/09,,,So Cal Blues ECNL G2008/09,,,On Time,1085715
+2026-11-21,TBD,Group Play,LV Heat Surf ECNL G2008/09,,,Sporting California USA ECNL G2008/09,,,On Time,1085733
+2026-11-21,09:00 AM,Group Play,Legends FC (CA) ECNL G2008/09,,,LA Breakers FC ECNL G2008/09,Silverlakes Complex,Field 1,On Time,1085721
+2026-11-21,11:15 AM,Group Play,Legends FC Del Mar ECNL G2008/09,,,Pateadores Soccer Club ECNL G2008/09,Miramesa High School ,Field 1 - Stadium,On Time,1085727
+2026-11-21,05:15 PM,Group Play,SLAMMERS FC ECNL G2008/09,,,Eagles SC ECNL G2008/09,Saddleback College,Turf Field,On Time,1085739
+2026-11-22,TBD,Group Play,Arizona Arsenal ECNL G2008/09,,,Utah Royals FC AZ ECNL G2008/09,,,On Time,1085745
+2026-11-22,TBD,Group Play,Phoenix Rising FC ECNL G2008/09,,,San Diego Surf ECNL G2008/09,,,On Time,1085751
+2027-03-20,TBD,Group Play,Beach Futbol Club (CA) ECNL G2008/09,,,Eagles SC ECNL G2008/09,,,On Time,1085757
+2027-03-20,TBD,Group Play,LAFC So Cal ECNL G2008/09,,,Arizona Arsenal ECNL G2008/09,,,On Time,1085769
+2027-03-20,TBD,Group Play,Legends FC (CA) ECNL G2008/09,,,Pateadores Soccer Club ECNL G2008/09,,,On Time,1085775
+2027-03-20,TBD,Group Play,Rebels SC ECNL G2008/09,,,LV Heat Surf ECNL G2008/09,,,On Time,1085781
+2027-03-20,TBD,Group Play,Slammers FC HB Koge ECNL G2008/09,,,Utah Royals FC AZ ECNL G2008/09,,,On Time,1085787
+2027-03-20,TBD,Group Play,So Cal Blues ECNL G2008/09,,,Phoenix Rising FC ECNL G2008/09,,,On Time,1085793
+2027-03-20,TBD,Group Play,Sporting California USA ECNL G2008/09,,,SLAMMERS FC ECNL G2008/09,,,On Time,1085799
+2027-03-20,09:00 AM,Group Play,LA Breakers FC ECNL G2008/09,,,Legends FC Del Mar ECNL G2008/09,Silverlakes,Field 10,On Time,1085763
+2027-03-21,TBD,Group Play,Eagles SC ECNL G2008/09,,,Arizona Arsenal ECNL G2008/09,,,On Time,1085805
+2027-03-21,TBD,Group Play,Legends FC (CA) ECNL G2008/09,,,Slammers FC HB Koge ECNL G2008/09,,,On Time,1085811
+2027-03-21,TBD,Group Play,Legends FC Del Mar ECNL G2008/09,,,LV Heat Surf ECNL G2008/09,,,On Time,1085817
+2027-03-21,TBD,Group Play,Pateadores Soccer Club ECNL G2008/09,,,Phoenix Rising FC ECNL G2008/09,,,On Time,1085823
+2027-03-21,TBD,Group Play,SLAMMERS FC ECNL G2008/09,,,LAFC So Cal ECNL G2008/09,,,On Time,1085835
+2027-03-21,TBD,Group Play,So Cal Blues ECNL G2008/09,,,LA Breakers FC ECNL G2008/09,,,On Time,1085841
+2027-03-21,TBD,Group Play,Sporting California USA ECNL G2008/09,,,Utah Royals FC AZ ECNL G2008/09,,,On Time,1085847
+2027-03-21,09:00 AM,Group Play,San Diego Surf ECNL G2008/09,,,Beach Futbol Club (CA) ECNL G2008/09,Surf Sports Park,Field 1,On Time,1085829
+2027-04-10,TBD,Group Play,Beach Futbol Club (CA) ECNL G2008/09,,,Phoenix Rising FC ECNL G2008/09,,,On Time,1085853
+2027-04-10,TBD,Group Play,LV Heat Surf ECNL G2008/09,,,LAFC So Cal ECNL G2008/09,,,On Time,1085865
+2027-04-10,TBD,Group Play,Rebels SC ECNL G2008/09,,,So Cal Blues ECNL G2008/09,,,On Time,1085871
+2027-04-10,TBD,Group Play,Utah Royals FC AZ ECNL G2008/09,,,Pateadores Soccer Club ECNL G2008/09,,,On Time,1085883
+2027-04-10,09:00 AM,Group Play,San Diego Surf ECNL G2008/09,,,Legends FC (CA) ECNL G2008/09,Surf Sports Park,Field 3,On Time,1085877
+2027-04-10,01:00 PM,Group Play,LA Breakers FC ECNL G2008/09,,,Eagles SC ECNL G2008/09,Bell Gardens Sports Complex,Field 4,On Time,1085859
+2027-04-11,TBD,Group Play,Arizona Arsenal ECNL G2008/09,,,Pateadores Soccer Club ECNL G2008/09,,,On Time,1085889
+2027-04-11,TBD,Group Play,SLAMMERS FC ECNL G2008/09,,,Phoenix Rising FC ECNL G2008/09,,,On Time,1085895
+2027-04-17,TBD,Group Play,Arizona Arsenal ECNL G2008/09,,,So Cal Blues ECNL G2008/09,,,On Time,1085901
+2027-04-17,TBD,Group Play,Legends FC Del Mar ECNL G2008/09,,,LAFC So Cal ECNL G2008/09,,,On Time,1085907
+2027-04-17,TBD,Group Play,LV Heat Surf ECNL G2008/09,,,Eagles SC ECNL G2008/09,,,On Time,1085913
+2027-04-17,TBD,Group Play,Rebels SC ECNL G2008/09,,,LA Breakers FC ECNL G2008/09,,,On Time,1085919
+2027-04-17,TBD,Group Play,Slammers FC HB Koge ECNL G2008/09,,,Beach Futbol Club (CA) ECNL G2008/09,,,On Time,1085931
+2027-04-17,09:00 AM,Group Play,San Diego Surf ECNL G2008/09,,,SLAMMERS FC ECNL G2008/09,Surf Sports Park,Field 3,On Time,1085925
+2027-04-18,TBD,Group Play,Arizona Arsenal ECNL G2008/09,,,Sporting California USA ECNL G2008/09,,,On Time,1085937
+2027-04-18,TBD,Group Play,Utah Royals FC AZ ECNL G2008/09,,,So Cal Blues ECNL G2008/09,,,On Time,1085943
+2027-04-24,TBD,Group Play,LAFC So Cal ECNL G2008/09,,,Sporting California USA ECNL G2008/09,,,On Time,1085949
+2027-04-24,TBD,Group Play,Legends FC (CA) ECNL G2008/09,,,Phoenix Rising FC ECNL G2008/09,,,On Time,1085955
+2027-04-24,TBD,Group Play,Pateadores Soccer Club ECNL G2008/09,,,Beach Futbol Club (CA) ECNL G2008/09,,,On Time,1085961
+2027-04-24,TBD,Group Play,Rebels SC ECNL G2008/09,,,SLAMMERS FC ECNL G2008/09,,,On Time,1085967
+2027-04-24,09:00 AM,Group Play,San Diego Surf ECNL G2008/09,,,LV Heat Surf ECNL G2008/09,Surf Sports Park,Field 5,On Time,1085973
+2027-04-25,TBD,Group Play,Slammers FC HB Koge ECNL G2008/09,,,LV Heat Surf ECNL G2008/09,,,On Time,1085985
+2027-04-25,01:00 PM,Group Play,LA Breakers FC ECNL G2008/09,,,Phoenix Rising FC ECNL G2008/09,Bell Gardens Sports Complex,Field 2,On Time,1085979
+2027-05-01,TBD,Group Play,LAFC So Cal ECNL G2008/09,,,San Diego Surf ECNL G2008/09,,,On Time,1085991
+2027-05-01,TBD,Group Play,Legends FC (CA) ECNL G2008/09,,,Legends FC Del Mar ECNL G2008/09,,,On Time,1085997
+2027-05-01,TBD,Group Play,LV Heat Surf ECNL G2008/09,,,Beach Futbol Club (CA) ECNL G2008/09,,,On Time,1086003
+2027-05-01,TBD,Group Play,So Cal Blues ECNL G2008/09,,,SLAMMERS FC ECNL G2008/09,,,On Time,1086009
+2027-05-01,TBD,Group Play,Sporting California USA ECNL G2008/09,,,LA Breakers FC ECNL G2008/09,,,On Time,1086015
+2027-05-01,TBD,Group Play,Utah Royals FC AZ ECNL G2008/09,,,Rebels SC ECNL G2008/09,,,On Time,1086021
+2027-05-02,12:00 PM,Group Play,Phoenix Rising FC ECNL G2008/09,,,Rebels SC ECNL G2008/09,PRFC Youth Soccer Facility,Field 2,On Time,1086027
+2027-05-08,TBD,Group Play,Eagles SC ECNL G2008/09,,,Utah Royals FC AZ ECNL G2008/09,,,On Time,1086033
+2027-05-08,TBD,Group Play,LAFC So Cal ECNL G2008/09,,,Pateadores Soccer Club ECNL G2008/09,,,On Time,1086045
+2027-05-08,TBD,Group Play,SLAMMERS FC ECNL G2008/09,,,Legends FC (CA) ECNL G2008/09,,,On Time,1086057
+2027-05-08,TBD,Group Play,Sporting California USA ECNL G2008/09,,,Rebels SC ECNL G2008/09,,,On Time,1086063
+2027-05-08,10:00 AM,Group Play,Phoenix Rising FC ECNL G2008/09,,,Slammers FC HB Koge ECNL G2008/09,PRFC Youth Soccer Facility,Field 2,On Time,1086051
+2027-05-08,01:00 PM,Group Play,LA Breakers FC ECNL G2008/09,,,San Diego Surf ECNL G2008/09,Bell Gardens Sports Complex,Field 4,On Time,1086039
+2027-05-09,TBD,Group Play,Arizona Arsenal ECNL G2008/09,,,Slammers FC HB Koge ECNL G2008/09,,,On Time,1086069
+2027-05-09,TBD,Group Play,Beach Futbol Club (CA) ECNL G2008/09,,,Utah Royals FC AZ ECNL G2008/09,,,On Time,1086075
+2027-05-15,TBD,Group Play,Arizona Arsenal ECNL G2008/09,,,Legends FC (CA) ECNL G2008/09,,,On Time,1086081
+2027-05-15,TBD,Group Play,Legends FC Del Mar ECNL G2008/09,,,Sporting California USA ECNL G2008/09,,,On Time,1086087
+2027-05-15,TBD,Group Play,Rebels SC ECNL G2008/09,,,Eagles SC ECNL G2008/09,,,On Time,1086093
+2027-05-15,TBD,Group Play,SLAMMERS FC ECNL G2008/09,,,Pateadores Soccer Club ECNL G2008/09,,,On Time,1086099
+2027-05-15,TBD,Group Play,So Cal Blues ECNL G2008/09,,,Slammers FC HB Koge ECNL G2008/09,,,On Time,1086105
+2027-05-16,TBD,Group Play,Utah Royals FC AZ ECNL G2008/09,,,Legends FC (CA) ECNL G2008/09,,,On Time,1086111
+2027-05-22,TBD,Group Play,Legends FC Del Mar ECNL G2008/09,,,Slammers FC HB Koge ECNL G2008/09,,,On Time,1086117
+2027-05-22,TBD,Group Play,LV Heat Surf ECNL G2008/09,,,Arizona Arsenal ECNL G2008/09,,,On Time,1086123
+2027-05-22,TBD,Group Play,Pateadores Soccer Club ECNL G2008/09,,,San Diego Surf ECNL G2008/09,,,On Time,1086129
+2027-05-22,TBD,Group Play,So Cal Blues ECNL G2008/09,,,Eagles SC ECNL G2008/09,,,On Time,1086135
+2027-05-22,TBD,Group Play,Utah Royals FC AZ ECNL G2008/09,,,Beach Futbol Club (CA) ECNL G2008/09,,,On Time,1086141

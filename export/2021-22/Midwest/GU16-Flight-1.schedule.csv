@@ -1,0 +1,92 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2021-09-11,TBD,Bracket,Eclipse Select SC ECNL GU16,4,1,Sporting Iowa ECNL GU16,,,On Time,270324
+2021-09-11,11:00 AM,Bracket,Sporting Blue Valley ECNL GU16,6,0,Michigan Hawks Magic ECNL GU16,Scheels Overland Park Soccer Complex,Field 11,On Time,270321
+2021-09-11,11:00 AM,Bracket,Kansas City Athletics ECNL GU16,3,0,Michigan Hawks ECNL GU16,College Boulevard Activity Complex,Football Field,On Time,270322
+2021-09-11,01:00 PM,Bracket,FC Wisconsin ECNL GU16,2,3,Gretna Elite Academy ECNL GU16,FC Wisconsin Soccer Park,Field 1 - Val Olla Field,On Time,270323
+2021-09-11,01:30 PM,Bracket,SLSG Navy ECNL GU16,6,0,Midwest United FC ECNL GU16,O'Fallon Sports Park,Field 5,On Time,270325
+2021-09-11,01:30 PM,Bracket,SLSG Green ECNL GU16,1,1,Liverpool FC IA Michigan ECNL GU16,O'Fallon Family Sportspark,Field 6,On Time,270326
+2021-09-12,TBD,Bracket,Eclipse Select SC ECNL GU16,2,1,Gretna Elite Academy ECNL GU16,,,On Time,270329
+2021-09-12,09:00 AM,Bracket,Kansas City Athletics ECNL GU16,1,0,Michigan Hawks Magic ECNL GU16,Olathe District Activity Complex,Football Field,On Time,270328
+2021-09-12,09:00 AM,Bracket,FC Wisconsin ECNL GU16,0,1,Sporting Iowa ECNL GU16,FC Wisconsin Soccer Park,Field 2 - Hegarty Field,On Time,270330
+2021-09-12,09:45 AM,Bracket,SLSG Navy ECNL GU16,5,0,Liverpool FC IA Michigan ECNL GU16,O'Fallon Sports Park,Field 5,On Time,270331
+2021-09-12,09:45 AM,Bracket,SLSG Green ECNL GU16,1,0,Midwest United FC ECNL GU16,O'Fallon Family Sportspark,Field 6,On Time,270332
+2021-09-12,11:00 AM,Bracket,Sporting Blue Valley ECNL GU16,2,1,Michigan Hawks ECNL GU16,Scheels Overland Park Soccer Complex,Field 1,On Time,270327
+2021-09-18,01:00 PM,Bracket,Kansas City Athletics ECNL GU16,4,1,Sporting Blue Valley ECNL GU16,Pinnacle National Development Center,Field 1,On Time,270333
+2021-09-18,05:00 PM,Bracket,Sporting Iowa ECNL GU16,3,0,Gretna Elite Academy ECNL GU16,MidAmerican Energy Company RecPlex,Field 2,On Time,270334
+2021-09-19,TBD,Bracket,Michigan Hawks ECNL GU16,2,1,Michigan Hawks Magic ECNL GU16,,,On Time,270337
+2021-09-19,01:45 PM,Bracket,SLSG Green ECNL GU16,0,6,SLSG Navy ECNL GU16,"Soccer Park (Fenton, MO)",Field 1,On Time,270336
+2021-09-25,09:00 AM,Bracket,Eclipse Select SC North ECNL GU16,0,3,Michigan Hawks Magic ECNL GU16,Techny Park,Field 1,On Time,270343
+2021-09-25,10:00 AM,Bracket,Sporting Iowa ECNL GU16,0,4,SLSG Navy ECNL GU16,MidAmerican Energy Company RecPlex,Field 1,On Time,270341
+2021-09-25,10:15 AM,Bracket,Sporting Blue Valley ECNL GU16,1,0,Midwest United FC ECNL GU16,Troy Athens High School,Field 1,On Time,270338
+2021-09-25,10:30 AM,Bracket,Liverpool FC IA Michigan ECNL GU16,2,3,Kansas City Athletics ECNL GU16,Clawson Park,Field 1,On Time,270339
+2021-09-25,01:00 PM,Bracket,FC Wisconsin ECNL GU16,0,5,Michigan Hawks ECNL GU16,FC Wisconsin Soccer Park,Field 1 - Val Olla Field,On Time,270342
+2021-09-25,02:00 PM,Bracket,Gretna Elite Academy ECNL GU16,0,2,SLSG Green ECNL GU16,Papillion Landing ,#1 Turf,On Time,270340
+2021-09-26,TBD,Bracket,Midwest United FC ECNL GU16,0,7,Kansas City Athletics ECNL GU16,,,On Time,270345
+2021-09-26,09:00 AM,Bracket,Eclipse Select SC North ECNL GU16,0,3,Michigan Hawks ECNL GU16,Techny Park,Field 1,On Time,270349
+2021-09-26,10:00 AM,Bracket,Liverpool FC IA Michigan ECNL GU16,1,6,Sporting Blue Valley ECNL GU16,Athens High School,Field 1,On Time,270344
+2021-09-26,10:15 AM,Bracket,Gretna Elite Academy ECNL GU16,0,3,SLSG Navy ECNL GU16,Papillion Landing ,#1 Turf,On Time,270346
+2021-09-26,11:00 AM,Bracket,FC Wisconsin ECNL GU16,2,1,Michigan Hawks Magic ECNL GU16,FC Wisconsin Soccer Park,Field 2 - Hegarty Field,On Time,270348
+2021-09-26,01:45 PM,Bracket,Sporting Iowa ECNL GU16,1,2,SLSG Green ECNL GU16,Hidden Valley Soccer Complex,Field 7,On Time,270347
+2021-09-28,06:15 PM,Bracket,Eclipse Select SC North ECNL GU16,2,4,Eclipse Select SC ECNL GU16,Techny Park,Field 1,On Time,270335
+2021-10-02,02:00 PM,Bracket,Gretna Elite Academy ECNL GU16,0,0,Kansas City Athletics ECNL GU16,Papillion Landing ,#1 Turf,On Time,270350
+2021-10-03,01:00 PM,Bracket,FC Wisconsin ECNL GU16,0,9,Eclipse Select SC ECNL GU16,FC Wisconsin Soccer Park,Field 1 - Val Olla Field,On Time,270351
+2021-10-09,11:00 AM,Bracket,Eclipse Select SC ECNL GU16,0,5,SLSG Navy ECNL GU16,Techny Park,Field 2,On Time,270354
+2021-10-09,11:00 AM,Bracket,FC Wisconsin ECNL GU16,1,0,SLSG Green ECNL GU16,FC Wisconsin Soccer Park,Field 1 - Val Olla Field,On Time,270355
+2021-10-09,04:00 PM,Bracket,Gretna Elite Academy ECNL GU16,0,8,Sporting Blue Valley ECNL GU16,Papillion Landing ,#1 Turf,On Time,270352
+2021-10-09,04:00 PM,Bracket,Sporting Iowa ECNL GU16,2,2,Kansas City Athletics ECNL GU16,MidAmerican Energy Company RecPlex,Field 2,On Time,270353
+2021-10-10,09:00 AM,Bracket,Eclipse Select SC ECNL GU16,1,0,SLSG Green ECNL GU16,Techny Park,Field 2,On Time,270357
+2021-10-10,10:00 AM,Bracket,FC Wisconsin ECNL GU16,0,0,SLSG Navy ECNL GU16,FC Wisconsin Soccer Park,Field 1 - Val Olla Field,On Time,270356
+2021-10-10,04:00 PM,Bracket,Midwest United FC ECNL GU16,0,1,Liverpool FC IA Michigan ECNL GU16,Midwest United FC Complex,South,On Time,270358
+2021-10-16,12:00 PM,Bracket,Michigan Hawks ECNL GU16,0,3,SLSG Navy ECNL GU16,Schoolcraft Turf,SC Turf,On Time,270363
+2021-10-16,12:00 PM,Bracket,Michigan Hawks Magic ECNL GU16,1,4,SLSG Green ECNL GU16,St. Joe's Sports Complex,Dome,On Time,270364
+2021-10-16,01:45 PM,Bracket,Gretna Elite Academy ECNL GU16,2,0,Midwest United FC ECNL GU16,MidAmerican Engery Company RecPlex,Rec Plex # 3,On Time,270361
+2021-10-16,01:45 PM,Bracket,Sporting Iowa ECNL GU16,0,1,Liverpool FC IA Michigan ECNL GU16,MidAmerican Energy Company RecPlex,Field 3,On Time,270362
+2021-10-16,02:00 PM,Bracket,Eclipse Select SC North ECNL GU16,0,3,Sporting Blue Valley ECNL GU16,Techny Park,Field 1,On Time,270359
+2021-10-16,02:00 PM,Bracket,Eclipse Select SC ECNL GU16,5,2,Kansas City Athletics ECNL GU16,Techny Park,Field 2,On Time,270360
+2021-10-17,09:00 AM,Bracket,Eclipse Select SC ECNL GU16,3,0,Sporting Blue Valley ECNL GU16,Techny Park,Field 2,On Time,270365
+2021-10-17,10:00 AM,Bracket,Eclipse Select SC North ECNL GU16,2,5,Kansas City Athletics ECNL GU16,,,On Time,270366
+2021-10-17,10:55 AM,Bracket,Michigan Hawks ECNL GU16,3,1,SLSG Green ECNL GU16,St. Joe's Sports Dome,St. Joe's Dome,On Time,270370
+2021-10-17,12:00 PM,Bracket,Gretna Elite Academy ECNL GU16,2,0,Liverpool FC IA Michigan ECNL GU16,MidAmerican Engery Company RecPlex,Rec Plex #1,On Time,270367
+2021-10-17,12:00 PM,Bracket,Sporting Iowa ECNL GU16,4,1,Midwest United FC ECNL GU16,Hidden Valley Soccer Complex,Field 1,On Time,270368
+2021-10-17,02:00 PM,Bracket,Michigan Hawks Magic ECNL GU16,0,5,SLSG Navy ECNL GU16,Jaycee Park,JC Turf,On Time,270369
+2021-10-23,01:00 PM,Bracket,FC Wisconsin ECNL GU16,1,1,Liverpool FC IA Michigan ECNL GU16,Aquinas College,Field 1,On Time,270372
+2021-10-23,02:00 PM,Bracket,Midwest United FC ECNL GU16,1,0,Eclipse Select SC North ECNL GU16,Midwest United FC Complex,North,On Time,270371
+2021-10-24,11:00 AM,Bracket,Midwest United FC ECNL GU16,0,3,FC Wisconsin ECNL GU16,Midwest United FC Complex,North,On Time,270374
+2021-10-24,11:00 AM,Bracket,Liverpool FC IA Michigan ECNL GU16,2,0,Eclipse Select SC North ECNL GU16,Grandville High School,Soccer,On Time,270375
+2021-10-24,12:00 PM,Bracket,Sporting Iowa ECNL GU16,0,8,Sporting Blue Valley ECNL GU16,MidAmerican Energy Company RecPlex,Field 2,On Time,270373
+2021-10-30,09:00 AM,Bracket,Eclipse Select SC North ECNL GU16,1,1,FC Wisconsin ECNL GU16,Techny Park,Field 1,On Time,270378
+2021-10-30,10:45 AM,Bracket,Kansas City Athletics ECNL GU16,1,0,SLSG Green ECNL GU16,Olathe District Activity Complex,Soccer Field,On Time,270377
+2021-10-30,02:00 PM,Bracket,Michigan Hawks ECNL GU16,0,0,Eclipse Select SC ECNL GU16,Schoolcraft Turf,SC Turf,On Time,270379
+2021-10-30,02:30 PM,Bracket,Liverpool FC IA Michigan ECNL GU16,1,1,Michigan Hawks Magic ECNL GU16,UWM Sports Complex,Outdoor,On Time,270380
+2021-10-30,11:00 PM,Bracket,Sporting Blue Valley ECNL GU16,1,5,SLSG Navy ECNL GU16,Scheels Overland Park Soccer Complex,Field 1,On Time,270376
+2021-10-31,02:00 PM,Bracket,Michigan Hawks Magic ECNL GU16,1,5,Eclipse Select SC ECNL GU16,Jaycee Park,JC Turf,On Time,270381
+2021-11-06,12:30 PM,Bracket,Liverpool FC IA Michigan ECNL GU16,2,5,Eclipse Select SC ECNL GU16,UWM Sports Complex,Outdoor,On Time,270383
+2021-11-06,12:30 PM,Bracket,Midwest United FC ECNL GU16,1,0,Michigan Hawks Magic ECNL GU16,Midwest United FC Complex,North,On Time,270384
+2021-11-06,02:00 PM,Bracket,Gretna Elite Academy ECNL GU16,2,1,Eclipse Select SC North ECNL GU16,Papillion LaVista Foundation Field (Papio South),Field 1,On Time,270382
+2021-11-06,02:30 PM,Bracket,Midwest United FC ECNL GU16,0,1,Eclipse Select SC ECNL GU16,Midwest United FC Complex,North,On Time,270388
+2021-11-07,TBD,Bracket,Sporting Iowa ECNL GU16,1,0,Eclipse Select SC North ECNL GU16,,,On Time,270387
+2021-11-07,12:00 PM,Bracket,Gretna Elite Academy ECNL GU16,2,4,Minnesota Thunder ECNL GU16,Papillion Landing ,#1 Turf,On Time,270386
+2021-11-08,06:30 PM,Bracket,Sporting Iowa ECNL GU16,3,5,Minnesota Thunder ECNL GU16,MidAmerican Energy Company RecPlex,Fieldhouse,On Time,270385
+2021-11-20,08:00 AM,Bracket,Minnesota Thunder ECNL GU16,0,2,Eclipse Select SC ECNL GU16,Academy of Holy Angels,South Turf 1 (11v11),On Time,270391
+2021-11-20,12:00 PM,Bracket,Michigan Hawks Magic ECNL GU16,2,1,Sporting Iowa ECNL GU16,St. Joe's Sports Complex,Dome,On Time,270390
+2021-11-20,02:00 PM,Bracket,Michigan Hawks ECNL GU16,3,0,Gretna Elite Academy ECNL GU16,Jaycee Park,Jaycee Turf,On Time,270389
+2021-11-21,10:45 AM,Bracket,SLSG Green ECNL GU16,0,2,Sporting Blue Valley ECNL GU16,"Soccer Park (Fenton, MO)",Field 5,On Time,270392
+2021-11-21,10:45 AM,Bracket,SLSG Navy ECNL GU16,6,1,Kansas City Athletics ECNL GU16,WWT Soccer Park,Field 1,On Time,270393
+2021-11-21,12:00 PM,Bracket,Michigan Hawks ECNL GU16,1,0,Sporting Iowa ECNL GU16,St. Joe's Sports Dome,St. Joe's Dome,On Time,270395
+2021-11-21,02:00 PM,Bracket,Michigan Hawks Magic ECNL GU16,0,0,Gretna Elite Academy ECNL GU16,Jaycee Park,JC Turf,On Time,270394
+2021-12-04,12:30 PM,Bracket,SLSG Navy ECNL GU16,4,0,Minnesota Thunder ECNL GU16,WWT Soccer Park,Field 5,On Time,270396
+2021-12-04,02:30 PM,Bracket,SLSG Green ECNL GU16,1,0,Eclipse Select SC North ECNL GU16,"Soccer Park (Fenton, MO)",Field 1,On Time,270397
+2021-12-05,09:00 AM,Bracket,SLSG Green ECNL GU16,3,1,Minnesota Thunder ECNL GU16,Creve Coeur Park Soccer Complex ,Field 9,On Time,270399
+2021-12-05,12:30 PM,Bracket,SLSG Navy ECNL GU16,5,0,Eclipse Select SC North ECNL GU16,Creve Coeur Soccer Complex,Field 6,On Time,270398
+2021-12-11,11:00 AM,Bracket,Sporting Blue Valley ECNL GU16,3,3,Minnesota Thunder ECNL GU16,Pinnacle National Development Center,East,On Time,270400
+2021-12-11,12:00 PM,Bracket,Kansas City Athletics ECNL GU16,3,0,FC Wisconsin ECNL GU16,Compass Minerals Sporting Fields,Field 1,On Time,270401
+2021-12-12,09:00 AM,Bracket,Sporting Blue Valley ECNL GU16,5,1,FC Wisconsin ECNL GU16,Pinnacle National Development Center,West,On Time,270402
+2021-12-12,10:00 AM,Bracket,Kansas City Athletics ECNL GU16,1,2,Minnesota Thunder ECNL GU16,Compass Minerals Sporting Fields,Field 1,On Time,270403
+2022-01-15,10:00 AM,Bracket,Minnesota Thunder ECNL GU16,6,0,Eclipse Select SC North ECNL GU16,Academy of Holy Angels,South Turf 1 (11v11),On Time,270405
+2022-01-22,08:00 AM,Bracket,Minnesota Thunder ECNL GU16,3,0,Liverpool FC IA Michigan ECNL GU16,Academy of Holy Angels,South Turf 1 (11v11),On Time,270406
+2022-01-29,10:00 AM,Bracket,Minnesota Thunder ECNL GU16,3,0,Michigan Hawks Magic ECNL GU16,Academy of Holy Angels,South Turf 1 (11v11),On Time,270407
+2022-02-05,11:00 AM,Bracket,Michigan Hawks ECNL GU16,2,1,Liverpool FC IA Michigan ECNL GU16,St. Joe's Sports Dome,St. Joe's Dome,On Time,270404
+2022-02-06,08:00 AM,Bracket,Minnesota Thunder ECNL GU16,7,2,FC Wisconsin ECNL GU16,Academy of Holy Angels,South Turf 1 (11v11),On Time,270408
+2022-04-23,12:45 PM,Bracket,Minnesota Thunder ECNL GU16,3,1,Michigan Hawks ECNL GU16,Academy of Holy Angels,South Turf 1 (11v11),On Time,270409
+2022-04-30,10:00 AM,Bracket,Minnesota Thunder ECNL GU16,1,1,Midwest United FC ECNL GU16,Academy of Holy Angels,Field 2 - Star Dome,On Time,270410
+2022-05-14,03:00 PM,Bracket,Midwest United FC ECNL GU16,0,0,Michigan Hawks ECNL GU16,Midwest United FC Complex,North,On Time,270411

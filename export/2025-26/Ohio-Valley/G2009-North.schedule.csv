@@ -1,0 +1,47 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2025-11-22,12:00 PM,Group Play,Pittsburgh Riverhounds ECNL G09,2,2,Racing Louisville Academy ECNL G09,Montour Junction Sports Complex,Field 1,On Time,812286
+2025-11-22,12:30 PM,Group Play,WNY Flash ECNL G09,0,5,Ohio Elite SA ECNL G09,Flash Fields,Field A,On Time,812282
+2025-11-22,01:00 PM,Group Play,Ohio Premier ECNL G09,4,3,Internationals SC ECNL G09,Kilbourne Run Sports Park- 4625 Westerville Rd Col,field 3,On Time,812278
+2025-11-22,03:00 PM,Group Play,GTFC Impact ECNL G09,1,2,Cleveland Force SC ECNL G09,Rossford Soccer Center Dome,Indoor 11v11,On Time,812274
+2025-11-23,10:15 AM,Group Play,Pittsburgh Riverhounds ECNL G09,1,2,Ohio Elite SA ECNL G09,Montour Junction Sports Complex,Field 1,On Time,812310
+2025-11-23,12:30 PM,Group Play,WNY Flash ECNL G09,3,0,Racing Louisville Academy ECNL G09,Flash Fields,Field A,On Time,812306
+2025-11-23,01:00 PM,Group Play,Ohio Premier ECNL G09,1,0,Cleveland Force SC ECNL G09,Kilbourne Run Sports Park- 4625 Westerville Rd Col,field 3,On Time,812302
+2025-11-23,03:00 PM,Group Play,GTFC Impact ECNL G09,1,5,Internationals SC ECNL G09,Rossford Soccer Center Dome,Indoor 11v11,On Time,812298
+2026-01-17,12:30 PM,Group Play,Pittsburgh Riverhounds ECNL G09,3,1,WNY Flash ECNL G09,Montour Junction Sports Complex,Indoor,On Time,812342
+2026-02-28,11:00 AM,Group Play,GTFC Impact ECNL G09,0,6,Tennessee SC ECNL G09,Rossford Soccer Center Dome,Indoor 11v11,On Time,812378
+2026-02-28,01:30 PM,Group Play,Ohio Premier ECNL G09,3,1,FC Alliance ECNL G09,OP Training Facility,Field 2,On Time,812382
+2026-03-01,11:00 AM,Group Play,Ohio Premier ECNL G09,1,2,Tennessee SC ECNL G09,OP Training Facility,Field 2,On Time,812390
+2026-03-01,11:30 AM,Group Play,GTFC Impact ECNL G09,1,2,FC Alliance ECNL G09,Rossford Soccer Center Dome,Indoor 11v11,On Time,812386
+2026-03-07,12:30 PM,Group Play,Ohio Premier ECNL G09,0,1,Pittsburgh Riverhounds ECNL G09,OP Training Facility,Field 2,On Time,812406
+2026-03-07,12:45 PM,Group Play,GTFC Impact ECNL G09,0,5,WNY Flash ECNL G09,Rossford Soccer Center Dome,Indoor 11v11,On Time,812402
+2026-03-08,12:00 PM,Group Play,GTFC Impact ECNL G09,0,7,Pittsburgh Riverhounds ECNL G09,Rossford Soccer Center Dome,Indoor 11v11,On Time,812426
+2026-03-08,12:30 PM,Group Play,Ohio Premier ECNL G09,2,1,WNY Flash ECNL G09,OP Training Facility,Field 2,On Time,812430
+2026-03-14,11:30 AM,Group Play,WNY Flash ECNL G09,3,1,Cleveland Force SC ECNL G09,Flash Fields,Field A,On Time,812442
+2026-03-14,12:00 PM,Group Play,Pittsburgh Riverhounds ECNL G09,1,1,Internationals SC ECNL G09,Montour Junction Sports Complex,Field 2,On Time,812446
+2026-03-14,12:00 PM,Group Play,GTFC Impact ECNL G09,0,9,Ohio Premier ECNL G09,Findlay High School ,Elmer Graham Stadium,On Time,812654
+2026-03-15,11:30 AM,Group Play,WNY Flash ECNL G09,3,3,Internationals SC ECNL G09,Flash Fields,Field A,On Time,812454
+2026-03-15,12:00 PM,Group Play,Pittsburgh Riverhounds ECNL G09,2,0,Cleveland Force SC ECNL G09,Highmark Stadium,Field 1,On Time,812458
+2026-03-22,06:15 PM,Group Play,Internationals SC ECNL G09,1,0,Cleveland Force SC ECNL G09,Pinnacle Sports,OT 11v11,On Time,812322
+2026-04-11,12:00 PM,Group Play,Internationals SC ECNL G09,2,0,Ohio Premier ECNL G09,Pinnacle Sports,OT 11v11,On Time,812466
+2026-04-11,01:00 PM,Group Play,Cleveland Force SC ECNL G09,9,0,GTFC Impact ECNL G09,Euclid High School,Field 3 (Soccer Field),On Time,812462
+2026-04-12,12:00 PM,Group Play,Internationals SC ECNL G09,7,1,GTFC Impact ECNL G09,Pinnacle Sports,OT 11v11,On Time,812490
+2026-04-12,01:00 PM,Group Play,Cleveland Force SC ECNL G09,1,1,Ohio Premier ECNL G09,Euclid High School,Field 3 (Soccer Field),On Time,812486
+2026-04-18,10:30 AM,Group Play,Pittsburgh Riverhounds ECNL G09,3,3,Ohio Premier ECNL G09,Montour Junction Sports Complex,Indoor,On Time,812526
+2026-04-18,12:00 PM,Group Play,WNY Flash ECNL G09,5,0,GTFC Impact ECNL G09,Flash Fields,Field A,On Time,812522
+2026-04-18,12:30 PM,Group Play,Internationals SC ECNL G09,4,1,FC Alliance ECNL G09,Pinnacle Sports,Field 1,On Time,812518
+2026-04-18,01:00 PM,Group Play,Cleveland Force SC ECNL G09,0,2,Tennessee SC ECNL G09,Victory Park,Field 4,On Time,812514
+2026-04-19,12:00 PM,Group Play,WNY Flash ECNL G09,1,2,Ohio Premier ECNL G09,Flash Fields,Field A1,On Time,812546
+2026-04-19,12:00 PM,Group Play,Pittsburgh Riverhounds ECNL G09,7,0,GTFC Impact ECNL G09,Highmark Stadium,Field 1,On Time,812550
+2026-04-19,12:30 PM,Group Play,Internationals SC ECNL G09,2,1,Tennessee SC ECNL G09,Pinnacle Sports,Field 1,On Time,812542
+2026-04-19,01:00 PM,Group Play,Cleveland Force SC ECNL G09,4,0,FC Alliance ECNL G09,Victory Park,Field 4,On Time,812538
+2026-05-02,11:00 AM,Group Play,Cleveland Force SC ECNL G09,1,5,WNY Flash ECNL G09,Victory Park,Field 3,On Time,812586
+2026-05-02,11:00 AM,Group Play,Internationals SC ECNL G09,6,0,Pittsburgh Riverhounds ECNL G09,Pinnacle Sports,OT 11v11,On Time,812590
+2026-05-02,11:00 AM,Group Play,GTFC Impact ECNL G09,3,5,Indy Eleven Pro Academy ECNL G09,Rossford Soccer Center Dome,Indoor 11v11,On Time,812594
+2026-05-02,12:00 PM,Group Play,Ohio Premier ECNL G09,2,0,FC Pride Elite ECNL G09,OP Training Facility,Field 2,On Time,812598
+2026-05-03,12:00 PM,Group Play,GTFC Impact ECNL G09,2,3,FC Pride Elite ECNL G09,Rossford Soccer Center Dome,Indoor 11v11,On Time,812618
+2026-05-03,12:30 PM,Group Play,Internationals SC ECNL G09,3,0,WNY Flash ECNL G09,Pinnacle Sports,OT 11v11,On Time,812614
+2026-05-03,12:30 PM,Group Play,Ohio Premier ECNL G09,3,0,Indy Eleven Pro Academy ECNL G09,OP Training Facility,Field 2,On Time,812622
+2026-05-03,01:00 PM,Group Play,Cleveland Force SC ECNL G09,1,2,Pittsburgh Riverhounds ECNL G09,Victory Park,Field 3,On Time,812610
+2026-05-16,11:00 AM,Group Play,Cleveland Force SC ECNL G09,0,1,Internationals SC ECNL G09,Victory Park,Field 4,On Time,812646
+2026-05-17,01:00 PM,Group Play,WNY Flash ECNL G09,3,5,Pittsburgh Riverhounds ECNL G09,Sahlen's Sports Park,Field #45,On Time,812650
+2026-05-17,04:45 PM,Group Play,Ohio Premier ECNL G09,12,0,GTFC Impact ECNL G09,OP Training Facility,Field 2,On Time,812326

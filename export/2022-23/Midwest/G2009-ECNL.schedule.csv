@@ -1,0 +1,106 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2022-09-10,09:30 AM,Bracket,Eclipse Select SC ECNL G09,8,0,Rockford Raptors FC ECNL G09,Techny Park,Field 1,On Time,360529
+2022-09-10,10:00 AM,Bracket,Gretna Elite Academy ECNL G09,1,1,Michigan Hawks ECNL G09,Papillion Landing ,#1 Turf,On Time,360533
+2022-09-10,10:00 AM,Bracket,Sporting Iowa ECNL G09,0,4,Michigan Hawks Magic ECNL G09,College St. Marys,CSM,On Time,360534
+2022-09-10,02:30 PM,Bracket,Liverpool FC IA Michigan ECNL G09,0,7,SLSG Green ECNL G09,Aquinas College,Field 1,On Time,360532
+2022-09-10,04:15 PM,Bracket,Midwest United FC ECNL G09,0,3,SLSG Navy ECNL G09,Aquinas College,Outdoor Turf,On Time,360531
+2022-09-11,10:00 AM,Bracket,Sporting Iowa ECNL G09,0,7,Michigan Hawks ECNL G09,Bellevue West High School,Bellevue West High School,On Time,360538
+2022-09-11,11:30 AM,Bracket,Liverpool FC IA Michigan ECNL G09,3,4,SLSG Navy ECNL G09,East Grand Rapids High School,Field 1,On Time,360537
+2022-09-11,01:00 PM,Bracket,Gretna Elite Academy ECNL G09,1,1,Michigan Hawks Magic ECNL G09,Bellevue West High School,Field 1,On Time,360539
+2022-09-11,01:15 PM,Bracket,Midwest United FC ECNL G09,0,0,SLSG Green ECNL G09,Aquinas College,Outdoor Turf,On Time,360536
+2022-09-17,07:45 AM,Bracket,Michigan Hawks ECNL G09,1,2,Sporting Blue Valley ECNL G09,Schoolcraft Turf,SC Turf,On Time,360541
+2022-09-17,09:30 AM,Bracket,Michigan Hawks Magic ECNL G09,0,6,Kansas City Athletics ECNL G09,Jaycee Park,JC Turf,On Time,360542
+2022-09-17,10:30 AM,Bracket,Minnesota Thunder ECNL G09,2,0,Gretna Elite Academy ECNL G09,Academy of Holy Angels,South Turf 1 (11v11),On Time,360543
+2022-09-17,11:00 AM,Bracket,FC Wisconsin ECNL G09,2,1,Rockford Raptors FC ECNL G09,FC Wisconsin Soccer Park,Field 2 - Hegarty Field,On Time,360540
+2022-09-18,10:00 AM,Bracket,Michigan Hawks ECNL G09,3,1,Kansas City Athletics ECNL G09,Jaycee Park,Jaycee Turf,On Time,360544
+2022-09-18,01:15 PM,Bracket,Michigan Hawks Magic ECNL G09,1,3,Sporting Blue Valley ECNL G09,Jaycee Park,JC Turf,On Time,360545
+2022-09-24,02:00 PM,Bracket,Sporting Iowa ECNL G09,0,1,FC Wisconsin ECNL G09,Hidden Valley Soccer Complex,Field 2,On Time,360548
+2022-09-24,03:15 PM,Bracket,Michigan Hawks ECNL G09,6,0,Michigan Hawks Magic ECNL G09,St. Joe's Sports Dome,St. Joe's Dome,On Time,360556
+2022-09-24,04:00 PM,Bracket,Gretna Elite Academy ECNL G09,3,2,Rockford Raptors FC ECNL G09,Hidden Valley Soccer Complex,8,On Time,360549
+2022-09-25,09:30 AM,Bracket,Sporting Iowa ECNL G09,1,4,Rockford Raptors FC ECNL G09,MidAmerican Energy Company RecPlex,Field 3,On Time,360551
+2022-09-25,10:30 AM,Bracket,SLSG Navy ECNL G09,1,1,SLSG Green ECNL G09,WWT Soccer Park,Field 1,On Time,360553
+2022-09-25,11:00 AM,Bracket,Gretna Elite Academy ECNL G09,2,0,FC Wisconsin ECNL G09,Hidden Valley Soccer Complex,5,On Time,360550
+2022-09-25,12:15 PM,Bracket,Midwest United FC ECNL G09,5,0,Liverpool FC IA Michigan ECNL G09,Midwest United FC Complex,North,On Time,360552
+2022-09-27,06:30 PM,Bracket,Eclipse Select SC North ECNL G09,0,6,Eclipse Select SC ECNL G09,Techny Park,Field 1,On Time,360547
+2022-10-01,10:30 AM,Bracket,Minnesota Thunder ECNL G09,2,0,Eclipse Select SC ECNL G09,Academy of Holy Angels,South Turf 1 (11v11),On Time,360554
+2022-10-01,12:00 PM,Bracket,Rockford Raptors FC ECNL G09,0,0,Eclipse Select SC North ECNL G09,Mercyhealth Sportscore Two,Field 231,On Time,360555
+2022-10-01,01:00 PM,Bracket,Sporting Blue Valley ECNL G09,0,3,SLSG Navy ECNL G09,Scheels Overland Park Soccer Complex,Field 11,On Time,360558
+2022-10-01,03:30 PM,Bracket,Kansas City Athletics ECNL G09,1,0,SLSG Green ECNL G09,KC Current Training Facility,Field 1,On Time,360557
+2022-10-02,10:45 AM,Bracket,Kansas City Athletics ECNL G09,0,1,SLSG Navy ECNL G09,Olathe District Activity Complex,Football Field,On Time,360560
+2022-10-02,01:00 PM,Bracket,Sporting Blue Valley ECNL G09,2,0,SLSG Green ECNL G09,Scheels Overland Park Soccer Complex,Field 11,On Time,360559
+2022-10-22,10:00 AM,Bracket,Gretna Elite Academy ECNL G09,0,0,Midwest United FC ECNL G09,Bellevue West High School,Field 1,On Time,360566
+2022-10-22,04:30 PM,Bracket,Sporting Iowa ECNL G09,2,2,Liverpool FC IA Michigan ECNL G09,Gretna High School,Gretna High School 1,On Time,360567
+2022-10-23,10:00 AM,Bracket,Sporting Iowa ECNL G09,1,7,Midwest United FC ECNL G09,Papillion Landing,Papillion Landing,On Time,360570
+2022-10-23,10:00 AM,Bracket,Gretna Elite Academy ECNL G09,3,1,Liverpool FC IA Michigan ECNL G09,Bellevue West High School,Field 1,On Time,360571
+2022-10-29,10:45 AM,Bracket,SLSG Navy ECNL G09,3,0,Michigan Hawks ECNL G09,WWT Soccer Park,Field 3,On Time,360576
+2022-10-29,11:00 AM,Bracket,FC Wisconsin ECNL G09,1,4,Kansas City Athletics ECNL G09,FC Wisconsin Soccer Park,Field 2 - Hegarty Field,On Time,360574
+2022-10-29,02:00 PM,Bracket,Rockford Raptors FC ECNL G09,2,3,Sporting Blue Valley ECNL G09,Mercyhealth Sportscore Two,Field 234,On Time,360575
+2022-10-29,02:15 PM,Bracket,SLSG Green ECNL G09,3,1,Michigan Hawks Magic ECNL G09,World Wide Technology Soccer Park ,Field 3,On Time,360577
+2022-10-29,02:30 PM,Bracket,Eclipse Select SC ECNL G09,5,0,Gretna Elite Academy ECNL G09,Techny Park,Field 1,On Time,360572
+2022-10-29,02:30 PM,Bracket,Eclipse Select SC North ECNL G09,1,1,Sporting Iowa ECNL G09,Techny Park,Field 2,On Time,360573
+2022-10-30,09:45 AM,Bracket,SLSG Green ECNL G09,0,3,Michigan Hawks ECNL G09,World Wide Technology Soccer Park ,Field 3,On Time,360582
+2022-10-30,10:00 AM,Bracket,Eclipse Select SC ECNL G09,12,0,Sporting Iowa ECNL G09,Techny Park,Field 2,On Time,360578
+2022-10-30,11:00 AM,Bracket,FC Wisconsin ECNL G09,0,1,Sporting Blue Valley ECNL G09,FC Wisconsin Soccer Park,Field 2 - Hegarty Field,On Time,360580
+2022-10-30,11:30 AM,Bracket,SLSG Navy ECNL G09,4,0,Michigan Hawks Magic ECNL G09,WWT Soccer Park,Field 5,On Time,360583
+2022-10-30,12:00 PM,Bracket,Rockford Raptors FC ECNL G09,0,2,Kansas City Athletics ECNL G09,Mercyhealth Sportscore Two,Field 234,On Time,360581
+2022-10-30,01:00 PM,Bracket,Eclipse Select SC North ECNL G09,1,2,Gretna Elite Academy ECNL G09,Stuart Sports Complex,Field 29,On Time,360579
+2022-11-06,05:00 PM,Bracket,FC Wisconsin ECNL G09,1,8,Eclipse Select SC ECNL G09,FC Wisconsin Soccer Park,Field 1 - Val Olla Field,On Time,360535
+2022-12-03,09:45 AM,Bracket,SLSG Green ECNL G09,1,3,Minnesota Thunder ECNL G09,World Wide Technology Soccer Park ,Field 3,On Time,360585
+2022-12-04,09:45 AM,Bracket,SLSG Navy ECNL G09,2,1,Minnesota Thunder ECNL G09,WWT Soccer Park,Field 5,On Time,360586
+2023-01-21,02:00 PM,Bracket,Minnesota Thunder ECNL G09,7,1,Rockford Raptors FC ECNL G09,Academy of Holy Angels,South Turf 1 (11v11),On Time,360584
+2023-03-04,12:00 PM,Bracket,Sporting Blue Valley ECNL G09,9,1,Eclipse Select SC North ECNL G09,Scheels Overland Park Soccer Complex,Field 1,On Time,360565
+2023-03-04,01:30 PM,Bracket,Kansas City Athletics ECNL G09,0,2,Eclipse Select SC ECNL G09,KC Current Training Facility,Field 1,On Time,360561
+2023-03-05,09:00 AM,Bracket,Kansas City Athletics ECNL G09,5,0,Eclipse Select SC North ECNL G09,Central Bank Sporting Complex,Field 1,On Time,360569
+2023-03-05,12:00 PM,Bracket,Sporting Blue Valley ECNL G09,1,7,Eclipse Select SC ECNL G09,Scheels Overland Park Soccer Complex,Field 1,On Time,360568
+2023-03-18,12:30 PM,Bracket,SLSG Green ECNL G09,4,1,Eclipse Select SC North ECNL G09,World Wide Technology Soccer Park ,Field 2,On Time,360588
+2023-03-18,04:00 PM,Bracket,SLSG Navy ECNL G09,2,4,Eclipse Select SC ECNL G09,WWT Soccer Park,Field 2,On Time,360587
+2023-03-18,09:00 PM,Bracket,Liverpool FC IA Michigan ECNL G09,1,1,Minnesota Thunder ECNL G09,Oakland University Dome,Field 1,On Time,360590
+2023-03-19,10:45 AM,Bracket,SLSG Green ECNL G09,0,5,Eclipse Select SC ECNL G09,World Wide Technology Soccer Park ,Field 2,On Time,360592
+2023-03-19,10:45 AM,Bracket,SLSG Navy ECNL G09,4,0,Eclipse Select SC North ECNL G09,WWT Soccer Park,Field 3,On Time,360593
+2023-03-19,12:00 PM,Bracket,Midwest United FC ECNL G09,1,3,Minnesota Thunder ECNL G09,Brother Rice H.S.,Field 1,On Time,360594
+2023-03-25,12:30 PM,Bracket,Sporting Iowa ECNL G09,0,5,Kansas City Athletics ECNL G09,MidAmerican Energy Company RecPlex,Field 3,On Time,360596
+2023-03-25,04:00 PM,Bracket,Midwest United FC ECNL G09,1,0,Michigan Hawks ECNL G09,Midwest United FC Complex,South,On Time,360595
+2023-04-15,10:45 AM,Bracket,Kansas City Athletics ECNL G09,2,1,Minnesota Thunder ECNL G09,KC Current Training Facility,Field 1,On Time,360601
+2023-04-15,11:00 AM,Bracket,Midwest United FC ECNL G09,0,3,Eclipse Select SC ECNL G09,Midwest United FC Complex,North,On Time,360597
+2023-04-15,11:30 AM,Bracket,FC Wisconsin ECNL G09,1,3,SLSG Navy ECNL G09,FC Wisconsin Soccer Park,Field 2 - Hegarty Field,On Time,360599
+2023-04-15,02:00 PM,Bracket,Liverpool FC IA Michigan ECNL G09,3,0,Eclipse Select SC North ECNL G09,Brother Rice High School,Field 1,On Time,360598
+2023-04-15,04:30 PM,Bracket,Rockford Raptors FC ECNL G09,0,4,SLSG Green ECNL G09,Mercyhealth Sportscore Two,Indoor Field 3,On Time,360600
+2023-04-16,09:30 AM,Bracket,FC Wisconsin ECNL G09,0,1,SLSG Green ECNL G09,FC Wisconsin Soccer Park,Field 2 - Hegarty Field,On Time,360604
+2023-04-16,09:45 AM,Bracket,Midwest United FC ECNL G09,2,1,Eclipse Select SC North ECNL G09,Midwest United FC Complex,South,On Time,360603
+2023-04-16,10:00 AM,Bracket,Rockford Raptors FC ECNL G09,0,6,SLSG Navy ECNL G09,Mercyhealth Sportscore Two,Indoor Field 3,On Time,360605
+2023-04-16,11:00 AM,Bracket,Sporting Blue Valley ECNL G09,1,1,Minnesota Thunder ECNL G09,Shawnee Mission South HS,Field 1,On Time,360606
+2023-04-16,12:00 PM,Bracket,Eclipse Select SC ECNL G09,4,1,Liverpool FC IA Michigan ECNL G09,Brother Rice High School Ambrose Field,Field 1,On Time,360602
+2023-04-22,TBD,Bracket,Kansas City Athletics ECNL G09,8,2,Liverpool FC IA Michigan ECNL G09,,,On Time,360610
+2023-04-22,09:30 AM,Bracket,Michigan Hawks ECNL G09,3,1,FC Wisconsin ECNL G09,Jaycee Park,Jaycee Turf,On Time,360607
+2023-04-22,12:30 PM,Bracket,Michigan Hawks Magic ECNL G09,2,0,Rockford Raptors FC ECNL G09,Jaycee Park,JC Turf,On Time,360608
+2023-04-22,01:00 PM,Bracket,Gretna Elite Academy ECNL G09,5,0,Sporting Iowa ECNL G09,Papillion Landing ,#1 Turf,On Time,360611
+2023-04-23,08:00 AM,Bracket,Michigan Hawks ECNL G09,5,0,Rockford Raptors FC ECNL G09,Schoolcraft Turf,SC Turf,On Time,360613
+2023-04-23,11:00 AM,Bracket,Michigan Hawks Magic ECNL G09,1,2,FC Wisconsin ECNL G09,Schoolcraft turf,Field 1,On Time,360612
+2023-04-23,11:00 AM,Bracket,Sporting Blue Valley ECNL G09,3,1,Liverpool FC IA Michigan ECNL G09,Scheels Overland Park Soccer Complex,Field 12,On Time,360615
+2023-04-29,10:00 AM,Bracket,Michigan Hawks ECNL G09,2,0,Minnesota Thunder ECNL G09,Jaycee Park,Jaycee Turf,On Time,360617
+2023-04-29,02:00 PM,Bracket,Sporting Blue Valley ECNL G09,2,0,Midwest United FC ECNL G09,Scheels Overland Park Soccer Complex,Field 12,On Time,360609
+2023-04-29,02:00 PM,Bracket,Liverpool FC IA Michigan ECNL G09,7,0,Michigan Hawks Magic ECNL G09,Detroit Country Day Hillview Field,Field 1,On Time,360616
+2023-04-29,03:30 PM,Bracket,Sporting Iowa ECNL G09,0,2,SLSG Navy ECNL G09,MidAmerican Energy Company RecPlex,Field 3,On Time,360624
+2023-04-29,05:00 PM,Bracket,SLSG Green ECNL G09,1,0,Gretna Elite Academy ECNL G09,Rec Plex,Field 1,On Time,360623
+2023-04-30,08:00 AM,Bracket,Michigan Hawks Magic ECNL G09,1,1,Minnesota Thunder ECNL G09,Schoolcraft turf,Field 1,On Time,360622
+2023-04-30,10:00 AM,Bracket,SLSG Navy ECNL G09,3,1,Gretna Elite Academy ECNL G09,Rec Plex,Field 1,On Time,360618
+2023-04-30,11:45 AM,Bracket,Kansas City Athletics ECNL G09,3,1,Midwest United FC ECNL G09,KC Current Training Facility,Field 1,On Time,360614
+2023-04-30,11:45 AM,Bracket,Sporting Iowa ECNL G09,0,1,SLSG Green ECNL G09,MidAmerican Energy Company RecPlex,Indoor ,On Time,360619
+2023-04-30,12:00 PM,Bracket,Liverpool FC IA Michigan ECNL G09,1,5,Michigan Hawks ECNL G09,Brother Rice High School,Field 1,On Time,360621
+2023-05-03,07:30 PM,Bracket,Eclipse Select SC North ECNL G09,1,0,FC Wisconsin ECNL G09,Techny Park,Field 2,On Time,360530
+2023-05-06,02:00 PM,Bracket,Eclipse Select SC ECNL G09,1,1,Michigan Hawks ECNL G09,Langhorst Field at Elmhurst University,Field 1,On Time,360625
+2023-05-06,02:45 PM,Bracket,Eclipse Select SC North ECNL G09,1,3,Michigan Hawks Magic ECNL G09,Chicago Inter Soccer Complex,Brent Hassert 1,On Time,360626
+2023-05-07,08:30 AM,Bracket,Eclipse Select SC ECNL G09,4,0,Michigan Hawks Magic ECNL G09,Chicago Inter Complex,Brent Hassert 2,On Time,360628
+2023-05-07,11:30 AM,Bracket,Eclipse Select SC North ECNL G09,0,4,Michigan Hawks ECNL G09,Chicago Inter Soccer Complex,Brent Hassert 1,On Time,360629
+2023-05-07,01:00 PM,Bracket,Minnesota Thunder ECNL G09,2,0,Sporting Iowa ECNL G09,Richfield High School,Field 1 - Stadium,On Time,360546
+2023-05-14,10:00 AM,Bracket,Michigan Hawks Magic ECNL G09,1,1,Midwest United FC ECNL G09,St. Joe's Sports Complex,Dome,On Time,360589
+2023-05-14,10:30 AM,Bracket,Minnesota Thunder ECNL G09,2,0,FC Wisconsin ECNL G09,Academy of Holy Angels,South Turf 1 (11v11),On Time,360627
+2023-05-14,02:00 PM,Bracket,Gretna Elite Academy ECNL G09,0,6,Sporting Blue Valley ECNL G09,Papillion Landing ,#1 Turf,On Time,360591
+2023-05-20,10:30 AM,Bracket,Minnesota Thunder ECNL G09,9,1,Eclipse Select SC North ECNL G09,Academy of Holy Angels,South Turf 1 (11v11),On Time,360630
+2023-05-20,10:45 AM,Bracket,Rockford Raptors FC ECNL G09,1,0,Liverpool FC IA Michigan ECNL G09,Mercyhealth Sportscore Two,Field 233,On Time,360632
+2023-05-20,11:30 AM,Bracket,FC Wisconsin ECNL G09,0,1,Midwest United FC ECNL G09,FC Wisconsin Soccer Park,Field 2 - Hegarty Field,On Time,360631
+2023-05-20,01:00 PM,Bracket,Gretna Elite Academy ECNL G09,1,4,Kansas City Athletics ECNL G09,Papillion Landing ,#1 Turf,On Time,360633
+2023-05-20,02:00 PM,Bracket,Sporting Iowa ECNL G09,2,1,Sporting Blue Valley ECNL G09,MidAmerican Energy Company RecPlex,Field 1,On Time,360634
+2023-05-21,10:30 AM,Bracket,FC Wisconsin ECNL G09,4,1,Liverpool FC IA Michigan ECNL G09,FC Wisconsin Soccer Park,Field 1 - Val Olla Field,On Time,360635
+2023-05-21,10:45 AM,Bracket,Rockford Raptors FC ECNL G09,2,1,Midwest United FC ECNL G09,Mercyhealth Sportscore Two,Field 218,On Time,360636
+2023-05-24,07:30 PM,Bracket,Sporting Blue Valley ECNL G09,1,2,Kansas City Athletics ECNL G09,Scheels Overland Park Soccer Complex,Field 9N,On Time,360620

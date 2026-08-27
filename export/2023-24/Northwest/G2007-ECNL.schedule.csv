@@ -1,0 +1,91 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2023-11-05,11:15 AM,Group Play,Utah Avalanche ECNL G07,4,1,La Roca FC ECNL G07,St. Joseph Catholic High School,Grass Field,On Time,499309
+2023-12-09,09:00 AM,Group Play,Seattle United ECNL G07,4,1,La Roca FC ECNL G07,Shoreline A/B fields,Field A,On Time,499317
+2023-12-09,01:00 PM,Group Play,PacNW SC ECNL G07,0,3,Portland Thorns ECNL G07,Saghalie Park (behind Middle School),Field 1,On Time,499313
+2023-12-09,01:00 PM,Group Play,Washington Premier ECNL G07,4,1,Northwest Elite FC ECNL G07,WPFC Field Complex,Field 3,On Time,499321
+2023-12-09,02:00 PM,Group Play,XF Academy ECNL G07,0,2,Utah Avalanche ECNL G07,Marymoor Park,#2 (Turf),On Time,499325
+2023-12-10,09:00 AM,Group Play,Seattle United ECNL G07,2,0,Utah Avalanche ECNL G07,Magnuson Park,Field 7,On Time,499333
+2023-12-10,01:00 PM,Group Play,Washington Premier ECNL G07,0,3,Portland Thorns ECNL G07,WPFC Field Complex,Field 3,On Time,499329
+2023-12-10,01:00 PM,Group Play,PacNW SC ECNL G07,1,1,Northwest Elite FC ECNL G07,Saghalie Park (behind Middle School),Field 1,On Time,499337
+2023-12-10,01:00 PM,Group Play,XF Academy ECNL G07,1,1,La Roca FC ECNL G07,Marymoor Park,#2 (Turf),On Time,499341
+2023-12-16,09:00 AM,Group Play,Seattle United ECNL G07,6,0,Boise Thorns FC ECNL G07,Ingraham High School,Stadium,On Time,499345
+2023-12-16,09:00 AM,Group Play,XF Academy ECNL G07,4,0,Eastside FC ECNL G07,Marymoor Park,#2 (Turf),On Time,499349
+2023-12-17,09:00 AM,Group Play,Seattle United ECNL G07,7,0,Eastside FC ECNL G07,Shoreline A/B fields,Field B,On Time,499357
+2023-12-17,10:00 AM,Group Play,Northwest Elite FC ECNL G07,1,2,Portland Thorns ECNL G07,THPRD Rec Center,# 1,On Time,499353
+2023-12-17,03:00 PM,Group Play,XF Academy ECNL G07,4,0,Boise Thorns FC ECNL G07,Marymoor Park,#2 (Turf),On Time,499361
+2024-01-14,03:00 PM,Group Play,PacNW SC ECNL G07,1,3,Eastside FC ECNL G07,Starfire Sports,Field 3,On Time,499485
+2024-01-20,01:00 PM,Group Play,PacNW SC ECNL G07,1,2,Utah Avalanche ECNL G07,Starfire Sports,Field 2,On Time,499385
+2024-01-20,01:00 PM,Group Play,Washington Premier ECNL G07,0,3,La Roca FC ECNL G07,WPFC Field Complex,Field 3,On Time,499393
+2024-01-21,09:00 AM,Group Play,PacNW SC ECNL G07,1,3,La Roca FC ECNL G07,Starfire Sports,Field 4,On Time,499401
+2024-01-21,01:00 PM,Group Play,Washington Premier ECNL G07,1,3,Utah Avalanche ECNL G07,WPFC Field Complex,Field 4,On Time,499409
+2024-01-27,12:00 PM,Group Play,Northwest Elite FC ECNL G07,1,0,Boise Thorns FC ECNL G07,Mountain View Champions Park,Field 3,On Time,499413
+2024-01-27,03:00 PM,Group Play,Portland Thorns ECNL G07,0,0,Eastside FC ECNL G07,Tigard High School,Soccer,On Time,499417
+2024-01-28,12:00 PM,Group Play,Northwest Elite FC ECNL G07,1,3,Eastside FC ECNL G07,Mountain View Champions Park,Field 3,On Time,499421
+2024-01-28,12:45 PM,Group Play,Portland Thorns ECNL G07,5,0,Boise Thorns FC ECNL G07,Tigard High School,Soccer,On Time,499425
+2024-02-03,12:00 PM,Group Play,XF Academy ECNL G07,6,1,PacNW SC ECNL G07,Marymoor Park,#2 (Turf),On Time,499433
+2024-02-03,02:00 PM,Group Play,Seattle United ECNL G07,5,0,Washington Premier ECNL G07,Shoreline A/B fields,Field A,On Time,499429
+2024-02-04,01:00 PM,Group Play,Seattle United ECNL G07,7,1,PacNW SC ECNL G07,Ingraham High School,Stadium,On Time,499437
+2024-02-04,01:00 PM,Group Play,Washington Premier ECNL G07,0,4,XF Academy ECNL G07,WPFC Field Complex,Field 4,On Time,499441
+2024-02-04,02:00 PM,Group Play,Portland Thorns ECNL G07,3,2,Northwest Elite FC ECNL G07,Tigard High School,Soccer,On Time,499585
+2024-02-10,09:00 AM,Group Play,Eastside FC ECNL G07,1,2,Washington Premier ECNL G07,PRESTON PARK ATHLETIC FIELDS,Field 2,On Time,499365
+2024-02-10,09:00 AM,Group Play,Northwest Elite FC ECNL G07,1,2,Utah Avalanche ECNL G07,Mountain View Champions Park,Field 3,On Time,499445
+2024-02-10,02:00 PM,Group Play,Portland Thorns ECNL G07,2,2,La Roca FC ECNL G07,Tigard High School,Football/Stadium,On Time,499449
+2024-02-11,09:00 AM,Group Play,Northwest Elite FC ECNL G07,3,0,La Roca FC ECNL G07,Mountain View Champions Park,Field 2,On Time,499453
+2024-02-11,09:00 AM,Group Play,Seattle United ECNL G07,4,1,XF Academy ECNL G07,Shorewood High School,Field 1,On Time,499461
+2024-02-11,01:15 PM,Group Play,Portland Thorns ECNL G07,1,0,Utah Avalanche ECNL G07,Tigard High School,Soccer,On Time,499457
+2024-02-24,01:00 PM,Group Play,PacNW SC ECNL G07,2,1,Boise Thorns FC ECNL G07,Starfire Sports,Field 1,On Time,499369
+2024-02-25,11:00 AM,Group Play,Eastside FC ECNL G07,1,4,XF Academy ECNL G07,PRESTON PARK ATHLETIC FIELDS,Field 2,On Time,499469
+2024-02-25,01:00 PM,Group Play,Washington Premier ECNL G07,3,4,Boise Thorns FC ECNL G07,WPFC Field Complex,Field 4,On Time,499377
+2024-03-02,01:00 PM,Group Play,Seattle United ECNL G07,2,0,Northwest Elite FC ECNL G07,Shoreline A/B fields,Field A,On Time,499477
+2024-03-02,02:00 PM,Group Play,XF Academy ECNL G07,1,1,Portland Thorns ECNL G07,Marymoor Park,#1 (Turf),On Time,499481
+2024-03-03,09:00 AM,Group Play,Seattle United ECNL G07,3,1,Portland Thorns ECNL G07,Magnuson Park,Field 6,On Time,499489
+2024-03-03,02:00 PM,Group Play,XF Academy ECNL G07,3,2,Northwest Elite FC ECNL G07,Marymoor Park,#1 (Turf),On Time,499493
+2024-03-09,01:00 PM,Group Play,Eastside FC ECNL G07,1,0,Boise Thorns FC ECNL G07,PRESTON PARK ATHLETIC FIELDS,Field 2,On Time,499497
+2024-03-09,02:00 PM,Group Play,Northwest Elite FC ECNL G07,3,0,PacNW SC ECNL G07,Mountain View Champions Park,Field 2,On Time,499501
+2024-03-09,02:00 PM,Group Play,Portland Thorns ECNL G07,3,0,Washington Premier ECNL G07,Twality Middle School,Field 1,On Time,499505
+2024-03-10,01:00 PM,Group Play,Boise Thorns FC ECNL G07,0,0,Eastside FC ECNL G07,Preston Park,Field 2,On Time,499509
+2024-03-10,02:00 PM,Group Play,Northwest Elite FC ECNL G07,4,0,Washington Premier ECNL G07,Mountain View Champions Park,Field 2,On Time,499513
+2024-03-10,02:00 PM,Group Play,Portland Thorns ECNL G07,3,0,PacNW SC ECNL G07,Twality Middle School,Field 1,On Time,499517
+2024-03-16,12:00 PM,Group Play,La Roca FC ECNL G07,1,2,Seattle United ECNL G07,Spence Eccles Ogden Community Sports Complex,Field 1,On Time,499529
+2024-03-16,01:00 PM,Group Play,Boise Thorns FC ECNL G07,0,2,PacNW SC ECNL G07,Boise Timbers|Thorns - Soccer Complex,Field 1,On Time,499521
+2024-03-16,01:00 PM,Group Play,Eastside FC ECNL G07,2,3,Northwest Elite FC ECNL G07,PRESTON PARK ATHLETIC FIELDS,Field 2,On Time,499525
+2024-03-16,01:00 PM,Group Play,Utah Avalanche ECNL G07,1,2,XF Academy ECNL G07,Judge Memorial High School,Field 1,On Time,499533
+2024-03-17,09:00 AM,Group Play,Eastside FC ECNL G07,1,3,Portland Thorns ECNL G07,PRESTON PARK ATHLETIC FIELDS,Field 2,On Time,499541
+2024-03-17,12:00 PM,Group Play,La Roca FC ECNL G07,0,3,XF Academy ECNL G07,La Roca FC Utah County Complex,Field 2,On Time,499545
+2024-03-17,01:00 PM,Group Play,Boise Thorns FC ECNL G07,1,0,Washington Premier ECNL G07,Boise Timbers|Thorns - Soccer Complex,Field 2,On Time,499537
+2024-03-17,01:00 PM,Group Play,Utah Avalanche ECNL G07,0,3,Seattle United ECNL G07,Woods Cross High School,Field 1,On Time,499549
+2024-03-23,12:00 PM,Group Play,La Roca FC ECNL G07,2,0,Utah Avalanche ECNL G07,La Roca Park,Field 1,On Time,499553
+2024-03-24,02:00 PM,Group Play,XF Academy ECNL G07,4,1,Washington Premier ECNL G07,Marymoor Park,#2 (Turf),On Time,499561
+2024-03-24,03:00 PM,Group Play,Eastside FC ECNL G07,0,3,Seattle United ECNL G07,PRESTON PARK ATHLETIC FIELDS,Field 2,On Time,499557
+2024-04-13,10:00 AM,Group Play,La Roca FC ECNL G07,2,1,Northwest Elite FC ECNL G07,La Roca Park,Field 1,On Time,499565
+2024-04-13,11:15 AM,Group Play,Utah Avalanche ECNL G07,2,2,Portland Thorns ECNL G07,St. Joseph Catholic High School,Turf Field,On Time,499569
+2024-04-14,11:15 AM,Group Play,Utah Avalanche ECNL G07,0,2,Northwest Elite FC ECNL G07,St. Joseph Catholic High School,Turf Field,On Time,499577
+2024-04-14,02:00 PM,Group Play,La Roca FC ECNL G07,2,1,Portland Thorns ECNL G07,La Roca Park,Field 2,On Time,499573
+2024-04-20,09:00 AM,Group Play,La Roca FC ECNL G07,2,0,Boise Thorns FC ECNL G07,La Roca Park,Field 1,On Time,499581
+2024-04-20,11:00 AM,Group Play,PacNW SC ECNL G07,0,3,Seattle United ECNL G07,Starfire Sports,Field 1,On Time,499597
+2024-04-20,11:15 AM,Group Play,Utah Avalanche ECNL G07,3,0,Eastside FC ECNL G07,St. Joseph Catholic High School,Grass Field,On Time,499589
+2024-04-20,03:00 PM,Group Play,Portland Thorns ECNL G07,1,1,XF Academy ECNL G07,Twality Middle School,Field 1,On Time,499405
+2024-04-21,11:00 AM,Group Play,La Roca FC ECNL G07,6,2,Eastside FC ECNL G07,La Roca Park,Field 1,On Time,499593
+2024-04-21,12:15 PM,Group Play,Utah Avalanche ECNL G07,3,0,Boise Thorns FC ECNL G07,St. Joseph Catholic High School,Grass Field,On Time,499601
+2024-04-21,01:00 PM,Group Play,Washington Premier ECNL G07,0,1,PacNW SC ECNL G07,WPFC Field Complex,Field 4,On Time,499473
+2024-04-21,02:00 PM,Group Play,Northwest Elite FC ECNL G07,1,4,XF Academy ECNL G07,Mountain View Champions Park,Field 3,On Time,499381
+2024-04-21,03:00 PM,Group Play,Portland Thorns ECNL G07,0,3,Seattle United ECNL G07,Tigard High School,Soccer,On Time,499389
+2024-04-26,08:00 PM,Group Play,Washington Premier ECNL G07,0,1,Eastside FC ECNL G07,WPFC Field Complex,Field 2,On Time,499465
+2024-04-27,01:00 PM,Group Play,Boise Thorns FC ECNL G07,1,2,Portland Thorns ECNL G07,Boise Timbers|Thorns - Soccer Complex,Field 2,On Time,499605
+2024-04-27,05:00 PM,Group Play,Eastside FC ECNL G07,0,1,PacNW SC ECNL G07,PRESTON PARK ATHLETIC FIELDS,Field 1,On Time,499373
+2024-04-28,01:00 PM,Group Play,Boise Thorns FC ECNL G07,0,2,Northwest Elite FC ECNL G07,Boise Timbers|Thorns - Soccer Complex,Field 2,On Time,499609
+2024-04-28,01:00 PM,Group Play,PacNW SC ECNL G07,1,2,XF Academy ECNL G07,Karl Grosch Soccer Field ,Karl Grosch Field,On Time,499613
+2024-04-28,03:00 PM,Group Play,Washington Premier ECNL G07,0,2,Seattle United ECNL G07,WPFC Field Complex,Field 3,On Time,499617
+2024-05-04,08:00 AM,Group Play,Utah Avalanche ECNL G07,6,1,Washington Premier ECNL G07,St. Joseph Catholic High School,Turf Field,On Time,499629
+2024-05-04,09:00 AM,Group Play,La Roca FC ECNL G07,3,0,PacNW SC ECNL G07,La Roca Park,Field 1,On Time,499625
+2024-05-04,01:00 PM,Group Play,Boise Thorns FC ECNL G07,1,3,XF Academy ECNL G07,Boise Timbers|Thorns - Soccer Complex,Field 1,On Time,499633
+2024-05-05,09:00 AM,Group Play,Boise Thorns FC ECNL G07,2,4,Seattle United ECNL G07,Boise Timbers|Thorns - Soccer Complex,Field 2,On Time,499621
+2024-05-05,11:00 AM,Group Play,La Roca FC ECNL G07,6,1,Washington Premier ECNL G07,La Roca Park,Field 1,On Time,499637
+2024-05-05,01:30 PM,Group Play,Utah Avalanche ECNL G07,4,1,PacNW SC ECNL G07,St. Joseph Catholic High School,Grass Field,On Time,499641
+2024-05-11,11:00 AM,Group Play,XF Academy ECNL G07,2,0,Seattle United ECNL G07,Marymoor Park,#4 (Turf),On Time,499665
+2024-05-11,01:00 PM,Group Play,Boise Thorns FC ECNL G07,0,6,La Roca FC ECNL G07,Boise Timbers|Thorns - Soccer Complex,Field 1,On Time,499645
+2024-05-11,01:00 PM,Group Play,Utah Avalanche ECNL G07,2,1,Eastside FC ECNL G07,Boise Timbers|Thorns - Soccer Complex,Field 3,On Time,499649
+2024-05-12,11:00 AM,Group Play,PacNW SC ECNL G07,2,1,Washington Premier ECNL G07,Saghalie Park (behind Middle School),Field 1,On Time,499661
+2024-05-12,01:00 PM,Group Play,Boise Thorns FC ECNL G07,0,3,Utah Avalanche ECNL G07,Boise Timbers|Thorns - Soccer Complex,Field 2,On Time,499653
+2024-05-12,01:00 PM,Group Play,Eastside FC ECNL G07,1,7,La Roca FC ECNL G07,BTT Soccer Complex,Field 3,On Time,499657
+2024-05-19,01:00 PM,Group Play,Northwest Elite FC ECNL G07,3,3,Seattle United ECNL G07,Buckman Field Park,FOOTBALL,On Time,499397

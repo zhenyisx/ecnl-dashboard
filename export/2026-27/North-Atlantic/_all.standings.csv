@@ -1,0 +1,61 @@
+rank,team,club,teamID,gp,w,l,d,pts,ppg,gf,ga,gd,division,flight
+1,Bethesda SC ECNL G2013/14,Bethesda SC,135171,0,0,0,0,0,0.0,0,0,0,GU13,ECNL
+2,FC DELCO ECNL G2013/14,FC DELCO,132885,0,0,0,0,0,0.0,0,0,0,GU13,ECNL
+3,HEX FC Bucks ECNL G2013/14,HEX FC,131588,0,0,0,0,0,0.0,0,0,0,GU13,ECNL
+4,Maryland United FC ECNL G2013/14,Maryland United Football Club,82349,0,0,0,0,0,0.0,0,0,0,GU13,ECNL
+5,Match Fit Surf ECNL G2013/14,Match Fit Surf,78082,0,0,0,0,0,0.0,0,0,0,GU13,ECNL
+6,PDA Blue ECNL G2013/14,PDA Blue (North),128076,0,0,0,0,0,0.0,0,0,0,GU13,ECNL
+7,PDA White ECNL G2013/14,PDA White (Shore),128277,0,0,0,0,0,0.0,0,0,0,GU13,ECNL
+8,Penn Fusion Soccer Academy ECNL G2013/14,Penn Fusion Soccer Academy,135477,0,0,0,0,0,0.0,0,0,0,GU13,ECNL
+9,Philadelphia Ukranian Nationals ECNL G2013/14,Philadelphia Ukrainian Nationals,134968,0,0,0,0,0,0.0,0,0,0,GU13,ECNL
+10,Pipeline SC ECNL G2013/14,Pipeline SC,110326,0,0,0,0,0,0.0,0,0,0,GU13,ECNL
+1,Bethesda SC ECNL G2012/13,Bethesda SC,135183,0,0,0,0,0,0.0,0,0,0,GU14,ECNL
+2,FC DELCO ECNL G2012/13,FC DELCO,94408,0,0,0,0,0,0.0,0,0,0,GU14,ECNL
+3,HEX FC Bucks ECNL G2012/13,HEX FC,131592,0,0,0,0,0,0.0,0,0,0,GU14,ECNL
+4,Maryland United FC ECNL G2012/13,Maryland United Football Club,95035,0,0,0,0,0,0.0,0,0,0,GU14,ECNL
+5,Match Fit Surf ECNL G2012/13,Match Fit Surf,43460,0,0,0,0,0,0.0,0,0,0,GU14,ECNL
+6,PDA Blue ECNL G2012/13,PDA Blue (North),128078,0,0,0,0,0,0.0,0,0,0,GU14,ECNL
+7,PDA White ECNL G2012/13,PDA White (Shore),128279,0,0,0,0,0,0.0,0,0,0,GU14,ECNL
+8,Penn Fusion Soccer Academy ECNL G2012/13,Penn Fusion Soccer Academy,135481,0,0,0,0,0,0.0,0,0,0,GU14,ECNL
+9,Philadelphia Ukranian Nationals ECNL G2012/13,Philadelphia Ukrainian Nationals,134967,0,0,0,0,0,0.0,0,0,0,GU14,ECNL
+10,Pipeline SC ECNL G2012/13,Pipeline SC,79385,0,0,0,0,0,0.0,0,0,0,GU14,ECNL
+1,Bethesda SC ECNL G2011/12,Bethesda SC,135173,0,0,0,0,0,0.0,0,0,0,GU15,ECNL
+2,FC DELCO ECNL G2011/12,FC DELCO,48170,0,0,0,0,0,0.0,0,0,0,GU15,ECNL
+3,HEX FC Bucks ECNL G2011/12,HEX FC,131593,0,0,0,0,0,0.0,0,0,0,GU15,ECNL
+4,Maryland United FC ECNL G2011/12,Maryland United Football Club,118684,0,0,0,0,0,0.0,0,0,0,GU15,ECNL
+5,Match Fit Surf ECNL G2011/12,Match Fit Surf,54497,0,0,0,0,0,0.0,0,0,0,GU15,ECNL
+6,PDA Blue ECNL G2011/12,PDA Blue (North),128080,0,0,0,0,0,0.0,0,0,0,GU15,ECNL
+7,PDA White ECNL G2011/12,PDA White (Shore),128281,0,0,0,0,0,0.0,0,0,0,GU15,ECNL
+8,Penn Fusion Soccer Academy ECNL G2011/12,Penn Fusion Soccer Academy,135485,0,0,0,0,0,0.0,0,0,0,GU15,ECNL
+9,Philadelphia Ukrainian Nationals ECNL G2011/12,Philadelphia Ukrainian Nationals,134966,0,0,0,0,0,0.0,0,0,0,GU15,ECNL
+10,Pipeline SC ECNL G2011/12,Pipeline SC,55341,0,0,0,0,0,0.0,0,0,0,GU15,ECNL
+1,Bethesda SC ECNL G2010/11,Bethesda SC,135174,0,0,0,0,0,0.0,0,0,0,GU16,ECNL
+2,FC DELCO ECNL G2010/11,FC DELCO,68932,0,0,0,0,0,0.0,0,0,0,GU16,ECNL
+3,HEX FC Bucks ECNL G2010/11,HEX FC,131595,0,0,0,0,0,0.0,0,0,0,GU16,ECNL
+4,Maryland United FC ECNL G2010/11,Maryland United Football Club,69710,0,0,0,0,0,0.0,0,0,0,GU16,ECNL
+5,Match Fit Surf ECNL G2010/11,Match Fit Surf,34875,0,0,0,0,0,0.0,0,0,0,GU16,ECNL
+6,PDA Blue ECNL G2010/11,PDA Blue (North),128082,0,0,0,0,0,0.0,0,0,0,GU16,ECNL
+7,PDA White ECNL G2010/11,PDA White (Shore),128283,0,0,0,0,0,0.0,0,0,0,GU16,ECNL
+8,Penn Fusion Soccer Academy ECNL G2010/11,Penn Fusion Soccer Academy,135489,0,0,0,0,0,0.0,0,0,0,GU16,ECNL
+9,Philadelphia Ukrainian Nationals ECNL G2010/11,Philadelphia Ukrainian Nationals,134965,0,0,0,0,0,0.0,0,0,0,GU16,ECNL
+10,Pipeline SC ECNL G2010/11,Pipeline SC,53320,0,0,0,0,0,0.0,0,0,0,GU16,ECNL
+1,Bethesda SC ECNL G2009/10,Bethesda SC,135176,0,0,0,0,0,0.0,0,0,0,GU17,ECNL
+2,FC DELCO ECNL G2009/10,FC DELCO,59671,0,0,0,0,0,0.0,0,0,0,GU17,ECNL
+3,HEX FC Bucks ECNL G2009/10,HEX FC,131597,0,0,0,0,0,0.0,0,0,0,GU17,ECNL
+4,Maryland United FC ECNL G2009/10,Maryland United Football Club,62050,0,0,0,0,0,0.0,0,0,0,GU17,ECNL
+5,Match Fit Surf ECNL G2009/10,Match Fit Surf,21396,0,0,0,0,0,0.0,0,0,0,GU17,ECNL
+6,PDA Blue ECNL G2009/10,PDA Blue (North),128084,0,0,0,0,0,0.0,0,0,0,GU17,ECNL
+7,PDA White ECNL G2009/10,PDA White (Shore),128285,0,0,0,0,0,0.0,0,0,0,GU17,ECNL
+8,Penn Fusion Soccer Academy ECNL G2009/10,Penn Fusion Soccer Academy,135493,0,0,0,0,0,0.0,0,0,0,GU17,ECNL
+9,Philadelphia Ukrainian Nationals ECNL G2009/10,Philadelphia Ukrainian Nationals,134964,0,0,0,0,0,0.0,0,0,0,GU17,ECNL
+10,Pipeline SC ECNL G2009/10,Pipeline SC,46948,0,0,0,0,0,0.0,0,0,0,GU17,ECNL
+1,Bethesda SC ECNL G2008/09,Bethesda SC,135177,0,0,0,0,0,0.0,0,0,0,GU18/19,ECNL
+2,FC DELCO ECNL G2008/09,FC DELCO,46942,0,0,0,0,0,0.0,0,0,0,GU18/19,ECNL
+3,HEX FC Bucks ECNL G2008/09,HEX FC,131600,0,0,0,0,0,0.0,0,0,0,GU18/19,ECNL
+4,Maryland United FC ECNL G2008/09,Maryland United Football Club,46944,0,0,0,0,0,0.0,0,0,0,GU18/19,ECNL
+5,Match Fit Surf ECNL G2008/09,Match Fit Surf,46947,0,0,0,0,0,0.0,0,0,0,GU18/19,ECNL
+6,PDA Blue ECNL G2008/09,PDA Blue (North),128086,0,0,0,0,0,0.0,0,0,0,GU18/19,ECNL
+7,PDA White ECNL G2008/09,PDA White (Shore),128287,0,0,0,0,0,0.0,0,0,0,GU18/19,ECNL
+8,Penn Fusion Soccer Academy ECNL G2008/09,Penn Fusion Soccer Academy,135497,0,0,0,0,0,0.0,0,0,0,GU18/19,ECNL
+9,Philadelphia Ukrainian Nationals ECNL G2008/09,Philadelphia Ukrainian Nationals,134963,0,0,0,0,0,0.0,0,0,0,GU18/19,ECNL
+10,Pipeline SC ECNL G2008/09,Pipeline SC,45827,0,0,0,0,0,0.0,0,0,0,GU18/19,ECNL

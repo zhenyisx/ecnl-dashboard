@@ -1,0 +1,103 @@
+rank,team,club,teamID,gp,w,l,d,pts,ppg,gf,ga,gd,division,flight
+1,Legends FC ECNL G06/05,Legends FC (CA),4624,24,18,4,2,56,2.33,71,28,43,G2006/2005,Mojave
+2,LA Breakers FC ECNL G06/05,No Club Selection,19489,24,17,5,2,53,2.21,53,30,23,G2006/2005,Mojave
+3,SLAMMERS FC ECNL G06/05,Slammers FC,9292,24,14,5,5,47,1.96,58,25,33,G2006/2005,Mojave
+4,Beach FC ECNL G06/05,Beach Futbol Club,46286,24,14,7,3,45,1.88,52,28,24,G2006/2005,Mojave
+5,LAFC So Cal ECNL G06/05,LAFC So Cal,45889,23,10,8,5,35,1.52,43,34,9,G2006/2005,Mojave
+6,Utah Royals FC-AZ ECNL G06/05,Utah Royals FC - AZ,56528,24,10,13,1,31,1.29,32,52,-20,G2006/2005,Mojave
+7,Heat FC ECNL G06/05,LV Heat Surf SC ,20442,24,5,13,6,21,0.88,33,66,-33,G2006/2005,Mojave
+8,Eagles SC ECNL G06/05,No Club Selection,35181,24,4,17,3,15,0.63,18,63,-45,G2006/2005,Mojave
+9,Sporting California USA ECNL G06,Sporting California USA,20440,23,4,18,1,13,0.57,20,63,-43,G2006/2005,Mojave
+1,San Diego Surf ECNL G06/05,San Diego Surf Soccer Club,81458,23,21,2,0,63,2.74,110,20,90,G2006/2005,Sonoran
+2,Slammers FC HB Koge ECNL G06/05,Slammers FC HB Koge,17118,23,19,3,1,58,2.52,102,16,86,G2006/2005,Sonoran
+3,So Cal Blues ECNL G06/05,So Cal Blues,13344,23,12,7,4,40,1.74,40,30,10,G2006/2005,Sonoran
+4,Rebels SC ECNL G06/05,Rebels Soccer Club,35184,23,12,9,2,38,1.65,49,27,22,G2006/2005,Sonoran
+5,Arizona Arsenal ECNL G06/05,Arizona Arsenal Soccer Club,20434,23,9,14,0,27,1.17,27,73,-46,G2006/2005,Sonoran
+6,Pateadores ECNL G06/05,Pateadores Soccer Club,68897,23,5,13,5,20,0.87,27,50,-23,G2006/2005,Sonoran
+7,Phoenix Rising ECNL G06/05,Phoenix Rising FC,20445,23,2,17,4,10,0.43,23,80,-57,G2006/2005,Sonoran
+8,Del Mar Sharks ECNL G06/05,Legends FC - Del Mar,9899,23,1,22,0,3,0.13,9,82,-73,G2006/2005,Sonoran
+1,Beach FC ECNL G07,Beach Futbol Club,46284,24,22,2,0,66,2.75,88,16,72,G2007,Mojave
+2,Legends FC ECNL G07,Legends FC (CA),28540,24,18,3,3,57,2.38,68,17,51,G2007,Mojave
+3,SLAMMERS FC ECNL G07,Slammers FC,18022,24,14,7,3,45,1.88,53,36,17,G2007,Mojave
+4,LAFC So Cal ECNL G07,LAFC So Cal,45888,24,11,8,5,38,1.58,39,27,12,G2007,Mojave
+5,LA Breakers FC ECNL G07,No Club Selection,34925,24,11,11,2,35,1.46,51,51,0,G2007,Mojave
+6,Eagles SC ECNL G07,No Club Selection,1153,24,9,11,4,31,1.29,38,52,-14,G2007,Mojave
+7,Utah Royals FC-AZ ECNL G07,Utah Royals FC - AZ,56527,24,8,10,6,30,1.25,37,39,-2,G2007,Mojave
+8,Sporting California USA ECNL G07,Sporting California USA,21540,24,2,17,5,11,0.46,10,57,-47,G2007,Mojave
+9,Heat FC ECNL G07,LV Heat Surf SC ,35182,24,2,19,3,9,0.38,23,75,-52,G2007,Mojave
+1,Slammers FC HB Koge ECNL G07,Slammers FC HB Koge,8995,23,20,1,2,62,2.7,75,15,60,G2007,Sonoran
+2,San Diego Surf ECNL G07,San Diego Surf Soccer Club,45876,23,18,5,0,54,2.35,65,23,42,G2007,Sonoran
+3,Rebels SC ECNL G07,Rebels Soccer Club,9867,23,12,9,2,38,1.65,60,50,10,G2007,Sonoran
+4,Del Mar Sharks ECNL G07 ,Legends FC - Del Mar,35180,23,9,10,4,31,1.35,42,47,-5,G2007,Sonoran
+5,Phoenix Rising ECNL G07,Phoenix Rising FC,35183,23,9,11,3,30,1.3,27,43,-16,G2007,Sonoran
+6,Pateadores ECNL G07,Pateadores Soccer Club,68895,23,5,15,3,18,0.78,30,62,-32,G2007,Sonoran
+7,So Cal Blues ECNL G07,So Cal Blues,35189,23,2,16,5,11,0.48,14,49,-35,G2007,Sonoran
+8,Arizona Arsenal ECNL G07,Arizona Arsenal Soccer Club,33451,23,2,19,2,8,0.35,22,83,-61,G2007,Sonoran
+1,Legends FC ECNL G08,Legends FC (CA),8362,24,19,2,3,60,2.5,46,14,32,G2008,Mojave
+2,Beach FC ECNL G08,Beach Futbol Club,60045,24,16,6,2,50,2.08,45,22,23,G2008,Mojave
+3,Eagles SC ECNL G08,Eagles SC,6122,24,14,7,3,45,1.88,46,29,17,G2008,Mojave
+4,SLAMMERS FC ECNL G08,Slammers FC,9288,24,10,10,4,34,1.42,37,29,8,G2008,Mojave
+5,Utah Royals FC-AZ ECNL G08,Utah Royals FC - AZ,56526,24,7,9,8,29,1.21,24,26,-2,G2008,Mojave
+6,LAFC So Cal ECNL G08,LAFC So Cal,45887,24,8,15,1,25,1.04,16,36,-20,G2008,Mojave
+7,Heat FC ECNL G08,LV Heat Surf SC ,46745,24,5,16,3,18,0.75,19,50,-31,G2008,Mojave
+8,Sporting California USA ECNL G08,Sporting California USA,28062,24,4,17,3,15,0.63,17,67,-50,G2008,Mojave
+9,LA Breakers FC ECNL G08,No Club Selection,29129,24,3,18,3,12,0.5,16,52,-36,G2008,Mojave
+1,San Diego Surf ECNL G08,San Diego Surf Soccer Club,45875,23,20,0,3,63,2.74,75,13,62,G2008,Sonoran
+2,So Cal Blues ECNL G08,So Cal Blues,29588,23,18,2,3,57,2.48,51,11,40,G2008,Sonoran
+3,Slammers FC HB Koge ECNL G08,Slammers FC HB Koge,29720,23,16,2,5,53,2.3,71,13,58,G2008,Sonoran
+4,Rebels SC ECNL G08,Rebels Soccer Club,19029,23,13,7,3,42,1.83,47,36,11,G2008,Sonoran
+5,Phoenix Rising ECNL G08,Phoenix Rising FC,45886,23,7,13,3,24,1.04,20,40,-20,G2008,Sonoran
+6,Pateadores ECNL G08,Pateadores Soccer Club,68894,23,6,12,5,23,1.0,15,31,-16,G2008,Sonoran
+7,Del Mar Sharks ECNL G08 ,Legends FC - Del Mar,46835,23,4,17,2,14,0.61,21,45,-24,G2008,Sonoran
+8,Arizona Arsenal ECNL G08,Arizona Arsenal Soccer Club,45882,23,1,18,4,7,0.3,9,61,-52,G2008,Sonoran
+1,Beach FC ECNL G09,Beach Futbol Club,60046,24,17,4,3,54,2.25,56,32,24,G2009,Mojave
+2,Utah Royals FC-AZ ECNL G09,Utah Royals FC - AZ,56530,24,15,5,4,49,2.04,68,27,41,G2009,Mojave
+3,Legends FC ECNL G09,Legends FC (CA),10361,24,14,6,4,46,1.92,49,26,23,G2009,Mojave
+4,Eagles SC ECNL G09,Eagles SC,5544,24,11,9,4,37,1.54,45,26,19,G2009,Mojave
+5,SLAMMERS FC ECNL G09,Slammers FC,42498,24,10,8,6,36,1.5,37,41,-4,G2009,Mojave
+6,LA Breakers FC ECNL G09,LA Breakers FC,55512,24,5,14,5,20,0.83,23,40,-17,G2009,Mojave
+7,Sporting California USA ECNL G09,Sporting California USA,59459,24,4,16,4,16,0.67,20,53,-33,G2009,Mojave
+8,LAFC So Cal ECNL G09,LAFC So Cal,59866,24,4,17,3,15,0.63,23,41,-18,G2009,Mojave
+9,Heat FC ECNL G09,LV Heat Surf SC ,50614,24,1,21,2,5,0.21,18,94,-76,G2009,Mojave
+1,Arizona Arsenal ECNL G09,Arizona Arsenal Soccer Club,58586,23,16,4,3,51,2.22,60,17,43,G2009,Sonoran
+2,San Diego Surf ECNL G09,San Diego Surf Soccer Club,61178,23,15,5,3,48,2.09,63,22,41,G2009,Sonoran
+3,Slammers FC HB Koge ECNL G09,Slammers FC HB Koge,54921,23,14,7,2,44,1.91,52,32,20,G2009,Sonoran
+4,So Cal Blues ECNL G09,So Cal Blues,60035,23,12,6,5,41,1.78,39,24,15,G2009,Sonoran
+5,Del Mar Sharks ECNL G09 ,Legends FC - Del Mar,53810,23,10,7,6,36,1.57,36,36,0,G2009,Sonoran
+6,Pateadores ECNL G09,Pateadores Soccer Club,68893,23,8,9,6,30,1.3,24,23,1,G2009,Sonoran
+7,Phoenix Rising ECNL G09,Phoenix Rising FC,59771,23,8,10,5,29,1.26,23,40,-17,G2009,Sonoran
+8,Rebels SC ECNL G09,Rebels Soccer Club,26385,23,2,18,3,9,0.39,7,69,-62,G2009,Sonoran
+1,SLAMMERS FC ECNL G10,Slammers FC,64956,24,18,4,2,56,2.33,49,14,35,G2010,Mojave
+2,Legends FC ECNL G10,Legends FC (CA),65115,24,16,4,4,52,2.17,45,22,23,G2010,Mojave
+3,Beach FC ECNL G10,Beach Futbol Club,18443,24,13,7,4,43,1.79,38,28,10,G2010,Mojave
+4,Eagles SC ECNL G10,Eagles SC,62045,24,11,7,6,39,1.63,42,35,7,G2010,Mojave
+5,Heat FC ECNL G10,LV Heat Surf SC ,42984,24,12,10,2,38,1.58,43,37,6,G2010,Mojave
+6,LAFC So Cal ECNL G10,LAFC So Cal,65560,24,9,10,5,32,1.33,39,36,3,G2010,Mojave
+7,Sporting California USA ECNL G10,Sporting California USA,69733,24,8,14,2,26,1.08,27,54,-27,G2010,Mojave
+8,LA Breakers FC ECNL G10,LA Breakers FC,68845,24,3,16,5,14,0.58,24,48,-24,G2010,Mojave
+9,Utah Royals FC-AZ ECNL G10,Utah Royals FC - AZ,62330,24,2,20,2,8,0.33,9,53,-44,G2010,Mojave
+1,Slammers FC HB Koge ECNL G10,Slammers FC HB Koge,64905,23,20,2,1,61,2.65,73,12,61,G2010,Sonoran
+2,San Diego Surf ECNL G10,San Diego Surf Soccer Club,62104,23,19,2,2,59,2.57,113,18,95,G2010,Sonoran
+3,So Cal Blues ECNL G10,So Cal Blues,69520,23,10,8,5,35,1.52,39,32,7,G2010,Sonoran
+4,Phoenix Rising ECNL G10,Phoenix Rising FC,68888,23,9,12,2,29,1.26,32,43,-11,G2010,Sonoran
+5,Rebels SC ECNL G10,Rebels Soccer Club,21001,23,7,12,4,25,1.09,35,52,-17,G2010,Sonoran
+6,Del Mar Sharks ECNL G10 ,Legends FC - Del Mar,64321,23,6,13,4,22,0.96,23,66,-43,G2010,Sonoran
+7,Pateadores ECNL G10,Pateadores Soccer Club,68892,23,5,15,3,18,0.78,24,57,-33,G2010,Sonoran
+8,Arizona Arsenal ECNL G10,Arizona Arsenal Soccer Club,65042,23,3,15,5,14,0.61,27,75,-48,G2010,Sonoran
+1,Eagles SC ECNL G11,Eagles SC,25917,24,17,2,5,56,2.33,54,21,33,G2011,Mojave
+2,Legends FC ECNL G11,Legends FC (CA),24716,24,15,4,5,50,2.08,46,17,29,G2011,Mojave
+3,SLAMMERS FC ECNL G11,Slammers FC,61426,24,12,3,9,45,1.88,49,21,28,G2011,Mojave
+4,Beach FC ECNL G11,Beach Futbol Club,77421,24,10,8,6,36,1.5,46,33,13,G2011,Mojave
+5,Utah Royals FC-AZ ECNL G11,Utah Royals FC - AZ,77350,24,7,10,7,28,1.17,25,28,-3,G2011,Mojave
+6,LAFC So Cal ECNL G11,LAFC So Cal,82136,23,6,12,5,23,1.0,24,39,-15,G2011,Mojave
+7,Sporting California USA ECNL G11,Sporting California USA,65758,23,4,12,7,19,0.83,17,40,-23,G2011,Mojave
+8,Heat FC ECNL G11,LV Heat Surf SC ,48247,24,4,14,6,18,0.75,13,66,-53,G2011,Mojave
+9,LA Breakers FC ECNL G11,LA Breakers FC,82166,24,3,13,8,17,0.71,18,42,-24,G2011,Mojave
+1,So Cal Blues ECNL G11,So Cal Blues,82132,23,19,0,4,61,2.65,99,4,95,G2011,Sonoran
+2,San Diego Surf ECNL G11,San Diego Surf Soccer Club,77020,23,17,2,4,55,2.39,94,19,75,G2011,Sonoran
+3,Slammers FC HB Koge ECNL G11,Slammers FC HB Koge,64493,23,15,1,7,52,2.26,62,13,49,G2011,Sonoran
+4,Pateadores ECNL G11,Pateadores Soccer Club,75387,23,10,8,5,35,1.52,29,26,3,G2011,Sonoran
+5,Phoenix Rising ECNL G11,Phoenix Rising FC,62249,23,8,12,3,27,1.17,41,45,-4,G2011,Sonoran
+6,Arizona Arsenal ECNL G11,Arizona Arsenal Soccer Club,77284,23,4,13,6,18,0.78,15,50,-35,G2011,Sonoran
+7,Del Mar Sharks ECNL G11 ,Legends FC - Del Mar,79944,23,3,17,3,12,0.52,20,66,-46,G2011,Sonoran
+8,Rebels SC ECNL G11,Rebels Soccer Club,81798,23,0,23,0,0,0.0,1,123,-122,G2011,Sonoran

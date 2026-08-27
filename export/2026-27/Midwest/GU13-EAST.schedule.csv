@@ -1,0 +1,87 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2026-08-29,09:00 AM,Group Play,Chicago Inter ECNL G2013/14,,,Missouri Rush ECNL G2013/14,Chicago Inter Complex,Field 1,On Time,1083675
+2026-08-29,01:00 PM,Group Play,Sporting Iowa ECNL G2013/14,,,Rockford Raptors FC ECNL G2013/14,Hy-Vee Multiplex,White #1,On Time,1083679
+2026-08-29,01:00 PM,Group Play,Liverpool FC MI ECNL G2013/14,,,St. Louis Scott Gallagher Green ECNL G2013/14,Avondale High School,Stadium,On Time,1083683
+2026-08-29,03:30 PM,Group Play,Michigan Hawks ECNL G2013/14,,,Michigan Hawks Magic ECNL G2013/14,St. Joe's Sports Dome,St. Joe's Dome,On Time,1083685
+2026-08-29,06:30 PM,Group Play,Nationals SC ECNL G2013/14,,,St. Louis Scott Gallagher Navy ECNL G2013/14,Royal Oak High School,Field 1,On Time,1083681
+2026-08-30,09:00 AM,Group Play,Sporting Iowa ECNL G2013/14,,,FC Wisconsin ECNL G2013/14,Hy-Vee Multiplex,White #1,On Time,1083687
+2026-08-30,10:15 AM,Group Play,Nationals SC ECNL G2013/14,,,St. Louis Scott Gallagher Green ECNL G2013/14,Total Soccer Wixom, Old Trafford,On Time,1083691
+2026-08-30,01:00 PM,Group Play,Liverpool FC MI ECNL G2013/14,,,St. Louis Scott Gallagher Navy ECNL G2013/14,Oakland University Upper Fields,South,On Time,1083693
+2026-09-05,01:00 PM,Group Play,Liverpool FC MI ECNL G2013/14,,,Michigan Hawks Magic ECNL G2013/14,UWM Sports Complex,Field 3,On Time,1083699
+2026-09-05,05:30 PM,Group Play,Michigan Hawks ECNL G2013/14,,,Missouri Rush ECNL G2013/14,Schoolcraft Turf,SC Turf,On Time,1083701
+2026-09-06,02:00 PM,Group Play,Michigan Hawks Magic ECNL G2013/14,,,Missouri Rush ECNL G2013/14,Jaycee Park,Jaycee Turf,On Time,1083711
+2026-09-26,10:45 AM,Group Play,Chicago Inter ECNL G2013/14,,,Eclipse Select Soccer Club ECNL G2013/14,Chicago Inter Complex,Field 2,On Time,1083715
+2026-09-26,11:00 AM,Group Play,Rockford Raptors FC ECNL G2013/14,,,St. Louis Scott Gallagher Green ECNL G2013/14,Mercyhealth Sportscore Two,Field TBA (11v11),On Time,1083719
+2026-09-26,11:45 AM,Group Play,FC Wisconsin ECNL G2013/14,,,St. Louis Scott Gallagher Navy ECNL G2013/14,FC Wisconsin Soccer Park,Field 2 - Hegarty Field,On Time,1083717
+2026-09-26,05:30 PM,Group Play,Michigan Hawks ECNL G2013/14,,,Kansas City Athletics ECNL G2013/14,St. Joe's Sports Dome,St. Joe's Dome,On Time,1083723
+2026-09-26,06:00 PM,Group Play,Michigan Hawks Magic ECNL G2013/14,,,Sporting Blue Valley ECNL G2013/14,Schoolcraft Turf,SC Turf,On Time,1083725
+2026-09-26,06:30 PM,Group Play,Nationals SC ECNL G2013/14,,,Liverpool FC MI ECNL G2013/14,Oakland University Upper Fields,North field,On Time,1083721
+2026-09-27,TBD,Group Play,Eclipse Select Soccer Club ECNL G2013/14,,,Rockford Raptors FC ECNL G2013/14,,,On Time,1083729
+2026-09-27,09:00 AM,Group Play,Chicago Inter ECNL G2013/14,,,St. Louis Scott Gallagher Navy ECNL G2013/14,Chicago Inter Complex,Field 1,On Time,1083731
+2026-09-27,09:00 AM,Group Play,FC Wisconsin ECNL G2013/14,,,St. Louis Scott Gallagher Green ECNL G2013/14,FC Wisconsin Soccer Park,Field 2 - Hegarty Field,On Time,1083733
+2026-09-27,01:10 PM,Group Play,Michigan Hawks ECNL G2013/14,,,Sporting Blue Valley ECNL G2013/14,Jaycee Park,Jaycee Turf,On Time,1083735
+2026-09-27,03:00 PM,Group Play,Michigan Hawks Magic ECNL G2013/14,,,Kansas City Athletics ECNL G2013/14,Catholic Central High School,Football Field,On Time,1083737
+2026-10-03,10:30 AM,Group Play,Chicago Inter ECNL G2013/14,,,Michigan Hawks ECNL G2013/14,Chicago Inter Complex,Field 2,On Time,1083739
+2026-10-03,12:00 PM,Group Play,FC Wisconsin ECNL G2013/14,,,Michigan Hawks Magic ECNL G2013/14,University School Milwaukee,Stadium,On Time,1083741
+2026-10-04,10:00 AM,Group Play,FC Wisconsin ECNL G2013/14,,,Michigan Hawks ECNL G2013/14,University School Milwaukee,Stadium,On Time,1083753
+2026-10-04,10:30 AM,Group Play,Chicago Inter ECNL G2013/14,,,Michigan Hawks Magic ECNL G2013/14,Chicago Inter Complex,Field 2,On Time,1083751
+2026-10-10,TBD,Group Play,Eclipse Select Soccer Club ECNL G2013/14,,,FC Wisconsin ECNL G2013/14,,,On Time,1083759
+2026-10-10,TBD,Group Play,Liverpool FC MI ECNL G2013/14,,,Michigan Hawks ECNL G2013/14,,,On Time,1083763
+2026-10-10,08:00 PM,Group Play,Michigan Hawks Magic ECNL G2013/14,,,Nationals SC ECNL G2013/14,St. Joe's Sports Dome,St. Joe's Dome,On Time,1083761
+2026-10-17,TBD,Group Play,Eclipse Select Soccer Club ECNL G2013/14,,,Michigan Hawks ECNL G2013/14,,,On Time,1083771
+2026-10-17,TBD,Group Play,Rockford Raptors FC ECNL G2013/14,,,Michigan Hawks Magic ECNL G2013/14,,,On Time,1083775
+2026-10-18,TBD,Group Play,Eclipse Select Soccer Club ECNL G2013/14,,,Michigan Hawks Magic ECNL G2013/14,,,On Time,1083785
+2026-10-18,TBD,Group Play,Rockford Raptors FC ECNL G2013/14,,,Michigan Hawks ECNL G2013/14,,,On Time,1083787
+2026-10-31,TBD,Group Play,FC Wisconsin ECNL G2013/14,,,Kansas City Athletics ECNL G2013/14,,,On Time,1083817
+2026-10-31,TBD,Group Play,Rockford Raptors FC ECNL G2013/14,,,Sporting Blue Valley ECNL G2013/14,,,On Time,1083819
+2026-10-31,11:30 AM,Group Play,Nationals SC ECNL G2013/14,,,Chicago Inter ECNL G2013/14,Evolution Sportsplex,Field 1,On Time,1083815
+2026-10-31,01:00 PM,Group Play,Liverpool FC MI ECNL G2013/14,,,Eclipse Select Soccer Club ECNL G2013/14,Avondale High School,Stadium,On Time,1083813
+2026-11-01,TBD,Group Play,FC Wisconsin ECNL G2013/14,,,Sporting Blue Valley ECNL G2013/14,,,On Time,1083823
+2026-11-01,TBD,Group Play,Rockford Raptors FC ECNL G2013/14,,,Kansas City Athletics ECNL G2013/14,,,On Time,1083825
+2026-11-01,01:00 PM,Group Play,Liverpool FC MI ECNL G2013/14,,,Chicago Inter ECNL G2013/14,Avondale High School,Auxiliary,On Time,1083821
+2026-11-07,11:00 AM,Group Play,Liverpool FC MI ECNL G2013/14,,,FC Wisconsin ECNL G2013/14,Oakland University Upper Fields,North,On Time,1083831
+2026-11-07,02:00 PM,Group Play,Nationals SC ECNL G2013/14,,,Rockford Raptors FC ECNL G2013/14,Oakland University Upper Fields,North field,On Time,1083833
+2026-11-08,11:00 AM,Group Play,Liverpool FC MI ECNL G2013/14,,,Rockford Raptors FC ECNL G2013/14,Avondale High School,Stadium,On Time,1083839
+2026-11-08,01:00 PM,Group Play,Nationals SC ECNL G2013/14,,,FC Wisconsin ECNL G2013/14,Oakland University Upper Fields,North field,On Time,1083837
+2026-11-14,01:00 PM,Group Play,Liverpool FC MI ECNL G2013/14,,,MN Thunder Academy ECNL G2013/14,Avondale High School,Stadium,On Time,1083841
+2026-11-15,08:00 AM,Group Play,Nationals SC ECNL G2013/14,,,MN Thunder Academy ECNL G2013/14,Evolution Sportsplex,Field 1,On Time,1083843
+2026-11-21,TBD,Group Play,Eclipse Select Soccer Club ECNL G2013/14,,,MN Thunder Academy ECNL G2013/14,,,On Time,1083845
+2026-11-21,TBD,Group Play,Chicago Inter ECNL G2013/14,,,Rockford Raptors FC ECNL G2013/14,,,On Time,1083847
+2026-11-21,12:00 PM,Group Play,Michigan Hawks ECNL G2013/14,,,Nationals SC ECNL G2013/14,St. Joe's Sports Dome,St. Joe's Dome,On Time,1083849
+2026-11-22,10:45 AM,Group Play,Chicago Inter ECNL G2013/14,,,MN Thunder Academy ECNL G2013/14,Chicago Inter Complex,Field 2,On Time,1083855
+2027-03-13,TBD,Group Play,FC Wisconsin ECNL G2013/14,,,Rockford Raptors FC ECNL G2013/14,,,On Time,1083871
+2027-03-13,TBD,Group Play,Nationals SC ECNL G2013/14,,,Michigan Hawks Magic ECNL G2013/14,,,On Time,1083873
+2027-03-13,12:00 PM,Group Play,Michigan Hawks ECNL G2013/14,,,Liverpool FC MI ECNL G2013/14,St. Joe's Sports Dome,St. Joe's Dome,On Time,1083875
+2027-03-20,TBD,Group Play,Eclipse Select Soccer Club ECNL G2013/14,,,Nationals SC ECNL G2013/14,,,On Time,1083883
+2027-03-20,TBD,Group Play,Liverpool FC MI ECNL G2013/14,,,Missouri Rush ECNL G2013/14,,,On Time,1083887
+2027-03-20,11:30 AM,Group Play,Chicago Inter ECNL G2013/14,,,FC Wisconsin ECNL G2013/14,Providence Catholic HS Stadium,Field 1,On Time,1083885
+2027-03-20,02:00 PM,Group Play,Michigan Hawks Magic ECNL G2013/14,,,Michigan Hawks ECNL G2013/14,Schoolcraft Turf,SC Turf,On Time,1083889
+2027-03-21,TBD,Group Play,Liverpool FC MI ECNL G2013/14,,,FC Wisconsin ECNL G2013/14,,,On Time,1083895
+2027-04-10,TBD,Group Play,Nationals SC ECNL G2013/14,,,Eclipse Select Soccer Club ECNL G2013/14,,,On Time,1083905
+2027-04-10,TBD,Group Play,FC Wisconsin ECNL G2013/14,,,Chicago Inter ECNL G2013/14,,,On Time,1083907
+2027-04-10,12:00 PM,Group Play,Michigan Hawks ECNL G2013/14,,,MN Thunder Academy ECNL G2013/14,St. Joe's Sports Dome,St. Joe's Dome,On Time,1083911
+2027-04-10,04:00 PM,Group Play,Michigan Hawks Magic ECNL G2013/14,,,Liverpool FC MI ECNL G2013/14,St. Joe's Sports Dome,St. Joe's Dome,On Time,1083909
+2027-04-11,12:00 PM,Group Play,Michigan Hawks Magic ECNL G2013/14,,,MN Thunder Academy ECNL G2013/14,Schoolcraft Turf,SC Turf,On Time,1083917
+2027-04-17,TBD,Group Play,Eclipse Select Soccer Club ECNL G2013/14,,,Chicago Inter ECNL G2013/14,,,On Time,1083919
+2027-04-17,TBD,Group Play,Rockford Raptors FC ECNL G2013/14,,,FC Wisconsin ECNL G2013/14,,,On Time,1083921
+2027-04-24,TBD,Group Play,Liverpool FC MI ECNL G2013/14,,,Nationals SC ECNL G2013/14,,,On Time,1083947
+2027-04-24,12:00 PM,Group Play,Michigan Hawks ECNL G2013/14,,,Chicago Inter ECNL G2013/14,St. Joe's Sports Dome,St. Joe's Dome,On Time,1083943
+2027-04-24,04:00 PM,Group Play,Michigan Hawks Magic ECNL G2013/14,,,FC Wisconsin ECNL G2013/14,St. Joe's Sports Dome,St. Joe's Dome,On Time,1083945
+2027-04-25,12:00 PM,Group Play,Michigan Hawks ECNL G2013/14,,,FC Wisconsin ECNL G2013/14,Schoolcraft Turf,SC Turf,On Time,1083957
+2027-04-25,04:00 PM,Group Play,Michigan Hawks Magic ECNL G2013/14,,,Chicago Inter ECNL G2013/14,Schoolcraft Turf,SC Turf,On Time,1083955
+2027-05-01,TBD,Group Play,Eclipse Select Soccer Club ECNL G2013/14,,,Liverpool FC MI ECNL G2013/14,,,On Time,1083963
+2027-05-01,TBD,Group Play,Rockford Raptors FC ECNL G2013/14,,,Chicago Inter ECNL G2013/14,,,On Time,1083965
+2027-05-01,TBD,Group Play,Nationals SC ECNL G2013/14,,,Michigan Hawks ECNL G2013/14,,,On Time,1083967
+2027-05-08,12:00 PM,Group Play,Michigan Hawks ECNL G2013/14,,,Eclipse Select Soccer Club ECNL G2013/14,St. Joe's Sports Dome,St. Joe's Dome,On Time,1083983
+2027-05-08,12:00 PM,Group Play,Michigan Hawks Magic ECNL G2013/14,,,Rockford Raptors FC ECNL G2013/14,Jaycee Park,Jaycee Turf,On Time,1083985
+2027-05-09,12:00 PM,Group Play,Michigan Hawks Magic ECNL G2013/14,,,Eclipse Select Soccer Club ECNL G2013/14,Jaycee Park,Jaycee Turf,On Time,1083991
+2027-05-09,12:00 PM,Group Play,Michigan Hawks ECNL G2013/14,,,Rockford Raptors FC ECNL G2013/14,Schoolcraft Turf,SC Turf,On Time,1083993
+2027-05-15,TBD,Group Play,Rockford Raptors FC ECNL G2013/14,,,Eclipse Select Soccer Club ECNL G2013/14,,,On Time,1083995
+2027-05-15,TBD,Group Play,Chicago Inter ECNL G2013/14,,,Liverpool FC MI ECNL G2013/14,,,On Time,1083997
+2027-05-15,TBD,Group Play,FC Wisconsin ECNL G2013/14,,,Nationals SC ECNL G2013/14,,,On Time,1083999
+2027-05-16,TBD,Group Play,Rockford Raptors FC ECNL G2013/14,,,Liverpool FC MI ECNL G2013/14,,,On Time,1084009
+2027-05-16,TBD,Group Play,Chicago Inter ECNL G2013/14,,,Nationals SC ECNL G2013/14,,,On Time,1084011
+2027-05-16,TBD,Group Play,FC Wisconsin ECNL G2013/14,,,Eclipse Select Soccer Club ECNL G2013/14,,,On Time,1084013
+2027-05-16,08:00 AM,Group Play,Michigan Hawks ECNL G2013/14,,,Sporting Iowa ECNL G2013/14,Pinnacle Bank Soccer Complex ( Gretna Soccer Compl,Field 2,On Time,1084015
+2027-05-16,08:00 AM,Group Play,Gretna Elite Academy ECNL G2013/14,,,Michigan Hawks Magic ECNL G2013/14,Pinnacle Bank Soccer Complex ( Gretna Soccer Compl,Field 1,On Time,1084017
+2027-05-22,TBD,Group Play,Rockford Raptors FC ECNL G2013/14,,,Nationals SC ECNL G2013/14,,,On Time,1084023

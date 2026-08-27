@@ -1,0 +1,79 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2022-09-10,10:30 AM,Bracket,NCFC Youth ECNL G08,1,4,NC Fusion ECNL G08,WRAL ,Field 3,On Time,361675
+2022-09-10,11:00 AM,Bracket,Loudoun Soccer ECNL G08,4,0,VA Union ECNL G08,Loudoun Soccer Park,Field 1,On Time,361674
+2022-09-10,12:00 PM,Bracket,Beach FC (VA) ECNL G08,0,4,VDA ECNL G08,Hampton Roads Soccer Complex,Field 15,On Time,361671
+2022-09-10,03:00 PM,Bracket,Charlotte Independence ECNL G08,1,1,Arlington Soccer ECNL G08,Matthews Sportsplex,Field 7,On Time,361672
+2022-09-10,04:00 PM,Bracket,Charlotte SA ECNL G08,4,0,Fairfax BRAVE SC ECNL G08,OrthoCarolina Sportsplex,Field 5,On Time,361673
+2022-09-11,12:00 PM,Bracket,Charlotte Independence ECNL G08,1,2,Fairfax BRAVE SC ECNL G08,Field Day Park,Field 1,On Time,361677
+2022-09-11,01:00 PM,Bracket,Charlotte SA ECNL G08,2,3,Arlington Soccer ECNL G08,OrthoCarolina Sportsplex,Field 5,On Time,361676
+2022-09-11,01:00 PM,Bracket,NC Courage ECNL G08,1,0,Wilmington Hammerheads ECNL G08,WRAL Soccer Park,Field 5 (First Watch),On Time,361733
+2022-09-17,10:00 AM,Bracket,NC Courage ECNL G08,2,2,Charlotte Independence ECNL G08,WRAL Soccer Park,Field 5 (First Watch),On Time,361679
+2022-09-17,01:00 PM,Bracket,Beach FC (VA) ECNL G08,0,4,Charlotte SA ECNL G08,Hampton Roads Soccer Complex,Field 9,On Time,361678
+2022-09-17,01:00 PM,Bracket,Wilmington Hammerheads ECNL G08,2,2,NC Fusion ECNL G08,Cape Fear Regional Soccer Park,Field 3,On Time,361680
+2022-09-18,12:00 PM,Bracket,Beach FC (VA) ECNL G08,1,0,Charlotte Independence ECNL G08,Princess Anne Athletic Complex,PAAC 7,On Time,361681
+2022-09-18,03:00 PM,Bracket,Fairfax BRAVE SC ECNL G08,0,1,Richmond United ECNL G08,WT Woodson High School,Stadium Turf,On Time,361682
+2022-09-24,12:00 PM,Bracket,VA Union ECNL G08,2,1,Wilmington Hammerheads ECNL G08,Lewinsville Park,Field 3,On Time,361687
+2022-09-24,12:30 PM,Bracket,Arlington Soccer ECNL G08,4,3,Fairfax BRAVE SC ECNL G08,Long Bridge Park,Boeing #4,On Time,361683
+2022-09-24,01:00 PM,Bracket,Loudoun Soccer ECNL G08,1,5,NC Courage ECNL G08,Loudoun Soccer Park,Field 2,On Time,361684
+2022-09-24,02:00 PM,Bracket,VDA ECNL G08,9,1,NC Fusion ECNL G08,Ali Krieger Sports Complex (AKSC),Field 7,On Time,361685
+2022-09-24,03:00 PM,Bracket,Richmond United ECNL G08,1,1,NCFC Youth ECNL G08,West Creek,Field 6,On Time,361686
+2022-09-25,09:00 AM,Bracket,VA Union ECNL G08,1,2,NC Courage ECNL G08,Lewinsville Park,Field 3,On Time,361689
+2022-09-25,11:00 AM,Bracket,Richmond United ECNL G08,2,0,NC Fusion ECNL G08,West Creek,Field 6,On Time,361690
+2022-09-25,01:00 PM,Bracket,Loudoun Soccer ECNL G08,1,2,Wilmington Hammerheads ECNL G08,Loudoun Soccer Park,Field 2,On Time,361688
+2022-09-25,02:00 PM,Bracket,VDA ECNL G08,3,0,NCFC Youth ECNL G08,Ali Krieger Sports Complex (AKSC),Field 7,On Time,361691
+2022-10-01,08:30 AM,Bracket,Arlington Soccer ECNL G08,3,0,Loudoun Soccer ECNL G08,Long Bridge Park,Boeing #4,On Time,361693
+2022-10-01,10:30 AM,Bracket,VA Union ECNL G08,1,1,Richmond United ECNL G08,Lewinsville Park,Field 3,On Time,361695
+2022-10-02,11:00 AM,Bracket,Charlotte SA ECNL G08,1,0,NC Courage ECNL G08,OrthoCarolina Sportsplex,Field 5,On Time,361697
+2022-10-08,02:00 PM,Bracket,VDA ECNL G08,2,2,Richmond United ECNL G08,Chinn Park,Field 2,On Time,361698
+2022-10-15,10:00 AM,Bracket,Fairfax BRAVE SC ECNL G08,2,1,NCFC Youth ECNL G08,Robinson High School,Upper Turf,On Time,361701
+2022-10-15,11:00 AM,Bracket,Wilmington Hammerheads ECNL G08,1,0,Beach FC (VA) ECNL G08,Cape Fear Regional Soccer Park,Field 3,On Time,361699
+2022-10-15,11:00 AM,Bracket,VA Union ECNL G08,0,2,Charlotte Independence ECNL G08,Lewinsville Park,Field 3,On Time,361702
+2022-10-15,12:30 PM,Bracket,Arlington Soccer ECNL G08,8,1,NC Fusion ECNL G08,Long Bridge Park,Boeing #4,On Time,361700
+2022-10-15,01:00 PM,Bracket,Loudoun Soccer ECNL G08,3,1,Charlotte SA ECNL G08,Loudoun Soccer Park,Field 1,On Time,361703
+2022-10-16,08:30 AM,Bracket,Arlington Soccer ECNL G08,4,0,NCFC Youth ECNL G08,Long Bridge Park,Boeing #4,On Time,361704
+2022-10-16,10:30 AM,Bracket,VA Union ECNL G08,1,0,Charlotte SA ECNL G08,Lewinsville Park,Field 3,On Time,361707
+2022-10-16,11:00 AM,Bracket,Loudoun Soccer ECNL G08,1,0,Charlotte Independence ECNL G08,Loudoun Soccer Park,Field 1,On Time,361706
+2022-10-16,01:00 PM,Bracket,Fairfax BRAVE SC ECNL G08,2,0,NC Fusion ECNL G08,Robinson High School,Stadium Turf,On Time,361705
+2022-10-22,10:00 AM,Bracket,Richmond United ECNL G08,3,4,Wilmington Hammerheads ECNL G08,West Creek,Field 7,On Time,361710
+2022-10-22,11:00 AM,Bracket,Fairfax BRAVE SC ECNL G08,10,0,Beach FC (VA) ECNL G08,Robinson High School,Upper Turf,On Time,361708
+2022-10-22,02:00 PM,Bracket,VDA ECNL G08,1,2,NC Courage ECNL G08,Ali Krieger Sports Complex (AKSC),Field 7,On Time,361709
+2022-10-23,08:00 AM,Bracket,VDA ECNL G08,1,3,Wilmington Hammerheads ECNL G08,Howison Park,Field 2,On Time,361714
+2022-10-23,10:00 AM,Bracket,NC Fusion ECNL G08,0,2,Charlotte Independence ECNL G08,Truist Soccer Complex at Bryan Park,BP 02 Triton Management,On Time,361711
+2022-10-23,11:00 AM,Bracket,Richmond United ECNL G08,1,0,NC Courage ECNL G08,West Creek,Field 6,On Time,361713
+2022-10-23,01:00 PM,Bracket,NCFC Youth ECNL G08,2,1,Charlotte SA ECNL G08,WRAL ,Field 21,On Time,361712
+2022-10-29,10:00 AM,Bracket,NC Courage ECNL G08,3,4,Arlington Soccer ECNL G08,WRAL Soccer Park,Field 5 (First Watch),On Time,361715
+2022-10-29,01:00 PM,Bracket,Wilmington Hammerheads ECNL G08,3,0,Fairfax BRAVE SC ECNL G08,Cape Fear Regional Soccer Park,Field 2,On Time,361716
+2022-10-30,11:00 AM,Bracket,Wilmington Hammerheads ECNL G08,3,0,Arlington Soccer ECNL G08,Cape Fear Regional Soccer Park,Field 2,On Time,361717
+2022-10-30,11:00 AM,Bracket,NC Courage ECNL G08,2,2,Fairfax BRAVE SC ECNL G08,WRAL Soccer Park,Field 5 (First Watch),On Time,361718
+2022-11-05,01:00 PM,Bracket,Beach FC (VA) ECNL G08,3,3,VA Union ECNL G08,Hampton Roads Soccer Complex,Field 8,On Time,361719
+2022-11-06,03:00 PM,Bracket,Wilmington Hammerheads ECNL G08,3,0,Charlotte Independence ECNL G08,Cape Fear Regional Soccer Park,Field 2,On Time,361720
+2022-11-06,03:00 PM,Bracket,Richmond United ECNL G08,0,0,Loudoun Soccer ECNL G08,West Creek,Field 6,On Time,361722
+2022-11-09,06:30 PM,Bracket,Fairfax BRAVE SC ECNL G08,0,6,VDA ECNL G08,Robinson High School,Upper Turf,On Time,361721
+2022-11-13,01:00 PM,Bracket,Charlotte Independence ECNL G08,0,1,Charlotte SA ECNL G08,Manchester Meadows,Field 1,On Time,361723
+2022-11-19,10:00 AM,Bracket,NC Fusion ECNL G08,1,5,NC Courage ECNL G08,Truist Soccer Complex at Bryan Park,Field 16,On Time,361724
+2022-11-19,11:00 AM,Bracket,Beach FC (VA) ECNL G08,1,5,Richmond United ECNL G08,Hampton Roads Soccer Complex,Field 6,On Time,361725
+2022-11-19,11:00 AM,Bracket,Wilmington Hammerheads ECNL G08,3,2,Charlotte SA ECNL G08,Cape Fear Regional Soccer Park,Field 3,On Time,361727
+2022-11-19,12:30 PM,Bracket,Arlington Soccer ECNL G08,0,0,VA Union ECNL G08,Long Bridge Park,Boeing #4,On Time,361726
+2022-11-19,01:00 PM,Bracket,Loudoun Soccer ECNL G08,2,1,VDA ECNL G08,Loudoun Soccer Park,Field 1,On Time,361728
+2022-12-11,02:00 AM,Bracket,NC Fusion ECNL G08,4,2,Charlotte SA ECNL G08,Irvine High School,Field 4,On Time,361732
+2022-12-11,11:00 AM,Bracket,Richmond United ECNL G08,4,0,Arlington Soccer ECNL G08,Striker Park,Field 2,On Time,361730
+2022-12-11,12:00 PM,Bracket,Charlotte Independence ECNL G08,2,0,NCFC Youth ECNL G08,Richard Barry Park,Field 4,On Time,361731
+2022-12-17,02:00 PM,Bracket,NCFC Youth ECNL G08,0,0,Wilmington Hammerheads ECNL G08,WRAL ,Field 21,On Time,361694
+2023-01-14,03:00 PM,Bracket,NC Fusion ECNL G08,1,3,Beach FC (VA) ECNL G08,Truist Soccer Complex at Bryan Park,BP 07,On Time,361692
+2023-01-15,09:00 AM,Bracket,NC Courage ECNL G08,3,0,NCFC Youth ECNL G08,WRAL Soccer Park,Field 5 (First Watch),On Time,361737
+2023-01-15,11:00 AM,Bracket,Arlington Soccer ECNL G08,3,0,VDA ECNL G08,Long Bridge Park,Boeing #4,On Time,361735
+2023-01-15,02:00 PM,Bracket,Fairfax BRAVE SC ECNL G08,0,1,Loudoun Soccer ECNL G08,Robinson High School,Stadium Turf,On Time,361736
+2023-01-21,10:00 AM,Bracket,Charlotte SA ECNL G08,3,2,Richmond United ECNL G08,OrthoCarolina Sportsplex,Field 5,On Time,361740
+2023-01-21,12:00 PM,Bracket,Charlotte Independence ECNL G08,0,3,VDA ECNL G08,Richard Barry Park,Field 4,On Time,361739
+2023-01-21,04:00 PM,Bracket,NC Courage ECNL G08,2,3,Beach FC (VA) ECNL G08,WRAL Soccer Park,Field 5 (First Watch),On Time,361738
+2023-01-22,09:00 AM,Bracket,Charlotte Independence ECNL G08,0,1,Richmond United ECNL G08,Richard Barry Park,Field 4,On Time,361742
+2023-01-22,11:00 AM,Bracket,NCFC Youth ECNL G08,0,2,Beach FC (VA) ECNL G08,WRAL Soccer Center,Accentuate Staffing #4 ,On Time,361696
+2023-01-22,11:00 AM,Bracket,Charlotte SA ECNL G08,0,0,VDA ECNL G08,OrthoCarolina Sportsplex,Field 6,On Time,361743
+2023-01-22,12:15 PM,Bracket,VA Union ECNL G08,0,3,Fairfax BRAVE SC ECNL G08,Lewinsville Park,Field 3,On Time,361741
+2023-01-28,08:00 AM,Bracket,NCFC Youth ECNL G08,0,1,Loudoun Soccer ECNL G08,WRAL Soccer Center,Accentuate Staffing #4 ,On Time,361745
+2023-01-28,10:00 AM,Bracket,NC Fusion ECNL G08,0,0,VA Union ECNL G08,Truist Sports Park,Field 3,On Time,361746
+2023-01-28,11:00 AM,Bracket,Beach FC (VA) ECNL G08,0,4,Arlington Soccer ECNL G08,Hampton Roads Soccer Complex,Field 6,On Time,361744
+2023-01-29,10:00 AM,Group Play,NC Fusion ECNL G08,1,2,Loudoun Soccer ECNL G08,Truist Sports Park,Field 3,On Time,371627
+2023-01-29,11:00 AM,Group Play,NCFC Youth ECNL G08,0,0,VA Union ECNL G08,WRAL Soccer Center,First Watch #5,On Time,371634
+2023-02-04,11:00 AM,Bracket,Beach FC (VA) ECNL G08,0,3,Loudoun Soccer ECNL G08,Hampton Roads Soccer Complex,Field 6,On Time,361729
+2023-02-26,04:00 PM,Bracket,VDA ECNL G08,4,0,VA Union ECNL G08,Howison Park,Field 1,On Time,361734

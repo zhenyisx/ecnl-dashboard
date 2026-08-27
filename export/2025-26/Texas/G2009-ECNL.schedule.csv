@@ -1,0 +1,121 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2025-08-24,11:15 AM,Group Play,Colorado Rush Blue ECNL G09,3,2,Real Colorado National ECNL G09,Colorado Academy,Simms 2,On Time,859303
+2025-08-24,01:30 PM,Group Play,Real Colorado Athletico ECNL G09,1,0,Colorado Rapids ECNL G09,Real Colorado Soccer Complex,RCSC Grass,On Time,859297
+2025-08-30,11:15 AM,Group Play,Real Colorado Athletico ECNL G09,0,2,Albion Hurricanes FC ECNL G09,Real Colorado Soccer Complex,RCSC Grass,On Time,859315
+2025-08-30,01:30 PM,Group Play,Colorado Rush Blue ECNL G09,2,2,Challenge SC ECNL G09,Colorado Academy,Simms 2,On Time,859309
+2025-08-31,08:30 AM,Group Play,Real Colorado Athletico ECNL G09,2,3,Challenge SC ECNL G09,Real Colorado Soccer Complex,RCSC Grass,On Time,859333
+2025-08-31,11:15 AM,Group Play,Colorado Rush Blue ECNL G09,0,1,Albion Hurricanes FC ECNL G09,Colorado Academy,Simms 1,On Time,859327
+2025-09-06,03:00 PM,Group Play,Classics Elite ECNL G09,0,2,West Side Alliance ECNL G09,CE Soccer Complex,Field 6,On Time,859339
+2025-09-06,03:00 PM,Group Play,Sting Austin ECNL G09,2,1,OK Energy FC ECNL G09,Round Rock Multipurpose Complex,Field 7,On Time,859345
+2025-09-07,01:00 PM,Group Play,Sting Austin ECNL G09,0,2,West Side Alliance ECNL G09,Round Rock Multipurpose Complex,Field 8,On Time,859357
+2025-09-13,09:00 AM,Group Play,DKSC ECNL G09,2,0,Dallas Texans ECNL G09,Cox Soccer Complex,Field 1,On Time,859363
+2025-09-13,02:00 PM,Group Play,Sting Royal ECNL G09,2,0,Sting Black ECNL G09,Rolling Hills Soccer Complex,field 17,On Time,859321
+2025-09-14,01:30 PM,Group Play,Real Colorado Athletico ECNL G09,0,2,Real Colorado National ECNL G09,Real Colorado Soccer Complex,RCSC Grass,On Time,859375
+2025-09-20,09:00 AM,Group Play,Albion Hurricanes FC ECNL G09,3,4,Real Colorado National ECNL G09,Campbell Road Sports Park,Field 1,On Time,859387
+2025-09-20,09:00 AM,Group Play,Colorado Rush Blue ECNL G09,1,3,Sting Austin ECNL G09,Stargate ,Horan West,On Time,859393
+2025-09-20,11:00 AM,Group Play,Challenge SC ECNL G09,1,0,Colorado Rapids ECNL G09,Burroughs Park,Field 4,On Time,859381
+2025-09-20,11:00 AM,Group Play,Sting Black ECNL G09,2,0,Dallas Texans ECNL G09,Memorial High School,Stadium Field,On Time,859405
+2025-09-20,11:00 AM,Group Play,DKSC ECNL G09,0,7,SOLAR SC ECNL G09,Beacon Park,Field 2,On Time,859411
+2025-09-20,11:15 AM,Group Play,Real Colorado Athletico ECNL G09,4,5,Classics Elite ECNL G09,Real Colorado Soccer Complex,RCSC Grass,On Time,859399
+2025-09-20,01:00 PM,Group Play,OK Energy FC ECNL G09,1,2,FC Dallas ECNL G09,Edmond Soccer Club,ESC 4,On Time,859417
+2025-09-21,08:30 AM,Group Play,Albion Hurricanes FC ECNL G09,1,2,Colorado Rapids ECNL G09,Campbell Road Sports Park,Field 1,On Time,859429
+2025-09-21,11:00 AM,Group Play,Colorado Rush Blue ECNL G09,4,1,Classics Elite ECNL G09,Aurora Sports Park,North Turf 2,On Time,859441
+2025-09-21,01:00 PM,Group Play,Challenge SC ECNL G09,1,2,Real Colorado National ECNL G09,Burroughs Park,Field 4,On Time,859435
+2025-09-21,01:30 PM,Group Play,Real Colorado Athletico ECNL G09,0,4,Sting Austin ECNL G09,Real Colorado Soccer Complex,RCSC Grass,On Time,859447
+2025-09-27,09:00 AM,Group Play,Colorado Rapids ECNL G09,0,4,SOLAR SC ECNL G09,Regis University,West Turf,On Time,859459
+2025-09-27,11:00 AM,Group Play,West Side Alliance ECNL G09,1,4,FC Dallas ECNL G09,RiverCity Parks,Field 10,On Time,859453
+2025-09-27,11:15 AM,Group Play,Real Colorado National ECNL G09,5,0,Dallas Texans ECNL G09,Real Colorado Soccer Complex,RCSC Grass,On Time,859465
+2025-09-27,01:00 PM,Group Play,OK Energy FC ECNL G09,0,2,Sting Royal ECNL G09,North Oklahoma City FC,NOKC Red 5,On Time,859369
+2025-09-28,09:00 AM,Group Play,Colorado Rapids ECNL G09,2,0,Dallas Texans ECNL G09,Regis University,Middle Turf,On Time,859471
+2025-09-28,01:00 PM,Group Play,West Side Alliance ECNL G09,0,0,Sting Royal ECNL G09,RiverCity Parks,Field 10,On Time,859423
+2025-09-28,01:30 PM,Group Play,Real Colorado National ECNL G09,1,3,SOLAR SC ECNL G09,Real Colorado Soccer Complex,RCSC Grass,On Time,859477
+2025-10-04,09:00 AM,Group Play,Albion Hurricanes FC ECNL G09,0,2,Sting Black ECNL G09,Campbell Road Sports Park,Field 1,On Time,859495
+2025-10-04,11:00 AM,Group Play,Challenge SC ECNL G09,2,2,DKSC ECNL G09,Burroughs Park,Field 4,On Time,859501
+2025-10-04,01:30 PM,Group Play,Colorado Rapids ECNL G09,0,3,Sting Royal ECNL G09,Regis University,West Turf,On Time,859483
+2025-10-04,01:30 PM,Group Play,Real Colorado National ECNL G09,0,2,FC Dallas ECNL G09,Real Colorado Soccer Complex,RCSC Grass,On Time,859489
+2025-10-05,09:00 AM,Group Play,Colorado Rapids ECNL G09,2,2,FC Dallas ECNL G09,Colorado School of Mines - Stermole Stadium,Lower Turf,On Time,859507
+2025-10-05,11:00 AM,Group Play,Albion Hurricanes FC ECNL G09,2,0,DKSC ECNL G09,Campbell Road Sports Park,Field 1,On Time,859525
+2025-10-05,11:00 AM,Group Play,Challenge SC ECNL G09,0,1,Sting Black ECNL G09,Burroughs Park,Field 4,On Time,859531
+2025-10-05,11:15 AM,Group Play,Real Colorado National ECNL G09,1,1,Sting Royal ECNL G09,Real Colorado Soccer Complex,RCSC Grass,On Time,859513
+2025-10-05,01:00 PM,Group Play,SOLAR SC ECNL G09,8,0,Dallas Texans ECNL G09,OAK GROVE ,Field 1,On Time,859519
+2025-10-11,09:00 AM,Group Play,West Side Alliance ECNL G09,3,1,Dallas Texans ECNL G09,RiverCity Parks,Field 10,On Time,859537
+2025-10-18,11:00 AM,Group Play,DKSC ECNL G09,2,0,Colorado Rapids ECNL G09,Beacon Park,Field 3,On Time,859543
+2025-10-18,11:00 AM,Group Play,Sting Black ECNL G09,0,2,Real Colorado National ECNL G09,Memorial High School,Stadium Field,On Time,859549
+2025-10-18,11:00 AM,Group Play,Classics Elite ECNL G09,0,7,SOLAR SC ECNL G09,CE Soccer Complex,Field 6,On Time,859573
+2025-10-18,12:00 PM,Group Play,Sting Austin ECNL G09,3,0,Dallas Texans ECNL G09,Round Rock Multipurpose Complex,Field 9,On Time,859567
+2025-10-18,01:00 PM,Group Play,West Side Alliance ECNL G09,0,1,Albion Hurricanes FC ECNL G09,RiverCity Parks,Field 10,On Time,859555
+2025-10-18,01:00 PM,Group Play,OK Energy FC ECNL G09,3,1,Challenge SC ECNL G09,North Oklahoma City FC,NOKC Red 5,On Time,859561
+2025-10-19,11:00 AM,Group Play,Sting Black ECNL G09,1,1,Colorado Rapids ECNL G09,Memorial High School,Stadium Field,On Time,859579
+2025-10-19,11:00 AM,Group Play,DKSC ECNL G09,0,2,Real Colorado National ECNL G09,Beacon Park,Field 3,On Time,859585
+2025-10-19,11:00 AM,Group Play,West Side Alliance ECNL G09,1,2,Challenge SC ECNL G09,RiverCity Parks,Field 5,On Time,859603
+2025-10-19,11:00 AM,Group Play,Classics Elite ECNL G09,1,2,Dallas Texans ECNL G09,CE Soccer Complex,Field 5,On Time,859609
+2025-10-19,11:30 AM,Group Play,Sting Austin ECNL G09,0,4,SOLAR SC ECNL G09,Round Rock Multipurpose Complex,Field 9,On Time,859615
+2025-10-19,01:00 PM,Group Play,OK Energy FC ECNL G09,1,2,Albion Hurricanes FC ECNL G09,North Oklahoma City FC,NOKC Red 2,On Time,859597
+2025-10-19,01:30 PM,Group Play,Real Colorado Athletico ECNL G09,0,3,Colorado Rush Blue ECNL G09,Highland Heritage Regional Park,HHRP Stadium,On Time,859591
+2025-10-19,02:00 PM,Group Play,Sting Royal ECNL G09,1,2,FC Dallas ECNL G09,Tidwell Middle School,Stadium,On Time,859621
+2025-10-25,11:00 AM,Group Play,Sting Royal ECNL G09,4,1,Real Colorado Athletico ECNL G09,Medlin Middle School,Stadium,On Time,859633
+2025-10-25,11:00 AM,Group Play,DKSC ECNL G09,3,3,OK Energy FC ECNL G09,Beacon Park,Field 3,On Time,859639
+2025-10-25,11:00 AM,Group Play,Sting Black ECNL G09,5,0,West Side Alliance ECNL G09,Memorial High School,Stadium Field,On Time,859645
+2025-10-25,01:00 PM,Group Play,FC Dallas ECNL G09,6,1,Colorado Rush Blue ECNL G09,Lovejoy Stadium,Field 1,On Time,859627
+2025-10-26,10:00 AM,Group Play,Sting Royal ECNL G09,2,1,Colorado Rush Blue ECNL G09,Medlin Middle School,Stadium,On Time,859651
+2025-10-26,11:00 AM,Group Play,FC Dallas ECNL G09,3,0,Real Colorado Athletico ECNL G09,Toyota Soccer Center,Field 3,On Time,859657
+2025-10-26,11:00 AM,Group Play,Sting Austin ECNL G09,6,1,Classics Elite ECNL G09,Leander High School Bible Memorial Stadium,Bible Stadium,On Time,859735
+2025-10-26,01:00 PM,Group Play,DKSC ECNL G09,0,0,West Side Alliance ECNL G09,Beacon Park,Field 3,On Time,859669
+2025-10-26,03:00 PM,Group Play,Sting Black ECNL G09,5,2,OK Energy FC ECNL G09,Memorial High School,Stadium Field,On Time,859663
+2025-11-08,11:00 AM,Group Play,Dallas Texans ECNL G09,2,1,Real Colorado Athletico ECNL G09,Arlington Heights High School,Field 1,On Time,859687
+2025-11-08,11:00 AM,Group Play,Sting Royal ECNL G09,4,0,Classics Elite ECNL G09,Boswell High School,Stadium Field,On Time,859693
+2025-11-08,11:00 AM,Group Play,FC Dallas ECNL G09,1,0,Sting Austin ECNL G09,Toyota Soccer Center,Field 15,On Time,859699
+2025-11-08,01:00 PM,Group Play,SOLAR SC ECNL G09,2,0,Colorado Rush Blue ECNL G09,OAK GROVE ,Field 2,On Time,859681
+2025-11-08,02:15 PM,Group Play,Colorado Rapids ECNL G09,3,3,Real Colorado National ECNL G09,Regis University,West Turf,On Time,859675
+2025-11-09,09:00 AM,Group Play,Dallas Texans ECNL G09,0,5,Colorado Rush Blue ECNL G09,Nolan Catholic School,Field 1,On Time,859705
+2025-11-09,11:00 AM,Group Play,Sting Royal ECNL G09,1,2,Sting Austin ECNL G09,Boswell High School,Stadium Field,On Time,859723
+2025-11-09,01:00 PM,Group Play,SOLAR SC ECNL G09,10,0,Real Colorado Athletico ECNL G09,OAK GROVE ,Field 1,On Time,859711
+2025-11-09,01:00 PM,Group Play,FC Dallas ECNL G09,6,0,Classics Elite ECNL G09,Toyota Soccer Center,Field 11,On Time,859717
+2025-11-09,03:00 PM,Group Play,West Side Alliance ECNL G09,3,3,OK Energy FC ECNL G09,RiverCity Parks,Field 10,On Time,859729
+2025-11-22,11:00 AM,Group Play,Sting Austin ECNL G09,2,2,Colorado Rapids ECNL G09,Cedar Ridge High School,Stadium,On Time,859741
+2025-11-22,11:00 AM,Group Play,FC Dallas ECNL G09,2,2,Albion Hurricanes FC ECNL G09,Toyota Soccer Center,Field 2,On Time,859753
+2025-11-22,11:00 AM,Group Play,Sting Royal ECNL G09,2,1,Challenge SC ECNL G09,Boswell High School,Stadium Field,On Time,859759
+2025-11-22,11:00 AM,Group Play,OK Energy FC ECNL G09,3,1,Dallas Texans ECNL G09,North Oklahoma City FC,NOKC Red 5,On Time,859765
+2025-11-22,01:00 PM,Group Play,Classics Elite ECNL G09,0,6,Real Colorado National ECNL G09,CE Soccer Complex,Field 5,On Time,859747
+2025-11-22,01:30 PM,Group Play,Colorado Rush Blue ECNL G09,1,1,Sting Black ECNL G09,Stargate ,Horan West,On Time,859801
+2025-11-22,01:30 PM,Group Play,Real Colorado Athletico ECNL G09,1,5,DKSC ECNL G09,Real Colorado Soccer Complex,RCSC 1,On Time,859807
+2025-11-23,10:45 AM,Group Play,FC Dallas ECNL G09,1,1,Challenge SC ECNL G09,Toyota Soccer Center,Field 2,On Time,859795
+2025-11-23,11:00 AM,Group Play,Classics Elite ECNL G09,0,1,Colorado Rapids ECNL G09,CE Soccer Complex,Field 6,On Time,859777
+2025-11-23,11:00 AM,Group Play,Sting Royal ECNL G09,1,1,Albion Hurricanes FC ECNL G09,Boswell High School,Stadium Field,On Time,859789
+2025-11-23,12:30 PM,Group Play,Real Colorado Athletico ECNL G09,0,3,Sting Black ECNL G09,Real Colorado Soccer Complex,RCSC 1,On Time,859831
+2025-11-23,01:00 PM,Group Play,Sting Austin ECNL G09,2,2,Real Colorado National ECNL G09,Cedar Ridge High School,Stadium,On Time,859783
+2025-11-23,01:30 PM,Group Play,Colorado Rush Blue ECNL G09,1,0,DKSC ECNL G09,Stargate ,Horan West,On Time,859825
+2025-11-30,09:00 AM,Group Play,SOLAR SC ECNL G09,5,0,Sting Black ECNL G09,OAK GROVE ,Field 1,On Time,859771
+2025-12-13,01:30 PM,Group Play,Albion Hurricanes FC ECNL G09,6,0,Challenge SC ECNL G09,Campbell Road Sports Park,Field 1,On Time,859813
+2025-12-13,03:00 PM,Group Play,SOLAR SC ECNL G09,4,1,West Side Alliance ECNL G09,Carroll Senior High School,Field 1,On Time,859819
+2026-01-31,11:15 AM,Group Play,Colorado Rapids ECNL G09,4,0,OK Energy FC ECNL G09,Regis University,West Turf,On Time,859837
+2026-01-31,11:15 AM,Group Play,Real Colorado National ECNL G09,2,0,West Side Alliance ECNL G09,Real Colorado Soccer Complex,RCSC 1,On Time,859843
+2026-02-01,11:15 AM,Group Play,Colorado Rapids ECNL G09,2,0,West Side Alliance ECNL G09,Regis University,Middle Turf,On Time,859849
+2026-02-01,01:30 PM,Group Play,Real Colorado National ECNL G09,6,0,OK Energy FC ECNL G09,Real Colorado Soccer Complex,RCSC 1,On Time,859855
+2026-02-07,11:00 AM,Group Play,West Side Alliance ECNL G09,1,0,Colorado Rush Blue ECNL G09,RiverCity Parks,Field 10,On Time,859861
+2026-02-07,01:00 PM,Group Play,OK Energy FC ECNL G09,5,1,Real Colorado Athletico ECNL G09,North Oklahoma City FC,NOKC Red 2,On Time,859867
+2026-02-08,11:00 AM,Group Play,OK Energy FC ECNL G09,1,0,Colorado Rush Blue ECNL G09,North Oklahoma City FC,NOKC Red 5,On Time,859873
+2026-02-08,11:00 AM,Group Play,West Side Alliance ECNL G09,3,0,Real Colorado Athletico ECNL G09,RiverCity Parks,Field 10,On Time,859879
+2026-02-21,11:15 AM,Group Play,Colorado Rush Blue ECNL G09,1,2,Colorado Rapids ECNL G09,Stargate ,Horan West,On Time,859885
+2026-04-18,10:00 AM,Group Play,FC Dallas ECNL G09,3,1,Sting Black ECNL G09,Toyota Soccer Center,Field 9,On Time,859902
+2026-04-18,01:00 PM,Group Play,SOLAR SC ECNL G09,8,0,OK Energy FC ECNL G09,OAK GROVE ,Field 1,On Time,859896
+2026-04-19,12:15 PM,Group Play,Albion Hurricanes FC ECNL G09,6,0,Classics Elite ECNL G09,Campbell Road Sports Park,Field 1,On Time,859914
+2026-04-19,01:00 PM,Group Play,Challenge SC ECNL G09,2,2,Sting Austin ECNL G09,Crossbar Academy,Field 1,On Time,859920
+2026-04-25,01:00 PM,Group Play,SOLAR SC ECNL G09,3,2,Albion Hurricanes FC ECNL G09,OAK GROVE ,Field 1,On Time,859926
+2026-04-25,01:00 PM,Group Play,Dallas Texans ECNL G09,1,6,Challenge SC ECNL G09,Beacon Park,field 5,On Time,859932
+2026-04-26,11:00 AM,Group Play,Classics Elite ECNL G09,,,OK Energy FC ECNL G09,Chinn Chapel Soccer Complex,Field 3,On Time,859351
+2026-04-26,12:00 PM,Group Play,FC Dallas ECNL G09,4,0,DKSC ECNL G09,Beacon Park,Field 1,On Time,859938
+2026-04-26,01:00 PM,Group Play,Dallas Texans ECNL G09,2,1,Albion Hurricanes FC ECNL G09,Beacon Park,field 4,On Time,859944
+2026-04-26,03:00 PM,Group Play,SOLAR SC ECNL G09,6,0,Challenge SC ECNL G09,OAK GROVE ,Field 1,On Time,859950
+2026-04-29,08:15 PM,Group Play,Sting Royal ECNL G09,6,0,DKSC ECNL G09,Dragon Stadium,Stadium,On Time,859908
+2026-05-02,09:00 AM,Group Play,Sting Black ECNL G09,1,0,Sting Austin ECNL G09,Memorial High School,Stadium Field,On Time,859974
+2026-05-02,10:00 AM,Group Play,Dallas Texans ECNL G09,0,6,FC Dallas ECNL G09,FC DALLAS,Field 5,On Time,859956
+2026-05-02,11:00 AM,Group Play,DKSC ECNL G09,2,2,Classics Elite ECNL G09,Clark East Field,Field 1,On Time,859968
+2026-05-02,01:00 PM,Group Play,SOLAR SC ECNL G09,3,1,Sting Royal ECNL G09,OAK GROVE ,Field 1,On Time,859962
+2026-05-03,09:00 AM,Group Play,Sting Black ECNL G09,4,0,Classics Elite ECNL G09,Memorial High School,Stadium Field,On Time,859980
+2026-05-03,03:00 PM,Group Play,DKSC ECNL G09,2,0,Sting Austin ECNL G09,Clark East Field,Field 1,On Time,859986
+2026-05-09,09:00 AM,Group Play,DKSC ECNL G09,1,1,Sting Black ECNL G09,Centennial High School,Field 1,On Time,860010
+2026-05-09,11:00 AM,Group Play,Albion Hurricanes FC ECNL G09,3,1,Sting Austin ECNL G09,Campbell Road Sports Park,Field 1,On Time,859992
+2026-05-09,11:00 AM,Group Play,Dallas Texans ECNL G09,0,7,Sting Royal ECNL G09,Beacon Park,field 7,On Time,859998
+2026-05-09,01:00 PM,Group Play,SOLAR SC ECNL G09,4,4,FC Dallas ECNL G09,OAK GROVE ,Field 1,On Time,860004
+2026-05-10,01:00 PM,Group Play,Challenge SC ECNL G09,9,2,Classics Elite ECNL G09,Burroughs Park,Field 2,On Time,860016

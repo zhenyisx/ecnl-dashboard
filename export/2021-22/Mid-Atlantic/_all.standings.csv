@@ -1,0 +1,85 @@
+rank,team,club,teamID,gp,w,l,d,pts,ppg,gf,ga,gd,division,flight
+1,Loudoun Soccer ECNL GU13,Northern Virginia Alliance,54842,26,23,2,1,70,2.69,63,9,54,GU13,Flight 1
+2,Richmond United ECNL GU13,Richmond United,59426,26,21,3,2,65,2.5,70,10,60,GU13,Flight 1
+3,NC Courage ECNL GU13,NC Courage Academy,60108,26,17,5,4,55,2.12,71,29,42,GU13,Flight 1
+4,Charlotte SA ECNL GU13,Charlotte Soccer Academy,59885,26,15,7,4,49,1.88,60,27,33,GU13,Flight 1
+5,Charlotte Independence ECNL GU13,Charlotte Independence SC,59088,26,15,8,3,48,1.85,49,37,12,GU13,Flight 1
+6,VDA ECNL GU13,Virginia Development Academy,59474,26,14,7,5,47,1.81,46,25,21,GU13,Flight 1
+7,Arlington Soccer ECNL GU13,Arlington Soccer Association,59915,26,12,11,3,39,1.5,46,26,20,GU13,Flight 1
+8,CESA ECNL GU13,Carolina Elite Soccer Academy,46817,26,10,10,6,36,1.38,36,23,13,GU13,Flight 1
+9,VA Union ECNL GU13,Fairfax Virginia Union,60092,26,11,12,3,36,1.38,46,52,-6,GU13,Flight 1
+10,Wilmington Hammerheads ECNL GU13 ,Wilmington Hammerheads,59888,26,9,14,3,30,1.15,42,55,-13,GU13,Flight 1
+11,South Carolina United ECNL GU13,South Carolina United FC,50959,26,7,19,0,21,0.81,31,50,-19,GU13,Flight 1
+12,NCFC Youth ECNL GU13,NCFC Youth,59930,26,6,18,2,20,0.77,22,52,-30,GU13,Flight 1
+13,NC Fusion ECNL GU13,NC Fusion,50566,26,3,21,2,11,0.42,21,68,-47,GU13,Flight 1
+14,BRYC Elite Academy ECNL GU13,Fairfax Virginia Union,11955,26,0,26,0,0,0.0,2,142,-140,GU13,Flight 1
+1,Richmond United ECNL GU14,Richmond United,46822,26,21,2,3,66,2.54,91,23,68,GU14,Flight 1
+2,VDA ECNL GU14,Virginia Development Academy,46823,26,20,2,4,64,2.46,73,19,54,GU14,Flight 1
+3,Arlington Soccer ECNL GU14,Arlington Soccer Association,59916,26,19,4,3,60,2.31,82,34,48,GU14,Flight 1
+4,CESA ECNL GU14,Carolina Elite Soccer Academy,27972,26,17,4,5,56,2.15,49,23,26,GU14,Flight 1
+5,NC Courage ECNL GU14,NC Courage Academy,44728,26,18,6,2,56,2.15,72,24,48,GU14,Flight 1
+6,Charlotte SA ECNL GU14,Charlotte Soccer Academy,44721,26,11,11,4,37,1.42,43,40,3,GU14,Flight 1
+7,Loudoun Soccer ECNL GU14,Northern Virginia Alliance,46824,26,10,11,5,35,1.35,42,38,4,GU14,Flight 1
+8,VA Union ECNL GU14,Fairfax Virginia Union,46827,26,10,11,5,35,1.35,46,45,1,GU14,Flight 1
+9,South Carolina United ECNL GU14,South Carolina United FC,43173,26,7,15,4,25,0.96,27,50,-23,GU14,Flight 1
+10,Charlotte Independence ECNL GU14,Charlotte Independence SC,28376,26,7,15,4,25,0.96,30,48,-18,GU14,Flight 1
+11,NCFC Youth ECNL GU14,NCFC Youth,45785,26,5,14,7,22,0.85,24,45,-21,GU14,Flight 1
+12,Wilmington Hammerheads ECNL GU14,Wilmington Hammerheads,46818,26,5,17,4,19,0.73,24,60,-36,GU14,Flight 1
+13,NC Fusion ECNL GU14,NC Fusion,13888,26,4,19,3,15,0.58,25,90,-65,GU14,Flight 1
+14,BRYC Elite Academy ECNL GU14,Fairfax Virginia Union,11956,26,1,24,1,4,0.15,15,104,-89,GU14,Flight 1
+1,VA Union ECNL GU15,Fairfax Virginia Union,25892,13,12,1,0,36,2.77,44,12,32,GU15,Flight 1
+2,Loudoun Soccer ECNL GU15,Northern Virginia Alliance,35287,13,10,0,3,33,2.54,30,6,24,GU15,Flight 1
+3,NC Courage ECNL GU15,NC Courage Academy,44729,13,10,3,0,30,2.31,37,11,26,GU15,Flight 1
+4,Wilmington Hammerheads ECNL GU15,No Club Selection,35272,13,8,3,2,26,2.0,33,10,23,GU15,Flight 1
+5,Richmond United ECNL GU15,Richmond United,22314,13,7,3,3,24,1.85,22,21,1,GU15,Flight 1
+6,Charlotte SA ECNL GU15,Charlotte Soccer Academy,44722,13,6,4,3,21,1.62,19,13,6,GU15,Flight 1
+7,Charlotte Independence ECNL GU15,Charlotte Independence SC,35286,13,5,5,3,18,1.38,18,18,0,GU15,Flight 1
+8,Arlington Soccer ECNL GU15,Arlington Soccer Association,59917,13,3,5,5,14,1.08,9,21,-12,GU15,Flight 1
+9,CESA ECNL GU15,Carolina Elite Soccer Academy,20311,13,4,7,2,14,1.08,11,25,-14,GU15,Flight 1
+10,NC Fusion ECNL GU15,NC Fusion,35269,13,3,8,2,11,0.85,17,25,-8,GU15,Flight 1
+11,South Carolina United ECNL GU15,South Carolina United FC,35270,13,2,8,3,9,0.69,11,22,-11,GU15,Flight 1
+12,NCFC Youth ECNL GU15,NCFC Youth,35268,13,2,8,3,9,0.69,8,27,-19,GU15,Flight 1
+13,VDA ECNL GU15,Virginia Development Academy,35271,13,2,9,2,8,0.62,16,30,-14,GU15,Flight 1
+14,BRYC Elite Academy ECNL GU15,Fairfax Virginia Union,11957,13,1,11,1,4,0.31,10,44,-34,GU15,Flight 1
+1,VDA ECNL GU16,Virginia Development Academy,19656,13,11,1,1,34,2.62,34,5,29,GU16,Flight 1
+2,Charlotte SA ECNL GU16,Charlotte Soccer Academy,44723,13,10,1,2,32,2.46,30,12,18,GU16,Flight 1
+3,NC Courage ECNL GU16,NC Courage Academy,44730,13,9,2,2,29,2.23,31,15,16,GU16,Flight 1
+4,NC Fusion ECNL GU16,NC Fusion,20316,13,7,0,6,27,2.08,31,9,22,GU16,Flight 1
+5,VA Union ECNL GU16,Fairfax Virginia Union,20314,13,7,3,3,24,1.85,32,23,9,GU16,Flight 1
+6,NCFC Youth ECNL GU16,NCFC Youth,20315,13,5,4,4,19,1.46,18,22,-4,GU16,Flight 1
+7,CESA ECNL GU16,Carolina Elite Soccer Academy,11339,13,3,4,6,15,1.15,12,11,1,GU16,Flight 1
+8,Richmond United ECNL GU16,Richmond United,20317,13,4,6,3,15,1.15,17,16,1,GU16,Flight 1
+9,Arlington Soccer ECNL GU16,Arlington Soccer Association,59919,13,3,5,5,14,1.08,16,26,-10,GU16,Flight 1
+10,South Carolina United ECNL GU16,South Carolina United FC,20318,13,3,7,3,12,0.92,20,25,-5,GU16,Flight 1
+11,BRYC Elite Academy ECNL GU16,Fairfax Virginia Union,13009,13,3,8,2,11,0.85,15,25,-10,GU16,Flight 1
+12,Loudoun Soccer ECNL GU16,Northern Virginia Alliance,19775,13,2,6,5,11,0.85,19,29,-10,GU16,Flight 1
+13,Charlotte Independence ECNL GU16,Charlotte Independence SC,20312,13,1,10,2,5,0.38,10,31,-21,GU16,Flight 1
+14,Wilmington Hammerheads ECNL GU16,No Club Selection,19665,13,1,12,0,3,0.23,10,46,-36,GU16,Flight 1
+1,NC Fusion ECNL GU17,NC Fusion,13554,13,11,2,0,33,2.54,34,14,20,GU17,Flight 1
+2,Charlotte SA ECNL GU17,Charlotte Soccer Academy,44724,13,9,1,3,30,2.31,38,10,28,GU17,Flight 1
+3,NC Courage ECNL GU17,NC Courage Academy,44731,13,9,2,2,29,2.23,43,10,33,GU17,Flight 1
+4,Richmond United ECNL GU17,Richmond United,11507,13,8,3,2,26,2.0,31,7,24,GU17,Flight 1
+5,Wilmington Hammerheads ECNL GU17,Wilmington Hammerheads,19666,13,7,4,2,23,1.77,31,22,9,GU17,Flight 1
+6,VA Union ECNL GU17,McLean Youth Soccer,11505,13,6,4,3,21,1.62,32,19,13,GU17,Flight 1
+7,CESA ECNL GU17,Carolina Elite Soccer Academy,11512,13,6,5,2,20,1.54,21,23,-2,GU17,Flight 1
+8,VDA ECNL GU17,Virginia Development Academy,20319,13,5,5,3,18,1.38,16,20,-4,GU17,Flight 1
+9,South Carolina United ECNL GU17,South Carolina United FC,11040,13,4,5,4,16,1.23,24,28,-4,GU17,Flight 1
+10,NCFC Youth ECNL GU17,NCFC Youth,11511,13,3,6,4,13,1.0,15,23,-8,GU17,Flight 1
+11,Arlington Soccer ECNL GU17,Arlington Soccer Association,59920,13,4,9,0,12,0.92,11,32,-21,GU17,Flight 1
+12,Charlotte Independence ECNL GU17,Charlotte Independence SC,11116,13,3,8,2,11,0.85,10,26,-16,GU17,Flight 1
+13,BRYC Elite Academy ECNL GU17,McLean Youth Soccer,11501,13,0,9,4,4,0.31,9,32,-23,GU17,Flight 1
+14,Loudoun Soccer ECNL GU17,Loudoun Soccer,19776,13,0,12,1,1,0.08,8,57,-49,GU17,Flight 1
+1,Charlotte SA ECNL GU18/U19,Charlotte Soccer Academy,44725,13,12,1,0,36,2.77,38,4,34,GU18/U19,Flight 1
+2,Richmond United ECNL GU18/U19,Richmond United,6919,13,10,2,1,31,2.38,34,10,24,GU18/U19,Flight 1
+3,NC Courage ECNL GU18/U19,NC Courage Academy,44732,13,8,1,4,28,2.15,25,7,18,GU18/U19,Flight 1
+4,Charlotte Independence ECNL GU18/U19,Charlotte Independence SC,10705,13,9,3,1,28,2.15,30,16,14,GU18/U19,Flight 1
+5,CESA ECNL GU18/U19,Carolina Elite Soccer Academy,6918,13,8,4,1,25,1.92,18,11,7,GU18/U19,Flight 1
+6,Loudoun Soccer ECNL GU18/U19,Loudoun Soccer,19777,13,5,4,4,19,1.46,20,22,-2,GU18/U19,Flight 1
+7,VA Union ECNL GU18/U19,McLean Youth Soccer,11504,13,5,6,2,17,1.31,19,26,-7,GU18/U19,Flight 1
+8,NC Fusion ECNL GU18/U19,NC Fusion,11509,13,3,4,6,15,1.15,18,14,4,GU18/U19,Flight 1
+9,VDA ECNL GU18/U19,Virginia Development Academy,14649,13,4,6,3,15,1.15,33,31,2,GU18/U19,Flight 1
+10,BRYC Elite Academy ECNL GU18/U19,McLean Youth Soccer,10699,13,3,8,2,11,0.85,14,39,-25,GU18/U19,Flight 1
+11,NCFC Youth ECNL GU18/U19,NCFC Youth,7645,13,3,8,2,11,0.85,13,29,-16,GU18/U19,Flight 1
+12,Wilmington Hammerheads ECNL GU18/U19,Wilmington Hammerheads,19667,13,2,7,4,10,0.77,11,25,-14,GU18/U19,Flight 1
+13,Arlington Soccer ECNL GU18/U19,Arlington Soccer Association,59921,13,1,8,4,7,0.54,10,24,-14,GU18/U19,Flight 1
+14,South Carolina United ECNL GU18/U19,South Carolina United FC,10988,13,0,11,2,2,0.15,10,35,-25,GU18/U19,Flight 1

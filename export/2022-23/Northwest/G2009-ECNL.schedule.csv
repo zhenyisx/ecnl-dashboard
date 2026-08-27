@@ -1,0 +1,92 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2022-09-11,01:00 PM,Bracket,Pride SC ECNL G09,1,5,Real Colorado National ECNL G09,Pride Soccer Complex,Field 2,On Time,364376
+2022-09-18,11:15 AM,Bracket,Colorado Rapids ECNL G09,1,1,Real Colorado Athletico ECNL G09,Regis University,Middle Turf,On Time,364377
+2022-09-25,11:15 AM,Bracket,Real Colorado Athletico ECNL G09,0,5,Real Colorado National ECNL G09,Real Colorado Soccer Complex,RCSC 1,On Time,364378
+2022-09-25,11:15 AM,Bracket,Colorado Rapids ECNL G09,2,0,Pride SC ECNL G09,Regis University,Middle Turf,On Time,364379
+2022-10-02,11:15 AM,Bracket,Real Colorado Athletico ECNL G09,0,2,Pride SC ECNL G09,Highland Heritage Regional Park,HHRP West,On Time,364380
+2022-10-23,11:15 AM,Bracket,Real Colorado National ECNL G09,5,0,Colorado Rapids ECNL G09,Real Colorado Soccer Complex,RCSC 1,On Time,364381
+2022-11-05,10:00 AM,Bracket,Utah Avalanche ECNL G09,1,4,Real Colorado National ECNL G09,St. Joseph Catholic High School,Turf Field,On Time,364383
+2022-11-05,01:00 PM,Bracket,La Roca FC ECNL G09,0,1,Colorado Rapids ECNL G09,La Roca FC Utah County Complex,Field 1,On Time,364382
+2022-11-06,09:00 AM,Bracket,La Roca FC ECNL G09,1,3,Real Colorado National ECNL G09,La Roca FC Utah County Complex,Field 1,On Time,364384
+2022-11-06,09:00 AM,Bracket,Utah Avalanche ECNL G09,1,2,Colorado Rapids ECNL G09,St. Joseph Catholic High School,Turf Field,On Time,364385
+2022-11-19,12:00 PM,Bracket,Pride SC ECNL G09,0,1,Utah Avalanche ECNL G09,Pride Soccer Complex,Field 2,On Time,364387
+2022-11-19,12:15 PM,Bracket,Real Colorado Athletico ECNL G09,0,1,La Roca FC ECNL G09,Real Colorado Soccer Complex,RCSC 2,On Time,364386
+2022-11-20,11:00 AM,Bracket,Pride SC ECNL G09,2,0,La Roca FC ECNL G09,Pride Soccer Complex,Field 2,On Time,364389
+2022-11-20,11:15 AM,Bracket,Real Colorado Athletico ECNL G09,0,4,Utah Avalanche ECNL G09,Real Colorado Soccer Complex,RCSC 2,On Time,364388
+2022-12-10,09:00 AM,Bracket,Real Colorado Athletico ECNL G09,0,1,Boise Thorns FC ECNL G09,WPFC Field Complex,Field 2,On Time,364390
+2022-12-10,09:00 AM,Bracket,Northwest Elite FC ECNL G09,3,1,Colorado Rapids ECNL G09,THPRD Rec Center,# 1,On Time,364418
+2022-12-10,09:00 AM,Bracket,Portland Thorns ECNL G09,2,2,Real Colorado National ECNL G09,Liberty High School,Stadium Field,On Time,364419
+2022-12-10,09:00 AM,Bracket,Washington Premier ECNL G09,4,1,Pride SC ECNL G09,WPFC Field Complex,Field 4,On Time,364420
+2022-12-10,09:00 AM,Bracket,Crossfire Premier ECNL G09,4,0,Utah Avalanche ECNL G09,Marymoor Park,#3 (Turf),On Time,364422
+2022-12-10,01:00 PM,Bracket,PacNW SC ECNL G09,0,1,Eastside FC ECNL G09,Valley Ridge,Field 1,On Time,364423
+2022-12-10,03:00 PM,Bracket,Seattle United ECNL G09,4,0,La Roca FC ECNL G09,Ingraham High School,North,On Time,364421
+2022-12-11,08:00 AM,Bracket,Pride SC ECNL G09,3,1,Boise Thorns FC ECNL G09,WPFC Field Complex,Field 3,On Time,364391
+2022-12-11,08:00 AM,Bracket,Washington Premier ECNL G09,1,1,Real Colorado Athletico ECNL G09,WPFC Field Complex,Field 2,On Time,364426
+2022-12-11,09:00 AM,Bracket,Portland Thorns ECNL G09,5,0,Colorado Rapids ECNL G09,Liberty High School,Stadium Field,On Time,364424
+2022-12-11,09:00 AM,Bracket,Northwest Elite FC ECNL G09,0,4,Real Colorado National ECNL G09,THPRD Rec Center,# 1,On Time,364425
+2022-12-11,11:00 AM,Bracket,Seattle United ECNL G09,2,0,Utah Avalanche ECNL G09,Magnuson Park,Field 6,On Time,364428
+2022-12-11,01:00 PM,Bracket,Crossfire Premier ECNL G09,4,0,La Roca FC ECNL G09,Marymoor Park,#1 (Turf),On Time,364427
+2023-01-14,11:00 AM,Bracket,Eastside FC ECNL G09,2,1,Northwest Elite FC ECNL G09,PRESTON PARK ATHLETIC FIELDS,Field 2,On Time,364457
+2023-01-14,12:00 PM,Bracket,PacNW SC ECNL G09,1,0,Boise Thorns FC ECNL G09,Valley Ridge,Field 4,On Time,364429
+2023-01-15,08:15 AM,Bracket,PacNW SC ECNL G09,3,3,Northwest Elite FC ECNL G09,Valley Ridge,Field 4,On Time,364453
+2023-01-15,11:00 AM,Bracket,Eastside FC ECNL G09,0,1,Boise Thorns FC ECNL G09,PRESTON PARK ATHLETIC FIELDS,Field 2,On Time,364430
+2023-01-28,09:00 AM,Bracket,Northwest Elite FC ECNL G09,1,1,Boise Thorns FC ECNL G09,Mountain View Champions Park,Field 2,On Time,364431
+2023-01-28,09:00 AM,Bracket,Portland Thorns ECNL G09,3,2,Washington Premier ECNL G09,Liberty High School,Stadium Field,On Time,364432
+2023-01-28,02:00 PM,Bracket,Crossfire Premier ECNL G09,4,3,PacNW SC ECNL G09,Marymoor Park,#2 (Turf),On Time,364433
+2023-01-28,04:00 PM,Bracket,Seattle United ECNL G09,1,1,Eastside FC ECNL G09,Ingraham High School,Stadium,On Time,364434
+2023-01-29,09:00 AM,Bracket,Northwest Elite FC ECNL G09,5,3,Washington Premier ECNL G09,Mountain View Champions Park,Field 2,On Time,364435
+2023-01-29,10:30 AM,Bracket,Portland Thorns ECNL G09,4,0,Boise Thorns FC ECNL G09,Liberty High School,Clive Charles Field,On Time,364436
+2023-02-04,09:00 AM,Bracket,Northwest Elite FC ECNL G09,0,1,Seattle United ECNL G09,Mountain View Champions Park,Field 2,On Time,364439
+2023-02-04,09:00 AM,Bracket,Portland Thorns ECNL G09,0,3,Crossfire Premier ECNL G09,Liberty High School,Stadium Field,On Time,364440
+2023-02-04,11:00 AM,Bracket,PacNW SC ECNL G09,0,1,Real Colorado Athletico ECNL G09,Valley Ridge,Field 1,On Time,364437
+2023-02-04,11:00 AM,Bracket,Eastside FC ECNL G09,0,0,Pride SC ECNL G09,PRESTON PARK ATHLETIC FIELDS,Field 2,On Time,364438
+2023-02-05,09:00 AM,Bracket,Eastside FC ECNL G09,2,2,Real Colorado Athletico ECNL G09,PRESTON PARK ATHLETIC FIELDS,Field 2,On Time,364441
+2023-02-05,09:00 AM,Bracket,Northwest Elite FC ECNL G09,0,1,Crossfire Premier ECNL G09,Mountain View Champions Park,Field 3,On Time,364444
+2023-02-05,10:00 AM,Bracket,PacNW SC ECNL G09,2,0,Pride SC ECNL G09,Karl Grosch Soccer Field ,Karl Grosch Field,On Time,364442
+2023-02-25,11:15 AM,Bracket,Colorado Rapids ECNL G09,2,1,PacNW SC ECNL G09,Regis University,Middle Turf,On Time,364392
+2023-02-25,11:15 AM,Bracket,Real Colorado National ECNL G09,7,0,Eastside FC ECNL G09,Real Colorado Soccer Complex,RCSC 2,On Time,364393
+2023-02-26,09:00 AM,Bracket,Colorado Rapids ECNL G09,1,1,Eastside FC ECNL G09,Regis University,West Turf,On Time,364394
+2023-02-26,01:30 PM,Bracket,Real Colorado National ECNL G09,5,0,PacNW SC ECNL G09,Real Colorado Soccer Complex,RCSC 2,On Time,364395
+2023-03-04,11:00 AM,Bracket,Seattle United ECNL G09,1,2,Real Colorado National ECNL G09,Nathan Hale High School,Stadium,On Time,364447
+2023-03-04,11:15 AM,Bracket,Real Colorado Athletico ECNL G09,2,2,Northwest Elite FC ECNL G09,Real Colorado Soccer Complex,RCSC 2,On Time,364396
+2023-03-04,12:00 PM,Bracket,Pride SC ECNL G09,2,3,Portland Thorns ECNL G09,Pride Soccer Complex,Field 2,On Time,364397
+2023-03-04,02:00 PM,Bracket,Crossfire Premier ECNL G09,4,0,Colorado Rapids ECNL G09,Marymoor Park,#1 (Turf),On Time,364446
+2023-03-05,09:00 AM,Bracket,Crossfire Premier ECNL G09,0,1,Real Colorado National ECNL G09,Marymoor Park,#1 (Turf),On Time,364448
+2023-03-05,09:00 AM,Bracket,Seattle United ECNL G09,5,0,Colorado Rapids ECNL G09,Magnuson Park,Field 6,On Time,364449
+2023-03-05,11:00 AM,Bracket,Pride SC ECNL G09,2,4,Northwest Elite FC ECNL G09,Pride Soccer Complex,Field 2,On Time,364399
+2023-03-05,11:15 AM,Bracket,Real Colorado Athletico ECNL G09,0,2,Portland Thorns ECNL G09,Real Colorado Soccer Complex,RCSC 2,On Time,364398
+2023-03-12,12:00 PM,Bracket,Portland Thorns ECNL G09,2,3,Seattle United ECNL G09,Liberty High School,Stadium Field,On Time,364443
+2023-03-18,09:00 AM,Bracket,Colorado Rapids ECNL G09,2,2,Boise Thorns FC ECNL G09,Douglas County Fairgrounds,Field #6,On Time,364400
+2023-03-18,11:00 AM,Bracket,Pride SC ECNL G09,2,4,Seattle United ECNL G09,Pride Soccer Complex,Field 3,On Time,364403
+2023-03-18,11:15 AM,Bracket,Real Colorado National ECNL G09,2,0,Washington Premier ECNL G09,Real Colorado Soccer Complex,RCSC 2,On Time,364401
+2023-03-18,12:30 PM,Bracket,Utah Avalanche ECNL G09,2,0,Eastside FC ECNL G09,Woods Cross High School,Field 1,On Time,364405
+2023-03-18,01:15 PM,Bracket,Real Colorado Athletico ECNL G09,0,3,Crossfire Premier ECNL G09,Highland Heritage Regional Park,HHRP West,On Time,364402
+2023-03-18,02:00 PM,Bracket,La Roca FC ECNL G09,1,2,PacNW SC ECNL G09,La Roca FC Utah County Complex,Field 1,On Time,364404
+2023-03-19,10:00 AM,Bracket,Real Colorado Athletico ECNL G09,1,5,Seattle United ECNL G09,Highland Heritage Regional Park,HHRP West,On Time,364408
+2023-03-19,10:00 AM,Bracket,La Roca FC ECNL G09,0,2,Eastside FC ECNL G09,La Roca FC Utah County Complex,Field 2,On Time,364411
+2023-03-19,11:15 AM,Bracket,Real Colorado National ECNL G09,2,1,Boise Thorns FC ECNL G09,Real Colorado Soccer Complex,RCSC 2,On Time,364407
+2023-03-19,11:15 AM,Bracket,Utah Avalanche ECNL G09,6,2,PacNW SC ECNL G09,Salt Lake Community College,Stadium,On Time,364410
+2023-03-19,12:00 PM,Bracket,Pride SC ECNL G09,0,2,Crossfire Premier ECNL G09,Pride Soccer Complex,Field 1,On Time,364409
+2023-03-19,12:15 PM,Bracket,Colorado Rapids ECNL G09,4,2,Washington Premier ECNL G09,Regis University,Middle Turf,On Time,364406
+2023-03-25,09:00 AM,Bracket,Eastside FC ECNL G09,1,2,Washington Premier ECNL G09,PRESTON PARK ATHLETIC FIELDS,Field 2,On Time,364450
+2023-03-25,10:45 AM,Bracket,Boise Thorns FC ECNL G09,1,2,Seattle United ECNL G09,Boise Timbers|Thorns - Soccer Complex,Field 1,On Time,364451
+2023-04-15,01:15 PM,Bracket,Northwest Elite FC ECNL G09,1,3,Portland Thorns ECNL G09,Mountain View Champions Park,Field 2,On Time,364462
+2023-04-16,09:00 AM,Bracket,La Roca FC ECNL G09,0,2,Utah Avalanche ECNL G09,La Roca FC Utah County Complex,Field 1,On Time,364412
+2023-04-22,11:00 AM,Bracket,Eastside FC ECNL G09,0,2,Portland Thorns ECNL G09,PRESTON PARK ATHLETIC FIELDS,Field 1,On Time,364454
+2023-04-23,11:00 AM,Bracket,PacNW SC ECNL G09,1,2,Portland Thorns ECNL G09,Karl Grosch Soccer Field ,Karl Grosch Field,On Time,364456
+2023-04-23,03:00 PM,Bracket,Crossfire Premier ECNL G09,0,0,Washington Premier ECNL G09,Marymoor Park,#3 (Turf),On Time,364445
+2023-04-29,09:00 AM,Bracket,Utah Avalanche ECNL G09,3,5,Portland Thorns ECNL G09,St. Joseph Catholic High School,Turf Field,On Time,364414
+2023-04-29,11:00 AM,Bracket,Boise Thorns FC ECNL G09,2,3,Crossfire Premier ECNL G09,Boise Timbers|Thorns - Soccer Complex,Field 1,On Time,364458
+2023-04-29,01:00 PM,Bracket,La Roca FC ECNL G09,2,4,Northwest Elite FC ECNL G09,La Roca FC Utah County Complex,Field 1,On Time,364413
+2023-04-29,01:00 PM,Bracket,Washington Premier ECNL G09,1,3,Seattle United ECNL G09,WPFC Field Complex,Field 4,On Time,364452
+2023-04-30,11:15 AM,Bracket,Utah Avalanche ECNL G09,4,2,Northwest Elite FC ECNL G09,St. Joseph Catholic High School,Turf Field,On Time,364415
+2023-04-30,01:00 PM,Bracket,La Roca FC ECNL G09,1,1,Portland Thorns ECNL G09,La Roca FC Utah County Complex,Field 1,On Time,364416
+2023-04-30,01:00 PM,Bracket,Crossfire Premier ECNL G09,2,2,Seattle United ECNL G09,Marymoor Park,#1 (Turf),On Time,364455
+2023-05-06,09:00 AM,Bracket,Washington Premier ECNL G09,2,2,Boise Thorns FC ECNL G09,WPFC Field Complex,Field 3,On Time,364459
+2023-05-06,01:00 PM,Bracket,PacNW SC ECNL G09,0,1,Seattle United ECNL G09,North SeaTac,Field 1,On Time,364460
+2023-05-06,03:00 PM,Bracket,Eastside FC ECNL G09,0,2,Crossfire Premier ECNL G09,PRESTON PARK ATHLETIC FIELDS,Field 1,On Time,364461
+2023-05-07,11:00 AM,Bracket,Washington Premier ECNL G09,2,0,PacNW SC ECNL G09,WPFC Field Complex,Field 3,On Time,364463
+2023-05-13,09:00 AM,Bracket,Washington Premier ECNL G09,4,1,La Roca FC ECNL G09,BTT Soccer Complex,Field 4,On Time,364464
+2023-05-13,09:00 AM,Bracket,Boise Thorns FC ECNL G09,1,4,Utah Avalanche ECNL G09,Boise Timbers|Thorns - Soccer Complex,Field 2,On Time,364465
+2023-05-14,09:00 AM,Bracket,Utah Avalanche ECNL G09,2,0,Washington Premier ECNL G09,BTT Soccer Complex,Field 4,On Time,364417
+2023-05-14,09:00 AM,Bracket,Boise Thorns FC ECNL G09,6,2,La Roca FC ECNL G09,Boise Timbers|Thorns - Soccer Complex,Field 2,On Time,364466

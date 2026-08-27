@@ -1,0 +1,121 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2025-08-30,10:30 AM,Group Play,Rockford Raptors ECNL G12,1,0,Minnesota Thunder ECNL G12,University School of Milwaukee,Stadium Field,On Time,811760
+2025-08-30,10:45 AM,Group Play,FC Wisconsin ECNL G12,1,4,Missouri Rush ECNL G12,FC Wisconsin Soccer Park,Field 1 - Val Olla Field,On Time,811758
+2025-08-30,11:00 AM,Group Play,Eclipse Select SC ECNL G12,1,0,Kansas City Athletics ECNL G12,Deerpath Community Park Lake Forest,West,On Time,811754
+2025-08-30,11:00 AM,Group Play,Michigan Hawks ECNL G12,5,1,Gretna Elite Academy ECNL G12,Hy-Vee Multiplex,White 1 ,On Time,811762
+2025-08-30,12:00 PM,Group Play,Chicago Inter Soccer ECNL G12,2,1,Sporting Blue Valley ECNL G12,Chicago Inter Complex,Field 2,On Time,811756
+2025-08-30,01:00 PM,Group Play,Sporting Iowa ECNL G12,0,2,Michigan Hawks Magic ECNL G12,Hy-Vee Multiplex,Green #1,On Time,811764
+2025-08-31,09:45 AM,Group Play,Sporting Iowa ECNL G12,0,2,Michigan Hawks ECNL G12,Hy-Vee Multiplex,Green #2,On Time,811770
+2025-08-31,09:45 AM,Group Play,Michigan Hawks Magic ECNL G12,0,3,Gretna Elite Academy ECNL G12,Hy-Vee Multiplex,White2 ,On Time,811772
+2025-08-31,10:00 AM,Group Play,Eclipse Select SC ECNL G12,1,1,Sporting Blue Valley ECNL G12,Commissioners Park,Turf,On Time,811766
+2025-08-31,11:00 AM,Group Play,Chicago Inter Soccer ECNL G12,2,2,Kansas City Athletics ECNL G12,Chicago Inter Complex,Field 2,On Time,811776
+2025-09-06,11:00 AM,Group Play,Sporting Blue Valley ECNL G12,1,0,FC Wisconsin ECNL G12,Scheels Overland Park Soccer Complex,Field 10,On Time,811782
+2025-09-06,02:00 PM,Group Play,Gretna Elite Academy ECNL G12,0,3,Eclipse Select SC ECNL G12,CHI Nebraska MultiSport Complex,field 10,On Time,811778
+2025-09-06,02:00 PM,Group Play,Kansas City Athletics ECNL G12,1,0,Rockford Raptors ECNL G12,Paragon Star Soccer Complex,Field 8,On Time,811784
+2025-09-06,02:15 PM,Group Play,SLSG Navy ECNL G12,3,0,Nationals Soccer Club ECNL G12,WWT Soccer Park,Field 2,On Time,811786
+2025-09-06,02:15 PM,Group Play,SLSG Green ECNL G12,0,1,Liverpool FC IA Michigan ECNL G12,WWT Soccer Park,Field 3,On Time,811788
+2025-09-06,04:00 PM,Group Play,Sporting Iowa ECNL G12,0,2,Chicago Inter Soccer ECNL G12,Nebraska Multisports Complex,11,On Time,811780
+2025-09-07,08:00 AM,Group Play,Gretna Elite Academy ECNL G12,1,3,Chicago Inter Soccer ECNL G12,CHI Nebraska MultiSport Complex,field 10,On Time,811792
+2025-09-07,10:00 AM,Group Play,Eclipse Select SC ECNL G12,4,1,Sporting Iowa ECNL G12,CHI Health Multisport Complex,field 11,On Time,811790
+2025-09-07,11:00 AM,Group Play,Kansas City Athletics ECNL G12,5,0,FC Wisconsin ECNL G12,Paragon Star Soccer Complex,Field 2,On Time,811794
+2025-09-07,11:00 AM,Group Play,Sporting Blue Valley ECNL G12,0,0,Rockford Raptors ECNL G12,Scheels Overland Park Soccer Complex,Field 4,On Time,811796
+2025-09-07,11:30 AM,Group Play,SLSG Navy ECNL G12,2,2,Liverpool FC IA Michigan ECNL G12,WWT Soccer Park,Field 1,On Time,811800
+2025-09-07,01:15 PM,Group Play,SLSG Green ECNL G12,1,4,Nationals Soccer Club ECNL G12,WWT Soccer Park,Field 1,On Time,811798
+2025-09-07,04:00 PM,Group Play,Michigan Hawks Magic ECNL G12,1,4,Michigan Hawks ECNL G12,St. Joe's Sports Dome,St. Joe's Dome,On Time,811880
+2025-09-20,11:00 AM,Group Play,Kansas City Athletics ECNL G12,0,2,Michigan Hawks ECNL G12,Paragon Star Soccer Complex,Field 10,On Time,811806
+2025-09-20,11:00 AM,Group Play,Sporting Blue Valley ECNL G12,3,0,Michigan Hawks Magic ECNL G12,Olathe District Activity Center,Multi Purpose,On Time,811808
+2025-09-20,02:15 PM,Group Play,Liverpool FC IA Michigan ECNL G12,2,0,Missouri Rush ECNL G12,Chicago Inter Complex,Field 1,On Time,811804
+2025-09-20,04:00 PM,Group Play,Nationals Soccer Club ECNL G12,1,2,Minnesota Thunder ECNL G12,Chicago Inter Complex,Field 2,On Time,811802
+2025-09-21,09:00 AM,Group Play,Nationals Soccer Club ECNL G12,0,2,Missouri Rush ECNL G12,Chicago Inter Complex,field 4,On Time,811810
+2025-09-21,10:30 AM,Group Play,Liverpool FC IA Michigan ECNL G12,0,2,Minnesota Thunder ECNL G12,Chicago Inter Complex,Field 1,On Time,811812
+2025-09-21,11:00 AM,Group Play,Sporting Blue Valley ECNL G12,0,3,Michigan Hawks ECNL G12,Scheels Overland Park Soccer Complex,Field 4,On Time,811814
+2025-09-21,11:00 AM,Group Play,Kansas City Athletics ECNL G12,3,0,Michigan Hawks Magic ECNL G12,Paragon Star Soccer Complex,Field 10,On Time,811816
+2025-09-23,07:00 PM,Group Play,SLSG Navy ECNL G12,1,0,SLSG Green ECNL G12,SLYSA Soccer Complex,Field 6,On Time,811868
+2025-09-27,08:00 AM,Group Play,Michigan Hawks ECNL G12,4,0,Minnesota Thunder ECNL G12,St. Joe's Sports Dome,St. Joe's Dome,On Time,811820
+2025-09-27,01:00 PM,Group Play,Nationals Soccer Club ECNL G12,3,0,Michigan Hawks Magic ECNL G12,Evolution Sportsplex,Field 1,On Time,811818
+2025-09-28,08:00 AM,Group Play,Michigan Hawks Magic ECNL G12,0,2,Minnesota Thunder ECNL G12,Schoolcraft Turf,SC Turf,On Time,811822
+2025-09-28,01:30 PM,Group Play,Chicago Inter Soccer ECNL G12,4,1,FC Wisconsin ECNL G12,Chicago Inter Complex,Field 2,On Time,811854
+2025-10-04,08:00 AM,Group Play,Gretna Elite Academy ECNL G12,2,1,Missouri Rush ECNL G12,Winter Park MTA Training Fieldhouse,Field 1,On Time,811828
+2025-10-04,01:15 PM,Group Play,Liverpool FC IA Michigan ECNL G12,1,0,FC Wisconsin ECNL G12,UWM Sports Complex,Field 3,On Time,811824
+2025-10-04,03:00 PM,Group Play,Minnesota Thunder ECNL G12,2,1,Sporting Iowa ECNL G12,Academy of Holy Angels,South Turf 1 (11v11),On Time,811830
+2025-10-04,04:30 PM,Group Play,Nationals Soccer Club ECNL G12,2,2,Rockford Raptors ECNL G12,Oakland University Upper Fields,South Field,On Time,811826
+2025-10-05,08:00 AM,Group Play,Minnesota Thunder ECNL G12,5,0,Gretna Elite Academy ECNL G12,Academy of Holy Angels,South Turf 1 (11v11),On Time,811836
+2025-10-05,08:00 AM,Group Play,Sporting Iowa ECNL G12,0,3,Missouri Rush ECNL G12,MTA Winter Park Training Facility,Indoor,On Time,811838
+2025-10-05,09:45 AM,Group Play,Nationals Soccer Club ECNL G12,1,0,FC Wisconsin ECNL G12,Oakland University Upper Fields,South Field,On Time,811832
+2025-10-05,01:00 PM,Group Play,Liverpool FC IA Michigan ECNL G12,3,0,Rockford Raptors ECNL G12,UWM Sports Complex,Field 3,On Time,811834
+2025-10-11,11:00 AM,Group Play,Sporting Iowa ECNL G12,0,3,SLSG Green ECNL G12,Hy-Vee Multiplex,Green #2,On Time,811842
+2025-10-11,03:00 PM,Group Play,Gretna Elite Academy ECNL G12,0,2,SLSG Navy ECNL G12,Grimesplex,Purple 2,On Time,811840
+2025-10-12,09:50 AM,Group Play,Sporting Iowa ECNL G12,1,2,SLSG Navy ECNL G12,Hy-Vee Multiplex,Green #2,On Time,811846
+2025-10-12,12:00 PM,Group Play,Gretna Elite Academy ECNL G12,3,1,SLSG Green ECNL G12,Grimesplex,Purple 2,On Time,811844
+2025-10-18,01:00 PM,Group Play,Chicago Inter Soccer ECNL G12,1,2,SLSG Green ECNL G12,Chicago Inter Complex,Field 1,On Time,811848
+2025-10-25,08:00 AM,Group Play,Rockford Raptors ECNL G12,0,4,SLSG Green ECNL G12,Winter Park-Eden Prairie Indoor Facility,Field 1,On Time,811856
+2025-10-25,01:00 PM,Group Play,Missouri Rush ECNL G12,2,2,Eclipse Select SC ECNL G12,Missouri Rush Sports Park,Field 3,On Time,811852
+2025-10-26,08:00 AM,Group Play,Rockford Raptors ECNL G12,1,3,SLSG Navy ECNL G12,Winter Park-Eden Prairie Indoor Facility,Field 1,On Time,811858
+2025-11-01,03:00 PM,Group Play,Michigan Hawks Magic ECNL G12,0,2,Chicago Inter Soccer ECNL G12,Jaycee Park,Jaycee Turf,On Time,811892
+2025-11-01,04:00 PM,Group Play,Nationals Soccer Club ECNL G12,2,0,Sporting Iowa ECNL G12,Gretna East High School,field 1,On Time,811860
+2025-11-01,04:00 PM,Group Play,Gretna Elite Academy ECNL G12,0,1,Liverpool FC IA Michigan ECNL G12,Gretna Sports Complex,Field 1,On Time,811862
+2025-11-01,04:00 PM,Group Play,Michigan Hawks ECNL G12,4,0,Eclipse Select SC ECNL G12,Schoolcraft Turf,SC Turf,On Time,811890
+2025-11-02,08:00 AM,Group Play,Gretna Elite Academy ECNL G12,2,4,Nationals Soccer Club ECNL G12,Gretna Sports Complex,Field 1,On Time,811864
+2025-11-02,08:00 AM,Group Play,Liverpool FC IA Michigan ECNL G12,3,1,Sporting Iowa ECNL G12,Gretna East High School,field 2,On Time,811866
+2025-11-02,11:10 AM,Group Play,Michigan Hawks ECNL G12,1,0,Chicago Inter Soccer ECNL G12,Jaycee Park,Jaycee Turf,On Time,811906
+2025-11-02,12:50 PM,Group Play,Michigan Hawks Magic ECNL G12,0,4,Eclipse Select SC ECNL G12,Jaycee Park,Jaycee Turf,On Time,811904
+2026-02-07,03:45 PM,Group Play,Minnesota Thunder ECNL G12,0,3,Chicago Inter Soccer ECNL G12,Academy of Holy Angels,South Turf 1 (11v11),On Time,811928
+2026-03-14,08:00 AM,Group Play,Michigan Hawks ECNL G12,1,0,Liverpool FC IA Michigan ECNL G12,St. Joe's Sports Dome,St. Joe's Dome,On Time,811872
+2026-03-14,11:30 AM,Group Play,SLSG Navy ECNL G12,4,1,Chicago Inter Soccer ECNL G12,WWT Soccer Park,Field 1,On Time,811870
+2026-03-14,01:15 PM,Group Play,Missouri Rush ECNL G12,1,3,Minnesota Thunder ECNL G12,SLSG World Wide Soccer Park,Field 5,On Time,811874
+2026-03-15,11:20 AM,Group Play,Missouri Rush ECNL G12,0,3,Rockford Raptors ECNL G12,Ladue 5th Grade Center,Field 1 - Upper,On Time,811876
+2026-03-21,12:00 PM,Group Play,Eclipse Select SC ECNL G12,0,5,SLSG Navy ECNL G12,Deerpath Community Park Lake Forest,East,On Time,811878
+2026-03-21,01:00 PM,Group Play,Kansas City Athletics ECNL G12,2,0,Minnesota Thunder ECNL G12,KC Current Training Facility,Field 2,On Time,811884
+2026-03-21,03:00 PM,Group Play,Sporting Blue Valley ECNL G12,1,1,Missouri Rush ECNL G12,Scheels Overland Park Soccer Complex,Field 12,On Time,811882
+2026-03-22,11:00 AM,Group Play,Sporting Blue Valley ECNL G12,0,2,Minnesota Thunder ECNL G12,Scheels Overland Park Soccer Complex,Field 12,On Time,811886
+2026-03-22,12:00 PM,Group Play,Eclipse Select SC ECNL G12,0,1,SLSG Green ECNL G12,Deerpath Community Park Lake Forest,East,On Time,811850
+2026-03-22,12:00 PM,Group Play,Kansas City Athletics ECNL G12,4,1,Missouri Rush ECNL G12,KC Current Training Facility,Field 2,On Time,811888
+2026-04-11,08:00 AM,Group Play,Minnesota Thunder ECNL G12,1,1,Eclipse Select SC ECNL G12,Winter Park,Fieldhouse,On Time,811960
+2026-04-11,11:00 AM,Group Play,FC Wisconsin ECNL G12,0,0,Sporting Iowa ECNL G12,FC Wisconsin Soccer Park,Field 1 - Val Olla Field,On Time,811894
+2026-04-11,11:00 AM,Group Play,Rockford Raptors ECNL G12,1,1,Gretna Elite Academy ECNL G12,Mercyhealth Sportscore Two,Field - TBA (11v11),On Time,811896
+2026-04-11,01:00 PM,Group Play,Kansas City Athletics ECNL G12,4,0,SLSG Navy ECNL G12,KC Current Training Facility,Field 1,On Time,811914
+2026-04-11,03:15 PM,Group Play,Sporting Blue Valley ECNL G12,0,1,SLSG Green ECNL G12,Current Training Complex,Field 4,On Time,811912
+2026-04-12,11:00 AM,Group Play,FC Wisconsin ECNL G12,2,0,Gretna Elite Academy ECNL G12,FC Wisconsin Soccer Park,Field 1 - Val Olla Field,On Time,811908
+2026-04-12,11:00 AM,Group Play,Rockford Raptors ECNL G12,4,0,Sporting Iowa ECNL G12,Mercyhealth Sportscore Two,Field - TBA (11v11),On Time,811910
+2026-04-12,02:00 PM,Group Play,Sporting Blue Valley ECNL G12,2,3,SLSG Navy ECNL G12,Current Training Complex,field 2,On Time,811902
+2026-04-12,03:00 PM,Group Play,Kansas City Athletics ECNL G12,6,1,SLSG Green ECNL G12,KC Current Training Facility,Field 1,On Time,811900
+2026-04-16,07:15 PM,Group Play,Kansas City Athletics ECNL G12,1,0,Sporting Blue Valley ECNL G12,KC Current Training Facility,Field 1,On Time,811926
+2026-04-18,08:00 AM,Group Play,Minnesota Thunder ECNL G12,3,0,FC Wisconsin ECNL G12,Winter Park,Fieldhouse,On Time,811918
+2026-04-18,08:00 AM,Group Play,Michigan Hawks Magic ECNL G12,2,1,Missouri Rush ECNL G12,Schoolcraft Turf,SC Turf,On Time,811922
+2026-04-18,11:00 AM,Group Play,Eclipse Select SC ECNL G12,0,0,Chicago Inter Soccer ECNL G12,Oak Brook Park District,Turf,On Time,811916
+2026-04-18,02:00 PM,Group Play,Nationals Soccer Club ECNL G12,1,5,Michigan Hawks ECNL G12,Evolution Sportsplex,Field 1,On Time,811920
+2026-04-18,03:00 PM,Group Play,Sporting Iowa ECNL G12,1,1,Gretna Elite Academy ECNL G12,Hy-Vee Multiplex,Green #1,On Time,811924
+2026-04-19,10:00 AM,Group Play,Michigan Hawks ECNL G12,1,0,Missouri Rush ECNL G12,Jaycee Park,Jaycee Turf,On Time,811930
+2026-04-25,10:00 AM,Group Play,SLSG Green ECNL G12,2,0,FC Wisconsin ECNL G12,Collinsville Soccer Complex,Turf,On Time,811936
+2026-04-25,10:00 AM,Group Play,Nationals Soccer Club ECNL G12,0,2,Kansas City Athletics ECNL G12,Oakland University Upper Fields,North field,On Time,811938
+2026-04-25,10:45 AM,Group Play,Missouri Rush ECNL G12,2,2,Chicago Inter Soccer ECNL G12,Missouri Rush Sports Park,Field 3,On Time,811934
+2026-04-25,12:00 PM,Group Play,Liverpool FC IA Michigan ECNL G12,1,2,Sporting Blue Valley ECNL G12,UWM Sports Complex,Field 3,On Time,811940
+2026-04-25,01:30 PM,Group Play,SLSG Navy ECNL G12,5,1,Minnesota Thunder ECNL G12,Collinsville Soccer Complex,Turf,On Time,811942
+2026-04-25,03:00 PM,Group Play,Rockford Raptors ECNL G12,1,1,Eclipse Select SC ECNL G12,Mercyhealth Sportscore Two,Field 219 Stadium,On Time,811932
+2026-04-26,08:00 AM,Group Play,SLSG Green ECNL G12,1,1,Minnesota Thunder ECNL G12,WWT Soccer Park,Field 3,On Time,811950
+2026-04-26,09:45 AM,Group Play,Nationals Soccer Club ECNL G12,2,1,Sporting Blue Valley ECNL G12,Evolution Sportsplex,Field 1,On Time,811946
+2026-04-26,11:30 AM,Group Play,SLSG Navy ECNL G12,3,1,FC Wisconsin ECNL G12,WWT Soccer Park,Field 2,On Time,811944
+2026-04-26,12:00 PM,Group Play,Liverpool FC IA Michigan ECNL G12,0,1,Kansas City Athletics ECNL G12,Avondale High School,Stadium,On Time,811948
+2026-05-02,08:00 AM,Group Play,Michigan Hawks Magic ECNL G12,0,1,Liverpool FC IA Michigan ECNL G12,Schoolcraft Turf,SC Turf,On Time,811956
+2026-05-02,02:00 PM,Group Play,Missouri Rush ECNL G12,2,0,SLSG Green ECNL G12,Missouri Rush Sports Park,Field 1,On Time,811958
+2026-05-02,03:00 PM,Group Play,FC Wisconsin ECNL G12,1,1,Eclipse Select SC ECNL G12,FC Wisconsin Soccer Park,Field 2 - Hegarty Field,On Time,811952
+2026-05-03,12:30 PM,Group Play,Nationals Soccer Club ECNL G12,0,3,Liverpool FC IA Michigan ECNL G12,Evolution Sportsplex,Field 1,On Time,811898
+2026-05-09,10:45 AM,Group Play,Rockford Raptors ECNL G12,0,1,Michigan Hawks Magic ECNL G12,Mercyhealth Sportscore Two,Field - TBA (11v11),On Time,811964
+2026-05-09,11:00 AM,Group Play,FC Wisconsin ECNL G12,0,5,Michigan Hawks ECNL G12,FC Wisconsin Soccer Park,Field 1 - Val Olla Field,On Time,811962
+2026-05-09,11:15 AM,Group Play,Missouri Rush ECNL G12,0,1,SLSG Navy ECNL G12,Sport 360 Zone,Field 7,On Time,811966
+2026-05-10,10:45 AM,Group Play,FC Wisconsin ECNL G12,3,0,Michigan Hawks Magic ECNL G12,FC Wisconsin Soccer Park,Field 1 - Val Olla Field,On Time,811968
+2026-05-10,10:45 AM,Group Play,Rockford Raptors ECNL G12,1,2,Michigan Hawks ECNL G12,Mercyhealth Sportscore Two,Field - TBA (11v11),On Time,811970
+2026-05-16,08:00 AM,Group Play,Michigan Hawks ECNL G12,3,0,SLSG Navy ECNL G12,Schoolcraft Turf,SC Turf,On Time,811978
+2026-05-16,09:00 AM,Group Play,Chicago Inter Soccer ECNL G12,2,0,Liverpool FC IA Michigan ECNL G12,Chicago Inter Complex,Field 2,On Time,811974
+2026-05-16,10:30 AM,Group Play,Eclipse Select SC ECNL G12,5,1,Nationals Soccer Club ECNL G12,Redmond Recreational Complex - Turf Field,Turf,On Time,811972
+2026-05-16,12:00 PM,Group Play,Michigan Hawks Magic ECNL G12,0,2,SLSG Green ECNL G12,Schoolcraft Turf,SC Turf,On Time,811980
+2026-05-16,12:00 PM,Group Play,Gretna Elite Academy ECNL G12,0,3,Sporting Blue Valley ECNL G12,Gretna Sports Complex,Field 1,On Time,811982
+2026-05-16,01:00 PM,Group Play,Sporting Iowa ECNL G12,0,4,Kansas City Athletics ECNL G12,Hy-Vee Multiplex,Green #1,On Time,811984
+2026-05-17,08:00 AM,Group Play,Michigan Hawks ECNL G12,1,0,SLSG Green ECNL G12,St. Joe's Sports Dome,St. Joe's Dome,On Time,811990
+2026-05-17,09:00 AM,Group Play,Chicago Inter Soccer ECNL G12,5,2,Nationals Soccer Club ECNL G12,Chicago Inter Complex,Field 1,On Time,811988
+2026-05-17,09:00 AM,Group Play,Gretna Elite Academy ECNL G12,1,2,Kansas City Athletics ECNL G12,Gretna Sports Complex,Field 2,On Time,811994
+2026-05-17,10:30 AM,Group Play,Eclipse Select SC ECNL G12,2,2,Liverpool FC IA Michigan ECNL G12,Langhorst Field at Elmhurst University,Field 1,On Time,811986
+2026-05-17,12:00 PM,Group Play,Michigan Hawks Magic ECNL G12,0,7,SLSG Navy ECNL G12,St. Joe's Sports Dome,St. Joe's Dome,On Time,811992
+2026-05-17,01:45 PM,Group Play,Sporting Iowa ECNL G12,1,2,Sporting Blue Valley ECNL G12,Hy-Vee Multiplex,Green #1,On Time,811996
+2026-05-28,08:00 PM,Group Play,Rockford Raptors ECNL G12,1,0,Chicago Inter Soccer ECNL G12,Mercyhealth Sportscore Two,Field - TBA (11v11),On Time,811954
+2026-05-30,11:30 AM,Group Play,FC Wisconsin ECNL G12,3,1,Rockford Raptors ECNL G12,Falcon Field - Whitnall High School,Field 1,On Time,811976

@@ -1,0 +1,53 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2021-11-20,02:30 PM,Bracket,FC Alliance ECNL GU18/U19,0,3,Kings Hammer SC ECNL GU18/U19,Mayor Bob Leonard Park,Field 1,On Time,277693
+2021-11-20,02:30 PM,Bracket,Tennessee Soccer Club ECNL GU18/U19,0,1,Ohio Premier ECNL GU18/U19,Oakland High School ,Field 1,On Time,278118
+2021-11-20,05:00 PM,Bracket,Racing Louisville Academy ECNL GU18/U19,1,2,FC Pride Elite ECNL GU18/U19,Lynn Family Sports Vision & Training Facility,Field 3,On Time,278066
+2021-11-21,02:30 PM,Bracket,FC Alliance ECNL GU18/U19,1,0,Ohio Premier ECNL GU18/U19,Mayor Bob Leonard Park,Field 1,On Time,277694
+2021-11-21,02:30 PM,Bracket,Indiana Fire ECNL GU18/U19,2,2,Ohio Elite Soccer Academy ECNL GU18/U19,Heritage Christian School,Field 1,On Time,277783
+2021-11-21,02:30 PM,Bracket,Tennessee Soccer Club ECNL GU18/U19,1,2,Kings Hammer SC ECNL GU18/U19,Oakland High School ,Field 1,On Time,278119
+2021-12-11,12:00 PM,Bracket,Ohio Elite Soccer Academy ECNL GU18/U19,3,1,FC Pride Elite ECNL GU18/U19,Seven Hills School,Lower Field,On Time,277916
+2021-12-11,02:00 PM,Bracket,Racing Louisville Academy ECNL GU18/U19,1,3,Indiana Fire ECNL GU18/U19,Lynn Family Sports Vision & Training Facility,Field 3,On Time,278064
+2021-12-18,03:00 PM,Bracket,FC Pride Elite ECNL GU18/U19,4,2,FC Alliance ECNL GU18/U19,Pride Performance Center (Turf),Field 1,On Time,277739
+2021-12-18,03:00 PM,Bracket,Indiana Fire ECNL GU18/U19,1,1,Tennessee Soccer Club ECNL GU18/U19,Grand Park,Field 3,On Time,277784
+2021-12-18,05:00 PM,Bracket,Racing Louisville Academy ECNL GU18/U19,0,1,Ohio Elite Soccer Academy ECNL GU18/U19,Lynn Family Sports Vision & Training Facility,Field 1,On Time,278065
+2021-12-19,02:30 PM,Bracket,Indiana Fire ECNL GU18/U19,5,1,FC Alliance ECNL GU18/U19,Grand Park,Field 3,On Time,277785
+2022-02-13,04:00 PM,Bracket,FC Alliance ECNL GU18/U19,1,2,Tennessee Soccer Club ECNL GU18/U19,Mayor Bob Leonard Park,Field 1,On Time,277695
+2022-03-05,02:30 PM,Bracket,FC Alliance ECNL GU18/U19,4,0,Cleveland Force SC ECNL GU18/U19,Mayor Bob Leonard Park,Field 1,On Time,277696
+2022-03-05,03:15 PM,Bracket,FC Pride Elite ECNL GU18/U19,2,0,Ohio Elite Soccer Academy ECNL GU18/U19,Pride Performance Center (Turf),Field 1,On Time,277741
+2022-03-05,03:30 PM,Bracket,Tennessee Soccer Club ECNL GU18/U19,1,1,Internationals SC ECNL GU18/U19,Richard Siegel Soccer Complex,Field 1,On Time,278120
+2022-03-06,02:30 PM,Bracket,FC Alliance ECNL GU18/U19,1,2,Internationals SC ECNL GU18/U19,Mayor Bob Leonard Park,Field 1,On Time,277697
+2022-03-06,02:30 PM,Bracket,Tennessee Soccer Club ECNL GU18/U19,4,0,Cleveland Force SC ECNL GU18/U19,Richard Siegel Soccer Complex,Field 1,On Time,278121
+2022-03-06,04:00 PM,Bracket,Indiana Fire ECNL GU18/U19,3,2,Racing Louisville Academy ECNL GU18/U19,Heritage Christian School,Field 1,On Time,277786
+2022-03-13,03:45 PM,Bracket,Ohio Elite Soccer Academy ECNL GU18/U19,0,1,Indiana Fire ECNL GU18/U19,Seven Hills School,Lower Field,On Time,277917
+2022-03-19,03:00 PM,Bracket,Racing Louisville Academy ECNL GU18/U19,2,2,WNY Flash Academy ECNL GU18/U19,Lynn Family Sports Vision & Training Facility,Field 3,On Time,278067
+2022-03-19,03:45 PM,Bracket,Ohio Elite Soccer Academy ECNL GU18/U19,2,2,Pittsburgh Riverhounds ECNL GU18/U19,Seven Hills School,Lower Field,On Time,277918
+2022-03-20,01:45 PM,Bracket,Ohio Elite Soccer Academy ECNL GU18/U19,3,2,WNY Flash Academy ECNL GU18/U19,Seven Hills School,Lower Field,On Time,277919
+2022-03-20,03:00 PM,Bracket,Racing Louisville Academy ECNL GU18/U19,1,3,Pittsburgh Riverhounds ECNL GU18/U19,Lynn Family Sports Vision & Training Facility,Field 1,On Time,278068
+2022-04-09,11:00 AM,Bracket,Tennessee Soccer Club ECNL GU18/U19,1,0,Indiana Fire ECNL GU18/U19,Richard Siegel Soccer Complex,Field 1,On Time,277787
+2022-04-09,02:30 PM,Bracket,FC Alliance ECNL GU18/U19,2,0,FC Pride Elite ECNL GU18/U19,Mayor Bob Leonard Park,Field 1,On Time,277698
+2022-04-09,03:00 PM,Bracket,Racing Louisville Academy ECNL GU18/U19,3,0,Cleveland Force SC ECNL GU18/U19,Lynn Family Sports Vision & Training Facility,Field 3,On Time,278069
+2022-04-09,03:30 PM,Bracket,Ohio Elite Soccer Academy ECNL GU18/U19,2,1,Internationals SC ECNL GU18/U19,Ohio Elite Training Center,Field 9,On Time,277920
+2022-04-10,11:00 AM,Bracket,Tennessee Soccer Club ECNL GU18/U19,3,0,FC Pride Elite ECNL GU18/U19,Richard Siegel Soccer Complex,Field 1,On Time,278122
+2022-04-10,02:30 PM,Bracket,FC Alliance ECNL GU18/U19,0,2,Indiana Fire ECNL GU18/U19,Mayor Bob Leonard Park,Field 1,On Time,277699
+2022-04-10,02:30 PM,Bracket,Racing Louisville Academy ECNL GU18/U19,0,8,Internationals SC ECNL GU18/U19,Lynn Family Sports Vision & Training Facility,Field 3,On Time,278070
+2022-04-10,02:45 PM,Bracket,Ohio Elite Soccer Academy ECNL GU18/U19,9,0,Cleveland Force SC ECNL GU18/U19,Seven Hills School,Lower Field,On Time,277921
+2022-04-16,04:00 PM,Bracket,FC Pride Elite ECNL GU18/U19,1,1,Indiana Fire ECNL GU18/U19,Pride Performance Center (Turf),Field 1,On Time,277742
+2022-04-23,09:00 AM,Bracket,FC Alliance ECNL GU18/U19,1,1,Racing Louisville Academy ECNL GU18/U19,Mayor Bob Leonard Park,Field 1,On Time,277700
+2022-04-23,09:00 AM,Bracket,Tennessee Soccer Club ECNL GU18/U19,2,1,Ohio Elite Soccer Academy ECNL GU18/U19,Richard Siegel Soccer Complex,Field 1,On Time,278123
+2022-04-23,09:30 AM,Bracket,FC Pride Elite ECNL GU18/U19,3,2,Ohio Premier ECNL GU18/U19,Pride Performance Center (Turf),Field 1,On Time,277743
+2022-04-23,02:00 PM,Bracket,Indiana Fire ECNL GU18/U19,3,0,Kings Hammer SC ECNL GU18/U19,Grand Park,Field 10,On Time,277788
+2022-04-24,02:30 PM,Bracket,FC Alliance ECNL GU18/U19,1,1,Ohio Elite Soccer Academy ECNL GU18/U19,Mayor Bob Leonard Park,Field 1,On Time,277701
+2022-04-24,03:00 PM,Bracket,Tennessee Soccer Club ECNL GU18/U19,3,0,Racing Louisville Academy ECNL GU18/U19,Richard Siegel Soccer Complex,Field 1,On Time,278124
+2022-04-24,03:30 PM,Bracket,FC Pride Elite ECNL GU18/U19,4,2,Kings Hammer SC ECNL GU18/U19,Pride Performance Center (Turf),Field 1,On Time,277744
+2022-04-24,04:00 PM,Bracket,Indiana Fire ECNL GU18/U19,1,0,Ohio Premier ECNL GU18/U19,Grand Park,Field 10,On Time,277789
+2022-04-30,10:15 AM,Bracket,WNY Flash Academy ECNL GU18/U19,2,0,FC Alliance ECNL GU18/U19,Flash Fields,Field A,On Time,277702
+2022-05-01,08:30 AM,Bracket,WNY Flash Academy ECNL GU18/U19,0,0,Tennessee Soccer Club ECNL GU18/U19,Flash Fields,Field B,On Time,278125
+2022-05-07,11:00 AM,Bracket,FC Pride Elite ECNL GU18/U19,0,1,Tennessee Soccer Club ECNL GU18/U19,Pride Performance Center (Turf),Field 1,On Time,277740
+2022-05-14,03:00 AM,Bracket,Racing Louisville Academy ECNL GU18/U19,2,1,FC Alliance ECNL GU18/U19,Lynn Family Sports Vision & Training Facility,Field 3,On Time,278071
+2022-05-14,02:00 PM,Bracket,Ohio Elite Soccer Academy ECNL GU18/U19,1,0,Tennessee Soccer Club ECNL GU18/U19,Ohio Elite Training Center,Field 9,On Time,277922
+2022-05-15,03:00 AM,Bracket,Racing Louisville Academy ECNL GU18/U19,0,1,Tennessee Soccer Club ECNL GU18/U19,Lynn Family Sports Vision & Training Facility,Field 3,On Time,278072
+2022-05-15,01:45 PM,Bracket,Ohio Elite Soccer Academy ECNL GU18/U19,6,1,FC Alliance ECNL GU18/U19,Ohio Elite Training Center,Field 9,On Time,277923
+2022-05-22,10:00 AM,Bracket,FC Pride Elite ECNL GU18/U19,0,0,Racing Louisville Academy ECNL GU18/U19,Pride Performance Center (Turf),Field 1,On Time,277738
+2022-06-02,07:30 PM,Bracket,Indiana Fire ECNL GU18/U19,1,2,FC Pride Elite ECNL GU18/U19,Grand Park,Field 1,On Time,277790
+2022-06-04,09:00 AM,Bracket,Tennessee Soccer Club ECNL GU18/U19,1,1,FC Alliance ECNL GU18/U19,Williamson County Sports Complex,Field 25,On Time,278126
+2022-06-04,10:00 AM,Bracket,Ohio Elite Soccer Academy ECNL GU18/U19,7,2,Racing Louisville Academy ECNL GU18/U19,Ohio Elite Training Center,Field 9,On Time,277924

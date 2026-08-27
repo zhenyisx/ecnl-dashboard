@@ -1,0 +1,47 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2022-09-10,09:00 AM,Bracket,Ohio Premier ECNL G10,0,0,Tennessee Soccer Club ECNL G10,OP Training Facility,Field 1,On Time,363920
+2022-09-10,11:45 AM,Bracket,Kings Hammer SC ECNL G10,0,4,FC Alliance ECNL G10,Warren County Sports Park,Field 1,On Time,363919
+2022-09-11,09:00 AM,Bracket,Ohio Premier ECNL G10,0,2,FC Alliance ECNL G10,OP Training Facility,Field 1,On Time,363922
+2022-09-11,12:30 PM,Bracket,Kings Hammer SC ECNL G10,0,0,Tennessee Soccer Club ECNL G10,St Henry High School,Field 1,On Time,363921
+2022-09-24,10:00 AM,Bracket,Cleveland Force SC ECNL G10,0,1,Internationals SC ECNL G10,Lost Nation Sports Park,Field 2 11v11,On Time,363927
+2022-09-25,08:30 AM,Group Play,Pittsburgh Riverhounds ECNL G10,0,3,WNY Flash ECNL G10,Montour Junction Sports Complex,Field 1,On Time,404162
+2022-09-25,01:30 PM,Bracket,Kings Hammer SC ECNL G10,1,5,Ohio Premier ECNL G10,St Henry High School,Field 1,On Time,363918
+2022-10-01,09:00 AM,Bracket,Internationals SC ECNL G10,2,0,FC Alliance ECNL G10,Pinnacle Sports,Field 1,On Time,363924
+2022-10-01,09:00 AM,Bracket,WNY Flash ECNL G10,4,0,Racing Louisville Academy ECNL G10,Flash Fields,Field A,On Time,363928
+2022-10-01,09:00 AM,Bracket,Pittsburgh Riverhounds ECNL G10,0,0,Ohio Elite Soccer Academy ECNL G10,Montour Junction Sports Complex,Field 1,On Time,363929
+2022-10-01,10:00 AM,Bracket,Cleveland Force SC ECNL G10,0,6,Tennessee Soccer Club ECNL G10,Lost Nation Sports Park,Field 2 11v11,On Time,363923
+2022-10-02,08:00 AM,Bracket,Internationals SC ECNL G10,1,0,Tennessee Soccer Club ECNL G10,Pinnacle Sports,Field 1,On Time,363926
+2022-10-02,09:00 AM,Bracket,Cleveland Force SC ECNL G10,2,4,FC Alliance ECNL G10,Lost Nation Sports Park,Field 2 11v11,On Time,363925
+2022-10-02,09:00 AM,Bracket,Pittsburgh Riverhounds ECNL G10,0,3,Racing Louisville Academy ECNL G10,Montour Junction Sports Complex,Field 1,On Time,363930
+2022-10-02,09:00 AM,Bracket,WNY Flash ECNL G10,3,0,Ohio Elite Soccer Academy ECNL G10,Flash Fields,Field A,On Time,363931
+2022-10-08,11:00 AM,Bracket,Ohio Premier ECNL G10,0,1,Indiana Fire ECNL G10,OP Training Facility,Field 1,On Time,363933
+2022-10-08,11:45 AM,Bracket,Kings Hammer SC ECNL G10,0,10,FC Pride Elite ECNL G10,St Henry High School,Field 1,On Time,363932
+2022-10-09,09:00 AM,Bracket,Ohio Premier ECNL G10,1,2,FC Pride Elite ECNL G10,OP Training Facility,Field 1,On Time,363935
+2022-10-09,01:30 PM,Bracket,Kings Hammer SC ECNL G10,0,7,Indiana Fire ECNL G10,St Henry High School,Field 1,On Time,363934
+2022-10-29,09:00 AM,Bracket,WNY Flash ECNL G10,7,0,Kings Hammer SC ECNL G10,Flash Fields,Field A,On Time,363936
+2022-10-29,09:00 AM,Bracket,Pittsburgh Riverhounds ECNL G10,0,9,Ohio Premier ECNL G10,Montour Junction Sports Complex,Field 1,On Time,363937
+2022-10-30,09:00 AM,Bracket,Pittsburgh Riverhounds ECNL G10,1,0,Kings Hammer SC ECNL G10,Montour Junction Sports Complex,Field 1,On Time,363938
+2022-10-30,09:00 AM,Bracket,WNY Flash ECNL G10,4,1,Ohio Premier ECNL G10,Flash Fields,Field A,On Time,363979
+2022-11-05,09:00 AM,Bracket,WNY Flash ECNL G10,3,0,Pittsburgh Riverhounds ECNL G10,Flash Fields,Field A,On Time,363941
+2022-11-05,10:00 AM,Bracket,Internationals SC ECNL G10,1,0,Cleveland Force SC ECNL G10,Pinnacle Sports,Field 1,On Time,363939
+2022-11-05,11:00 AM,Bracket,Ohio Premier ECNL G10,11,0,Kings Hammer SC ECNL G10,OP Training Facility,Field 1,On Time,363940
+2023-03-25,10:00 AM,Bracket,Internationals SC ECNL G10,9,1,Pittsburgh Riverhounds ECNL G10,Pinnacle Sports,Field 1,On Time,363943
+2023-03-25,12:30 PM,Bracket,Cleveland Force SC ECNL G10,0,3,WNY Flash ECNL G10,Lost Nations Sports Park - West ,Field 1,On Time,363942
+2023-03-26,08:30 AM,Bracket,Cleveland Force SC ECNL G10,5,0,Pittsburgh Riverhounds ECNL G10,Victory Park,Field 1,On Time,363944
+2023-03-26,09:00 AM,Bracket,Internationals SC ECNL G10,3,2,WNY Flash ECNL G10,Pinnacle Sports,Field 1,On Time,363945
+2023-04-15,10:00 AM,Bracket,Ohio Premier ECNL G10,1,1,Cleveland Force SC ECNL G10,OP Training Facility,Field 1,On Time,363946
+2023-04-15,11:45 AM,Bracket,Kings Hammer SC ECNL G10,0,7,Internationals SC ECNL G10,Withrow High School,Field 1,On Time,363947
+2023-04-16,09:00 AM,Bracket,Ohio Premier ECNL G10,1,5,Internationals SC ECNL G10,OP Training Facility,Field 1,On Time,363949
+2023-04-16,11:45 AM,Bracket,Kings Hammer SC ECNL G10,0,4,Cleveland Force SC ECNL G10,St Henry High School,Field 1,On Time,363948
+2023-04-22,09:00 AM,Bracket,Ohio Premier ECNL G10,5,0,Pittsburgh Riverhounds ECNL G10,OP Training Facility,Field 1,On Time,363951
+2023-04-22,11:45 AM,Bracket,Kings Hammer SC ECNL G10,0,5,WNY Flash ECNL G10,Saint Ursula High School,Field 1,On Time,363950
+2023-04-23,TBD,Bracket,Ohio Premier ECNL G10,3,6,WNY Flash ECNL G10,,,On Time,363953
+2023-04-23,10:45 AM,Bracket,Kings Hammer SC ECNL G10,2,2,Pittsburgh Riverhounds ECNL G10,St Henry High School,Field 1,On Time,363952
+2023-05-06,09:00 AM,Bracket,Internationals SC ECNL G10,5,0,Kings Hammer SC ECNL G10,Copley Road Soccer Complex,7,On Time,363955
+2023-05-06,11:00 AM,Bracket,Cleveland Force SC ECNL G10,1,4,Ohio Premier ECNL G10,Lost Nation Sports Park,Field 2 11v11,On Time,363954
+2023-05-07,09:00 AM,Bracket,Cleveland Force SC ECNL G10,5,0,Kings Hammer SC ECNL G10,Lost Nation Sports Park,Field 2 11v11,On Time,363956
+2023-05-07,10:00 AM,Bracket,Internationals SC ECNL G10,5,1,Ohio Premier ECNL G10,Copley Road Soccer Complex,5,On Time,363957
+2023-05-20,09:00 AM,Bracket,WNY Flash ECNL G10,6,0,Cleveland Force SC ECNL G10,Flash Fields,Field A,On Time,363958
+2023-05-20,10:00 AM,Bracket,Pittsburgh Riverhounds ECNL G10,0,7,Internationals SC ECNL G10,Montour Junction Sports Complex,Field 2,On Time,363959
+2023-05-21,09:00 AM,Bracket,WNY Flash ECNL G10,2,2,Internationals SC ECNL G10,Flash Fields,Field A,On Time,363961
+2023-05-21,10:15 AM,Bracket,Pittsburgh Riverhounds ECNL G10,1,5,Cleveland Force SC ECNL G10,Montour Junction Sports Complex,Field 2,On Time,363960

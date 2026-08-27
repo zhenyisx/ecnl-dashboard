@@ -1,0 +1,66 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2022-12-10,09:30 AM,Bracket,Pipeline SC ECNL G07,0,5,PDA White ECNL G07,Mercy High School,Field 1,On Time,361213
+2022-12-10,10:00 AM,Bracket,Match Fit Academy ECNL G07,3,2,FC DELCO ECNL G07,Morris Catholic High School,Field 1 Upper,On Time,361214
+2022-12-10,12:30 PM,Bracket,Maryland United FC ECNL G07,2,1,FC Bucks ECNL G07,Indian Creek,Field 1,On Time,361215
+2022-12-17,10:45 AM,Bracket,Bethesda SC ECNL G07,0,4,Maryland United FC ECNL G07,The Academy of the Holy Cross,Field 1,On Time,361219
+2022-12-17,11:45 AM,Bracket,FC DELCO ECNL G07,3,0,Pipeline SC ECNL G07,Proving Grounds,1,On Time,361217
+2022-12-17,02:45 PM,Bracket,FC Bucks ECNL G07,1,1,PDA South ECNL G07,Council Rock South High School,Turf,On Time,361220
+2023-02-11,08:00 AM,Bracket,Maryland United FC ECNL G07,4,1,Bethesda SC ECNL G07,Troy Park,Field 1,On Time,361237
+2023-02-25,12:00 PM,Bracket,Pipeline SC ECNL G07,1,2,Penn Fusion SA ECNL G07,Notre Dame Prepatory School,Field 1,On Time,361221
+2023-02-25,01:00 PM,Bracket,Maryland United FC ECNL G07,1,0,PDA South ECNL G07,Liberty Sports Park,Field 1,On Time,361224
+2023-02-25,03:00 PM,Bracket,Bethesda SC ECNL G07,0,6,PDA Blue ECNL G07,The Academy of the Holy Cross,Field 1,On Time,361223
+2023-02-26,01:00 PM,Bracket,Maryland United FC ECNL G07,1,6,PDA Blue ECNL G07,Liberty Sports Park,Field 1,On Time,361225
+2023-03-04,01:00 PM,Bracket,PDA White ECNL G07,1,5,Penn Fusion SA ECNL G07,PDA ,Field 3,On Time,361246
+2023-03-05,11:00 AM,Bracket,FC Bucks ECNL G07,0,1,Penn Fusion SA ECNL G07,Council Rock South High School,Turf,On Time,361273
+2023-03-05,02:00 PM,Bracket,PDA Blue ECNL G07,2,1,Bethesda SC ECNL G07,PDA Main Complex,Field 5,On Time,361247
+2023-03-11,12:00 PM,Bracket,PDA White ECNL G07,1,0,Pipeline SC ECNL G07,PDA ,Field 5,On Time,361228
+2023-03-11,12:00 PM,Bracket,Penn Fusion SA ECNL G07,2,0,Bethesda SC ECNL G07,USTC,Field 1,On Time,361230
+2023-03-11,01:30 PM,Bracket,FC DELCO ECNL G07,3,3,Match Fit Academy ECNL G07,Proving Grounds,7,On Time,361229
+2023-03-11,03:15 PM,Bracket,PDA Blue ECNL G07,6,1,PDA South ECNL G07,PDA South,Field 2,On Time,361232
+2023-03-12,10:45 AM,Bracket,FC Bucks ECNL G07,0,3,Bethesda SC ECNL G07,Council Rock South High School,Turf,On Time,361234
+2023-03-12,01:30 PM,Bracket,FC DELCO ECNL G07,0,3,Penn Fusion SA ECNL G07,Proving Grounds,6,On Time,361233
+2023-03-18,04:00 PM,Bracket,PDA White ECNL G07,0,1,PDA Blue ECNL G07,PDA ,Field 5,On Time,361236
+2023-03-19,12:30 PM,Bracket,Match Fit Academy ECNL G07,0,0,Penn Fusion SA ECNL G07,Morris Catholic High School,Field 2 Lower,On Time,361239
+2023-04-01,10:45 AM,Bracket,PDA South ECNL G07,1,0,Maryland United FC ECNL G07,Westampton Sports Complex,Field 2,On Time,361248
+2023-04-01,01:00 PM,Bracket,Penn Fusion SA ECNL G07,1,0,PDA White ECNL G07,USTC,Field 1,On Time,361227
+2023-04-01,01:00 PM,Bracket,FC Bucks ECNL G07,0,1,FC DELCO ECNL G07,Council Rock South High School,Turf,On Time,361245
+2023-04-01,01:30 PM,Bracket,Pipeline SC ECNL G07,0,4,Match Fit Academy ECNL G07,Mercy High School,Field 1,On Time,361244
+2023-04-02,09:45 AM,Bracket,FC DELCO ECNL G07,1,1,PDA White ECNL G07,Proving Grounds,2,On Time,361240
+2023-04-02,10:45 AM,Bracket,PDA South ECNL G07,0,1,Bethesda SC ECNL G07,Westampton Sports Complex,Field 2,On Time,361249
+2023-04-02,11:00 AM,Bracket,Maryland United FC ECNL G07,0,0,Match Fit Academy ECNL G07,Liberty Sports Park,Field 1,On Time,361241
+2023-04-15,01:00 PM,Bracket,Match Fit Academy ECNL G07,1,2,PDA White ECNL G07,Monmouth Regional High School,South,On Time,361252
+2023-04-15,02:00 PM,Bracket,PDA Blue ECNL G07,4,0,Maryland United FC ECNL G07,PDA Main Complex,Field 5,On Time,361254
+2023-04-16,01:00 PM,Bracket,Penn Fusion SA ECNL G07,2,0,Pipeline SC ECNL G07,USTC,Field 1,On Time,361255
+2023-04-16,02:00 PM,Bracket,PDA White ECNL G07,2,3,FC DELCO ECNL G07,PDA ,Field 5,On Time,361256
+2023-04-16,02:30 PM,Bracket,Bethesda SC ECNL G07,4,1,FC Bucks ECNL G07,The Academy of the Holy Cross,Field 1,On Time,361253
+2023-04-22,01:00 PM,Bracket,FC Bucks ECNL G07,0,6,PDA Blue ECNL G07,Council Rock South High School,Turf,On Time,361243
+2023-04-22,03:15 PM,Bracket,FC DELCO ECNL G07,4,2,Maryland United FC ECNL G07,Proving Grounds,1,On Time,361258
+2023-04-22,04:00 PM,Bracket,Pipeline SC ECNL G07,1,2,Bethesda SC ECNL G07,Mercy High School,Field 1,On Time,361257
+2023-04-23,01:00 AM,Bracket,Penn Fusion SA ECNL G07,2,0,PDA South ECNL G07,USTC,Field 1,On Time,361260
+2023-04-23,12:00 PM,Bracket,Pipeline SC ECNL G07,0,6,FC DELCO ECNL G07,Mercy High School,Field 1,On Time,361235
+2023-04-23,02:00 PM,Bracket,Match Fit Academy ECNL G07,3,0,FC Bucks ECNL G07,Morris Catholic High School,Field 2 Lower,On Time,361259
+2023-04-29,12:45 PM,Bracket,FC Bucks ECNL G07,0,2,Pipeline SC ECNL G07,Upper Perkiomen High School,Keeny,On Time,361261
+2023-04-29,03:00 PM,Bracket,PDA Blue ECNL G07,2,1,Penn Fusion SA ECNL G07,PDA Main Complex,Field 5,On Time,361263
+2023-04-29,03:15 PM,Bracket,PDA South ECNL G07,1,1,FC DELCO ECNL G07,Westampton Sports Complex,Field 2,On Time,361262
+2023-04-29,05:15 PM,Bracket,Bethesda SC ECNL G07,1,1,PDA White ECNL G07,Maryland Soccerplex,Field 14,On Time,361264
+2023-04-30,09:00 AM,Bracket,Bethesda SC ECNL G07,0,0,PDA South ECNL G07,The Academy of the Holy Cross,Field 1,On Time,361242
+2023-04-30,01:45 PM,Bracket,Maryland United FC ECNL G07,3,2,PDA White ECNL G07,Liberty Sports Park,Field 9,On Time,361265
+2023-05-06,10:45 AM,Bracket,FC Bucks ECNL G07,1,5,PDA White ECNL G07,Academy of the New Church (ANC),Turf ,On Time,361268
+2023-05-06,12:45 PM,Bracket,Pipeline SC ECNL G07,1,2,Maryland United FC ECNL G07,Mercy High School,Field 1,On Time,361266
+2023-05-06,01:00 PM,Bracket,FC DELCO ECNL G07,0,5,PDA Blue ECNL G07,Proving Grounds,1,On Time,361267
+2023-05-06,02:00 PM,Bracket,Penn Fusion SA ECNL G07,1,3,Match Fit Academy ECNL G07,Penn Fusion Kildare's Turf ,Stadium,On Time,361218
+2023-05-07,12:00 PM,Bracket,PDA Blue ECNL G07,2,0,FC Bucks ECNL G07,PDA Main Complex,Field 5,On Time,361269
+2023-05-07,11:45 PM,Bracket,Match Fit Academy ECNL G07,3,0,PDA South ECNL G07,Morris Catholic High School,Field 2 Lower,On Time,361270
+2023-05-13,08:30 AM,Bracket,PDA South ECNL G07,0,0,PDA White ECNL G07,Westampton Sports Complex,Field 2,On Time,361216
+2023-05-14,12:00 PM,Bracket,Match Fit Academy ECNL G07,0,5,PDA Blue ECNL G07,Morris Catholic High School,Field 2 Lower,On Time,361272
+2023-05-14,01:15 PM,Bracket,Bethesda SC ECNL G07,2,2,FC DELCO ECNL G07,MLK Rec Park,Field 1,On Time,361271
+2023-05-17,07:15 PM,Bracket,Penn Fusion SA ECNL G07,1,0,FC DELCO ECNL G07,USTC,Field 2,On Time,361251
+2023-05-18,08:00 PM,Group Play,PDA South ECNL G07,0,6,PDA Blue ECNL G07,Westampton Sports Complex,Field 2,On Time,404528
+2023-05-20,09:00 AM,Bracket,FC Bucks ECNL G07,0,1,Maryland United FC ECNL G07,Council Rock South High School,Turf,On Time,361231
+2023-05-20,02:00 PM,Bracket,PDA Blue ECNL G07,9,0,Pipeline SC ECNL G07,PDA Main Complex,Field 5,On Time,361274
+2023-05-21,10:00 AM,Bracket,Penn Fusion SA ECNL G07,0,1,Maryland United FC ECNL G07,USTC,Field 2,On Time,361275
+2023-05-21,10:15 AM,Bracket,Match Fit Academy ECNL G07,6,1,Bethesda SC ECNL G07,Morris Catholic High School,Field 2 Lower,On Time,361276
+2023-05-21,03:15 PM,Bracket,PDA South ECNL G07,1,1,FC Bucks ECNL G07,Westampton Sports Complex,Field 2,On Time,361238
+2023-05-23,08:00 PM,Bracket,PDA White ECNL G07,0,4,Match Fit Academy ECNL G07,PDA ,Field 2,On Time,361222
+2023-05-24,06:00 PM,Bracket,PDA South ECNL G07,2,0,Pipeline SC ECNL G07,Westampton Sports Complex,Field 2,On Time,361250
+2023-06-04,10:00 AM,Bracket,Match Fit Academy ECNL G07,6,0,Pipeline SC ECNL G07,Morris Catholic High School,Field 2 Lower,On Time,361226

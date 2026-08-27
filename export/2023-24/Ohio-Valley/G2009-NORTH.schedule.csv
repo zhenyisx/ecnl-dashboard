@@ -1,0 +1,47 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2023-11-18,09:00 AM,Group Play,Cleveland Force SC ECNL G09,2,1,FC Pride Elite ECNL G09,Victory Park,Field 1,On Time,502177
+2023-11-18,10:00 AM,Group Play,Internationals SC ECNL G09,5,0,Indy Eleven Pro Academy ECNL G09,Pinnacle Sports,Field 1,On Time,502181
+2023-11-19,09:00 AM,Group Play,Cleveland Force SC ECNL G09,2,2,Indy Eleven Pro Academy ECNL G09,Victory Park,Field 1,On Time,502201
+2023-11-19,09:00 AM,Group Play,Internationals SC ECNL G09,6,0,FC Pride Elite ECNL G09,Pinnacle Sports,Field 1,On Time,502205
+2023-12-09,09:00 AM,Group Play,Internationals SC ECNL G09,5,2,WNY Flash ECNL G09,Pinnacle Sports,Field 1,On Time,502221
+2023-12-09,10:00 AM,Group Play,Cleveland Force SC ECNL G09,1,2,Pittsburgh Riverhounds  ECNL G09,Victory Park,Field 1,On Time,502217
+2023-12-10,09:00 AM,Group Play,Cleveland Force SC ECNL G09,2,3,WNY Flash ECNL G09,Victory Park,Field 1,On Time,502225
+2023-12-10,10:00 AM,Group Play,Internationals SC ECNL G09,3,1,Pittsburgh Riverhounds  ECNL G09,Pinnacle Sports,Field 1,On Time,502233
+2024-03-09,09:00 AM,Group Play,Kings Hammer SC ECNL G09,2,2,Cleveland Force SC ECNL G09,NKU Soccer Stadium,Field 1,On Time,502277
+2024-03-09,10:00 AM,Group Play,Ohio Premier ECNL G09,0,2,Internationals SC ECNL G09,The Wellington School (Turf),Field 1,On Time,502281
+2024-03-10,09:00 AM,Group Play,Kings Hammer SC ECNL G09,0,5,Internationals SC ECNL G09,St Henry High School,Field 1,On Time,502293
+2024-03-10,09:00 AM,Group Play,Ohio Premier ECNL G09,2,0,Cleveland Force SC ECNL G09,OP Training Facility,Field 1,On Time,502297
+2024-03-10,09:00 AM,Group Play,Pittsburgh Riverhounds  ECNL G09,1,1,WNY Flash ECNL G09,Montour Junction Sports Complex,Field 1,On Time,502305
+2024-03-16,10:00 AM,Group Play,Ohio Premier ECNL G09,3,4,Kings Hammer SC ECNL G09,OP Training Facility,Field 1,On Time,502317
+2024-03-23,10:00 AM,Group Play,Kings Hammer SC ECNL G09,3,3,WNY Flash ECNL G09,Dixie High School,Field 1,On Time,502329
+2024-03-23,10:00 AM,Group Play,Ohio Premier ECNL G09,2,0,Pittsburgh Riverhounds  ECNL G09,The Wellington School (Turf),Field 1,On Time,502333
+2024-03-24,08:30 AM,Group Play,Kings Hammer SC ECNL G09,2,1,Pittsburgh Riverhounds  ECNL G09,NKU Soccer Stadium,Field 1,On Time,502349
+2024-03-24,09:00 AM,Group Play,Ohio Premier ECNL G09,5,0,WNY Flash ECNL G09,OP Training Facility,Field 1,On Time,502353
+2024-03-24,10:00 AM,Group Play,Internationals SC ECNL G09,3,0,Cleveland Force SC ECNL G09,Pinnacle Sports,Field 1,On Time,502345
+2024-04-13,09:00 AM,Group Play,Kings Hammer SC ECNL G09,0,1,Ohio Elite Soccer Academy ECNL G09,Town and Country,Field 1,On Time,502361
+2024-04-13,11:30 AM,Group Play,WNY Flash ECNL G09,3,1,Indy Eleven Pro Academy ECNL G09,Flash Fields,Field B,On Time,502373
+2024-04-13,02:15 PM,Group Play,Ohio Premier ECNL G09,3,1,Racing Louisville Academy ECNL G09,OP Training Facility,Field 1,On Time,502365
+2024-04-13,02:45 PM,Group Play,Pittsburgh Riverhounds  ECNL G09,1,2,FC Pride Elite ECNL G09,Montour Junction Sports Complex,Field 1,On Time,502369
+2024-04-14,09:00 AM,Group Play,Ohio Premier ECNL G09,1,2,Ohio Elite Soccer Academy ECNL G09,OP Training Facility,Field 1,On Time,502381
+2024-04-14,09:00 AM,Group Play,Pittsburgh Riverhounds  ECNL G09,1,0,Indy Eleven Pro Academy ECNL G09,Montour Junction Sports Complex,Field 1,On Time,502385
+2024-04-14,09:45 AM,Group Play,WNY Flash ECNL G09,0,0,FC Pride Elite ECNL G09,Flash Fields,Field A,On Time,502389
+2024-04-14,12:00 PM,Group Play,Kings Hammer SC ECNL G09,0,1,Racing Louisville Academy ECNL G09,Town and Country,Field 1,On Time,502377
+2024-04-20,01:00 PM,Group Play,WNY Flash ECNL G09,1,8,Internationals SC ECNL G09,Flash Fields,Field A,On Time,502397
+2024-04-20,02:45 PM,Group Play,Pittsburgh Riverhounds  ECNL G09,0,0,Cleveland Force SC ECNL G09,Montour Junction Sports Complex,Field 1,On Time,502393
+2024-04-21,09:00 AM,Group Play,Pittsburgh Riverhounds  ECNL G09,0,1,Internationals SC ECNL G09,Montour Junction Sports Complex,Field 1,On Time,502413
+2024-04-21,03:00 PM,Group Play,WNY Flash ECNL G09,1,3,Cleveland Force SC ECNL G09,Flash Fields,Field A,On Time,502417
+2024-04-27,02:15 AM,Group Play,Pittsburgh Riverhounds  ECNL G09,0,2,Tennessee Soccer Club ECNL G09,Montour Junction Sports Complex,Field 1,On Time,502429
+2024-04-27,09:00 AM,Group Play,Cleveland Force SC ECNL G09,1,0,Kings Hammer SC ECNL G09,Victory Park,Field 2,On Time,502421
+2024-04-27,11:15 AM,Group Play,WNY Flash ECNL G09,3,1,FC Alliance ECNL G09,Flash Fields,Field B,On Time,502433
+2024-04-27,01:45 PM,Group Play,Internationals SC ECNL G09,4,1,Ohio Premier ECNL G09,Pinnacle Sports,Field 1,On Time,502425
+2024-04-28,09:00 AM,Group Play,Cleveland Force SC ECNL G09,1,1,Ohio Premier ECNL G09,Victory Park,Field 2,On Time,502437
+2024-04-28,09:00 AM,Group Play,Internationals SC ECNL G09,5,0,Kings Hammer SC ECNL G09,Pinnacle Sports,Field 1,On Time,502441
+2024-04-28,10:15 AM,Group Play,Pittsburgh Riverhounds  ECNL G09,0,0,FC Alliance ECNL G09,Highmark Stadium,Field 1,On Time,502445
+2024-04-28,11:30 AM,Group Play,WNY Flash ECNL G09,1,2,Tennessee Soccer Club ECNL G09,Flash Fields,Field B,On Time,502449
+2024-05-11,01:00 PM,Group Play,WNY Flash ECNL G09,4,6,Kings Hammer SC ECNL G09,Sahlen's Sports Park,Field #45,On Time,502497
+2024-05-11,02:45 PM,Group Play,Pittsburgh Riverhounds  ECNL G09,0,1,Ohio Premier ECNL G09,Montour Junction Sports Complex,Field 1,On Time,502493
+2024-05-12,09:00 AM,Group Play,Pittsburgh Riverhounds  ECNL G09,2,1,Kings Hammer SC ECNL G09,Highmark Stadium,Field 1,On Time,502513
+2024-05-12,09:30 AM,Group Play,WNY Flash ECNL G09,3,3,Ohio Premier ECNL G09,Sahlen's Sports Park,Field #45,On Time,502517
+2024-05-19,09:00 AM,Group Play,Kings Hammer SC ECNL G09,2,0,Ohio Premier ECNL G09,NKU Soccer Stadium,Field 1,On Time,502545
+2024-05-19,11:00 AM,Group Play,Cleveland Force SC ECNL G09,3,4,Internationals SC ECNL G09,Lost Nation Sports Park,Field 1 11v11,On Time,502537
+2024-05-19,11:15 AM,Group Play,WNY Flash ECNL G09,4,3,Pittsburgh Riverhounds  ECNL G09,Flash Fields,Field B,On Time,502549

@@ -1,0 +1,137 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2024-09-07,10:15 AM,Group Play,LA Breakers FC ECNL G07/06,2,1,Slammers FC HB Koge ECNL G07/06,Bell Gardens Sports Complex,Field 3,On Time,656907
+2024-09-07,11:30 AM,Group Play, LV Heat Surf ECNL G07/06,1,5,Rebels SC ECNL G07/06,Heritage Park Sports Complex,Field 6,On Time,657243
+2024-09-07,12:00 PM,Group Play,Phoenix Rising ECNL G07/06,1,0,Eagles SC ECNL G07/06,Reata Sports Complex,Field 19,On Time,656877
+2024-09-07,01:00 PM,Group Play,Utah Royals FC-AZ ECNL G07/06,5,1,LAFC So Cal ECNL G07/06,Scottsdale Sports Complex,Field 5,On Time,657087
+2024-09-07,01:15 PM,Group Play,Sporting California USA ECNL G07/06,0,4,So Cal Blues ECNL G07/06,Orange County Great Park Sports Park,Field 17,On Time,657411
+2024-09-08,12:00 PM,Group Play,Phoenix Rising ECNL G07/06,0,3,LAFC So Cal ECNL G07/06,Reata Sports Complex,Field 18,On Time,657069
+2024-09-08,01:00 PM,Group Play,Utah Royals FC-AZ ECNL G07/06,1,1,Eagles SC ECNL G07/06,Scottsdale Sports Complex,Field 5,On Time,656895
+2024-09-14,08:00 AM,Group Play,So Cal Blues ECNL G07/06,0,3,San Diego Surf ECNL G07/06,OC Great Park,Field 6,On Time,657309
+2024-09-14,09:00 AM,Group Play,Sporting California USA ECNL G07/06,0,2,Legends FC San Diego ECNL G07/06,Silver Lakes Park,Field #24,On Time,656841
+2024-09-14,09:00 AM,Group Play,Pateadores ECNL G07/06,0,5,LAFC So Cal ECNL G07/06,Great Park,Field 8,On Time,657063
+2024-09-14,10:30 AM,Group Play,Rebels SC ECNL G07/06,2,2,Slammers FC HB Koge ECNL G07/06,Monte Vista High School,Stadium,On Time,656925
+2024-09-14,11:00 AM,Group Play,Beach FC ECNL G07/06,3,0,Eagles SC ECNL G07/06,El Camino College,Athletic Field,On Time,656847
+2024-09-14,11:00 AM,Group Play,LA Breakers FC ECNL G07/06,2,2,Legends FC ECNL G07/06,Bell Gardens Sports Center ,Field 3,On Time,657111
+2024-09-15,09:00 AM,Group Play,Pateadores ECNL G07/06,2,1,Arizona Arsenal ECNL G07/06,Great Park,Field 8,On Time,656727
+2024-09-21,11:00 AM,Group Play,LA Breakers FC ECNL G07/06,3,2,Utah Royals FC-AZ ECNL G07/06,Bell Gardens Sports Center ,Field 3,On Time,657477
+2024-09-21,12:00 PM,Group Play,LAFC So Cal ECNL G07/06,0,3,Beach FC ECNL G07/06,Oak Park High School,Stadium,On Time,656763
+2024-09-21,12:00 PM,Group Play,Eagles SC ECNL G07/06,1,1, LV Heat Surf ECNL G07/06,Pleasant Valley Fields,Field 14,On Time,656967
+2024-09-21,12:00 PM,Group Play,Phoenix Rising ECNL G07/06,2,0,SLAMMERS FC ECNL G07/06,PRFC Youth Soccer Facility,Field 2,On Time,657357
+2024-09-21,12:00 PM,Group Play,Arizona Arsenal ECNL G07/06,2,0,Sporting California USA ECNL G07/06,REATA Soccer Complex ,field 19,On Time,657417
+2024-09-21,01:00 PM,Group Play,Legends FC ECNL G07/06,1,1,San Diego Surf ECNL G07/06,Silverlakes Complex,Field 5,On Time,657291
+2024-09-21,01:30 PM,Group Play,Slammers FC HB Koge ECNL G07/06,5,1,Legends FC San Diego ECNL G07/06,Saddleback College,Turf Field,On Time,656799
+2024-09-22,11:00 AM,Group Play,Legends FC ECNL G07/06,3,0,Utah Royals FC-AZ ECNL G07/06,Silverlakes Complex,Field 5,On Time,657483
+2024-09-22,12:00 PM,Group Play,LAFC So Cal ECNL G07/06,4,1, LV Heat Surf ECNL G07/06,Oak Park High School,Stadium,On Time,656979
+2024-09-22,12:00 PM,Group Play,Arizona Arsenal ECNL G07/06,0,3,SLAMMERS FC ECNL G07/06,REATA Soccer Complex ,field 19,On Time,657321
+2024-09-22,12:00 PM,Group Play,Phoenix Rising ECNL G07/06,6,0,Sporting California USA ECNL G07/06,PRFC Youth Soccer Facility,Field 2,On Time,657453
+2024-09-22,12:30 PM,Group Play,Pateadores ECNL G07/06,3,2,So Cal Blues ECNL G07/06,Great Park,Field 8,On Time,657393
+2024-09-28,09:00 AM,Group Play,Sporting California USA ECNL G07/06,0,8,Rebels SC ECNL G07/06,Silver Lakes Park,Field # 3,On Time,657267
+2024-09-28,11:00 AM,Group Play,Beach FC ECNL G07/06,5,1,LA Breakers FC ECNL G07/06,El Camino College,Athletic Field,On Time,656997
+2024-09-28,01:00 PM,Group Play,San Diego Surf ECNL G07/06,0,1,LAFC So Cal ECNL G07/06,Surf Sports Park,Field 1,On Time,657075
+2024-09-29,01:00 PM,Group Play,San Diego Surf ECNL G07/06,6,1,Eagles SC ECNL G07/06,Surf Sports Park,Field 1,On Time,656889
+2024-10-05,08:00 AM,Group Play,Arizona Arsenal ECNL G07/06,3,1,So Cal Blues ECNL G07/06,REATA Soccer Complex ,field 21,On Time,657369
+2024-10-05,08:30 AM,Group Play,SLAMMERS FC ECNL G07/06,1,3,Slammers FC HB Koge ECNL G07/06,Saddleback College,Turf Field,On Time,656931
+2024-10-05,10:30 AM,Group Play,Rebels SC ECNL G07/06,2,2,LA Breakers FC ECNL G07/06,Monte Vista High School,Stadium,On Time,657021
+2024-10-06,10:00 AM,Group Play,Phoenix Rising ECNL G07/06,1,2,So Cal Blues ECNL G07/06,PRFC Youth Soccer Facility,Field 2,On Time,657399
+2024-10-06,11:00 AM,Group Play,Eagles SC ECNL G07/06,2,0,Legends FC San Diego ECNL G07/06,Pleasant Valley Fields,Field 14,On Time,656793
+2024-10-06,12:00 PM,Group Play, LV Heat Surf ECNL G07/06,5,2,Pateadores ECNL G07/06,Heritage Park Sports Complex,Field 6,On Time,657147
+2024-10-19,09:00 AM,Group Play,So Cal Blues ECNL G07/06,2,2,Legends FC San Diego ECNL G07/06,OC Great Park,Field 16,On Time,656835
+2024-10-19,10:00 AM,Group Play,Phoenix Rising ECNL G07/06,3,0,Pateadores ECNL G07/06,PRFC Youth Soccer Facility,Field 2,On Time,657159
+2024-10-19,11:00 AM,Group Play,Eagles SC ECNL G07/06,2,3,LA Breakers FC ECNL G07/06,Pleasant Valley Fields,Field 14,On Time,657009
+2024-10-19,12:00 PM,Group Play,Arizona Arsenal ECNL G07/06,1,1,Slammers FC HB Koge ECNL G07/06,Arizona Athletic Grounds,Field 20,On Time,656901
+2024-10-19,12:00 PM,Group Play, LV Heat Surf ECNL G07/06,0,0,SLAMMERS FC ECNL G07/06,Heritage Park Sports Complex,Field 6,On Time,657339
+2024-10-19,01:00 PM,Group Play,Utah Royals FC-AZ ECNL G07/06,1,4,Beach FC ECNL G07/06,Scottsdale Sports Complex,Field 7,On Time,656787
+2024-10-19,01:00 PM,Group Play,San Diego Surf ECNL G07/06,4,1,Sporting California USA ECNL G07/06,Surf Sports Park,Field 1,On Time,657459
+2024-10-20,08:30 AM,Group Play,LAFC So Cal ECNL G07/06,0,5,Legends FC ECNL G07/06,Oak Park High School,Stadium,On Time,657117
+2024-10-20,10:00 AM,Group Play,Arizona Arsenal ECNL G07/06,0,4,Beach FC ECNL G07/06,Arizona Athletic Grounds,Field 20,On Time,656745
+2024-10-20,12:00 PM,Group Play,Phoenix Rising ECNL G07/06,0,4,Slammers FC HB Koge ECNL G07/06,PRFC Youth Soccer Facility,Field 2,On Time,656919
+2024-10-20,01:00 PM,Group Play,Utah Royals FC-AZ ECNL G07/06,6,3,Pateadores ECNL G07/06,Scottsdale Sports Complex,Field 7,On Time,657183
+2024-10-26,09:30 AM,Group Play,Rebels SC ECNL G07/06,2,2,Utah Royals FC-AZ ECNL G07/06,Monte Vista High School,Stadium,On Time,657495
+2024-10-26,11:00 AM,Group Play,Legends FC San Diego ECNL G07/06,0,0,Arizona Arsenal ECNL G07/06,Miramesa High School ,Field 1 - Stadium,On Time,656703
+2024-10-26,11:00 AM,Group Play,Beach FC ECNL G07/06,5,2,Phoenix Rising ECNL G07/06,El Camino College,Athletic Field,On Time,657195
+2024-10-26,11:00 AM,Group Play,LA Breakers FC ECNL G07/06,9,2,Sporting California USA ECNL G07/06,Bell Gardens Sports Center ,Field 3,On Time,657447
+2024-10-26,11:45 AM,Group Play,Slammers FC HB Koge ECNL G07/06,6,2, LV Heat Surf ECNL G07/06,Saddleback College,Turf Field,On Time,656973
+2024-10-26,12:15 PM,Group Play,LAFC So Cal ECNL G07/06,3,0,Eagles SC ECNL G07/06,Oak Park High School,Stadium,On Time,656859
+2024-10-26,01:00 PM,Group Play,Legends FC ECNL G07/06,3,0,So Cal Blues ECNL G07/06,Silverlakes Complex,Field 5,On Time,657387
+2024-10-26,03:15 PM,Group Play,SLAMMERS FC ECNL G07/06,5,1,Pateadores ECNL G07/06,Silver Lakes Sports Complex (Norco),Field 17,On Time,657171
+2024-10-27,12:00 PM,Group Play,Rebels SC ECNL G07/06,5,0,Arizona Arsenal ECNL G07/06,Monte Vista High School,Stadium,On Time,656733
+2024-10-27,12:00 PM,Group Play,Legends FC San Diego ECNL G07/06,0,3,Utah Royals FC-AZ ECNL G07/06,Miramesa High School ,Field 1 - Stadium,On Time,657471
+2024-10-27,01:00 PM,Group Play,LA Breakers FC ECNL G07/06,5,1,Phoenix Rising ECNL G07/06,Bell Gardens Sports Center ,Field 3,On Time,657207
+2024-10-27,03:15 PM,Group Play,SLAMMERS FC ECNL G07/06,4,0,Sporting California USA ECNL G07/06,Saddleback College,Turf Field,On Time,657465
+2024-11-02,09:00 AM,Group Play,Eagles SC ECNL G07/06,2,2,SLAMMERS FC ECNL G07/06,Pleasant Valley Fields,Field 14,On Time,657333
+2024-11-02,12:30 PM,Group Play,So Cal Blues ECNL G07/06,0,3,Slammers FC HB Koge ECNL G07/06,OC Great Park,Field 17,On Time,656937
+2024-11-02,01:00 PM,Group Play,San Diego Surf ECNL G07/06,2,2,LA Breakers FC ECNL G07/06,Surf Sports Park,Field 1,On Time,657027
+2024-11-02,01:15 PM,Group Play,Legends FC San Diego ECNL G07/06,0,5,Beach FC ECNL G07/06,Torrey Pines High School,Field 1,On Time,656751
+2024-11-03,11:00 AM,Group Play,Pateadores ECNL G07/06,0,3,Rebels SC ECNL G07/06,Silverlakes Sports Complex,Field 7,On Time,657255
+2024-11-03,12:15 PM,Group Play,LAFC So Cal ECNL G07/06,1,4,SLAMMERS FC ECNL G07/06,Oak Park High School,Stadium,On Time,657345
+2024-11-16,09:00 AM,Group Play,Legends FC ECNL G07/06,8,0,Eagles SC ECNL G07/06,Silverlakes Complex,Field 5,On Time,656865
+2024-11-16,01:00 PM,Group Play,San Diego Surf ECNL G07/06,0,1,Beach FC ECNL G07/06,Surf Sports Park,Field 1,On Time,656775
+2024-11-16,01:00 PM,Group Play, LV Heat Surf ECNL G07/06,4,1,Sporting California USA ECNL G07/06,Capriola Park,Field 2,On Time,657441
+2024-11-16,03:00 PM,Group Play,Legends FC San Diego ECNL G07/06,0,3,Rebels SC ECNL G07/06,Canyon Crest Academy,Stadium,On Time,657237
+2024-11-16,05:15 PM,Group Play,SLAMMERS FC ECNL G07/06,2,0,So Cal Blues ECNL G07/06,Arroyo Park,Field 1,On Time,657405
+2024-11-17,03:30 PM,Group Play,Slammers FC HB Koge ECNL G07/06,8,0,Pateadores ECNL G07/06,Saddleback College,Turf Field,On Time,657141
+2024-11-23,09:00 AM,Group Play, LV Heat Surf ECNL G07/06,4,1,San Diego Surf ECNL G07/06,Heritage Park Sports Complex,Field 6,On Time,657285
+2024-11-23,12:00 PM,Group Play,Beach FC ECNL G07/06,2,2,Legends FC ECNL G07/06,Long Beach State University,George Allen Field,On Time,657093
+2025-03-08,02:00 PM,Group Play,Arizona Arsenal ECNL G07/06,2,4, LV Heat Surf ECNL G07/06,Arizona Athletic Grounds,Field 16,On Time,656949
+2025-03-09,08:00 AM,Group Play,Utah Royals FC-AZ ECNL G07/06,6,0, LV Heat Surf ECNL G07/06,Reach 11 Sports Complex,Field 2,On Time,656991
+2025-03-15,12:15 PM,Group Play,LAFC So Cal ECNL G07/06,2,2,Legends FC San Diego ECNL G07/06,Oak Park High School,Stadium,On Time,656805
+2025-03-22,08:30 AM,Group Play,Slammers FC HB Koge ECNL G07/06,2,5,Beach FC ECNL G07/06,Silverlakes Complex,Field 3,On Time,656757
+2025-03-22,08:30 AM,Group Play, LV Heat Surf ECNL G07/06,2,7,LA Breakers FC ECNL G07/06,Silverlakes,Field 19,On Time,657015
+2025-03-22,09:00 AM,Group Play,LAFC So Cal ECNL G07/06,3,3,Rebels SC ECNL G07/06,Silverlakes Sports Complex,Field 7,On Time,657249
+2025-03-22,01:00 PM,Group Play,Legends FC ECNL G07/06,4,0,Arizona Arsenal ECNL G07/06,Silverlakes Complex,Field 1,On Time,656721
+2025-03-22,01:00 PM,Group Play,SLAMMERS FC ECNL G07/06,1,1,San Diego Surf ECNL G07/06,Silver Lakes Sports Complex (Norco),Field 12,On Time,657303
+2025-03-22,03:00 PM,Group Play,Phoenix Rising ECNL G07/06,2,0,Legends FC San Diego ECNL G07/06,Silverlakes Sports Park,Field 17,On Time,656817
+2025-03-22,04:30 PM,Group Play,Pateadores ECNL G07/06,1,0,Eagles SC ECNL G07/06,Silverlakes Sports Complex,Field 14,On Time,656871
+2025-03-22,04:30 PM,Group Play,So Cal Blues ECNL G07/06,1,3,Utah Royals FC-AZ ECNL G07/06,Silverlakes,Field 5,On Time,657507
+2025-03-23,10:30 AM,Group Play,Arizona Arsenal ECNL G07/06,3,1,LAFC So Cal ECNL G07/06,Silverlakes Sports Complex,Field 12,On Time,657045
+2025-03-23,11:00 AM,Group Play,Sporting California USA ECNL G07/06,0,9,Legends FC ECNL G07/06,Silver Lakes Park,Field #1,On Time,657135
+2025-03-23,12:30 PM,Group Play,Utah Royals FC-AZ ECNL G07/06,0,2,Slammers FC HB Koge ECNL G07/06,Silverlakes,Field 5,On Time,656943
+2025-03-23,01:00 PM,Group Play,Beach FC ECNL G07/06,3,0, LV Heat Surf ECNL G07/06,SilverLakes,Field 19,On Time,656955
+2025-03-23,01:00 PM,Group Play,Rebels SC ECNL G07/06,1,4,SLAMMERS FC ECNL G07/06,Silverlakes Sports Complex,Field 7,On Time,657363
+2025-03-23,02:30 PM,Group Play,San Diego Surf ECNL G07/06,0,2,Phoenix Rising ECNL G07/06,SIlverlakes,Field 18,On Time,657225
+2025-03-23,02:30 PM,Group Play,Eagles SC ECNL G07/06,0,3,So Cal Blues ECNL G07/06,Silver Lakes Sports Park,Field 14,On Time,657375
+2025-03-23,05:00 PM,Group Play,LA Breakers FC ECNL G07/06,1,0,Pateadores ECNL G07/06,Silverlakes,Field 17,On Time,657153
+2025-03-29,08:30 AM,Group Play,Pateadores ECNL G07/06,0,2,Beach FC ECNL G07/06,Orange Coast College,Soccer Field,On Time,656769
+2025-03-29,08:30 AM,Group Play,SLAMMERS FC ECNL G07/06,4,0,Legends FC San Diego ECNL G07/06,Santiago High School (Garden Grove),Field 1,On Time,656829
+2025-03-29,09:00 AM,Group Play,So Cal Blues ECNL G07/06,0,5,LA Breakers FC ECNL G07/06,OC Great Park ,Field 12,On Time,657039
+2025-03-29,09:00 AM,Group Play,Sporting California USA ECNL G07/06,1,3,LAFC So Cal ECNL G07/06,Ralph M. Lewis Sports Complex,Field 6,On Time,657081
+2025-03-29,09:00 AM,Group Play, LV Heat Surf ECNL G07/06,2,5,Legends FC ECNL G07/06,Aventura Park,Aventura Central,On Time,657105
+2025-03-29,11:30 AM,Group Play,Rebels SC ECNL G07/06,8,0,Eagles SC ECNL G07/06,Monte Vista High School,Stadium,On Time,656883
+2025-03-29,05:00 PM,Group Play,Utah Royals FC-AZ ECNL G07/06,1,0,Arizona Arsenal ECNL G07/06,Scottsdale Sports Complex,Field 4,On Time,656739
+2025-03-30,02:30 PM,Group Play, LV Heat Surf ECNL G07/06,0,3,Phoenix Rising ECNL G07/06,Heritage Park Sports Complex,Field 8,On Time,657201
+2025-03-30,05:15 PM,Group Play,Slammers FC HB Koge ECNL G07/06,4,0,San Diego Surf ECNL G07/06,Saddleback College,Turf Field,On Time,657279
+2025-04-12,08:00 AM,Group Play,Legends FC San Diego ECNL G07/06,0,3,Legends FC ECNL G07/06,Miramesa High School ,Field 1 - Stadium,On Time,657099
+2025-04-12,08:00 AM,Group Play,Sporting California USA ECNL G07/06,0,1,Pateadores ECNL G07/06,Silver Lakes Park,Field 5,On Time,657177
+2025-04-12,08:30 AM,Group Play,SLAMMERS FC ECNL G07/06,4,2,LA Breakers FC ECNL G07/06,Arroyo Park,Field 1,On Time,657033
+2025-04-12,08:30 AM,Group Play,Slammers FC HB Koge ECNL G07/06,3,0,LAFC So Cal ECNL G07/06,Saddleback College,Turf Field,On Time,657051
+2025-04-12,09:00 AM,Group Play,So Cal Blues ECNL G07/06,0,5,Beach FC ECNL G07/06,OC Great Park ,Field 16,On Time,656781
+2025-04-12,09:00 AM,Group Play,Utah Royals FC-AZ ECNL G07/06,2,1,San Diego Surf ECNL G07/06,REATA,Field 20,On Time,657315
+2025-04-12,12:45 PM,Group Play,Rebels SC ECNL G07/06,2,0,Phoenix Rising ECNL G07/06,Southwestern College,Stadium,On Time,657219
+2025-04-13,12:00 PM,Group Play,Arizona Arsenal ECNL G07/06,0,4,San Diego Surf ECNL G07/06,Arizona Athletic Grounds,Field 10,On Time,657273
+2025-04-13,12:15 PM,Group Play,Slammers FC HB Koge ECNL G07/06,7,0,Eagles SC ECNL G07/06,Saddleback College,Turf Field,On Time,656853
+2025-04-13,01:00 PM,Group Play,Legends FC ECNL G07/06,5,0,Phoenix Rising ECNL G07/06,Silverlakes Complex,Field 1,On Time,657213
+2025-04-19,08:30 AM,Group Play,Beach FC ECNL G07/06,2,1,Rebels SC ECNL G07/06,El Camino College,Athletic Field,On Time,657231
+2025-04-19,11:00 AM,Group Play,Eagles SC ECNL G07/06,5,0,Sporting California USA ECNL G07/06,Pleasant Valley Fields,Field 14,On Time,657429
+2025-04-19,01:00 PM,Group Play,San Diego Surf ECNL G07/06,5,0,Legends FC San Diego ECNL G07/06,Surf Sports Park,Field 1,On Time,656823
+2025-04-23,07:30 PM,Group Play,Phoenix Rising ECNL G07/06,1,1,Utah Royals FC-AZ ECNL G07/06,Scottsdale Sports Complex,Field 1,On Time,657489
+2025-04-26,08:00 AM,Group Play,Legends FC San Diego ECNL G07/06,1,4,LA Breakers FC ECNL G07/06,Miramesa High School ,Field 1 - Stadium,On Time,657003
+2025-04-26,08:30 AM,Group Play,Rebels SC ECNL G07/06,1,3,Legends FC ECNL G07/06,Monte Vista High School,Stadium,On Time,657129
+2025-04-26,08:30 AM,Group Play,LAFC So Cal ECNL G07/06,2,0,So Cal Blues ECNL G07/06,Oak Park High School,Stadium,On Time,657381
+2025-04-27,02:00 PM,Group Play,Sporting California USA ECNL G07/06,0,6,Utah Royals FC-AZ ECNL G07/06,Silver Lakes Park,Field 8,On Time,657513
+2025-05-01,07:45 PM,Group Play,Legends FC ECNL G07/06,4,0,SLAMMERS FC ECNL G07/06,Silverlakes Complex,Field 1,On Time,657351
+2025-05-02,07:45 PM,Group Play,Arizona Arsenal ECNL G07/06,1,0,Phoenix Rising ECNL G07/06,Arizona Athletic Grounds,Field 8,On Time,657189
+2025-05-03,09:00 AM,Group Play,So Cal Blues ECNL G07/06,1,4,Rebels SC ECNL G07/06,OC Great Park ,Field 16,On Time,657261
+2025-05-03,10:30 AM,Group Play,Slammers FC HB Koge ECNL G07/06,9,0,Sporting California USA ECNL G07/06,Orange County Great Park,Field 11,On Time,657435
+2025-05-03,11:00 AM,Group Play,LA Breakers FC ECNL G07/06,3,3,LAFC So Cal ECNL G07/06,Bell Gardens Sports Complex,Field 3,On Time,657057
+2025-05-03,11:00 AM,Group Play,Beach FC ECNL G07/06,2,0,SLAMMERS FC ECNL G07/06,El Camino College,Athletic Field,On Time,657327
+2025-05-03,02:00 PM,Group Play,Legends FC San Diego ECNL G07/06,2,1, LV Heat Surf ECNL G07/06,Miramesa High School ,Field 1 - Stadium,On Time,656961
+2025-05-04,09:00 AM,Group Play,So Cal Blues ECNL G07/06,1,1, LV Heat Surf ECNL G07/06,OC Great Park ,Field 15,On Time,656985
+2025-05-04,09:00 AM,Group Play,Pateadores ECNL G07/06,0,5,Legends FC ECNL G07/06,Great Park,Field 8,On Time,657123
+2025-05-04,11:00 AM,Group Play,SLAMMERS FC ECNL G07/06,3,2,Utah Royals FC-AZ ECNL G07/06,Golden West College,Field 1,On Time,657501
+2025-05-10,08:30 AM,Group Play,Rebels SC ECNL G07/06,3,2,San Diego Surf ECNL G07/06,Monte Vista High School,Stadium,On Time,657297
+2025-05-10,09:00 AM,Group Play,LA Breakers FC ECNL G07/06,4,1,Arizona Arsenal ECNL G07/06,Bell Gardens Sports Complex,Field 3,On Time,656715
+2025-05-10,09:00 AM,Group Play,Pateadores ECNL G07/06,1,5,Legends FC San Diego ECNL G07/06,Great Park,Field 8,On Time,656811
+2025-05-10,09:00 AM,Group Play,Legends FC ECNL G07/06,5,2,Slammers FC HB Koge ECNL G07/06,Silverlakes Complex,Field 1,On Time,656913
+2025-05-10,11:00 AM,Group Play,Beach FC ECNL G07/06,4,0,Sporting California USA ECNL G07/06,El Camino College,Athletic Field,On Time,657423
+2025-05-11,01:00 PM,Group Play,Eagles SC ECNL G07/06,2,2,Arizona Arsenal ECNL G07/06,Pleasant Valley Fields,Field 14,On Time,656709
+2025-05-15,05:00 PM,Group Play,San Diego Surf ECNL G07/06,4,0,Pateadores ECNL G07/06,OC Great Park,Field 8,On Time,657165

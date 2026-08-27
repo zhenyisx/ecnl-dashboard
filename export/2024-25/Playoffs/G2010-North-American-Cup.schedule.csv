@@ -1,0 +1,26 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2025-06-27,02:10 PM,Bracket,De Anza Force ECNL G10,3,1,Oregon Surf ECNL G10,Surf Sports Park,Field 17,On Time,795488
+2025-06-27,02:10 PM,Bracket,Sting Black ECNL G10,2,1,FC Wisconsin ECNL G10,Surf Sports Park,Field 18,On Time,795494
+2025-06-27,03:20 PM,Bracket,Jacksonville FC ECNL G10,1,4,Internationals SC ECNL G10,Surf Sports Park,Field 05,On Time,795489
+2025-06-27,03:20 PM,Bracket,Challenge SC ECNL G10,4,1,South Shore Select ECNL G10,Surf Sports Park,Field 01,On Time,795490
+2025-06-27,03:20 PM,Bracket,South Carolina United ECNL G10,1,0,Tennessee SC ECNL G10,Surf Sports Park,Field 02,On Time,795491
+2025-06-27,03:20 PM,Bracket,Arlington Soccer ECNL G10,2,2,Washington Premier ECNL G10,Surf Sports Park,Field 03,On Time,795492
+2025-06-27,03:20 PM,Bracket,LAFC So Cal ECNL G10,2,0,Kansas City Athletics ECNL G10,Surf Sports Park,Field 04,On Time,795493
+2025-06-27,03:20 PM,Bracket,Eagles SC ECNL G10,1,0,NC Courage ECNL G10,Surf Sports Park,Field 06,On Time,795495
+2025-06-28,08:00 AM,Bracket,Washington Premier ECNL G10,1,0,LAFC So Cal ECNL G10,Surf Sports Park,Field B,On Time,795498
+2025-06-28,08:00 AM,Bracket,Arlington Soccer ECNL G10,3,2,Kansas City Athletics ECNL G10,Surf Sports Park,Field A,On Time,795505
+2025-06-28,08:20 AM,Bracket,De Anza Force ECNL G10,1,1,Internationals SC ECNL G10,Surf Sports Park,Field C,On Time,795496
+2025-06-28,08:40 AM,Bracket,Oregon Surf ECNL G10,2,0,Jacksonville FC ECNL G10,Surf Sports Park,Field D,On Time,795503
+2025-06-28,09:50 AM,Bracket,Challenge SC ECNL G10,3,1,South Carolina United ECNL G10,Surf Sports Park,Field A,On Time,795497
+2025-06-28,09:50 AM,Bracket,South Shore Select ECNL G10,1,2,Tennessee SC ECNL G10,Surf Sports Park,Field B,On Time,795504
+2025-06-28,11:40 AM,Bracket,Sting Black ECNL G10,2,1,Eagles SC ECNL G10,Surf Sports Park,Field A,On Time,795499
+2025-06-28,12:00 PM,Bracket,FC Wisconsin ECNL G10,0,1,NC Courage ECNL G10,Surf Sports Park,Field C,On Time,795506
+2025-06-30,08:00 AM,Bracket,Oregon Surf ECNL G10,2,4,Tennessee SC ECNL G10,Surf Sports Park,Field 01,On Time,795507
+2025-06-30,08:00 AM,Bracket,Arlington Soccer ECNL G10,1,2,NC Courage ECNL G10,Surf Sports Park,Field 02,On Time,795508
+2025-06-30,08:00 AM,Bracket,Internationals SC ECNL G10,2,1,South Carolina United ECNL G10,Surf Sports Park,Field 03,On Time,795510
+2025-06-30,08:00 AM,Bracket,LAFC So Cal ECNL G10,1,0,Eagles SC ECNL G10,Surf Sports Park,Field 04,On Time,795511
+2025-06-30,08:00 AM,Bracket,Jacksonville FC ECNL G10,1,5,South Shore Select ECNL G10,Surf Sports Park,Field 05,On Time,795512
+2025-06-30,08:00 AM,Bracket,Kansas City Athletics ECNL G10,2,1,FC Wisconsin ECNL G10,Surf Sports Park,Field 06,On Time,795513
+2025-06-30,10:00 AM,Bracket,De Anza Force ECNL G10,0,0,Challenge SC ECNL G10,Surf Sports Park,Field 12,On Time,795500
+2025-06-30,10:00 AM,Bracket,Washington Premier ECNL G10,0,0,Sting Black ECNL G10,Surf Sports Park,Field 13,On Time,795501
+2025-07-02,10:00 AM,Bracket,Challenge SC ECNL G10,1,2,Sting Black ECNL G10,Surf Sports Park,Field 13,On Time,795502

@@ -1,0 +1,12 @@
+rank,team,club,teamID,gp,w,l,d,pts,ppg,gf,ga,gd
+1,San Juan SC ECNL G13,San Juan Soccer Club,103791,20,19,1,0,57,2.85,98,5,93
+2,MVLA ECNL G13,MVLA,84876,20,16,3,1,49,2.45,72,12,60
+3,Placer United ECNL G13,Placer United Soccer Club,106265,20,16,3,1,49,2.45,46,13,33
+4,Bay Area Surf ECNL G13,Bay Area Surf,115151,20,11,5,4,37,1.85,50,30,20
+5,Mustang SC ECNL G13,Mustang Soccer,104961,20,11,5,4,37,1.85,35,22,13
+6,Santa Rosa United ECNL G13,Santa Rosa United Soccer,12596,20,7,10,3,24,1.2,30,41,-11
+7,Davis Legacy ECNL G13,Davis Legacy Soccer Club,110984,20,6,10,4,22,1.1,24,38,-14
+8,COSC ECNL G13,California Odyssey Soccer Club,114556,20,3,11,6,15,0.75,21,62,-41
+9,Marin FC ECNL G13,Marin FC,82675,20,2,14,4,10,0.5,13,37,-24
+10,Pleasanton RAGE ECNL G13,Pleasanton Rage,44316,20,2,16,2,8,0.4,13,79,-66
+11,De Anza Force ECNL G13,Force,112400,20,1,16,3,6,0.3,8,71,-63

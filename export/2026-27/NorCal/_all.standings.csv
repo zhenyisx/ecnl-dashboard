@@ -1,0 +1,73 @@
+rank,team,club,teamID,gp,w,l,d,pts,ppg,gf,ga,gd,division,flight
+1,MVLA ECNL G2013/14,MVLA,97182,1,1,0,0,3,3.0,6,1,5,GU13,ECNL
+2,Mustang SC ECNL G2013/14,Mustang Soccer,103790,1,1,0,0,3,3.0,4,1,3,GU13,ECNL
+3,Santa Rosa United ECNL G2013/14,Santa Rosa United Soccer,132201,1,1,0,0,3,3.0,1,0,1,GU13,ECNL
+4,Placer United ECNL G2013/14,Placer United Soccer Club,106267,1,0,0,1,1,1.0,2,2,0,GU13,ECNL
+5,San Juan SC ECNL G2013/14,San Juan Soccer Club,111781,1,0,0,1,1,1.0,2,2,0,GU13,ECNL
+6,Force (CA) ECNL G2013/14,Force,112400,1,0,0,1,1,1.0,1,1,0,GU13,ECNL
+7,Marin FC ECNL G2013/14,Marin FC,114298,1,0,0,1,1,1.0,1,1,0,GU13,ECNL
+8,Bay Area Surf - ECNL G2013/14,Bay Area Surf,135939,0,0,0,0,0,0.0,0,0,0,GU13,ECNL
+9,Pleasanton RAGE ECNL G2013/14,Pleasanton Rage,55311,0,0,0,0,0,0.0,0,0,0,GU13,ECNL
+10,COSC ECNL G2013/14,California Odyssey Soccer Club,116964,1,0,1,0,0,0.0,0,1,-1,GU13,ECNL
+11,Davis Legacy ECNL G2013/14,Davis Legacy Soccer Club,126188,1,0,1,0,0,0.0,1,4,-3,GU13,ECNL
+12,Stanislaus Surf - ECNL G2013/14,Stanislaus Surf Soccer Club,82861,1,0,1,0,0,0.0,1,6,-5,GU13,ECNL
+1,Mustang SC ECNL G2012/13,Mustang Soccer,104961,1,1,0,0,3,3.0,3,1,2,GU14,ECNL
+2,MVLA ECNL G2012/13,MVLA,84876,1,1,0,0,3,3.0,3,1,2,GU14,ECNL
+3,San Juan SC ECNL G2012/13,San Juan Soccer Club,103791,1,1,0,0,3,3.0,3,2,1,GU14,ECNL
+4,Marin FC ECNL G2012/13,Marin FC,82675,1,1,0,0,3,3.0,1,0,1,GU14,ECNL
+5,Santa Rosa United ECNL G2012/13,Santa Rosa United Soccer,132202,1,1,0,0,3,3.0,1,0,1,GU14,ECNL
+6,Bay Area Surf - ECNL G2012/13,Bay Area Surf,115151,0,0,0,0,0,0.0,0,0,0,GU14,ECNL
+7,Pleasanton RAGE ECNL G2012/13,Pleasanton Rage,44316,0,0,0,0,0,0.0,0,0,0,GU14,ECNL
+8,Placer United ECNL G2012/13,Placer United Soccer Club,106265,1,0,1,0,0,0.0,2,3,-1,GU14,ECNL
+9,COSC ECNL G2012/13,California Odyssey Soccer Club,114556,1,0,1,0,0,0.0,0,1,-1,GU14,ECNL
+10,Force (CA) ECNL G2012/13,Force,94620,1,0,1,0,0,0.0,0,1,-1,GU14,ECNL
+11,Davis Legacy ECNL G2012/13,Davis Legacy Soccer Club,110984,1,0,1,0,0,0.0,1,3,-2,GU14,ECNL
+12,Stanislaus Surf - ECNL G2012/13,Stanislaus Surf Soccer Club,82859,1,0,1,0,0,0.0,1,3,-2,GU14,ECNL
+1,MVLA ECNL G2011/12,MVLA,55325,1,1,0,0,3,3.0,10,0,10,GU15,ECNL
+2,COSC ECNL G2011/12,California Odyssey Soccer Club,113580,1,1,0,0,3,3.0,7,1,6,GU15,ECNL
+3,Mustang SC ECNL G2011/12,Mustang Soccer,29444,1,1,0,0,3,3.0,3,2,1,GU15,ECNL
+4,Placer United ECNL G2011/12,Placer United Soccer Club,68030,1,1,0,0,3,3.0,3,2,1,GU15,ECNL
+5,Force (CA) ECNL G2011/12,Force,69022,1,0,0,1,1,1.0,1,1,0,GU15,ECNL
+6,Marin FC ECNL G2011/12,Marin FC,92794,1,0,0,1,1,1.0,1,1,0,GU15,ECNL
+7,Bay Area Surf - ECNL G2011/12,Bay Area Surf,95449,0,0,0,0,0,0.0,0,0,0,GU15,ECNL
+8,Pleasanton RAGE ECNL G2011/12,Pleasanton Rage,63606,0,0,0,0,0,0.0,0,0,0,GU15,ECNL
+9,Davis Legacy ECNL G2011/12,Davis Legacy Soccer Club,90732,1,0,1,0,0,0.0,2,3,-1,GU15,ECNL
+10,San Juan SC ECNL G2011/12,San Juan Soccer Club,84677,1,0,1,0,0,0.0,2,3,-1,GU15,ECNL
+11,Santa Rosa United ECNL G2011/12,Santa Rosa United Soccer,132203,1,0,1,0,0,0.0,1,7,-6,GU15,ECNL
+12,Stanislaus Surf - ECNL G2011/12,Stanislaus Surf Soccer Club,82858,1,0,1,0,0,0.0,0,10,-10,GU15,ECNL
+1,MVLA ECNL G2010/11,MVLA,55477,1,1,0,0,3,3.0,2,0,2,GU16,ECNL
+2,Santa Rosa United ECNL G2010/11,Santa Rosa United Soccer,132204,1,1,0,0,3,3.0,3,2,1,GU16,ECNL
+3,Force (CA) ECNL G2010/11,Force,62271,1,0,0,1,1,1.0,2,2,0,GU16,ECNL
+4,Marin FC ECNL G2010/11,Marin FC,82192,1,0,0,1,1,1.0,2,2,0,GU16,ECNL
+5,Davis Legacy ECNL G2010/11,Davis Legacy Soccer Club,81189,1,0,0,1,1,1.0,1,1,0,GU16,ECNL
+6,Mustang SC ECNL G2010/11,Mustang Soccer,31529,1,0,0,1,1,1.0,1,1,0,GU16,ECNL
+7,Placer United ECNL G2010/11,Placer United Soccer Club,81251,1,0,0,1,1,1.0,0,0,0,GU16,ECNL
+8,San Juan SC ECNL G2010/11,San Juan Soccer Club,77003,1,0,0,1,1,1.0,0,0,0,GU16,ECNL
+9,Bay Area Surf - ECNL G2010/11,Bay Area Surf,74987,0,0,0,0,0,0.0,0,0,0,GU16,ECNL
+10,Pleasanton RAGE ECNL G2010/11,Pleasanton Rage,44313,0,0,0,0,0,0.0,0,0,0,GU16,ECNL
+11,COSC ECNL G2010/11,California Odyssey Soccer Club,88375,1,0,1,0,0,0.0,2,3,-1,GU16,ECNL
+12,Stanislaus Surf - ECNL G2010/11,Stanislaus Surf Soccer Club,82857,1,0,1,0,0,0.0,0,2,-2,GU16,ECNL
+1,MVLA ECNL G2009/10,MVLA,33633,1,1,0,0,3,3.0,7,0,7,GU17,ECNL
+2,Force (CA) ECNL G2009/10,Force,60044,1,1,0,0,3,3.0,6,0,6,GU17,ECNL
+3,COSC ECNL G2009/10,California Odyssey Soccer Club,64375,1,1,0,0,3,3.0,6,2,4,GU17,ECNL
+4,Mustang SC ECNL G2009/10,Mustang Soccer,83526,1,1,0,0,3,3.0,4,0,4,GU17,ECNL
+5,Placer United ECNL G2009/10,Placer United Soccer Club,68832,1,1,0,0,3,3.0,1,0,1,GU17,ECNL
+6,Bay Area Surf - ECNL G2009/10,Bay Area Surf,69036,0,0,0,0,0,0.0,0,0,0,GU17,ECNL
+7,Pleasanton RAGE ECNL G2009/10,Pleasanton Rage,44309,0,0,0,0,0,0.0,0,0,0,GU17,ECNL
+8,San Juan SC ECNL G2009/10,San Juan Soccer Club,32669,1,0,1,0,0,0.0,0,1,-1,GU17,ECNL
+9,Santa Rosa United ECNL G2009/10,Santa Rosa United Soccer,132205,1,0,1,0,0,0.0,2,6,-4,GU17,ECNL
+10,Davis Legacy ECNL G2009/10,Davis Legacy Soccer Club,69625,1,0,1,0,0,0.0,0,4,-4,GU17,ECNL
+11,Marin FC ECNL G2009/10,Marin FC,62042,1,0,1,0,0,0.0,0,6,-6,GU17,ECNL
+12,Stanislaus Surf - ECNL G2009/10,Stanislaus Surf Soccer Club,68540,1,0,1,0,0,0.0,0,7,-7,GU17,ECNL
+1,Force (CA) ECNL G2008/09,Force,45841,1,1,0,0,3,3.0,6,0,6,GU18/19,ECNL
+2,MVLA ECNL G2008/09,MVLA,33438,1,1,0,0,3,3.0,3,0,3,GU18/19,ECNL
+3,COSC ECNL G2008/09,California Odyssey Soccer Club,95560,1,1,0,0,3,3.0,3,2,1,GU18/19,ECNL
+4,San Juan SC ECNL G2008/09,San Juan Soccer Club,31488,1,1,0,0,3,3.0,2,1,1,GU18/19,ECNL
+5,Davis Legacy ECNL G2008/09,Davis Legacy Soccer Club,60301,1,1,0,0,3,3.0,1,0,1,GU18/19,ECNL
+6,Bay Area Surf - ECNL G2008/09,Bay Area Surf,69035,0,0,0,0,0,0.0,0,0,0,GU18/19,ECNL
+7,Pleasanton RAGE ECNL G2008/09,Pleasanton Rage,39256,0,0,0,0,0,0.0,0,0,0,GU18/19,ECNL
+8,Santa Rosa United ECNL G2008/09,Santa Rosa United Soccer,132206,1,0,1,0,0,0.0,2,3,-1,GU18/19,ECNL
+9,Placer United ECNL G2008/09,Placer United Soccer Club,68831,1,0,1,0,0,0.0,1,2,-1,GU18/19,ECNL
+10,Mustang SC ECNL G2008/09,Mustang Soccer,31328,1,0,1,0,0,0.0,0,1,-1,GU18/19,ECNL
+11,Stanislaus Surf - ECNL G2008/09,Stanislaus Surf Soccer Club,62306,1,0,1,0,0,0.0,0,3,-3,GU18/19,ECNL
+12,Marin FC ECNL G2008/09,Marin FC,56277,1,0,1,0,0,0.0,0,6,-6,GU18/19,ECNL

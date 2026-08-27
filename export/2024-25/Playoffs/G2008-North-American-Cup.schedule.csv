@@ -1,0 +1,26 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2025-06-26,08:00 AM,Bracket,San Juan SC ECNL G08,1,1,FC Alliance ECNL G08,Surf Sports Park,Field 01,On Time,795415
+2025-06-26,08:00 AM,Bracket,DKSC ECNL G08,3,1,Liverpool FC IA Michigan ECNL G08,Surf Sports Park,Field 02,On Time,795417
+2025-06-26,10:10 AM,Bracket,South Shore Select ECNL G08,2,3,Kansas City Athletics ECNL G08,Surf Sports Park,Field 07,On Time,795416
+2025-06-26,10:30 AM,Bracket,Jacksonville FC ECNL G08,2,2,La Roca FC ECNL G08,Surf Sports Park,Field 14,On Time,795418
+2025-06-26,11:40 AM,Bracket,CESA Liberty ECNL G08,3,1,Charlotte Independence ECNL G08,Surf Sports Park,Field 01,On Time,795411
+2025-06-26,11:40 AM,Bracket,Racing Louisville Academy ECNL G08,0,0,Real Colorado Athletico ECNL G08,Surf Sports Park,Field 02,On Time,795412
+2025-06-26,11:40 AM,Bracket,Utah Royals FC-AZ ECNL G08,4,1,PDA White ECNL G2008,Surf Sports Park,Field 03,On Time,795413
+2025-06-26,11:40 AM,Bracket,NVA ECNL G08,0,0,Phoenix Rising ECNL G08,Surf Sports Park,Field 04,On Time,795414
+2025-06-27,09:50 AM,Bracket,CESA Liberty ECNL G08,2,1,Racing Louisville Academy ECNL G08,Surf Sports Park,Field 05,On Time,795419
+2025-06-27,09:50 AM,Bracket,Utah Royals FC-AZ ECNL G08,0,0,Phoenix Rising ECNL G08,Surf Sports Park,Field 06,On Time,795420
+2025-06-27,09:50 AM,Bracket,Charlotte Independence ECNL G08,3,3,Real Colorado Athletico ECNL G08,Surf Sports Park,Field 04,On Time,795426
+2025-06-27,09:50 AM,Bracket,PDA White ECNL G2008,2,4,NVA ECNL G08,Surf Sports Park,Field 02,On Time,795427
+2025-06-27,09:50 AM,Bracket,FC Alliance ECNL G08,3,0,South Shore Select ECNL G08,Surf Sports Park,Field 03,On Time,795428
+2025-06-27,09:50 AM,Bracket,Liverpool FC IA Michigan ECNL G08,2,0,Jacksonville FC ECNL G08,Surf Sports Park,Field 01,On Time,795429
+2025-06-27,10:10 AM,Bracket,San Juan SC ECNL G08,3,2,Kansas City Athletics ECNL G08,Surf Sports Park,Field 08,On Time,795421
+2025-06-27,10:10 AM,Bracket,DKSC ECNL G08,3,1,La Roca FC ECNL G08,Surf Sports Park,Field 09,On Time,795422
+2025-06-29,10:00 AM,Bracket,Racing Louisville Academy ECNL G08,0,2,Phoenix Rising ECNL G08,Surf Sports Park,Field 05,On Time,795433
+2025-06-29,10:00 AM,Bracket,Kansas City Athletics ECNL G08,2,1,La Roca FC ECNL G08,Surf Sports Park,Field 06,On Time,795434
+2025-06-29,10:20 AM,Bracket,CESA Liberty ECNL G08,0,0,Utah Royals FC-AZ ECNL G08,Surf Sports Park,Field 07,On Time,795423
+2025-06-29,10:20 AM,Bracket,Real Colorado Athletico ECNL G08,2,2,NVA ECNL G08,Surf Sports Park,Field 08,On Time,795430
+2025-06-29,10:20 AM,Bracket,FC Alliance ECNL G08,3,2,Liverpool FC IA Michigan ECNL G08,Surf Sports Park,Field 09,On Time,795431
+2025-06-29,10:40 AM,Bracket,San Juan SC ECNL G08,0,3,DKSC ECNL G08,Surf Sports Park,Field 14,On Time,795424
+2025-06-29,10:40 AM,Bracket,Charlotte Independence ECNL G08,4,1,PDA White ECNL G2008,Surf Sports Park,Field 15,On Time,795435
+2025-06-29,10:40 AM,Bracket,South Shore Select ECNL G08,5,1,Jacksonville FC ECNL G08,Surf Sports Park,Field 18,On Time,795436
+2025-07-01,10:15 AM,Bracket,Utah Royals FC-AZ ECNL G08,1,5,DKSC ECNL G08,Surf Sports Park,Field 10,On Time,795425

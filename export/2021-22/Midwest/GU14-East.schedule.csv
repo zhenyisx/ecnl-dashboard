@@ -1,0 +1,66 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2021-09-11,TBD,Bracket,Eclipse Select SC ECNL GU14,1,0,Sporting Iowa ECNL GU14,,,On Time,270726
+2021-09-11,TBD,Bracket,Michigan Hawks ECNL GU14,1,0,Michigan Hawks Magic ECNL GU14,,,On Time,270785
+2021-09-11,09:30 AM,Bracket,FC Wisconsin ECNL GU14,0,0,Gretna Elite Academy ECNL GU14,FC Wisconsin Soccer Park,Field 1 - Val Olla Field,On Time,270747
+2021-09-12,TBD,Bracket,Eclipse Select SC ECNL GU14,11,0,Gretna Elite Academy ECNL GU14,,,On Time,270727
+2021-09-12,02:30 PM,Bracket,FC Wisconsin ECNL GU14,0,0,Sporting Iowa ECNL GU14,FC Wisconsin Soccer Park,Field 1 - Val Olla Field,On Time,270748
+2021-09-18,08:00 AM,Bracket,Michigan Hawks Magic ECNL GU14,2,1,Midwest United FC ECNL GU14,Schoolcraft turf,Field 1,On Time,270793
+2021-09-19,06:30 PM,Bracket,Liverpool FC IA Michigan ECNL GU14,0,3,Michigan Hawks ECNL GU14,UWM Sports Complex,Outdoor,On Time,270777
+2021-09-25,TBD,Bracket,Michigan Hawks Magic ECNL GU14,1,0,Eclipse Select SC North ECNL GU14,,,On Time,270794
+2021-09-25,09:00 AM,Bracket,FC Wisconsin ECNL GU14,0,4,Michigan Hawks ECNL GU14,FC Wisconsin Soccer Park,Field 2 - Hegarty Field,On Time,270749
+2021-09-25,09:00 AM,Bracket,Midwest United FC ECNL GU14,2,1,Sporting Blue Valley ECNL GU14,Oakland University Dome,Field 1,On Time,270802
+2021-09-25,02:30 PM,Bracket,Liverpool FC IA Michigan ECNL GU14,0,6,Kansas City Athletics ECNL GU14,Clawson High School,Field 1,On Time,270778
+2021-09-26,08:30 AM,Bracket,Liverpool FC IA Michigan ECNL GU14,1,1,Sporting Blue Valley ECNL GU14,UWM Sports Complex,Outdoor,On Time,270779
+2021-09-26,09:00 AM,Bracket,FC Wisconsin ECNL GU14,1,0,Michigan Hawks Magic ECNL GU14,FC Wisconsin Soccer Park,Field 2 - Hegarty Field,On Time,270750
+2021-09-26,11:00 AM,Bracket,Eclipse Select SC North ECNL GU14,1,3,Michigan Hawks ECNL GU14,Techny Park,Field 2,On Time,270738
+2021-09-28,07:00 PM,Bracket,Eclipse Select SC North ECNL GU14,0,2,Eclipse Select SC ECNL GU14,Techny Park,Field 1,On Time,270737
+2021-10-02,11:00 AM,Bracket,Eclipse Select SC North ECNL GU14,0,0,FC Wisconsin ECNL GU14,Techny Park,Field 1,On Time,270739
+2021-10-02,11:45 AM,Bracket,Michigan Hawks ECNL GU14,2,1,Minnesota Thunder ECNL GU14,Schoolcraft Turf,SC Turf,On Time,270786
+2021-10-02,06:30 PM,Bracket,Liverpool FC IA Michigan ECNL GU14,0,1,Michigan Hawks Magic ECNL GU14,UWM Sports Complex,Outdoor,On Time,270780
+2021-10-03,11:45 AM,Bracket,Michigan Hawks Magic ECNL GU14,1,2,Minnesota Thunder ECNL GU14,Jaycee Park,JC Turf,On Time,270795
+2021-10-09,09:00 AM,Bracket,FC Wisconsin ECNL GU14,1,1,SLSG Green ECNL GU14,FC Wisconsin Soccer Park,Field 2 - Hegarty Field,On Time,270751
+2021-10-09,11:00 AM,Bracket,Eclipse Select SC ECNL GU14,0,1,SLSG Navy ECNL GU14,Techny Park,Field 1,On Time,270728
+2021-10-10,10:00 AM,Bracket,FC Wisconsin ECNL GU14,0,5,SLSG Navy ECNL GU14,FC Wisconsin Soccer Park,Field 2 - Hegarty Field,On Time,270752
+2021-10-10,11:00 AM,Bracket,Eclipse Select SC ECNL GU14,5,0,SLSG Green ECNL GU14,Techny Park,Field 1,On Time,270729
+2021-10-10,12:00 PM,Bracket,Midwest United FC ECNL GU14,2,0,Liverpool FC IA Michigan ECNL GU14,Midwest United FC Complex,North,On Time,270803
+2021-10-16,TBD,Bracket,Midwest United FC ECNL GU14,2,0,Gretna Elite Academy ECNL GU14,,,On Time,270804
+2021-10-16,10:45 AM,Bracket,Eclipse Select SC ECNL GU14,4,0,Kansas City Athletics ECNL GU14,Techny Park,Field 2,On Time,270730
+2021-10-16,10:45 AM,Bracket,Eclipse Select SC North ECNL GU14,1,0,Sporting Blue Valley ECNL GU14,Techny Park,Field 1,On Time,270740
+2021-10-16,11:00 AM,Bracket,FC Wisconsin ECNL GU14,2,3,Minnesota Thunder ECNL GU14,FC Wisconsin Soccer Park,Field 1 - Val Olla Field,On Time,270753
+2021-10-16,03:30 PM,Bracket,Michigan Hawks ECNL GU14,2,2,SLSG Navy ECNL GU14,Schoolcraft Turf,SC Turf,On Time,270787
+2021-10-16,03:30 PM,Bracket,Michigan Hawks Magic ECNL GU14,0,2,SLSG Green ECNL GU14,St. Joe's Sports Complex,Dome,On Time,270796
+2021-10-17,08:00 AM,Bracket,Michigan Hawks ECNL GU14,1,0,SLSG Green ECNL GU14,Schoolcraft Turf,SC Turf,On Time,270788
+2021-10-17,09:45 AM,Bracket,Michigan Hawks Magic ECNL GU14,1,4,SLSG Navy ECNL GU14,Schoolcraft turf,Field 1,On Time,270797
+2021-10-17,10:45 AM,Bracket,Eclipse Select SC ECNL GU14,4,2,Sporting Blue Valley ECNL GU14,Techny Park,Field 1,On Time,270731
+2021-10-17,11:45 AM,Bracket,Eclipse Select SC North ECNL GU14,0,3,Kansas City Athletics ECNL GU14,,,On Time,270741
+2021-10-23,TBD,Bracket,Eclipse Select SC ECNL GU14,2,1,Liverpool FC IA Michigan ECNL GU14,,,On Time,270732
+2021-10-23,04:00 PM,Bracket,Midwest United FC ECNL GU14,1,0,Eclipse Select SC North ECNL GU14,Midwest United FC Complex,South,On Time,270805
+2021-10-24,09:00 AM,Bracket,Midwest United FC ECNL GU14,0,2,Eclipse Select SC ECNL GU14,Midwest United FC Complex,North,On Time,270806
+2021-10-24,01:00 PM,Bracket,Eclipse Select SC North ECNL GU14,1,1,Liverpool FC IA Michigan ECNL GU14,Grandville High School,Field 1,On Time,270742
+2021-10-30,11:00 AM,Bracket,Eclipse Select SC ECNL GU14,3,0,FC Wisconsin ECNL GU14,Techny Park,Field 2,On Time,270733
+2021-11-06,11:00 AM,Bracket,Midwest United FC ECNL GU14,0,0,Michigan Hawks Magic ECNL GU14,Midwest United FC Complex,North,On Time,270807
+2021-11-07,11:00 AM,Bracket,Michigan Hawks ECNL GU14,2,0,Liverpool FC IA Michigan ECNL GU14,St. Joe's Sports Dome,St. Joe's Dome,On Time,270789
+2022-03-06,10:00 AM,Bracket,Michigan Hawks ECNL GU14,10,2,Midwest United FC ECNL GU14,St. Joe's Sports Dome,St. Joe's Dome,On Time,270790
+2022-03-17,08:30 PM,Bracket,Michigan Hawks Magic ECNL GU14,2,1,Liverpool FC IA Michigan ECNL GU14,Schoolcraft turf,Field 1,On Time,270798
+2022-04-05,08:00 PM,Bracket,Eclipse Select SC ECNL GU14,1,0,Eclipse Select SC North ECNL GU14,Techny Park,Field 1,On Time,270734
+2022-04-09,10:00 AM,Bracket,Michigan Hawks ECNL GU14,0,1,Eclipse Select SC ECNL GU14,Jaycee Park,Jaycee Turf,On Time,270791
+2022-04-09,01:20 PM,Bracket,Michigan Hawks Magic ECNL GU14,1,1,FC Wisconsin ECNL GU14,Jaycee Park,JC Turf,On Time,270799
+2022-04-10,10:00 AM,Bracket,Michigan Hawks Magic ECNL GU14,1,5,Eclipse Select SC ECNL GU14,Jaycee Park,JC Turf,On Time,270800
+2022-04-10,01:20 PM,Bracket,Michigan Hawks ECNL GU14,3,0,FC Wisconsin ECNL GU14,Jaycee Park,Jaycee Turf,On Time,270792
+2022-04-16,09:30 AM,Bracket,Michigan Hawks Magic ECNL GU14,0,3,Michigan Hawks ECNL GU14,Schoolcraft turf,Field 1,On Time,270801
+2022-04-16,10:45 AM,Bracket,Liverpool FC IA Michigan ECNL GU14,1,2,Midwest United FC ECNL GU14,Brother Rice High School,Field 1,On Time,270781
+2022-04-23,10:30 AM,Bracket,Midwest United FC ECNL GU14,0,2,Eclipse Select SC ECNL GU14,Aquinas College,Outdoor Turf,On Time,270809
+2022-04-23,07:00 PM,Bracket,Liverpool FC IA Michigan ECNL GU14,0,0,Eclipse Select SC North ECNL GU14,Aquinas College,Field 1,On Time,270743
+2022-04-24,09:00 AM,Bracket,Liverpool FC IA Michigan ECNL GU14,1,2,Eclipse Select SC ECNL GU14,Aquinas College,Field 1,On Time,270782
+2022-04-24,01:30 PM,Bracket,Midwest United FC ECNL GU14,1,1,Eclipse Select SC North ECNL GU14,Aquinas College,Outdoor Turf,On Time,270808
+2022-04-30,02:30 PM,Bracket,Eclipse Select SC ECNL GU14,2,1,Michigan Hawks ECNL GU14,Knoch Park,Field A,On Time,270735
+2022-04-30,03:30 PM,Bracket,Liverpool FC IA Michigan ECNL GU14,1,0,FC Wisconsin ECNL GU14,Academy of Holy Angels,Field 1,On Time,270783
+2022-04-30,05:30 PM,Bracket,Eclipse Select SC North ECNL GU14,1,2,Michigan Hawks Magic ECNL GU14,Knoch Park,Field 1,On Time,270744
+2022-05-01,09:30 AM,Bracket,FC Wisconsin ECNL GU14,0,1,Midwest United FC ECNL GU14,Academy of Holy Angels  ,AHA South Turf,On Time,270754
+2022-05-01,10:30 AM,Bracket,Eclipse Select SC ECNL GU14,2,1,Michigan Hawks Magic ECNL GU14,Commissioners Park,Turf,On Time,270736
+2022-05-01,01:30 PM,Bracket,Eclipse Select SC North ECNL GU14,1,4,Michigan Hawks ECNL GU14,Commissioners Park,Turf,On Time,270745
+2022-05-14,TBD,Bracket,Liverpool FC IA Michigan ECNL GU14,1,0,FC Wisconsin ECNL GU14,,,On Time,270784
+2022-05-14,05:00 PM,Bracket,Midwest United FC ECNL GU14,1,5,Michigan Hawks ECNL GU14,Midwest United FC Complex,North,On Time,270810
+2022-05-15,10:00 AM,Bracket,Midwest United FC ECNL GU14,0,1,FC Wisconsin ECNL GU14,Aquinas College,Outdoor Turf,On Time,270811
+2022-06-04,11:30 AM,Bracket,Eclipse Select SC North ECNL GU14,0,2,FC Wisconsin ECNL GU14,Techny Park,Field 1,On Time,270746
+2022-06-05,12:00 PM,Bracket,FC Wisconsin ECNL GU14,0,2,Eclipse Select SC ECNL GU14,FC Wisconsin Soccer Park,Field 1 - Val Olla Field,On Time,270755

@@ -1,0 +1,13 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2025-06-26,08:20 AM,Bracket,LA Breakers FC ECNL G08,2,1,Midwest United FC ECNL G08,Surf Sports Park,Field C,On Time,795466
+2025-06-26,08:40 AM,Bracket,Colorado Rapids ECNL G08,2,1,Utah Avalanche ECNL G08,Surf Sports Park,Field D,On Time,795465
+2025-06-26,09:50 AM,Bracket,Mustang SC ECNL G08,3,1,Match Fit Surf ECNL G08,Surf Sports Park,Field A,On Time,795463
+2025-06-26,09:50 AM,Bracket,Arlington Soccer ECNL G08,5,1,South Carolina United ECNL G08,Surf Sports Park,Field B,On Time,795464
+2025-06-27,01:30 PM,Bracket,Mustang SC ECNL G08,0,0,Arlington Soccer ECNL G08,Surf Sports Park,Field 05,On Time,795467
+2025-06-27,01:30 PM,Bracket,Match Fit Surf ECNL G08,0,0,South Carolina United ECNL G08,Surf Sports Park,Field 06,On Time,795471
+2025-06-27,01:50 PM,Bracket,Colorado Rapids ECNL G08,1,1,LA Breakers FC ECNL G08,Surf Sports Park,Field 09,On Time,795468
+2025-06-27,02:10 PM,Bracket,Utah Avalanche ECNL G08,4,1,Midwest United FC ECNL G08,Surf Sports Park,Field 16,On Time,795472
+2025-06-29,02:00 PM,Bracket,Mustang SC ECNL G08,0,6,LA Breakers FC ECNL G08,Surf Sports Park,Field 01,On Time,795470
+2025-06-29,02:00 PM,Bracket,Match Fit Surf ECNL G08,2,2,Utah Avalanche ECNL G08,Surf Sports Park,Field 03,On Time,795473
+2025-06-29,02:00 PM,Bracket,South Carolina United ECNL G08,1,1,Midwest United FC ECNL G08,Surf Sports Park,Field 02,On Time,795474
+2025-06-29,02:20 PM,Bracket,Arlington Soccer ECNL G08,2,2,Colorado Rapids ECNL G08,Surf Sports Park,Field 07,On Time,795469

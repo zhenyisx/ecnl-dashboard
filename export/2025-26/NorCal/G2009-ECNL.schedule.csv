@@ -1,0 +1,111 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2025-08-23,01:00 PM,Group Play,Pleasanton RAGE ECNL G09,0,1,Marin FC ECNL G09,Val Vista,Field 3,On Time,819053
+2025-08-23,02:00 PM,Group Play,Davis Legacy ECNL G09,2,1,Mustang SC ECNL G09,Davis Legacy Soccer Complex,Field 14,On Time,818717
+2025-08-23,03:00 PM,Group Play,Placer United ECNL G09,2,4,MVLA ECNL G09,Davis Legacy Soccer Complex,Field 8,On Time,818993
+2025-08-23,03:40 PM,Group Play,Bay Area Surf ECNL G09,5,2,Santa Rosa United ECNL G09,Gunderson High School,Football Field,On Time,818573
+2025-08-24,11:00 AM,Group Play,Marin FC ECNL G09,4,2,Bay Area Surf ECNL G09,College of Marin,Stadium,On Time,818813
+2025-08-24,12:00 PM,Group Play,Davis Legacy ECNL G09,11,0,COSC ECNL G09,Davis Legacy Soccer Complex,Field 13,On Time,818693
+2025-08-24,12:00 PM,Group Play,Santa Rosa United ECNL G09,1,4,Mustang SC ECNL G09,Trione Fields,Trione West,On Time,819173
+2025-08-24,01:00 PM,Group Play,Force (CA) ECNL G09,2,0,Placer United ECNL G09,De Anza College,Soccer Field,On Time,818753
+2025-08-24,01:00 PM,Group Play,Pleasanton RAGE ECNL G09,1,2,MVLA ECNL G09,Val Vista,Field 3,On Time,818933
+2025-09-06,09:00 AM,Group Play,MVLA ECNL G09,2,0,Mustang SC ECNL G09,Foothill College,Top Hill Soccer Field,On Time,818939
+2025-09-06,09:00 AM,Group Play,Placer United ECNL G09,2,1,Davis Legacy ECNL G09,Del Oro High School,Stadium Field,On Time,818999
+2025-09-06,11:00 AM,Group Play,Bay Area Surf ECNL G09,4,0,Force (CA) ECNL G09,Kathleen MacDonald High School,Soccer Field,On Time,818579
+2025-09-06,01:00 PM,Group Play,Marin FC ECNL G09,10,0,COSC ECNL G09,College of Marin,Stadium,On Time,818819
+2025-09-06,01:00 PM,Group Play,San Juan SC ECNL G09,5,0,Pleasanton RAGE ECNL G09,San Juan Soccer Complex,Tiemann Law Firm Black Field,On Time,819149
+2025-09-07,11:00 AM,Group Play,Force (CA) ECNL G09,2,1,Pleasanton RAGE ECNL G09,De Anza College,Soccer Field,On Time,818759
+2025-09-07,11:00 AM,Group Play,San Juan SC ECNL G09,2,1,Placer United ECNL G09,San Juan Soccer Complex,Tiemann Law Firm Black Field,On Time,819113
+2025-09-07,12:00 PM,Group Play,Davis Legacy ECNL G09,1,2,Bay Area Surf ECNL G09,Davis Legacy Soccer Complex,Field 13,On Time,818699
+2025-09-07,02:00 PM,Group Play,COSC ECNL G09,0,13,MVLA ECNL G09,Fresno State Soccer Stadium,field 1,On Time,818639
+2025-09-07,03:00 PM,Group Play,Mustang SC ECNL G09,0,0,Marin FC ECNL G09,Provident Field @ MSC, Upper,On Time,818863
+2025-09-13,11:00 AM,Group Play,Force (CA) ECNL G09,2,1,Davis Legacy ECNL G09,De Anza College,Soccer Field,On Time,818765
+2025-09-13,11:00 AM,Group Play,Marin FC ECNL G09,1,0,Placer United ECNL G09,College of Marin,Stadium,On Time,818825
+2025-09-13,01:00 PM,Group Play,Bay Area Surf ECNL G09,5,0,Mustang SC ECNL G09,Kathleen MacDonald High School,Soccer Field,On Time,818585
+2025-09-13,05:00 PM,Group Play,San Juan SC ECNL G09,5,2,MVLA ECNL G09,San Juan Soccer Complex,Tiemann Law Firm White Field,On Time,819119
+2025-09-20,09:00 AM,Group Play,San Juan SC ECNL G09,2,0,Santa Rosa United ECNL G09,San Juan Soccer Complex,Tiemann Law Firm Black Field,On Time,819125
+2025-09-20,11:00 AM,Group Play,Pleasanton RAGE ECNL G09,0,4,Davis Legacy ECNL G09,Val Vista,Field 3,On Time,819065
+2025-09-20,12:40 PM,Group Play,MVLA ECNL G09,0,0,Marin FC ECNL G09,Foothill College,Top Hill Soccer Field,On Time,818945
+2025-09-20,03:00 PM,Group Play,Mustang SC ECNL G09,5,0,COSC ECNL G09,Provident Field @ MSC, Upper,On Time,818872
+2025-09-20,04:00 PM,Group Play,Placer United ECNL G09,1,4,Bay Area Surf ECNL G09,Whitney High School,Stadium,On Time,819005
+2025-09-27,09:00 AM,Group Play,Mustang SC ECNL G09,1,0,Placer United ECNL G09,Provident Field @ MSC, Lower,On Time,818880
+2025-09-27,10:00 AM,Group Play,COSC ECNL G09,0,1,Pleasanton RAGE ECNL G09,Fresno State Soccer Stadium,field 1,On Time,818687
+2025-09-27,11:00 AM,Group Play,Marin FC ECNL G09,1,0,Force (CA) ECNL G09,College of Marin,Stadium,On Time,818831
+2025-09-27,11:00 AM,Group Play,San Juan SC ECNL G09,2,4,Bay Area Surf ECNL G09,San Juan Soccer Complex,Tiemann Law Firm Black Field,On Time,819131
+2025-09-27,11:20 AM,Group Play,MVLA ECNL G09,5,0,Santa Rosa United ECNL G09,Foothill College,Top Hill Soccer Field,On Time,818951
+2025-09-28,09:00 AM,Group Play,Force (CA) ECNL G09,0,0,San Juan SC ECNL G09,De Anza College,Soccer Field,On Time,818771
+2025-09-28,11:00 AM,Group Play,Mustang SC ECNL G09,1,0,Pleasanton RAGE ECNL G09,Provident Field @ MSC, Upper,On Time,818889
+2025-09-28,11:00 AM,Group Play,Santa Rosa United ECNL G09,2,3,Marin FC ECNL G09,Trione Fields,Trione West,On Time,819179
+2025-09-28,01:00 PM,Group Play,Bay Area Surf ECNL G09,2,1,MVLA ECNL G09,Kathleen MacDonald High School,Football Field,On Time,818591
+2025-09-28,02:15 PM,Group Play,Placer United ECNL G09,4,0,COSC ECNL G09,Del Oro High School,Stadium Field,On Time,819011
+2025-10-04,09:00 AM,Group Play,Placer United ECNL G09,0,1,Pleasanton RAGE ECNL G09,Placer High School,Field 1,On Time,819017
+2025-10-04,09:00 AM,Group Play,Santa Rosa United ECNL G09,1,4,Force (CA) ECNL G09,Trione Fields,Trione West,On Time,819185
+2025-10-04,10:00 AM,Group Play,COSC ECNL G09,0,7,Bay Area Surf ECNL G09,"San Joaquin Memorial- 1406 N. Fresno St. Fresno, C",field 1,On Time,818651
+2025-10-04,12:00 PM,Group Play,Davis Legacy ECNL G09,3,3,MVLA ECNL G09,Davis Legacy Soccer Complex,Field 13,On Time,818705
+2025-10-04,01:00 PM,Group Play,San Juan SC ECNL G09,2,2,Marin FC ECNL G09,San Juan Soccer Complex,Tiemann Law Firm Black Field,On Time,819137
+2025-10-18,09:00 AM,Group Play,Bay Area Surf ECNL G09,4,1,Pleasanton RAGE ECNL G09,Kathleen MacDonald High School,Football Field,On Time,818597
+2025-10-18,11:00 AM,Group Play,Marin FC ECNL G09,2,2,Davis Legacy ECNL G09,College of Marin,Stadium,On Time,818837
+2025-10-18,01:00 PM,Group Play,Placer United ECNL G09,1,2,Santa Rosa United ECNL G09,Davis Legacy Soccer Complex,Field 10,On Time,819023
+2025-10-18,01:00 PM,Group Play,San Juan SC ECNL G09,9,0,COSC ECNL G09,San Juan Soccer Complex,Tiemann Law Firm Black Field,On Time,819143
+2025-10-18,02:00 PM,Group Play,Force (CA) ECNL G09,0,2,Mustang SC ECNL G09,De Anza College,Soccer Field,On Time,818777
+2025-10-25,11:00 AM,Group Play,Pleasanton RAGE ECNL G09,2,0,Santa Rosa United ECNL G09,Val Vista,Field 3,On Time,819071
+2025-10-25,12:00 PM,Group Play,COSC ECNL G09,0,5,Marin FC ECNL G09,Clovis East Highschool,Field 8,On Time,818657
+2025-10-25,12:00 PM,Group Play,Davis Legacy ECNL G09,2,1,Placer United ECNL G09,Davis Legacy Soccer Complex,Field 13,On Time,818711
+2025-10-25,01:00 PM,Group Play,Mustang SC ECNL G09,0,5,San Juan SC ECNL G09,Provident Field @ MSC, Upper,On Time,818898
+2025-10-25,02:00 PM,Group Play,Force (CA) ECNL G09,1,1,MVLA ECNL G09,De Anza College,Soccer Field,On Time,818783
+2025-11-01,09:00 AM,Group Play,Pleasanton RAGE ECNL G09,0,2,San Juan SC ECNL G09,Val Vista,Field 3,On Time,819059
+2025-11-01,11:00 AM,Group Play,Mustang SC ECNL G09,0,3,Davis Legacy ECNL G09,Provident Field @ MSC, Upper,On Time,818854
+2025-11-01,11:00 AM,Group Play,MVLA ECNL G09,2,1,Placer United ECNL G09,Foothill College,Top Hill Soccer Field,On Time,818957
+2025-11-01,02:00 PM,Group Play,COSC ECNL G09,2,2,Santa Rosa United ECNL G09,Clovis High School ,Field 2,On Time,819191
+2025-11-01,04:00 PM,Group Play,Force (CA) ECNL G09,0,2,Bay Area Surf ECNL G09,De Anza College,Soccer Field,On Time,818789
+2025-11-02,11:00 AM,Group Play,Bay Area Surf ECNL G09,4,3,San Juan SC ECNL G09,Kathleen MacDonald High School,Football Field,On Time,818603
+2025-11-02,12:00 PM,Group Play,COSC ECNL G09,0,10,Davis Legacy ECNL G09,Fresno State Soccer Stadium,field 1,On Time,818663
+2025-11-02,12:00 PM,Group Play,MVLA ECNL G09,4,0,Pleasanton RAGE ECNL G09,Foothill College,Top Hill Soccer Field,On Time,819077
+2025-11-02,01:00 PM,Group Play,Placer United ECNL G09,1,2,Force (CA) ECNL G09,Placer High School,Field 1,On Time,819029
+2025-11-08,01:00 PM,Group Play,MVLA ECNL G09,1,1,San Juan SC ECNL G09,Foothill College,Top Hill Soccer Field,On Time,818963
+2025-11-08,03:00 PM,Group Play,Force (CA) ECNL G09,4,0,COSC ECNL G09,De Anza College,Soccer Field,On Time,818795
+2025-11-08,03:00 PM,Group Play,Marin FC ECNL G09,3,0,Pleasanton RAGE ECNL G09,Marin Catholic High School,Stadium,On Time,818843
+2025-11-08,03:00 PM,Group Play,Mustang SC ECNL G09,1,2,Bay Area Surf ECNL G09,Provident Field @ MSC, Upper,On Time,818915
+2026-03-14,01:00 PM,Group Play,San Juan SC ECNL G09,5,0,Mustang SC ECNL G09,San Juan Soccer Complex,Tiemann Law Firm White Field,On Time,819155
+2026-03-14,02:00 PM,Group Play,Santa Rosa United ECNL G09,0,6,Bay Area Surf ECNL G09,Trione Fields,Trione West,On Time,819203
+2026-03-14,03:00 PM,Group Play,Davis Legacy ECNL G09,1,1,Pleasanton RAGE ECNL G09,Davis Legacy Soccer Complex,Field 15,On Time,818723
+2026-03-14,03:00 PM,Group Play,MVLA ECNL G09,11,0,COSC ECNL G09,Foothill College,Top Hill Soccer Field,On Time,818969
+2026-03-14,04:00 PM,Group Play,Placer United ECNL G09,2,2,Marin FC ECNL G09,Placer Valley Soccer Complex,Field 6,On Time,819035
+2026-03-15,03:00 PM,Group Play,Davis Legacy ECNL G09,2,0,Santa Rosa United ECNL G09,Playfields Park,Field 1,On Time,818741
+2026-03-21,09:00 AM,Group Play,Placer United ECNL G09,1,3,San Juan SC ECNL G09,Placer Valley Soccer Complex,Field 5,On Time,819041
+2026-03-21,10:00 AM,Group Play,Pleasanton RAGE ECNL G09,1,0,COSC ECNL G09,Val Vista,Field 1,On Time,819083
+2026-03-21,11:00 AM,Group Play,Mustang SC ECNL G09,0,0,Force (CA) ECNL G09,Provident Field @ MSC, Upper,On Time,818921
+2026-03-21,11:00 AM,Group Play,Santa Rosa United ECNL G09,0,5,MVLA ECNL G09,Trione Fields,Trione East,On Time,819209
+2026-03-21,12:00 PM,Group Play,Davis Legacy ECNL G09,4,4,Marin FC ECNL G09,Davis Legacy Soccer Complex,Field 13,On Time,818729
+2026-04-04,10:55 AM,Group Play,Bay Area Surf ECNL G09,4,1,Davis Legacy ECNL G09,Willow Glen High School,Football Stadium,On Time,818609
+2026-04-04,11:00 AM,Group Play,MVLA ECNL G09,2,0,Force (CA) ECNL G09,Foothill College,Top Hill Soccer Field,On Time,818975
+2026-04-04,11:00 AM,Group Play,Santa Rosa United ECNL G09,0,7,San Juan SC ECNL G09,Trione Fields,Trione West,On Time,819215
+2026-04-04,12:00 PM,Group Play,COSC ECNL G09,1,4,Placer United ECNL G09,Edison High School Fields,field 2,On Time,818669
+2026-04-04,01:00 PM,Group Play,Marin FC ECNL G09,1,0,Mustang SC ECNL G09,Redwood High School ,Ghilotti,On Time,818849
+2026-04-11,12:00 PM,Group Play,Santa Rosa United ECNL G09,3,1,COSC ECNL G09,Trione Fields,Trione West,On Time,818645
+2026-04-18,09:00 AM,Group Play,MVLA ECNL G09,2,1,Bay Area Surf ECNL G09,Foothill College,Top Hill Soccer Field,On Time,818981
+2026-04-18,11:00 AM,Group Play,Placer United ECNL G09,2,1,Mustang SC ECNL G09,Oakmont High School,Stadium,On Time,819047
+2026-04-18,11:00 AM,Group Play,Santa Rosa United ECNL G09,2,4,Pleasanton RAGE ECNL G09,Trione Fields,Trione West,On Time,819221
+2026-04-18,12:00 PM,Group Play,Davis Legacy ECNL G09,0,4,Force (CA) ECNL G09,Davis Legacy Soccer Complex,Field 13,On Time,818735
+2026-04-18,01:00 PM,Group Play,Marin FC ECNL G09,1,3,San Juan SC ECNL G09,Marin Academy,Field 1,On Time,818867
+2026-04-19,10:45 AM,Group Play,Bay Area Surf ECNL G09,2,0,Marin FC ECNL G09,Oak Grove High School,Football Stadium,On Time,818615
+2026-04-19,11:00 AM,Group Play,Pleasanton RAGE ECNL G09,1,1,Placer United ECNL G09,Val Vista,Field 3,On Time,819089
+2026-04-19,01:00 PM,Group Play,Force (CA) ECNL G09,2,1,Santa Rosa United ECNL G09,De Anza College,Soccer Field,On Time,818801
+2026-04-19,01:00 PM,Group Play,San Juan SC ECNL G09,7,1,Davis Legacy ECNL G09,San Juan Soccer Complex,Tiemann Law Firm White Field,On Time,819161
+2026-04-25,10:00 AM,Group Play,COSC ECNL G09,1,9,San Juan SC ECNL G09,Edison High School Fields,field 2,On Time,818675
+2026-04-25,10:50 AM,Group Play,MVLA ECNL G09,5,1,Davis Legacy ECNL G09,Santa Clara University,Stanton Turf Soccer Field,On Time,818987
+2026-04-25,11:00 AM,Group Play,Force (CA) ECNL G09,2,2,Marin FC ECNL G09,De Anza College,Soccer Field,On Time,818807
+2026-04-25,11:00 AM,Group Play,Pleasanton RAGE ECNL G09,0,3,Bay Area Surf ECNL G09,Val Vista,Field 3,On Time,819095
+2026-04-25,01:00 PM,Group Play,Santa Rosa United ECNL G09,3,2,Placer United ECNL G09,Trione Fields,Trione West,On Time,819227
+2026-05-02,TBD,Group Play,Bay Area Surf ECNL G09,,,COSC ECNL G09,Willow Glen High School,Football Stadium,On Time,818621
+2026-05-02,11:00 AM,Group Play,Santa Rosa United ECNL G09,0,2,Davis Legacy ECNL G09,Trione Fields,Trione West,On Time,819197
+2026-05-02,12:00 PM,Group Play,San Juan SC ECNL G09,3,1,Force (CA) ECNL G09,San Juan Soccer Complex,Tiemann Law Firm Black Field,On Time,819167
+2026-05-02,03:00 PM,Group Play,Pleasanton RAGE ECNL G09,0,2,Mustang SC ECNL G09,Val Vista,Field 3,On Time,819101
+2026-05-02,03:30 PM,Group Play,Marin FC ECNL G09,0,3,MVLA ECNL G09,Novato High School,Field 1,On Time,818888
+2026-05-03,01:00 PM,Group Play,Mustang SC ECNL G09,0,2,MVLA ECNL G09,Provident Field @ MSC, Upper,On Time,818927
+2026-05-09,10:00 AM,Group Play,COSC ECNL G09,0,6,Mustang SC ECNL G09,Edison High School Fields,field 2,On Time,818681
+2026-05-09,11:00 AM,Group Play,Marin FC ECNL G09,6,0,Santa Rosa United ECNL G09,Dominican University,Kennelly Field,On Time,818907
+2026-05-09,12:00 PM,Group Play,Davis Legacy ECNL G09,2,8,San Juan SC ECNL G09,Davis Legacy Soccer Complex,Field 13,On Time,818747
+2026-05-09,12:40 PM,Group Play,Bay Area Surf ECNL G09,3,0,Placer United ECNL G09,Willow Glen High School,Football Stadium,On Time,818627
+2026-05-09,01:00 PM,Group Play,Pleasanton RAGE ECNL G09,2,7,Force (CA) ECNL G09,Val Vista,Field 2,On Time,819107
+2026-05-16,TBD,Group Play,Santa Rosa United ECNL G09,1,3,Mustang SC ECNL G09,,,On Time,818906
+2026-05-17,10:00 AM,Group Play,COSC ECNL G09,1,6,Force (CA) ECNL G09,Edison High School Fields,field 1,On Time,818633

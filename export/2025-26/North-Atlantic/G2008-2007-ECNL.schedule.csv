@@ -1,0 +1,46 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2026-02-21,12:30 PM,Group Play,Pipeline SC ECNL G08/07,5,1,Match Fit Surf ECNL G08/07,Notre Dame Prepatory School,Field 1,On Time,852393
+2026-02-28,09:00 AM,Group Play,FC DELCO ECNL G08/07,3,0,Philadelphia Ukrainian Nationals ECNL G08/07,Proving Grounds,8,On Time,852481
+2026-02-28,11:45 AM,Group Play,Bethesda SC ECNL G08/07,4,1,Match Fit Surf ECNL G08/07,Othello Regional Park,Field 1,On Time,852381
+2026-02-28,04:00 PM,Group Play,PDA Blue ECNL G08/07,0,0,Penn Fusion SA ECNL G08/07,PDA Main Complex,Field 3,On Time,852453
+2026-02-28,05:30 PM,Group Play,Pipeline SC ECNL G08/07,3,0,PDA White ECNL G08/07,Notre Dame Prepatory School,Field 1,On Time,852441
+2026-03-01,03:45 PM,Group Play,Bethesda SC ECNL G08/07,4,0,PDA White ECNL G08/07,Utica District Park,Field 6,On Time,852421
+2026-03-01,04:45 PM,Group Play,FC DELCO ECNL G08/07,1,6,PDA Blue ECNL G08/07,Proving Grounds,8,On Time,852409
+2026-03-07,03:00 PM,Group Play,FC DELCO ECNL G08/07,2,0,Bethesda SC ECNL G08/07,Proving Grounds,7,On Time,852317
+2026-03-07,04:45 PM,Group Play,HEX FC Bucks ECNL G08/07,0,2,Pipeline SC ECNL G08/07,Council Rock South High School,Turf,On Time,852469
+2026-03-07,06:15 PM,Group Play,Maryland United FC ECNL G08/07,1,0,PDA White ECNL G08/07,Indian Creek,Field 1,On Time,852429
+2026-03-08,02:15 PM,Group Play,Maryland United FC ECNL G08/07,0,1,Pipeline SC ECNL G08/07,Indian Creek,Field 1,On Time,852473
+2026-03-08,04:00 PM,Group Play,PDA White ECNL G08/07,0,2,Philadelphia Ukrainian Nationals ECNL G08/07,Monmouth Regional - Turf Complex,North,On Time,852437
+2026-03-15,11:00 AM,Group Play,Penn Fusion SA ECNL G08/07,6,0,Maryland United FC ECNL G08/07,USTC,Field 1,On Time,852373
+2026-03-28,09:00 AM,Group Play,Penn Fusion SA ECNL G08/07,7,0,HEX FC Bucks ECNL G08/07,USTC,Field 1,On Time,852357
+2026-03-28,03:00 PM,Group Play,Pipeline SC ECNL G08/07,2,2,FC DELCO ECNL G08/07,Notre Dame Prepatory School,Field 1,On Time,852337
+2026-03-28,04:45 PM,Group Play,Match Fit Surf ECNL G08/07,2,0,Philadelphia Ukrainian Nationals ECNL G08/07,Veterans Memorial Park,Turf,On Time,852489
+2026-04-11,10:15 AM,Group Play,Bethesda SC ECNL G08/07,0,4,PDA Blue ECNL G08/07,Maryland Soccerplex,Field 16,On Time,852397
+2026-04-11,12:45 PM,Group Play,Philadelphia Ukrainian Nationals ECNL G08/07,0,6,Maryland United FC ECNL G08/07,Central Bucks South Titan Stadium,Titan Stadium,On Time,852377
+2026-04-11,02:15 PM,Group Play,FC DELCO ECNL G08/07,2,1,Match Fit Surf ECNL G08/07,Proving Grounds,7,On Time,852385
+2026-04-11,05:00 PM,Group Play,Pipeline SC ECNL G08/07,0,2,Penn Fusion SA ECNL G08/07,Notre Dame Prepatory School,Field 1,On Time,852457
+2026-04-12,11:00 AM,Group Play,HEX FC Bucks ECNL G08/07,1,2,Maryland United FC ECNL G08/07,Bryn Athyn College,Turf,On Time,852361
+2026-04-18,09:30 AM,Group Play,Penn Fusion SA ECNL G08/07,12,0,PDA White ECNL G08/07,Westtown School,Field 1,On Time,852433
+2026-04-18,05:15 PM,Group Play,Match Fit Surf ECNL G08/07,0,4,PDA Blue ECNL G08/07,Morris Catholic High School,Field 2 Lower,On Time,852401
+2026-04-19,02:00 PM,Group Play,Maryland United FC ECNL G08/07,0,2,Bethesda SC ECNL G08/07,Indian Creek,Field 1,On Time,852321
+2026-04-19,02:30 PM,Group Play,HEX FC Bucks ECNL G08/07,2,1,Philadelphia Ukrainian Nationals ECNL G08/07,Council Rock South High School,Turf,On Time,852485
+2026-04-19,02:45 PM,Group Play,Match Fit Surf ECNL G08/07,0,9,Penn Fusion SA ECNL G08/07,Morris Catholic High School,Field 2 Lower,On Time,852449
+2026-04-21,07:45 PM,Group Play,PDA White ECNL G08/07,0,11,PDA Blue ECNL G08/07,Monmouth Regional - Turf Complex,North,On Time,852417
+2026-04-25,11:00 AM,Group Play,PDA White ECNL G08/07,1,1,FC DELCO ECNL G08/07,Monmouth Regional - Turf Complex,South,On Time,852425
+2026-04-25,03:00 PM,Group Play,Match Fit Surf ECNL G08/07,1,0,Maryland United FC ECNL G08/07,Morris Catholic High School,Field 2 Lower,On Time,852365
+2026-04-26,09:00 AM,Group Play,Match Fit Surf ECNL G08/07,1,5,HEX FC Bucks ECNL G08/07,Morris Catholic High School,Field 2 Lower,On Time,852349
+2026-04-26,10:00 AM,Group Play,PDA Blue ECNL G08/07,4,1,Maryland United FC ECNL G08/07,PDA Main Complex,Field 5,On Time,852369
+2026-04-26,05:15 PM,Group Play,Bethesda SC ECNL G08/07,2,0,Pipeline SC ECNL G08/07,Maryland Soccerplex,Field 23,On Time,852465
+2026-04-26,06:15 PM,Group Play,Philadelphia Ukrainian Nationals ECNL G08/07,0,6,Penn Fusion SA ECNL G08/07,Ukrainian AMerican Sports Center,Field 6,On Time,852461
+2026-05-02,09:30 AM,Group Play,Penn Fusion SA ECNL G08/07,4,1,FC DELCO ECNL G08/07,USTC,Field 1,On Time,852333
+2026-05-02,01:00 PM,Group Play,PDA Blue ECNL G08/07,5,1,Pipeline SC ECNL G08/07,PDA Main Complex,Field 5,On Time,852477
+2026-05-02,02:00 PM,Group Play,PDA White ECNL G08/07,0,2,HEX FC Bucks ECNL G08/07,Monmouth Regional - Turf Complex,North,On Time,852353
+2026-05-03,11:15 AM,Group Play,Philadelphia Ukrainian Nationals ECNL G08/07,1,4,Bethesda SC ECNL G08/07,Ukrainian AMerican Sports Center,Field 6,On Time,852325
+2026-05-03,02:30 PM,Group Play,PDA White ECNL G08/07,1,2,Match Fit Surf ECNL G08/07,Monmouth Regional - Turf Complex,South,On Time,852389
+2026-05-03,06:00 PM,Group Play,FC DELCO ECNL G08/07,1,2,HEX FC Bucks ECNL G08/07,Proving Grounds,7,On Time,852345
+2026-05-09,02:15 PM,Group Play,Bethesda SC ECNL G08/07,2,3,HEX FC Bucks ECNL G08/07,Maryland Soccerplex,Field 11,On Time,852341
+2026-05-09,04:30 PM,Group Play,Maryland United FC ECNL G08/07,3,0,FC DELCO ECNL G08/07,Liberty Sports Park,Field 7,On Time,852329
+2026-05-10,11:30 AM,Group Play,Philadelphia Ukrainian Nationals ECNL G08/07,0,9,PDA Blue ECNL G08/07,Ukrainian AMerican Sports Center,Field 6,On Time,852405
+2026-05-16,08:30 AM,Group Play,Bethesda SC ECNL G08/07,1,5,Penn Fusion SA ECNL G08/07,Maryland Soccerplex,Field 15,On Time,852445
+2026-05-16,10:30 AM,Group Play,Pipeline SC ECNL G08/07,6,0,Philadelphia Ukrainian Nationals ECNL G08/07,Notre Dame Prepatory School,Field 1,On Time,852493
+2026-05-17,12:30 PM,Group Play,HEX FC Bucks ECNL G08/07,0,5,PDA Blue ECNL G08/07,Council Rock South High School,Turf,On Time,852413

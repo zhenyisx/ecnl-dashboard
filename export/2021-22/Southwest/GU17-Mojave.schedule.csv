@@ -1,0 +1,111 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2021-09-11,08:30 AM,Bracket,Heat FC ECNL GU17,5,0,LA Breakers FC ECNL GU17,Heritage Park Sports Complex,Field 5,On Time,275047
+2021-09-11,01:00 PM,Bracket,Legends FC ECNL GU17,3,0,LAFC So Cal ECNL GU17,Silverlakes Complex,Field 8,On Time,275265
+2021-09-11,03:00 PM,Bracket,Sporting California Arsenal FC ECNL GU17,3,0,Eagles SC ECNL GU17,Silverlakes ,Field 10,On Time,275761
+2021-09-12,08:30 AM,Bracket,Heat FC ECNL GU17,4,1,Utah Royals FC-AZ ECNL GU17,Heritage Park Sports Complex,Field 5,On Time,275048
+2021-09-12,10:30 AM,Bracket,SLAMMERS FC ECNL GU17,0,3,Beach FC ECNL GU17,Orange County Great Park,Field 15,On Time,275535
+2021-09-12,01:00 PM,Bracket,Legends FC ECNL GU17,4,1,Eagles SC ECNL GU17,Silverlakes Complex,Field 8,On Time,275266
+2021-09-12,03:00 PM,Bracket,Sporting California Arsenal FC ECNL GU17,4,0,LAFC So Cal ECNL GU17,Silverlakes ,Field 10,On Time,275762
+2021-09-18,09:00 AM,Bracket,LAFC So Cal ECNL GU17,2,4,Slammers FC HB Koge ECNL GU17,Oak Park High School,Stadium,On Time,275187
+2021-09-18,10:00 AM,Bracket,Phoenix Rising ECNL GU17,3,4,SLAMMERS FC ECNL GU17,Copper Sky Regional Park,Field 2,On Time,275536
+2021-09-18,10:00 AM,Bracket,AZ Arsenal ECNL GU17,1,1,Sporting California Arsenal FC ECNL GU17,Santos Soccer Complex,Field 1,On Time,275763
+2021-09-18,11:00 AM,Bracket,Eagles SC ECNL GU17,1,5,Strikers FC ECNL GU17,Pleasant Valley Fields,Field 14,On Time,274975
+2021-09-18,12:00 PM,Bracket,Utah Royals FC-AZ ECNL GU17,1,1,Legends FC ECNL GU17,Scottsdale Sports Complex,Field 2,On Time,275897
+2021-09-18,01:00 PM,Bracket,Beach FC ECNL GU17,3,3,San Diego Surf ECNL GU17,El Camino College,Stadium,On Time,274857
+2021-09-18,05:00 PM,Bracket,LA Breakers FC ECNL GU17,3,2,Rebels SC ECNL GU17,St. Bernards High School,Field 1,On Time,275119
+2021-09-19,08:00 AM,Bracket,Utah Royals FC-AZ ECNL GU17,1,2,Sporting California Arsenal FC ECNL GU17,Scottsdale Sports Complex,Field 2,On Time,275898
+2021-09-19,09:00 AM,Bracket,Eagles SC ECNL GU17,0,4,Slammers FC HB Koge ECNL GU17,Pleasant Valley Fields,Field 14,On Time,274976
+2021-09-19,09:00 AM,Bracket,LAFC So Cal ECNL GU17,0,4,Strikers FC ECNL GU17,Oak Park High School,Stadium,On Time,275188
+2021-09-19,01:00 PM,Bracket,Beach FC ECNL GU17,3,0,Del Mar Sharks ECNL GU17,El Camino College,Stadium,On Time,274858
+2021-09-19,03:00 PM,Bracket,LA Breakers FC ECNL GU17,1,1,So Cal Blues ECNL GU17,St. Bernards High School,Field 1,On Time,275120
+2021-09-25,08:30 AM,Bracket,Heat FC ECNL GU17,2,2,LAFC So Cal ECNL GU17,Heritage Park Sports Complex,Field 5,On Time,275049
+2021-09-26,10:30 AM,Bracket,Heat FC ECNL GU17,0,0,Eagles SC ECNL GU17,Heritage Park Sports Complex,Field 5,On Time,275050
+2021-10-02,10:00 AM,Bracket,Eagles SC ECNL GU17,0,2,SLAMMERS FC ECNL GU17,Pleasant Valley Fields,Field 14,On Time,274977
+2021-10-02,10:00 AM,Bracket,LAFC So Cal ECNL GU17,0,1,Utah Royals FC-AZ ECNL GU17,Oak Park High School,Stadium,On Time,275189
+2021-10-02,01:00 PM,Bracket,Legends FC ECNL GU17,3,1,Beach FC ECNL GU17,Silverlakes Complex,Field 8,On Time,275267
+2021-10-02,02:45 PM,Bracket,Sporting California Arsenal FC ECNL GU17,2,0,LA Breakers FC ECNL GU17,San Bernardino Valley College,Turf,On Time,275764
+2021-10-03,09:00 AM,Bracket,Eagles SC ECNL GU17,3,3,Utah Royals FC-AZ ECNL GU17,Pleasant Valley Fields,Field 14,On Time,274978
+2021-10-03,10:00 AM,Bracket,LAFC So Cal ECNL GU17,3,2,SLAMMERS FC ECNL GU17,Oak Park High School,Stadium,On Time,275190
+2021-10-03,01:00 PM,Bracket,Legends FC ECNL GU17,1,0,LA Breakers FC ECNL GU17,Silverlakes Complex,Field 8,On Time,275268
+2021-10-03,01:00 PM,Bracket,Sporting California Arsenal FC ECNL GU17,0,4,Beach FC ECNL GU17,Mira Costa High School,Field 1,On Time,275765
+2021-10-16,08:00 AM,Bracket,Utah Royals FC-AZ ECNL GU17,0,0,So Cal Blues ECNL GU17,RSL-AZ Training Center,Field 2,On Time,275899
+2021-10-16,09:00 AM,Bracket,Sporting California Arsenal FC ECNL GU17,2,3,Heat FC ECNL GU17,San Bernardino Valley College,Grass,On Time,275766
+2021-10-16,01:00 PM,Bracket,Legends FC ECNL GU17,6,0,SLAMMERS FC ECNL GU17,Silverlakes Complex,Field 7,On Time,275269
+2021-10-17,01:00 PM,Bracket,Legends FC ECNL GU17,0,1,Heat FC ECNL GU17,Silverlakes Complex,Field 7,On Time,275270
+2021-10-17,01:00 PM,Bracket,Utah Royals FC-AZ ECNL GU17,0,0,Del Mar Sharks ECNL GU17,RSL-AZ Training Center,Field 2,On Time,275900
+2021-10-17,03:15 PM,Bracket,Sporting California Arsenal FC ECNL GU17,1,1,SLAMMERS FC ECNL GU17,Orange County Great Park ,Field 9,On Time,275767
+2021-10-23,10:30 AM,Bracket,Heat FC ECNL GU17,1,7,Slammers FC HB Koge ECNL GU17,Heritage Park Sports Complex,Field 6,On Time,275051
+2021-10-23,11:00 AM,Bracket,Eagles SC ECNL GU17,0,3,LA Breakers FC ECNL GU17,Pleasant Valley Fields,Field 19,On Time,274979
+2021-10-23,11:00 AM,Bracket,LAFC So Cal ECNL GU17,0,0,Beach FC ECNL GU17,Oak Park High School,Stadium,On Time,275191
+2021-10-24,10:30 AM,Bracket,Heat FC ECNL GU17,2,0,SLAMMERS FC ECNL GU17,Heritage Park Sports Complex,Field 5,On Time,275052
+2021-10-24,11:00 AM,Bracket,Eagles SC ECNL GU17,1,4,Beach FC ECNL GU17,Pleasant Valley Fields,Field 14,On Time,274980
+2021-10-30,10:30 AM,Bracket,SLAMMERS FC ECNL GU17,0,2,Utah Royals FC-AZ ECNL GU17,Orange County Great Park,Field 15,On Time,275538
+2021-10-30,01:00 PM,Bracket,Beach FC ECNL GU17,4,0,LA Breakers FC ECNL GU17,El Camino College,Stadium,On Time,274859
+2021-10-30,01:00 PM,Bracket,Legends FC ECNL GU17,3,0,AZ Arsenal ECNL GU17,Silverlakes Complex,Field 7,On Time,275271
+2021-10-30,01:00 PM,Bracket,Sporting California Arsenal FC ECNL GU17,4,1,Phoenix Rising ECNL GU17,San Bernardino Valley College,Grass,On Time,275768
+2021-10-31,12:15 PM,Bracket,SLAMMERS FC ECNL GU17,0,2,Strikers FC ECNL GU17,Orange County Great Park,Field 17,On Time,275539
+2021-10-31,12:30 PM,Bracket,LA Breakers FC ECNL GU17,3,3,AZ Arsenal ECNL GU17,Culver CIty High School,Field 1,On Time,275121
+2021-10-31,01:00 PM,Bracket,Beach FC ECNL GU17,6,1,Phoenix Rising ECNL GU17,Dignity Health Sports Park,Field 5,On Time,274860
+2021-11-06,05:45 PM,Bracket,Sporting California Arsenal FC ECNL GU17,0,3,Del Mar Sharks ECNL GU17,Central City Park ,Field 1,On Time,275769
+2021-11-06,06:00 PM,Bracket,LAFC So Cal ECNL GU17,0,0,LA Breakers FC ECNL GU17,Oak Park High School,Stadium,On Time,275192
+2021-11-20,10:45 AM,Bracket,SLAMMERS FC ECNL GU17,2,3,Slammers FC HB Koge ECNL GU17,Silverlakes Complex,Field 12,On Time,297262
+2021-11-20,01:00 PM,Bracket,Beach FC ECNL GU17,7,1,Heat FC ECNL GU17,El Camino College,Stadium,On Time,274861
+2021-11-20,01:00 PM,Bracket,Sporting California Arsenal FC ECNL GU17,2,2,Legends FC ECNL GU17,Silverlakes ,Field 8,On Time,275770
+2021-11-20,03:00 PM,Bracket,LA Breakers FC ECNL GU17,0,1,Utah Royals FC-AZ ECNL GU17,St. Bernards High School,Field 1,On Time,275122
+2021-11-21,11:00 AM,Bracket,LAFC So Cal ECNL GU17,2,1,Eagles SC ECNL GU17,Oak Park High School,Stadium,On Time,275193
+2021-11-21,01:00 PM,Bracket,Beach FC ECNL GU17,1,1,Utah Royals FC-AZ ECNL GU17,El Camino College,Stadium,On Time,274862
+2021-11-21,01:00 PM,Bracket,LA Breakers FC ECNL GU17,0,3,Heat FC ECNL GU17,St. Bernards High School,Field 1,On Time,275123
+2021-11-21,01:00 PM,Bracket,Sporting California Arsenal FC ECNL GU17,2,4,Slammers FC HB Koge ECNL GU17,Silverlakes ,Field 14,On Time,275775
+2022-03-05,12:00 PM,Bracket,Utah Royals FC-AZ ECNL GU17,3,0,Phoenix Rising ECNL GU17,Reach 11 Sports Complex,Field 3,On Time,275902
+2022-03-05,12:30 PM,Bracket,Heat FC ECNL GU17,3,0,AZ Arsenal ECNL GU17,Bettye Wilson Soccer Complex,Field 9,On Time,275053
+2022-03-19,11:00 AM,Bracket,Utah Royals FC-AZ ECNL GU17,2,2,SLAMMERS FC ECNL GU17,Bell Road Sports Complex,Field 11,On Time,275906
+2022-03-26,08:30 AM,Bracket,Eagles SC ECNL GU17,4,1,Phoenix Rising ECNL GU17,Silver Lakes Sports Park,Field 16,On Time,274981
+2022-03-26,08:30 AM,Bracket,LAFC So Cal ECNL GU17,0,2,AZ Arsenal ECNL GU17,Silverlakes Sports Complex,Field 14,On Time,275194
+2022-03-27,12:00 PM,Bracket,Eagles SC ECNL GU17,2,1,AZ Arsenal ECNL GU17,Silver Lakes Sports Park,Field 9,On Time,274982
+2022-03-27,02:00 PM,Bracket,LAFC So Cal ECNL GU17,2,1,Phoenix Rising ECNL GU17,Silverlakes Sports Complex,Field 12,On Time,275195
+2022-04-09,09:00 AM,Bracket,Legends FC ECNL GU17,0,1,San Diego Surf ECNL GU17,Silverlakes Complex,Field 7,On Time,275272
+2022-04-09,01:00 PM,Bracket,Beach FC ECNL GU17,3,0,Eagles SC ECNL GU17,El Camino College,Stadium,On Time,274863
+2022-04-09,01:00 PM,Bracket,Sporting California Arsenal FC ECNL GU17,5,0,Rebels SC ECNL GU17,Mt. San Antonio College,Field 2,On Time,275771
+2022-04-09,01:45 PM,Bracket,SLAMMERS FC ECNL GU17,3,2,LAFC So Cal ECNL GU17,Orange County Great Park,Field 11,On Time,275540
+2022-04-10,11:00 AM,Bracket,Legends FC ECNL GU17,1,0,Rebels SC ECNL GU17,Silverlakes Complex,Field 7,On Time,275273
+2022-04-10,01:00 PM,Bracket,Beach FC ECNL GU17,0,0,LAFC So Cal ECNL GU17,El Camino College,Stadium,On Time,274864
+2022-04-10,01:00 PM,Bracket,Sporting California Arsenal FC ECNL GU17,2,3,San Diego Surf ECNL GU17,Mt. San Antonio College,Field 2,On Time,275772
+2022-04-10,05:15 PM,Bracket,SLAMMERS FC ECNL GU17,2,1,Eagles SC ECNL GU17,Orange County Great Park,Field 11,On Time,275541
+2022-04-16,01:00 PM,Bracket,Legends FC ECNL GU17,2,3,Sporting California Arsenal FC ECNL GU17,Silverlakes Complex,Field 2,On Time,275274
+2022-04-23,08:30 AM,Bracket,Legends FC ECNL GU17,0,1,Utah Royals FC-AZ ECNL GU17,Heritage Park,Field 7,On Time,275275
+2022-04-23,12:30 PM,Bracket,Heat FC ECNL GU17,0,1,Sporting California Arsenal FC ECNL GU17,Heritage Park Sports Complex,Field 7,On Time,275054
+2022-04-23,03:45 PM,Bracket,SLAMMERS FC ECNL GU17,1,5,San Diego Surf ECNL GU17,Orange County Great Park,Field 10,On Time,275543
+2022-04-24,12:30 PM,Bracket,Heat FC ECNL GU17,1,0,Legends FC ECNL GU17,Heritage Park Sports Complex,Field 7,On Time,275055
+2022-04-24,12:30 PM,Bracket,Sporting California Arsenal FC ECNL GU17,1,2,Utah Royals FC-AZ ECNL GU17,Heritage Soccer Park ,Field 6,On Time,275773
+2022-04-24,03:00 PM,Bracket,LA Breakers FC ECNL GU17,4,0,LAFC So Cal ECNL GU17,West Los Angeles College,Field 1,On Time,275126
+2022-04-30,08:00 AM,Bracket,Utah Royals FC-AZ ECNL GU17,1,2,Beach FC ECNL GU17,Bell Road Sports Complex,Field 12,On Time,275903
+2022-04-30,09:00 AM,Bracket,Eagles SC ECNL GU17,1,1,Heat FC ECNL GU17,Pleasant Valley Softball Field,Field 2,On Time,274984
+2022-04-30,11:00 AM,Bracket,LAFC So Cal ECNL GU17,2,3,Legends FC ECNL GU17,Oak Park High School,Stadium,On Time,275196
+2022-04-30,01:00 PM,Bracket,SLAMMERS FC ECNL GU17,0,1,Sporting California Arsenal FC ECNL GU17,Mt. Sac College,Field 2,On Time,275544
+2022-05-01,10:45 AM,Bracket,LAFC So Cal ECNL GU17,2,3,Heat FC ECNL GU17,El Camino Real Charter High School,Stadium,On Time,275197
+2022-05-01,11:00 AM,Bracket,Eagles SC ECNL GU17,2,1,Legends FC ECNL GU17,Pleasant Valley Softball Field,Field 2,On Time,274985
+2022-05-01,12:00 PM,Bracket,Utah Royals FC-AZ ECNL GU17,3,1,LA Breakers FC ECNL GU17,Bell Road Sports Complex,Field 12,On Time,275127
+2022-05-07,09:00 AM,Bracket,Beach FC ECNL GU17,5,0,Rebels SC ECNL GU17,El Camino College,Athletic Field,On Time,274865
+2022-05-07,12:00 PM,Bracket,Utah Royals FC-AZ ECNL GU17,1,0,Heat FC ECNL GU17,Bell Road Sports Complex,Field 12,On Time,275901
+2022-05-07,03:00 PM,Bracket,LA Breakers FC ECNL GU17,2,0,SLAMMERS FC ECNL GU17,West Los Angeles College,Field 1,On Time,275128
+2022-05-08,09:00 AM,Bracket,Beach FC ECNL GU17,3,0,SLAMMERS FC ECNL GU17,El Camino College,Athletic Field,On Time,274866
+2022-05-14,10:30 AM,Bracket,Heat FC ECNL GU17,1,3,Beach FC ECNL GU17,Heritage Park Sports Complex,Field 8,On Time,275056
+2022-05-14,10:30 AM,Bracket,SLAMMERS FC ECNL GU17,0,5,Legends FC ECNL GU17,Orange County Great Park,Field 10,On Time,275276
+2022-05-14,11:00 AM,Group Play,LAFC So Cal ECNL GU17,1,1,Sporting California Arsenal FC ECNL GU17,Oak Park High School,Stadium,On Time,322338
+2022-05-15,10:30 AM,Bracket,SLAMMERS FC ECNL GU17,1,1,LA Breakers FC ECNL GU17,Orange County Great Park,Field 10,On Time,275545
+2022-05-15,02:00 PM,Bracket,Eagles SC ECNL GU17,1,2,Sporting California Arsenal FC ECNL GU17,Arroyo Vista Park,Field 3,On Time,274986
+2022-05-18,06:00 PM,Bracket,LA Breakers FC ECNL GU17,1,1,Eagles SC ECNL GU17,Drollinger Field,Field 1,On Time,275125
+2022-05-21,09:00 AM,Bracket,Sporting California Arsenal FC ECNL GU17,1,5,Beach FC ECNL GU17,Mt. San Antonio College,Field 1,On Time,274867
+2022-05-21,09:00 AM,Bracket,Utah Royals FC-AZ ECNL GU17,1,0,Eagles SC ECNL GU17,Bell Road Sports Complex,Field 12,On Time,275904
+2022-05-21,10:15 AM,Bracket,SLAMMERS FC ECNL GU17,4,3,Heat FC ECNL GU17,Bonita Canyon Sports Park,Field 5,On Time,275542
+2022-05-21,03:15 PM,Bracket,LA Breakers FC ECNL GU17,0,2,Legends FC ECNL GU17,West Los Angeles College,Field 1,On Time,275129
+2022-05-22,11:00 AM,Bracket,Beach FC ECNL GU17,3,0,Legends FC ECNL GU17,Long Beach State University,George Allen Field,On Time,274868
+2022-05-22,11:00 AM,Bracket,Utah Royals FC-AZ ECNL GU17,1,0,LAFC So Cal ECNL GU17,Bell Road Sports Complex,Field 12,On Time,275905
+2022-05-22,01:30 PM,Bracket,LA Breakers FC ECNL GU17,0,2,Sporting California Arsenal FC ECNL GU17,West Los Angeles College,Field 1,On Time,275130
+2022-06-04,12:00 PM,Bracket,Heat FC ECNL GU17,2,1,So Cal Blues ECNL GU17,UNLV Peter Johann,Field 1,On Time,275057
+2022-06-04,01:00 PM,Bracket,Sporting California Arsenal FC ECNL GU17,6,1,Strikers FC ECNL GU17,Mt. San Antonio College,Field 1,On Time,275774
+2022-06-04,03:00 PM,Bracket,Legends FC ECNL GU17,0,3,Slammers FC HB Koge ECNL GU17,Silverlakes Complex,Field 1,On Time,275277
+2022-06-05,11:00 AM,Bracket,Eagles SC ECNL GU17,2,0,LAFC So Cal ECNL GU17,Pleasant Valley Fields,Field 16ss,On Time,274983
+2022-06-05,12:00 PM,Bracket,Heat FC ECNL GU17,4,2,Del Mar Sharks ECNL GU17,UNLV Peter Johann,Field 1,On Time,275058
+2022-06-05,01:00 PM,Bracket,Legends FC ECNL GU17,2,1,Strikers FC ECNL GU17,Silverlakes Complex,Field 1,On Time,275278
+2022-06-05,04:00 PM,Bracket,LA Breakers FC ECNL GU17,0,3,Beach FC ECNL GU17,West Los Angeles College,Field 1,On Time,275124

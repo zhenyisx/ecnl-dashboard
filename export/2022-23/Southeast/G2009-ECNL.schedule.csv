@@ -1,0 +1,121 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2022-09-10,11:00 AM,Bracket,CESA Liberty ECNL G09,2,1,Florida West FC ECNL G09,Mesa Soccer Complex,Field 17,On Time,354850
+2022-09-10,11:00 AM,Bracket,South Carolina United ECNL G09,3,4,FC Prime ECNL G09,Southeastern Freight Lines Complex,Stadium A,On Time,354851
+2022-09-10,11:00 AM,Bracket,United Futbol Academy ECNL G09,4,0,Florida Elite ECNL G09,Fowler Park,Field 6,On Time,354854
+2022-09-10,11:00 AM,Bracket,Atlanta Fire United ECNL G09,2,1,Jacksonville FC ECNL G09,Pinecrest Academy,Turf,On Time,354855
+2022-09-10,12:00 PM,Bracket,Concorde Fire Platinum ECNL G09,2,0,FL Premier FC ECNL G09,Georgia Soccer Park,Field 4,On Time,354852
+2022-09-10,01:00 PM,Bracket,GSA ECNL G09,1,0,Tampa Bay United ECNL G09,GSA South,Spencer,On Time,354853
+2022-09-10,01:00 PM,Bracket,Alabama FC ECNL G09,3,1,Orlando City ECNL G09,Hoover Met Soccer Complex,Field 4,On Time,354857
+2022-09-10,02:00 PM,Bracket,Concorde Fire Premier ECNL G09,3,1,Florida Krush ECNL G09,Georgia Soccer Park,Field 2,On Time,354856
+2022-09-11,09:00 AM,Bracket,CESA Liberty ECNL G09,1,2,FC Prime ECNL G09,Mesa Soccer Complex,Field 17,On Time,354859
+2022-09-11,09:00 AM,Bracket,Concorde Fire Premier ECNL G09,3,2,Orlando City ECNL G09,Georgia Soccer Park,Field 1,On Time,354865
+2022-09-11,11:00 AM,Bracket,South Carolina United ECNL G09,2,0,Florida West FC ECNL G09,Southeastern Freight Lines Complex,Field 1,On Time,354858
+2022-09-11,11:00 AM,Bracket,United Futbol Academy ECNL G09,8,0,Jacksonville FC ECNL G09,Fowler Park,Field 9,On Time,354863
+2022-09-11,12:30 PM,Bracket,Alabama FC ECNL G09,2,0,Florida Krush ECNL G09,Hoover Met Soccer Complex,Field 2,On Time,354864
+2022-09-11,01:00 PM,Bracket,GSA ECNL G09,0,0,FL Premier FC ECNL G09,GSA South,Spencer,On Time,354860
+2022-09-11,01:00 PM,Bracket,Concorde Fire Platinum ECNL G09,6,0,Tampa Bay United ECNL G09,Georgia Soccer Park,Field 6,On Time,354861
+2022-09-11,01:00 PM,Bracket,Atlanta Fire United ECNL G09,2,2,Florida Elite ECNL G09,Notre Dame Academy,Turf,On Time,354862
+2022-09-17,09:00 AM,Bracket,Orlando City ECNL G09,1,1,Atlanta Fire United ECNL G09,Seminole,Field 4,On Time,354873
+2022-09-17,10:00 AM,Bracket,FL Premier FC ECNL G09,2,3,Alabama FC ECNL G09,Starkey Ranch District Park,Field 3,On Time,354868
+2022-09-17,10:30 AM,Bracket,Florida Elite ECNL G09,1,1,CESA Liberty ECNL G09,Veterans Park,Field 1,On Time,354870
+2022-09-17,10:30 AM,Bracket,Jacksonville FC ECNL G09,0,1,South Carolina United ECNL G09,Patton Park,Field 2,On Time,354871
+2022-09-17,10:30 AM,Bracket,Florida Krush ECNL G09,0,4,United Futbol Academy ECNL G09,Central Winds,Field A,On Time,354872
+2022-09-17,11:00 AM,Bracket,Florida West FC ECNL G09,1,6,GSA ECNL G09,Big Corkscrew Island Regional Park,Field 4,On Time,354866
+2022-09-17,11:00 AM,Bracket,FC Prime ECNL G09,3,2,Concorde Fire Platinum ECNL G09,Mullins Park,Field 5,On Time,354867
+2022-09-17,12:00 PM,Bracket,Tampa Bay United ECNL G09,1,2,Concorde Fire Premier ECNL G09,Wesley Chapel District Park,Turf Field 2,On Time,354869
+2022-09-18,09:00 AM,Bracket,FL Premier FC ECNL G09,1,1,Concorde Fire Premier ECNL G09,Starkey Ranch District Park,Field 3,On Time,354876
+2022-09-18,09:00 AM,Bracket,Jacksonville FC ECNL G09,1,3,CESA Liberty ECNL G09,Patton Park,Stadium,On Time,354879
+2022-09-18,09:00 AM,Bracket,Orlando City ECNL G09,1,8,United Futbol Academy ECNL G09,Seminole,Field 4,On Time,354881
+2022-09-18,11:00 AM,Bracket,FC Prime ECNL G09,3,1,GSA ECNL G09,Mullins Park,Field 5,On Time,354875
+2022-09-18,11:00 AM,Bracket,Tampa Bay United ECNL G09,0,2,Alabama FC ECNL G09,Wesley Chapel District Park,Turf Field 1,On Time,354877
+2022-09-18,11:00 AM,Bracket,Florida Elite ECNL G09,1,3,South Carolina United ECNL G09,Veterans Park,Field 1,On Time,354878
+2022-09-18,12:30 PM,Bracket,Florida Krush ECNL G09,0,4,Atlanta Fire United ECNL G09,Central Winds,Field B,On Time,354880
+2022-09-18,01:00 PM,Bracket,Florida West FC ECNL G09,1,3,Concorde Fire Platinum ECNL G09,Big Corkscrew Island Regional Park,Field 3,On Time,354874
+2022-09-24,10:00 AM,Bracket,Concorde Fire Premier ECNL G09,0,7,FC Prime ECNL G09,Georgia Soccer Park,Field 4,On Time,354883
+2022-09-24,11:00 AM,Bracket,Concorde Fire Platinum ECNL G09,3,0,Florida Elite ECNL G09,Georgia Soccer Park,Field 2,On Time,354886
+2022-09-24,11:00 AM,Bracket,South Carolina United ECNL G09,1,1,Orlando City ECNL G09,Southeastern Freight Lines Complex,Stadium B,On Time,354889
+2022-09-24,12:00 PM,Bracket,CESA Liberty ECNL G09,1,0,Florida Krush ECNL G09,Mesa Soccer Complex,Field 18,On Time,354888
+2022-09-24,01:00 PM,Bracket,Alabama FC ECNL G09,4,1,Florida West FC ECNL G09,Dunnavant Valley Fields (DVF),Field #1,On Time,354882
+2022-09-24,01:00 PM,Bracket,GSA ECNL G09,2,1,Jacksonville FC ECNL G09,GSA South,Spencer,On Time,354887
+2022-09-25,08:00 AM,Bracket,GSA ECNL G09,3,0,Florida Elite ECNL G09,GSA South,Spencer,On Time,354894
+2022-09-25,09:00 AM,Bracket,Concorde Fire Premier ECNL G09,2,2,Florida West FC ECNL G09,Georgia Soccer Park,Field 4,On Time,354890
+2022-09-25,09:00 AM,Bracket,South Carolina United ECNL G09,2,0,Florida Krush ECNL G09,Southeastern Freight Lines Complex,Field 3,On Time,354896
+2022-09-25,11:00 AM,Bracket,Concorde Fire Platinum ECNL G09,8,0,Jacksonville FC ECNL G09,Georgia Soccer Park,Field 2,On Time,354895
+2022-09-25,11:00 AM,Bracket,CESA Liberty ECNL G09,2,1,Orlando City ECNL G09,Mesa Soccer Complex,Field 17,On Time,354897
+2022-09-25,12:00 PM,Bracket,Alabama FC ECNL G09,1,1,FC Prime ECNL G09,Dunnavant Valley Fields (DVF),Field #1,On Time,354891
+2022-10-08,09:00 AM,Bracket,United Futbol Academy ECNL G09,2,1,Tampa Bay United ECNL G09,Fowler Park,Field 9,On Time,354885
+2022-10-08,11:00 AM,Bracket,Atlanta Fire United ECNL G09,2,3,FL Premier FC ECNL G09,Pinecrest Academy,Turf,On Time,354884
+2022-10-09,09:00 AM,Bracket,Atlanta Fire United ECNL G09,2,4,Tampa Bay United ECNL G09,Pinecrest Academy,Turf,On Time,354893
+2022-10-09,11:00 AM,Bracket,United Futbol Academy ECNL G09,2,0,FL Premier FC ECNL G09,Fowler Park,Field 9,On Time,354892
+2022-10-15,08:30 AM,Bracket,Jacksonville FC ECNL G09,0,4,Alabama FC ECNL G09,Patton Park,Field 2,On Time,354903
+2022-10-15,11:00 AM,Bracket,Orlando City ECNL G09,0,3,GSA ECNL G09,Seminole,Field 3,On Time,354905
+2022-10-15,12:00 PM,Bracket,FL Premier FC ECNL G09,1,0,South Carolina United ECNL G09,Starkey Ranch District Park,Field 2,On Time,354900
+2022-10-15,12:30 PM,Bracket,Florida Elite ECNL G09,3,0,Concorde Fire Premier ECNL G09,Veterans Park,Field 1,On Time,354902
+2022-10-15,01:00 PM,Bracket,Tampa Bay United ECNL G09,0,2,CESA Liberty ECNL G09,Wesley Chapel District Park,Turf Field 1,On Time,354901
+2022-10-15,02:00 PM,Bracket,Florida Krush ECNL G09,0,3,Concorde Fire Platinum ECNL G09,Central Winds,Field A,On Time,354904
+2022-10-16,08:00 AM,Bracket,FL Premier FC ECNL G09,0,1,CESA Liberty ECNL G09,Starkey Ranch District Park,Field 2,On Time,354908
+2022-10-16,09:00 AM,Bracket,Florida Elite ECNL G09,0,3,Alabama FC ECNL G09,Veterans Park,Field 1,On Time,354910
+2022-10-16,09:00 AM,Bracket,Jacksonville FC ECNL G09,0,1,Concorde Fire Premier ECNL G09,Patton Park,Field 1,On Time,354911
+2022-10-16,11:00 AM,Bracket,Tampa Bay United ECNL G09,5,0,South Carolina United ECNL G09,Wesley Chapel District Park,Turf Field 1,On Time,354909
+2022-10-16,11:00 AM,Bracket,Florida Krush ECNL G09,0,2,GSA ECNL G09,Central Winds,Field A,On Time,354912
+2022-10-16,11:00 AM,Bracket,Orlando City ECNL G09,1,3,Concorde Fire Platinum ECNL G09,Seminole,Field 3,On Time,354913
+2022-11-12,09:00 AM,Bracket,FC Prime ECNL G09,3,1,United Futbol Academy ECNL G09,Mullins Park,Field 5,On Time,354899
+2022-11-12,03:00 PM,Bracket,Florida West FC ECNL G09,1,3,Atlanta Fire United ECNL G09,Bayshore Sports Complex,Field 3,On Time,354898
+2022-11-13,09:00 AM,Bracket,FC Prime ECNL G09,4,0,Atlanta Fire United ECNL G09,Mullins Park,Field 4,On Time,354907
+2022-11-13,01:00 PM,Bracket,Florida West FC ECNL G09,0,8,United Futbol Academy ECNL G09,Bayshore Sports Complex,Field 3,On Time,354906
+2022-11-19,11:00 AM,Bracket,Atlanta Fire United ECNL G09,0,4,United Futbol Academy ECNL G09,Pinecrest Academy,Turf,On Time,354918
+2022-11-19,11:00 AM,Bracket,Concorde Fire Platinum ECNL G09,1,0,GSA ECNL G09,Georgia Soccer Park,Field 3,On Time,354919
+2023-03-11,09:00 AM,Bracket,United Futbol Academy ECNL G09,2,0,Concorde Fire Platinum ECNL G09,Fowler Park,Field 6,On Time,354923
+2023-03-11,11:00 AM,Bracket,GSA ECNL G09,1,0,Atlanta Fire United ECNL G09,GSA South,Spencer,On Time,354922
+2023-03-11,11:45 AM,Bracket,Concorde Fire Premier ECNL G09,1,2,South Carolina United ECNL G09,ATLANTA INTERNATIONAL SCHOOL,Field 1,On Time,354925
+2023-03-12,10:00 AM,Bracket,FC Prime ECNL G09,1,0,Florida West FC ECNL G09,Mullins Park,Field 5,On Time,354927
+2023-03-18,01:00 PM,Bracket,Florida West FC ECNL G09,1,1,FL Premier FC ECNL G09,Big Corkscrew Island Regional Park,Field 2,On Time,354929
+2023-03-18,02:00 PM,Bracket,FC Prime ECNL G09,5,1,Tampa Bay United ECNL G09,Paradise Sports Complex,Field 2,On Time,354930
+2023-03-19,11:00 AM,Bracket,Florida West FC ECNL G09,3,3,Tampa Bay United ECNL G09,Big Corkscrew Island Regional Park,Field 1,On Time,354933
+2023-03-19,12:00 PM,Bracket,FC Prime ECNL G09,2,0,FL Premier FC ECNL G09,Paradise Sports Complex,Field 3,On Time,354934
+2023-03-25,09:00 AM,Bracket,United Futbol Academy ECNL G09,4,0,South Carolina United ECNL G09,Fowler Park,Field 6,On Time,354939
+2023-03-25,02:00 PM,Bracket,CESA Liberty ECNL G09,3,0,Concorde Fire Premier ECNL G09,Mesa Soccer Complex,Field 17,On Time,354916
+2023-03-26,11:00 AM,Bracket,Alabama FC ECNL G09,2,0,South Carolina United ECNL G09,Veterans Park,Field 1,On Time,354917
+2023-03-26,11:00 AM,Bracket,Jacksonville FC ECNL G09,1,2,Florida Elite ECNL G09,Patton Park,Field 2,On Time,354937
+2023-03-26,02:00 PM,Bracket,CESA Liberty ECNL G09,1,2,Concorde Fire Platinum ECNL G09,Mesa Soccer Complex,Field 17,On Time,354940
+2023-03-26,03:00 PM,Bracket,Concorde Fire Premier ECNL G09,3,1,Atlanta Fire United ECNL G09,Georgia Soccer Park,Field 3,On Time,354938
+2023-04-01,11:00 AM,Bracket,Orlando City ECNL G09,2,2,Florida Elite ECNL G09,Seminole,Field 3,On Time,354935
+2023-04-01,01:00 PM,Bracket,South Carolina United ECNL G09,0,2,CESA Liberty ECNL G09,Southeastern Freight Lines Complex,Stadium A,On Time,354921
+2023-04-02,11:00 AM,Bracket,Tampa Bay United ECNL G09,1,2,FL Premier FC ECNL G09,Ed Radice Sports Complex,Field 8,On Time,354928
+2023-04-02,01:00 PM,Bracket,Florida Krush ECNL G09,4,0,Jacksonville FC ECNL G09,Central Winds,Field A,On Time,354936
+2023-04-15,10:30 AM,Bracket,Jacksonville FC ECNL G09,0,3,FC Prime ECNL G09,Patton Park,Field 1,On Time,354943
+2023-04-15,11:00 AM,Bracket,Tampa Bay United ECNL G09,1,3,Orlando City ECNL G09,Wesley Chapel District Park,Field 3,On Time,354945
+2023-04-15,11:00 AM,Bracket,Concorde Fire Premier ECNL G09,1,2,GSA ECNL G09,Georgia Soccer Park,Field 2,On Time,354949
+2023-04-15,12:00 PM,Bracket,FL Premier FC ECNL G09,1,1,Florida Krush ECNL G09,Starkey Ranch District Park,Field 3,On Time,354944
+2023-04-15,01:00 PM,Bracket,Atlanta Fire United ECNL G09,1,5,South Carolina United ECNL G09,Notre Dame Academy,Turf,On Time,354946
+2023-04-15,01:00 PM,Bracket,United Futbol Academy ECNL G09,2,0,CESA Liberty ECNL G09,Fowler Park,Field 6,On Time,354947
+2023-04-15,01:00 PM,Bracket,Alabama FC ECNL G09,0,2,Concorde Fire Platinum ECNL G09,Dunnavant Valley Fields (DVF),Field #1,On Time,354948
+2023-04-15,04:30 PM,Bracket,Florida Elite ECNL G09,0,3,Florida West FC ECNL G09,Veterans Park,Field 2,On Time,354942
+2023-04-16,10:30 AM,Bracket,Jacksonville FC ECNL G09,1,3,Florida West FC ECNL G09,Patton Park,Field 1,On Time,354950
+2023-04-16,11:00 AM,Bracket,Florida Elite ECNL G09,2,2,FC Prime ECNL G09,Veterans Park,Field 2,On Time,354951
+2023-04-16,11:00 AM,Bracket,Tampa Bay United ECNL G09,1,3,Florida Krush ECNL G09,Wesley Chapel District Park,Field 3,On Time,354953
+2023-04-16,01:00 PM,Bracket,Alabama FC ECNL G09,4,0,Concorde Fire Premier ECNL G09,Dunnavant Valley Fields (DVF),Field #1,On Time,354920
+2023-04-16,01:00 PM,Bracket,FL Premier FC ECNL G09,2,0,Orlando City ECNL G09,Starkey Ranch District Park,Field 2,On Time,354952
+2023-04-22,09:00 AM,Bracket,Orlando City ECNL G09,3,0,Jacksonville FC ECNL G09,Seminole,Field 7,On Time,354932
+2023-04-22,01:00 PM,Bracket,Florida Krush ECNL G09,0,2,Florida Elite ECNL G09,Central Winds,Field C,On Time,354931
+2023-04-22,01:00 PM,Bracket,United Futbol Academy ECNL G09,3,1,Alabama FC ECNL G09,Fowler Park,Field 6,On Time,354955
+2023-04-22,03:00 PM,Bracket,Atlanta Fire United ECNL G09,2,1,CESA Liberty ECNL G09,Pinecrest Academy,Turf,On Time,354954
+2023-04-22,03:00 PM,Bracket,South Carolina United ECNL G09,1,2,GSA ECNL G09,Southeastern Freight Lines Complex,Stadium A,On Time,354957
+2023-04-23,09:00 AM,Bracket,Atlanta Fire United ECNL G09,0,5,Concorde Fire Platinum ECNL G09,Pinecrest Academy,Turf,On Time,354914
+2023-04-23,10:00 AM,Bracket,CESA Liberty ECNL G09,2,1,Alabama FC ECNL G09,Mesa Soccer Complex,Field 18,On Time,354924
+2023-04-29,08:30 AM,Bracket,Jacksonville FC ECNL G09,1,5,Tampa Bay United ECNL G09,Patton Park,Field 5,On Time,354961
+2023-04-29,09:00 AM,Bracket,Orlando City ECNL G09,0,7,FC Prime ECNL G09,Seminole,Field 3,On Time,354959
+2023-04-29,01:00 PM,Bracket,Florida Krush ECNL G09,1,3,Florida West FC ECNL G09,Central Winds,Field A,On Time,354958
+2023-04-29,01:00 PM,Bracket,CESA Liberty ECNL G09,1,2,GSA ECNL G09,Mesa Soccer Complex,Field 17,On Time,354969
+2023-04-29,02:30 PM,Bracket,Florida Elite ECNL G09,0,2,FL Premier FC ECNL G09,Veterans Park,Field 1,On Time,354960
+2023-04-30,09:00 AM,Bracket,Florida Elite ECNL G09,3,2,Tampa Bay United ECNL G09,Veterans Park,Field 1,On Time,354965
+2023-04-30,11:00 AM,Bracket,Florida Krush ECNL G09,0,6,FC Prime ECNL G09,Central Winds,Field A,On Time,354963
+2023-04-30,11:00 AM,Bracket,Jacksonville FC ECNL G09,1,4,FL Premier FC ECNL G09,Patton Park,Field 5,On Time,354964
+2023-04-30,11:00 AM,Bracket,Alabama FC ECNL G09,4,0,Atlanta Fire United ECNL G09,Dunnavant Valley Fields (DVF),Field #1,On Time,354966
+2023-04-30,11:00 AM,Bracket,Concorde Fire Premier ECNL G09,0,4,United Futbol Academy ECNL G09,Georgia Soccer Park,Field 2,On Time,354967
+2023-04-30,11:00 AM,Bracket,South Carolina United ECNL G09,0,1,Concorde Fire Platinum ECNL G09,Southeastern Freight Lines Complex,Stadium A,On Time,354968
+2023-04-30,01:00 PM,Bracket,Orlando City ECNL G09,3,1,Florida West FC ECNL G09,Seminole,Field 4,On Time,354962
+2023-05-03,07:45 PM,Bracket,Concorde Fire Platinum ECNL G09,3,1,Concorde Fire Premier ECNL G09,atlanta international school,Field 1,On Time,354956
+2023-05-06,11:00 AM,Bracket,GSA ECNL G09,1,1,United Futbol Academy ECNL G09,GSA South,Spencer,On Time,354915
+2023-05-20,01:00 PM,Bracket,GSA ECNL G09,1,2,Alabama FC ECNL G09,GSA South,Spencer,On Time,354941
+2023-05-21,09:00 AM,Bracket,Orlando City ECNL G09,3,0,Florida Krush ECNL G09,Seminole,Field 7,On Time,354926

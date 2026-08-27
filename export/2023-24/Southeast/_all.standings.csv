@@ -1,0 +1,97 @@
+rank,team,club,teamID,gp,w,l,d,pts,ppg,gf,ga,gd,division,flight
+1,Concorde Fire Platinum ECNL G06/05,Concorde Fire ,19885,15,13,0,2,41,2.73,80,8,72,G2006/2005,ECNL
+2,GSA ECNL G06/05,Gwinnett Soccer Academy,20326,15,13,1,1,40,2.67,45,15,30,G2006/2005,ECNL
+3,Orlando City ECNL G06/05,Seminole United,20338,15,10,2,3,33,2.2,31,17,14,G2006/2005,ECNL
+4,CESA Liberty ECNL G06/05,Carolina Elite Soccer Academy,11339,15,9,3,3,30,2.0,26,10,16,G2006/2005,ECNL
+5,United Futbol Academy ECNL G06/05,United Futbol Academy,45837,15,8,2,5,29,1.93,40,16,24,G2006/2005,ECNL
+6,Concorde Fire Premier ECNL G06/05,Concorde Fire ,20325,15,8,3,4,28,1.87,29,23,6,G2006/2005,ECNL
+7,Florida Krush ECNL G06/05,No Club Selection,20335,15,7,5,3,24,1.6,29,20,9,G2006/2005,ECNL
+8,FC Prime ECNL G06/5,Athletic Club Florida,20328,15,8,7,0,24,1.6,43,31,12,G2006/2005,ECNL
+9,Tampa Bay United ECNL G06/05,Tampa Bay United,20339,15,6,7,2,20,1.33,23,33,-10,G2006/2005,ECNL
+10,Alabama FC ECNL G06/05,Alabama FC,20321,15,5,6,4,19,1.27,28,30,-2,G2006/2005,ECNL
+11,FL Premier FC ECNL G05/06,Florida Premier FC,69289,15,6,8,1,19,1.27,25,22,3,G2006/2005,ECNL
+12,Atlanta Fire United ECNL G06/05,Atlanta Fire United,20323,15,5,9,1,16,1.07,22,30,-8,G2006/2005,ECNL
+13,South Carolina United ECNL G06/05,South Carolina United FC,20318,15,2,12,1,7,0.47,13,47,-34,G2006/2005,ECNL
+14,Florida West FC ECNL G06/05,AC Florida West,47398,15,2,13,0,6,0.4,17,66,-49,G2006/2005,ECNL
+15,Jacksonville FC ECNL G06/05,No Club Selection,20322,15,1,13,1,4,0.27,5,46,-41,G2006/2005,ECNL
+16,Florida Elite ECNL G06/05,Sporting SA,20333,15,1,13,1,4,0.27,7,49,-42,G2006/2005,ECNL
+1,FL Premier FC ECNL G07,Florida Premier FC,69290,15,13,2,0,39,2.6,47,8,39,G2007,ECNL
+2,Concorde Fire Platinum ECNL G07,Concorde Fire ,35256,15,12,2,1,37,2.47,36,12,24,G2007,ECNL
+3,Jacksonville FC ECNL G07,No Club Selection,35265,15,10,2,3,33,2.2,48,21,27,G2007,ECNL
+4,United Futbol Academy ECNL G07,United Futbol Academy,45835,15,10,4,1,31,2.07,45,18,27,G2007,ECNL
+5,Atlanta Fire United ECNL G07,Atlanta Fire United,34662,15,9,4,2,29,1.93,43,22,21,G2007,ECNL
+6,GSA ECNL G07,Gwinnett Soccer Academy,33371,15,8,3,4,28,1.87,39,19,20,G2007,ECNL
+7,FC Prime ECNL G07,Athletic Club Florida,22549,15,7,6,2,23,1.53,25,25,0,G2007,ECNL
+8,Orlando City ECNL G07,Seminole United,35258,15,6,5,4,22,1.47,31,26,5,G2007,ECNL
+9,Florida Krush ECNL G07,Florida Kraze Krush,35020,15,5,6,4,19,1.27,21,30,-9,G2007,ECNL
+10,CESA Liberty ECNL G07,Carolina Elite Soccer Academy,20311,15,6,9,0,18,1.2,23,23,0,G2007,ECNL
+11,South Carolina United ECNL G07,South Carolina United FC,35270,15,4,8,3,15,1.0,18,37,-19,G2007,ECNL
+12,Tampa Bay United ECNL G07,Tampa Bay United,21279,15,4,9,2,14,0.93,29,40,-11,G2007,ECNL
+13,Florida Elite ECNL G07,Sporting SA,35114,15,3,8,4,13,0.87,16,42,-26,G2007,ECNL
+14,Alabama FC ECNL G07,Alabama FC,35266,15,4,11,0,12,0.8,29,42,-13,G2007,ECNL
+15,Florida West FC ECNL G07,No Club Selection,47397,15,1,12,2,5,0.33,16,68,-52,G2007,ECNL
+16,Concorde Fire Premier ECNL G07,Concorde Fire ,35262,15,1,12,2,5,0.33,15,48,-33,G2007,ECNL
+1,Concorde Fire Premier ECNL G08,Concorde Fire ,46809,15,11,1,3,36,2.4,40,10,30,G2008,ECNL
+2,Concorde Fire Platinum ECNL G08,Concorde Fire ,46806,15,10,3,2,32,2.13,51,18,33,G2008,ECNL
+3,GSA ECNL G08,Gwinnett Soccer Academy,46812,15,8,2,5,29,1.93,21,13,8,G2008,ECNL
+4,Atlanta Fire United ECNL G08,Atlanta Fire United,43088,15,8,3,4,28,1.87,25,12,13,G2008,ECNL
+5,Alabama FC ECNL G08,Alabama FC,46807,15,8,5,2,26,1.73,29,19,10,G2008,ECNL
+6,Tampa Bay United ECNL G08,Tampa Bay United,36328,15,8,5,2,26,1.73,21,19,2,G2008,ECNL
+7,FC Prime ECNL G08,Athletic Club Florida,38492,15,8,5,2,26,1.73,14,15,-1,G2008,ECNL
+8,Florida Krush ECNL G08,Florida Kraze Krush,34961,15,6,5,4,22,1.47,25,14,11,G2008,ECNL
+9,Jacksonville FC ECNL G08,Jacksonville FC,46814,15,5,4,6,21,1.4,17,14,3,G2008,ECNL
+10,CESA Liberty ECNL G08,Carolina Elite Soccer Academy,27972,15,6,6,3,21,1.4,19,17,2,G2008,ECNL
+11,South Carolina United ECNL G08,South Carolina United FC,43173,15,5,7,3,18,1.2,24,25,-1,G2008,ECNL
+12,FL Premier FC ECNL G08,Florida Premier FC,69291,15,5,9,1,16,1.07,19,23,-4,G2008,ECNL
+13,United Futbol Academy ECNL G08,United Futbol Academy,45834,15,3,7,5,14,0.93,15,20,-5,G2008,ECNL
+14,Florida Elite ECNL G08,Sporting SA,46901,15,3,10,2,11,0.73,11,20,-9,G2008,ECNL
+15,Orlando City ECNL G08,Seminole United,28033,15,2,9,4,10,0.67,16,45,-29,G2008,ECNL
+16,Florida West FC ECNL G08,AC Florida West,47396,15,0,15,0,0,0.0,2,65,-63,G2008,ECNL
+1,United Futbol Academy ECNL G09,United Futbol Academy,59536,15,13,1,1,40,2.67,63,5,58,G2009,ECNL
+2,FC Prime ECNL G09,Athletic Club Florida,46728,15,11,1,3,36,2.4,33,8,25,G2009,ECNL
+3,Concorde Fire Platinum ECNL G09,Concorde Fire ,59255,15,11,2,2,35,2.33,44,11,33,G2009,ECNL
+4,CESA Liberty ECNL G09,Carolina Elite Soccer Academy,46817,15,9,4,2,29,1.93,32,16,16,G2009,ECNL
+5,Atlanta Fire United ECNL G09,Atlanta Fire United,60033,15,8,5,2,26,1.73,33,28,5,G2009,ECNL
+6,Alabama FC ECNL G09,Alabama FC,58734,15,7,4,4,25,1.67,29,16,13,G2009,ECNL
+7,FL Premier FC ECNL G09,Florida Premier FC,69292,15,8,6,1,25,1.67,15,14,1,G2009,ECNL
+8,GSA ECNL G09,Gwinnett Soccer Academy,59311,15,6,5,4,22,1.47,27,25,2,G2009,ECNL
+9,Florida Elite ECNL G09,Sporting SA,45064,15,5,6,4,19,1.27,18,16,2,G2009,ECNL
+10,Florida Krush ECNL G09,Florida Kraze Krush,34958,15,6,8,1,19,1.27,14,23,-9,G2009,ECNL
+11,Concorde Fire Premier ECNL G09,Concorde Fire ,59236,15,5,6,4,19,1.27,15,30,-15,G2009,ECNL
+12,Florida West FC ECNL G09,AC Florida West,45629,15,3,10,2,11,0.73,17,40,-23,G2009,ECNL
+13,Orlando City ECNL G09,Seminole United,59913,15,2,8,5,11,0.73,11,30,-19,G2009,ECNL
+14,South Carolina United ECNL G09,South Carolina United FC,50959,15,2,10,3,9,0.6,18,41,-23,G2009,ECNL
+15,Tampa Bay United ECNL G09,Tampa Bay United,49152,15,1,9,5,8,0.53,11,41,-30,G2009,ECNL
+16,Jacksonville FC ECNL G09,Jacksonville FC,45667,15,0,12,3,3,0.2,7,43,-36,G2009,ECNL
+1,GSA ECNL G10,Gwinnett Soccer Academy,68924,15,13,1,1,40,2.67,59,7,52,G2010,ECNL
+2,FL Premier FC ECNL G10,Florida Premier FC,69293,15,13,1,1,40,2.67,59,13,46,G2010,ECNL
+3,Concorde Fire Platinum ECNL G10,Concorde Fire ,68802,15,13,1,1,40,2.67,46,11,35,G2010,ECNL
+4,FC Prime ECNL G10,Athletic Club Florida,46727,15,12,3,0,36,2.4,49,12,37,G2010,ECNL
+5,Atlanta Fire United ECNL G10,Atlanta Fire United,67127,15,8,6,1,25,1.67,37,20,17,G2010,ECNL
+6,Florida Elite ECNL G10,Sporting SA,65960,15,6,5,4,22,1.47,23,21,2,G2010,ECNL
+7,United Futbol Academy ECNL G10,United Futbol Academy,65981,15,7,7,1,22,1.47,34,36,-2,G2010,ECNL
+8,South Carolina United ECNL G10,South Carolina United FC,66055,15,6,6,3,21,1.4,20,26,-6,G2010,ECNL
+9,Alabama FC ECNL G10,Alabama FC,69023,15,5,8,2,17,1.13,24,30,-6,G2010,ECNL
+10,Jacksonville FC ECNL G10,Jacksonville FC,69484,15,5,8,2,17,1.13,21,34,-13,G2010,ECNL
+11,CESA Liberty ECNL G10,Carolina Elite Soccer Academy,65585,15,5,9,1,16,1.07,22,25,-3,G2010,ECNL
+12,Orlando City ECNL G10,Seminole United,69112,15,5,10,0,15,1.0,20,50,-30,G2010,ECNL
+13,Florida Krush ECNL G10,Florida Kraze Krush,34955,15,4,9,2,14,0.93,11,33,-22,G2010,ECNL
+14,Tampa Bay United ECNL G10,Tampa Bay United,49144,15,2,11,2,8,0.53,17,44,-27,G2010,ECNL
+15,Concorde Fire Premier ECNL G10,Concorde Fire ,68797,15,2,11,2,8,0.53,15,45,-30,G2010,ECNL
+16,Florida West FC ECNL G10,AC Florida West,68716,15,2,12,1,7,0.47,14,64,-50,G2010,ECNL
+1,United Futbol Academy ECNL G11,United Futbol Academy,78164,15,12,0,3,39,2.6,42,2,40,G2011,ECNL
+2,GSA ECNL G11,Gwinnett Soccer Academy,78200,15,10,1,4,34,2.27,38,13,25,G2011,ECNL
+3,FC Prime ECNL G11,Athletic Club Florida,83371,15,11,3,1,34,2.27,40,17,23,G2011,ECNL
+4,FL Premier FC ECNL G11,Florida Premier FC,69294,15,10,3,2,32,2.13,33,14,19,G2011,ECNL
+5,Florida Elite ECNL G11,Sporting SA,69334,15,9,2,4,31,2.07,32,20,12,G2011,ECNL
+6,Concorde Fire Platinum ECNL G11,Concorde Fire ,81340,15,8,5,2,26,1.73,22,13,9,G2011,ECNL
+7,CESA Liberty ECNL G11,Carolina Elite Soccer Academy,78145,15,5,2,8,23,1.53,23,19,4,G2011,ECNL
+8,Alabama FC ECNL G11,Alabama FC,81762,15,6,7,2,20,1.33,25,26,-1,G2011,ECNL
+9,Florida Krush ECNL G11,Florida Kraze Krush,34957,15,5,6,4,19,1.27,15,17,-2,G2011,ECNL
+10,Jacksonville FC ECNL G11,Jacksonville FC,81133,15,5,6,4,19,1.27,17,28,-11,G2011,ECNL
+11,Tampa Bay United ECNL G11,Tampa Bay United,69067,15,4,8,3,15,1.0,14,23,-9,G2011,ECNL
+12,Concorde Fire Premier ECNL G11,Concorde Fire ,81344,15,3,7,5,14,0.93,13,15,-2,G2011,ECNL
+13,Florida West FC ECNL G11,AC Florida West,68724,15,2,9,4,10,0.67,15,36,-21,G2011,ECNL
+14,South Carolina United ECNL G11,South Carolina United FC,78158,15,2,10,3,9,0.6,10,26,-16,G2011,ECNL
+15,Orlando City ECNL G11,Seminole United,80370,15,1,12,2,5,0.33,7,51,-44,G2011,ECNL
+16,Atlanta Fire United ECNL G11,Atlanta Fire United,79893,15,0,12,3,3,0.2,8,34,-26,G2011,ECNL

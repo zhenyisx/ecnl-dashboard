@@ -1,0 +1,79 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2023-09-09,09:00 AM,Group Play,Richmond United ECNL G09,4,3,Charlotte Independence ECNL G09,West Creek,Field 7,On Time,495187
+2023-09-09,10:00 AM,Group Play,VDA ECNL G09,3,0,Charlotte SA ECNL G09,Catharpin Park,Field 4,On Time,495183
+2023-09-09,01:00 PM,Group Play,NVA ECNL G09,5,1,Beach FC (VA) ECNL G09,Loudoun Soccer Park,Field 2,On Time,495179
+2023-09-10,09:00 AM,Group Play,VDA ECNL G09,4,1,Charlotte Independence ECNL G09,Howison Park,Field 2,On Time,495195
+2023-09-10,11:00 AM,Group Play,Richmond United ECNL G09,1,3,Charlotte SA ECNL G09,Striker Park,Field 2,On Time,495199
+2023-09-10,02:00 PM,Group Play,Wilmington Hammerheads ECNL G09,1,2,NC Courage ECNL G09,JASA Soccer Fields,Field 2,On Time,495203
+2023-09-16,09:00 AM,Group Play,Charlotte Independence ECNL G09,0,1,NVA ECNL G09,Richard Barry Park,Field 3,On Time,495207
+2023-09-16,12:00 PM,Group Play,Fairfax BRAVE SC ECNL G09,0,3,NC Courage ECNL G09,Robinson High School,Upper Turf,On Time,495211
+2023-09-16,12:00 PM,Group Play,NC Fusion ECNL G09,0,3,Richmond United ECNL G09,Truist Soccer Complex at Bryan Park,BP 07,On Time,495215
+2023-09-16,12:00 PM,Group Play,Charlotte SA ECNL G09,6,1,VA Union ECNL G09,OrthoCarolina Sportsplex,Field 6,On Time,495219
+2023-09-16,12:00 PM,Group Play,NCFC Youth ECNL G09,0,1,VDA ECNL G09,WRAL ,Field 5,On Time,495223
+2023-09-16,12:30 PM,Group Play,Arlington Soccer ECNL G09,1,1,Wilmington Hammerheads ECNL G09,Long Bridge Park,Boeing #4,On Time,495227
+2023-09-17,09:00 AM,Group Play,NCFC Youth ECNL G09,0,2,Richmond United ECNL G09,WRAL ,Field 5,On Time,495239
+2023-09-17,10:30 AM,Group Play,Arlington Soccer ECNL G09,0,3,NC Courage ECNL G09,Long Bridge Park,Boeing #4,On Time,495235
+2023-09-17,11:00 AM,Group Play,NC Fusion ECNL G09,0,5,VDA ECNL G09,Truist Soccer Complex at Bryan Park,BP 07,On Time,495247
+2023-09-17,11:00 AM,Group Play,Fairfax BRAVE SC ECNL G09,0,5,Wilmington Hammerheads ECNL G09,Robinson High School,Stadium Turf,On Time,495251
+2023-09-17,01:00 PM,Group Play,Charlotte SA ECNL G09,1,1,NVA ECNL G09,OrthoCarolina Sportsplex,Field 5,On Time,495231
+2023-09-17,01:00 PM,Group Play,Charlotte Independence ECNL G09,3,3,VA Union ECNL G09,Richard Barry Park,Field 4,On Time,495243
+2023-09-23,01:00 PM,Group Play,NC Fusion ECNL G09,2,0,Fairfax BRAVE SC ECNL G09,Truist Soccer Complex at Bryan Park,BP 02 Triton Management,On Time,495259
+2023-09-23,02:00 PM,Group Play,NCFC Youth ECNL G09,1,0,Arlington Soccer ECNL G09,WRAL ,Field 3,On Time,495255
+2023-09-24,11:00 AM,Group Play,NC Fusion ECNL G09,1,5,Arlington Soccer ECNL G09,Truist Soccer Complex at Bryan Park,BP 02 Triton Management,On Time,495267
+2023-09-24,11:00 AM,Group Play,NCFC Youth ECNL G09,3,0,Fairfax BRAVE SC ECNL G09,Wake Competition Center,Field 1,On Time,495271
+2023-09-30,11:00 AM,Group Play,VA Union ECNL G09,2,0,Beach FC (VA) ECNL G09,Lewinsville Park,Field 3,On Time,495275
+2023-09-30,01:00 PM,Group Play,Charlotte Independence ECNL G09,1,0,NC Fusion ECNL G09,Mazeppa Rd. Park,Field 3,On Time,495283
+2023-09-30,02:00 PM,Group Play,VDA ECNL G09,0,1,NVA ECNL G09,Ali Krieger Sports Complex (AKSC),Field 7,On Time,495287
+2023-09-30,04:00 PM,Group Play,NC Courage ECNL G09,1,6,Charlotte SA ECNL G09,WRAL Soccer Complex,WRAL 05 First Watch,On Time,495279
+2023-10-01,01:00 PM,Group Play,Wilmington Hammerheads ECNL G09,1,0,NCFC Youth ECNL G09,Northern Regional Park - Soccer Fields,Field 2,On Time,495291
+2023-10-07,11:00 AM,Group Play,Charlotte Independence ECNL G09,1,3,NC Courage ECNL G09,Manchester Meadows,Field 2,On Time,495295
+2023-10-07,11:00 AM,Group Play,NC Fusion ECNL G09,0,5,NCFC Youth ECNL G09,Truist Soccer Complex at Bryan Park,BP 02 Triton Management,On Time,495299
+2023-10-07,02:00 PM,Group Play,Charlotte SA ECNL G09,1,0,Wilmington Hammerheads ECNL G09,OrthoCarolina Sportsplex,Field 5,On Time,495303
+2023-10-08,09:00 AM,Group Play,Charlotte Independence ECNL G09,2,2,Wilmington Hammerheads ECNL G09,Mazeppa Rd. Park,Field 5,On Time,495311
+2023-10-14,10:00 AM,Group Play,Fairfax BRAVE SC ECNL G09,0,2,Charlotte SA ECNL G09,Robinson High School,Upper Turf,On Time,495315
+2023-10-14,11:00 AM,Group Play,Richmond United ECNL G09,2,2,VA Union ECNL G09,West Creek,Field 7,On Time,495399
+2023-10-14,12:30 PM,Group Play,Arlington Soccer ECNL G09,2,1,Charlotte Independence ECNL G09,Long Bridge Park,Boeing #4,On Time,495323
+2023-10-15,09:00 AM,Group Play,Fairfax BRAVE SC ECNL G09,1,3,Charlotte Independence ECNL G09,Robinson High School,Upper Turf,On Time,495335
+2023-10-15,10:30 AM,Group Play,Arlington Soccer ECNL G09,1,5,Charlotte SA ECNL G09,Williamsburg Middle School,WMS #1,On Time,495331
+2023-10-21,01:00 PM,Group Play,Charlotte Independence ECNL G09,3,0,Beach FC (VA) ECNL G09,Bradford Park,Field 3,On Time,495339
+2023-10-21,02:00 PM,Group Play,NC Courage ECNL G09,3,1,NC Fusion ECNL G09,WRAL Soccer Complex,WRAL 05 First Watch,On Time,495343
+2023-10-21,04:00 PM,Group Play,Charlotte SA ECNL G09,4,1,NCFC Youth ECNL G09,OrthoCarolina Sportsplex,Field 5,On Time,495347
+2023-10-22,11:00 AM,Group Play,Richmond United ECNL G09,3,0,Fairfax BRAVE SC ECNL G09,West Creek,Field 7,On Time,495355
+2023-10-22,01:00 PM,Group Play,Charlotte SA ECNL G09,7,1,Beach FC (VA) ECNL G09,OrthoCarolina Sportsplex,Field 5,On Time,495351
+2023-10-28,10:00 AM,Group Play,NC Courage ECNL G09,2,1,Richmond United ECNL G09,WRAL Soccer Complex,WRAL 06 Stadium,On Time,495371
+2023-10-28,11:00 AM,Group Play,Beach FC (VA) ECNL G09,2,1,Fairfax BRAVE SC ECNL G09,Hampton Roads Soccer Complex,Field 8,On Time,495363
+2023-10-28,12:00 PM,Group Play,Wilmington Hammerheads ECNL G09,2,0,VDA ECNL G09,Northern Regional Park - Soccer Fields,Field 2,On Time,495375
+2023-10-29,11:00 AM,Group Play,NC Courage ECNL G09,1,2,VDA ECNL G09,WRAL Soccer Complex,WRAL 05 First Watch,On Time,495391
+2023-10-29,01:00 PM,Group Play,Wilmington Hammerheads ECNL G09,1,0,Richmond United ECNL G09,Northern Regional Park - Soccer Fields,Field 2,On Time,495387
+2023-11-05,01:00 PM,Group Play,NVA ECNL G09,2,1,Arlington Soccer ECNL G09,Segra Field,Stadium,On Time,495395
+2023-11-11,11:00 AM,Group Play,Beach FC (VA) ECNL G09,0,1,Wilmington Hammerheads ECNL G09,Hampton Roads Soccer Complex,Field 8,On Time,495263
+2023-11-11,01:15 PM,Group Play,Arlington Soccer ECNL G09,0,2,Richmond United ECNL G09,Williamsburg Middle School,WMS #1,On Time,495307
+2023-11-18,10:00 AM,Group Play,Charlotte SA ECNL G09,2,1,Charlotte Independence ECNL G09,OrthoCarolina Sportsplex,Field 5,On Time,495407
+2023-11-18,11:00 AM,Group Play,Beach FC (VA) ECNL G09,2,1,NCFC Youth ECNL G09,Princess Anne Athletic Complex,PAAC 7,On Time,495411
+2023-11-18,11:00 AM,Group Play,NC Fusion ECNL G09,2,3,Wilmington Hammerheads ECNL G09,Truist Soccer Complex at Bryan Park,BP 07,On Time,495423
+2023-11-18,01:00 PM,Group Play,NVA ECNL G09,1,0,Richmond United ECNL G09,Loudoun Soccer Park,Field 2,On Time,495415
+2023-11-18,02:00 PM,Group Play,Fairfax BRAVE SC ECNL G09,0,4,VA Union ECNL G09,Robinson High School,Upper Turf,On Time,495419
+2023-11-19,11:00 AM,Group Play,Beach FC (VA) ECNL G09,3,3,NC Fusion ECNL G09,Hampton Roads Soccer Complex,Field 8,On Time,495319
+2023-12-13,07:00 PM,Group Play,Charlotte SA ECNL G09,4,1,NC Fusion ECNL G09,OrthoCarolina Sportsplex,Field 5,On Time,495435
+2023-12-16,09:00 AM,Group Play,Richmond United ECNL G09,2,1,Beach FC (VA) ECNL G09,Striker Park,Field 1,On Time,495431
+2023-12-16,01:00 PM,Group Play,Wilmington Hammerheads ECNL G09,2,4,NVA ECNL G09,Northern Regional Park - Soccer Fields,Field 2,On Time,495443
+2023-12-16,02:00 PM,Group Play,NC Courage ECNL G09,1,0,VA Union ECNL G09,WRAL Soccer Complex,WRAL 05 First Watch,On Time,495447
+2023-12-17,09:00 AM,Group Play,NC Courage ECNL G09,0,2,NVA ECNL G09,WRAL Soccer Park,Field 4 (Accentuate Staffing),On Time,495451
+2024-01-13,02:00 PM,Group Play,VDA ECNL G09,3,0,Beach FC (VA) ECNL G09,Howison Park,Field 2,On Time,495439
+2024-01-14,11:00 AM,Group Play,NCFC Youth ECNL G09,1,1,NC Courage ECNL G09,WRAL ,Field 3,On Time,549102
+2024-01-14,01:00 PM,Group Play,NVA ECNL G09,6,0,Fairfax BRAVE SC ECNL G09,Loudoun Soccer Park,Field 1,On Time,495463
+2024-01-21,03:00 PM,Group Play,NCFC Youth ECNL G09,0,2,Charlotte Independence ECNL G09,WRAL ,Field 5,On Time,495475
+2024-01-27,10:00 AM,Group Play,VA Union ECNL G09,2,2,NCFC Youth ECNL G09,Holladay Field,Field 1,On Time,495367
+2024-01-27,11:00 AM,Group Play,NVA ECNL G09,2,0,NC Fusion ECNL G09,Loudoun Soccer Park ,Field 1,On Time,495359
+2024-01-27,01:00 PM,Group Play,Beach FC (VA) ECNL G09,2,4,NC Courage ECNL G09,Hampton Roads Soccer Complex,Field 8,On Time,495487
+2024-01-28,12:00 PM,Group Play,VA Union ECNL G09,3,0,NC Fusion ECNL G09,Lewinsville Park,Field 3,On Time,495379
+2024-01-28,01:00 PM,Group Play,NVA ECNL G09,2,1,NCFC Youth ECNL G09,Loudoun Soccer Park,Field 1,On Time,495383
+2024-01-28,01:00 PM,Group Play,Richmond United ECNL G09,3,0,VDA ECNL G09,Striker Park,Field 2,On Time,495471
+2024-01-28,02:00 PM,Group Play,Fairfax BRAVE SC ECNL G09,1,2,Arlington Soccer ECNL G09,WT Woodson High School,Stadium Turf,On Time,495427
+2024-01-31,06:00 PM,Group Play,VDA ECNL G09,5,0,Fairfax BRAVE SC ECNL G09,Robinson High School,Stadium,On Time,495479
+2024-02-03,10:00 AM,Group Play,VA Union ECNL G09,0,1,NVA ECNL G09,Lewinsville Park,Field 3,On Time,495483
+2024-02-04,03:00 PM,Group Play,VDA ECNL G09,2,0,Arlington Soccer ECNL G09,Howison Park,Field 2,On Time,495403
+2024-02-17,09:00 AM,Group Play,Wilmington Hammerheads ECNL G09,2,5,VA Union ECNL G09,Ogden Park,Field 2,On Time,495455
+2024-04-27,01:30 PM,Group Play,VA Union ECNL G09,1,1,Arlington Soccer ECNL G09,Lewinsville Park,Field 2,On Time,495467
+2024-05-05,10:00 AM,Group Play,Arlington Soccer ECNL G09,4,1,Beach FC (VA) ECNL G09,Long Bridge Park,Boeing #4,On Time,495459
+2024-05-19,09:00 AM,Group Play,VA Union ECNL G09,1,3,VDA ECNL G09,Holladay Field,Field 1,On Time,495327

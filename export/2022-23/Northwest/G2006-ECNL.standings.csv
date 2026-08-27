@@ -1,0 +1,15 @@
+rank,team,club,teamID,gp,w,l,d,pts,ppg,gf,ga,gd
+1,Portland Thorns ECNL G06,Portland Thorns FC,45861,13,11,0,2,35,2.69,40,7,33
+2,La Roca FC ECNL G06,La Roca FC,45850,13,11,1,1,34,2.62,38,10,28
+3,Colorado Rapids ECNL G06,Colorado Storm,21349,13,10,2,1,31,2.38,52,17,35
+4,Real Colorado National ECNL G06,Real Colorado,45855,13,9,3,1,28,2.15,26,12,14
+5,Crossfire Premier ECNL G06,Crossfire Premier,13932,13,8,4,1,25,1.92,22,16,6
+6,Utah Avalanche ECNL G06,Utah Avalanche,20424,13,6,4,3,21,1.62,35,21,14
+7,Eastside FC ECNL G06,Eastside FC (WA),10513,13,6,5,2,20,1.54,20,19,1
+8,Washington Premier ECNL G06,Washington Premier FC,18776,13,6,6,1,19,1.46,23,19,4
+9,Northwest Elite FC ECNL G06,Oregon Surf SC,66432,13,4,6,3,15,1.15,17,30,-13
+10,PacNW SC ECNL G06,PacNW,19373,13,4,7,2,14,1.08,14,16,-2
+11,Seattle United ECNL G06,Seattle United,19791,13,3,9,1,10,0.77,15,32,-17
+12,Real Colorado Athletico ECNL G06,Real Colorado,46445,13,2,9,2,8,0.62,5,22,-17
+13,Pride SC ECNL G06,No Club Selection,35222,13,0,12,1,1,0.08,8,40,-32
+14,Boise Thorns FC ECNL G06,Boise Timbers | Thorns,20416,13,0,12,1,1,0.08,6,60,-54

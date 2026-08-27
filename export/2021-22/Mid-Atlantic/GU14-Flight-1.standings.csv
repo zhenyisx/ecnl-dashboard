@@ -1,0 +1,15 @@
+rank,team,club,teamID,gp,w,l,d,pts,ppg,gf,ga,gd
+1,Richmond United ECNL GU14,Richmond United,46822,26,21,2,3,66,2.54,91,23,68
+2,VDA ECNL GU14,Virginia Development Academy,46823,26,20,2,4,64,2.46,73,19,54
+3,Arlington Soccer ECNL GU14,Arlington Soccer Association,59916,26,19,4,3,60,2.31,82,34,48
+4,CESA ECNL GU14,Carolina Elite Soccer Academy,27972,26,17,4,5,56,2.15,49,23,26
+5,NC Courage ECNL GU14,NC Courage Academy,44728,26,18,6,2,56,2.15,72,24,48
+6,Charlotte SA ECNL GU14,Charlotte Soccer Academy,44721,26,11,11,4,37,1.42,43,40,3
+7,Loudoun Soccer ECNL GU14,Northern Virginia Alliance,46824,26,10,11,5,35,1.35,42,38,4
+8,VA Union ECNL GU14,Fairfax Virginia Union,46827,26,10,11,5,35,1.35,46,45,1
+9,South Carolina United ECNL GU14,South Carolina United FC,43173,26,7,15,4,25,0.96,27,50,-23
+10,Charlotte Independence ECNL GU14,Charlotte Independence SC,28376,26,7,15,4,25,0.96,30,48,-18
+11,NCFC Youth ECNL GU14,NCFC Youth,45785,26,5,14,7,22,0.85,24,45,-21
+12,Wilmington Hammerheads ECNL GU14,Wilmington Hammerheads,46818,26,5,17,4,19,0.73,24,60,-36
+13,NC Fusion ECNL GU14,NC Fusion,13888,26,4,19,3,15,0.58,25,90,-65
+14,BRYC Elite Academy ECNL GU14,Fairfax Virginia Union,11956,26,1,24,1,4,0.15,15,104,-89

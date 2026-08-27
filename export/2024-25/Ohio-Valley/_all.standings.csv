@@ -1,0 +1,73 @@
+rank,team,club,teamID,gp,w,l,d,pts,ppg,gf,ga,gd,division,flight
+1,Ohio Premier ECNL G07/06,Ohio Premier,33377,11,10,0,1,31,2.82,39,3,36,G2007/2006,ECNL
+2,Internationals SC ECNL G07/06,Internationals SC,35240,11,10,1,0,30,2.73,52,13,39,G2007/2006,ECNL
+3,Indy Eleven Pro Academy ECNL G07,Indy Eleven Academy,23407,11,6,2,3,21,1.91,35,13,22,G2007/2006,ECNL
+4,Tennessee SC ECNL G07/06,Tennessee SC,35277,11,6,3,2,20,1.82,31,17,14,G2007/2006,ECNL
+5,Pittsburgh Riverhounds ECNL G07/06,No Club Selection,35276,11,6,4,1,19,1.73,21,15,6,G2007/2006,ECNL
+6,WNY Flash ECNL G07/06,WNY Flash Academy,35279,11,5,5,1,16,1.45,20,27,-7,G2007/2006,ECNL
+7,Cleveland Force SC ECNL G07/06,Cleveland Force SC,46989,11,4,6,1,13,1.18,29,30,-1,G2007/2006,ECNL
+8,FC Pride Elite ECNL G07/06,No Club Selection,92640,11,3,6,2,11,1.0,24,25,-1,G2007/2006,ECNL
+9,Racing Louisville Academy ECNL G07/06,Racing Louisville Academy,45894,10,3,6,1,10,1.0,15,32,-17,G2007/2006,ECNL
+10,Ohio Elite Soccer Academy ECNL G07/06,Ohio Elite Soccer Academy,35241,11,3,7,1,10,0.91,17,28,-11,G2007/2006,ECNL
+11,FC Alliance ECNL G07/06,FC Alliance TN,35238,11,1,9,1,4,0.36,6,58,-52,G2007/2006,ECNL
+12,Kings Hammer SC ECNL G07/06, Kings Hammer Columbus,47018,10,1,9,0,3,0.3,12,40,-28,G2007/2006,ECNL
+1,Indy Eleven Pro Academy ECNL G08,Indy Eleven Academy,46796,11,9,0,2,29,2.64,23,7,16,G2008,ECNL
+2,Ohio Elite Soccer Academy ECNL G08,Ohio Elite Soccer Academy,46798,11,8,1,2,26,2.36,26,12,14,G2008,ECNL
+3,Tennessee SC ECNL G08,Tennessee SC,46804,11,6,2,3,21,1.91,20,13,7,G2008,ECNL
+4,Cleveland Force SC ECNL G08,Cleveland Force SC,46988,11,6,4,1,19,1.73,22,15,7,G2008,ECNL
+5,FC Alliance ECNL G08,FC Alliance TN,46371,11,6,4,1,19,1.73,21,16,5,G2008,ECNL
+6,Racing Louisville Academy ECNL G08,Racing Louisville Academy,45893,11,4,3,4,16,1.45,21,18,3,G2008,ECNL
+7,Ohio Premier ECNL G08,Ohio Premier,46800,11,4,4,3,15,1.36,22,18,4,G2008,ECNL
+8,WNY Flash ECNL G08,WNY Flash Academy,12942,11,4,4,3,15,1.36,18,15,3,G2008,ECNL
+9,Kings Hammer SC ECNL G08, Kings Hammer Columbus,47017,11,2,6,3,9,0.82,9,15,-6,G2008,ECNL
+10,Internationals SC ECNL G08,Internationals SC,46797,11,2,8,1,7,0.64,13,26,-13,G2008,ECNL
+11,Pittsburgh Riverhounds ECNL G08,Pittsburgh Riverhounds,46802,11,2,9,0,6,0.55,7,31,-24,G2008,ECNL
+12,FC Pride Elite ECNL G08,No Club Selection,46794,11,1,9,1,4,0.36,14,30,-16,G2008,ECNL
+1,Internationals SC ECNL G09,Internationals SC,47003,11,10,1,0,30,2.73,29,5,24,G2009,ECNL
+2,Pittsburgh Riverhounds ECNL G09,Pittsburgh Riverhounds,4298,11,9,2,0,27,2.45,36,4,32,G2009,ECNL
+3,Ohio Premier ECNL G09,Ohio Premier,60137,11,8,2,1,25,2.27,23,11,12,G2009,ECNL
+4,Tennessee SC ECNL G09,Tennessee SC,47036,11,8,2,1,25,2.27,28,11,17,G2009,ECNL
+5,Ohio Elite Soccer Academy ECNL G09,Ohio Elite Soccer Academy,47010,11,7,2,2,23,2.09,27,10,17,G2009,ECNL
+6,Indy Eleven Pro Academy ECNL G09,Indy Eleven Academy,46997,11,4,4,3,15,1.36,18,21,-3,G2009,ECNL
+7,Kings Hammer SC ECNL G09, Kings Hammer Columbus,47016,11,5,6,0,15,1.36,18,19,-1,G2009,ECNL
+8,Cleveland Force SC ECNL G09,Cleveland Force SC,46987,11,4,6,1,13,1.18,14,21,-7,G2009,ECNL
+9,WNY Flash ECNL G09,WNY Flash Academy,47038,11,2,8,1,7,0.64,12,21,-9,G2009,ECNL
+10,FC Pride Elite ECNL G09,FC Pride,45768,11,1,8,2,5,0.45,8,36,-28,G2009,ECNL
+11,FC Alliance ECNL G09,FC Alliance TN,59348,11,0,8,3,3,0.27,8,32,-24,G2009,ECNL
+12,Racing Louisville Academy ECNL G09,Racing Louisville Academy,59527,11,0,9,2,2,0.18,3,33,-30,G2009,ECNL
+1,WNY Flash ECNL G10,WNY Flash Academy,47037,11,10,1,0,30,2.73,34,6,28,G2010,ECNL
+2,FC Pride Elite ECNL G10,FC Pride,45767,11,8,1,2,26,2.36,25,6,19,G2010,ECNL
+3,Ohio Premier ECNL G10,Ohio Premier,65018,11,8,2,1,25,2.27,19,9,10,G2010,ECNL
+4,Indy Eleven Pro Academy ECNL G10,Indy Eleven Academy,46996,11,6,2,3,21,1.91,16,10,6,G2010,ECNL
+5,Internationals SC ECNL G10,Internationals SC,47002,11,6,3,2,20,1.82,16,12,4,G2010,ECNL
+6,Tennessee SC ECNL G10,Tennessee SC,69535,11,5,6,0,15,1.36,14,7,7,G2010,ECNL
+7,Ohio Elite Soccer Academy ECNL G10,Ohio Elite Soccer Academy,47009,11,4,5,2,14,1.27,11,15,-4,G2010,ECNL
+8,Pittsburgh Riverhounds ECNL G10,Pittsburgh Riverhounds,60737,11,2,5,4,10,0.91,11,21,-10,G2010,ECNL
+9,Racing Louisville Academy ECNL G10,Racing Louisville Academy,60642,11,3,7,1,10,0.91,11,25,-14,G2010,ECNL
+10,Cleveland Force SC ECNL G10,Cleveland Force SC,46986,11,2,8,1,7,0.64,10,18,-8,G2010,ECNL
+11,FC Alliance ECNL G10,FC Alliance TN,59430,11,2,9,0,6,0.55,12,33,-21,G2010,ECNL
+12,Kings Hammer SC ECNL G10, Kings Hammer Columbus,47015,11,0,7,4,4,0.36,6,23,-17,G2010,ECNL
+1,Kings Hammer SC ECNL G11, Kings Hammer Columbus,52788,16,11,3,2,35,2.19,36,13,23,G2011,North
+2,WNY Flash ECNL G11,WNY Flash Academy,36933,16,9,3,4,31,1.94,22,16,6,G2011,North
+3,Cleveland Force SC ECNL G11,Cleveland Force SC,60170,16,8,3,5,29,1.81,27,17,10,G2011,North
+4,Pittsburgh Riverhounds ECNL G11,Pittsburgh Riverhounds,82213,16,8,3,5,29,1.81,40,27,13,G2011,North
+5,Ohio Premier ECNL G11,Ohio Premier,65017,16,6,7,3,21,1.31,31,28,3,G2011,North
+6,Internationals SC ECNL G11,Internationals SC,54724,16,6,7,3,21,1.31,28,31,-3,G2011,North
+1,Tennessee SC ECNL G11,Tennessee SC,82416,16,9,4,3,30,1.88,46,11,35,G2011,South
+2,Indy Eleven Pro Academy ECNL G11,Indy Eleven Academy,84176,16,8,4,4,28,1.75,27,19,8,G2011,South
+3,Ohio Elite Soccer Academy ECNL G11,Ohio Elite Soccer Academy,69945,16,4,8,4,16,1.0,19,32,-13,G2011,South
+4,FC Alliance ECNL G11,FC Alliance TN,59429,16,4,8,4,16,1.0,18,34,-16,G2011,South
+5,FC Pride Elite ECNL G11,FC Pride,45765,16,2,13,1,7,0.44,11,43,-32,G2011,South
+6,Racing Louisville Academy ECNL G11,Racing Louisville Academy,60641,16,0,12,4,4,0.25,20,54,-34,G2011,South
+1,Ohio Premier ECNL G12,Ohio Premier,71333,16,14,2,0,42,2.63,35,7,28,G2012,North
+2,Internationals SC ECNL G12,Internationals SC,61433,16,10,3,3,33,2.06,39,21,18,G2012,North
+3,Cleveland Force SC ECNL G12,Cleveland Force SC,60141,16,9,5,2,29,1.81,32,16,16,G2012,North
+4,Pittsburgh Riverhounds ECNL G12,Pittsburgh Riverhounds,69761,16,4,10,2,14,0.88,15,33,-18,G2012,North
+5,WNY Flash ECNL G12,WNY Flash Academy,61753,16,4,11,1,13,0.81,19,30,-11,G2012,North
+6,Kings Hammer SC ECNL G12, Kings Hammer Columbus,63804,16,3,9,4,13,0.81,17,29,-12,G2012,North
+1,Tennessee SC ECNL G12,Tennessee SC,95659,16,13,1,2,41,2.56,35,8,27,G2012,South
+2,Indy Eleven Pro Academy ECNL G12,Indy Eleven Academy,95897,16,8,5,3,27,1.69,27,21,6,G2012,South
+3,FC Pride Elite ECNL G12,FC Pride,59612,16,8,7,1,25,1.56,29,19,10,G2012,South
+4,FC Alliance ECNL G12,FC Alliance TN,89809,16,8,7,1,25,1.56,28,23,5,G2012,South
+5,Ohio Elite Soccer Academy ECNL G12,Ohio Elite Soccer Academy,59470,16,3,8,5,14,0.88,18,26,-8,G2012,South
+6,Racing Louisville Academy ECNL G12,Racing Louisville Academy,62251,16,0,16,0,0,0.0,3,64,-61,G2012,South

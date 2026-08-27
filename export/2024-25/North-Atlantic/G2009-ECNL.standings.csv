@@ -1,0 +1,12 @@
+rank,team,club,teamID,gp,w,l,d,pts,ppg,gf,ga,gd
+1,Penn Fusion SA ECNL G09,Penn Fusion Soccer Academy,46945,10,9,0,1,28,2.8,27,6,21
+2,PDA Blue ECNL G09,PDA Blue (North),13678,10,8,0,2,26,2.6,36,5,31
+3,Match Fit Academy ECNL G09,Match Fit Surf,46947,10,7,2,1,22,2.2,26,9,17
+4,FC DELCO ECNL G09,FC DELCO,46942,10,7,3,0,21,2.1,24,11,13
+5,Philadelphia Ukrainian Nationals ECNL G09,Philadelphia Ukrainian Nationals,71617,10,6,4,0,18,1.8,22,12,10
+6,Pipeline SC ECNL G09,Pipeline SC,46948,10,3,4,3,12,1.2,10,17,-7
+7,Maryland United FC ECNL G09,Maryland United Football Club,46944,10,2,5,3,9,0.9,10,18,-8
+8,HEX FC Bucks ECNL G09,HEX FC,46941,10,2,6,2,8,0.8,11,27,-16
+9,PDA White ECNL G09,PDA White (Shore),13679,10,2,7,1,7,0.7,11,32,-21
+10,Bethesda SC ECNL G09,Bethesda SC,46940,10,1,7,2,5,0.5,7,25,-18
+11,PDA South ECNL G09,PDA South,11436,10,0,9,1,1,0.1,2,24,-22

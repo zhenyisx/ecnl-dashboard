@@ -1,0 +1,51 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2022-11-19,02:30 PM,Bracket,Internationals SC ECNL G05/04,2,2,FC Alliance ECNL G05/04,Pinnacle Sports,Field 1,On Time,363444
+2022-11-19,04:00 PM,Bracket,Kings Hammer SC ECNL G05/04,1,1,Indiana Fire ECNL G05/04,Town and Country,Field 1,On Time,363445
+2022-11-20,04:00 PM,Bracket,Kings Hammer SC ECNL G05/04,5,0,FC Pride Elite ECNL G05/04,Town and Country,Field 1,On Time,363451
+2022-12-10,03:30 PM,Bracket,Internationals SC ECNL G05/04,4,1,Cleveland Force SC ECNL G05/04,Pinnacle Sports,Field 1,On Time,363456
+2022-12-17,03:30 PM,Bracket,Ohio Premier ECNL G05/04,1,3,Internationals SC ECNL G05/04,OP Training Facility,Field 1,On Time,363458
+2022-12-17,04:00 PM,Bracket,Kings Hammer SC ECNL G05/04,3,2,Cleveland Force SC ECNL G05/04,Town and Country,Field 1,On Time,363457
+2022-12-18,03:00 PM,Bracket,Kings Hammer SC ECNL G05/04,1,4,Internationals SC ECNL G05/04,Tower Park,Field 1,On Time,363460
+2023-02-25,08:10 PM,Bracket,Cleveland Force SC ECNL G05/04,2,4,FC Alliance ECNL G05/04,The Seven Hills School,#2 - Lower,On Time,363455
+2023-03-11,03:00 PM,Bracket,Ohio Premier ECNL G05/04,2,2,Pittsburgh Riverhounds ECNL G05/04,The Wellington School (Turf),Field 1,On Time,363462
+2023-03-11,04:00 PM,Bracket,Kings Hammer SC ECNL G05/04,4,4,WNY Flash ECNL G05/04,Notre Dame Academy High School,Field 1,On Time,363461
+2023-03-12,02:30 PM,Bracket,Kings Hammer SC ECNL G05/04,2,2,Pittsburgh Riverhounds ECNL G05/04,Notre Dame Academy High School,Field 1,On Time,363463
+2023-03-12,02:30 PM,Bracket,Ohio Premier ECNL G05/04,2,2,WNY Flash ECNL G05/04,The Wellington School (Turf),Field 1,On Time,363464
+2023-03-18,03:30 PM,Bracket,Pittsburgh Riverhounds ECNL G05/04,3,0,WNY Flash ECNL G05/04,Montour Junction Sports Complex,Field 1,On Time,363467
+2023-03-18,04:00 PM,Bracket,Kings Hammer SC ECNL G05/04,2,2,Ohio Premier ECNL G05/04,NKU Soccer Stadium,Field 1,On Time,363484
+2023-03-19,09:00 PM,Bracket,Cleveland Force SC ECNL G05/04,1,4,Internationals SC ECNL G05/04,Cleveland State University - Krenzler Field,Field 1,On Time,363465
+2023-03-25,03:00 PM,Bracket,Ohio Premier ECNL G05/04,4,2,FC Alliance ECNL G05/04,OP Training Facility,Field 1,On Time,363469
+2023-03-25,04:00 PM,Bracket,Kings Hammer SC ECNL G05/04,3,0,Tennessee Soccer Club ECNL G05/04,Tower Park,Field 1,On Time,363468
+2023-03-26,02:30 PM,Bracket,Kings Hammer SC ECNL G05/04,3,7,FC Alliance ECNL G05/04,Tower Park,Field 1,On Time,363471
+2023-03-26,03:00 PM,Bracket,Ohio Premier ECNL G05/04,2,2,Tennessee Soccer Club ECNL G05/04,OP Training Facility,Field 1,On Time,363470
+2023-04-15,08:30 AM,Bracket,Pittsburgh Riverhounds ECNL G05/04,1,3,Ohio Premier ECNL G05/04,Montour Junction Sports Complex,Field 1,On Time,363475
+2023-04-15,02:30 PM,Bracket,Internationals SC ECNL G05/04,5,0,Racing Louisville Academy ECNL G05/04,Pinnacle Sports,Field 1,On Time,363473
+2023-04-15,03:30 PM,Bracket,Cleveland Force SC ECNL G05/04,1,0,Ohio Elite Soccer Academy ECNL G05/04,Victory Park,Field 1,On Time,363472
+2023-04-15,04:45 PM,Bracket,WNY Flash ECNL G05/04,2,0,Kings Hammer SC ECNL G05/04,Flash Fields,Field A,On Time,363474
+2023-04-16,02:00 PM,Bracket,Pittsburgh Riverhounds ECNL G05/04,5,2,Kings Hammer SC ECNL G05/04,Highmark Stadium,Field 1,On Time,363478
+2023-04-16,02:30 PM,Bracket,Cleveland Force SC ECNL G05/04,7,0,Racing Louisville Academy ECNL G05/04,Rocky River High School,Field 1,On Time,363476
+2023-04-16,02:30 PM,Bracket,Internationals SC ECNL G05/04,4,1,Ohio Elite Soccer Academy ECNL G05/04,Pinnacle Sports,Field 1,On Time,363477
+2023-04-16,04:45 PM,Bracket,WNY Flash ECNL G05/04,2,1,Ohio Premier ECNL G05/04,Flash Fields,Field A,On Time,363479
+2023-04-22,11:30 AM,Bracket,WNY Flash ECNL G05/04,7,0,Cleveland Force SC ECNL G05/04,Flash Fields,Field A,On Time,363480
+2023-04-22,03:30 PM,Bracket,Pittsburgh Riverhounds ECNL G05/04,1,2,Internationals SC ECNL G05/04,Highmark Stadium,Field 1,On Time,363481
+2023-04-23,02:00 PM,Bracket,Pittsburgh Riverhounds ECNL G05/04,0,1,Cleveland Force SC ECNL G05/04,Highmark Stadium,Field 1,On Time,363482
+2023-04-23,03:00 PM,Bracket,WNY Flash ECNL G05/04,1,4,Internationals SC ECNL G05/04,Flash Fields,Field A,On Time,363483
+2023-04-29,02:00 PM,Bracket,Cleveland Force SC ECNL G05/04,1,4,Tennessee Soccer Club ECNL G05/04,Western Reserve Academy,Field 1,On Time,363449
+2023-04-29,02:30 PM,Bracket,WNY Flash ECNL G05/04,0,2,Pittsburgh Riverhounds ECNL G05/04,Flash Fields,Field A,On Time,363485
+2023-04-30,12:45 PM,Bracket,Internationals SC ECNL G05/04,3,2,Tennessee Soccer Club ECNL G05/04,Pinnacle Sports,Field 1,On Time,363450
+2023-05-06,10:00 AM,Bracket,Cleveland Force SC ECNL G05/04,3,6,Kings Hammer SC ECNL G05/04,Hawken Upper School,Multi,On Time,363486
+2023-05-06,10:45 AM,Bracket,Internationals SC ECNL G05/04,3,2,Ohio Premier ECNL G05/04,Pinnacle Sports,Field 1,On Time,363487
+2023-05-07,02:30 PM,Bracket,Internationals SC ECNL G05/04,3,2,Kings Hammer SC ECNL G05/04,Pinnacle Sports,Field 1,On Time,363488
+2023-05-07,02:30 PM,Bracket,Cleveland Force SC ECNL G05/04,0,1,Ohio Premier ECNL G05/04,Hawken Upper School,Multi,On Time,363489
+2023-05-13,08:30 AM,Bracket,Pittsburgh Riverhounds ECNL G05/04,1,0,Ohio Elite Soccer Academy ECNL G05/04,Highmark Stadium,Field 1,On Time,363447
+2023-05-13,09:00 AM,Bracket,Ohio Premier ECNL G05/04,2,0,FC Pride Elite ECNL G05/04,Otterbein University,Field 1,On Time,363446
+2023-05-13,12:30 PM,Bracket,WNY Flash ECNL G05/04,6,1,Racing Louisville Academy ECNL G05/04,Flash Fields,Field A,On Time,363448
+2023-05-14,02:00 PM,Bracket,Pittsburgh Riverhounds ECNL G05/04,3,0,Racing Louisville Academy ECNL G05/04,Highmark Stadium,Field 1,On Time,363453
+2023-05-14,02:00 PM,Bracket,WNY Flash ECNL G05/04,0,3,Ohio Elite Soccer Academy ECNL G05/04,Flash Fields,Field A,On Time,363454
+2023-05-14,04:00 PM,Bracket,Ohio Premier ECNL G05/04,3,0,Indiana Fire ECNL G05/04,OP Training Facility,Field 1,On Time,363452
+2023-05-18,08:00 PM,Bracket,Ohio Premier ECNL G05/04,4,2,Cleveland Force SC ECNL G05/04,The Wellington School (Turf),Field 1,On Time,363459
+2023-05-20,09:00 AM,Bracket,Internationals SC ECNL G05/04,4,0,Pittsburgh Riverhounds ECNL G05/04,Pinnacle Sports,Field 1,On Time,363491
+2023-05-20,10:00 AM,Bracket,Cleveland Force SC ECNL G05/04,2,0,WNY Flash ECNL G05/04,Notre Dame College,Field 1,On Time,363490
+2023-05-21,09:00 AM,Bracket,Internationals SC ECNL G05/04,2,1,WNY Flash ECNL G05/04,Pinnacle Sports,Field 1,On Time,363493
+2023-05-21,02:30 PM,Bracket,Cleveland Force SC ECNL G05/04,0,4,Pittsburgh Riverhounds ECNL G05/04,Notre Dame College,Field 1,On Time,363492
+2023-06-03,10:00 AM,Bracket,Ohio Premier ECNL G05/04,4,2,Kings Hammer SC ECNL G05/04,OP Training Facility,Field 1,On Time,363466

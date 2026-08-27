@@ -1,0 +1,91 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2021-09-11,08:00 AM,Bracket,Phoenix Rising ECNL GU15,2,1,So Cal Blues ECNL GU15,Scottsdale Sports Complex,Field 5,On Time,275313
+2021-09-11,09:45 AM,Bracket,Rebels SC ECNL GU15,4,1,Strikers FC ECNL GU15,Mount Miguel High School,Field 1,On Time,275377
+2021-09-11,10:00 AM,Bracket,AZ Arsenal ECNL GU15,0,0,Del Mar Sharks ECNL GU15,Santos Soccer Complex,Field 1,On Time,274791
+2021-09-12,08:00 AM,Bracket,Phoenix Rising ECNL GU15,1,0,Del Mar Sharks ECNL GU15,Scottsdale Sports Complex,Field 6,On Time,275314
+2021-09-12,09:00 AM,Bracket,San Diego Surf ECNL GU15,4,0,Strikers FC ECNL GU15,Surf Sports Park,Field 11,On Time,275448
+2021-09-12,09:45 AM,Bracket,Rebels SC ECNL GU15,0,6,Slammers FC HB Koge ECNL GU15,Madison High School,Field 1,On Time,275378
+2021-09-12,12:00 PM,Bracket,AZ Arsenal ECNL GU15,0,2,So Cal Blues ECNL GU15,Desert Sky Park,Field 1,On Time,274792
+2021-09-19,09:00 AM,Bracket,Phoenix Rising ECNL GU15,0,2,Legends FC ECNL GU15,Copper Sky Regional Park,Field 1,On Time,275315
+2021-09-19,10:00 AM,Bracket,AZ Arsenal ECNL GU15,0,4,SLAMMERS FC ECNL GU15,Desert Sky Park,Field 1,On Time,274793
+2021-09-25,09:00 AM,Bracket,Rebels SC ECNL GU15,1,5,SLAMMERS FC ECNL GU15,Southwestern College,Stadium,On Time,275379
+2021-09-25,09:00 AM,Bracket,San Diego Surf ECNL GU15,1,1,LA Breakers FC ECNL GU15,Surf Sports Park,Field 11,On Time,275449
+2021-09-25,02:45 PM,Bracket,So Cal Blues ECNL GU15,0,2,Beach FC ECNL GU15,OC Great Park,Field 7,On Time,275645
+2021-09-25,03:00 PM,Bracket,Del Mar Sharks ECNL GU15,0,5,Slammers FC HB Koge ECNL GU15,San Dieguito Academy,Field 1,On Time,274813
+2021-10-02,12:15 PM,Bracket,Slammers FC HB Koge ECNL GU15,7,0,AZ Arsenal ECNL GU15,Orange County Great Park,Field 15,On Time,275577
+2021-10-02,01:30 PM,Bracket,Strikers FC ECNL GU15,2,1,Phoenix Rising ECNL GU15,Orange County Great Park,Field 17,On Time,275813
+2021-10-03,08:30 AM,Bracket,Slammers FC HB Koge ECNL GU15,6,0,Phoenix Rising ECNL GU15,Orange County Great Park,Field 15,On Time,275578
+2021-10-03,09:30 AM,Bracket,Del Mar Sharks ECNL GU15,1,2,Rebels SC ECNL GU15,San Dieguito Academy,Field 1,On Time,274815
+2021-10-03,10:15 AM,Bracket,Strikers FC ECNL GU15,2,1,AZ Arsenal ECNL GU15,El Dorado High School,EDHS Turf Field,On Time,275814
+2021-10-03,12:15 PM,Bracket,So Cal Blues ECNL GU15,0,2,San Diego Surf ECNL GU15,Tesoro High School,Stadium,On Time,275647
+2021-10-23,08:30 AM,Bracket,Strikers FC ECNL GU15,0,1,So Cal Blues ECNL GU15,Orange County Great Park,Field 17,On Time,275815
+2021-10-23,10:00 AM,Bracket,Phoenix Rising ECNL GU15,1,3,San Diego Surf ECNL GU15,PRFC Youth Soccer Facility,Field 1,On Time,275316
+2021-10-23,12:00 PM,Bracket,AZ Arsenal ECNL GU15,0,2,Rebels SC ECNL GU15,Santos Soccer Complex,Field 1,On Time,274794
+2021-10-24,10:00 AM,Bracket,Phoenix Rising ECNL GU15,2,0,Rebels SC ECNL GU15,PRFC Youth Soccer Facility,Field 1,On Time,275317
+2021-10-24,12:00 PM,Bracket,AZ Arsenal ECNL GU15,0,3,San Diego Surf ECNL GU15,Desert Sky Park,Field 1,On Time,274795
+2021-10-24,04:15 PM,Bracket,Strikers FC ECNL GU15,0,1,Del Mar Sharks ECNL GU15,Orange County Great Park,Field 17,On Time,275816
+2021-10-30,09:00 AM,Bracket,San Diego Surf ECNL GU15,2,1,LAFC So Cal ECNL GU15,Surf Sports Park,Field 11,On Time,275450
+2021-10-30,09:15 AM,Bracket,Rebels SC ECNL GU15,1,3,Eagles SC ECNL GU15,Mount Miguel High School,Field 1,On Time,275380
+2021-10-30,10:00 AM,Bracket,Del Mar Sharks ECNL GU15,1,5,So Cal Blues ECNL GU15,San Dieguito Academy,Field 1,On Time,274816
+2021-10-30,03:00 PM,Bracket,Slammers FC HB Koge ECNL GU15,7,1,Strikers FC ECNL GU15,Orange County Great Park,Field 13,On Time,275579
+2021-10-31,12:00 PM,Bracket,Slammers FC HB Koge ECNL GU15,2,1,Utah Royals FC-AZ ECNL GU15,Orange County Great Park,Field 15,On Time,275580
+2021-10-31,01:00 PM,Bracket,Rebels SC ECNL GU15,0,11,LAFC So Cal ECNL GU15,Southwestern College,Stadium,On Time,275381
+2021-11-06,10:00 AM,Bracket,AZ Arsenal ECNL GU15,0,0,Utah Royals FC-AZ ECNL GU15,Santos Soccer Complex,Field 1,On Time,274796
+2021-11-06,03:45 PM,Bracket,So Cal Blues ECNL GU15,1,4,Legends FC ECNL GU15,OC Great Park,Field 10,On Time,275648
+2021-11-20,09:00 AM,Bracket,San Diego Surf ECNL GU15,5,0,Rebels SC ECNL GU15,Surf Sports Park,Field 11,On Time,275452
+2021-11-20,04:00 PM,Bracket,Del Mar Sharks ECNL GU15,0,3,Strikers FC ECNL GU15,Torrey Pines High School,Field 1,On Time,274817
+2021-11-21,01:00 PM,Bracket,Del Mar Sharks ECNL GU15,0,4,San Diego Surf ECNL GU15,San Dieguito Academy,Field 1,On Time,274814
+2022-03-26,08:30 AM,Bracket,Strikers FC ECNL GU15,1,4,LA Breakers FC ECNL GU15,SilverLakes Sports Park,Field 18,On Time,275817
+2022-03-26,11:00 AM,Bracket,Slammers FC HB Koge ECNL GU15,2,1,Beach FC ECNL GU15,Silverlakes Complex,Field 3,On Time,275581
+2022-03-26,03:00 PM,Bracket,Del Mar Sharks ECNL GU15,0,6,Legends FC ECNL GU15,Silverlakes Sports Complex,Field 1,On Time,274818
+2022-03-26,03:00 PM,Bracket,Rebels SC ECNL GU15,0,5,Heat FC ECNL GU15,Silverlakes Sports Complex,Field 6,On Time,275382
+2022-03-26,05:00 PM,Bracket,San Diego Surf ECNL GU15,1,0,Utah Royals FC-AZ ECNL GU15,SilverLakes Sports Park,Field 22,On Time,275453
+2022-03-26,05:00 PM,Bracket,So Cal Blues ECNL GU15,0,0,SLAMMERS FC ECNL GU15,Silverlakes,Field 12,On Time,275649
+2022-03-27,08:30 AM,Bracket,Strikers FC ECNL GU15,0,5,Beach FC ECNL GU15,SilverLakes Sports Park,Field 6,On Time,275818
+2022-03-27,10:00 AM,Bracket,San Diego Surf ECNL GU15,2,0,Heat FC ECNL GU15,SilverLakes Sports Park,Field 1,On Time,275454
+2022-03-27,10:30 AM,Bracket,Slammers FC HB Koge ECNL GU15,3,2,LA Breakers FC ECNL GU15,Silverlakes Complex,Field 16,On Time,275582
+2022-03-27,12:00 PM,Bracket,Rebels SC ECNL GU15,0,6,Utah Royals FC-AZ ECNL GU15,Silverlakes Sports Complex,Field 23,On Time,275383
+2022-03-27,04:30 PM,Bracket,Del Mar Sharks ECNL GU15,0,1,SLAMMERS FC ECNL GU15,Silverlakes Sports Complex,Field 3,On Time,274819
+2022-03-27,04:30 PM,Bracket,So Cal Blues ECNL GU15,1,0,Sporting California Arsenal FC ECNL GU15,Silverlakes,Field 1,On Time,275650
+2022-04-09,01:00 PM,Bracket,Phoenix Rising ECNL GU15,4,0,AZ Arsenal ECNL GU15,Bell94 Sports Complex,Field 15,On Time,275319
+2022-04-09,01:45 PM,Bracket,Del Mar Sharks ECNL GU15,3,1,LA Breakers FC ECNL GU15,San Dieguito Academy,Field 1,On Time,274820
+2022-04-09,03:30 PM,Bracket,Slammers FC HB Koge ECNL GU15,2,0,So Cal Blues ECNL GU15,Orange County Great Park,Field 10,On Time,275583
+2022-04-10,12:00 PM,Bracket,Strikers FC ECNL GU15,0,2,Heat FC ECNL GU15,Orange County Great Park,Field 8,On Time,275820
+2022-04-16,09:00 AM,Bracket,So Cal Blues ECNL GU15,0,3,Del Mar Sharks ECNL GU15,Surf Sports Park,Field 7,On Time,275651
+2022-04-16,01:30 PM,Bracket,Rebels SC ECNL GU15,1,4,San Diego Surf ECNL GU15,Madison High School,Field 1,On Time,275384
+2022-04-16,04:15 PM,Bracket,Strikers FC ECNL GU15,0,1,Slammers FC HB Koge ECNL GU15,Orange County Great Park,Field 5,On Time,275821
+2022-04-23,09:00 AM,Bracket,So Cal Blues ECNL GU15,1,0,AZ Arsenal ECNL GU15,OC Great Park,Field 4,On Time,275652
+2022-04-23,01:45 PM,Bracket,Del Mar Sharks ECNL GU15,3,1,Phoenix Rising ECNL GU15,San Dieguito Academy,Field 1,On Time,274821
+2022-04-24,08:30 AM,Bracket,Del Mar Sharks ECNL GU15,5,0,AZ Arsenal ECNL GU15,San Dieguito Academy,Field 1,On Time,274822
+2022-04-24,09:00 AM,Bracket,San Diego Surf ECNL GU15,0,0,Eagles SC ECNL GU15,Surf Sports Park,Field 12,On Time,275451
+2022-04-24,09:00 AM,Bracket,So Cal Blues ECNL GU15,1,2,Phoenix Rising ECNL GU15,Portola High School,Stadium,On Time,275653
+2022-04-30,08:00 AM,Bracket,Phoenix Rising ECNL GU15,1,1,LA Breakers FC ECNL GU15,PRFC Youth Soccer Facility,Field 2,On Time,275320
+2022-04-30,02:30 PM,Bracket,Strikers FC ECNL GU15,1,4,San Diego Surf ECNL GU15,Orange County Great Park,Field 10,On Time,275822
+2022-04-30,04:00 PM,Bracket,Slammers FC HB Koge ECNL GU15,7,0,Rebels SC ECNL GU15,Orange County Great Park,Field 11,On Time,275584
+2022-05-01,09:00 AM,Bracket,Strikers FC ECNL GU15,0,2,Rebels SC ECNL GU15,Orange County Great Park,Field 17,On Time,275823
+2022-05-01,11:45 AM,Bracket,Slammers FC HB Koge ECNL GU15,1,1,San Diego Surf ECNL GU15,Orange County Great Park,Field 10,On Time,275585
+2022-05-01,12:00 PM,Bracket,AZ Arsenal ECNL GU15,0,3,Beach FC ECNL GU15,Legacy Sports Park,Field 3,On Time,274798
+2022-05-07,09:00 AM,Bracket,Del Mar Sharks ECNL GU15,1,4,Eagles SC ECNL GU15,San Diego Mesa College ,Field 1,On Time,274823
+2022-05-07,11:00 AM,Bracket,So Cal Blues ECNL GU15,0,3,LAFC So Cal ECNL GU15,OC Great Park,Field 4,On Time,275654
+2022-05-07,03:00 PM,Bracket,San Diego Surf ECNL GU15,0,1,Slammers FC HB Koge ECNL GU15,Surf Sports Park,Field 10,On Time,275447
+2022-05-08,08:00 AM,Bracket,Phoenix Rising ECNL GU15,1,1,Heat FC ECNL GU15,Scottsdale Sports Complex,Field 5,On Time,275318
+2022-05-08,09:00 AM,Bracket,So Cal Blues ECNL GU15,1,5,Eagles SC ECNL GU15,OC Great Park,Field 4,On Time,275655
+2022-05-08,10:15 AM,Bracket,Strikers FC ECNL GU15,1,4,Utah Royals FC-AZ ECNL GU15,Orange County Great Park,Field 11,On Time,275819
+2022-05-08,01:45 PM,Bracket,Del Mar Sharks ECNL GU15,2,0,LAFC So Cal ECNL GU15,San Dieguito Academy,Field 1,On Time,274824
+2022-05-09,05:30 PM,Bracket,AZ Arsenal ECNL GU15,1,4,Phoenix Rising ECNL GU15,Legacy Sports Park,Field 11,On Time,274797
+2022-05-14,11:00 AM,Bracket,Rebels SC ECNL GU15,1,4,Phoenix Rising ECNL GU15,Southwestern College,Stadium,On Time,275385
+2022-05-14,11:00 AM,Bracket,San Diego Surf ECNL GU15,8,0,AZ Arsenal ECNL GU15,Surf Sports Park,Field 12,On Time,275455
+2022-05-14,11:00 AM,Bracket,So Cal Blues ECNL GU15,1,3,Slammers FC HB Koge ECNL GU15,OC Great Park,Field 4,On Time,275656
+2022-05-15,09:00 AM,Bracket,San Diego Surf ECNL GU15,2,2,Phoenix Rising ECNL GU15,Surf Sports Park,Field 12,On Time,275456
+2022-05-15,09:00 AM,Bracket,So Cal Blues ECNL GU15,1,1,Strikers FC ECNL GU15,OC Great Park,Field 4,On Time,275657
+2022-05-15,10:15 AM,Bracket,Slammers FC HB Koge ECNL GU15,2,1,Del Mar Sharks ECNL GU15,Bonita Canyon Sports Park,Field 5,On Time,275586
+2022-05-15,11:00 AM,Bracket,Rebels SC ECNL GU15,2,0,AZ Arsenal ECNL GU15,Southwestern College,Upper Grass,On Time,275386
+2022-05-21,08:00 AM,Bracket,AZ Arsenal ECNL GU15,3,0,Strikers FC ECNL GU15,Legacy Sports Park,Field 3,On Time,274799
+2022-05-21,09:00 AM,Bracket,So Cal Blues ECNL GU15,1,1,San Diego Surf ECNL GU15,Surf Sports Park,Field 12,On Time,275658
+2022-05-21,10:00 AM,Bracket,Phoenix Rising ECNL GU15,0,2,Slammers FC HB Koge ECNL GU15,PRFC Youth Soccer Facility,Field 2,On Time,275321
+2022-05-21,03:30 PM,Bracket,Rebels SC ECNL GU15,3,2,Del Mar Sharks ECNL GU15,Southwestern College,Upper Grass,On Time,275387
+2022-05-22,09:00 AM,Bracket,San Diego Surf ECNL GU15,6,0,Del Mar Sharks ECNL GU15,Surf Sports Park,Field 12,On Time,275457
+2022-05-22,10:00 AM,Bracket,Phoenix Rising ECNL GU15,3,0,Strikers FC ECNL GU15,PRFC Youth Soccer Facility,Field 2,On Time,275322
+2022-05-22,12:00 PM,Bracket,AZ Arsenal ECNL GU15,0,9,Slammers FC HB Koge ECNL GU15,Legacy Sports Park,Field 3,On Time,274800
+2022-05-22,05:30 PM,Bracket,Rebels SC ECNL GU15,3,1,So Cal Blues ECNL GU15,Southwestern College,Upper Grass,On Time,275388
+2022-06-05,01:00 PM,Bracket,So Cal Blues ECNL GU15,1,2,Rebels SC ECNL GU15,SoCal Sports Complex,Field 1,On Time,275646

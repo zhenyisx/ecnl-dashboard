@@ -1,0 +1,47 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2022-11-19,03:30 PM,Bracket,Ohio Elite Soccer Academy ECNL G05/04,3,2,Racing Louisville Academy ECNL G05/04,Seven Hills School,Lower Field,On Time,363512
+2022-12-10,03:30 PM,Bracket,Ohio Elite Soccer Academy ECNL G05/04,4,0,Indiana Fire ECNL G05/04,Seven Hills School,Lower Field,On Time,363494
+2022-12-17,02:30 PM,Bracket,FC Alliance ECNL G05/04,1,1,WNY Flash ECNL G05/04,Mayor Bob Leonard Park,Field 1,On Time,363497
+2022-12-17,03:00 PM,Bracket,Tennessee Soccer Club ECNL G05/04,3,2,Pittsburgh Riverhounds ECNL G05/04,Richard Siegel Soccer Complex,Field 1,On Time,363496
+2022-12-17,05:00 PM,Bracket,Racing Louisville Academy ECNL G05/04,1,5,Ohio Elite Soccer Academy ECNL G05/04,Lynn Family Sports Vision & Training Facility,Field 1,On Time,363499
+2022-12-18,03:00 AM,Bracket,Tennessee Soccer Club ECNL G05/04,1,0,WNY Flash ECNL G05/04,Richard Siegel Soccer Complex,Field 1,On Time,363501
+2022-12-18,02:30 PM,Bracket,FC Alliance ECNL G05/04,4,1,Pittsburgh Riverhounds ECNL G05/04,Mayor Bob Leonard Park,Field 1,On Time,363500
+2023-02-12,TBD,Group Play,Tennessee Soccer Club ECNL G05/04,3,1,FC Alliance ECNL G05/04,,,On Time,424756
+2023-03-11,10:45 AM,Bracket,FC Alliance ECNL G05/04,4,0,Racing Louisville Academy ECNL G05/04,Mayor Bob Leonard Park,Field 1,On Time,363505
+2023-03-11,03:00 PM,Bracket,Indiana Fire ECNL G05/04,1,3,Internationals SC ECNL G05/04,Butler University Varsity Field,Field 1,On Time,363503
+2023-03-11,03:00 PM,Bracket,Tennessee Soccer Club ECNL G05/04,2,4,Ohio Elite Soccer Academy ECNL G05/04,Richard Siegel Soccer Complex,Field 1,On Time,363504
+2023-03-11,04:00 PM,Bracket,FC Pride Elite ECNL G05/04,1,1,Cleveland Force SC ECNL G05/04,Pride Performance Center (Turf),Field 1,On Time,363502
+2023-03-12,02:30 PM,Bracket,FC Pride Elite ECNL G05/04,0,6,Internationals SC ECNL G05/04,Franklin Central HS,Field 1,On Time,363506
+2023-03-12,02:30 PM,Bracket,FC Alliance ECNL G05/04,4,0,Ohio Elite Soccer Academy ECNL G05/04,Mayor Bob Leonard Park,Field 1,On Time,363509
+2023-03-12,03:00 PM,Bracket,Indiana Fire ECNL G05/04,0,0,Cleveland Force SC ECNL G05/04,Butler University Varsity Field,Field 1,On Time,363507
+2023-03-12,03:00 PM,Bracket,Tennessee Soccer Club ECNL G05/04,3,1,Racing Louisville Academy ECNL G05/04,Richard Siegel Soccer Complex,Field 1,On Time,363508
+2023-03-18,04:00 PM,Bracket,FC Pride Elite ECNL G05/04,3,0,Ohio Elite Soccer Academy ECNL G05/04,Pride Performance Center (Turf),Field 1,On Time,363510
+2023-03-19,04:30 PM,Bracket,Indiana Fire ECNL G05/04,2,3,Racing Louisville Academy ECNL G05/04,Grand Park,Field 2,On Time,363511
+2023-03-22,07:00 PM,Bracket,FC Pride Elite ECNL G05/04,4,0,Racing Louisville Academy ECNL G05/04,Pride Performance Center (Turf),Field 1,On Time,363495
+2023-04-15,11:00 AM,Bracket,Tennessee Soccer Club ECNL G05/04,2,0,Indiana Fire ECNL G05/04,Smyrna High School,Field 1,On Time,363514
+2023-04-15,02:30 PM,Bracket,FC Alliance ECNL G05/04,3,1,FC Pride Elite ECNL G05/04,Mayor Bob Leonard Park,Field 1,On Time,363513
+2023-04-16,02:30 PM,Bracket,FC Alliance ECNL G05/04,4,0,Indiana Fire ECNL G05/04,Mayor Bob Leonard Park,Field 1,On Time,363516
+2023-04-16,03:00 PM,Bracket,Tennessee Soccer Club ECNL G05/04,3,2,FC Pride Elite ECNL G05/04,Smyrna High School,Field 1,On Time,363515
+2023-04-22,09:00 AM,Bracket,FC Alliance ECNL G05/04,3,2,Tennessee Soccer Club ECNL G05/04,Mayor Bob Leonard Park,Field 1,On Time,363521
+2023-04-23,03:30 PM,Bracket,Ohio Elite Soccer Academy ECNL G05/04,4,5,FC Pride Elite ECNL G05/04,Seven Hills School,Lower Field,On Time,363517
+2023-04-23,05:00 PM,Bracket,Racing Louisville Academy ECNL G05/04,1,4,Indiana Fire ECNL G05/04,Lynn Family Sports Vision & Training Facility,Field 1,On Time,363518
+2023-04-29,12:00 PM,Bracket,Indiana Fire ECNL G05/04,1,2,Ohio Elite Soccer Academy ECNL G05/04,Grand Park,Field 31,On Time,363520
+2023-04-30,04:00 PM,Bracket,Indiana Fire ECNL G05/04,0,2,FC Pride Elite ECNL G05/04,Grand Park,Field 31,On Time,363522
+2023-05-03,07:00 PM,Bracket,Racing Louisville Academy ECNL G05/04,3,5,FC Pride Elite ECNL G05/04,Lynn Family Sports Vision & Training Facility,Field 1,On Time,363519
+2023-05-06,08:00 AM,Bracket,Indiana Fire ECNL G05/04,2,1,WNY Flash ECNL G05/04,Grand Park Event Center,Field 1,On Time,363524
+2023-05-06,10:00 AM,Bracket,FC Pride Elite ECNL G05/04,3,3,Pittsburgh Riverhounds ECNL G05/04,Pride Performance Center (Turf),Field 1,On Time,363523
+2023-05-06,02:30 PM,Bracket,Ohio Elite Soccer Academy ECNL G05/04,0,1,Tennessee Soccer Club ECNL G05/04,Warren County Sports Park,Field 17,On Time,363525
+2023-05-06,03:00 PM,Bracket,Racing Louisville Academy ECNL G05/04,2,8,FC Alliance ECNL G05/04,Lynn Family Sports Vision & Training Facility,Field 3,On Time,363526
+2023-05-07,08:00 AM,Bracket,Indiana Fire ECNL G05/04,3,2,Pittsburgh Riverhounds ECNL G05/04,Grand Park Event Center,Field 3,On Time,363527
+2023-05-07,01:45 PM,Bracket,FC Pride Elite ECNL G05/04,,,WNY Flash ECNL G05/04,Pride Performance Center (Turf),Field 1,On Time,363528
+2023-05-07,02:30 PM,Bracket,Ohio Elite Soccer Academy ECNL G05/04,1,4,FC Alliance ECNL G05/04,Seven Hills School,Lower Field,On Time,363529
+2023-05-07,03:00 PM,Bracket,Racing Louisville Academy ECNL G05/04,1,5,Tennessee Soccer Club ECNL G05/04,Lynn Family Sports Vision & Training Facility,Field 3,On Time,363530
+2023-05-11,07:45 PM,Bracket,FC Pride Elite ECNL G05/04,0,1,Indiana Fire ECNL G05/04,Pride Performance Center (Turf),Field 1,On Time,363498
+2023-05-19,04:00 PM,Bracket,FC Pride Elite ECNL G05/04,,,Tennessee Soccer Club ECNL G05/04,Pride Performance Center (Turf),Field 1,On Time,363537
+2023-05-20,09:00 AM,Bracket,Ohio Elite Soccer Academy ECNL G05/04,3,1,Kings Hammer SC ECNL G05/04,Ohio Elite Training Center,Field 9,On Time,363531
+2023-05-20,09:00 AM,Bracket,Racing Louisville Academy ECNL G05/04,0,2,Ohio Premier ECNL G05/04,Lynn Family Sports Vision & Training Facility,Field 3,On Time,363532
+2023-05-20,10:00 AM,Bracket,FC Pride Elite ECNL G05/04,2,5,FC Alliance ECNL G05/04,Pride Performance Center (Turf),Field 1,On Time,363533
+2023-05-20,11:00 AM,Bracket,Indiana Fire ECNL G05/04,,,Tennessee Soccer Club ECNL G05/04,Grand Park Event Center,Field 1,On Time,363534
+2023-05-21,09:00 AM,Bracket,Indiana Fire ECNL G05/04,,,FC Alliance ECNL G05/04,Grand Park,Field 10,On Time,363538
+2023-05-21,03:00 PM,Bracket,Racing Louisville Academy ECNL G05/04,3,3,Kings Hammer SC ECNL G05/04,Lynn Family Sports Vision & Training Facility,Field 3,On Time,363535
+2023-05-24,06:00 PM,Bracket,Ohio Elite Soccer Academy ECNL G05/04,2,1,Ohio Premier ECNL G05/04,Ohio Elite Training Center,Field 9,On Time,363536

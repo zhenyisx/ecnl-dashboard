@@ -1,0 +1,21 @@
+rank,team,club,teamID,gp,w,l,d,pts,ppg,gf,ga,gd,division,flight
+1,Michigan Hawks ECNL G08,Michigan Hawks,46771,3,2,0,1,7,2.33,11,4,7,G2008,Champions League
+2,PDA Blue ECNL G2008,PDA Blue (North),3701,3,2,0,1,7,2.33,12,7,5,G2008,Champions League
+3,Tennessee SC ECNL G08,Tennessee SC,46804,3,1,2,0,3,1.0,6,10,-4,G2008,Champions League
+4,Richmond United ECNL G08,Richmond United,46822,3,0,3,0,0,0.0,5,13,-8,G2008,Champions League
+1,Penn Fusion SA ECNL G09,Penn Fusion Soccer Academy,46945,3,2,1,0,6,2.0,5,3,2,G2009,Champions League
+2,Slammers FC HB Koge ECNL G09,Slammers FC HB Koge,54921,3,1,0,2,5,1.67,4,3,1,G2009,Champions League
+3,Sting Black ECNL G09,Sting Soccer Club,59553,3,1,1,1,4,1.33,3,4,-1,G2009,Champions League
+4,SLSG Navy ECNL G09,St. Louis Scott Gallagher,54343,3,0,2,1,1,0.33,3,5,-2,G2009,Champions League
+1,SOLAR SC ECNL G10,Solar SC,66050,3,3,0,0,9,3.0,8,0,8,G2010,Champions League
+2,PDA Blue ECNL G2010,PDA Blue (North),56324,3,1,1,1,4,1.33,5,4,1,G2010,Champions League
+3,Minnesota Thunder ECNL G10,Minnesota Thunder Academy,69526,3,1,1,1,4,1.33,4,5,-1,G2010,Champions League
+4,FC Prime ECNL G10,Athletic Club Florida,46727,3,0,3,0,0,0.0,2,10,-8,G2010,Champions League
+1,So Cal Blues ECNL G11,So Cal Blues,82132,3,3,0,0,9,3.0,10,3,7,G2011,Champions League
+2,South Shore Select - ECNL G11,Select,95005,3,2,1,0,6,2.0,5,3,2,G2011,Champions League
+3,Kansas City Athletics ECNL G11,KC Athletics,79772,3,1,2,0,3,1.0,4,5,-1,G2011,Champions League
+4,Maryland United FC ECNL G11,Maryland United Football Club,69710,3,0,3,0,0,0.0,1,9,-8,G2011,Champions League
+1,Slammers FC HB Koge ECNL G12,Slammers FC HB Koge,85791,3,3,0,0,9,3.0,11,2,9,G2012,Champions League
+2,FC DELCO ECNL G12,FC DELCO,48170,3,2,1,0,6,2.0,6,3,3,G2012,Champions League
+3,NVA ECNL G12,Northern Virginia Alliance,94585,3,0,2,1,1,0.33,2,6,-4,G2012,Champions League
+4,Jacksonville FC ECNL G12,Jacksonville FC,89659,3,0,2,1,1,0.33,2,10,-8,G2012,Champions League

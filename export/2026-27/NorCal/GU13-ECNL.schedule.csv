@@ -1,0 +1,133 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2026-08-22,09:00 AM,Group Play,MVLA ECNL G2013/14,6,1,Stanislaus Surf - ECNL G2013/14,Graham Middle School,Turf,On Time,1094390
+2026-08-22,10:00 AM,Group Play,Santa Rosa United ECNL G2013/14,1,0,COSC ECNL G2013/14,Trione Fields,Trione West,On Time,1094402
+2026-08-22,02:00 PM,Group Play,Davis Legacy ECNL G2013/14,1,4,Mustang SC ECNL G2013/14,Davis Legacy Soccer Complex,Field 11,On Time,1094378
+2026-08-22,04:00 PM,Group Play,Force (CA) ECNL G2013/14,1,1,Marin FC ECNL G2013/14,John Mise Field,Field 1,On Time,1094384
+2026-08-23,03:30 PM,Group Play,Placer United ECNL G2013/14,2,2,San Juan SC ECNL G2013/14,Placer Valley Soccer Complex,Field 10,On Time,1094396
+2026-08-29,TBD,Group Play,Mustang SC ECNL G2013/14,,,Force (CA) ECNL G2013/14,,,On Time,1094426
+2026-08-29,09:00 AM,Group Play,Pleasanton RAGE ECNL G2013/14,,,San Juan SC ECNL G2013/14,Val Vista,Field 2,On Time,1094438
+2026-08-29,11:00 AM,Group Play,Marin FC ECNL G2013/14,,,Bay Area Surf - ECNL G2013/14,College of Marin,Stadium,On Time,1094420
+2026-08-29,12:00 PM,Group Play,COSC ECNL G2013/14,,,Stanislaus Surf - ECNL G2013/14,Edison High School Fields,field 2,On Time,1094408
+2026-08-29,02:00 PM,Group Play,Davis Legacy ECNL G2013/14,,,MVLA ECNL G2013/14,Davis Legacy Soccer Complex,Field 11,On Time,1094414
+2026-08-29,02:00 PM,Group Play,Placer United ECNL G2013/14,,,Santa Rosa United ECNL G2013/14,Placer Valley Soccer Complex,Field 6,On Time,1094432
+2026-08-30,TBD,Group Play,Bay Area Surf - ECNL G2013/14,,,Santa Rosa United ECNL G2013/14,,,On Time,1094444
+2026-08-30,09:00 AM,Group Play,Force (CA) ECNL G2013/14,,,Placer United ECNL G2013/14,De Anza College,Stadium Field,On Time,1094456
+2026-08-30,11:00 AM,Group Play,Marin FC ECNL G2013/14,,,COSC ECNL G2013/14,College of Marin,Stadium,On Time,1094462
+2026-08-30,01:00 PM,Group Play,San Juan SC ECNL G2013/14,,,Stanislaus Surf - ECNL G2013/14,Tiemann Law Firm Fields at San Juan Soccer Complex,Black Field,On Time,1094474
+2026-08-30,02:00 PM,Group Play,Davis Legacy ECNL G2013/14,,,Pleasanton RAGE ECNL G2013/14,Davis Legacy Soccer Complex,Field 11,On Time,1094450
+2026-08-30,03:00 PM,Group Play,Mustang SC ECNL G2013/14,,,MVLA ECNL G2013/14,Provident Field @ MSC, Lower,On Time,1094468
+2026-09-12,TBD,Group Play,Mustang SC ECNL G2013/14,,,Bay Area Surf - ECNL G2013/14,,,On Time,1094492
+2026-09-12,TBD,Group Play,MVLA ECNL G2013/14,,,Marin FC ECNL G2013/14,,,On Time,1094498
+2026-09-12,10:00 AM,Group Play,COSC ECNL G2013/14,,,Force (CA) ECNL G2013/14,Edison High School Fields,field 2,On Time,1094480
+2026-09-12,10:00 AM,Group Play,Davis Legacy ECNL G2013/14,,,Placer United ECNL G2013/14,Davis Legacy Soccer Complex,Field 10,On Time,1094486
+2026-09-12,11:00 AM,Group Play,Pleasanton RAGE ECNL G2013/14,,,Stanislaus Surf - ECNL G2013/14,Val Vista,Field 2,On Time,1094504
+2026-09-12,01:00 PM,Group Play,San Juan SC ECNL G2013/14,,,Santa Rosa United ECNL G2013/14,Tiemann Law Firm Fields at San Juan Soccer Complex,Black Field,On Time,1094510
+2026-09-19,11:45 AM,Group Play,Marin FC ECNL G2013/14,,,Mustang SC ECNL G2013/14,Terra Linda High School,Stadium,On Time,1094528
+2026-09-19,01:00 PM,Group Play,San Juan SC ECNL G2013/14,,,Bay Area Surf - ECNL G2013/14,Tiemann Law Firm Fields at San Juan Soccer Complex,Black Field,On Time,1094534
+2026-09-19,01:00 PM,Group Play,Santa Rosa United ECNL G2013/14,,,Pleasanton RAGE ECNL G2013/14,Trione Fields,Trione East,On Time,1094540
+2026-09-19,02:00 PM,Group Play,Davis Legacy ECNL G2013/14,,,COSC ECNL G2013/14,Davis Legacy Soccer Complex,Field 11,On Time,1094516
+2026-09-19,03:00 PM,Group Play,Force (CA) ECNL G2013/14,,,MVLA ECNL G2013/14,Prospect High School,Stadium Field,On Time,1094522
+2026-09-19,06:00 PM,Group Play,Stanislaus Surf - ECNL G2013/14,,,Placer United ECNL G2013/14,Thomas Downey High School,Field 1,On Time,1094546
+2026-09-20,TBD,Group Play,Bay Area Surf - ECNL G2013/14,,,Stanislaus Surf - ECNL G2013/14,,,On Time,1094552
+2026-09-20,TBD,Group Play,Pleasanton RAGE ECNL G2013/14,,,Marin FC ECNL G2013/14,,,On Time,1094576
+2026-09-20,TBD,Group Play,San Juan SC ECNL G2013/14,,,Force (CA) ECNL G2013/14,,,On Time,1094582
+2026-09-20,10:00 AM,Group Play,COSC ECNL G2013/14,,,MVLA ECNL G2013/14,Edison High School Fields,field 2,On Time,1094558
+2026-09-20,10:00 AM,Group Play,Placer United ECNL G2013/14,,,Mustang SC ECNL G2013/14,Placer Valley Soccer Complex,Field 6,On Time,1094570
+2026-09-20,02:00 PM,Group Play,Davis Legacy ECNL G2013/14,,,Santa Rosa United ECNL G2013/14,Davis Legacy Soccer Complex,Field 11,On Time,1094564
+2026-09-26,TBD,Group Play,Force (CA) ECNL G2013/14,,,Bay Area Surf - ECNL G2013/14,,,On Time,1094594
+2026-09-26,TBD,Group Play,Mustang SC ECNL G2013/14,,,Stanislaus Surf - ECNL G2013/14,,,On Time,1094606
+2026-09-26,TBD,Group Play,MVLA ECNL G2013/14,,,Santa Rosa United ECNL G2013/14,,,On Time,1094612
+2026-09-26,10:00 AM,Group Play,COSC ECNL G2013/14,,,San Juan SC ECNL G2013/14,Edison High School Fields,field 2,On Time,1094588
+2026-09-26,12:00 PM,Group Play,Placer United ECNL G2013/14,,,Pleasanton RAGE ECNL G2013/14,Placer Valley Soccer Complex,Field 6,On Time,1094618
+2026-09-26,03:00 PM,Group Play,Marin FC ECNL G2013/14,,,Davis Legacy ECNL G2013/14,College of Marin,Stadium,On Time,1094600
+2026-09-27,TBD,Group Play,Bay Area Surf - ECNL G2013/14,,,Placer United ECNL G2013/14,,,On Time,1094624
+2026-09-27,TBD,Group Play,Force (CA) ECNL G2013/14,,,Davis Legacy ECNL G2013/14,,,On Time,1094630
+2026-09-27,11:00 AM,Group Play,Santa Rosa United ECNL G2013/14,,,Mustang SC ECNL G2013/14,Trione Fields,Trione West,On Time,1094648
+2026-09-27,01:00 PM,Group Play,San Juan SC ECNL G2013/14,,,MVLA ECNL G2013/14,Tiemann Law Firm Fields at San Juan Soccer Complex,Black Field,On Time,1094642
+2026-09-27,01:40 PM,Group Play,Stanislaus Surf - ECNL G2013/14,,,Marin FC ECNL G2013/14,Mary Grogan Community Park,field 4,On Time,1094654
+2026-09-27,03:00 PM,Group Play,Pleasanton RAGE ECNL G2013/14,,,COSC ECNL G2013/14,Val Vista,Field 2,On Time,1094636
+2026-10-03,TBD,Group Play,Force (CA) ECNL G2013/14,,,Stanislaus Surf - ECNL G2013/14,,,On Time,1094672
+2026-10-03,TBD,Group Play,Mustang SC ECNL G2013/14,,,San Juan SC ECNL G2013/14,,,On Time,1094684
+2026-10-03,TBD,Group Play,MVLA ECNL G2013/14,,,Pleasanton RAGE ECNL G2013/14,,,On Time,1094690
+2026-10-03,10:00 AM,Group Play,Davis Legacy ECNL G2013/14,,,Bay Area Surf - ECNL G2013/14,Davis Legacy Soccer Complex,Field 9,On Time,1094666
+2026-10-03,01:00 PM,Group Play,San Juan SC ECNL G2013/14,,,Mustang SC ECNL G2013/14,Tiemann Law Firm Fields at San Juan Soccer Complex,White Field,On Time,1095080
+2026-10-03,02:00 PM,Group Play,COSC ECNL G2013/14,,,Placer United ECNL G2013/14,Edison High School Fields,field 2,On Time,1094660
+2026-10-03,03:15 PM,Group Play,Marin FC ECNL G2013/14,,,Santa Rosa United ECNL G2013/14,College of Marin,Stadium,On Time,1094678
+2026-10-17,TBD,Group Play,Bay Area Surf - ECNL G2013/14,,,COSC ECNL G2013/14,,,On Time,1094696
+2026-10-17,11:00 AM,Group Play,San Juan SC ECNL G2013/14,,,Marin FC ECNL G2013/14,Tiemann Law Firm Fields at San Juan Soccer Complex,Black Field,On Time,1094720
+2026-10-17,11:00 AM,Group Play,Santa Rosa United ECNL G2013/14,,,Force (CA) ECNL G2013/14,Trione Fields,Trione West,On Time,1094726
+2026-10-17,12:00 PM,Group Play,Placer United ECNL G2013/14,,,MVLA ECNL G2013/14,Placer Valley Soccer Complex,Field 6,On Time,1094708
+2026-10-17,01:00 PM,Group Play,Pleasanton RAGE ECNL G2013/14,,,Mustang SC ECNL G2013/14,Val Vista,Field 2,On Time,1094714
+2026-10-17,02:00 PM,Group Play,Davis Legacy ECNL G2013/14,,,Stanislaus Surf - ECNL G2013/14,Davis Legacy Soccer Complex,Field 9,On Time,1094702
+2026-10-24,TBD,Group Play,Bay Area Surf - ECNL G2013/14,,,MVLA ECNL G2013/14,,,On Time,1094732
+2026-10-24,TBD,Group Play,Force (CA) ECNL G2013/14,,,Pleasanton RAGE ECNL G2013/14,,,On Time,1094744
+2026-10-24,TBD,Group Play,Mustang SC ECNL G2013/14,,,COSC ECNL G2013/14,,,On Time,1094756
+2026-10-24,01:00 PM,Group Play,Marin FC ECNL G2013/14,,,Placer United ECNL G2013/14,College of Marin,Stadium,On Time,1094750
+2026-10-24,02:00 PM,Group Play,Davis Legacy ECNL G2013/14,,,San Juan SC ECNL G2013/14,Davis Legacy Soccer Complex,Field 9,On Time,1094738
+2026-10-24,02:00 PM,Group Play,Santa Rosa United ECNL G2013/14,,,Stanislaus Surf - ECNL G2013/14,Trione Fields,Trione East,On Time,1094762
+2026-10-25,TBD,Group Play,Mustang SC ECNL G2013/14,,,Davis Legacy ECNL G2013/14,,,On Time,1094780
+2026-10-25,09:00 AM,Group Play,Marin FC ECNL G2013/14,,,Force (CA) ECNL G2013/14,College of Marin,Stadium,On Time,1094774
+2026-10-25,09:00 AM,Group Play,Pleasanton RAGE ECNL G2013/14,,,Bay Area Surf - ECNL G2013/14,Val Vista,Field 2,On Time,1094786
+2026-10-25,10:00 AM,Group Play,COSC ECNL G2013/14,,,Santa Rosa United ECNL G2013/14,Edison High School Fields,field 2,On Time,1094768
+2026-10-25,11:30 AM,Group Play,Stanislaus Surf - ECNL G2013/14,,,MVLA ECNL G2013/14,Mary Grogan Community Park,field 4,On Time,1094798
+2026-10-25,01:00 PM,Group Play,San Juan SC ECNL G2013/14,,,Placer United ECNL G2013/14,Tiemann Law Firm Fields at San Juan Soccer Complex,Black Field,On Time,1094792
+2026-10-31,TBD,Group Play,Bay Area Surf - ECNL G2013/14,,,Mustang SC ECNL G2013/14,,,On Time,1094804
+2026-10-31,TBD,Group Play,Force (CA) ECNL G2013/14,,,COSC ECNL G2013/14,,,On Time,1094810
+2026-10-31,12:00 PM,Group Play,Placer United ECNL G2013/14,,,Davis Legacy ECNL G2013/14,Whitney High School,Stadium,On Time,1094822
+2026-10-31,01:00 PM,Group Play,Santa Rosa United ECNL G2013/14,,,San Juan SC ECNL G2013/14,Trione Fields,Trione East,On Time,1094828
+2026-10-31,02:40 PM,Group Play,Marin FC ECNL G2013/14,,,MVLA ECNL G2013/14,College of Marin,Stadium,On Time,1094816
+2026-10-31,06:00 PM,Group Play,Stanislaus Surf - ECNL G2013/14,,,Pleasanton RAGE ECNL G2013/14,Thomas Downey High School,Field 1,On Time,1094834
+2026-11-07,TBD,Group Play,Bay Area Surf - ECNL G2013/14,,,San Juan SC ECNL G2013/14,,,On Time,1094840
+2026-11-07,TBD,Group Play,Mustang SC ECNL G2013/14,,,Marin FC ECNL G2013/14,,,On Time,1094852
+2026-11-07,TBD,Group Play,MVLA ECNL G2013/14,,,Force (CA) ECNL G2013/14,,,On Time,1094858
+2026-11-07,10:00 AM,Group Play,COSC ECNL G2013/14,,,Davis Legacy ECNL G2013/14,Edison High School Fields,field 2,On Time,1094846
+2026-11-07,02:00 PM,Group Play,Placer United ECNL G2013/14,,,Stanislaus Surf - ECNL G2013/14,Placer Valley Soccer Complex,Field 6,On Time,1094864
+2026-11-07,03:00 PM,Group Play,Pleasanton RAGE ECNL G2013/14,,,Santa Rosa United ECNL G2013/14,Stanford Sports Complex,East,On Time,1094870
+2026-11-21,TBD,Group Play,Bay Area Surf - ECNL G2013/14,,,Pleasanton RAGE ECNL G2013/14,,,On Time,1094876
+2027-03-20,TBD,Group Play,MVLA ECNL G2013/14,,,Marin FC ECNL G2013/14,,,On Time,1094888
+2027-03-20,TBD,Group Play,Pleasanton RAGE ECNL G2013/14,,,Davis Legacy ECNL G2013/14,,,On Time,1094900
+2027-03-20,TBD,Group Play,Santa Rosa United ECNL G2013/14,,,Bay Area Surf - ECNL G2013/14,,,On Time,1094906
+2027-03-20,09:00 AM,Group Play,Placer United ECNL G2013/14,,,Force (CA) ECNL G2013/14,Placer Valley Soccer Complex,Field 5,On Time,1094894
+2027-03-20,10:00 AM,Group Play,COSC ECNL G2013/14,,,Marin FC ECNL G2013/14,Edison High School Fields,field 2,On Time,1094882
+2027-03-20,06:00 PM,Group Play,Stanislaus Surf - ECNL G2013/14,,,San Juan SC ECNL G2013/14,Thomas Downey High School,Field 1,On Time,1094912
+2027-03-21,TBD,Group Play,Bay Area Surf - ECNL G2013/14,,,Marin FC ECNL G2013/14,,,On Time,1094918
+2027-03-21,TBD,Group Play,Force (CA) ECNL G2013/14,,,Mustang SC ECNL G2013/14,,,On Time,1094924
+2027-03-21,TBD,Group Play,MVLA ECNL G2013/14,,,Davis Legacy ECNL G2013/14,,,On Time,1094930
+2027-03-21,TBD,Group Play,San Juan SC ECNL G2013/14,,,Pleasanton RAGE ECNL G2013/14,,,On Time,1094936
+2027-03-21,TBD,Group Play,Santa Rosa United ECNL G2013/14,,,Placer United ECNL G2013/14,,,On Time,1094942
+2027-03-21,12:40 PM,Group Play,Stanislaus Surf - ECNL G2013/14,,,COSC ECNL G2013/14,Mary Grogan Community Park,Field 3,On Time,1094948
+2027-04-10,TBD,Group Play,Force (CA) ECNL G2013/14,,,San Juan SC ECNL G2013/14,,,On Time,1094954
+2027-04-10,TBD,Group Play,Marin FC ECNL G2013/14,,,Pleasanton RAGE ECNL G2013/14,,,On Time,1094960
+2027-04-10,TBD,Group Play,Mustang SC ECNL G2013/14,,,Placer United ECNL G2013/14,,,On Time,1094966
+2027-04-10,TBD,Group Play,MVLA ECNL G2013/14,,,COSC ECNL G2013/14,,,On Time,1094972
+2027-04-10,TBD,Group Play,Santa Rosa United ECNL G2013/14,,,Davis Legacy ECNL G2013/14,,,On Time,1094978
+2027-04-10,06:00 PM,Group Play,Stanislaus Surf - ECNL G2013/14,,,Bay Area Surf - ECNL G2013/14,Thomas Downey High School,Field 1,On Time,1094984
+2027-04-17,TBD,Group Play,Marin FC ECNL G2013/14,,,Stanislaus Surf - ECNL G2013/14,,,On Time,1095002
+2027-04-17,TBD,Group Play,Mustang SC ECNL G2013/14,,,Santa Rosa United ECNL G2013/14,,,On Time,1095008
+2027-04-17,TBD,Group Play,MVLA ECNL G2013/14,,,San Juan SC ECNL G2013/14,,,On Time,1095014
+2027-04-17,10:00 AM,Group Play,COSC ECNL G2013/14,,,Pleasanton RAGE ECNL G2013/14,Edison High School Fields,field 2,On Time,1094990
+2027-04-17,11:00 AM,Group Play,Placer United ECNL G2013/14,,,Bay Area Surf - ECNL G2013/14,Placer Valley Soccer Complex,Field 5,On Time,1095020
+2027-04-17,02:00 PM,Group Play,Davis Legacy ECNL G2013/14,,,Force (CA) ECNL G2013/14,Davis Legacy Soccer Complex,Field 9,On Time,1094996
+2027-04-18,TBD,Group Play,Bay Area Surf - ECNL G2013/14,,,Force (CA) ECNL G2013/14,,,On Time,1095026
+2027-04-18,TBD,Group Play,Pleasanton RAGE ECNL G2013/14,,,Placer United ECNL G2013/14,,,On Time,1095038
+2027-04-18,TBD,Group Play,San Juan SC ECNL G2013/14,,,COSC ECNL G2013/14,,,On Time,1095044
+2027-04-18,TBD,Group Play,Santa Rosa United ECNL G2013/14,,,MVLA ECNL G2013/14,,,On Time,1095050
+2027-04-18,12:40 PM,Group Play,Stanislaus Surf - ECNL G2013/14,,,Mustang SC ECNL G2013/14,Mary Grogan Community Park,Field 3,On Time,1095056
+2027-04-18,02:00 PM,Group Play,Davis Legacy ECNL G2013/14,,,Marin FC ECNL G2013/14,Davis Legacy Soccer Complex,Field 9,On Time,1095032
+2027-04-24,TBD,Group Play,Bay Area Surf - ECNL G2013/14,,,Davis Legacy ECNL G2013/14,,,On Time,1095062
+2027-04-24,TBD,Group Play,Pleasanton RAGE ECNL G2013/14,,,MVLA ECNL G2013/14,,,On Time,1095074
+2027-04-24,TBD,Group Play,Santa Rosa United ECNL G2013/14,,,Marin FC ECNL G2013/14,,,On Time,1095086
+2027-04-24,12:00 PM,Group Play,Placer United ECNL G2013/14,,,COSC ECNL G2013/14,Placer Valley Soccer Complex,Field 6,On Time,1095068
+2027-04-24,06:00 PM,Group Play,Stanislaus Surf - ECNL G2013/14,,,Force (CA) ECNL G2013/14,Thomas Downey High School,Field 1,On Time,1095092
+2027-05-01,TBD,Group Play,Force (CA) ECNL G2013/14,,,Santa Rosa United ECNL G2013/14,,,On Time,1095104
+2027-05-01,TBD,Group Play,Marin FC ECNL G2013/14,,,San Juan SC ECNL G2013/14,,,On Time,1095110
+2027-05-01,TBD,Group Play,Mustang SC ECNL G2013/14,,,Pleasanton RAGE ECNL G2013/14,,,On Time,1095116
+2027-05-01,TBD,Group Play,MVLA ECNL G2013/14,,,Placer United ECNL G2013/14,,,On Time,1095122
+2027-05-01,10:00 AM,Group Play,COSC ECNL G2013/14,,,Bay Area Surf - ECNL G2013/14,Edison High School Fields,field 2,On Time,1095098
+2027-05-01,06:00 PM,Group Play,Stanislaus Surf - ECNL G2013/14,,,Davis Legacy ECNL G2013/14,Thomas Downey High School,Field 1,On Time,1095128
+2027-05-08,TBD,Group Play,MVLA ECNL G2013/14,,,Bay Area Surf - ECNL G2013/14,,,On Time,1095140
+2027-05-08,TBD,Group Play,Placer United ECNL G2013/14,,,Marin FC ECNL G2013/14,,,On Time,1095146
+2027-05-08,TBD,Group Play,Pleasanton RAGE ECNL G2013/14,,,Force (CA) ECNL G2013/14,,,On Time,1095152
+2027-05-08,TBD,Group Play,San Juan SC ECNL G2013/14,,,Davis Legacy ECNL G2013/14,,,On Time,1095158
+2027-05-08,10:00 AM,Group Play,COSC ECNL G2013/14,,,Mustang SC ECNL G2013/14,Edison High School Fields,field 2,On Time,1095134
+2027-05-08,01:40 PM,Group Play,Stanislaus Surf - ECNL G2013/14,,,Santa Rosa United ECNL G2013/14,Mary Grogan Community Park,Field 3,On Time,1095164

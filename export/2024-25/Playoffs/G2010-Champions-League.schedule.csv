@@ -1,0 +1,81 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2025-06-27,08:00 AM,Group Play,Penn Fusion SA ECNL G10,0,1,Sting Royal ECNL G10,Surf Sports Park,Field 03,On Time,795100
+2025-06-27,08:00 AM,Group Play,Scorpions SC ECNL G10,0,1,Charlotte Independence ECNL G10 ,Surf Sports Park,Field 04,On Time,795101
+2025-06-27,08:20 AM,Group Play,FC Stars Blue ECNL G10,2,1,So Cal Blues SC - So Cal Blues ECNL G10,Surf Sports Park,Field 08,On Time,795070
+2025-06-27,08:20 AM,Group Play,Concorde Fire Platinum ECNL G10,2,2,Mustang SC ECNL G10,Surf Sports Park,Field 10,On Time,795071
+2025-06-27,10:30 AM,Group Play,GSA ECNL G10,2,2,Indy Eleven Pro Academy ECNL G10,Surf Sports Park,Field 18,On Time,795094
+2025-06-27,10:30 AM,Group Play,Legends FC ECNL G10,1,0,Real Colorado - National ECNL G10,Surf Sports Park,Field 16,On Time,795095
+2025-06-27,10:30 AM,Group Play,Charlotte SA ECNL G10,1,1,Bethesda SC ECNL G10,Surf Sports Park,Field 17,On Time,795124
+2025-06-27,10:30 AM,Group Play,FL Premier FC ECNL G10,2,2,Nationals Soccer Club - Nationals ECNL G10,Surf Sports Park,Field 15,On Time,795125
+2025-06-27,11:40 AM,Group Play,SOLAR SC ECNL G10,2,0,Minnesota Thunder ECNL G10,Surf Sports Park,Field 05,On Time,795058
+2025-06-27,11:40 AM,Group Play,PDA Blue ECNL G2010,3,1,FC Prime ECNL G10,Surf Sports Park,Field 06,On Time,795059
+2025-06-27,12:00 PM,Group Play,WNY Flash ECNL G10,0,2,Beach FC (CA) ECNL G10,Surf Sports Park,Field 08,On Time,795088
+2025-06-27,12:00 PM,Group Play,Bay Area Surf ECNL G10,5,1,Atlanta Fire United ECNL G10,Surf Sports Park,Field 09,On Time,795089
+2025-06-27,12:20 PM,Group Play,Slammers FC HB Koge ECNL G10,3,1,SLSG Green ECNL G10,Surf Sports Park,Field 16,On Time,795082
+2025-06-27,12:20 PM,Group Play,Portland Thorns ECNL G10,1,1,FC Dallas ECNL G10,Surf Sports Park,Field 17,On Time,795083
+2025-06-27,01:50 PM,Group Play,SLSG Navy ECNL G10,3,0,Florida Krush ECNL G10,Surf Sports Park,Field 12,On Time,795119
+2025-06-27,02:10 PM,Group Play,FC Pride Elite ECNL G10,1,1,La Roca FC ECNL G10,Surf Sports Park,Field 15,On Time,795107
+2025-06-27,02:10 PM,Group Play,Michigan Hawks ECNL G10,1,0,Ohio Premier ECNL G10,Surf Sports Park,Field 14,On Time,795113
+2025-06-27,02:10 PM,Group Play,VDA ECNL G10,3,1,Pateadores ECNL G10,Surf Sports Park,Field 13,On Time,795118
+2025-06-27,03:40 PM,Group Play,Albion Hurricanes FC ECNL G10,3,2,LA Breakers FC ECNL G10,Surf Sports Park,Field 12,On Time,795065
+2025-06-27,03:40 PM,Group Play,Eclipse Select SC ECNL G10,1,0,Match Fit Academy ECNL G10,Surf Sports Park,Field 10,On Time,795076
+2025-06-27,03:40 PM,Group Play,San Diego Surf ECNL G10,6,1,World Class FC ECNL G10,Surf Sports Park,Field 11,On Time,795077
+2025-06-27,03:40 PM,Group Play,Eastside FC ECNL G10,0,1,SLAMMERS FC ECNL G10,Surf Sports Park,Field 07,On Time,795112
+2025-06-27,04:00 PM,Group Play,MVLA ECNL G10,4,1,SUSA FC ECNL G10,Surf Sports Park,Field 13,On Time,795064
+2025-06-27,04:00 PM,Group Play,Fairfax VA Union ECNL G10,2,2,OK Energy FC ECNL G10,Surf Sports Park,Field 14,On Time,795106
+2025-06-28,08:00 AM,Group Play,Indy Eleven Pro Academy ECNL G10,2,4,Legends FC ECNL G10,Surf Sports Park,Field 03,On Time,795096
+2025-06-28,08:00 AM,Group Play,GSA ECNL G10,0,3,Real Colorado - National ECNL G10,Surf Sports Park,Field 04,On Time,795097
+2025-06-28,08:40 AM,Group Play,OK Energy FC ECNL G10,1,3,FC Pride Elite ECNL G10,Surf Sports Park,Field 18,On Time,795108
+2025-06-28,10:10 AM,Group Play,So Cal Blues SC - So Cal Blues ECNL G10,1,4,Concorde Fire Platinum ECNL G10,Surf Sports Park,Field 09,On Time,795072
+2025-06-28,10:10 AM,Group Play,FC Stars Blue ECNL G10,1,1,Mustang SC ECNL G10,Surf Sports Park,Field 08,On Time,795073
+2025-06-28,10:30 AM,Group Play,Fairfax VA Union ECNL G10,2,2,La Roca FC ECNL G10,Surf Sports Park,Field 15,On Time,795109
+2025-06-28,12:00 PM,Group Play,MVLA ECNL G10,2,1,LA Breakers FC ECNL G10,Surf Sports Park,Field 08,On Time,795067
+2025-06-28,12:00 PM,Group Play,Beach FC (CA) ECNL G10,0,1,Bay Area Surf ECNL G10,Surf Sports Park,Field 09,On Time,795090
+2025-06-28,12:00 PM,Group Play,WNY Flash ECNL G10,1,3,Atlanta Fire United ECNL G10,Surf Sports Park,Field 07,On Time,795091
+2025-06-28,12:10 PM,Group Play,Sting Royal ECNL G10,1,1,Scorpions SC ECNL G10,Surf Sports Park,Field 14,On Time,795102
+2025-06-28,12:10 PM,Group Play,Penn Fusion SA ECNL G10,4,0,Charlotte Independence ECNL G10 ,Surf Sports Park,Field 13,On Time,795103
+2025-06-28,12:20 PM,Group Play,SUSA FC ECNL G10,1,3,Albion Hurricanes FC ECNL G10,Surf Sports Park,Field 18,On Time,795066
+2025-06-28,12:20 PM,Group Play,Bethesda SC ECNL G10,0,1,FL Premier FC ECNL G10,Surf Sports Park,Field 17,On Time,795126
+2025-06-28,12:20 PM,Group Play,Charlotte SA ECNL G10,1,0,Nationals Soccer Club - Nationals ECNL G10,Surf Sports Park,Field 16,On Time,795127
+2025-06-28,01:30 PM,Group Play,Slammers FC HB Koge ECNL G10,2,0,FC Dallas ECNL G10,Surf Sports Park,Field 01,On Time,795085
+2025-06-28,01:30 PM,Group Play,Eastside FC ECNL G10,2,2,Ohio Premier ECNL G10,Surf Sports Park,Field 03,On Time,795115
+2025-06-28,01:50 PM,Group Play,Match Fit Academy ECNL G10,0,4,San Diego Surf ECNL G10,Surf Sports Park,Field 09,On Time,795078
+2025-06-28,01:50 PM,Group Play,Eclipse Select SC ECNL G10,4,1,World Class FC ECNL G10,Surf Sports Park,Field 08,On Time,795079
+2025-06-28,01:50 PM,Group Play,SLSG Green ECNL G10,0,1,Portland Thorns ECNL G10,Surf Sports Park,Field 12,On Time,795084
+2025-06-28,01:50 PM,Group Play,SLAMMERS FC ECNL G10,2,2,Michigan Hawks ECNL G10,Surf Sports Park,Field 07,On Time,795114
+2025-06-28,02:10 PM,Group Play,Pateadores ECNL G10,2,4,SLSG Navy ECNL G10,Surf Sports Park,Field 13,On Time,795120
+2025-06-28,02:10 PM,Group Play,VDA ECNL G10,3,1,Florida Krush ECNL G10,Surf Sports Park,Field 14,On Time,795121
+2025-06-28,03:20 PM,Group Play,Minnesota Thunder ECNL G10,2,2,PDA Blue ECNL G2010,Surf Sports Park,Field 04,On Time,795060
+2025-06-28,03:20 PM,Group Play,SOLAR SC ECNL G10,5,0,FC Prime ECNL G10,Surf Sports Park,Field 02,On Time,795061
+2025-06-30,08:00 AM,Group Play,FC Prime ECNL G10,1,2,Minnesota Thunder ECNL G10,Surf Sports Park,Field 14,On Time,795062
+2025-06-30,08:00 AM,Group Play,SOLAR SC ECNL G10,1,0,PDA Blue ECNL G2010,Surf Sports Park,Field 07,On Time,795063
+2025-06-30,08:00 AM,Group Play,LA Breakers FC ECNL G10,0,3,SUSA FC ECNL G10,Surf Sports Park,Field 11,On Time,795068
+2025-06-30,08:00 AM,Group Play,MVLA ECNL G10,1,1,Albion Hurricanes FC ECNL G10,Surf Sports Park,Field 10,On Time,795069
+2025-06-30,08:00 AM,Group Play,Mustang SC ECNL G10,1,0,So Cal Blues SC - So Cal Blues ECNL G10,Surf Sports Park,Field 13,On Time,795074
+2025-06-30,08:00 AM,Group Play,FC Stars Blue ECNL G10,5,1,Concorde Fire Platinum ECNL G10,Surf Sports Park,Field 12,On Time,795075
+2025-06-30,08:00 AM,Group Play,World Class FC ECNL G10,2,0,Match Fit Academy ECNL G10,Surf Sports Park,Field 09,On Time,795080
+2025-06-30,08:00 AM,Group Play,Eclipse Select SC ECNL G10,0,3,San Diego Surf ECNL G10,Surf Sports Park,Field 08,On Time,795081
+2025-06-30,08:00 AM,Group Play,FC Dallas ECNL G10,6,0,SLSG Green ECNL G10,Surf Sports Park,Field 18,On Time,795086
+2025-06-30,08:00 AM,Group Play,Slammers FC HB Koge ECNL G10,3,1,Portland Thorns ECNL G10,Surf Sports Park,Field 15,On Time,795087
+2025-06-30,08:00 AM,Group Play,Atlanta Fire United ECNL G10,1,3,Beach FC (CA) ECNL G10,Surf Sports Park,Field 16,On Time,795092
+2025-06-30,08:00 AM,Group Play,WNY Flash ECNL G10,1,2,Bay Area Surf ECNL G10,Surf Sports Park,Field 17,On Time,795093
+2025-06-30,10:00 AM,Group Play,Real Colorado - National ECNL G10,5,0,Indy Eleven Pro Academy ECNL G10,Surf Sports Park,Field 02,On Time,795098
+2025-06-30,10:00 AM,Group Play,GSA ECNL G10,1,1,Legends FC ECNL G10,Surf Sports Park,Field 01,On Time,795099
+2025-06-30,10:00 AM,Group Play,Charlotte Independence ECNL G10 ,0,3,Sting Royal ECNL G10,Surf Sports Park,Field 05,On Time,795104
+2025-06-30,10:00 AM,Group Play,Penn Fusion SA ECNL G10,1,1,Scorpions SC ECNL G10,Surf Sports Park,Field 06,On Time,795105
+2025-06-30,10:00 AM,Group Play,La Roca FC ECNL G10,0,1,OK Energy FC ECNL G10,Surf Sports Park,Field 04,On Time,795110
+2025-06-30,10:00 AM,Group Play,Fairfax VA Union ECNL G10,3,2,FC Pride Elite ECNL G10,Surf Sports Park,Field 03,On Time,795111
+2025-06-30,10:00 AM,Group Play,Ohio Premier ECNL G10,0,7,SLAMMERS FC ECNL G10,Surf Sports Park,Field 08,On Time,795116
+2025-06-30,10:00 AM,Group Play,Eastside FC ECNL G10,0,4,Michigan Hawks ECNL G10,Surf Sports Park,Field 09,On Time,795117
+2025-06-30,10:00 AM,Group Play,Florida Krush ECNL G10,1,2,Pateadores ECNL G10,Surf Sports Park,Field 11,On Time,795122
+2025-06-30,10:00 AM,Group Play,VDA ECNL G10,1,1,SLSG Navy ECNL G10,Surf Sports Park,Field 10,On Time,795123
+2025-06-30,10:00 AM,Group Play,Nationals Soccer Club - Nationals ECNL G10,1,2,Bethesda SC ECNL G10,Surf Sports Park,Field 14,On Time,795128
+2025-06-30,10:00 AM,Group Play,Charlotte SA ECNL G10,1,0,FL Premier FC ECNL G10,Surf Sports Park,Field 07,On Time,795129
+2025-07-02,08:00 AM,Bracket,SOLAR SC ECNL G10,2,1,Albion Hurricanes FC ECNL G10,Surf Sports Park,Field 12,On Time,795130
+2025-07-02,08:00 AM,Bracket,MVLA ECNL G10,3,0,Real Colorado - National ECNL G10,Surf Sports Park,Field 11,On Time,795131
+2025-07-02,08:00 AM,Bracket,FC Stars Blue ECNL G10,4,0,VDA ECNL G10,Surf Sports Park,Field 10,On Time,795132
+2025-07-02,08:00 AM,Bracket,San Diego Surf ECNL G10,0,3,Michigan Hawks ECNL G10,Surf Sports Park,Field 09,On Time,795133
+2025-07-02,08:00 AM,Bracket,Slammers FC HB Koge ECNL G10,3,0,Charlotte SA ECNL G10,Surf Sports Park,Field 15,On Time,795134
+2025-07-02,08:00 AM,Bracket,Bay Area Surf ECNL G10,2,0,SLSG Navy ECNL G10,Surf Sports Park,Field 16,On Time,795135
+2025-07-02,08:00 AM,Bracket,Legends FC ECNL G10,4,1,SLAMMERS FC ECNL G10,Surf Sports Park,Field 08,On Time,795136
+2025-07-02,08:00 AM,Bracket,Sting Royal ECNL G10,0,1,Fairfax VA Union ECNL G10,Surf Sports Park,Field 14,On Time,795137

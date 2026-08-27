@@ -1,0 +1,61 @@
+rank,team,club,teamID,gp,w,l,d,pts,ppg,gf,ga,gd,division,flight
+1,Richmond United ECNL G08/07,Richmond United,46822,9,8,1,0,24,2.67,30,14,16,G2008/2007,ECNL
+2,VDA ECNL G08/07,Virginia Development Academy,46823,9,7,2,0,21,2.33,43,9,34,G2008/2007,ECNL
+3,Charlotte SA ECNL G08/07,Charlotte Soccer Academy,112520,9,6,2,1,19,2.11,35,15,20,G2008/2007,ECNL
+4,NC Courage ECNL G08/07,NC Courage Academy,44728,9,6,3,0,18,2.0,24,10,14,G2008/2007,ECNL
+5,Fairfax VA Union ECNL G08/07,Fairfax Virginia Union,96994,9,5,3,1,16,1.78,18,20,-2,G2008/2007,ECNL
+6,Wilmington Hammerheads ECNL G08/07,Wilmington Hammerheads,46818,9,4,3,2,14,1.56,18,19,-1,G2008/2007,ECNL
+7,Arlington Soccer ECNL G08/07,Arlington Soccer Association,82194,9,4,5,0,12,1.33,16,26,-10,G2008/2007,ECNL
+8,Beach FC (VA) ECNL G08/07,No Club Selection,67846,9,2,7,0,6,0.67,10,36,-26,G2008/2007,ECNL
+9,NC Fusion ECNL G08/07,NC Fusion,13888,9,1,8,0,3,0.33,7,36,-29,G2008/2007,ECNL
+10,NCFC Youth ECNL G08/07,NCFC Youth,45785,9,0,9,0,0,0.0,6,22,-16,G2008/2007,ECNL
+1,VDA ECNL G09,Virginia Development Academy,59474,9,6,0,3,21,2.33,25,9,16,G2009,ECNL
+2,Richmond United ECNL G09,Richmond United,59426,9,6,1,2,20,2.22,39,12,27,G2009,ECNL
+3,Charlotte SA ECNL G09,Charlotte Soccer Academy,59885,9,6,3,0,18,2.0,17,16,1,G2009,ECNL
+4,Arlington Soccer ECNL G09,Arlington Soccer Association,82196,9,4,3,2,14,1.56,16,9,7,G2009,ECNL
+5,NC Courage ECNL G09,NC Courage Academy,60108,9,3,2,4,13,1.44,13,13,0,G2009,ECNL
+6,Wilmington Hammerheads ECNL G09,Wilmington Hammerheads,59888,9,3,3,3,12,1.33,14,18,-4,G2009,ECNL
+7,NC Fusion ECNL G09,NC Fusion,50566,9,3,5,1,10,1.11,7,17,-10,G2009,ECNL
+8,Fairfax VA Union ECNL G09,Fairfax Virginia Union,96995,9,2,4,3,9,1.0,6,10,-4,G2009,ECNL
+9,Beach FC (VA) ECNL G09,No Club Selection,68414,9,2,5,2,8,0.89,5,21,-16,G2009,ECNL
+10,NCFC Youth ECNL G09,NCFC Youth,59930,9,0,9,0,0,0.0,3,20,-17,G2009,ECNL
+1,VDA ECNL G10,Virginia Development Academy,19656,9,9,0,0,27,3.0,40,7,33,G2010,ECNL
+2,Charlotte SA ECNL G10,Charlotte Soccer Academy,63697,9,8,1,0,24,2.67,34,12,22,G2010,ECNL
+3,NC Courage ECNL G10,NC Courage Academy,69433,9,6,3,0,18,2.0,25,21,4,G2010,ECNL
+4,Richmond United ECNL G10,Richmond United,62158,9,5,3,1,16,1.78,28,13,15,G2010,ECNL
+5,Arlington Soccer ECNL G10,Arlington Soccer Association,82198,9,4,3,2,14,1.56,19,12,7,G2010,ECNL
+6,Fairfax VA Union ECNL G10,Fairfax Virginia Union,96996,9,4,4,1,13,1.44,22,19,3,G2010,ECNL
+7,Wilmington Hammerheads ECNL G10,Wilmington Hammerheads,69446,9,2,6,1,7,0.78,12,37,-25,G2010,ECNL
+8,Beach FC (VA) ECNL G10,No Club Selection,67859,9,1,6,2,5,0.56,7,32,-25,G2010,ECNL
+9,NC Fusion ECNL G10,NC Fusion,69224,9,0,6,3,3,0.33,9,24,-15,G2010,ECNL
+10,NCFC Youth ECNL G10,NCFC Youth,69196,9,0,7,2,2,0.22,5,24,-19,G2010,ECNL
+1,Arlington Soccer ECNL G11,Arlington Soccer Association,82199,9,8,0,1,25,2.78,25,4,21,G2011,ECNL
+2,Richmond United ECNL G11,Richmond United,81703,9,7,1,1,22,2.44,22,7,15,G2011,ECNL
+3,Charlotte SA ECNL G11,Charlotte Soccer Academy,82098,9,6,2,1,19,2.11,31,6,25,G2011,ECNL
+4,NC Courage ECNL G11,NC Courage Academy,81852,9,6,2,1,19,2.11,24,6,18,G2011,ECNL
+5,VDA ECNL G11,Virginia Development Academy,81266,9,4,2,3,15,1.67,23,9,14,G2011,ECNL
+6,Fairfax VA Union ECNL G11,Fairfax Virginia Union,96997,9,3,5,1,10,1.11,14,18,-4,G2011,ECNL
+7,Beach FC (VA) ECNL G11,No Club Selection,67862,9,2,5,2,8,0.89,7,19,-12,G2011,ECNL
+8,NCFC Youth ECNL G11,NCFC Youth,80895,9,1,6,2,5,0.56,2,20,-18,G2011,ECNL
+9,NC Fusion ECNL G11,NC Fusion,82112,9,1,8,0,3,0.33,6,24,-18,G2011,ECNL
+10,Wilmington Hammerheads ECNL G11,Wilmington Hammerheads,78045,9,0,7,2,2,0.22,5,46,-41,G2011,ECNL
+1,Fairfax VA Union ECNL G12,Fairfax Virginia Union,96998,18,13,2,3,42,2.33,58,20,38,G2012,ECNL
+2,Arlington Soccer ECNL G12,Arlington Soccer Association,94064,18,12,1,5,41,2.28,50,18,32,G2012,ECNL
+3,Charlotte SA ECNL G12,Charlotte Soccer Academy,94387,18,12,3,3,39,2.17,45,13,32,G2012,ECNL
+4,NC Courage ECNL G12,NC Courage Academy,89643,18,9,5,4,31,1.72,36,22,14,G2012,ECNL
+5,Richmond United ECNL G12,Richmond United,95419,18,7,7,4,25,1.39,31,25,6,G2012,ECNL
+6,VDA ECNL G12,Virginia Development Academy,94863,18,4,8,6,18,1.0,15,31,-16,G2012,ECNL
+7,NC Fusion ECNL G12,NC Fusion,95059,18,3,7,8,17,0.94,11,29,-18,G2012,ECNL
+8,Wilmington Hammerheads ECNL G12,Wilmington Hammerheads,89644,18,4,12,2,14,0.78,19,41,-22,G2012,ECNL
+9,Beach FC (VA) ECNL G12,No Club Selection,94924,18,2,9,7,13,0.72,4,24,-20,G2012,ECNL
+10,NCFC Youth ECNL G12,NCFC Youth,94046,18,2,14,2,8,0.44,13,59,-46,G2012,ECNL
+1,Fairfax VA Union ECNL G13,Fairfax Virginia Union,105966,18,18,0,0,54,3.0,49,9,40,G2013,ECNL
+2,Charlotte SA ECNL G13,Charlotte Soccer Academy,112519,18,12,3,3,39,2.17,47,12,35,G2013,ECNL
+3,Arlington Soccer ECNL G13,Arlington Soccer Association,115423,18,11,6,1,34,1.89,29,21,8,G2013,ECNL
+4,Wilmington Hammerheads ECNL G13,Wilmington Hammerheads,99310,18,9,6,3,30,1.67,27,23,4,G2013,ECNL
+5,Richmond United ECNL G13,Richmond United,115037,18,7,7,4,25,1.39,18,13,5,G2013,ECNL
+6,VDA ECNL G13,Virginia Development Academy,113303,18,6,7,5,23,1.28,29,22,7,G2013,ECNL
+7,NC Courage ECNL G13,NC Courage Academy,105590,18,7,9,2,23,1.28,36,35,1,G2013,ECNL
+8,NCFC Youth ECNL G13,NCFC Youth,98907,18,5,8,5,20,1.11,19,26,-7,G2013,ECNL
+9,Beach FC (VA) ECNL G13,No Club Selection,112504,18,1,13,4,7,0.39,12,40,-28,G2013,ECNL
+10,NC Fusion ECNL G13,NC Fusion,112976,18,0,17,1,1,0.06,8,73,-65,G2013,ECNL

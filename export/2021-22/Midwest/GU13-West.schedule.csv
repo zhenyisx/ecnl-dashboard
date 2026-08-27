@@ -1,0 +1,69 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2021-09-11,11:30 AM,Bracket,SLSG Navy ECNL GU13,0,0,Minnesota Thunder ECNL GU13,O'Fallon Sports Park,Field 7,On Time,270697
+2021-09-11,03:30 PM,Bracket,SLSG Green ECNL GU13,1,0,Sporting Blue Valley ECNL GU13,O'Fallon Family Sportspark,Field 7,On Time,270689
+2021-09-12,08:00 AM,Bracket,SLSG Green ECNL GU13,0,1,Minnesota Thunder ECNL GU13,O'Fallon Family Sportspark,Field 7,On Time,270690
+2021-09-12,11:30 AM,Bracket,SLSG Navy ECNL GU13,3,1,Sporting Blue Valley ECNL GU13,O'Fallon Sports Park,Field 7,On Time,270698
+2021-09-18,09:00 AM,Bracket,Kansas City Athletics ECNL GU13,3,1,Sporting Blue Valley ECNL GU13,Pinnacle National Development Center,Field 2,On Time,270634
+2021-09-18,02:00 PM,Bracket,Gretna Elite Academy ECNL GU13,6,0,Sporting Iowa ECNL GU13,"College of St. Mary Soccer Field, Heritage Park",Field 1,On Time,270624
+2021-09-19,08:30 AM,Bracket,SLSG Green ECNL GU13,0,1,SLSG Navy ECNL GU13,"Soccer Park (Fenton, MO)",Field 1,On Time,270691
+2021-09-25,08:00 AM,Bracket,Minnesota Thunder ECNL GU13,0,1,Eclipse Select SC ECNL GU13,Academy of Holy Angels,South Turf 1 (11v11),On Time,270680
+2021-09-25,08:30 AM,Bracket,Gretna Elite Academy ECNL GU13,4,3,SLSG Green ECNL GU13,Papillion Landing ,#1 Turf,On Time,270625
+2021-09-25,08:30 AM,Bracket,SLSG Navy ECNL GU13,6,0,Sporting Iowa ECNL GU13,College St Marys,Field 1,On Time,270699
+2021-09-26,08:30 AM,Bracket,Sporting Iowa ECNL GU13,1,2,SLSG Green ECNL GU13,Hidden Valley Soccer Complex,Field 7,On Time,270716
+2021-09-26,10:00 AM,Bracket,Kansas City Athletics ECNL GU13,3,1,Midwest United FC ECNL GU13,Clawson High School,Field 1,On Time,270635
+2021-09-26,11:45 AM,Bracket,Gretna Elite Academy ECNL GU13,0,4,SLSG Navy ECNL GU13,"College of St. Mary Soccer Field, Heritage Park",Field 1,On Time,270626
+2021-10-09,08:00 AM,Bracket,Minnesota Thunder ECNL GU13,4,1,Eclipse Select SC North ECNL GU13,Academy of Holy Angels,South Turf 1 (11v11),On Time,270681
+2021-10-09,02:00 PM,Bracket,Kansas City Athletics ECNL GU13,3,0,Sporting Iowa ECNL GU13,MidAmerican Energy - Rec Plex,Field 3,On Time,270636
+2021-10-09,03:45 PM,Bracket,Gretna Elite Academy ECNL GU13,1,1,Sporting Blue Valley ECNL GU13,"College of St. Mary Soccer Field, Heritage Park",Field 1,On Time,270627
+2021-10-10,08:30 AM,Bracket,Sporting Blue Valley ECNL GU13,4,0,Sporting Iowa ECNL GU13,Papillion Landing,Field 1,On Time,270707
+2021-10-10,12:00 PM,Bracket,Gretna Elite Academy ECNL GU13,1,2,Kansas City Athletics ECNL GU13,Papillion Landing ,#1 Turf,On Time,270628
+2021-10-16,09:00 AM,Bracket,Sporting Iowa ECNL GU13,0,7,Liverpool FC IA Michigan ECNL GU13,MidAmerican Energy Company RecPlex,Field 2,On Time,270717
+2021-10-17,08:00 AM,Bracket,Sporting Iowa ECNL GU13,0,5,Midwest United FC ECNL GU13,Hidden Valley Soccer Complex,Field 5,On Time,270718
+2021-10-17,10:00 AM,Bracket,Gretna Elite Academy ECNL GU13,2,1,Liverpool FC IA Michigan ECNL GU13,MidAmerican Engery Company RecPlex,Rec Plex #2,On Time,270629
+2021-10-23,09:00 AM,Bracket,Sporting Blue Valley ECNL GU13,1,2,Minnesota Thunder ECNL GU13,Scheels Overland Park Soccer Complex,Field 12,On Time,270708
+2021-10-23,01:45 PM,Bracket,Kansas City Athletics ECNL GU13,1,0,FC Wisconsin ECNL GU13,Olathe District Activity Complex,Soccer Field,On Time,270637
+2021-10-24,09:00 AM,Bracket,Kansas City Athletics ECNL GU13,1,1,Minnesota Thunder ECNL GU13,Olathe District Activity Complex,Soccer Field,On Time,270638
+2021-10-24,09:00 AM,Bracket,Sporting Blue Valley ECNL GU13,4,0,FC Wisconsin ECNL GU13,Scheels Overland Park Soccer Complex,Field 1,On Time,270709
+2021-10-30,04:30 PM,Bracket,Kansas City Athletics ECNL GU13,1,0,SLSG Green ECNL GU13,Olathe District Activity Complex,Soccer Field,On Time,270639
+2021-11-06,TBD,Bracket,Sporting Iowa ECNL GU13,0,4,Minnesota Thunder ECNL GU13,,,On Time,270719
+2021-11-06,08:30 AM,Bracket,Gretna Elite Academy ECNL GU13,0,1,Eclipse Select SC North ECNL GU13,Papillion LaVista Foundation Field (Papio South),Field 1,On Time,270630
+2021-11-07,TBD,Bracket,Sporting Iowa ECNL GU13,0,1,Eclipse Select SC North ECNL GU13,,,On Time,270720
+2021-11-07,11:45 AM,Bracket,Gretna Elite Academy ECNL GU13,0,0,Minnesota Thunder ECNL GU13,Papillion LaVista Foundation Field (Papio South),Field 1,On Time,270631
+2021-11-20,12:00 PM,Bracket,SLSG Navy ECNL GU13,3,0,Kansas City Athletics ECNL GU13,Collinsville Soccer Complex,Turf,On Time,270700
+2022-03-19,11:30 AM,Bracket,SLSG Green ECNL GU13,3,3,Kansas City Athletics ECNL GU13,Creve Coeur Park Soccer Complex ,Field 7,On Time,270692
+2022-03-19,03:00 PM,Bracket,Sporting Blue Valley ECNL GU13,4,1,Gretna Elite Academy ECNL GU13,Scheels Overland Park Soccer Complex,Field 9N,On Time,270710
+2022-03-26,09:00 AM,Bracket,SLSG Green ECNL GU13,3,1,Liverpool FC IA Michigan ECNL GU13,"Soccer Park (Fenton, MO)",Field 3,On Time,270693
+2022-03-26,09:00 AM,Bracket,SLSG Navy ECNL GU13,3,1,Midwest United FC ECNL GU13,WWT Soccer Park,Field 2,On Time,270701
+2022-03-26,01:00 PM,Bracket,Kansas City Athletics ECNL GU13,0,1,Michigan Hawks ECNL GU13,Olathe District Activity Complex,Soccer Field,On Time,270640
+2022-03-26,01:00 PM,Bracket,Sporting Iowa ECNL GU13,1,3,Gretna Elite Academy ECNL GU13,MidAmerican Energy Company RecPlex,Field 3,On Time,270721
+2022-03-26,02:00 PM,Bracket,Sporting Blue Valley ECNL GU13,4,0,Michigan Hawks Magic ECNL GU13,Pinnacle National Development Center,East,On Time,270711
+2022-03-27,08:30 AM,Bracket,SLSG Green ECNL GU13,2,1,Midwest United FC ECNL GU13,"Soccer Park (Fenton, MO)",Field 3,On Time,270694
+2022-03-27,08:30 AM,Bracket,SLSG Navy ECNL GU13,5,0,Liverpool FC IA Michigan ECNL GU13,WWT Soccer Park,Field 2,On Time,270702
+2022-03-27,09:00 AM,Bracket,Sporting Blue Valley ECNL GU13,0,2,Michigan Hawks ECNL GU13,Pinnacle National Development Center,West,On Time,270712
+2022-03-27,10:45 AM,Bracket,Kansas City Athletics ECNL GU13,1,0,Michigan Hawks Magic ECNL GU13,Olathe District Activity Complex,Soccer Field,On Time,270641
+2022-04-09,10:45 AM,Bracket,SLSG Navy ECNL GU13,3,0,Gretna Elite Academy ECNL GU13,WWT Soccer Park,Field 1,On Time,270703
+2022-04-09,02:15 PM,Group Play,SLSG Green ECNL GU13,3,0,Sporting Iowa ECNL GU13,"Soccer Park (Fenton, MO)",Field 1,On Time,305611
+2022-04-10,09:00 AM,Bracket,SLSG Green ECNL GU13,2,1,Gretna Elite Academy ECNL GU13,"Soccer Park (Fenton, MO)",Field 5,On Time,270695
+2022-04-10,09:00 AM,Bracket,SLSG Navy ECNL GU13,4,0,Sporting Iowa ECNL GU13,WWT Soccer Park,Field 1,On Time,270704
+2022-04-16,09:00 AM,Bracket,SLSG Navy ECNL GU13,3,0,SLSG Green ECNL GU13,WWT Soccer Park,Field 5,On Time,270705
+2022-04-16,04:15 PM,Bracket,Kansas City Athletics ECNL GU13,3,1,Gretna Elite Academy ECNL GU13,Shawnee Mission South,Field 1,On Time,270642
+2022-04-23,03:00 PM,Bracket,Minnesota Thunder ECNL GU13,2,0,Sporting Blue Valley ECNL GU13,Valley Stadium,Field 1,On Time,270683
+2022-04-23,03:00 PM,Bracket,Sporting Iowa ECNL GU13,1,3,Kansas City Athletics ECNL GU13,Hidden Valley Soccer Complex,Field 7,On Time,270722
+2022-04-24,09:00 AM,Bracket,Kansas City Athletics ECNL GU13,0,0,Minnesota Thunder ECNL GU13,Hidden Valley Sports Complex,Field 8,On Time,270643
+2022-04-24,09:00 AM,Bracket,Sporting Iowa ECNL GU13,0,3,Sporting Blue Valley ECNL GU13,Hidden Valley Soccer Complex,Field 7,On Time,270723
+2022-04-30,11:00 AM,Bracket,Minnesota Thunder ECNL GU13,0,0,Midwest United FC ECNL GU13,Academy of Holy Angels,South Turf 1 (11v11),On Time,270684
+2022-05-01,11:00 AM,Bracket,Minnesota Thunder ECNL GU13,6,0,Liverpool FC IA Michigan ECNL GU13,Academy of Holy Angels,South Turf 1 (11v11),On Time,270685
+2022-05-04,06:00 PM,Bracket,Sporting Blue Valley ECNL GU13,3,1,Kansas City Athletics ECNL GU13,Scheels Overland Park Soccer Complex,Field 9N,On Time,270713
+2022-05-07,01:00 PM,Bracket,Minnesota Thunder ECNL GU13,9,0,Sporting Iowa ECNL GU13,Academy of Holy Angels,South Turf 1 (11v11),On Time,270682
+2022-05-14,08:00 AM,Bracket,Minnesota Thunder ECNL GU13,1,0,Gretna Elite Academy ECNL GU13,Academy of Holy Angels,South Turf 1 (11v11),On Time,270686
+2022-05-14,12:00 PM,Bracket,Sporting Blue Valley ECNL GU13,1,1,SLSG Green ECNL GU13,Scheels Overland Park Soccer Complex,Field 12,On Time,270714
+2022-05-14,04:30 PM,Bracket,Kansas City Athletics ECNL GU13,1,1,SLSG Navy ECNL GU13,Olathe District Activity Complex,Soccer Field,On Time,270644
+2022-05-21,08:00 AM,Bracket,Minnesota Thunder ECNL GU13,0,1,SLSG Navy ECNL GU13,Academy of Holy Angels,South Turf 1 (11v11),On Time,270687
+2022-05-21,11:00 AM,Bracket,SLSG Green ECNL GU13,0,2,Eclipse Select SC North ECNL GU13,Academy of Holy Angels ,Field 1 South Turf/Dome,On Time,270696
+2022-05-21,03:00 PM,Bracket,Gretna Elite Academy ECNL GU13,0,4,Michigan Hawks ECNL GU13,MidAmerican Engery Company RecPlex,Rec Plex #1,On Time,270632
+2022-05-21,03:00 PM,Bracket,Sporting Iowa ECNL GU13,1,1,Michigan Hawks Magic ECNL GU13,MidAmerican Energy Company RecPlex,Field 2,On Time,270724
+2022-05-22,08:00 AM,Bracket,SLSG Navy ECNL GU13,1,0,Eclipse Select SC North ECNL GU13,Academy of Holy Angels,South,On Time,270706
+2022-05-22,09:00 AM,Bracket,Gretna Elite Academy ECNL GU13,5,0,Michigan Hawks Magic ECNL GU13,MidAmerican Engery Company RecPlex,Rec Plex #1,On Time,270633
+2022-05-22,09:00 AM,Bracket,Sporting Iowa ECNL GU13,0,7,Michigan Hawks ECNL GU13,Hidden Valley Soccer Complex,Field 1,On Time,270725
+2022-05-22,11:00 AM,Bracket,Minnesota Thunder ECNL GU13,1,1,SLSG Green ECNL GU13,Academy of Holy Angels,South Turf 1 (11v11),On Time,270688
+2022-05-31,06:00 PM,Bracket,Sporting Blue Valley ECNL GU13,,,SLSG Navy ECNL GU13,Missouri Soccer Park,Woven 2,On Time,270715

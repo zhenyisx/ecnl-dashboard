@@ -1,0 +1,48 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2021-09-12,09:00 AM,Bracket,Colorado Rapids ECNL GU13,1,0,Real Colorado Athletico ECNL GU13,Gates South Soccer Complex,5,On Time,276325
+2021-09-12,09:00 AM,Bracket,Real Colorado National ECNL GU13,2,0,Pride SC ECNL GU13,Real Colorado Soccer Complex,RCSC 1,On Time,277159
+2021-09-18,10:00 AM,Group Play,Pride SC ECNL GU13,1,0,Colorado Rapids ECNL GU13,Pride Soccer Complex,Field 2,On Time,295300
+2021-09-19,01:30 PM,Group Play,Real Colorado National ECNL GU13,1,1,Real Colorado Athletico ECNL GU13,Real Colorado Soccer Complex,RCSC 1,On Time,295306
+2021-09-25,01:30 PM,Bracket,Colorado Rapids ECNL GU13,0,6,Real Colorado National ECNL GU13,Gates South Soccer Complex,5,On Time,276326
+2021-09-26,09:00 AM,Bracket,Real Colorado Athletico ECNL GU13,0,1,Pride SC ECNL GU13,Real Colorado Soccer Complex,RCSC 1,On Time,277111
+2021-10-02,10:00 AM,Bracket,Pride SC ECNL GU13,0,3,Real Colorado National ECNL GU13,Pride Soccer Complex,Field 2,On Time,277075
+2021-10-03,01:30 PM,Bracket,Real Colorado Athletico ECNL GU13,3,0,Colorado Rapids ECNL GU13,Real Colorado Soccer Complex,RCSC 1,On Time,277112
+2021-10-23,11:15 AM,Bracket,Colorado Rapids ECNL GU13,0,0,Pride SC ECNL GU13,Gates South Soccer Complex,5,On Time,276327
+2021-10-23,01:30 PM,Bracket,Real Colorado Athletico ECNL GU13,1,3,Real Colorado National ECNL GU13,Real Colorado Soccer Complex,RCSC 1,On Time,277113
+2021-10-24,09:00 AM,Bracket,Pride SC ECNL GU13,1,3,Real Colorado Athletico ECNL GU13,Pride Soccer Complex,Field 2,On Time,277076
+2021-10-24,01:30 PM,Bracket,Real Colorado National ECNL GU13,2,0,Colorado Rapids ECNL GU13,Real Colorado Soccer Complex,RCSC 1,On Time,277160
+2021-11-06,09:00 AM,Bracket,La Roca FC ECNL GU13,0,1,Pride SC ECNL GU13,Spence Eccles Ogden Community Sports Complex,Field 2,On Time,276697
+2021-11-06,09:00 AM,Bracket,,2,0,Colorado Rapids ECNL GU13,St. Joseph Catholic High School,Turf Field,On Time,277363
+2021-11-07,09:00 AM,Bracket,,2,0,Pride SC ECNL GU13,St. Joseph Catholic High School,Grass Field,On Time,277364
+2021-11-07,11:00 AM,Bracket,La Roca FC ECNL GU13,2,4,Colorado Rapids ECNL GU13,Legacy Events Center,Field 2 #2022,On Time,276698
+2021-11-20,01:30 PM,Bracket,Real Colorado Athletico ECNL GU13,2,0,La Roca FC ECNL GU13,Highland Heritage Regional Park,HHRP West,On Time,277114
+2021-11-20,01:30 PM,Bracket,Real Colorado National ECNL GU13,1,0,,Real Colorado Soccer Complex,RCSC 2,On Time,277161
+2021-11-21,01:00 PM,Bracket,Real Colorado Athletico ECNL GU13,0,0,,Highland Heritage Regional Park,HHRP West,On Time,277115
+2021-11-21,01:30 PM,Bracket,Real Colorado National ECNL GU13,6,0,La Roca FC ECNL GU13,Real Colorado Soccer Complex,RCSC 2,On Time,277162
+2022-02-19,10:00 AM,Bracket,Pride SC ECNL GU13,0,0,La Roca FC ECNL GU13,Pride Soccer Complex,Field 2,On Time,277077
+2022-02-19,03:30 PM,Bracket,Colorado Rapids ECNL GU13,1,0,,Aurora Sports Park,Field 3,On Time,276328
+2022-02-20,09:00 AM,Bracket,Pride SC ECNL GU13,0,4,,Pride Soccer Complex,Field 2,On Time,277078
+2022-02-20,01:30 PM,Bracket,Colorado Rapids ECNL GU13,1,0,La Roca FC ECNL GU13,Aurora Sports Park,Field 3,On Time,276329
+2022-03-12,09:00 AM,Bracket,,2,2,Eastside FC ECNL GU13,St. Joseph Catholic High School,Turf Field,On Time,277365
+2022-03-12,01:00 PM,Bracket,La Roca FC ECNL GU13,1,0,FC Portland ECNL GU13,Spence Eccles Ogden Community Sports Complex,Field 2,On Time,276699
+2022-03-13,08:00 AM,Bracket,Portland Thorns ECNL GU13,1,0,Real Colorado Athletico ECNL GU13,Boise Timbers/Thorns Complex,Field 3,On Time,277116
+2022-03-13,08:30 AM,Bracket,,6,0,FC Portland ECNL GU13,St. Joseph Catholic High School,Turf Field,On Time,277366
+2022-03-13,09:00 AM,Bracket,La Roca FC ECNL GU13,0,3,Eastside FC ECNL GU13,La Roca Park,Field 3,On Time,276700
+2022-03-19,09:00 AM,Bracket,,2,2,Real Colorado Athletico ECNL GU13,St. Joseph Catholic High School,Grass Field,On Time,277367
+2022-03-19,01:00 PM,Bracket,La Roca FC ECNL GU13,0,5,Real Colorado National ECNL GU13,Spence Eccles Ogden Community Sports Complex,Field 2,On Time,276701
+2022-03-20,08:30 AM,Bracket,,0,0,Real Colorado National ECNL GU13,St. Joseph Catholic High School,Grass Field,On Time,277368
+2022-03-20,10:15 AM,Bracket,La Roca FC ECNL GU13,2,1,Real Colorado Athletico ECNL GU13,La Roca Park,Field 3,On Time,276702
+2022-04-23,10:00 AM,Bracket,Pride SC ECNL GU13,3,0,Northwest Elite FC ECNL GU13,Pride Soccer Complex,Field 2,On Time,277079
+2022-04-23,01:30 PM,Bracket,Colorado Rapids ECNL GU13,11,0,FC Portland ECNL GU13,Regis University,Middle Turf,On Time,276330
+2022-04-24,09:00 AM,Bracket,Colorado Rapids ECNL GU13,2,0,Northwest Elite FC ECNL GU13,Gates South Soccer Complex,5,On Time,276331
+2022-04-24,09:00 AM,Bracket,Pride SC ECNL GU13,3,0,FC Portland ECNL GU13,Pride Soccer Complex,Field 2,On Time,277080
+2022-04-24,11:00 AM,Bracket,La Roca FC ECNL GU13,0,1,,Regional Athletic Complex,Field 13,On Time,276705
+2022-04-30,09:00 AM,Bracket,,5,0,Pleasanton RAGE ECNL GU13,St. Joseph Catholic High School,Turf Field,On Time,277369
+2022-04-30,01:00 PM,Bracket,La Roca FC ECNL GU13,0,3,Mustang SC ECNL GU13,Spence Eccles Ogden Community Sports Complex,Field 1,On Time,276703
+2022-05-01,09:00 AM,Bracket,La Roca FC ECNL GU13,1,0,Pleasanton RAGE ECNL GU13,Regional Athletic Complex,Field 4,On Time,276704
+2022-05-01,09:00 AM,Bracket,,5,3,Mustang SC ECNL GU13,St. Joseph Catholic High School,Turf Field,On Time,277370
+2022-05-15,09:00 AM,Bracket,,3,1,La Roca FC ECNL GU13,St. Joseph Catholic High School,Grass Field,On Time,277371
+2022-06-04,11:15 AM,Bracket,Real Colorado National ECNL GU13,0,1,Crossfire Premier ECNL GU13,Real Colorado Soccer Complex,RCSC 1,On Time,277163
+2022-06-04,01:30 PM,Bracket,Real Colorado Athletico ECNL GU13,1,2,Seattle United ECNL GU13,Highland Heritage Regional Park,HHRP West,On Time,277117
+2022-06-05,11:15 AM,Bracket,Real Colorado Athletico ECNL GU13,0,1,Crossfire Premier ECNL GU13,Real Colorado Soccer Complex,RCSC 1,On Time,277118
+2022-06-05,01:30 PM,Bracket,Real Colorado National ECNL GU13,4,0,Seattle United ECNL GU13,Highland Heritage Regional Park,HHRP West,On Time,277164

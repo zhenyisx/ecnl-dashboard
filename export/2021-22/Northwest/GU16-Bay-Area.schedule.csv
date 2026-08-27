@@ -1,0 +1,73 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2021-09-11,02:00 PM,Bracket,Mustang SC ECNL GU16,2,1,Davis Legacy ECNL GU16,Provident Field @ MSC, Upper,On Time,276826
+2021-09-11,02:00 PM,Bracket,Santa Rosa United ECNL GU16,4,5,Pleasanton RAGE ECNL GU16,Trione Fields,Trione West,On Time,277276
+2021-09-12,10:00 AM,Bracket,DeAnza Force ECNL GU16,0,0,Marin FC ECNL GU16,De Anza College,Stadium Field,On Time,276562
+2021-09-12,05:00 PM,Bracket,San Juan SC ECNL GU16,1,1,MVLA ECNL GU16,San Juan Soccer Complex,Tiemann Law Firm White Field,On Time,277222
+2021-09-18,TBD,Group Play,Marin FC ECNL GU16,2,1,Mustang SC ECNL GU16,,,On Time,298914
+2021-09-18,11:00 AM,Group Play,Pleasanton RAGE ECNL GU16,1,5,San Juan SC ECNL GU16,Val Vista,Field 2,On Time,298474
+2021-09-18,12:00 PM,Group Play,Davis Legacy ECNL GU16,3,1,DeAnza Force ECNL GU16,Davis Legacy Soccer Complex,Field 9,On Time,298881
+2021-09-18,07:00 PM,Group Play,MVLA ECNL GU16,0,0,Santa Rosa United ECNL GU16,Crittenden,Field 1,On Time,298910
+2021-09-25,10:30 AM,Bracket,Marin FC ECNL GU16,0,2,San Juan SC ECNL GU16,San Rafael High School,Stadium,On Time,277223
+2021-09-25,12:00 PM,Bracket,Santa Rosa United ECNL GU16,0,3,Davis Legacy ECNL GU16,Trione Fields,Trione West,On Time,277277
+2021-09-25,02:00 PM,Bracket,DeAnza Force ECNL GU16,2,0,Pleasanton RAGE ECNL GU16,De Anza College,Soccer Field,On Time,276563
+2021-09-25,03:00 PM,Bracket,MVLA ECNL GU16,0,2,Mustang SC ECNL GU16,Crittenden,Field 1,On Time,276877
+2021-10-02,09:00 AM,Bracket,MVLA ECNL GU16,4,1,DeAnza Force ECNL GU16,Crittenden,Field 1,On Time,276878
+2021-10-02,10:00 AM,Bracket,Davis Legacy ECNL GU16,1,0,San Juan SC ECNL GU16,Davis Legacy Soccer Complex,Field 9,On Time,276511
+2021-10-02,11:00 AM,Bracket,Pleasanton RAGE ECNL GU16,0,1,Mustang SC ECNL GU16,Val Vista,Field 1,On Time,276985
+2021-10-02,03:00 PM,Bracket,Marin FC ECNL GU16,1,1,Santa Rosa United ECNL GU16,College of Marin,Stadium,On Time,276775
+2021-10-16,09:00 AM,Bracket,Mustang SC ECNL GU16,1,2,DeAnza Force ECNL GU16,Provident Field @ MSC, Upper,On Time,276827
+2021-10-16,11:00 AM,Bracket,San Juan SC ECNL GU16,2,2,Real Colorado National ECNL GU16,San Juan Soccer Complex,Tiemann Law Firm Black Field,On Time,277224
+2021-10-16,12:00 PM,Bracket,Davis Legacy ECNL GU16,4,0,Real Colorado Athletico ECNL GU16,Davis Legacy Soccer Complex,Field 10,On Time,276512
+2021-10-16,02:00 PM,Bracket,Marin FC ECNL GU16,4,0,Pride SC ECNL GU16,San Rafael High School,Stadium,On Time,276776
+2021-10-16,02:00 PM,Bracket,Santa Rosa United ECNL GU16,0,3,Colorado Rapids ECNL GU16,Trione Fields,Trione West,On Time,277278
+2021-10-17,09:00 AM,Bracket,Davis Legacy ECNL GU16,1,1,Real Colorado National ECNL GU16,Davis Legacy Soccer Complex,Field 10,On Time,276513
+2021-10-17,10:00 AM,Bracket,Santa Rosa United ECNL GU16,1,1,Pride SC ECNL GU16,Trione Fields,Trione West,On Time,277279
+2021-10-17,10:30 AM,Bracket,Marin FC ECNL GU16,3,4,Colorado Rapids ECNL GU16,College of Marin,Stadium,On Time,276777
+2021-10-17,11:00 AM,Bracket,San Juan SC ECNL GU16,1,0,Real Colorado Athletico ECNL GU16,San Juan Soccer Complex,Tiemann Law Firm Black Field,On Time,277225
+2021-10-23,11:00 AM,Bracket,MVLA ECNL GU16,4,0,Pleasanton RAGE ECNL GU16,Foothill College,Top Hill Soccer Field,On Time,276879
+2021-10-23,01:45 PM,Bracket,Marin FC ECNL GU16,1,1,Davis Legacy ECNL GU16,San Rafael High School,Stadium,On Time,276778
+2021-10-23,02:00 PM,Bracket,Santa Rosa United ECNL GU16,1,5,Mustang SC ECNL GU16,Trione Fields,Trione East,On Time,277280
+2021-10-30,11:00 AM,Bracket,Pleasanton RAGE ECNL GU16,1,1,Marin FC ECNL GU16,Bernal Sports Complex,West Field,On Time,276986
+2021-10-30,12:00 PM,Bracket,Santa Rosa United ECNL GU16,2,4,San Juan SC ECNL GU16,Trione Fields,Trione West,On Time,277284
+2021-11-06,11:00 AM,Bracket,San Juan SC ECNL GU16,2,0,Mustang SC ECNL GU16,San Juan Soccer Complex,Tiemann Law Firm White Field,On Time,277227
+2021-11-06,02:00 PM,Bracket,Marin FC ECNL GU16,0,3,MVLA ECNL GU16,San Rafael High School,Stadium,On Time,276779
+2021-11-06,02:00 PM,Bracket,Santa Rosa United ECNL GU16,1,4,DeAnza Force ECNL GU16,Davis Legacy Soccer Complex,Field 10,On Time,277281
+2021-11-06,03:00 PM,Bracket,Davis Legacy ECNL GU16,2,0,Pleasanton RAGE ECNL GU16,Davis Legacy Soccer Complex,Field 6,On Time,276515
+2022-03-12,10:45 AM,Bracket,Marin FC ECNL GU16,0,1,DeAnza Force ECNL GU16,College of Marin,Stadium,On Time,276780
+2022-03-12,01:30 PM,Bracket,Davis Legacy ECNL GU16,2,1,Mustang SC ECNL GU16,Davis Legacy Soccer Complex,Field 10,On Time,276516
+2022-03-12,02:15 PM,Bracket,MVLA ECNL GU16,4,1,San Juan SC ECNL GU16,Foothill College,Top Hill Soccer Field,On Time,276880
+2022-03-12,03:00 PM,Group Play,Pleasanton RAGE ECNL GU16,0,0,Santa Rosa United ECNL GU16,Val Vista,Field 3,On Time,318161
+2022-03-19,09:00 AM,Bracket,DeAnza Force ECNL GU16,3,1,Pride SC ECNL GU16,Prospect High School,Stadium Field,On Time,276565
+2022-03-19,09:00 AM,Bracket,Mustang SC ECNL GU16,2,0,Marin FC ECNL GU16,Provident Field @ MSC, Upper,On Time,276828
+2022-03-19,01:00 PM,Bracket,San Juan SC ECNL GU16,4,0,Pleasanton RAGE ECNL GU16,San Juan Soccer Complex,Tiemann Law Firm Black Field,On Time,277228
+2022-03-19,02:15 PM,Bracket,MVLA ECNL GU16,2,2,Colorado Rapids ECNL GU16,Crittenden,Field 1,On Time,276881
+2022-03-20,09:00 AM,Bracket,DeAnza Force ECNL GU16,0,4,Colorado Rapids ECNL GU16,De Anza College,Soccer Field,On Time,276566
+2022-03-20,12:30 PM,Bracket,MVLA ECNL GU16,8,0,Pride SC ECNL GU16,Crittenden,Field 1,On Time,276882
+2022-03-26,12:00 PM,Bracket,Santa Rosa United ECNL GU16,0,2,MVLA ECNL GU16,Trione Fields,Trione West,On Time,277282
+2022-03-26,01:00 PM,Bracket,DeAnza Force ECNL GU16,1,0,Davis Legacy ECNL GU16,De Anza College,Stadium Field,On Time,276567
+2022-03-26,05:00 PM,Bracket,Mustang SC ECNL GU16,2,0,Pleasanton RAGE ECNL GU16,Provident Field @ MSC, Lower,On Time,276829
+2022-03-27,12:00 PM,Bracket,Davis Legacy ECNL GU16,2,4,MVLA ECNL GU16,Davis Legacy Soccer Complex,Field 3,On Time,276514
+2022-04-09,09:00 AM,Bracket,Santa Rosa United ECNL GU16,0,1,Marin FC ECNL GU16,Trione Fields,Trione West,On Time,277283
+2022-04-09,11:00 AM,Bracket,DeAnza Force ECNL GU16,1,3,MVLA ECNL GU16,Valley Christian High School,Soccer Field,On Time,276568
+2022-04-09,01:00 PM,Bracket,San Juan SC ECNL GU16,2,2,Davis Legacy ECNL GU16,San Juan Soccer Complex,Tiemann Law Firm White Field,On Time,277229
+2022-04-10,10:00 AM,Bracket,DeAnza Force ECNL GU16,0,0,San Juan SC ECNL GU16,De Anza College,Stadium Field,On Time,276564
+2022-04-23,12:00 PM,Bracket,Davis Legacy ECNL GU16,1,0,Marin FC ECNL GU16,Davis Legacy Soccer Complex,Field 10,On Time,276518
+2022-04-23,01:00 PM,Bracket,Pleasanton RAGE ECNL GU16,3,2,PacNW SC ECNL GU16,Val Vista,Field 2,On Time,276988
+2022-04-24,09:00 AM,Bracket,Mustang SC ECNL GU16,1,0,PacNW SC ECNL GU16,Provident Field @ MSC, Upper,On Time,276831
+2022-04-30,09:00 AM,Bracket,San Juan SC ECNL GU16,2,0,Marin FC ECNL GU16,San Juan Soccer Complex,Tiemann Law Firm White Field,On Time,276781
+2022-04-30,12:00 PM,Bracket,Davis Legacy ECNL GU16,3,1,Santa Rosa United ECNL GU16,Davis Legacy Soccer Complex,Field 10,On Time,276517
+2022-05-07,09:00 AM,Bracket,Mustang SC ECNL GU16,1,2,MVLA ECNL GU16,Provident Field @ MSC, Upper,On Time,276832
+2022-05-07,03:00 PM,Bracket,Pleasanton RAGE ECNL GU16,3,0,DeAnza Force ECNL GU16,Val Vista,Field 2,On Time,276990
+2022-05-14,09:00 AM,Bracket,Mustang SC ECNL GU16,1,3,Santa Rosa United ECNL GU16,Provident Field @ MSC, Lower,On Time,276833
+2022-05-14,09:00 AM,Bracket,San Juan SC ECNL GU16,1,1,DeAnza Force ECNL GU16,San Juan Soccer Complex,Tiemann Law Firm Black Field,On Time,277230
+2022-05-14,11:00 AM,Bracket,Pleasanton RAGE ECNL GU16,1,9,MVLA ECNL GU16,Val Vista,Field 2,On Time,276991
+2022-05-15,09:00 AM,Bracket,Mustang SC ECNL GU16,0,3,San Juan SC ECNL GU16,Provident Field @ MSC, Lower,On Time,276834
+2022-05-15,09:30 AM,Bracket,Pleasanton RAGE ECNL GU16,1,2,Davis Legacy ECNL GU16,Val Vista,Field 3,On Time,276992
+2022-05-15,01:15 PM,Bracket,MVLA ECNL GU16,7,0,Marin FC ECNL GU16,Foothill College,Top Hill Soccer Field,On Time,276883
+2022-05-15,02:00 PM,Bracket,DeAnza Force ECNL GU16,0,0,Santa Rosa United ECNL GU16,De Anza College,Soccer Field,On Time,276569
+2022-05-21,09:00 AM,Bracket,MVLA ECNL GU16,3,0,Davis Legacy ECNL GU16,Foothill College,Top Hill Soccer Field,On Time,276884
+2022-05-21,01:00 PM,Bracket,San Juan SC ECNL GU16,2,1,Santa Rosa United ECNL GU16,San Juan Soccer Complex,Tiemann Law Firm Black Field,On Time,277226
+2022-05-21,03:00 PM,Bracket,Marin FC ECNL GU16,1,0,Pleasanton RAGE ECNL GU16,College of Marin,Stadium,On Time,276782
+2022-05-21,05:00 PM,Bracket,DeAnza Force ECNL GU16,0,1,Mustang SC ECNL GU16,De Anza College,Stadium Field,On Time,276570
+2022-06-04,11:00 AM,Bracket,Mustang SC ECNL GU16,2,2,Washington Premier ECNL GU16,Provident Field @ MSC, Upper,On Time,276830
+2022-06-05,11:00 AM,Bracket,Pleasanton RAGE ECNL GU16,1,3,Washington Premier ECNL GU16,Val Vista,Field 1,On Time,276989

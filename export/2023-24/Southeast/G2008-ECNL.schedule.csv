@@ -1,0 +1,121 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2023-09-09,10:00 AM,Group Play,Florida Krush ECNL G08,2,2,Alabama FC ECNL G08,Central Winds,Field B,On Time,496787
+2023-09-09,10:30 AM,Group Play,Jacksonville FC ECNL G08,2,2,United Futbol Academy ECNL G08,Patton Park,Field 2,On Time,497179
+2023-09-09,11:00 AM,Group Play,Florida Elite ECNL G08,1,1,Atlanta Fire United ECNL G08,Veterans Park,Field 1,On Time,496747
+2023-09-09,11:00 AM,Group Play,FC Prime ECNL G08,1,0,CESA Liberty ECNL G08,University School ,Dolphin Field,On Time,496815
+2023-09-09,11:00 AM,Group Play,Florida West FC ECNL G08,0,5,South Carolina United ECNL G08,JetBlue Park,Field 1,On Time,497131
+2023-09-09,12:00 PM,Group Play,Orlando City ECNL G08,0,8,Concorde Fire Premier ECNL G08,Seminole,Field 2,On Time,496875
+2023-09-09,01:00 PM,Group Play,FL Premier FC ECNL G08,0,1,GSA ECNL G08,Starkey Ranch District Park,Field 1,On Time,496991
+2023-09-09,02:00 PM,Group Play,Tampa Bay United ECNL G08,0,2,Concorde Fire Platinum ECNL G08,Ed Radice Sports Complex,Field 6,On Time,496859
+2023-09-10,10:00 AM,Group Play,FL Premier FC ECNL G08,1,3,Concorde Fire Platinum ECNL G08,Starkey Ranch District Park,Field 1,On Time,496855
+2023-09-10,11:00 AM,Group Play,Florida Krush ECNL G08,1,2,Concorde Fire Premier ECNL G08,Central Winds,Field B,On Time,496871
+2023-09-10,11:00 AM,Group Play,Tampa Bay United ECNL G08,4,1,GSA ECNL G08,Ed Radice Sports Complex,Field 6,On Time,496995
+2023-09-10,11:00 AM,Group Play,FC Prime ECNL G08,2,0,South Carolina United ECNL G08,University School ,Dolphin Field,On Time,497115
+2023-09-10,11:00 AM,Group Play,Florida Elite ECNL G08,0,1,United Futbol Academy ECNL G08,Veterans Park,Field 1,On Time,497171
+2023-09-10,12:00 PM,Group Play,Florida West FC ECNL G08,0,5,CESA Liberty ECNL G08,JetBlue Park,Field 1,On Time,496831
+2023-09-10,12:30 PM,Group Play,Jacksonville FC ECNL G08,1,2,Atlanta Fire United ECNL G08,Patton Park,Field 2,On Time,496755
+2023-09-10,01:00 PM,Group Play,Orlando City ECNL G08,1,5,Alabama FC ECNL G08,Seminole,Field 1,On Time,496791
+2023-09-16,09:00 AM,Group Play,South Carolina United ECNL G08,1,2,Florida Elite ECNL G08,Southeastern Freight Lines Complex,Stadium A,On Time,496907
+2023-09-16,03:00 PM,Group Play,CESA Liberty ECNL G08,0,0,Jacksonville FC ECNL G08,Mesa Soccer Complex,Field 2,On Time,497003
+2023-09-17,11:00 AM,Group Play,South Carolina United ECNL G08,2,2,Jacksonville FC ECNL G08,Southeastern Freight Lines Complex,Stadium A,On Time,497027
+2023-09-17,01:00 PM,Group Play,CESA Liberty ECNL G08,2,1,Florida Elite ECNL G08,Mesa Soccer Complex,Field 2,On Time,496891
+2023-09-23,09:00 AM,Group Play,Atlanta Fire United ECNL G08,0,1,Florida Krush ECNL G08,Notre Dame Academy,Turf,On Time,496947
+2023-09-23,09:00 AM,Group Play,United Futbol Academy ECNL G08,3,1,Orlando City ECNL G08,Fowler Park,Field 7,On Time,497067
+2023-09-23,10:00 AM,Group Play,Concorde Fire Platinum ECNL G08,11,0,Florida West FC ECNL G08,Georgia Soccer Park,Field 5,On Time,497199
+2023-09-23,11:00 AM,Group Play,GSA ECNL G08,4,1,FC Prime ECNL G08,GSA South,Holman/Wieland,On Time,496927
+2023-09-23,12:00 PM,Group Play,Concorde Fire Premier ECNL G08,2,1,FL Premier FC ECNL G08,Georgia Soccer Park,Field 3,On Time,497083
+2023-09-23,12:00 PM,Group Play,Alabama FC ECNL G08,0,1,Tampa Bay United ECNL G08,Dunnavant Valley Fields (DVF),Field # 2,On Time,497135
+2023-09-24,08:00 AM,Group Play,Alabama FC ECNL G08,1,2,FL Premier FC ECNL G08,Dunnavant Valley Fields (DVF),Field # 2,On Time,497075
+2023-09-24,09:00 AM,Group Play,Concorde Fire Platinum ECNL G08,4,1,FC Prime ECNL G08,Georgia Soccer Park,Field 4,On Time,496923
+2023-09-24,10:00 AM,Group Play,GSA ECNL G08,2,0,Florida West FC ECNL G08,GSA South,Holman/Wieland,On Time,497203
+2023-09-24,11:00 AM,Group Play,United Futbol Academy ECNL G08,1,1,Florida Krush ECNL G08,Fowler Park,Field 7,On Time,496967
+2023-09-24,01:00 PM,Group Play,Atlanta Fire United ECNL G08,3,1,Orlando City ECNL G08,Scott Hudgens Park,Field 5,On Time,497039
+2023-09-24,01:00 PM,Group Play,Concorde Fire Premier ECNL G08,3,0,Tampa Bay United ECNL G08,Georgia Soccer Park,Field 3,On Time,497143
+2023-09-30,08:30 AM,Group Play,Jacksonville FC ECNL G08,2,1,Concorde Fire Platinum ECNL G08,Patton Park,Field 1,On Time,496851
+2023-09-30,09:00 AM,Group Play,Florida Krush ECNL G08,1,2,South Carolina United ECNL G08,Central Winds,Field B,On Time,497119
+2023-09-30,10:00 AM,Group Play,Florida West FC ECNL G08,0,7,Concorde Fire Premier ECNL G08,North Collier Regional Park,Field 4,On Time,496883
+2023-09-30,11:00 AM,Group Play,Tampa Bay United ECNL G08,0,3,Atlanta Fire United ECNL G08,Ed Radice Sports Complex,Field 2,On Time,496767
+2023-09-30,11:00 AM,Group Play,FC Prime ECNL G08,0,1,Alabama FC ECNL G08,University School ,Autonation,On Time,496783
+2023-09-30,11:00 AM,Group Play,Florida Elite ECNL G08,1,2,GSA ECNL G08,Veterans Park,Field 1,On Time,496983
+2023-09-30,12:30 PM,Group Play,FL Premier FC ECNL G08,2,2,United Futbol Academy ECNL G08,Starkey Ranch District Park,Field 3,On Time,497183
+2023-09-30,01:00 PM,Group Play,Orlando City ECNL G08,1,2,CESA Liberty ECNL G08,Seminole,Field 1,On Time,496827
+2023-10-01,08:00 AM,Group Play,FC Prime ECNL G08,1,2,Concorde Fire Premier ECNL G08,University School ,Autonation,On Time,496867
+2023-10-01,08:30 AM,Group Play,Jacksonville FC ECNL G08,0,0,GSA ECNL G08,Patton Park,Field 2,On Time,496987
+2023-10-01,09:00 AM,Group Play,Florida Krush ECNL G08,2,0,CESA Liberty ECNL G08,Central Winds,Field B,On Time,496819
+2023-10-01,09:00 AM,Group Play,Orlando City ECNL G08,3,3,South Carolina United ECNL G08,Seminole,Field 4,On Time,497127
+2023-10-01,10:00 AM,Group Play,Florida West FC ECNL G08,0,4,Alabama FC ECNL G08,North Collier Regional Park,Field 8,On Time,496799
+2023-10-01,11:00 AM,Group Play,Florida Elite ECNL G08,1,3,Concorde Fire Platinum ECNL G08,Veterans Park,Field 1,On Time,496843
+2023-10-01,01:00 PM,Group Play,FL Premier FC ECNL G08,0,2,Atlanta Fire United ECNL G08,Tarpon Spring Sports Complex,Field 1,On Time,496759
+2023-10-01,01:00 PM,Group Play,Tampa Bay United ECNL G08,3,2,United Futbol Academy ECNL G08,Ed Radice Sports Complex,Field 2,On Time,497191
+2023-10-14,09:00 AM,Group Play,Atlanta Fire United ECNL G08,0,0,FC Prime ECNL G08,Pinecrest Academy,Turf,On Time,496919
+2023-10-14,10:00 AM,Group Play,Concorde Fire Platinum ECNL G08,8,0,Orlando City ECNL G08,Georgia Soccer Park,Field 1,On Time,497043
+2023-10-14,11:00 AM,Group Play,Alabama FC ECNL G08,3,1,Florida Elite ECNL G08,Dunnavant Valley Fields (DVF),Field # 2,On Time,496887
+2023-10-14,11:00 AM,Group Play,GSA ECNL G08,0,0,Florida Krush ECNL G08,GSA South,Holman/Wieland,On Time,496959
+2023-10-14,11:00 AM,Group Play,South Carolina United ECNL G08,1,3,FL Premier FC ECNL G08,Southeastern Freight Lines Complex,Field 3,On Time,497095
+2023-10-14,12:00 PM,Group Play,Concorde Fire Premier ECNL G08,3,0,Jacksonville FC ECNL G08,Georgia Soccer Park,Field 4,On Time,497007
+2023-10-14,01:00 PM,Group Play,CESA Liberty ECNL G08,3,1,Tampa Bay United ECNL G08,Mesa Soccer Complex,Field 2,On Time,497139
+2023-10-14,01:00 PM,Group Play,United Futbol Academy ECNL G08,1,0,Florida West FC ECNL G08,Fowler Park,Field 7,On Time,497215
+2023-10-15,09:00 AM,Group Play,Concorde Fire Platinum ECNL G08,3,1,Florida Krush ECNL G08,Georgia Soccer Park,Field 1,On Time,496951
+2023-10-15,11:00 AM,Group Play,United Futbol Academy ECNL G08,1,2,FC Prime ECNL G08,Fowler Park,Field 7,On Time,496939
+2023-10-15,11:00 AM,Group Play,Alabama FC ECNL G08,2,1,Jacksonville FC ECNL G08,Dunnavant Valley Fields (DVF),Field # 2,On Time,496999
+2023-10-15,11:00 AM,Group Play,GSA ECNL G08,2,1,Orlando City ECNL G08,GSA South,Holman/Wieland,On Time,497059
+2023-10-15,11:00 AM,Group Play,CESA Liberty ECNL G08,2,1,FL Premier FC ECNL G08,Mesa Soccer Complex,Field 2,On Time,497079
+2023-10-15,11:00 AM,Group Play,South Carolina United ECNL G08,1,2,Tampa Bay United ECNL G08,Southeastern Freight Lines Complex,Field 2,On Time,497159
+2023-10-15,12:00 PM,Group Play,Atlanta Fire United ECNL G08,7,0,Florida West FC ECNL G08,Pinecrest Academy,Turf,On Time,497195
+2023-10-15,01:00 PM,Group Play,Concorde Fire Premier ECNL G08,1,2,Florida Elite ECNL G08,Georgia Soccer Park,Field 3,On Time,496895
+2023-10-28,09:00 AM,Group Play,South Carolina United ECNL G08,2,1,Atlanta Fire United ECNL G08,Southeastern Freight Lines Complex,Stadium A,On Time,496763
+2023-10-28,11:00 AM,Group Play,Alabama FC ECNL G08,1,3,Concorde Fire Platinum ECNL G08,Dunnavant Valley Fields (DVF),Field #1,On Time,496835
+2023-10-28,11:00 AM,Group Play,CESA Liberty ECNL G08,2,0,United Futbol Academy ECNL G08,Mesa Soccer Complex,Field 3,On Time,497163
+2023-10-28,02:00 PM,Group Play,Concorde Fire Premier ECNL G08,1,1,GSA ECNL G08,Georgia Soccer Park,Field 1,On Time,496979
+2023-10-29,09:00 AM,Group Play,CESA Liberty ECNL G08,0,0,Atlanta Fire United ECNL G08,Mesa Soccer Complex,Field 3,On Time,496739
+2023-10-29,11:00 AM,Group Play,Alabama FC ECNL G08,1,1,GSA ECNL G08,Dunnavant Valley Fields (DVF),Field #1,On Time,496975
+2023-10-29,11:00 AM,Group Play,South Carolina United ECNL G08,2,0,United Futbol Academy ECNL G08,Southeastern Freight Lines Complex,Stadium A,On Time,497187
+2023-10-29,01:00 PM,Group Play,Concorde Fire Premier ECNL G08,2,2,Concorde Fire Platinum ECNL G08,Georgia Soccer Park,Field 1,On Time,496839
+2023-11-04,10:00 AM,Group Play,Concorde Fire Platinum ECNL G08,4,1,South Carolina United ECNL G08,Georgia Soccer Park,Field 2,On Time,497107
+2023-11-04,11:00 AM,Group Play,GSA ECNL G08,3,1,CESA Liberty ECNL G08,Rabbit Hill Park,Field 1,On Time,496823
+2023-11-04,11:00 AM,Group Play,United Futbol Academy ECNL G08,0,0,Concorde Fire Premier ECNL G08,Fowler Park,Field 7,On Time,496879
+2023-11-04,02:00 PM,Group Play,Atlanta Fire United ECNL G08,2,1,Alabama FC ECNL G08,Pinecrest Academy,Grass,On Time,496775
+2023-11-05,09:00 AM,Group Play,Concorde Fire Platinum ECNL G08,2,2,CESA Liberty ECNL G08,Georgia Soccer Park,Field 2,On Time,496807
+2023-11-05,09:00 AM,Group Play,GSA ECNL G08,0,0,South Carolina United ECNL G08,Rabbit Hill Park,Field 1,On Time,497123
+2023-11-05,11:00 AM,Group Play,United Futbol Academy ECNL G08,2,3,Alabama FC ECNL G08,Fowler Park,Field 7,On Time,496795
+2023-11-05,12:00 PM,Group Play,Atlanta Fire United ECNL G08,0,3,Concorde Fire Premier ECNL G08,Pinecrest Academy,Grass,On Time,496863
+2023-11-18,12:45 PM,Group Play,CESA Liberty ECNL G08,0,3,South Carolina United ECNL G08,Wenwood,Field 2,On Time,497103
+2023-11-19,12:00 PM,Group Play,Concorde Fire Premier ECNL G08,3,1,Alabama FC ECNL G08,Georgia Soccer Park,Field 5,On Time,496779
+2023-11-19,01:00 PM,Group Play,GSA ECNL G08,3,2,Concorde Fire Platinum ECNL G08,GSA South,Holman/Wieland,On Time,496847
+2023-12-09,11:00 AM,Group Play,Alabama FC ECNL G08,3,0,South Carolina United ECNL G08,Dunnavant Valley Fields (DVF),Field #1,On Time,497099
+2023-12-09,01:45 PM,Group Play,Concorde Fire Premier ECNL G08,1,0,CESA Liberty ECNL G08,Cauley Creek Park ,Field 1,On Time,496811
+2023-12-10,09:00 AM,Group Play,United Futbol Academy ECNL G08,0,0,Atlanta Fire United ECNL G08,Fowler Park,Field 9,On Time,496771
+2023-12-10,10:00 AM,Group Play,Alabama FC ECNL G08,1,0,CESA Liberty ECNL G08,Veterans Park,Field 2,On Time,496803
+2023-12-10,12:15 PM,Group Play,Concorde Fire Premier ECNL G08,2,1,South Carolina United ECNL G08,Cauley Creek Park ,Field 1,On Time,497111
+2023-12-16,10:00 AM,Group Play,Concorde Fire Platinum ECNL G08,1,0,United Futbol Academy ECNL G08,Georgia Soccer Park,Field 1,On Time,497167
+2023-12-16,02:00 PM,Group Play,Atlanta Fire United ECNL G08,1,0,GSA ECNL G08,Pinecrest Academy,Turf,On Time,496751
+2023-12-17,10:00 AM,Group Play,Atlanta Fire United ECNL G08,3,2,Concorde Fire Platinum ECNL G08,Pinecrest Academy,Turf,On Time,496743
+2023-12-17,01:00 PM,Group Play,United Futbol Academy ECNL G08,0,1,GSA ECNL G08,Lanierland Park,Field 1,On Time,497175
+2024-03-10,01:00 PM,Group Play,Florida West FC ECNL G08,0,1,FC Prime ECNL G08,Sherman Soccer Complex,Field 1,On Time,496943
+2024-03-10,01:00 PM,Group Play,FL Premier FC ECNL G08,1,2,Tampa Bay United ECNL G08,Starkey Ranch District Park,Field 1,On Time,497155
+2024-03-10,01:30 PM,Group Play,Florida Krush ECNL G08,6,0,Orlando City ECNL G08,Central Winds,Field B,On Time,497055
+2024-03-16,09:00 AM,Group Play,Tampa Bay United ECNL G08,4,0,Florida West FC ECNL G08,Ed Radice Sports Complex,Field 4,On Time,497211
+2024-03-16,01:00 PM,Group Play,Florida Elite ECNL G08,0,0,Orlando City ECNL G08,Veterans Park,Field 1,On Time,497047
+2024-03-16,02:00 PM,Group Play,FL Premier FC ECNL G08,3,1,FC Prime ECNL G08,Starkey Ranch District Park,Field 1,On Time,496931
+2024-03-17,11:00 AM,Group Play,Tampa Bay United ECNL G08,0,1,FC Prime ECNL G08,Ed Radice Sports Complex,Field 4,On Time,496935
+2024-03-17,03:00 PM,Group Play,FL Premier FC ECNL G08,2,1,Florida West FC ECNL G08,Starkey Ranch District Park,Field 2,On Time,497207
+2024-03-24,11:00 AM,Group Play,Florida Elite ECNL G08,0,1,Jacksonville FC ECNL G08,Veterans Park,Field 1,On Time,497011
+2024-04-13,09:00 AM,Group Play,FC Prime ECNL G08,1,0,Florida Elite ECNL G08,University School ,Dolphin Field,On Time,496899
+2024-04-13,12:00 PM,Group Play,Florida Krush ECNL G08,1,2,Tampa Bay United ECNL G08,Central Winds,Field B,On Time,497147
+2024-04-13,01:00 PM,Group Play,Florida West FC ECNL G08,0,4,Jacksonville FC ECNL G08,Big Corkscrew Island Regional Park,Field 2,On Time,497035
+2024-04-13,01:00 PM,Group Play,Orlando City ECNL G08,2,1,FL Premier FC ECNL G08,Seminole,Field 1,On Time,497091
+2024-04-14,11:00 AM,Group Play,Florida West FC ECNL G08,0,1,Florida Elite ECNL G08,Bayshore Sports Complex,Field 3,On Time,496915
+2024-04-14,11:00 AM,Group Play,FC Prime ECNL G08,1,0,Jacksonville FC ECNL G08,University School ,Autonation,On Time,497015
+2024-04-14,11:00 AM,Group Play,Orlando City ECNL G08,1,1,Tampa Bay United ECNL G08,Seminole,Field 1,On Time,497151
+2024-04-14,01:00 PM,Group Play,Florida Krush ECNL G08,1,0,FL Premier FC ECNL G08,Central Winds,Field B,On Time,497087
+2024-04-20,12:30 PM,Group Play,Jacksonville FC ECNL G08,1,1,Orlando City ECNL G08,Patton Park,Stadium,On Time,497063
+2024-04-21,11:00 AM,Group Play,Florida Elite ECNL G08,0,1,Florida Krush ECNL G08,Veterans Park,Field 2,On Time,497019
+2024-04-27,08:30 AM,Group Play,FL Premier FC ECNL G08,0,1,Jacksonville FC ECNL G08,Tarpon Spring Sports Complex,Field 1,On Time,497023
+2024-04-27,11:00 AM,Group Play,Tampa Bay United ECNL G08,1,0,Florida Elite ECNL G08,Ed Radice Sports Complex,Field 6,On Time,496911
+2024-04-27,01:00 PM,Group Play,FC Prime ECNL G08,0,0,Florida Krush ECNL G08,University School ,Dolphin,On Time,496955
+2024-04-27,01:00 PM,Group Play,Florida West FC ECNL G08,1,4,Orlando City ECNL G08,Bayshore Sports Complex,Field 3,On Time,497071
+2024-04-28,09:00 AM,Group Play,Tampa Bay United ECNL G08,0,0,Jacksonville FC ECNL G08,Ed Radice Sports Complex,Field 6,On Time,497031
+2024-04-28,11:00 AM,Group Play,FL Premier FC ECNL G08,2,1,Florida Elite ECNL G08,Tarpon Spring Sports Complex,Field 1,On Time,496903
+2024-04-28,11:00 AM,Group Play,FC Prime ECNL G08,1,0,Orlando City ECNL G08,University School ,Autonation,On Time,497051
+2024-04-28,01:00 PM,Group Play,Florida West FC ECNL G08,0,7,Florida Krush ECNL G08,Bayshore Sports Complex,Field 3,On Time,496971
+2024-05-19,12:30 PM,Group Play,Jacksonville FC ECNL G08,2,0,Florida Krush ECNL G08,Patton Park,Field 3,On Time,496963

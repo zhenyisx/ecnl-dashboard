@@ -1,0 +1,121 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2024-08-28,08:10 PM,Group Play,Michigan Hawks ECNL G07/06,1,0,Michigan Hawks Magic ECNL G07/06,Schoolcraft Turf,SC Turf,On Time,653822
+2024-08-31,09:00 AM,Group Play,Michigan Hawks Magic ECNL G07/06,2,2,Sporting Iowa ECNL G07/06,GrimesPlex,GP Green # 1 ,On Time,653742
+2024-08-31,10:00 AM,Group Play,Nationals SC ECNL G07/06,4,0,Liverpool FC IA Michigan ECNL G07/06,Oakland University Upper Fields,South Field,On Time,653802
+2024-08-31,11:00 AM,Group Play,Michigan Hawks ECNL G07/06,4,0,Gretna Elite Academy ECNL G07/06,GrimesPlex,GP White #1 ,On Time,653682
+2024-08-31,12:00 PM,Group Play,Kansas City Athletics ECNL G07/06,3,1,Eclipse Select SC ECNL G07/06,Paragon Star Soccer Complex,Field 9,On Time,653594
+2024-08-31,01:00 PM,Group Play,Sporting Blue Valley ECNL G07/06,5,2,Chicago Inter Soccer ECNL G07/06,Pinnacle National Development Center,West,On Time,653554
+2024-08-31,04:45 PM,Group Play,FC Wisconsin ECNL G07/06,1,2,Midwest United FC ECNL G07/06,FC Wisconsin Soccer Park,Field 1 - Val Olla Field,On Time,653842
+2024-09-01,09:45 AM,Group Play,Kansas City Athletics ECNL G07/06,2,3,Chicago Inter Soccer ECNL G07/06,Paragon Star Soccer Complex,Field 9,On Time,653562
+2024-09-01,09:45 AM,Group Play,Sporting Iowa ECNL G07/06,0,3,Michigan Hawks ECNL G07/06,Grimesplex,Green 1,On Time,653706
+2024-09-01,11:45 AM,Group Play,Gretna Elite Academy ECNL G07/06,3,2,Michigan Hawks Magic ECNL G07/06,Grimesplex,White 1,On Time,653818
+2024-09-01,01:00 PM,Group Play,Sporting Blue Valley ECNL G07/06,3,1,Eclipse Select SC ECNL G07/06,Pinnacle National Development Center,West,On Time,653582
+2024-09-07,08:00 AM,Group Play,Nationals SC ECNL G07/06,0,1,SLSG Navy ECNL G07/06,Oakland University Upper Fields,North field,On Time,653954
+2024-09-07,09:00 AM,Group Play,Liverpool FC IA Michigan ECNL G07/06,1,0,SLSG Green ECNL G07/06,UWM Sports Complex,Field 3,On Time,653662
+2024-09-07,09:00 AM,Group Play,Eclipse Select SC ECNL G07/06,1,3,Gretna Elite Academy ECNL G07/06,Waukegan Sports Park,Turf,On Time,653678
+2024-09-07,09:00 AM,Group Play,Chicago Inter Soccer ECNL G07/06,1,2,Sporting Iowa ECNL G07/06,Chicago Inter Complex,Field 1,On Time,653722
+2024-09-07,03:00 PM,Group Play,Rockford Raptors ECNL G07/06,1,3,Sporting Blue Valley ECNL G07/06,Mercyhealth Sportscore Two,Field 235,On Time,653550
+2024-09-07,03:00 PM,Group Play,FC Wisconsin ECNL G07/06,0,5,Kansas City Athletics ECNL G07/06,FC Wisconsin Soccer Park,Field 1 - Val Olla Field,On Time,653754
+2024-09-08,08:30 AM,Group Play,Eclipse Select SC ECNL G07/06,4,1,Sporting Iowa ECNL G07/06,West Chicago High School,Field 1,On Time,653726
+2024-09-08,09:00 AM,Group Play,Chicago Inter Soccer ECNL G07/06,2,3,Gretna Elite Academy ECNL G07/06,Chicago Inter Complex,Field 1,On Time,653674
+2024-09-08,11:00 AM,Group Play,Rockford Raptors ECNL G07/06,1,2,Kansas City Athletics ECNL G07/06,Mercyhealth Sportscore Two,Field 235,On Time,653774
+2024-09-08,12:00 PM,Group Play,Nationals SC ECNL G07/06,1,1,SLSG Green ECNL G07/06,Oakland University Upper Fields,North field,On Time,653666
+2024-09-08,01:00 PM,Group Play,Liverpool FC IA Michigan ECNL G07/06,0,4,SLSG Navy ECNL G07/06,UWM Sports Complex,Field 3,On Time,653950
+2024-09-08,01:30 PM,Group Play,FC Wisconsin ECNL G07/06,0,7,Sporting Blue Valley ECNL G07/06,FC Wisconsin Soccer Park,Field 1 - Val Olla Field,On Time,653522
+2024-09-14,09:00 AM,Group Play,Liverpool FC IA Michigan ECNL G07/06,1,2,Michigan Hawks Magic ECNL G07/06,UWM Sports Complex,Field 1,On Time,653826
+2024-09-15,03:00 PM,Group Play,Midwest United FC ECNL G07/06,1,3,Eclipse Select SC ECNL G07/06,Midwest United FC Complex,South,On Time,653598
+2024-09-21,08:00 AM,Group Play,Michigan Hawks ECNL G07/06,1,0,Sporting Blue Valley ECNL G07/06,Schoolcraft Turf,SC Turf,On Time,653534
+2024-09-21,09:00 AM,Group Play,SLSG Green ECNL G07/06,1,3,Chicago Inter Soccer ECNL G07/06,WWT Soccer Park,Field 3,On Time,653558
+2024-09-21,09:00 AM,Group Play,SLSG Navy ECNL G07/06,3,0,Eclipse Select SC ECNL G07/06,WWT Soccer Park,Field 1,On Time,653606
+2024-09-21,09:00 AM,Group Play,FC Wisconsin ECNL G07/06,3,1,Rockford Raptors ECNL G07/06,FC Wisconsin Soccer Park,Field 1 - Val Olla Field,On Time,653962
+2024-09-21,10:00 AM,Group Play,Liverpool FC IA Michigan ECNL G07/06,2,7,Sporting Iowa ECNL G07/06,GTA Sports Complex,Field 1,On Time,653738
+2024-09-21,10:00 AM,Group Play,Gretna Elite Academy ECNL G07/06,5,0,Midwest United FC ECNL G07/06,Gretna Sports Complex,Field 1,On Time,653850
+2024-09-21,11:45 AM,Group Play,Michigan Hawks Magic ECNL G07/06,0,1,Kansas City Athletics ECNL G07/06,Jaycee Park,Jaycee Turf,On Time,653770
+2024-09-22,07:30 AM,Group Play,Michigan Hawks ECNL G07/06,3,0,Kansas City Athletics ECNL G07/06,St. Joe's Sports Dome,St. Joe's Dome,On Time,653766
+2024-09-22,08:00 AM,Group Play,SLSG Navy ECNL G07/06,1,0,Chicago Inter Soccer ECNL G07/06,WWT Soccer Park,Field 2,On Time,653574
+2024-09-22,08:00 AM,Group Play,SLSG Green ECNL G07/06,1,2,Eclipse Select SC ECNL G07/06,WWT Soccer Park,Field 3,On Time,653590
+2024-09-22,08:00 AM,Group Play,Gretna Elite Academy ECNL G07/06,5,1,Liverpool FC IA Michigan ECNL G07/06,Gretna Sports Complex,Field 1,On Time,653790
+2024-09-22,08:00 AM,Group Play,Sporting Iowa ECNL G07/06,6,1,Midwest United FC ECNL G07/06,Gretna Sports Complex,Field 2,On Time,653854
+2024-09-22,11:40 AM,Group Play,Michigan Hawks Magic ECNL G07/06,0,4,Sporting Blue Valley ECNL G07/06,Catholic Central High School,Football Field,On Time,653542
+2024-09-26,08:15 PM,Group Play,Rockford Raptors ECNL G07/06,0,1,Eclipse Select SC ECNL G07/06,Mercyhealth Sportscore Two,Field 235,On Time,653610
+2024-09-28,11:00 AM,Group Play,Gretna Elite Academy ECNL G07/06,2,2,Sporting Blue Valley ECNL G07/06,Gretna Sports Complex,Field 1,On Time,653530
+2024-09-28,11:00 AM,Group Play,Chicago Inter Soccer ECNL G07/06,3,0,FC Wisconsin ECNL G07/06,Chicago Inter Complex,Field 1,On Time,653614
+2024-09-30,05:30 PM,Group Play,SLSG Green ECNL G07/06,0,3,SLSG Navy ECNL G07/06,WWT Soccer Park,Field 1,On Time,653942
+2024-10-05,08:30 AM,Group Play,Eclipse Select SC ECNL G07/06,0,4,Michigan Hawks ECNL G07/06,West Chicago High School,Field 1,On Time,653698
+2024-10-05,09:00 AM,Group Play,Rockford Raptors ECNL G07/06,2,1,SLSG Green ECNL G07/06,Mercyhealth Sportscore Two,Field 235,On Time,653670
+2024-10-05,09:00 AM,Group Play,Sporting Iowa ECNL G07/06,0,4,Nationals SC ECNL G07/06,Grimesplex,Green 2,On Time,653918
+2024-10-05,09:00 AM,Group Play,FC Wisconsin ECNL G07/06,0,4,SLSG Navy ECNL G07/06,FC Wisconsin Soccer Park,Field 1 - Val Olla Field,On Time,653938
+2024-10-05,10:00 AM,Group Play,Gretna Elite Academy ECNL G07/06,1,2,Kansas City Athletics ECNL G07/06,Gretna Sports Complex,Field 1,On Time,653762
+2024-10-05,01:00 PM,Group Play,Chicago Inter Soccer ECNL G07/06,5,1,Michigan Hawks Magic ECNL G07/06,Chicago Inter Complex,Field 2,On Time,653806
+2024-10-06,09:00 AM,Group Play,FC Wisconsin ECNL G07/06,0,4,SLSG Green ECNL G07/06,FC Wisconsin Soccer Park,Field 1 - Val Olla Field,On Time,653650
+2024-10-06,09:00 AM,Group Play,Chicago Inter Soccer ECNL G07/06,1,2,Michigan Hawks ECNL G07/06,Chicago Inter Complex,Field 2,On Time,653694
+2024-10-06,09:00 AM,Group Play,Rockford Raptors ECNL G07/06,1,4,SLSG Navy ECNL G07/06,Mercyhealth Sportscore Two,Field 235,On Time,653958
+2024-10-06,11:00 AM,Group Play,Gretna Elite Academy ECNL G07/06,1,6,Nationals SC ECNL G07/06,Grimesplex,White  2,On Time,653910
+2024-10-06,12:00 PM,Group Play,Eclipse Select SC ECNL G07/06,3,0,Michigan Hawks Magic ECNL G07/06,Nike Park,Turf,On Time,653810
+2024-10-06,04:00 PM,Group Play,Midwest United FC ECNL G07/06,0,0,Liverpool FC IA Michigan ECNL G07/06,Midwest United FC Complex,South,On Time,653798
+2024-10-12,08:00 AM,Group Play,Sporting Iowa ECNL G07/06,5,0,SLSG Green ECNL G07/06,Grimesplex,Green 1,On Time,653658
+2024-10-12,08:00 AM,Group Play,SLSG Navy ECNL G07/06,3,3,Gretna Elite Academy ECNL G07/06,Grimesplex,Purple 1,On Time,653690
+2024-10-12,09:00 AM,Group Play,Sporting Blue Valley ECNL G07/06,3,2,Kansas City Athletics ECNL G07/06,Scheels Overland Park Soccer Complex,Field 11,On Time,653750
+2024-10-12,09:00 AM,Group Play,Midwest United FC ECNL G07/06,0,5,Nationals SC ECNL G07/06,Midwest United FC Complex,South,On Time,653930
+2024-10-12,10:00 AM,Group Play,Michigan Hawks Magic ECNL G07/06,2,0,Rockford Raptors ECNL G07/06,St. Joe's Sports Dome,St. Joe's Dome,On Time,653982
+2024-10-12,01:45 PM,Group Play,Michigan Hawks ECNL G07/06,9,0,FC Wisconsin ECNL G07/06,Jaycee Park,Jaycee Turf,On Time,653626
+2024-10-13,08:00 AM,Group Play,Michigan Hawks Magic ECNL G07/06,0,1,FC Wisconsin ECNL G07/06,Schoolcraft Turf,SC Turf,On Time,653638
+2024-10-13,12:30 PM,Group Play,Michigan Hawks ECNL G07/06,4,0,Rockford Raptors ECNL G07/06,St. Joe's Sports Dome,St. Joe's Dome,On Time,653970
+2024-10-13,01:30 PM,Group Play,Gretna Elite Academy ECNL G07/06,5,1,SLSG Green ECNL G07/06,Grimesplex,White  2,On Time,653654
+2024-10-13,01:30 PM,Group Play,Sporting Iowa ECNL G07/06,1,2,SLSG Navy ECNL G07/06,Grimesplex,Green 2,On Time,653946
+2024-10-19,09:00 AM,Group Play,Chicago Inter Soccer ECNL G07/06,3,1,Nationals SC ECNL G07/06,Chicago Inter Complex,Field 1,On Time,653902
+2024-10-19,10:00 AM,Group Play,Eclipse Select SC ECNL G07/06,2,1,Liverpool FC IA Michigan ECNL G07/06,St. Francis High School,Field 1,On Time,653786
+2024-10-19,10:00 AM,Group Play,Midwest United FC ECNL G07/06,1,3,Rockford Raptors ECNL G07/06,Midwest United FC Complex,South,On Time,653986
+2024-10-19,11:00 AM,Group Play,Sporting Iowa ECNL G07/06,0,4,Sporting Blue Valley ECNL G07/06,Grimesplex,Green 1,On Time,653538
+2024-10-20,09:00 AM,Group Play,Chicago Inter Soccer ECNL G07/06,4,1,Liverpool FC IA Michigan ECNL G07/06,Chicago Inter Complex,Field 1,On Time,653782
+2024-10-20,09:00 AM,Group Play,Eclipse Select SC ECNL G07/06,0,6,Nationals SC ECNL G07/06,Elmhurst University - Langhorst Field,Field 1,On Time,653906
+2024-10-26,08:00 AM,Group Play,SLSG Green ECNL G07/06,1,1,Michigan Hawks Magic ECNL G07/06,WWT Soccer Park,Field 5,On Time,653814
+2024-10-26,09:00 AM,Group Play,Sporting Blue Valley ECNL G07/06,6,1,Liverpool FC IA Michigan ECNL G07/06,Scheels Overland Park Soccer Complex,Field 12,On Time,653778
+2024-10-26,10:00 AM,Group Play,Sporting Iowa ECNL G07/06,8,0,FC Wisconsin ECNL G07/06,Gretna High School,Gretna High School 2,On Time,653630
+2024-10-26,10:00 AM,Group Play,SLSG Navy ECNL G07/06,2,2,Michigan Hawks ECNL G07/06,WWT Soccer Park,Field 1,On Time,653718
+2024-10-26,10:00 AM,Group Play,Gretna Elite Academy ECNL G07/06,5,1,Rockford Raptors ECNL G07/06,Gretna Sports Complex,Field 1,On Time,653966
+2024-10-26,02:00 PM,Group Play,Kansas City Athletics ECNL G07/06,8,0,Midwest United FC ECNL G07/06,KC Current Training Facility,Field 2,On Time,653858
+2024-10-27,08:00 AM,Group Play,SLSG Green ECNL G07/06,0,4,Michigan Hawks ECNL G07/06,WWT Soccer Park,Field 1,On Time,653702
+2024-10-27,09:00 AM,Group Play,Kansas City Athletics ECNL G07/06,3,1,Liverpool FC IA Michigan ECNL G07/06,KC Current Training Facility,Field 2,On Time,653794
+2024-10-27,09:00 AM,Group Play,Sporting Blue Valley ECNL G07/06,4,0,Midwest United FC ECNL G07/06,Scheels Overland Park Soccer Complex,Field 12,On Time,653838
+2024-10-27,10:00 AM,Group Play,SLSG Navy ECNL G07/06,5,0,Michigan Hawks Magic ECNL G07/06,WWT Soccer Park,Field 2,On Time,653834
+2024-10-27,11:00 AM,Group Play,Sporting Iowa ECNL G07/06,4,0,Rockford Raptors ECNL G07/06,Gretna East High School,Field 2,On Time,653974
+2024-10-27,02:45 PM,Group Play,Gretna Elite Academy ECNL G07/06,5,1,FC Wisconsin ECNL G07/06,Gretna Sports Complex,Field 1,On Time,653622
+2024-11-02,09:00 AM,Group Play,Chicago Inter Soccer ECNL G07/06,3,1,Eclipse Select SC ECNL G07/06,Chicago Inter Complex,Field 1,On Time,653586
+2024-11-02,09:00 AM,Group Play,Sporting Blue Valley ECNL G07/06,4,1,Nationals SC ECNL G07/06,Current Training Complex,Field 1,On Time,653898
+2024-11-02,11:00 AM,Group Play,Kansas City Athletics ECNL G07/06,1,1,SLSG Navy ECNL G07/06,KC Current Training Facility,Field 2,On Time,653998
+2024-11-02,12:15 PM,Group Play,Midwest United FC ECNL G07/06,4,0,Michigan Hawks Magic ECNL G07/06,Midwest United FC Complex,South,On Time,653830
+2024-11-02,01:30 PM,Group Play,Minnesota Thunder ECNL G07/06,3,0,FC Wisconsin ECNL G07/06,Academy of Holy Angels,South Turf 1 (11v11),On Time,653642
+2024-11-03,08:30 AM,Group Play,Midwest United FC ECNL G07/06,1,4,Chicago Inter Soccer ECNL G07/06,Midwest United FC Complex,South,On Time,653566
+2024-11-03,09:45 AM,Group Play,Kansas City Athletics ECNL G07/06,3,2,Nationals SC ECNL G07/06,KC Current Training Facility,Field 2,On Time,653922
+2024-11-03,12:00 PM,Group Play,Gretna Elite Academy ECNL G07/06,3,3,Sporting Iowa ECNL G07/06,Gretna Sports Complex,Field 1,On Time,653730
+2024-11-16,09:00 AM,Group Play,Liverpool FC IA Michigan ECNL G07/06,0,5,Michigan Hawks ECNL G07/06,Brother Rice High School,Field 1,On Time,653710
+2024-11-16,12:45 PM,Group Play,Rockford Raptors ECNL G07/06,1,1,Chicago Inter Soccer ECNL G07/06,Mercyhealth Sportscore Two,Field 235,On Time,653578
+2024-11-16,01:00 PM,Group Play,Midwest United FC ECNL G07/06,0,5,Minnesota Thunder ECNL G07/06,Midwest United FC Complex,South,On Time,653890
+2024-11-16,03:00 PM,Group Play,SLSG Navy ECNL G07/06,3,2,Sporting Blue Valley ECNL G07/06,Creve Coeur Soccer Complex,Field 9,On Time,653546
+2024-11-16,03:00 PM,Group Play,SLSG Green ECNL G07/06,4,2,Kansas City Athletics ECNL G07/06,Creve Coeur Soccer Complex,Field 6,On Time,653758
+2024-11-16,06:00 PM,Group Play,Eclipse Select SC ECNL G07/06,4,0,FC Wisconsin ECNL G07/06,Oak Brook Park District,Turf,On Time,653618
+2024-11-17,08:00 AM,Group Play,Michigan Hawks ECNL G07/06,3,1,Minnesota Thunder ECNL G07/06,St. Joe's Sports Dome,St. Joe's Dome,On Time,653874
+2024-11-17,02:15 PM,Group Play,SLSG Green ECNL G07/06,0,3,Sporting Blue Valley ECNL G07/06,Creve Coeur Soccer Complex,Field 8,On Time,653526
+2024-11-23,09:00 AM,Group Play,Liverpool FC IA Michigan ECNL G07/06,1,0,FC Wisconsin ECNL G07/06,UWM Sports Complex,Field 1,On Time,653634
+2024-11-23,09:00 AM,Group Play,Sporting Blue Valley ECNL G07/06,3,2,Minnesota Thunder ECNL G07/06,Pinnacle National Development Center,East,On Time,653866
+2024-11-23,12:00 PM,Group Play,Kansas City Athletics ECNL G07/06,5,1,Sporting Iowa ECNL G07/06,KC Current Training Facility,Field 2,On Time,653734
+2024-11-23,03:30 PM,Group Play,Midwest United FC ECNL G07/06,0,2,Michigan Hawks ECNL G07/06,Midwest United FC Complex,North,On Time,653714
+2024-11-23,03:30 PM,Group Play,Nationals SC ECNL G07/06,5,0,Rockford Raptors ECNL G07/06,Oakland University Upper Fields,South Field,On Time,653994
+2024-11-24,09:45 AM,Group Play,Kansas City Athletics ECNL G07/06,2,3,Minnesota Thunder ECNL G07/06,KC Current Training Facility,Field 2,On Time,653878
+2024-11-24,10:00 AM,Group Play,Liverpool FC IA Michigan ECNL G07/06,2,1,Rockford Raptors ECNL G07/06,UWM Sports Complex,Field 1,On Time,653978
+2024-11-24,12:00 PM,Group Play,Nationals SC ECNL G07/06,6,0,FC Wisconsin ECNL G07/06,Oakland University Upper Fields,North field,On Time,653646
+2024-12-07,08:00 AM,Group Play,Michigan Hawks ECNL G07/06,4,2,Nationals SC ECNL G07/06,St. Joe's Sports Dome,St. Joe's Dome,On Time,653914
+2024-12-07,03:00 PM,Group Play,SLSG Green ECNL G07/06,3,0,Midwest United FC ECNL G07/06,WWT Soccer Park,Field 1,On Time,653846
+2024-12-07,03:00 PM,Group Play,SLSG Navy ECNL G07/06,3,1,Minnesota Thunder ECNL G07/06,WWT Soccer Park,Field 2,On Time,653894
+2024-12-08,10:00 AM,Group Play,SLSG Navy ECNL G07/06,4,0,Midwest United FC ECNL G07/06,Cottleville City Fields,Field 1,On Time,653862
+2024-12-08,10:00 AM,Group Play,SLSG Green ECNL G07/06,0,3,Minnesota Thunder ECNL G07/06,WWT Soccer Park,Field 3,On Time,653870
+2024-12-14,09:00 AM,Group Play,Minnesota Thunder ECNL G07/06,3,1,Eclipse Select SC ECNL G07/06,Academy of Holy Angels,South Turf 1 (11v11),On Time,653602
+2025-01-18,08:00 AM,Group Play,Minnesota Thunder ECNL G07/06,2,0,Gretna Elite Academy ECNL G07/06,Academy of Holy Angels,South Turf 1 (11v11),On Time,653686
+2025-01-25,08:00 AM,Group Play,Minnesota Thunder ECNL G07/06,1,0,Sporting Iowa ECNL G07/06,Academy of Holy Angels,South Turf 1 (11v11),On Time,653746
+2025-02-01,09:00 AM,Group Play,Liverpool FC IA Michigan ECNL G07/06,0,3,Minnesota Thunder ECNL G07/06,UWM Sports Complex,Field 1,On Time,653882
+2025-02-01,12:00 PM,Group Play,Michigan Hawks Magic ECNL G07/06,0,3,Nationals SC ECNL G07/06,St. Joe's Sports Dome,St. Joe's Dome,On Time,653926
+2025-02-02,08:00 AM,Group Play,Michigan Hawks Magic ECNL G07/06,0,4,Minnesota Thunder ECNL G07/06,St. Joe's Sports Dome,St. Joe's Dome,On Time,653886
+2025-02-08,10:00 AM,Group Play,Minnesota Thunder ECNL G07/06,4,2,Rockford Raptors ECNL G07/06,Academy of Holy Angels,South Turf 1 (11v11),On Time,653990
+2025-02-22,08:00 AM,Group Play,Minnesota Thunder ECNL G07/06,2,4,Chicago Inter Soccer ECNL G07/06,Academy of Holy Angels,South Turf 1 (11v11),On Time,653570
+2025-04-26,08:00 AM,Group Play,Minnesota Thunder ECNL G07/06,2,2,Nationals SC ECNL G07/06,Academy of Holy Angels,South Turf 1 (11v11),On Time,653934

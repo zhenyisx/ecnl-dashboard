@@ -1,0 +1,10 @@
+rank,team,club,teamID,gp,w,l,d,pts,ppg,gf,ga,gd
+1,World Class FC ECNL G12,World Class FC,48903,16,13,1,2,41,2.56,43,9,34
+2,East Meadow SC ECNL G12,East Meadow Soccer Club,64577,16,10,2,4,34,2.13,29,11,18
+3,South Shore Select ECNL G12,Select,94581,16,11,4,1,34,2.13,39,20,19
+4,SUSA FC ECNL G12,SUSA FC,68848,16,9,4,3,30,1.88,39,16,23
+5,FC Stars Blue ECNL G12,FC Stars,70655,16,7,6,3,24,1.5,28,29,-1
+6,FC Stars White ECNL G12,FC Stars,81913,16,4,8,4,16,1.0,14,22,-8
+7,Scorpions SC ECNL G12,Scorpions SC,81552,16,2,8,6,12,0.75,10,22,-12
+8,FSA FC ECNL G12,FSA FC,69502,16,1,12,3,6,0.38,10,50,-40
+9,Connecticut FC ECNL G12,Connecticut FC,82332,16,0,12,4,4,0.25,9,42,-33

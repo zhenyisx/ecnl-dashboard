@@ -1,0 +1,48 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2021-09-12,09:00 AM,Bracket,Real Colorado National ECNL GU18/U19,4,1,Pride SC ECNL GU18/U19,Real Colorado Soccer Complex,RCSC Grass,On Time,277189
+2021-09-12,01:30 PM,Bracket,Colorado Rapids ECNL GU18/U19,2,1,Real Colorado Athletico ECNL GU18/U19,Gates South Soccer Complex,6,On Time,276360
+2021-09-18,10:00 AM,Group Play,Pride SC ECNL GU18/U19,0,3,Colorado Rapids ECNL GU18/U19,Pride Soccer Complex,Field 1,On Time,295305
+2021-09-19,01:30 PM,Group Play,Real Colorado National ECNL GU18/U19,3,1,Real Colorado Athletico ECNL GU18/U19,Real Colorado Soccer Complex,RCSC Grass,On Time,295311
+2021-09-25,09:00 AM,Bracket,Colorado Rapids ECNL GU18/U19,0,1,Real Colorado National ECNL GU18/U19,Gates South Soccer Complex,6,On Time,276361
+2021-09-26,09:00 AM,Bracket,Real Colorado Athletico ECNL GU18/U19,2,1,Pride SC ECNL GU18/U19,Real Colorado Soccer Complex,RCSC Grass,On Time,277151
+2021-10-02,10:00 AM,Bracket,Pride SC ECNL GU18/U19,0,5,Real Colorado National ECNL GU18/U19,Pride Soccer Complex,Field 1,On Time,277105
+2021-10-03,01:30 PM,Bracket,Real Colorado Athletico ECNL GU18/U19,1,1,Colorado Rapids ECNL GU18/U19,Real Colorado Soccer Complex,RCSC Grass,On Time,277152
+2021-10-23,11:15 AM,Bracket,Colorado Rapids ECNL GU18/U19,5,1,Pride SC ECNL GU18/U19,Gates South Soccer Complex,6,On Time,276362
+2021-10-23,01:30 PM,Bracket,Real Colorado Athletico ECNL GU18/U19,0,1,Real Colorado National ECNL GU18/U19,Real Colorado Soccer Complex,RCSC Grass,On Time,277153
+2021-10-24,09:00 AM,Bracket,Pride SC ECNL GU18/U19,2,4,Real Colorado Athletico ECNL GU18/U19,Pride Soccer Complex,Field 1,On Time,277106
+2021-10-24,01:30 PM,Bracket,Real Colorado National ECNL GU18/U19,4,1,Colorado Rapids ECNL GU18/U19,Real Colorado Soccer Complex,RCSC Grass,On Time,277190
+2021-11-06,09:00 AM,Bracket,La Roca FC ECNL GU18/U19,5,0,Pride SC ECNL GU18/U19,Spence Eccles Ogden Community Sports Complex,Field 1,On Time,276742
+2021-11-06,02:00 PM,Bracket,Utah Avalanche ECNL GU18/U19,1,4,Colorado Rapids ECNL GU18/U19,St. Joseph Catholic High School,Grass Field,On Time,277408
+2021-11-07,11:00 AM,Bracket,La Roca FC ECNL GU18/U19,4,5,Colorado Rapids ECNL GU18/U19,Legacy Events Center,Field 1 #2021,On Time,276743
+2021-11-07,02:00 PM,Bracket,Utah Avalanche ECNL GU18/U19,2,2,Pride SC ECNL GU18/U19,St. Joseph Catholic High School,Turf Field,On Time,277409
+2021-11-20,01:30 PM,Bracket,Real Colorado Athletico ECNL GU18/U19,2,2,La Roca FC ECNL GU18/U19,Highland Heritage Regional Park,HHRP Stadium,On Time,277154
+2021-11-20,01:30 PM,Bracket,Real Colorado National ECNL GU18/U19,4,1,Utah Avalanche ECNL GU18/U19,Real Colorado Soccer Complex,RCSC 1,On Time,277191
+2021-11-21,01:00 PM,Bracket,Real Colorado Athletico ECNL GU18/U19,1,3,Utah Avalanche ECNL GU18/U19,Highland Heritage Regional Park,HHRP Stadium,On Time,277155
+2021-11-21,01:30 PM,Bracket,Real Colorado National ECNL GU18/U19,3,1,La Roca FC ECNL GU18/U19,Real Colorado Soccer Complex,RCSC 1,On Time,277192
+2022-02-19,10:00 AM,Bracket,Pride SC ECNL GU18/U19,0,6,La Roca FC ECNL GU18/U19,Pride Soccer Complex,Field 1,On Time,277107
+2022-02-19,11:30 AM,Bracket,Colorado Rapids ECNL GU18/U19,2,0,Utah Avalanche ECNL GU18/U19,Aurora Sports Park,Field 3,On Time,276363
+2022-02-20,09:00 AM,Bracket,Pride SC ECNL GU18/U19,0,2,Utah Avalanche ECNL GU18/U19,Pride Soccer Complex,Field 1,On Time,277108
+2022-02-20,01:30 PM,Bracket,Colorado Rapids ECNL GU18/U19,1,4,La Roca FC ECNL GU18/U19,Aurora Sports Park,Field 4,On Time,276364
+2022-03-12,09:00 AM,Bracket,La Roca FC ECNL GU18/U19,7,1,FC Portland ECNL GU18/U19,Spence Eccles Ogden Community Sports Complex,Field 1,On Time,276744
+2022-03-12,02:00 PM,Bracket,Utah Avalanche ECNL GU18/U19,2,3,Eastside FC ECNL GU18/U19,Mountain Ridge High School,Stadium,On Time,277410
+2022-03-13,12:00 PM,Bracket,Portland Thorns ECNL GU18/U19,1,2,Real Colorado Athletico ECNL GU18/U19,Boise Timbers/Thorns Complex,Field 4,On Time,277156
+2022-03-13,12:30 PM,Bracket,Utah Avalanche ECNL GU18/U19,3,0,FC Portland ECNL GU18/U19,Judge Memorial High School,Field 1,On Time,277411
+2022-03-13,01:30 PM,Bracket,La Roca FC ECNL GU18/U19,1,3,Eastside FC ECNL GU18/U19,Real Salt Lake Academy,West,On Time,276745
+2022-03-19,09:00 AM,Bracket,La Roca FC ECNL GU18/U19,0,1,Real Colorado National ECNL GU18/U19,Spence Eccles Ogden Community Sports Complex,Field 1,On Time,276746
+2022-03-19,02:00 PM,Bracket,Utah Avalanche ECNL GU18/U19,3,0,Real Colorado Athletico ECNL GU18/U19,St. Joseph Catholic High School,Turf Field,On Time,277412
+2022-03-20,01:00 PM,Bracket,Utah Avalanche ECNL GU18/U19,,,Real Colorado National ECNL GU18/U19,St. Joseph Catholic High School,Turf Field,On Time,277413
+2022-03-20,01:30 PM,Bracket,La Roca FC ECNL GU18/U19,2,0,Real Colorado Athletico ECNL GU18/U19,Real Salt Lake Academy,West,On Time,276747
+2022-04-23,09:00 AM,Bracket,Colorado Rapids ECNL GU18/U19,7,0,FC Portland ECNL GU18/U19,Regis University,Match Pitch,On Time,276365
+2022-04-23,02:00 PM,Bracket,Pride SC ECNL GU18/U19,0,2,Northwest Elite FC ECNL GU18/U19,Pride Soccer Complex,Field 2,On Time,277109
+2022-04-24,11:00 AM,Bracket,Pride SC ECNL GU18/U19,2,0,FC Portland ECNL GU18/U19,Pride Soccer Complex,Field 1,On Time,277110
+2022-04-24,01:00 PM,Bracket,La Roca FC ECNL GU18/U19,4,2,Utah Avalanche ECNL GU18/U19,Regional Athletic Complex,Field 13,On Time,276750
+2022-04-24,01:30 PM,Bracket,Colorado Rapids ECNL GU18/U19,1,1,Northwest Elite FC ECNL GU18/U19,Gates South Soccer Complex,6,On Time,276366
+2022-04-29,05:30 PM,Bracket,Utah Avalanche ECNL GU18/U19,3,2,Mustang SC ECNL GU18/U19,St. Joseph Catholic High School,Grass Field,On Time,277415
+2022-04-30,09:00 AM,Bracket,La Roca FC ECNL GU18/U19,5,1,Mustang SC ECNL GU18/U19,Spence Eccles Ogden Community Sports Complex,Field 1,On Time,276748
+2022-04-30,02:00 PM,Bracket,Utah Avalanche ECNL GU18/U19,1,4,Pleasanton RAGE ECNL GU18/U19,St. Joseph Catholic High School,Grass Field,On Time,277414
+2022-05-01,01:15 PM,Bracket,La Roca FC ECNL GU18/U19,2,1,Pleasanton RAGE ECNL GU18/U19,Regional Athletic Complex,Field 4,On Time,276749
+2022-05-15,01:30 PM,Bracket,Utah Avalanche ECNL GU18/U19,0,1,La Roca FC ECNL GU18/U19,St. Joseph Catholic High School,Turf Field,On Time,277416
+2022-06-04,09:00 AM,Bracket,Real Colorado National ECNL GU18/U19,,,Crossfire Premier ECNL GU18/U19,Real Colorado Soccer Complex,RCSC Grass,On Time,277193
+2022-06-04,01:30 PM,Bracket,Real Colorado Athletico ECNL GU18/U19,,,Seattle United ECNL GU18/U19,Highland Heritage Regional Park,HHRP Stadium,On Time,277157
+2022-06-05,09:00 AM,Bracket,Real Colorado Athletico ECNL GU18/U19,,,Crossfire Premier ECNL GU18/U19,Real Colorado Soccer Complex,RCSC Grass,On Time,277158
+2022-06-05,01:30 PM,Bracket,Real Colorado National ECNL GU18/U19,,,Seattle United ECNL GU18/U19,Highland Heritage Regional Park,HHRP Stadium,On Time,277194

@@ -1,0 +1,15 @@
+rank,team,club,teamID,gp,w,l,d,pts,ppg,gf,ga,gd
+1,NC Fusion ECNL GU17,NC Fusion,13554,13,11,2,0,33,2.54,34,14,20
+2,Charlotte SA ECNL GU17,Charlotte Soccer Academy,44724,13,9,1,3,30,2.31,38,10,28
+3,NC Courage ECNL GU17,NC Courage Academy,44731,13,9,2,2,29,2.23,43,10,33
+4,Richmond United ECNL GU17,Richmond United,11507,13,8,3,2,26,2.0,31,7,24
+5,Wilmington Hammerheads ECNL GU17,Wilmington Hammerheads,19666,13,7,4,2,23,1.77,31,22,9
+6,VA Union ECNL GU17,McLean Youth Soccer,11505,13,6,4,3,21,1.62,32,19,13
+7,CESA ECNL GU17,Carolina Elite Soccer Academy,11512,13,6,5,2,20,1.54,21,23,-2
+8,VDA ECNL GU17,Virginia Development Academy,20319,13,5,5,3,18,1.38,16,20,-4
+9,South Carolina United ECNL GU17,South Carolina United FC,11040,13,4,5,4,16,1.23,24,28,-4
+10,NCFC Youth ECNL GU17,NCFC Youth,11511,13,3,6,4,13,1.0,15,23,-8
+11,Arlington Soccer ECNL GU17,Arlington Soccer Association,59920,13,4,9,0,12,0.92,11,32,-21
+12,Charlotte Independence ECNL GU17,Charlotte Independence SC,11116,13,3,8,2,11,0.85,10,26,-16
+13,BRYC Elite Academy ECNL GU17,McLean Youth Soccer,11501,13,0,9,4,4,0.31,9,32,-23
+14,Loudoun Soccer ECNL GU17,Loudoun Soccer,19776,13,0,12,1,1,0.08,8,57,-49

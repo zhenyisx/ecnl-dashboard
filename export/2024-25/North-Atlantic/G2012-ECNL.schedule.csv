@@ -1,0 +1,111 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2024-09-07,10:00 AM,Group Play,FC DELCO ECNL G12,2,0,Pipeline SC ECNL G12,Proving Grounds,7,On Time,654675
+2024-09-07,10:45 AM,Group Play,PDA South ECNL G12,0,2,Penn Fusion SA ECNL G12,Westampton Sports Complex,Field 2,On Time,654665
+2024-09-07,03:00 PM,Group Play,Maryland United FC ECNL G12,4,0,PDA White ECNL G12,Indian Creek,Field 1,On Time,654739
+2024-09-08,10:00 AM,Group Play,HEX FC Bucks ECNL G12,0,4,Philadelphia Ukrainian Nationals ECNL G12,Council Rock South High School,Turf,On Time,654717
+2024-09-08,10:30 AM,Group Play,Bethesda SC ECNL G12,5,1,PDA White ECNL G12,Maryland Soccerplex,Field 16,On Time,654731
+2024-09-14,02:30 PM,Group Play,Philadelphia Ukrainian Nationals ECNL G12,0,2,PDA Blue ECNL G12,Ukrainian AMerican Sports Center,Field 6,On Time,654567
+2024-09-21,10:00 AM,Group Play,FC DELCO ECNL G12,1,1,Bethesda SC ECNL G12,Proving Grounds,8,On Time,654533
+2024-09-21,10:45 AM,Group Play,Penn Fusion SA ECNL G12,3,0,Pipeline SC ECNL G12,USTC,Field 1,On Time,654683
+2024-09-21,12:00 PM,Group Play,PDA White ECNL G12,0,6,Match Fit Academy ECNL G12,PDA ,Field 5,On Time,654649
+2024-09-21,12:00 PM,Group Play,Philadelphia Ukrainian Nationals ECNL G12,2,1,PDA South ECNL G12,Ukrainian AMerican Sports Center,Field 6,On Time,654707
+2024-09-22,10:00 AM,Group Play,FC DELCO ECNL G12,3,0,PDA South ECNL G12,Proving Grounds,7,On Time,654695
+2024-09-22,11:00 AM,Group Play,Match Fit Academy ECNL G12,2,1,Maryland United FC ECNL G12,Morris Catholic High School,Field 1 Upper,On Time,654619
+2024-09-28,10:00 AM,Group Play,HEX FC Bucks ECNL G12,0,6,FC DELCO ECNL G12,Council Rock North High School,Turf Field,On Time,654575
+2024-09-28,10:40 AM,Group Play,Pipeline SC ECNL G12,0,2,PDA White ECNL G12,Mercy High School,Field 1,On Time,654745
+2024-09-28,12:00 PM,Group Play,Philadelphia Ukrainian Nationals ECNL G12,1,1,Penn Fusion SA ECNL G12,Ukrainian AMerican Sports Center,Field 6,On Time,654667
+2024-09-28,03:30 PM,Group Play,Bethesda SC ECNL G12,2,3,PDA Blue ECNL G12,Maryland Soccerplex,Field 12,On Time,654551
+2024-09-29,09:00 AM,Group Play,Pipeline SC ECNL G12,1,1,Match Fit Academy ECNL G12,Mercy High School,Field 1,On Time,654643
+2024-09-29,10:45 AM,Group Play,Penn Fusion SA ECNL G12,6,0,HEX FC Bucks ECNL G12,Penn Fusion Kildare's Turf ,Stadium,On Time,654601
+2024-10-05,10:45 AM,Group Play,PDA South ECNL G12,2,3,Match Fit Academy ECNL G12,Westampton Sports Complex,Field 2,On Time,654645
+2024-10-05,04:15 PM,Group Play,HEX FC Bucks ECNL G12,2,1,PDA White ECNL G12,Council Rock South High School,Turf,On Time,654737
+2024-10-06,09:00 AM,Group Play,Pipeline SC ECNL G12,0,0,Maryland United FC ECNL G12,Mercy High School,Field 1,On Time,654623
+2024-10-06,11:45 AM,Group Play,Penn Fusion SA ECNL G12,7,1,PDA White ECNL G12,USTC,Field 1,On Time,654743
+2024-10-06,12:00 PM,Group Play,FC DELCO ECNL G12,0,2,PDA Blue ECNL G12,Downingtown East High School,Upper Field,On Time,654553
+2024-10-06,12:00 PM,Group Play,Philadelphia Ukrainian Nationals ECNL G12,0,3,Match Fit Academy ECNL G12,Ukrainian AMerican Sports Center,Field 6,On Time,654647
+2024-10-19,11:30 AM,Group Play,PDA Blue ECNL G12,7,0,HEX FC Bucks ECNL G12,PDA Main Complex,Field 5,On Time,654593
+2024-10-19,11:30 AM,Group Play,PDA White ECNL G12,0,2,PDA South ECNL G12,PDA ,Field 1,On Time,654709
+2024-10-19,03:00 PM,Group Play,Maryland United FC ECNL G12,0,1,Bethesda SC ECNL G12,Indian Creek,Field 1,On Time,654537
+2024-10-20,09:00 AM,Group Play,HEX FC Bucks ECNL G12,2,3,Maryland United FC ECNL G12,Council Rock South High School,Turf,On Time,654617
+2024-10-20,10:00 AM,Group Play,FC DELCO ECNL G12,1,1,Philadelphia Ukrainian Nationals ECNL G12,Downingtown West High School,Deserafino Soccer Field,On Time,654715
+2024-10-20,10:45 AM,Group Play,PDA South ECNL G12,0,4,Bethesda SC ECNL G12,Westampton Sports Complex,Field 2,On Time,654545
+2024-10-22,07:00 PM,Group Play,PDA Blue ECNL G12,3,0,PDA South ECNL G12,PDA Main Complex,Field 5,On Time,654693
+2024-10-26,09:30 AM,Group Play,PDA Blue ECNL G12,4,0,Penn Fusion SA ECNL G12,PDA Main Complex,Field 5,On Time,654653
+2024-10-26,10:30 AM,Group Play,Bethesda SC ECNL G12,4,0,Pipeline SC ECNL G12,Maryland Soccerplex,Field 16,On Time,654671
+2024-10-26,10:45 AM,Group Play,PDA South ECNL G12,0,2,Maryland United FC ECNL G12,Westampton Sports Complex,Field 2,On Time,654625
+2024-10-26,02:00 PM,Group Play,PDA White ECNL G12,0,1,Philadelphia Ukrainian Nationals ECNL G12,PDA ,Field 3,On Time,654729
+2024-10-26,02:30 PM,Group Play,Match Fit Academy ECNL G12,8,0,HEX FC Bucks ECNL G12,Morris Catholic High School,Field 1 Upper,On Time,654599
+2024-10-27,09:00 AM,Group Play,HEX FC Bucks ECNL G12,2,1,Pipeline SC ECNL G12,Council Rock South High School,Turf,On Time,654677
+2024-10-27,10:00 AM,Group Play,PDA Blue ECNL G12,5,0,PDA White ECNL G12,PDA Main Complex,Field 5,On Time,654733
+2024-10-27,11:45 AM,Group Play,Penn Fusion SA ECNL G12,2,0,Maryland United FC ECNL G12,USTC,Field 1,On Time,654621
+2024-11-02,09:00 AM,Group Play,Pipeline SC ECNL G12,0,1,PDA South ECNL G12,Mercy High School,Field 1,On Time,654705
+2024-11-02,12:00 PM,Group Play,Philadelphia Ukrainian Nationals ECNL G12,1,0,Maryland United FC ECNL G12,Ukrainian AMerican Sports Center,Field 6,On Time,654627
+2024-11-02,01:00 PM,Group Play,PDA White ECNL G12,0,4,FC DELCO ECNL G12,PDA ,Field 3,On Time,654589
+2024-11-02,02:30 PM,Group Play,Match Fit Academy ECNL G12,1,0,Penn Fusion SA ECNL G12,Morris Catholic High School,Field 1 Upper,On Time,654661
+2024-11-02,04:15 PM,Group Play,Bethesda SC ECNL G12,3,0,HEX FC Bucks ECNL G12,Montgomery Blair High School,Field 1,On Time,654591
+2024-11-03,11:15 AM,Group Play,Match Fit Academy ECNL G12,0,2,FC DELCO ECNL G12,Morris Catholic High School,Field 1 Upper,On Time,654579
+2024-11-03,01:30 PM,Group Play,Philadelphia Ukrainian Nationals ECNL G12,2,1,Bethesda SC ECNL G12,Ukrainian AMerican Sports Center,Field 6,On Time,654547
+2024-11-09,10:30 AM,Group Play,Maryland United FC ECNL G12,0,4,FC DELCO ECNL G12,Indian Creek,Field 2,On Time,654577
+2024-11-09,10:45 AM,Group Play,PDA South ECNL G12,2,0,HEX FC Bucks ECNL G12,Westampton Sports Complex,Field 2,On Time,654605
+2024-11-09,11:15 AM,Group Play,Match Fit Academy ECNL G12,2,2,PDA Blue ECNL G12,Morris Catholic High School,Field 1 Upper,On Time,654559
+2024-11-15,05:30 PM,Group Play,Penn Fusion SA ECNL G12,0,0,FC DELCO ECNL G12,USTC,Field 1,On Time,654581
+2024-11-16,01:00 PM,Group Play,Pipeline SC ECNL G12,0,1,Philadelphia Ukrainian Nationals ECNL G12,Mercy High School,Field 1,On Time,654725
+2024-11-17,10:00 AM,Group Play,PDA Blue ECNL G12,5,0,Pipeline SC ECNL G12,PDA Main Complex,Field 3,On Time,654673
+2025-02-22,08:30 AM,Group Play,PDA White ECNL G12,0,4,Maryland United FC ECNL G12,PDA ,Field 1,On Time,654629
+2025-02-22,10:00 AM,Group Play,Pipeline SC ECNL G12,0,8,FC DELCO ECNL G12,Mercy High School,Field 1,On Time,654583
+2025-02-22,12:00 PM,Group Play,PDA Blue ECNL G12,4,1,Bethesda SC ECNL G12,PDA Main Complex,Field 5,On Time,654531
+2025-02-22,05:00 PM,Group Play,Philadelphia Ukrainian Nationals ECNL G12,3,0,HEX FC Bucks ECNL G12,Ukrainian AMerican Sports Center,Field 6,On Time,654607
+2025-02-23,10:00 AM,Group Play,PDA Blue ECNL G12,2,0,Maryland United FC ECNL G12,PDA Main Complex,Field 3,On Time,654613
+2025-02-23,10:45 AM,Group Play,Penn Fusion SA ECNL G12,2,1,PDA South ECNL G12,Penn Fusion Kildare's Turf ,Stadium,On Time,654703
+2025-02-23,03:00 PM,Group Play,PDA White ECNL G12,1,10,Bethesda SC ECNL G12,PDA ,Field 1,On Time,654549
+2025-03-08,09:00 AM,Group Play,Pipeline SC ECNL G12,0,3,Penn Fusion SA ECNL G12,Mercy High School,Field 1,On Time,654663
+2025-03-08,10:00 AM,Group Play,PDA South ECNL G12,0,1,Philadelphia Ukrainian Nationals ECNL G12,Westampton Sports Complex,Field 2,On Time,654727
+2025-03-08,11:30 AM,Group Play,Bethesda SC ECNL G12,1,2,Match Fit Academy ECNL G12,Maryland Soccerplex,Field 19,On Time,654631
+2025-03-08,12:30 PM,Group Play,Maryland United FC ECNL G12,1,3,PDA Blue ECNL G12,Liberty Sports Park,Field 1,On Time,654557
+2025-03-09,09:00 AM,Group Play,Maryland United FC ECNL G12,1,5,Match Fit Academy ECNL G12,Liberty Sports Park,Field 1,On Time,654639
+2025-03-09,10:00 AM,Group Play,PDA South ECNL G12,0,2,FC DELCO ECNL G12,Westampton Sports Complex,Field 2,On Time,654585
+2025-03-09,10:00 AM,Group Play,PDA White ECNL G12,2,2,HEX FC Bucks ECNL G12,Pingry ,Field 2,On Time,654609
+2025-03-09,11:30 AM,Group Play,Bethesda SC ECNL G12,1,1,Penn Fusion SA ECNL G12,Maryland Soccerplex,Field 19,On Time,654651
+2025-03-15,10:00 AM,Group Play,PDA White ECNL G12,0,5,PDA Blue ECNL G12,PDA ,Field 5,On Time,654569
+2025-03-22,10:00 AM,Group Play,FC DELCO ECNL G12,0,0,Penn Fusion SA ECNL G12,Proving Grounds,7,On Time,654655
+2025-03-29,08:00 AM,Group Play,PDA South ECNL G12,0,2,PDA Blue ECNL G12,Westampton Sports Complex,Field 2,On Time,654565
+2025-03-29,09:00 AM,Group Play,FC DELCO ECNL G12,4,0,HEX FC Bucks ECNL G12,Proving Grounds,7,On Time,654595
+2025-03-29,10:00 AM,Group Play,PDA White ECNL G12,0,0,Pipeline SC ECNL G12,PDA (Main Complex),field 1,On Time,654689
+2025-03-29,10:45 AM,Group Play,Penn Fusion SA ECNL G12,1,1,Philadelphia Ukrainian Nationals ECNL G12,USTC,Field 2,On Time,654723
+2025-03-29,02:45 PM,Group Play,Match Fit Academy ECNL G12,0,3,Bethesda SC ECNL G12,Morris Catholic High School,Field 1 Upper,On Time,654539
+2025-03-30,09:00 AM,Group Play,HEX FC Bucks ECNL G12,0,4,Penn Fusion SA ECNL G12,Bryn Athyn College,Turf,On Time,654657
+2025-03-30,09:30 AM,Group Play,Bethesda SC ECNL G12,0,2,FC DELCO ECNL G12,Montgomery Blair High School,Field 1,On Time,654571
+2025-03-30,03:30 PM,Group Play,Match Fit Academy ECNL G12,0,3,Pipeline SC ECNL G12,Morris Catholic High School,Field 1 Upper,On Time,654681
+2025-04-05,10:30 AM,Group Play,Maryland United FC ECNL G12,1,0,Pipeline SC ECNL G12,Liberty Sports Park,Field 9,On Time,654679
+2025-04-05,12:15 PM,Group Play,Match Fit Academy ECNL G12,2,1,PDA South ECNL G12,Monmouth Regional High School,North,On Time,654701
+2025-04-06,01:15 PM,Group Play,Match Fit Academy ECNL G12,0,3,PDA White ECNL G12,Morris Catholic High School,Field 1 Upper,On Time,654741
+2025-04-12,TBD,Group Play,Bethesda SC ECNL G12,,,Maryland United FC ECNL G12,,,On Time,654611
+2025-04-12,09:00 AM,Group Play,HEX FC Bucks ECNL G12,0,7,PDA Blue ECNL G12,Academy of the New Church (ANC),Turf ,On Time,654555
+2025-04-12,10:00 AM,Group Play,PDA South ECNL G12,1,1,PDA White ECNL G12,Westampton Sports Complex,Field 2,On Time,654747
+2025-04-12,10:45 AM,Group Play,Philadelphia Ukrainian Nationals ECNL G12,1,1,FC DELCO ECNL G12,Ukrainian AMerican Sports Center,Field 6,On Time,654587
+2025-04-13,10:00 AM,Group Play,PDA Blue ECNL G12,0,0,Philadelphia Ukrainian Nationals ECNL G12,PDA Main Complex,Field 3,On Time,654713
+2025-04-26,10:15 AM,Group Play,Pipeline SC ECNL G12,3,0,Bethesda SC ECNL G12,Mercy High School,Field 1,On Time,654543
+2025-04-26,10:30 AM,Group Play,Philadelphia Ukrainian Nationals ECNL G12,1,2,PDA White ECNL G12,Ukrainian AMerican Sports Center,Field 6,On Time,654749
+2025-04-26,12:30 PM,Group Play,HEX FC Bucks ECNL G12,2,5,Match Fit Academy ECNL G12,Academy of the New Church (ANC),Turf ,On Time,654637
+2025-04-26,02:15 PM,Group Play,Penn Fusion SA ECNL G12,0,3,PDA Blue ECNL G12,USTC,Field 3,On Time,654561
+2025-04-26,02:30 PM,Group Play,Maryland United FC ECNL G12,,,PDA South ECNL G12,Liberty Sports Park,Field 2,On Time,654699
+2025-04-27,09:00 AM,Group Play,Pipeline SC ECNL G12,0,1,HEX FC Bucks ECNL G12,Mercy High School,Field 1,On Time,654603
+2025-04-27,01:30 PM,Group Play,Maryland United FC ECNL G12,2,1,Penn Fusion SA ECNL G12,Liberty Sports Park,Field 4,On Time,654659
+2025-04-27,02:00 PM,Group Play,Bethesda SC ECNL G12,1,1,PDA South ECNL G12,Eleanor Roosevelt High School,Field 1,On Time,654691
+2025-05-03,09:00 AM,Group Play,Penn Fusion SA ECNL G12,3,0,Match Fit Academy ECNL G12,USTC,Field 2,On Time,654641
+2025-05-03,10:00 AM,Group Play,PDA South ECNL G12,1,1,Pipeline SC ECNL G12,Westampton Sports Complex,Field 2,On Time,654685
+2025-05-03,10:00 AM,Group Play,FC DELCO ECNL G12,6,0,PDA White ECNL G12,Proving Grounds,7,On Time,654735
+2025-05-03,04:00 PM,Group Play,HEX FC Bucks ECNL G12,0,1,Bethesda SC ECNL G12,Council Rock North High School,Turf Field,On Time,654535
+2025-05-03,04:00 PM,Group Play,Maryland United FC ECNL G12,0,2,Philadelphia Ukrainian Nationals ECNL G12,Liberty Sports Park,Field 4,On Time,654719
+2025-05-04,10:00 AM,Group Play,FC DELCO ECNL G12,3,0,Match Fit Academy ECNL G12,Downingtown East High School,Lower Field,On Time,654635
+2025-05-04,01:00 PM,Group Play,Bethesda SC ECNL G12,1,1,Philadelphia Ukrainian Nationals ECNL G12,Maryland Soccerplex,Field 14,On Time,654711
+2025-05-04,01:30 PM,Group Play,Maryland United FC ECNL G12,4,0,HEX FC Bucks ECNL G12,Liberty Sports Park,Field 4,On Time,654597
+2025-05-10,10:00 AM,Group Play,PDA Blue ECNL G12,1,2,FC DELCO ECNL G12,PDA Main Complex,Field 2,On Time,654573
+2025-05-17,10:00 AM,Group Play,PDA Blue ECNL G12,3,0,Match Fit Academy ECNL G12,PDA Main Complex,Field 5,On Time,654633
+2025-05-17,10:45 AM,Group Play,Philadelphia Ukrainian Nationals ECNL G12,4,0,Pipeline SC ECNL G12,Ukrainian AMerican Sports Center,Field 6,On Time,654687
+2025-05-17,12:15 PM,Group Play,Penn Fusion SA ECNL G12,2,0,Bethesda SC ECNL G12,Penn Fusion Kildare's Turf ,Stadium,On Time,654541
+2025-05-18,09:00 AM,Group Play,Pipeline SC ECNL G12,0,9,PDA Blue ECNL G12,Mercy High School,Field 1,On Time,654563
+2025-05-18,09:30 AM,Group Play,FC DELCO ECNL G12,2,1,Maryland United FC ECNL G12,Downingtown East High School,Lower Field,On Time,654615
+2025-05-18,11:30 AM,Group Play,Match Fit Academy ECNL G12,2,0,Philadelphia Ukrainian Nationals ECNL G12,Morris Catholic High School,Field 1 Upper,On Time,654721
+2025-05-18,12:00 PM,Group Play,PDA White ECNL G12,1,3,Penn Fusion SA ECNL G12,PDA ,Field 1,On Time,654669
+2025-05-18,04:30 PM,Group Play,HEX FC Bucks ECNL G12,1,2,PDA South ECNL G12,Council Rock South High School,Turf,On Time,654697

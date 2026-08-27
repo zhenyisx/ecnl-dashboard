@@ -1,0 +1,88 @@
+rank,team,club,teamID,gp,w,l,d,pts,ppg,gf,ga,gd,division,flight
+1,LA Breakers FC ECNL GU13,LA Breakers FC,55512,24,1,17,6,9,0.38,10,67,-57,GU13,Mojave
+1,So Cal Blues ECNL GU13,So Cal Blues,60035,23,19,1,3,60,2.61,87,13,74,GU13,Sonoran
+1,Eagles SC ECNL GU14,Eagles SC,6122,24,17,4,3,54,2.25,64,22,42,GU14,Mojave
+2,Legends FC ECNL GU14,Legends FC (CA),8362,24,14,4,6,48,2.0,66,30,36,GU14,Mojave
+3,Beach FC ECNL GU14,Beach Futbol Club,60045,24,14,5,5,47,1.96,61,21,40,GU14,Mojave
+4,Sporting California Arsenal FC ECNL GU14,Sporting California USA,28062,24,11,5,8,41,1.71,35,24,11,GU14,Mojave
+5,SLAMMERS FC ECNL GU14,Slammers FC,9288,24,7,8,9,30,1.25,29,33,-4,GU14,Mojave
+6,Utah Royals FC-AZ ECNL GU14,Utah Royals FC - AZ,56526,24,6,15,3,21,0.88,17,48,-31,GU14,Mojave
+7,LAFC So Cal ECNL GU14,LAFC So Cal,45887,24,5,15,4,19,0.79,21,50,-29,GU14,Mojave
+8,LA Breakers FC ECNL GU14,No Club Selection,29129,24,5,16,3,18,0.75,19,57,-38,GU14,Mojave
+9,Heat FC ECNL GU14,LV Heat Surf SC ,46745,24,0,19,5,5,0.21,12,67,-55,GU14,Mojave
+1,So Cal Blues ECNL GU14,So Cal Blues,29588,23,22,1,0,66,2.87,77,14,63,GU14,Sonoran
+2,Slammers FC HB Koge ECNL GU14,Slammers FC HB Koge,29720,23,18,4,1,55,2.39,101,17,84,GU14,Sonoran
+3,San Diego Surf ECNL GU14,San Diego Surf Soccer Club,45875,23,16,2,5,53,2.3,92,22,70,GU14,Sonoran
+4,Phoenix Rising ECNL GU14,Phoenix Rising FC,45886,23,10,10,3,33,1.43,35,54,-19,GU14,Sonoran
+5,Rebels SC ECNL GU14,Rebels Soccer Club,19029,23,7,13,3,24,1.04,23,54,-31,GU14,Sonoran
+6,AZ Arsenal ECNL GU14,Arizona Arsenal Soccer Club,45882,23,8,15,0,24,1.04,35,72,-37,GU14,Sonoran
+7,Del Mar Sharks ECNL GU14,Legends FC - Del Mar,46835,23,6,14,3,21,0.91,19,56,-37,GU14,Sonoran
+8,Strikers FC ECNL GU14,Strikers FC ECNL,46747,23,2,18,3,9,0.39,14,79,-65,GU14,Sonoran
+1,Beach FC ECNL GU15,Beach Futbol Club,46284,24,18,4,2,56,2.33,66,23,43,GU15,Mojave
+2,Legends FC ECNL GU15,Legends FC (CA),28540,24,17,2,5,56,2.33,59,22,37,GU15,Mojave
+3,SLAMMERS FC ECNL GU15,Slammers FC,18022,24,15,4,5,50,2.08,50,26,24,GU15,Mojave
+4,Eagles SC ECNL GU15,No Club Selection,1153,24,12,9,3,39,1.63,58,36,22,GU15,Mojave
+5,LAFC So Cal ECNL GU15,LAFC So Cal,45888,24,11,9,4,37,1.54,56,27,29,GU15,Mojave
+6,LA Breakers FC ECNL GU15,No Club Selection,34925,24,10,8,6,36,1.5,49,51,-2,GU15,Mojave
+7,Utah Royals FC-AZ ECNL GU15,Utah Royals FC - AZ,56527,24,9,9,6,33,1.38,60,39,21,GU15,Mojave
+8,Heat FC ECNL GU15,LV Heat Surf SC ,35182,24,7,16,1,22,0.92,43,61,-18,GU15,Mojave
+9,Sporting California Arsenal FC ECNL GU15,Sporting California USA,21540,24,3,19,2,11,0.46,19,87,-68,GU15,Mojave
+1,Slammers FC HB Koge ECNL GU15,Slammers FC HB Koge,8995,23,22,0,1,67,2.91,90,9,81,GU15,Sonoran
+2,San Diego Surf ECNL GU15,San Diego Surf Soccer Club,45876,23,14,4,5,47,2.04,60,17,43,GU15,Sonoran
+3,Phoenix Rising ECNL GU15,Phoenix Rising FC,35183,23,9,10,4,31,1.35,36,40,-4,GU15,Sonoran
+4,Rebels SC ECNL GU15,Rebels Soccer Club,9867,23,10,12,1,31,1.35,35,74,-39,GU15,Sonoran
+5,So Cal Blues ECNL GU15,So Cal Blues,35189,23,6,13,4,22,0.96,21,44,-23,GU15,Sonoran
+6,Del Mar Sharks ECNL GU15,Legends FC - Del Mar,35180,23,6,16,1,19,0.83,28,66,-38,GU15,Sonoran
+7,Strikers FC ECNL GU15,Strikers FC ECNL,35188,23,3,19,1,10,0.43,16,62,-46,GU15,Sonoran
+8,AZ Arsenal ECNL GU15,Arizona Arsenal Soccer Club,33451,23,1,19,3,6,0.26,9,71,-62,GU15,Sonoran
+1,Legends FC ECNL GU16,Legends FC (CA),4624,24,19,2,3,60,2.5,68,20,48,GU16,Mojave
+2,SLAMMERS FC ECNL GU16,Slammers FC,9292,24,16,4,4,52,2.17,60,24,36,GU16,Mojave
+3,LAFC So Cal ECNL GU16,LAFC So Cal,45889,24,14,4,6,48,2.0,50,25,25,GU16,Mojave
+4,LA Breakers FC ECNL GU16,No Club Selection,19489,24,13,6,5,44,1.83,44,31,13,GU16,Mojave
+5,Heat FC ECNL GU16,LV Heat Surf SC ,20442,24,9,12,3,30,1.25,38,51,-13,GU16,Mojave
+6,Beach FC ECNL GU16,Beach Futbol Club,46286,24,6,11,7,25,1.04,33,34,-1,GU16,Mojave
+7,Sporting California Arsenal FC ECNL GU16,Sporting California USA,20440,24,7,15,2,23,0.96,35,51,-16,GU16,Mojave
+8,Utah Royals FC-AZ ECNL GU16,Utah Royals FC - AZ,56528,24,6,17,1,19,0.79,18,56,-38,GU16,Mojave
+9,Eagles SC ECNL GU16,No Club Selection,35181,24,2,20,2,8,0.33,15,78,-63,GU16,Mojave
+1,Slammers FC HB Koge ECNL GU16,Slammers FC HB Koge,17118,23,19,2,2,59,2.57,85,13,72,GU16,Sonoran
+2,San Diego Surf ECNL GU16,San Diego Surf Soccer Club,45877,23,15,2,6,51,2.22,66,13,53,GU16,Sonoran
+3,Rebels SC ECNL GU16,Rebels Soccer Club,35184,23,12,1,10,46,2.0,47,15,32,GU16,Sonoran
+4,So Cal Blues ECNL GU16,So Cal Blues,13344,23,14,7,2,44,1.91,61,17,44,GU16,Sonoran
+5,Strikers FC ECNL GU16,Strikers FC ECNL,20461,23,7,9,7,28,1.22,38,34,4,GU16,Sonoran
+6,AZ Arsenal ECNL GU16,Arizona Arsenal Soccer Club,20434,23,4,17,2,14,0.61,27,82,-55,GU16,Sonoran
+7,Phoenix Rising ECNL GU16,Phoenix Rising FC,20445,23,3,19,1,10,0.43,11,94,-83,GU16,Sonoran
+8,Del Mar Sharks ECNL GU16,Legends FC - Del Mar,9899,23,1,19,3,6,0.26,7,65,-58,GU16,Sonoran
+1,Beach FC ECNL GU17,Beach Futbol Club,46287,24,18,1,5,59,2.46,75,16,59,GU17,Mojave
+2,Utah Royals FC-AZ ECNL GU17,Utah Royals FC - AZ,56707,24,13,5,6,45,1.88,43,24,19,GU17,Mojave
+3,Sporting California Arsenal FC ECNL GU17,Sporting California USA,15648,24,12,8,4,40,1.67,49,38,11,GU17,Mojave
+4,Heat FC ECNL GU17,LV Heat Surf SC ,11814,24,12,8,4,40,1.67,45,42,3,GU17,Mojave
+5,Legends FC ECNL GU17,Legends FC (CA),17410,24,11,8,5,38,1.58,41,25,16,GU17,Mojave
+6,SLAMMERS FC ECNL GU17,Slammers FC,17223,24,8,13,3,27,1.13,32,54,-22,GU17,Mojave
+7,LA Breakers FC ECNL GU17,LA Breakers FC,34922,24,4,14,6,18,0.75,22,48,-26,GU17,Mojave
+8,LAFC So Cal ECNL GU17,LAFC So Cal,45890,24,4,15,5,17,0.71,25,51,-26,GU17,Mojave
+9,Eagles SC ECNL GU17,No Club Selection,5941,24,4,15,5,17,0.71,22,57,-35,GU17,Mojave
+1,San Diego Surf ECNL GU17,San Diego Surf Soccer Club,45878,23,19,1,3,60,2.61,81,20,61,GU17,Sonoran
+2,Slammers FC HB Koge ECNL GU17,Slammers FC HB Koge,10076,23,18,1,4,58,2.52,77,18,59,GU17,Sonoran
+3,Strikers FC ECNL GU17,Strikers FC ECNL,20460,22,10,10,2,32,1.45,41,41,0,GU17,Sonoran
+4,Rebels SC ECNL GU17,Rebels Soccer Club,2399,23,9,12,2,29,1.26,35,48,-13,GU17,Sonoran
+5,Phoenix Rising ECNL GU17,Phoenix Rising FC,20446,23,8,13,2,26,1.13,40,60,-20,GU17,Sonoran
+6,Del Mar Sharks ECNL GU17,Legends FC - Del Mar,16163,23,6,12,5,23,1.0,22,46,-24,GU17,Sonoran
+7,So Cal Blues ECNL GU17,So Cal Blues,17811,23,5,11,7,22,0.96,20,35,-15,GU17,Sonoran
+8,AZ Arsenal ECNL GU17,Arizona Arsenal Soccer Club,19165,23,3,16,4,13,0.57,23,67,-44,GU17,Sonoran
+1,Beach FC ECNL GU18/U19,Beach Futbol Club,46289,24,21,0,3,66,2.75,97,18,79,GU18/U19,Mojave
+2,Legends FC ECNL GU18/U19,Legends FC (CA),13914,24,16,4,4,52,2.17,63,28,35,GU18/U19,Mojave
+3,Utah Royals FC-AZ ECNL GU18/U19,Utah Royals FC - AZ,56531,24,15,8,1,46,1.92,50,30,20,GU18/U19,Mojave
+4,Heat FC ECNL GU18/U19,LV Heat Surf SC ,11617,24,11,9,4,37,1.54,31,26,5,GU18/U19,Mojave
+5,LAFC So Cal ECNL GU18/U19,LAFC So Cal,45891,24,11,9,4,37,1.54,42,36,6,GU18/U19,Mojave
+6,SLAMMERS FC ECNL GU18/U19,Slammers FC,11614,24,9,12,3,30,1.25,32,38,-6,GU18/U19,Mojave
+7,Eagles SC ECNL GU17/U18,No Club Selection,2195,24,4,15,5,17,0.71,19,51,-32,GU18/U19,Mojave
+8,LA Breakers FC ECNL GU18/U19,LA Breakers FC,19486,24,5,19,0,15,0.63,21,64,-43,GU18/U19,Mojave
+9,Sporting California Arsenal FC ECNL GU18/U19,Sporting California USA,11616,24,3,15,6,15,0.63,24,71,-47,GU18/U19,Mojave
+1,Slammers FC HB Koge ECNL GU18/U19,Slammers FC HB Koge,10942,23,17,3,3,54,2.35,69,26,43,GU18/U19,Sonoran
+2,San Diego Surf ECNL GU18/U19,San Diego Surf Soccer Club,45879,22,13,4,5,44,2.0,57,26,31,GU18/U19,Sonoran
+3,Rebels SC ECNL GU18/U19,Rebels Soccer Club,29778,22,11,7,4,37,1.68,33,25,8,GU18/U19,Sonoran
+4,AZ Arsenal ECNL GU18/U19,Arizona Arsenal Soccer Club,20435,23,11,8,4,37,1.61,38,28,10,GU18/U19,Sonoran
+5,So Cal Blues ECNL GU18/U19,So Cal Blues,8953,23,10,9,4,34,1.48,37,28,9,GU18/U19,Sonoran
+6,Strikers FC ECNL GU18/U19,Strikers FC ECNL,7629,23,4,13,6,18,0.78,16,43,-27,GU18/U19,Sonoran
+7,Phoenix Rising ECNL GU18/U19,Phoenix Rising FC,20447,23,3,14,6,15,0.65,33,58,-25,GU18/U19,Sonoran
+8,Del Mar Sharks ECNL GU18/U19,Legends FC - Del Mar,59560,23,1,16,6,9,0.39,10,76,-66,GU18/U19,Sonoran

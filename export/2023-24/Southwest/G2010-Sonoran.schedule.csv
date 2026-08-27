@@ -1,0 +1,91 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2023-09-09,03:30 PM,Group Play,Del Mar Sharks ECNL G10 ,3,0,Pateadores ECNL G10,San Dieguito Academy,Field 1,On Time,539202
+2023-09-09,05:30 PM,Group Play,Slammers FC HB Koge ECNL G10,1,1,So Cal Blues ECNL G10,Orange County Great Park,Field 15,On Time,539343
+2023-09-10,11:30 AM,Group Play,So Cal Blues ECNL G10,3,0,Pateadores ECNL G10,Tesoro High School,Stadium,On Time,539209
+2023-09-10,03:30 PM,Group Play,Del Mar Sharks ECNL G10 ,0,6,Slammers FC HB Koge ECNL G10,San Dieguito Academy,Field 1,On Time,539208
+2023-09-16,08:00 AM,Group Play,Phoenix Rising ECNL G10,1,3,Pateadores ECNL G10,PRFC Youth Soccer Facility,Field 2,On Time,539217
+2023-09-16,09:00 AM,Group Play,San Diego Surf ECNL G10,3,1,Legends FC ECNL G10,Surf Sports Park,Field 1,On Time,539218
+2023-09-16,01:00 PM,Group Play,Eagles SC ECNL G10,4,4,So Cal Blues ECNL G10,Pleasant Valley Fields,Field 19,On Time,539219
+2023-09-16,03:30 PM,Group Play,Del Mar Sharks ECNL G10 ,1,1,LAFC So Cal ECNL G10,San Dieguito Academy,Field 1,On Time,539216
+2023-09-17,08:00 AM,Group Play,Phoenix Rising ECNL G10,2,3,SLAMMERS FC ECNL G10,PRFC Youth Soccer Facility,Field 2,On Time,539228
+2023-09-17,12:30 PM,Group Play,So Cal Blues ECNL G10,1,0,LAFC So Cal ECNL G10,Tesoro High School,Stadium,On Time,539229
+2023-09-17,03:30 PM,Group Play,Del Mar Sharks ECNL G10 ,1,2,Eagles SC ECNL G10,San Dieguito Academy,Field 1,On Time,539227
+2023-09-23,09:00 AM,Group Play,San Diego Surf ECNL G10,2,1,Slammers FC HB Koge ECNL G10,Surf Sports Park,Field 1,On Time,539238
+2023-09-23,10:00 AM,Group Play,Arizona Arsenal ECNL G10,3,4,Phoenix Rising ECNL G10,Legacy Sports Park,Field 5,On Time,539236
+2023-09-23,03:45 PM,Group Play,Rebels SC ECNL G10,2,4,Del Mar Sharks ECNL G10 ,Monte Vista High School,Stadium,On Time,539237
+2023-09-24,09:00 AM,Group Play,San Diego Surf ECNL G10,12,1,Del Mar Sharks ECNL G10 ,Surf Sports Park,Field 1,On Time,539245
+2023-09-24,11:45 AM,Group Play,Rebels SC ECNL G10,0,6,Slammers FC HB Koge ECNL G10,Monte Vista High School,Stadium,On Time,539244
+2023-09-30,12:00 PM,Group Play,Pateadores ECNL G10,1,0,Sporting California USA ECNL G10,Great Park,Field 9,On Time,539252
+2023-09-30,02:45 PM,Group Play,Rebels SC ECNL G10,1,3,So Cal Blues ECNL G10,Monte Vista High School,Stadium,On Time,539253
+2023-09-30,03:30 PM,Group Play,Slammers FC HB Koge ECNL G10,0,1,SLAMMERS FC ECNL G10,Orange County Great Park,Field 6,On Time,539251
+2023-10-01,09:00 AM,Group Play,San Diego Surf ECNL G10,4,0,So Cal Blues ECNL G10,Surf Sports Park,Field 1,On Time,539262
+2023-10-01,11:45 AM,Group Play,Rebels SC ECNL G10,3,4,Sporting California USA ECNL G10,Monte Vista High School,Stadium,On Time,539261
+2023-10-01,03:30 PM,Group Play,Pateadores ECNL G10,3,0,Del Mar Sharks ECNL G10 ,Great Park,Field 10,On Time,539260
+2023-10-14,08:00 AM,Group Play,Slammers FC HB Koge ECNL G10,5,2,Beach FC ECNL G10,Silverlakes Complex,Field 1,On Time,539269
+2023-10-14,10:00 AM,Group Play,Phoenix Rising ECNL G10,0,5,Rebels SC ECNL G10,PRFC Youth Soccer Facility,Field 2,On Time,539271
+2023-10-14,01:00 PM,Group Play,Pateadores ECNL G10,2,1,LA Breakers FC ECNL G10,Silverlakes Sports Complex,Field 18,On Time,539270
+2023-10-15,08:00 AM,Group Play,Arizona Arsenal ECNL G10,3,1,Rebels SC ECNL G10,Legacy Sports Park,Field 8,On Time,539279
+2023-10-15,10:00 AM,Group Play,Phoenix Rising ECNL G10,3,4,Legends FC ECNL G10,PRFC Youth Soccer Facility,Field 2,On Time,539282
+2023-10-15,03:30 PM,Group Play,Slammers FC HB Koge ECNL G10,2,1,LA Breakers FC ECNL G10,Saddleback College,Turf Field,On Time,539280
+2023-10-15,03:45 PM,Group Play,Pateadores ECNL G10,0,1,Beach FC ECNL G10,El Toro High School,Field 1,On Time,539281
+2023-10-21,10:00 AM,Group Play,Slammers FC HB Koge ECNL G10,3,0,Arizona Arsenal ECNL G10,Silverlakes Complex,Field 24,On Time,539289
+2023-10-21,11:30 AM,Group Play,So Cal Blues ECNL G10,0,2,Del Mar Sharks ECNL G10 ,OC Great Park,Field 4,On Time,539290
+2023-10-22,08:00 AM,Group Play,Slammers FC HB Koge ECNL G10,4,0,Utah Royals FC-AZ ECNL G10,Silverlakes Complex,Field 24,On Time,539294
+2023-10-28,09:00 AM,Group Play,San Diego Surf ECNL G10,7,1,Phoenix Rising ECNL G10,Surf Sports Park,Field 1,On Time,539304
+2023-10-28,09:30 AM,Group Play,Rebels SC ECNL G10,0,4,Heat FC ECNL G10,Southwestern College,Stadium,On Time,539303
+2023-10-28,10:00 AM,Group Play,Arizona Arsenal ECNL G10,1,1,LA Breakers FC ECNL G10,Legacy Sports Park,Field 15,On Time,539301
+2023-10-28,12:00 PM,Group Play,Pateadores ECNL G10,0,4,Slammers FC HB Koge ECNL G10,Great Park,Field 9,On Time,539302
+2023-10-28,05:15 PM,Group Play,So Cal Blues ECNL G10,1,4,Legends FC ECNL G10,OC Great Park,Field 4,On Time,539305
+2023-10-29,10:00 AM,Group Play,Arizona Arsenal ECNL G10,0,5,Beach FC ECNL G10,Legacy Sports Park,Field 15,On Time,539315
+2023-10-29,10:00 AM,Group Play,Rebels SC ECNL G10,1,0,Phoenix Rising ECNL G10,Monte Vista High School,Stadium,On Time,539317
+2023-10-29,01:00 PM,Group Play,San Diego Surf ECNL G10,1,1,Heat FC ECNL G10,Surf Sports Park,Field 2,On Time,539318
+2023-11-04,12:15 PM,Group Play,Rebels SC ECNL G10,2,1,LA Breakers FC ECNL G10,Monte Vista High School,Stadium,On Time,539326
+2023-11-05,02:45 PM,Group Play,Rebels SC ECNL G10,1,3,Eagles SC ECNL G10,Monte Vista High School,Stadium,On Time,539381
+2023-11-05,03:00 PM,Group Play,Del Mar Sharks ECNL G10 ,0,11,San Diego Surf ECNL G10,Torrey Pines High School,Field 1,On Time,539325
+2023-11-18,08:00 AM,Group Play,Slammers FC HB Koge ECNL G10,4,0,Phoenix Rising ECNL G10,Santa Margarita High School,Turf Field,On Time,539332
+2023-11-18,09:00 AM,Group Play,So Cal Blues ECNL G10,1,0,Arizona Arsenal ECNL G10,Mission Viejo Riding Park,Field #4,On Time,539334
+2023-11-19,01:00 PM,Group Play,Del Mar Sharks ECNL G10 ,4,5,Arizona Arsenal ECNL G10,Torrey Pines High School,Field 1,On Time,539342
+2023-11-19,01:00 PM,Group Play,Pateadores ECNL G10,0,2,Phoenix Rising ECNL G10,Silverlakes Sports Complex,Field 4,On Time,539344
+2023-11-19,01:00 PM,Group Play,Rebels SC ECNL G10,1,6,San Diego Surf ECNL G10,Monte Vista High School,Stadium,On Time,539345
+2023-11-19,03:30 PM,Group Play,So Cal Blues ECNL G10,1,3,Slammers FC HB Koge ECNL G10,Saddleback College,Field,On Time,539203
+2024-03-09,08:00 AM,Group Play,Phoenix Rising ECNL G10,0,2,Heat FC ECNL G10,Bell94 Sports Complex,Field 16,On Time,539353
+2024-03-09,12:00 PM,Group Play,Utah Royals FC-AZ ECNL G10,2,0,Arizona Arsenal ECNL G10,Reach 11 Sports Complex,Field 12,On Time,539352
+2024-03-16,05:30 PM,Group Play,Pateadores ECNL G10,0,7,San Diego Surf ECNL G10,El Toro High School,Field 1,On Time,539333
+2024-03-23,12:30 PM,Group Play,So Cal Blues ECNL G10,0,2,San Diego Surf ECNL G10,Silverlakes,Field 3,On Time,539363
+2024-03-23,01:00 PM,Group Play,Arizona Arsenal ECNL G10,2,2,Del Mar Sharks ECNL G10 ,Silverlakes ,Field 5,On Time,539360
+2024-03-23,04:30 PM,Group Play,Rebels SC ECNL G10,0,2,SLAMMERS FC ECNL G10,Silverlakes Sports Complex,Field 20,On Time,539362
+2024-03-23,05:00 PM,Group Play,Pateadores ECNL G10,1,3,Heat FC ECNL G10,Silverlakes Sports Complex,Field 12,On Time,539361
+2024-03-24,10:30 AM,Group Play,Del Mar Sharks ECNL G10 ,0,1,Phoenix Rising ECNL G10,Silverlakes Sports Complex,Field 18,On Time,539371
+2024-03-24,03:00 PM,Group Play,San Diego Surf ECNL G10,2,2,Rebels SC ECNL G10,SilverLakes Sports Park,Field 7,On Time,539373
+2024-03-30,10:00 AM,Group Play,Phoenix Rising ECNL G10,1,0,So Cal Blues ECNL G10,PRFC Youth Soccer Facility,Field 2,On Time,539380
+2024-04-13,09:00 AM,Group Play,Legends FC ECNL G10,4,0,Del Mar Sharks ECNL G10 ,Silverlakes Complex,Field 2,On Time,539316
+2024-04-13,09:00 AM,Group Play,San Diego Surf ECNL G10,7,0,Arizona Arsenal ECNL G10,Surf Sports Park,Field 1,On Time,539391
+2024-04-13,12:00 PM,Group Play,Pateadores ECNL G10,1,1,So Cal Blues ECNL G10,Laguna Hills High School,Stadium,On Time,539389
+2024-04-13,01:00 PM,Group Play,Rebels SC ECNL G10,2,0,Utah Royals FC-AZ ECNL G10,Southwestern College,Stadium,On Time,539390
+2024-04-14,08:00 AM,Group Play,Rebels SC ECNL G10,1,1,Arizona Arsenal ECNL G10,Southwestern College,Stadium,On Time,539399
+2024-04-14,09:00 AM,Group Play,San Diego Surf ECNL G10,5,0,Utah Royals FC-AZ ECNL G10,Surf Sports Park,Field 1,On Time,539400
+2024-04-14,01:45 PM,Group Play,Del Mar Sharks ECNL G10 ,0,2,So Cal Blues ECNL G10,San Dieguito Academy,Field 1,On Time,539398
+2024-04-20,01:00 PM,Group Play,Pateadores ECNL G10,0,2,Rebels SC ECNL G10,Great Park,Field 8,On Time,539407
+2024-04-20,01:45 PM,Group Play,Del Mar Sharks ECNL G10 ,2,1,LA Breakers FC ECNL G10,San Dieguito Academy,Field 1,On Time,539406
+2024-04-21,01:00 PM,Group Play,Pateadores ECNL G10,1,1,Arizona Arsenal ECNL G10,Great Park,Field 8,On Time,539413
+2024-04-21,01:45 PM,Group Play,Del Mar Sharks ECNL G10 ,0,2,Rebels SC ECNL G10,San Dieguito Academy,Field 1,On Time,539412
+2024-04-27,10:00 AM,Group Play,Slammers FC HB Koge ECNL G10,2,1,San Diego Surf ECNL G10,Saddleback College,Turf Field,On Time,539418
+2024-04-27,03:45 PM,Group Play,Rebels SC ECNL G10,4,1,Pateadores ECNL G10,Monte Vista High School,Stadium,On Time,539419
+2024-04-28,10:00 AM,Group Play,Slammers FC HB Koge ECNL G10,2,0,Pateadores ECNL G10,Saddleback College,Turf Field,On Time,539424
+2024-04-28,10:00 AM,Group Play,So Cal Blues ECNL G10,1,3,Phoenix Rising ECNL G10,OC Great Park,Field 18,On Time,539425
+2024-05-04,11:45 AM,Group Play,Arizona Arsenal ECNL G10,0,8,So Cal Blues ECNL G10,Arizona Athletic Grounds,Field 9,On Time,539431
+2024-05-04,12:00 PM,Group Play,Pateadores ECNL G10,1,4,LAFC So Cal ECNL G10,Laguna Hills High School,Stadium,On Time,539432
+2024-05-04,12:00 PM,Group Play,Phoenix Rising ECNL G10,0,2,Slammers FC HB Koge ECNL G10,PRFC Youth Soccer Facility,Field 2,On Time,539433
+2024-05-05,09:45 AM,Group Play,Arizona Arsenal ECNL G10,1,7,Slammers FC HB Koge ECNL G10,Arizona Athletic Grounds,Field 9,On Time,539440
+2024-05-05,10:00 AM,Group Play,Phoenix Rising ECNL G10,0,1,Del Mar Sharks ECNL G10 ,PRFC Youth Soccer Facility,Field 2,On Time,539442
+2024-05-05,12:00 PM,Group Play,Pateadores ECNL G10,1,2,Eagles SC ECNL G10,Laguna Hills High School,Stadium,On Time,539441
+2024-05-09,07:00 PM,Group Play,Slammers FC HB Koge ECNL G10,3,1,LAFC So Cal ECNL G10,Orange County Great Park,Field 22,On Time,539372
+2024-05-11,11:45 AM,Group Play,Arizona Arsenal ECNL G10,4,3,Pateadores ECNL G10,Arizona Athletic Grounds,Field 6,On Time,539449
+2024-05-11,11:45 AM,Group Play,Slammers FC HB Koge ECNL G10,3,1,Rebels SC ECNL G10,Saddleback College,Turf Field,On Time,539450
+2024-05-11,12:00 PM,Group Play,Phoenix Rising ECNL G10,2,1,San Diego Surf ECNL G10,PRFC Youth Soccer Facility,Field 2,On Time,539451
+2024-05-12,09:45 AM,Group Play,Arizona Arsenal ECNL G10,0,6,San Diego Surf ECNL G10,Arizona Athletic Grounds,Field 6,On Time,539457
+2024-05-12,09:45 AM,Group Play,So Cal Blues ECNL G10,1,0,Sporting California USA ECNL G10,Tesoro High School,Stadium,On Time,539458
+2024-05-18,12:00 PM,Group Play,Phoenix Rising ECNL G10,3,1,Arizona Arsenal ECNL G10,Reata Sports Complex,Field 18,On Time,539465
+2024-05-18,02:45 PM,Group Play,So Cal Blues ECNL G10,4,0,Rebels SC ECNL G10,Pacific Ridge School,Stadium,On Time,539466
+2024-05-18,04:00 PM,Group Play,Slammers FC HB Koge ECNL G10,5,0,Del Mar Sharks ECNL G10 ,Bonita Creek Football Field,Field 1,On Time,539464
+2024-05-19,09:00 AM,Group Play,San Diego Surf ECNL G10,9,0,Pateadores ECNL G10,Surf Sports Park,Field 2,On Time,539382

@@ -1,0 +1,73 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2024-09-07,09:00 AM,Group Play,SUSA FC ECNL G11,3,0,World Class FC ECNL G11,Orlin & Cohen Sports Complex,Field 2,On Time,654382
+2024-09-10,07:30 PM,Group Play,FC Stars Blue ECNL G11,3,0,FC Stars White ECNL G11,FC Stars Soccer Complex,Field 3,On Time,654356
+2024-09-14,12:50 PM,Group Play,Scorpions SC ECNL G11,5,1,FSA FC ECNL G11,Forekicks III,Turf Field 13,On Time,654296
+2024-09-14,02:00 PM,Group Play,FC Stars White ECNL G11,0,5,South Shore Select ECNL G11,FC Stars Soccer Complex,Field 1 ,On Time,654336
+2024-09-15,12:15 PM,Group Play,South Shore Select ECNL G11,3,2,Scorpions SC ECNL G11,Notre Dame Academy,Turf,On Time,654330
+2024-09-15,12:30 PM,Group Play,FSA FC ECNL G11,2,1,FC Stars White ECNL G11,FSA-Farmington Sports Arena,Field 8,On Time,654302
+2024-09-21,10:00 AM,Group Play,FC Stars White ECNL G11,3,2,East Meadow SC ECNL G11,FC Stars Soccer Complex,Field 2,On Time,654286
+2024-09-21,12:30 PM,Group Play,FSA FC ECNL G11,0,4,South Shore Select ECNL G11,FSA-Farmington Sports Arena,Field 8,On Time,654328
+2024-09-21,02:00 PM,Group Play,FC Stars Blue ECNL G11,3,1,SUSA FC ECNL G11,FC Stars Soccer Complex,Field 1 ,On Time,654340
+2024-09-21,04:45 PM,Group Play,World Class FC ECNL G11,6,3,Connecticut FC ECNL G11,Orangetown Soccer Complex,Field 5,On Time,654272
+2024-09-22,08:00 AM,Group Play,FC Stars Blue ECNL G11,3,3,East Meadow SC ECNL G11,FC Stars Soccer Complex,Field 1 ,On Time,654274
+2024-09-22,01:15 PM,Group Play,FC Stars White ECNL G11,2,2,SUSA FC ECNL G11,FC Stars Soccer Complex,Field 3,On Time,654352
+2024-09-22,03:45 PM,Group Play,World Class FC ECNL G11,2,0,FSA FC ECNL G11,Orangetown Soccer Complex,Field 5,On Time,654306
+2024-09-29,11:30 AM,Group Play,FC Stars Blue ECNL G11,4,0,Scorpions SC ECNL G11,FC Stars Soccer Complex,Field 1 ,On Time,654308
+2024-10-05,09:00 AM,Group Play,SUSA FC ECNL G11,3,2,Scorpions SC ECNL G11,The SUSA Orlin & Cohen Sports Complex,field 2,On Time,654316
+2024-10-05,09:00 AM,Group Play,Connecticut FC ECNL G11,2,2,FC Stars White ECNL G11,CFC Park,Field 1,On Time,654358
+2024-10-05,11:00 AM,Group Play,East Meadow SC ECNL G11,4,1,South Shore Select ECNL G11,East Meadow Field of Dreams,South Turf,On Time,654326
+2024-10-05,03:45 PM,Group Play,World Class FC ECNL G11,1,2,FC Stars Blue ECNL G11,Orangetown Soccer Complex,Field 5,On Time,654256
+2024-10-06,11:00 AM,Group Play,East Meadow SC ECNL G11,2,0,Scorpions SC ECNL G11,East Meadow Field of Dreams,South Turf,On Time,654312
+2024-10-06,11:20 AM,Group Play,SUSA FC ECNL G11,1,2,South Shore Select ECNL G11,Orlin & Cohen Sports Complex,Field 2,On Time,654334
+2024-10-06,02:00 PM,Group Play,Connecticut FC ECNL G11,0,5,FC Stars Blue ECNL G11,CFC Park,Field 1,On Time,654242
+2024-10-06,03:45 PM,Group Play,World Class FC ECNL G11,0,0,FC Stars White ECNL G11,Orangetown Soccer Complex,Field 5,On Time,654368
+2024-10-19,10:00 AM,Group Play,South Shore Select ECNL G11,3,0,World Class FC ECNL G11,Union Point Sports Complex,Field 2,On Time,654380
+2024-10-19,11:00 AM,Group Play,East Meadow SC ECNL G11,4,1,SUSA FC ECNL G11,East Meadow Field of Dreams,South Turf,On Time,654344
+2024-10-19,12:00 PM,Group Play,Scorpions SC ECNL G11,1,3,Connecticut FC ECNL G11,Forekicks III,Turf Field 13,On Time,654264
+2024-10-20,12:15 PM,Group Play,South Shore Select ECNL G11,2,2,Connecticut FC ECNL G11,Notre Dame Academy,Turf,On Time,654266
+2024-10-20,12:30 PM,Group Play,FSA FC ECNL G11,0,1,FC Stars Blue ECNL G11,FSA-Farmington Sports Arena,Field 8,On Time,654246
+2024-10-20,02:15 PM,Group Play,Scorpions SC ECNL G11,2,1,World Class FC ECNL G11,Lincoln School Athletic Complex @ Faxon Farm,Field 1,On Time,654378
+2024-10-26,02:00 PM,Group Play,FSA FC ECNL G11,0,1,Connecticut FC ECNL G11,FSA-Farmington Sports Arena,Field 6,On Time,654262
+2024-11-02,09:00 AM,Group Play,East Meadow SC ECNL G11,1,0,World Class FC ECNL G11,East Meadow Field of Dreams,South Turf,On Time,654374
+2024-11-02,10:00 AM,Group Play,South Shore Select ECNL G11,1,2,FC Stars Blue ECNL G11,Union Point Sports Complex,Field 2,On Time,654250
+2024-11-02,03:45 PM,Group Play,FC Stars White ECNL G11,1,2,Scorpions SC ECNL G11,FC Stars Soccer Complex,Field 1 ,On Time,654318
+2024-11-09,11:00 AM,Group Play,Connecticut FC ECNL G11,0,2,SUSA FC ECNL G11,CFC Park,Field 2,On Time,654342
+2024-11-09,02:00 PM,Group Play,East Meadow SC ECNL G11,3,0,FSA FC ECNL G11,East Meadow Field of Dreams,North Turf,On Time,654294
+2024-11-10,11:00 AM,Group Play,Connecticut FC ECNL G11,1,2,East Meadow SC ECNL G11,CFC Park,Field 2,On Time,654276
+2024-11-10,12:30 PM,Group Play,SUSA FC ECNL G11,3,1,FSA FC ECNL G11,The SUSA Orlin & Cohen Sports Complex,field 2,On Time,654300
+2025-03-09,11:30 AM,Group Play,FSA FC ECNL G11,0,1,Scorpions SC ECNL G11,FSA-Farmington Sports Arena,Field 6,On Time,654314
+2025-03-22,11:00 AM,Group Play,Connecticut FC ECNL G11,1,3,South Shore Select ECNL G11,CFC Park,Field 2,On Time,654324
+2025-03-22,11:00 AM,Group Play,East Meadow SC ECNL G11,1,0,FC Stars White ECNL G11,East Meadow Field of Dreams,South Turf,On Time,654360
+2025-03-22,02:00 PM,Group Play,SUSA FC ECNL G11,3,1,FC Stars Blue ECNL G11,The SUSA Orlin & Cohen Sports Complex,field 2,On Time,654252
+2025-03-22,02:15 PM,Group Play,World Class FC ECNL G11,5,1,Scorpions SC ECNL G11,Orangetown Soccer Complex,Field 1,On Time,654320
+2025-03-23,09:00 AM,Group Play,Connecticut FC ECNL G11,3,0,Scorpions SC ECNL G11,CFC Park,Field 2,On Time,654310
+2025-03-23,09:00 AM,Group Play,World Class FC ECNL G11,0,1,South Shore Select ECNL G11,Orangetown Soccer Complex,Field 1,On Time,654338
+2025-03-23,11:00 AM,Group Play,East Meadow SC ECNL G11,1,6,FC Stars Blue ECNL G11,East Meadow Field of Dreams,South Turf,On Time,654244
+2025-03-23,12:20 PM,Group Play,SUSA FC ECNL G11,5,0,FC Stars White ECNL G11,The SUSA Orlin & Cohen Sports Complex,field 2,On Time,654366
+2025-03-29,10:45 AM,Group Play,FC Stars Blue ECNL G11,1,1,Connecticut FC ECNL G11,FC Stars Soccer Complex,Field 1 ,On Time,654258
+2025-03-29,10:45 AM,Group Play,FC Stars White ECNL G11,1,1,FSA FC ECNL G11,FC Stars Soccer Complex,Field 2,On Time,654304
+2025-03-29,11:00 AM,Group Play,SUSA FC ECNL G11,2,2,East Meadow SC ECNL G11,The SUSA Orlin & Cohen Sports Complex,field 2,On Time,654284
+2025-03-30,10:45 AM,Group Play,FC Stars Blue ECNL G11,3,0,FSA FC ECNL G11,FC Stars Soccer Complex,Field 1 ,On Time,654290
+2025-03-30,12:30 PM,Group Play,FC Stars White ECNL G11,0,1,Connecticut FC ECNL G11,FC Stars Soccer Complex,Field 2,On Time,654270
+2025-04-12,08:00 AM,Group Play,Scorpions SC ECNL G11,0,1,FC Stars White ECNL G11,Lincoln School Athletic Complex @ Faxon Farm,Field 1,On Time,654362
+2025-04-12,09:00 AM,Group Play,SUSA FC ECNL G11,2,1,Connecticut FC ECNL G11,The SUSA Orlin & Cohen Sports Complex,field 2,On Time,654268
+2025-04-12,05:35 PM,Group Play,South Shore Select ECNL G11,2,3,FSA FC ECNL G11,Plymouth North Stadium,Field 1,On Time,654298
+2025-04-13,03:00 PM,Group Play,Scorpions SC ECNL G11,1,1,South Shore Select ECNL G11,Seekonk High School ,Field 1,On Time,654332
+2025-04-26,09:00 AM,Group Play,FC Stars White ECNL G11,0,0,FC Stars Blue ECNL G11,FC Stars Soccer Complex,Field 1 ,On Time,654254
+2025-04-26,09:50 AM,Group Play,Scorpions SC ECNL G11,0,2,SUSA FC ECNL G11,Forekicks III,Turf Field 15,On Time,654348
+2025-04-26,01:00 PM,Group Play,Connecticut FC ECNL G11,2,4,World Class FC ECNL G11,CFC Park,Field 2,On Time,654372
+2025-04-26,07:00 PM,Group Play,South Shore Select ECNL G11,3,0,East Meadow SC ECNL G11,Plymouth North Stadium,Field 1,On Time,654282
+2025-04-27,12:30 PM,Group Play,FC Stars White ECNL G11,1,2,World Class FC ECNL G11,Game on Fitchburg,Field 6,On Time,654384
+2025-04-27,01:00 PM,Group Play,Scorpions SC ECNL G11,4,3,East Meadow SC ECNL G11,Lincoln School Athletic Complex @ Faxon Farm,Field 1,On Time,654280
+2025-04-27,02:45 PM,Group Play,South Shore Select ECNL G11,1,1,SUSA FC ECNL G11,Union Point Sports Complex,Field 3,On Time,654350
+2025-05-03,09:30 AM,Group Play,South Shore Select ECNL G11,2,1,FC Stars White ECNL G11,Union Point Sports Complex,Field 2,On Time,654364
+2025-05-03,10:30 AM,Group Play,FSA FC ECNL G11,1,3,SUSA FC ECNL G11,FSA-Farmington Sports Arena,Field 8,On Time,654346
+2025-05-03,11:30 AM,Group Play,Scorpions SC ECNL G11,1,4,FC Stars Blue ECNL G11,Forekicks III,Turf Field 14,On Time,654248
+2025-05-03,12:30 PM,Group Play,World Class FC ECNL G11,2,2,East Meadow SC ECNL G11,Orangetown Soccer Complex,Field 5,On Time,654288
+2025-05-04,10:30 AM,Group Play,FSA FC ECNL G11,2,0,East Meadow SC ECNL G11,FSA-Farmington Sports Arena,Field 8,On Time,654278
+2025-05-04,05:45 PM,Group Play,World Class FC ECNL G11,2,0,SUSA FC ECNL G11,Orangetown Soccer Complex,Field 5,On Time,654354
+2025-05-17,10:30 AM,Group Play,FSA FC ECNL G11,2,5,World Class FC ECNL G11,FSA-Farmington Sports Arena,Field 8,On Time,654376
+2025-05-17,02:00 PM,Group Play,East Meadow SC ECNL G11,3,1,Connecticut FC ECNL G11,East Meadow Field of Dreams,South Turf,On Time,654260
+2025-05-17,05:45 PM,Group Play,FC Stars Blue ECNL G11,0,2,South Shore Select ECNL G11,FC Stars Soccer Complex,Field 1 ,On Time,654322
+2025-05-18,10:45 AM,Group Play,FC Stars Blue ECNL G11,0,0,World Class FC ECNL G11,MYSA Progin Park,Field 4,On Time,654370
+2025-05-18,04:45 PM,Group Play,Connecticut FC ECNL G11,3,1,FSA FC ECNL G11,CFC Park,Field 1,On Time,654292

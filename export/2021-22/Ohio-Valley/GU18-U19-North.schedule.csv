@@ -1,0 +1,45 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2021-11-20,02:00 PM,Bracket,Pittsburgh Riverhounds ECNL GU18/U19,2,2,Cleveland Force SC ECNL GU18/U19,Highmark Stadium,Field 1,On Time,278012
+2021-11-20,02:30 PM,Bracket,WNY Flash Academy ECNL GU18/U19,3,2,Internationals SC ECNL GU18/U19,Flash Fields,Field A,On Time,278166
+2021-11-21,02:00 PM,Bracket,Pittsburgh Riverhounds ECNL GU18/U19,0,2,Internationals SC ECNL GU18/U19,Highmark Stadium,Field 1,On Time,278013
+2021-11-21,02:30 PM,Bracket,WNY Flash Academy ECNL GU18/U19,6,1,Cleveland Force SC ECNL GU18/U19,Flash Fields,Field A,On Time,278167
+2021-12-11,02:00 PM,Bracket,Pittsburgh Riverhounds ECNL GU18/U19,2,1,WNY Flash Academy ECNL GU18/U19,Montour Junction Sports Complex,Field 1,On Time,278014
+2021-12-12,03:30 PM,Bracket,Cleveland Force SC ECNL GU18/U19,0,5,Internationals SC ECNL GU18/U19,Euclid Memorial Park,Field 3,On Time,277637
+2021-12-12,04:00 PM,Bracket,Kings Hammer SC ECNL GU18/U19,2,2,Ohio Premier ECNL GU18/U19,Town and Country,Field 1,On Time,277869
+2022-03-05,03:00 PM,Bracket,Kings Hammer SC ECNL GU18/U19,6,2,WNY Flash Academy ECNL GU18/U19,Connor High School,Field 1,On Time,277870
+2022-03-05,03:00 PM,Bracket,Ohio Premier ECNL GU18/U19,0,1,Pittsburgh Riverhounds ECNL GU18/U19,OP Training Facility,Field 1,On Time,277960
+2022-03-06,02:30 PM,Bracket,Ohio Premier ECNL GU18/U19,0,3,WNY Flash Academy ECNL GU18/U19,OP Training Facility,Field 1,On Time,277961
+2022-03-06,03:00 PM,Bracket,Kings Hammer SC ECNL GU18/U19,1,4,Pittsburgh Riverhounds ECNL GU18/U19,Covington Catholic High School,Field 1,On Time,277871
+2022-03-19,02:00 PM,Bracket,Kings Hammer SC ECNL GU18/U19,4,1,Cleveland Force SC ECNL GU18/U19,Connor High School,Field 1,On Time,277638
+2022-03-19,03:30 PM,Bracket,Ohio Premier ECNL GU18/U19,0,1,Internationals SC ECNL GU18/U19,OP Training Facility,Field 1,On Time,277962
+2022-03-20,01:00 PM,Bracket,Kings Hammer SC ECNL GU18/U19,2,4,Internationals SC ECNL GU18/U19,Covington Catholic High School,Field 1,On Time,277872
+2022-03-20,03:00 PM,Bracket,Ohio Premier ECNL GU18/U19,6,0,Cleveland Force SC ECNL GU18/U19,OP Training Facility,Field 1,On Time,277963
+2022-04-09,08:30 AM,Bracket,Pittsburgh Riverhounds ECNL GU18/U19,1,2,Ohio Premier ECNL GU18/U19,Montour Junction Sports Complex,Field 1,On Time,278015
+2022-04-09,03:00 PM,Bracket,WNY Flash Academy ECNL GU18/U19,0,1,Kings Hammer SC ECNL GU18/U19,Flash Fields,Field B,On Time,278168
+2022-04-10,01:15 PM,Bracket,WNY Flash Academy ECNL GU18/U19,0,3,Ohio Premier ECNL GU18/U19,Flash Fields,Field A,On Time,278169
+2022-04-10,02:00 PM,Bracket,Pittsburgh Riverhounds ECNL GU18/U19,1,1,Kings Hammer SC ECNL GU18/U19,Montour Junction Sports Complex,Field 1,On Time,278016
+2022-04-23,02:30 PM,Bracket,Internationals SC ECNL GU18/U19,3,1,WNY Flash Academy ECNL GU18/U19,Pinnacle Sports,Field 1,On Time,277830
+2022-04-23,03:30 PM,Bracket,Cleveland Force SC ECNL GU18/U19,0,6,Pittsburgh Riverhounds ECNL GU18/U19,Euclid Memorial Park,Field 3,On Time,277639
+2022-04-24,02:30 PM,Bracket,Cleveland Force SC ECNL GU18/U19,0,6,WNY Flash Academy ECNL GU18/U19,Euclid Memorial Park,Field 3,On Time,277640
+2022-04-24,02:30 PM,Bracket,Internationals SC ECNL GU18/U19,2,1,Pittsburgh Riverhounds ECNL GU18/U19,Pinnacle Sports,Field 1,On Time,277831
+2022-04-30,09:00 AM,Bracket,Ohio Premier ECNL GU18/U19,6,4,Racing Louisville Academy ECNL GU18/U19,OP Training Facility,Field 1,On Time,277964
+2022-04-30,11:30 AM,Bracket,Pittsburgh Riverhounds ECNL GU18/U19,1,1,Tennessee Soccer Club ECNL GU18/U19,Montour Junction Sports Complex,Field 1,On Time,278017
+2022-04-30,02:30 PM,Bracket,Internationals SC ECNL GU18/U19,2,1,Indiana Fire ECNL GU18/U19,Pinnacle Sports,Field 1,On Time,277832
+2022-04-30,02:30 PM,Bracket,Kings Hammer SC ECNL GU18/U19,1,4,Ohio Elite Soccer Academy ECNL GU18/U19,NKU Soccer Stadium,Field 1,On Time,277873
+2022-04-30,03:30 PM,Bracket,Cleveland Force SC ECNL GU18/U19,3,6,FC Pride Elite ECNL GU18/U19,Euclid Memorial Park,Field 3,On Time,277641
+2022-05-01,01:30 PM,Bracket,Pittsburgh Riverhounds ECNL GU18/U19,4,0,FC Alliance ECNL GU18/U19,Highmark Stadium,Field 1,On Time,278018
+2022-05-01,02:30 PM,Bracket,Cleveland Force SC ECNL GU18/U19,1,4,Indiana Fire ECNL GU18/U19,Euclid Memorial Park,Field 3,On Time,277642
+2022-05-01,02:30 PM,Bracket,Internationals SC ECNL GU18/U19,2,2,FC Pride Elite ECNL GU18/U19,Pinnacle Sports,Field 1,On Time,277833
+2022-05-01,03:00 PM,Bracket,Kings Hammer SC ECNL GU18/U19,2,0,Racing Louisville Academy ECNL GU18/U19,NKU Soccer Stadium,Field 1,On Time,277874
+2022-05-01,03:00 PM,Bracket,Ohio Premier ECNL GU18/U19,0,0,Ohio Elite Soccer Academy ECNL GU18/U19,OP Training Facility,Field 1,On Time,277965
+2022-05-14,09:00 AM,Bracket,Internationals SC ECNL GU18/U19,0,0,Ohio Premier ECNL GU18/U19,Pinnacle Sports,Field 1,On Time,277834
+2022-05-14,12:30 PM,Bracket,WNY Flash Academy ECNL GU18/U19,5,0,FC Pride Elite ECNL GU18/U19,Flash Fields,Field A,On Time,278170
+2022-05-14,02:00 PM,Bracket,Pittsburgh Riverhounds ECNL GU18/U19,0,4,Indiana Fire ECNL GU18/U19,Montour Junction Sports Complex,Field 1,On Time,278019
+2022-05-14,03:30 PM,Bracket,Cleveland Force SC ECNL GU18/U19,0,6,Kings Hammer SC ECNL GU18/U19,Euclid Memorial Park,Field 3,On Time,277643
+2022-05-15,02:00 PM,Bracket,Pittsburgh Riverhounds ECNL GU18/U19,2,4,FC Pride Elite ECNL GU18/U19,Highmark Stadium,Field 1,On Time,278020
+2022-05-15,02:30 PM,Bracket,Cleveland Force SC ECNL GU18/U19,0,9,Ohio Premier ECNL GU18/U19,Euclid Memorial Park,Field 3,On Time,277644
+2022-05-15,02:30 PM,Bracket,Internationals SC ECNL GU18/U19,2,0,Kings Hammer SC ECNL GU18/U19,Pinnacle Sports,Field 1,On Time,277835
+2022-05-15,02:30 PM,Bracket,WNY Flash Academy ECNL GU18/U19,3,1,Indiana Fire ECNL GU18/U19,Flash Fields,Field A,On Time,278171
+2022-06-04,10:00 AM,Bracket,Ohio Premier ECNL GU18/U19,6,1,Kings Hammer SC ECNL GU18/U19,OP Training Facility,Field 1,On Time,277966
+2022-06-04,03:30 PM,Bracket,Internationals SC ECNL GU18/U19,13,0,Cleveland Force SC ECNL GU18/U19,Pinnacle Sports,Field 1,On Time,277836
+2022-06-06,02:30 PM,Bracket,WNY Flash Academy ECNL GU18/U19,7,0,Pittsburgh Riverhounds ECNL GU18/U19,Flash Fields,Field A,On Time,278172

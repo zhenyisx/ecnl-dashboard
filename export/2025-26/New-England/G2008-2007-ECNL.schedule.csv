@@ -1,0 +1,53 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2025-12-06,11:00 AM,Group Play,Select ECNL G08/07,1,0,FSA FC ECNL G08/07,Lovell Field,1,On Time,886525
+2025-12-06,02:30 PM,Group Play,East Meadow SC ECNL G08/07,0,4,World Class FC ECNL G08/07,East Meadow Field of Dreams,South Turf,On Time,886553
+2025-12-13,TBD,Group Play,World Class FC ECNL G08/07,1,4,Connecticut FC United ECNL G08/07,,,On Time,886516
+2025-12-13,03:00 PM,Group Play,FC Stars Blue ECNL G08/07,6,0,FSA FC ECNL G08/07,FC Stars Soccer Complex,Field 1 ,On Time,886522
+2025-12-13,03:30 PM,Group Play,Scorpions SC ECNL G08/07,3,1,FC Stars White ECNL G08/07,Forekicks III,Turf Field 13,On Time,886548
+2026-03-01,02:15 PM,Group Play,FC Stars Blue ECNL G08/07,2,0,FC Stars White ECNL G08/07,FC Stars Soccer Complex,Field 1 ,On Time,886545
+2026-03-14,09:00 AM,Group Play,East Meadow SC ECNL G08/07,1,3,Connecticut FC United ECNL G08/07,East Meadow Field of Dreams,South Turf,On Time,886512
+2026-03-14,01:40 PM,Group Play,SUSA FC ECNL G08/07,2,1,FSA FC ECNL G08/07,The SUSA Orlin & Cohen Sports Complex,field 2,On Time,886526
+2026-03-15,12:40 PM,Group Play,SUSA FC ECNL G08/07,1,2,Connecticut FC United ECNL G08/07,The SUSA Orlin & Cohen Sports Complex,field 2,On Time,886514
+2026-03-15,03:00 PM,Group Play,East Meadow SC ECNL G08/07,1,5,FSA FC ECNL G08/07,East Meadow Field of Dreams,South Turf,On Time,886523
+2026-03-21,01:00 PM,Group Play,Select ECNL G08/07,0,5,FC Stars Blue ECNL G08/07,Canton High School,Field 1,On Time,886508
+2026-03-21,04:30 PM,Group Play,FSA FC ECNL G08/07,2,0,FC Stars White ECNL G08/07,FSA-Farmington Sports Arena,Field 8,On Time,886547
+2026-03-22,03:20 PM,Group Play,Select ECNL G08/07,0,3,FC Stars White ECNL G08/07,Whitman Hanson High School,Field 1,On Time,886549
+2026-03-22,04:30 PM,Group Play,FSA FC ECNL G08/07,0,5,FC Stars Blue ECNL G08/07,FSA-Farmington Sports Arena,Field 8,On Time,886506
+2026-03-28,02:15 PM,Group Play,FC Stars Blue ECNL G08/07,4,0,World Class FC ECNL G08/07,FC Stars Soccer Complex,Field 1 ,On Time,886551
+2026-03-29,12:45 PM,Group Play,FC Stars White ECNL G08/07,1,0,World Class FC ECNL G08/07,St. Johns Fields,Stadium,On Time,886556
+2026-04-04,02:15 PM,Group Play,FC Stars Blue ECNL G08/07,7,0,Connecticut FC United ECNL G08/07,FC Stars Soccer Complex,Field 1 ,On Time,886511
+2026-04-08,06:00 PM,Group Play,FC Stars White ECNL G08/07,0,4,FC Stars Blue ECNL G08/07,MYSA Progin Park,Field 2,On Time,886510
+2026-04-11,TBD,Group Play,FC Stars White ECNL G08/07,2,0,FSA FC ECNL G08/07,,,On Time,886527
+2026-04-11,06:00 PM,Group Play,Select ECNL G08/07,1,3,Scorpions SC ECNL G08/07,Union Point Sports Complex,Field 2,On Time,886531
+2026-04-12,01:00 PM,Group Play,Connecticut FC United ECNL G08/07,1,2,World Class FC ECNL G08/07,CFC Park,Field 1,On Time,886552
+2026-04-12,02:30 PM,Group Play,FSA FC ECNL G08/07,1,5,Scorpions SC ECNL G08/07,FSA-Farmington Sports Arena,Field 8,On Time,886530
+2026-04-14,08:15 PM,Group Play,SUSA FC ECNL G08/07,6,0,East Meadow SC ECNL G08/07,The SUSA Orlin & Cohen Sports Complex,field 2,On Time,886520
+2026-04-18,03:00 PM,Group Play,FC Stars Blue ECNL G08/07,4,0,Scorpions SC ECNL G08/07,FC Stars Soccer Complex,Field 1 ,On Time,886528
+2026-04-18,06:30 PM,Group Play,FC Stars White ECNL G08/07,0,0,Select ECNL G08/07,FC Stars Soccer Complex,Field 1 ,On Time,886538
+2026-04-19,04:45 PM,Group Play,FC Stars White ECNL G08/07,0,5,Scorpions SC ECNL G08/07,FC Stars Soccer Complex,Field 3,On Time,886532
+2026-04-25,09:00 AM,Group Play,East Meadow SC ECNL G08/07,0,1,FC Stars White ECNL G08/07,East Meadow Field of Dreams,South Turf,On Time,886546
+2026-04-25,12:00 PM,Group Play,Connecticut FC United ECNL G08/07,2,4,Select ECNL G08/07,CFC Park,Field 1,On Time,886535
+2026-04-25,12:30 PM,Group Play,World Class FC ECNL G08/07,0,1,Scorpions SC ECNL G08/07,Orangetown Soccer Complex,Field 5,On Time,886533
+2026-04-25,01:10 PM,Group Play,SUSA FC ECNL G08/07,0,1,FC Stars Blue ECNL G08/07,The SUSA Orlin & Cohen Sports Complex,field 2,On Time,886509
+2026-04-26,09:00 AM,Group Play,East Meadow SC ECNL G08/07,1,7,FC Stars Blue ECNL G08/07,East Meadow Field of Dreams,South Turf,On Time,886505
+2026-04-26,12:00 PM,Group Play,World Class FC ECNL G08/07,4,1,Select ECNL G08/07,Orangetown Soccer Complex,Field 5,On Time,886539
+2026-04-26,02:10 PM,Group Play,SUSA FC ECNL G08/07,0,0,FC Stars White ECNL G08/07,The SUSA Orlin & Cohen Sports Complex,field 2,On Time,886550
+2026-04-26,03:00 PM,Group Play,Connecticut FC United ECNL G08/07,1,2,Scorpions SC ECNL G08/07,CFC Park,Field 1,On Time,886529
+2026-05-02,08:45 AM,Group Play,Scorpions SC ECNL G08/07,1,0,Select ECNL G08/07,Taunton Forekicks,Field 13,On Time,886537
+2026-05-02,04:00 PM,Group Play,FSA FC ECNL G08/07,2,2,Connecticut FC United ECNL G08/07,FSA-Farmington Sports Arena,Field 6,On Time,886513
+2026-05-02,04:20 PM,Group Play,SUSA FC ECNL G08/07,1,3,World Class FC ECNL G08/07,The SUSA Orlin & Cohen Sports Complex,field 2,On Time,886555
+2026-05-03,02:15 PM,Group Play,World Class FC ECNL G08/07,0,1,SUSA FC ECNL G08/07,Dominican University,Field 1,On Time,886544
+2026-05-03,03:00 PM,Group Play,FC Stars Blue ECNL G08/07,3,0,Select ECNL G08/07,FC Stars Soccer Complex,Field 1 ,On Time,886534
+2026-05-03,04:45 PM,Group Play,FC Stars White ECNL G08/07,1,1,Connecticut FC United ECNL G08/07,FC Stars Soccer Complex,Field 3,On Time,886515
+2026-05-03,06:00 PM,Group Play,Scorpions SC ECNL G08/07,4,0,FSA FC ECNL G08/07,Seekonk High School ,Field 1,On Time,886524
+2026-05-06,06:30 PM,Group Play,East Meadow SC ECNL G08/07,0,4,SUSA FC ECNL G08/07,East Meadow Field of Dreams,North Turf,On Time,886541
+2026-05-09,01:45 PM,Group Play,Scorpions SC ECNL G08/07,0,2,FC Stars Blue ECNL G08/07,Taunton Forekicks,Field 13,On Time,886507
+2026-05-09,02:15 PM,Group Play,World Class FC ECNL G08/07,3,0,East Meadow SC ECNL G08/07,Orangetown Soccer Complex,Field 5,On Time,886521
+2026-05-09,02:30 PM,Group Play,FSA FC ECNL G08/07,4,0,Select ECNL G08/07,FSA-Farmington Sports Arena,Field 8,On Time,886536
+2026-05-10,02:30 PM,Group Play,FSA FC ECNL G08/07,1,2,World Class FC ECNL G08/07,FSA-Farmington Sports Arena,Field 8,On Time,886554
+2026-05-16,09:00 AM,Group Play,Select ECNL G08/07,4,1,East Meadow SC ECNL G08/07,Union Point Sports Complex,Field 2,On Time,886519
+2026-05-16,01:45 PM,Group Play,Scorpions SC ECNL G08/07,2,2,SUSA FC ECNL G08/07,Taunton Forekicks,Field 12,On Time,886542
+2026-05-17,11:30 AM,Group Play,Select ECNL G08/07,0,0,SUSA FC ECNL G08/07,Union Point Sports Complex,Field 3,On Time,886543
+2026-05-17,01:30 PM,Group Play,Scorpions SC ECNL G08/07,5,1,East Meadow SC ECNL G08/07,Lincoln School Athletic Complex @ Faxon Farm,Field 1,On Time,886518
+2026-06-06,01:15 PM,Group Play,Connecticut FC United ECNL G08/07,1,3,SUSA FC ECNL G08/07,CFC Park,Field 1,On Time,886540
+2026-06-07,06:00 PM,Group Play,Connecticut FC United ECNL G08/07,1,0,East Meadow SC ECNL G08/07,CFC Park,Field 1,On Time,886517

@@ -1,0 +1,95 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2022-09-10,08:30 AM,Bracket,Slammers FC HB Koge ECNL G05/04,4,0,Del Mar Sharks ECNL G05/04,Bonita Canyon Sports Park,Field 5,On Time,364668
+2022-09-10,10:00 AM,Bracket,San Diego Surf ECNL G05/04,5,2,Arizona Arsenal ECNL G05/04,SilverLakes Sports Park,Field 21,On Time,364666
+2022-09-10,01:00 PM,Bracket,Rebels SC ECNL G05/04,1,2,Phoenix Rising ECNL G05/04,Southwestern College,Stadium,On Time,364667
+2022-09-11,09:00 AM,Bracket,San Diego Surf ECNL G05/04,5,1,Phoenix Rising ECNL G05/04,SilverLakes Sports Park,Field 22,On Time,364671
+2022-09-11,11:45 AM,Bracket,Rebels SC ECNL G05/04,2,1,Arizona Arsenal ECNL G05/04,Mira Mesa High School ,Field 1,On Time,364670
+2022-09-11,12:45 PM,Bracket,Pateadores ECNL G05/04,0,1,Del Mar Sharks ECNL G05/04,Great Park,Field 8,On Time,364672
+2022-09-11,03:45 PM,Bracket,Slammers FC HB Koge ECNL G05/04,5,0,So Cal Blues ECNL G05/04,Orange County Great Park,Field 4,On Time,364673
+2022-09-17,08:00 AM,Bracket,Del Mar Sharks ECNL G05/04,3,2,Sporting California USA ECNL G05/04,La Jolla High School,Field 1,On Time,364675
+2022-09-17,08:00 AM,Bracket,Arizona Arsenal ECNL G05/04,0,1,SLAMMERS FC ECNL G05/04,Legacy Sports Park,Field 10,On Time,364676
+2022-09-17,08:00 AM,Bracket,Phoenix Rising ECNL G05/04,3,1,Pateadores ECNL G05/04,PRFC Youth Soccer Facility,Field 1,On Time,364677
+2022-09-17,09:00 AM,Bracket,San Diego Surf ECNL G05/04,1,3,Beach FC ECNL G05/04,Surf Sports Park,Field 12,On Time,364674
+2022-09-18,08:00 AM,Bracket,Del Mar Sharks ECNL G05/04,0,2,Beach FC ECNL G05/04,Torrey Pines High School,Stadium ,On Time,364678
+2022-09-18,08:00 AM,Bracket,Phoenix Rising ECNL G05/04,1,2,Slammers FC HB Koge ECNL G05/04,PRFC Youth Soccer Facility,Field 1,On Time,364681
+2022-09-18,09:00 AM,Bracket,San Diego Surf ECNL G05/04,1,5,Sporting California USA ECNL G05/04,Surf Sports Park,Field 11,On Time,364679
+2022-09-18,10:00 AM,Bracket,Arizona Arsenal ECNL G05/04,0,1,Pateadores ECNL G05/04,Legacy Sports Park,Field 8,On Time,364680
+2022-09-24,08:00 AM,Bracket,Phoenix Rising ECNL G05/04,6,1,Rebels SC ECNL G05/04,Copper Sky Regional Park,Field 3,On Time,364682
+2022-09-24,10:00 AM,Bracket,So Cal Blues ECNL G05/04,1,0,Del Mar Sharks ECNL G05/04,Northwood High School ,Turf Field/Track,On Time,364683
+2022-10-01,08:00 AM,Bracket,Del Mar Sharks ECNL G05/04,1,5,Utah Royals FC-AZ ECNL G05/04,Canyon Crest Academy,Stadium,On Time,364684
+2022-10-01,12:45 PM,Bracket,Pateadores ECNL G05/04,0,2,Phoenix Rising ECNL G05/04,Great Park,Field 8,On Time,364686
+2022-10-01,05:15 PM,Bracket,Slammers FC HB Koge ECNL G05/04,8,1,Sporting California USA ECNL G05/04,Saddleback College,Turf Field,On Time,364685
+2022-10-02,08:00 AM,Bracket,Del Mar Sharks ECNL G05/04,1,2,SLAMMERS FC ECNL G05/04,Torrey Pines High School,Stadium ,On Time,364688
+2022-10-02,09:00 AM,Bracket,So Cal Blues ECNL G05/04,0,3,Utah Royals FC-AZ ECNL G05/04,Mission Viejo Riding Park,Field #4,On Time,364687
+2022-10-02,12:45 PM,Bracket,Pateadores ECNL G05/04,3,4,San Diego Surf ECNL G05/04,Great Park,Field 8,On Time,364689
+2022-10-15,08:00 AM,Bracket,Del Mar Sharks ECNL G05/04,1,5,Slammers FC HB Koge ECNL G05/04,Francis Ryan Park ,Field 4,On Time,364691
+2022-10-16,08:30 AM,Bracket,Slammers FC HB Koge ECNL G05/04,2,0,Pateadores ECNL G05/04,Santa Margarita High School,Turf Field,On Time,364692
+2022-10-22,08:00 AM,Bracket,Phoenix Rising ECNL G05/04,1,2,Sporting California USA ECNL G05/04,PRFC Stadium at Wild Horse Pass,Field 2,On Time,364694
+2022-10-22,08:00 AM,Bracket,Del Mar Sharks ECNL G05/04,1,0,Rebels SC ECNL G05/04,Canyon Crest Academy,Stadium,On Time,364696
+2022-10-22,09:00 AM,Bracket,San Diego Surf ECNL G05/04,2,0,So Cal Blues ECNL G05/04,SilverLakes Sports Park,Field 21,On Time,364695
+2022-10-22,12:00 PM,Bracket,Arizona Arsenal ECNL G05/04,3,3,LAFC So Cal ECNL G05/04,Legacy Sports Park,Field 19,On Time,364693
+2022-10-22,12:45 PM,Bracket,Pateadores ECNL G05/04,1,2,LA Breakers FC ECNL G05/04,Great Park,Field 8,On Time,364697
+2022-10-23,10:15 AM,Bracket,Slammers FC HB Koge ECNL G05/04,8,1,LA Breakers FC ECNL G05/04,Saddleback College,Turf Field,On Time,364698
+2022-10-23,12:00 PM,Bracket,Phoenix Rising ECNL G05/04,1,3,LAFC So Cal ECNL G05/04,PRFC Stadium at Wild Horse Pass,Field 1,On Time,364699
+2022-10-23,12:00 PM,Bracket,Arizona Arsenal ECNL G05/04,1,3,Legends FC ECNL G05/04,Legacy Sports Park,Field 19,On Time,364700
+2022-10-23,01:30 PM,Bracket,So Cal Blues ECNL G05/04,2,1,Rebels SC ECNL G05/04,Mission Viejo Riding Park,Field #6,On Time,364701
+2022-10-26,06:00 PM,Bracket,Phoenix Rising ECNL G05/04,1,0,Arizona Arsenal ECNL G05/04,Bell Bank Park Legacy Sports,Field 8,On Time,364690
+2022-10-29,08:00 AM,Bracket,Phoenix Rising ECNL G05/04,0,1,So Cal Blues ECNL G05/04,PRFC Stadium at Wild Horse Pass,Field 1,On Time,364703
+2022-10-29,08:00 AM,Bracket,Pateadores ECNL G05/04,1,4,Slammers FC HB Koge ECNL G05/04,Great Park,Field 8,On Time,364704
+2022-10-30,08:00 AM,Bracket,Slammers FC HB Koge ECNL G05/04,1,1,Heat FC ECNL G05/04,Silverlakes Complex,Field 23,On Time,364705
+2022-10-30,08:30 AM,Bracket,Arizona Arsenal ECNL G05/04,2,0,So Cal Blues ECNL G05/04,ASU Polytechnic Campus,Field 2,On Time,364707
+2022-10-30,05:15 PM,Bracket,Pateadores ECNL G05/04,1,3,Rebels SC ECNL G05/04,Great Park,Field 9,On Time,364706
+2022-11-05,07:45 AM,Bracket,Del Mar Sharks ECNL G05/04,0,1,Phoenix Rising ECNL G05/04,San Dieguito Academy,Field 1,On Time,364710
+2022-11-05,11:00 AM,Bracket,So Cal Blues ECNL G05/04,2,0,Pateadores ECNL G05/04,Mission Viejo Riding Park,Field #5,On Time,364711
+2022-11-05,01:00 PM,Bracket,San Diego Surf ECNL G05/04,4,0,LA Breakers FC ECNL G05/04,Surf Sports Park,Field 4,On Time,364708
+2022-11-05,06:00 PM,Bracket,Rebels SC ECNL G05/04,2,1,LAFC So Cal ECNL G05/04,Madison High School,Field 1,On Time,364709
+2022-11-06,08:00 AM,Bracket,Rebels SC ECNL G05/04,2,2,Del Mar Sharks ECNL G05/04,Southwestern College,Stadium,On Time,364712
+2022-11-19,08:00 AM,Bracket,Del Mar Sharks ECNL G05/04,0,0,Legends FC ECNL G05/04,San Dieguito Academy,Field 1,On Time,364714
+2022-11-19,09:00 AM,Bracket,Eagles SC ECNL G05/04,2,0,Pateadores ECNL G05/04,Pleasant Valley Fields,Field 14,On Time,364713
+2022-11-19,01:00 PM,Bracket,San Diego Surf ECNL G05/04,0,2,Slammers FC HB Koge ECNL G05/04,Surf Sports Park,Field 1,On Time,364715
+2022-11-22,07:00 PM,Bracket,Pateadores ECNL G05/04,0,2,So Cal Blues ECNL G05/04,OC Great Park,Field 08,On Time,364669
+2023-03-10,07:00 PM,Bracket,Phoenix Rising ECNL G05/04,0,2,Utah Royals FC-AZ ECNL G05/04,Reach 11 Sports Complex,Field 4,On Time,364716
+2023-03-11,12:00 PM,Bracket,Arizona Arsenal ECNL G05/04,1,2,Heat FC ECNL G05/04,Legacy Sports Park,Field 4,On Time,364717
+2023-03-25,08:30 AM,Bracket,Pateadores ECNL G05/04,1,5,Heat FC ECNL G05/04,Silverlakes Soccer Complex,Field 21,On Time,364718
+2023-03-25,09:00 AM,Bracket,Del Mar Sharks ECNL G05/04,1,3,Arizona Arsenal ECNL G05/04,Silverlakes Sports Complex,Field 13,On Time,364719
+2023-03-25,11:00 AM,Bracket,So Cal Blues ECNL G05/04,0,1,San Diego Surf ECNL G05/04,Silverlakes,Field 7,On Time,364720
+2023-03-26,08:30 AM,Bracket,Pateadores ECNL G05/04,2,3,Utah Royals FC-AZ ECNL G05/04,Silverlakes Sports Complex,Field 15,On Time,364721
+2023-03-26,11:00 AM,Bracket,Rebels SC ECNL G05/04,2,6,San Diego Surf ECNL G05/04,Silverlakes Sports Complex,Field 3,On Time,364724
+2023-03-26,12:30 PM,Bracket,Phoenix Rising ECNL G05/04,3,0,Del Mar Sharks ECNL G05/04,Silverlakes Sports Park,Field 12,On Time,364723
+2023-03-26,04:30 PM,Bracket,Slammers FC HB Koge ECNL G05/04,2,1,LAFC So Cal ECNL G05/04,Silverlakes Complex,Field 1,On Time,364722
+2023-04-08,08:00 AM,Bracket,Del Mar Sharks ECNL G05/04,1,0,So Cal Blues ECNL G05/04,San Dieguito Academy,Field 1,On Time,364729
+2023-04-08,10:00 AM,Bracket,Arizona Arsenal ECNL G05/04,1,2,Phoenix Rising ECNL G05/04,Legacy Sports Park,Field 19,On Time,364728
+2023-04-08,10:15 AM,Bracket,Slammers FC HB Koge ECNL G05/04,3,0,Eagles SC ECNL G05/04,Silverlakes Complex,Field 2,On Time,364725
+2023-04-08,01:00 PM,Bracket,San Diego Surf ECNL G05/04,2,1,SLAMMERS FC ECNL G05/04,Surf Sports Park,Field B,On Time,364727
+2023-04-08,02:15 PM,Bracket,Rebels SC ECNL G05/04,2,2,Sporting California USA ECNL G05/04,Monte Vista High School,Stadium,On Time,364726
+2023-04-15,08:30 AM,Bracket,Pateadores ECNL G05/04,1,4,Legends FC ECNL G05/04,Great Park,Field 9,On Time,364730
+2023-04-15,09:00 AM,Bracket,San Diego Surf ECNL G05/04,2,1,Del Mar Sharks ECNL G05/04,Surf Sports Park,Field 11,On Time,364702
+2023-04-15,09:00 AM,Bracket,So Cal Blues ECNL G05/04,1,0,Arizona Arsenal ECNL G05/04,OC Great Park,Field 18,On Time,364731
+2023-04-15,03:30 PM,Bracket,Rebels SC ECNL G05/04,4,0,Slammers FC HB Koge ECNL G05/04,Monte Vista High School,Stadium,On Time,364732
+2023-04-22,08:00 AM,Bracket,Arizona Arsenal ECNL G05/04,2,0,San Diego Surf ECNL G05/04,Red Mountain Soccer Complex,Field 4,On Time,364733
+2023-04-22,12:00 PM,Bracket,So Cal Blues ECNL G05/04,0,3,Slammers FC HB Koge ECNL G05/04,OC Great Park,Field 18,On Time,364734
+2023-04-23,08:00 AM,Bracket,Arizona Arsenal ECNL G05/04,5,2,Rebels SC ECNL G05/04,Red Mountain Soccer Complex,Field 2,On Time,364644
+2023-04-23,08:00 AM,Bracket,So Cal Blues ECNL G05/04,1,0,SLAMMERS FC ECNL G05/04,Tesoro High School - Stadium,Stadium,On Time,364735
+2023-04-23,08:00 AM,Bracket,Phoenix Rising ECNL G05/04,0,0,San Diego Surf ECNL G05/04,PRFC Youth Soccer Facility,Field 2,On Time,364736
+2023-04-29,08:00 AM,Bracket,Phoenix Rising ECNL G05/04,0,3,Eagles SC ECNL G05/04,OC Great Park,Field 7,On Time,364737
+2023-04-29,10:00 AM,Bracket,Arizona Arsenal ECNL G05/04,2,5,Slammers FC HB Koge ECNL G05/04,Legacy Sports Park,Field 16,On Time,364738
+2023-04-29,11:00 AM,Bracket,Rebels SC ECNL G05/04,0,2,Pateadores ECNL G05/04,Monte Vista High School,Stadium,On Time,364739
+2023-04-30,08:00 AM,Bracket,Del Mar Sharks ECNL G05/04,0,4,San Diego Surf ECNL G05/04,San Dieguito Academy,Field 1,On Time,364742
+2023-04-30,09:00 AM,Bracket,So Cal Blues ECNL G05/04,1,0,Phoenix Rising ECNL G05/04,Tesoro High School - Stadium,Stadium,On Time,364741
+2023-04-30,11:00 AM,Bracket,Rebels SC ECNL G05/04,0,3,Legends FC ECNL G05/04,Monte Vista High School,Stadium,On Time,364740
+2023-05-06,08:00 AM,Bracket,Phoenix Rising ECNL G05/04,4,0,LA Breakers FC ECNL G05/04,PRFC Youth Soccer Facility,Field 1,On Time,364743
+2023-05-06,11:45 AM,Bracket,Slammers FC HB Koge ECNL G05/04,5,1,San Diego Surf ECNL G05/04,Orange County Great Park,Field 15,On Time,364745
+2023-05-06,12:00 PM,Bracket,Arizona Arsenal ECNL G05/04,5,2,Del Mar Sharks ECNL G05/04,Legacy Sports Park,Field 18,On Time,364744
+2023-05-07,11:45 AM,Bracket,Slammers FC HB Koge ECNL G05/04,3,0,Rebels SC ECNL G05/04,Orange County Great Park,Field 15,On Time,364747
+2023-05-07,12:00 PM,Bracket,Phoenix Rising ECNL G05/04,0,2,Beach FC ECNL G05/04,PRFC Youth Soccer Facility,Field 1,On Time,364746
+2023-05-13,09:00 AM,Bracket,So Cal Blues ECNL G05/04,4,1,Heat FC ECNL G05/04,OC Great Park,Field 8,On Time,364748
+2023-05-13,09:00 AM,Bracket,Pateadores ECNL G05/04,0,2,Arizona Arsenal ECNL G05/04,Orange Coast College,Soccer Field,On Time,364749
+2023-05-13,09:00 AM,Bracket,San Diego Surf ECNL G05/04,5,3,Rebels SC ECNL G05/04,Surf Sports Park,Field 6,On Time,364751
+2023-05-13,10:00 AM,Bracket,Slammers FC HB Koge ECNL G05/04,4,0,Phoenix Rising ECNL G05/04,Silverlakes Complex,Field 2,On Time,364750
+2023-05-14,08:30 AM,Bracket,Del Mar Sharks ECNL G05/04,2,1,Heat FC ECNL G05/04,Torrey Pines High School,Field 1,On Time,364752
+2023-05-14,10:00 AM,Bracket,So Cal Blues ECNL G05/04,1,0,LA Breakers FC ECNL G05/04,Tesoro High School - Stadium,Stadium,On Time,364754
+2023-05-14,10:00 AM,Bracket,Slammers FC HB Koge ECNL G05/04,2,1,Arizona Arsenal ECNL G05/04,Silverlakes Complex,Field 1,On Time,364755
+2023-05-14,01:00 PM,Bracket,San Diego Surf ECNL G05/04,7,1,Pateadores ECNL G05/04,Surf Sports Park,Field 6,On Time,364756
+2023-05-14,05:45 PM,Bracket,Rebels SC ECNL G05/04,1,3,Beach FC ECNL G05/04,Monte Vista High School,Stadium,On Time,364753
+2023-05-20,12:45 PM,Bracket,Rebels SC ECNL G05/04,1,2,So Cal Blues ECNL G05/04,Monte Vista High School,Stadium,On Time,364757
+2023-05-21,08:00 AM,Bracket,Del Mar Sharks ECNL G05/04,6,0,Pateadores ECNL G05/04,San Dieguito Academy,Field 1,On Time,364758

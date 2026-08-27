@@ -1,0 +1,51 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2023-09-09,10:00 AM,Group Play,Kings Hammer SC ECNL G10,1,3,Ohio Elite Soccer Academy ECNL G10,Warren County Sports Park,Field 1,On Time,502550
+2023-09-09,01:00 PM,Group Play,Ohio Premier ECNL G10,1,2,Racing Louisville Academy  ECNL G10,OP Training Facility,Field 1,On Time,502556
+2023-09-10,09:00 AM,Group Play,Kings Hammer SC ECNL G10,0,6,Racing Louisville Academy  ECNL G10,Town and Country,Field 1,On Time,502564
+2023-09-10,11:00 AM,Group Play,Ohio Premier ECNL G10,3,0,Ohio Elite Soccer Academy ECNL G10,OP Training Facility,Field 1,On Time,502558
+2023-09-10,01:30 PM,Group Play,Internationals SC ECNL G10,2,1,Cleveland Force SC ECNL G10,Pinnacle Sports,Field 1,On Time,502568
+2023-09-16,10:45 AM,Group Play,WNY Flash ECNL G10,2,5,FC Pride Elite ECNL G10,Flash Fields,Field A,On Time,502552
+2023-09-16,10:45 AM,Group Play,Pittsburgh Riverhounds ECNL G10,2,2,Indy Eleven Pro Academy ECNL G10,Montour Junction Sports Complex,Field 1,On Time,502554
+2023-09-17,10:45 AM,Group Play,Pittsburgh Riverhounds ECNL G10,0,3,FC Pride Elite ECNL G10,Montour Junction Sports Complex,Field 1,On Time,502560
+2023-09-17,10:45 AM,Group Play,WNY Flash ECNL G10,0,2,Indy Eleven Pro Academy ECNL G10,Flash Fields,Field A,On Time,502562
+2023-09-23,11:00 AM,Group Play,Ohio Premier ECNL G10,0,0,Kings Hammer SC ECNL G10,OP Training Facility,Field 1,On Time,502570
+2023-09-24,10:45 AM,Group Play,WNY Flash ECNL G10,3,1,Pittsburgh Riverhounds ECNL G10,Flash Fields,Field A,On Time,502580
+2023-10-07,10:45 AM,Group Play,Cleveland Force SC ECNL G10,6,2,Pittsburgh Riverhounds ECNL G10,Cleveland United Complex,Field 1,On Time,502588
+2023-10-07,03:15 PM,Group Play,Internationals SC ECNL G10,3,1,WNY Flash ECNL G10,Pinnacle Sports,Field 1,On Time,502592
+2023-10-08,10:45 AM,Group Play,Cleveland Force SC ECNL G10,1,0,WNY Flash ECNL G10,Lost Nations Sports Park - West ,Field 1,On Time,502604
+2023-10-08,12:30 PM,Group Play,Internationals SC ECNL G10,4,1,Pittsburgh Riverhounds ECNL G10,Pinnacle Sports,Field 1,On Time,502600
+2023-10-14,10:00 AM,Group Play,Kings Hammer SC ECNL G10,1,6,WNY Flash ECNL G10,St Henry High School,Field 1,On Time,502616
+2023-10-14,11:15 AM,Group Play,Ohio Premier ECNL G10,1,2,Pittsburgh Riverhounds ECNL G10,OP Training Facility,Field 1,On Time,502612
+2023-10-14,11:45 AM,Group Play,Cleveland Force SC ECNL G10,1,1,Ohio Elite Soccer Academy ECNL G10,Victory Park,Field 1,On Time,502606
+2023-10-14,11:45 AM,Group Play,Internationals SC ECNL G10,2,0,Racing Louisville Academy  ECNL G10,Pinnacle Sports,Field 1,On Time,502610
+2023-10-15,09:00 AM,Group Play,Kings Hammer SC ECNL G10,1,2,Pittsburgh Riverhounds ECNL G10,Town and Country,Field 1,On Time,502624
+2023-10-15,11:00 AM,Group Play,Ohio Premier ECNL G10,1,3,WNY Flash ECNL G10,OP Training Facility,Field 1,On Time,502628
+2023-10-15,11:45 AM,Group Play,Cleveland Force SC ECNL G10,2,2,Racing Louisville Academy  ECNL G10,Victory Park,Field 1,On Time,502622
+2023-10-15,12:30 PM,Group Play,Internationals SC ECNL G10,2,1,Ohio Elite Soccer Academy ECNL G10,Pinnacle Sports,Field 1,On Time,502618
+2023-10-28,10:00 AM,Group Play,Kings Hammer SC ECNL G10,2,6,Ohio Premier ECNL G10,Town and Country,Field 2,On Time,502632
+2023-10-28,10:45 AM,Group Play,Pittsburgh Riverhounds ECNL G10,2,0,WNY Flash ECNL G10,Montour Junction Sports Complex,Field 1,On Time,502638
+2023-11-04,10:45 AM,Group Play,Cleveland Force SC ECNL G10,1,4,Internationals SC ECNL G10,Victory Park,Field 1,On Time,502640
+2024-03-02,11:45 AM,Group Play,Kings Hammer SC ECNL G10,2,6,Cleveland Force SC ECNL G10,NKU Soccer Stadium,Field 1,On Time,502646
+2024-03-02,11:45 AM,Group Play,Ohio Premier ECNL G10,3,1,Internationals SC ECNL G10,OP Training Facility,Field 1,On Time,502648
+2024-03-03,09:00 AM,Group Play,Kings Hammer SC ECNL G10,1,5,Internationals SC ECNL G10,NKU Soccer Stadium,Field 1,On Time,502652
+2024-03-03,10:45 AM,Group Play,Ohio Premier ECNL G10,1,0,Cleveland Force SC ECNL G10,OP Training Facility,Field 1,On Time,502650
+2024-04-06,03:45 PM,Group Play,Pittsburgh Riverhounds ECNL G10,0,1,Cleveland Force SC ECNL G10,Montour Junction Sports Complex,Field 1,On Time,502692
+2024-04-06,03:45 PM,Group Play,WNY Flash ECNL G10,1,3,Internationals SC ECNL G10,Flash Fields,Field A,On Time,502694
+2024-04-07,03:45 PM,Group Play,WNY Flash ECNL G10,2,2,Cleveland Force SC ECNL G10,Flash Fields,Field A,On Time,502688
+2024-04-07,03:45 PM,Group Play,Pittsburgh Riverhounds ECNL G10,0,3,Internationals SC ECNL G10,Montour Junction Sports Complex,Field 1,On Time,502690
+2024-04-13,11:45 AM,Group Play,Internationals SC ECNL G10,3,2,Ohio Premier ECNL G10,Pinnacle Sports,Field 1,On Time,502700
+2024-04-13,04:00 PM,Group Play,Cleveland Force SC ECNL G10,2,0,Kings Hammer SC ECNL G10,Victory Park,Field 1,On Time,502698
+2024-04-14,12:30 PM,Group Play,Internationals SC ECNL G10,9,0,Kings Hammer SC ECNL G10,Pinnacle Sports,Field 1,On Time,502702
+2024-04-14,04:15 PM,Group Play,Cleveland Force SC ECNL G10,2,2,Ohio Premier ECNL G10,Victory Park,Field 1,On Time,502704
+2024-04-27,09:30 AM,Group Play,WNY Flash ECNL G10,2,1,FC Alliance ECNL G10,Flash Fields,Field B,On Time,502714
+2024-04-27,12:00 PM,Group Play,Pittsburgh Riverhounds ECNL G10,1,4,Tennessee Soccer Club ECNL G10,Montour Junction Sports Complex,Indoor,On Time,502718
+2024-04-28,11:30 AM,Group Play,WNY Flash ECNL G10,2,0,Tennessee Soccer Club ECNL G10,Sahlen's Sports Park,Field #45,On Time,502722
+2024-04-28,12:00 PM,Group Play,Pittsburgh Riverhounds ECNL G10,0,2,FC Alliance ECNL G10,Montour Junction Sports Complex,Field 1,On Time,502720
+2024-05-04,10:45 AM,Group Play,WNY Flash ECNL G10,9,0,Kings Hammer SC ECNL G10,Flash Fields,Field A,On Time,502728
+2024-05-04,12:00 PM,Group Play,Pittsburgh Riverhounds ECNL G10,0,1,Ohio Premier ECNL G10,RMU Joe Walton Stadium,Field 1,On Time,502730
+2024-05-04,02:15 PM,Group Play,Cleveland Force SC ECNL G10,1,4,FC Pride Elite ECNL G10,Victory Park,Field 1,On Time,502724
+2024-05-04,02:15 PM,Group Play,Internationals SC ECNL G10,1,1,Indy Eleven Pro Academy ECNL G10,Pinnacle Sports,Field 1,On Time,502726
+2024-05-05,10:45 AM,Group Play,WNY Flash ECNL G10,0,0,Ohio Premier ECNL G10,Flash Fields,Field A,On Time,502738
+2024-05-05,12:00 PM,Group Play,Pittsburgh Riverhounds ECNL G10,6,0,Kings Hammer SC ECNL G10,RMU Joe Walton Stadium,Field 1,On Time,502736
+2024-05-05,12:30 PM,Group Play,Internationals SC ECNL G10,0,3,FC Pride Elite ECNL G10,Pinnacle Sports,Field 1,On Time,502732
+2024-05-05,02:15 PM,Group Play,Cleveland Force SC ECNL G10,2,2,Indy Eleven Pro Academy ECNL G10,Victory Park,Field 1,On Time,502734

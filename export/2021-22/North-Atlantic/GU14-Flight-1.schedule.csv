@@ -1,0 +1,73 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2021-09-11,09:00 AM,Bracket,PDA South ECNL GU14,1,4,FC DELCO ECNL GU14,Westampton Sports Complex,Field 2,On Time,273935
+2021-09-11,10:45 AM,Bracket,FC Bucks ECNL GU14,0,4,Penn Fusion SA ECNL GU14,Council Rock North High School,Turf Field,On Time,273934
+2021-09-11,04:00 PM,Bracket,Bethesda SC ECNL GU14,2,1,Match Fit Academy ECNL GU14,Walter Johnson High School ,Stadium,On Time,273933
+2021-09-12,09:00 AM,Bracket,PDA South ECNL GU14,0,4,Penn Fusion SA ECNL GU14,Westampton Sports Complex,Field 2,On Time,273938
+2021-09-12,12:30 PM,Bracket,Bethesda SC ECNL GU14,0,3,PDA Blue ECNL GU14,Walter Johnson High School ,Stadium,On Time,273937
+2021-09-12,12:30 PM,Bracket,FC Bucks ECNL GU14,1,4,FC DELCO ECNL GU14,Bryn Athyn College,Turf,On Time,273939
+2021-09-12,01:30 PM,Bracket,Pipeline SC ECNL GU14,5,1,Maryland United FC ECNL GU14,Mercy High School,Field 1,On Time,273936
+2021-09-18,10:00 AM,Bracket,FC DELCO ECNL GU14,1,1,Maryland United FC ECNL GU14,Proving Grounds,2,On Time,273941
+2021-09-18,11:45 AM,Bracket,Penn Fusion SA ECNL GU14,4,2,Pipeline SC ECNL GU14,USTC,Zach Steffen Field,On Time,273940
+2021-09-18,12:45 PM,Bracket,FC Bucks ECNL GU14,1,1,Bethesda SC ECNL GU14,Council Rock North High School,Turf Field,On Time,273942
+2021-09-19,10:00 AM,Bracket,FC DELCO ECNL GU14,0,2,Pipeline SC ECNL GU14,Proving Grounds,4,On Time,273944
+2021-09-19,12:15 PM,Bracket,Penn Fusion SA ECNL GU14,6,0,Maryland United FC ECNL GU14,USTC,Zach Steffen Field,On Time,273943
+2021-09-25,10:45 AM,Group Play,FC Bucks ECNL GU14,5,3,PDA South ECNL GU14,Council Rock North High School,Turf Field,On Time,297266
+2021-09-25,11:15 AM,Bracket,Penn Fusion SA ECNL GU14,1,0,FC DELCO ECNL GU14,USTC,Zach Steffen Field,On Time,273946
+2021-09-25,12:00 PM,Bracket,PDA Blue ECNL GU14,3,0,Match Fit Academy ECNL GU14,PDA Main Complex,Field 3,On Time,273945
+2021-09-25,04:00 PM,Group Play,Bethesda SC ECNL GU14,3,2,Maryland United FC ECNL GU14,Walter Johnson High School ,Stadium,On Time,299435
+2021-10-02,10:30 AM,Bracket,Pipeline SC ECNL GU14,1,2,Match Fit Academy ECNL GU14,Mercy High School,Field 1,On Time,273948
+2021-10-02,01:30 PM,Bracket,Maryland United FC ECNL GU14,0,4,PDA Blue ECNL GU14,Indian Creek,Field 1,On Time,273947
+2021-10-02,04:30 PM,Bracket,PDA South ECNL GU14,1,2,Bethesda SC ECNL GU14,Westampton Sports Complex,Field 2,On Time,273949
+2021-10-03,10:00 AM,Bracket,Maryland United FC ECNL GU14,3,1,Match Fit Academy ECNL GU14,Indian Creek,Field 1,On Time,273951
+2021-10-03,10:00 AM,Bracket,Penn Fusion SA ECNL GU14,2,1,Bethesda SC ECNL GU14,USTC,Zach Steffen Field,On Time,273954
+2021-10-03,01:30 PM,Bracket,Pipeline SC ECNL GU14,0,4,PDA Blue ECNL GU14,Mercy High School,Field 1,On Time,273950
+2021-10-16,10:00 AM,Bracket,PDA Blue ECNL GU14,3,0,PDA South ECNL GU14,PDA Main Complex,Field 5,On Time,273952
+2021-10-16,03:00 PM,Bracket,Match Fit Academy ECNL GU14,0,0,FC Bucks ECNL GU14,Morris Catholic High School,Field 2 Lower,On Time,273953
+2021-10-17,12:00 PM,Bracket,PDA Blue ECNL GU14,3,1,FC Bucks ECNL GU14,PDA Main Complex,Field 5,On Time,273955
+2021-10-17,12:00 PM,Bracket,Match Fit Academy ECNL GU14,1,2,PDA South ECNL GU14,Morris Catholic High School,Field 2 Lower,On Time,273956
+2021-10-17,03:30 PM,Bracket,FC DELCO ECNL GU14,1,2,Bethesda SC ECNL GU14,Proving Grounds,1,On Time,273957
+2021-10-23,03:00 PM,Bracket,Match Fit Academy ECNL GU14,1,2,FC DELCO ECNL GU14,Morris Catholic High School,Field 2 Lower,On Time,273959
+2021-10-24,11:30 AM,Bracket,PDA Blue ECNL GU14,2,0,FC DELCO ECNL GU14,PDA Main Complex,Field 5,On Time,273960
+2021-10-24,01:30 PM,Bracket,Pipeline SC ECNL GU14,4,1,Bethesda SC ECNL GU14,Mercy High School,Field 1,On Time,273962
+2021-10-30,01:00 PM,Bracket,Match Fit Academy ECNL GU14,2,0,Bethesda SC ECNL GU14,Morris Catholic High School,Field 2 Lower,On Time,273991
+2021-10-30,01:30 PM,Bracket,PDA South ECNL GU14,1,2,Pipeline SC ECNL GU14,Westampton Sports Complex,Field 2,On Time,273964
+2021-10-30,02:15 PM,Bracket,FC Bucks ECNL GU14,2,1,Maryland United FC ECNL GU14,Council Rock North High School,Turf Field,On Time,273963
+2021-10-31,09:00 AM,Bracket,PDA South ECNL GU14,0,2,Maryland United FC ECNL GU14,Westampton Sports Complex,Field 2,On Time,273966
+2021-10-31,12:30 PM,Bracket,FC Bucks ECNL GU14,1,2,Pipeline SC ECNL GU14,Council Rock North High School,Turf Field,On Time,273965
+2021-11-06,11:00 AM,Bracket,Match Fit Academy ECNL GU14,1,4,Penn Fusion SA ECNL GU14,Morris Catholic High School,Field 2 Lower,On Time,273961
+2021-11-14,10:00 AM,Bracket,PDA Blue ECNL GU14,1,2,Penn Fusion SA ECNL GU14,PDA Main Complex,Field 5,On Time,273958
+2022-03-26,11:45 AM,Bracket,FC DELCO ECNL GU14,0,0,Penn Fusion SA ECNL GU14,Proving Grounds,2,On Time,273968
+2022-03-26,03:00 PM,Bracket,Maryland United FC ECNL GU14,2,3,Pipeline SC ECNL GU14,Indian Creek,Field 2,On Time,273970
+2022-04-23,11:00 AM,Bracket,FC Bucks ECNL GU14,2,7,PDA Blue ECNL GU14,Council Rock South High School,Turf,On Time,273972
+2022-04-23,12:45 PM,Bracket,Pipeline SC ECNL GU14,1,2,Penn Fusion SA ECNL GU14,Mercy High School,Field 1,On Time,273974
+2022-04-23,01:00 PM,Bracket,PDA South ECNL GU14,0,3,Match Fit Academy ECNL GU14,Westampton Sports Complex,Field 2,On Time,273973
+2022-04-23,04:30 PM,Bracket,FC DELCO ECNL GU14,1,0,Bethesda SC ECNL GU14,Maryland Soccerplex,Field 8,On Time,273975
+2022-04-24,10:30 AM,Bracket,Pipeline SC ECNL GU14,2,1,FC DELCO ECNL GU14,Mercy High School,Field 1,On Time,273979
+2022-04-24,11:00 AM,Group Play,FC Bucks ECNL GU14,1,0,Match Fit Academy ECNL GU14,Council Rock South High School,Turf,On Time,300680
+2022-04-24,01:00 PM,Bracket,PDA South ECNL GU14,0,6,PDA Blue ECNL GU14,Westampton Sports Complex,Field 2,On Time,273976
+2022-04-30,10:00 AM,Bracket,Penn Fusion SA ECNL GU14,6,0,PDA South ECNL GU14,USTC,Field 3,On Time,273982
+2022-04-30,11:00 AM,Bracket,PDA Blue ECNL GU14,5,0,Maryland United FC ECNL GU14,PDA Main Complex,Field 1,On Time,273980
+2022-04-30,03:00 PM,Bracket,Match Fit Academy ECNL GU14,1,2,Pipeline SC ECNL GU14,Morris Catholic High School,Field 1 Upper,On Time,273981
+2022-04-30,03:15 PM,Bracket,FC DELCO ECNL GU14,1,0,FC Bucks ECNL GU14,Proving Grounds,3,On Time,273983
+2022-05-01,10:00 AM,Bracket,Penn Fusion SA ECNL GU14,3,1,FC Bucks ECNL GU14,USTC,Field 3,On Time,273986
+2022-05-01,11:00 AM,Bracket,PDA Blue ECNL GU14,3,0,Pipeline SC ECNL GU14,PDA Main Complex,Field 1,On Time,273984
+2022-05-01,11:00 AM,Bracket,Match Fit Academy ECNL GU14,1,2,Maryland United FC ECNL GU14,Morris Catholic High School,Field 2 Lower,On Time,273985
+2022-05-01,01:15 PM,Bracket,FC DELCO ECNL GU14,1,0,PDA South ECNL GU14,Proving Grounds,1,On Time,273987
+2022-05-07,01:00 PM,Bracket,PDA Blue ECNL GU14,2,1,Bethesda SC ECNL GU14,PDA Main Complex,Field 1,On Time,273988
+2022-05-14,03:00 PM,Bracket,Pipeline SC ECNL GU14,0,1,FC Bucks ECNL GU14,Mercy High School,Field 1,On Time,273993
+2022-05-14,04:30 PM,Bracket,Maryland United FC ECNL GU14,0,1,Bethesda SC ECNL GU14,Indian Creek,Field 1,On Time,273971
+2022-05-15,01:30 PM,Bracket,PDA South ECNL GU14,3,1,FC Bucks ECNL GU14,Westampton Sports Complex,Field 2,On Time,273969
+2022-05-21,10:00 AM,Bracket,Penn Fusion SA ECNL GU14,0,2,PDA Blue ECNL GU14,Penn Fusion Kildare's Turf ,Stadium,On Time,274290
+2022-05-21,12:15 PM,Bracket,Maryland United FC ECNL GU14,4,0,PDA South ECNL GU14,Indian Creek,Field 2,On Time,274293
+2022-05-21,03:30 PM,Bracket,Bethesda SC ECNL GU14,3,2,FC Bucks ECNL GU14,Richard Montgomery,Turf Field,On Time,274292
+2022-05-21,06:15 PM,Bracket,FC DELCO ECNL GU14,2,0,Match Fit Academy ECNL GU14,Proving Grounds,7,On Time,274291
+2022-05-22,10:45 AM,Bracket,Maryland United FC ECNL GU14,0,1,FC Bucks ECNL GU14,Indian Creek,Field 2,On Time,274296
+2022-05-22,01:30 PM,Bracket,Bethesda SC ECNL GU14,5,1,PDA South ECNL GU14,Wootton High School,Stadium,On Time,274297
+2022-05-22,01:45 PM,Bracket,Penn Fusion SA ECNL GU14,1,0,Match Fit Academy ECNL GU14,USTC,Field 3,On Time,274295
+2022-05-22,04:30 PM,Bracket,FC DELCO ECNL GU14,0,3,PDA Blue ECNL GU14,Proving Grounds,6,On Time,274294
+2022-05-26,07:30 PM,Group Play,Bethesda SC ECNL GU14,1,2,Pipeline SC ECNL GU14,Walter Johnson High School ,Stadium,On Time,299437
+2022-06-04,09:00 AM,Bracket,Match Fit Academy ECNL GU14,1,7,PDA Blue ECNL GU14,Morris Catholic High School,Field 1 Upper,On Time,273967
+2022-06-04,10:30 AM,Bracket,Maryland United FC ECNL GU14,1,0,FC DELCO ECNL GU14,Moose Athletic Club,Field 1,On Time,273992
+2022-06-04,11:30 AM,Bracket,Bethesda SC ECNL GU14,1,6,Penn Fusion SA ECNL GU14,Wootton High School,Stadium,On Time,273978
+2022-06-04,03:00 PM,Bracket,Pipeline SC ECNL GU14,3,0,PDA South ECNL GU14,Mercy High School,Field 1,On Time,273990
+2022-06-05,09:30 AM,Bracket,Maryland United FC ECNL GU14,4,3,Penn Fusion SA ECNL GU14,Moose Athletic Club,Field 2,On Time,273989

@@ -1,0 +1,91 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2025-11-09,09:00 AM,Group Play,Utah Avalanche ECNL G10,3,4,La Roca FC ECNL G10,St. Joseph Catholic High School,Grass Field,On Time,864325
+2025-12-13,11:00 AM,Group Play,Washington Premier ECNL G10,0,1,Oregon Surf ECNL G10,WPFC Field Complex,Field 4,On Time,864355
+2025-12-13,11:00 AM,Group Play,XF Academy ECNL G10,1,0,La Roca FC ECNL G10,Marymoor Park,Field 1,On Time,864361
+2025-12-13,01:00 PM,Group Play,Eastside FC ECNL G10,0,1,Utah Avalanche ECNL G10,PRESTON PARK ATHLETIC FIELDS,Field 2,On Time,864337
+2025-12-13,01:00 PM,Group Play,PacNW SC ECNL G10,2,1,Boise Thorns FC ECNL G10,Valley Ridge,Field 2,On Time,864343
+2025-12-13,03:00 PM,Group Play,Seattle United ECNL G10,2,1,Portland Thorns ECNL G10,Ingraham High School,North,On Time,864349
+2025-12-14,09:00 AM,Group Play,Eastside FC ECNL G10,1,1,La Roca FC ECNL G10,PRESTON PARK ATHLETIC FIELDS,Field 2,On Time,864373
+2025-12-14,09:00 AM,Group Play,XF Academy ECNL G10,1,0,Utah Avalanche ECNL G10,Marymoor Park,Field 2,On Time,864391
+2025-12-14,11:30 AM,Group Play,Seattle United ECNL G10,3,1,Oregon Surf ECNL G10,Ingraham High School,North,On Time,864379
+2025-12-14,01:00 PM,Group Play,Boise Thorns FC ECNL G10,3,1,PacNW SC ECNL G10,North SeaTac Park,Field 2,On Time,864367
+2025-12-14,01:00 PM,Group Play,Washington Premier ECNL G10,0,3,Portland Thorns ECNL G10,WPFC Field Complex,Field 3,On Time,864385
+2026-01-10,10:30 AM,Group Play,Seattle United ECNL G10,3,2,Boise Thorns FC ECNL G10,Shoreline A/B fields,Field B,On Time,864403
+2026-01-10,11:00 AM,Group Play,Eastside FC ECNL G10,2,2,PacNW SC ECNL G10,PRESTON PARK ATHLETIC FIELDS,Field 2,On Time,864397
+2026-01-11,12:30 PM,Group Play,Seattle United ECNL G10,0,3,PacNW SC ECNL G10,Shoreline A/B fields,Field B,On Time,864415
+2026-01-11,01:00 PM,Group Play,Eastside FC ECNL G10,1,0,Boise Thorns FC ECNL G10,PRESTON PARK ATHLETIC FIELDS,Field 1,On Time,864409
+2026-01-17,12:00 PM,Group Play,Eastside FC ECNL G10,2,1,Oregon Surf ECNL G10,Valley Ridge,Field 3,On Time,864421
+2026-01-17,12:00 PM,Group Play,PacNW SC ECNL G10,0,3,Portland Thorns ECNL G10,Valley Ridge,Field 1,On Time,864427
+2026-01-18,12:00 PM,Group Play,Eastside FC ECNL G10,0,1,Portland Thorns ECNL G10,Valley Ridge,Field 2,On Time,864439
+2026-01-18,12:00 PM,Group Play,PacNW SC ECNL G10,1,1,Oregon Surf ECNL G10,Valley Ridge,Field 1,On Time,864445
+2026-01-18,01:00 PM,Group Play,XF Academy ECNL G10,3,1,Seattle United ECNL G10,Marymoor Park,Field 1,On Time,864433
+2026-01-24,01:00 PM,Group Play,Seattle United ECNL G10,1,1,Utah Avalanche ECNL G10,Shoreline A/B fields,Field B,On Time,864463
+2026-01-24,01:00 PM,Group Play,Washington Premier ECNL G10,1,5,La Roca FC ECNL G10,WPFC Field Complex,Field 3,On Time,864469
+2026-01-25,11:00 AM,Group Play,Seattle United ECNL G10,0,6,La Roca FC ECNL G10,Shorecrest HS,Field 1,On Time,864475
+2026-01-25,11:00 AM,Group Play,Washington Premier ECNL G10,4,2,Utah Avalanche ECNL G10,WPFC Field Complex,Field 4,On Time,864481
+2026-01-31,10:00 AM,Group Play,Portland Thorns ECNL G10,1,0,XF Academy ECNL G10,Gordon Faber Recreation Complex,Hillsboro Stadium,On Time,864493
+2026-01-31,12:00 PM,Group Play,Oregon Surf ECNL G10,0,3,Boise Thorns FC ECNL G10,Mountain View Champions Park,Field 2,On Time,864487
+2026-02-01,11:00 AM,Group Play,Portland Thorns ECNL G10,4,0,Boise Thorns FC ECNL G10,Gordon Faber Recreation Complex,Hillsboro Stadium,On Time,864511
+2026-02-01,02:00 PM,Group Play,Oregon Surf ECNL G10,3,1,XF Academy ECNL G10,Mountain View Champions Park,Field 2,On Time,864505
+2026-02-07,09:00 AM,Group Play,PacNW SC ECNL G10,0,5,XF Academy ECNL G10,Valley Ridge,Field 2,On Time,864523
+2026-02-07,11:00 AM,Group Play,Eastside FC ECNL G10,3,1,Seattle United ECNL G10,PRESTON PARK ATHLETIC FIELDS,Field 1,On Time,864517
+2026-02-07,11:00 AM,Group Play,Washington Premier ECNL G10,0,1,Boise Thorns FC ECNL G10,WPFC Field Complex,Field 4,On Time,864529
+2026-02-08,09:00 AM,Group Play,Washington Premier ECNL G10,2,0,PacNW SC ECNL G10,WPFC Field Complex,Field 4,On Time,864535
+2026-02-08,01:00 PM,Group Play,XF Academy ECNL G10,2,1,Boise Thorns FC ECNL G10,Marymoor Park,Field 2,On Time,985132
+2026-02-21,10:00 AM,Group Play,Oregon Surf ECNL G10,0,3,La Roca FC ECNL G10,PCC Rock Creek,Field 2,On Time,864541
+2026-02-21,11:00 AM,Group Play,Washington Premier ECNL G10,0,1,Eastside FC ECNL G10,WPFC Field Complex,Field 4,On Time,864559
+2026-02-21,02:00 PM,Group Play,Portland Thorns ECNL G10,1,1,Utah Avalanche ECNL G10,Gordon Faber Recreation Complex,Hillsboro Stadium,On Time,864547
+2026-02-21,05:00 PM,Group Play,Seattle United ECNL G10,1,2,XF Academy ECNL G10,Genesee Park Playfield,Lower,On Time,864553
+2026-02-22,11:00 AM,Group Play,Washington Premier ECNL G10,0,1,XF Academy ECNL G10,WPFC Field Complex,Field 3,On Time,864577
+2026-02-22,11:00 AM,Group Play,Seattle United ECNL G10,0,2,Eastside FC ECNL G10,Shoreline A/B fields,Field B,On Time,864583
+2026-02-22,12:00 PM,Group Play,Portland Thorns ECNL G10,1,2,La Roca FC ECNL G10,Gordon Faber Recreation Complex,Hillsboro Stadium,On Time,864571
+2026-02-22,01:00 PM,Group Play,Oregon Surf ECNL G10,1,3,Utah Avalanche ECNL G10,PCC Rock Creek,Field 2,On Time,864565
+2026-02-28,01:00 PM,Group Play,Eastside FC ECNL G10,1,1,XF Academy ECNL G10,PRESTON PARK ATHLETIC FIELDS,Field 1,On Time,864457
+2026-02-28,01:00 PM,Group Play,Seattle United ECNL G10,0,2,Washington Premier ECNL G10,Ingraham High School,Stadium,On Time,864499
+2026-03-01,11:00 AM,Group Play,Boise Thorns FC ECNL G10,2,0,Portland Thorns ECNL G10,Timberline Highschool,Field 1,On Time,864589
+2026-03-01,11:00 AM,Group Play,PacNW SC ECNL G10,1,1,Washington Premier ECNL G10,Starfire Sports,Field 3,On Time,864631
+2026-03-07,11:00 AM,Group Play,Eastside FC ECNL G10,2,1,Washington Premier ECNL G10,PRESTON PARK ATHLETIC FIELDS,Field 2,On Time,864331
+2026-03-07,11:15 AM,Group Play,Utah Avalanche ECNL G10,2,0,PacNW SC ECNL G10,Judge Memorial High School,Field 1,On Time,864607
+2026-03-07,02:00 PM,Group Play,La Roca FC ECNL G10,3,0,Boise Thorns FC ECNL G10,Lone Peak High School,Northeast Field,On Time,864595
+2026-03-07,04:00 PM,Group Play,Portland Thorns ECNL G10,1,0,Oregon Surf ECNL G10,Gordon Faber Recreation Complex,Hillsboro Stadium,On Time,864601
+2026-03-08,01:30 PM,Group Play,Utah Avalanche ECNL G10,2,0,Boise Thorns FC ECNL G10,Westminster College,Dumke Stadium Field,On Time,864619
+2026-03-08,02:00 PM,Group Play,La Roca FC ECNL G10,2,0,PacNW SC ECNL G10,Lone Peak High School,Northeast Field,On Time,864613
+2026-03-14,10:00 AM,Group Play,Boise Thorns FC ECNL G10,0,0,Oregon Surf ECNL G10,Rocky Mountain High School ,Field 1,On Time,864625
+2026-03-21,09:00 AM,Group Play,Utah Avalanche ECNL G10,0,1,XF Academy ECNL G10,Murray City Park,East,On Time,864661
+2026-03-21,12:00 PM,Group Play,Portland Thorns ECNL G10,2,0,Seattle United ECNL G10,Sherwood HS ,Sherwood HS Upper Turf Field,On Time,864655
+2026-03-21,01:00 PM,Group Play,La Roca FC ECNL G10,0,1,Eastside FC ECNL G10,Spence Eccles Ogden Community Sports Complex,Field 2,On Time,864643
+2026-03-21,02:00 PM,Group Play,Oregon Surf ECNL G10,4,3,Washington Premier ECNL G10,PCC Rock Creek,Field 1,On Time,864649
+2026-03-22,09:00 AM,Group Play,Utah Avalanche ECNL G10,0,2,Eastside FC ECNL G10,Murray City Park,East,On Time,864685
+2026-03-22,12:00 PM,Group Play,Portland Thorns ECNL G10,2,2,Washington Premier ECNL G10,Mt View Champions Park,Field 2,On Time,864679
+2026-03-22,01:00 PM,Group Play,La Roca FC ECNL G10,1,2,XF Academy ECNL G10,Lone Peak High School,Stadium Field,On Time,864667
+2026-03-22,02:00 PM,Group Play,Oregon Surf ECNL G10,2,1,Seattle United ECNL G10,PCC Rock Creek,Field 1,On Time,864673
+2026-04-11,09:00 AM,Group Play,La Roca FC ECNL G10,3,0,Washington Premier ECNL G10,La Roca Park,Field 1,On Time,864691
+2026-04-11,11:00 AM,Group Play,Boise Thorns FC ECNL G10,2,2,XF Academy ECNL G10,Boise Timbers|Thorns - Soccer Complex,Field 3,On Time,864715
+2026-04-11,01:30 PM,Group Play,Utah Avalanche ECNL G10,2,0,Seattle United ECNL G10,St. Joseph Catholic High School,Turf Field,On Time,864709
+2026-04-11,02:00 PM,Group Play,Oregon Surf ECNL G10,2,4,Eastside FC ECNL G10,Mountain View Champions Park,Field 2,On Time,864697
+2026-04-11,05:00 PM,Group Play,Portland Thorns ECNL G10,2,0,PacNW SC ECNL G10,Tigard High School,Soccer,On Time,864703
+2026-04-12,09:00 AM,Group Play,La Roca FC ECNL G10,0,0,Seattle United ECNL G10,La Roca Park,Field 1,On Time,864721
+2026-04-12,11:15 AM,Group Play,Utah Avalanche ECNL G10,4,1,Washington Premier ECNL G10,St. Joseph Catholic High School,Turf Field,On Time,864739
+2026-04-12,12:00 PM,Group Play,Portland Thorns ECNL G10,1,2,Eastside FC ECNL G10,Gordon Faber Recreation Complex,Hillsboro Stadium,On Time,864733
+2026-04-12,02:00 PM,Group Play,Oregon Surf ECNL G10,3,0,PacNW SC ECNL G10,Mountain View Champions Park,Field 2,On Time,864727
+2026-04-18,11:15 AM,Group Play,Utah Avalanche ECNL G10,2,1,Portland Thorns ECNL G10,Murray City Park,East,On Time,864751
+2026-04-18,01:00 PM,Group Play,La Roca FC ECNL G10,3,2,Oregon Surf ECNL G10,Regional Athletic Complex,Field 15,On Time,864745
+2026-04-19,09:00 AM,Group Play,La Roca FC ECNL G10,2,1,Portland Thorns ECNL G10,Regional Athletic Complex,Field 14,On Time,864757
+2026-04-19,09:00 AM,Group Play,Boise Thorns FC ECNL G10,0,1,Eastside FC ECNL G10,Rocky Mountain High School ,Field 1,On Time,864769
+2026-04-19,11:15 AM,Group Play,Utah Avalanche ECNL G10,5,0,Oregon Surf ECNL G10,Murray City Park,East,On Time,864763
+2026-04-25,11:00 AM,Group Play,Boise Thorns FC ECNL G10,1,0,La Roca FC ECNL G10,Boise Timbers|Thorns - Soccer Complex,Field 1,On Time,864775
+2026-04-25,11:00 AM,Group Play,PacNW SC ECNL G10,2,3,Utah Avalanche ECNL G10,BTT Soccer Complex,Field 4,On Time,864781
+2026-04-25,11:00 AM,Group Play,XF Academy ECNL G10,0,2,Eastside FC ECNL G10,Marymoor Park,Field 2,On Time,864787
+2026-04-26,09:00 AM,Group Play,PacNW SC ECNL G10,0,4,La Roca FC ECNL G10,BTT Soccer Complex,Field 3,On Time,864805
+2026-04-26,11:00 AM,Group Play,Washington Premier ECNL G10,2,2,Seattle United ECNL G10,WPFC Field Complex,Field 3,On Time,864793
+2026-04-26,01:00 PM,Group Play,XF Academy ECNL G10,0,2,Portland Thorns ECNL G10,Marymoor Park,Field 4,On Time,864637
+2026-04-26,01:00 PM,Group Play,Boise Thorns FC ECNL G10,1,1,Utah Avalanche ECNL G10,Boise Timbers|Thorns - Soccer Complex,Field 1,On Time,864799
+2026-05-02,09:00 AM,Group Play,Boise Thorns FC ECNL G10,2,1,Seattle United ECNL G10,Boise Timbers|Thorns - Soccer Complex,Field 1,On Time,864811
+2026-05-02,12:00 PM,Group Play,PacNW SC ECNL G10,3,4,Eastside FC ECNL G10,Lindbergh High School,Main Field ,On Time,864829
+2026-05-02,01:00 PM,Group Play,Oregon Surf ECNL G10,2,7,Portland Thorns ECNL G10,Mountain View Champions Park,Field 2,On Time,864823
+2026-05-02,01:00 PM,Group Play,XF Academy ECNL G10,2,0,Washington Premier ECNL G10,Marymoor Park,Field 1,On Time,864835
+2026-05-02,01:30 PM,Group Play,La Roca FC ECNL G10,1,1,Utah Avalanche ECNL G10,La Roca Park,Field 2,On Time,864817
+2026-05-03,11:00 AM,Group Play,XF Academy ECNL G10,5,0,PacNW SC ECNL G10,Marymoor Park,Field 1,On Time,1026956
+2026-05-09,11:00 AM,Group Play,PacNW SC ECNL G10,2,2,Seattle United ECNL G10,Valley Ridge,Field 2,On Time,864841
+2026-05-09,01:00 PM,Group Play,Boise Thorns FC ECNL G10,2,2,Washington Premier ECNL G10,Boise Timbers|Thorns - Soccer Complex,Field 1,On Time,864847
+2026-05-09,03:00 PM,Group Play,XF Academy ECNL G10,3,1,Oregon Surf ECNL G10,Marymoor Park,Field 1,On Time,864451

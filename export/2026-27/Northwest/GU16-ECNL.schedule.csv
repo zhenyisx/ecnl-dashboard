@@ -1,0 +1,101 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2026-11-21,TBD,Group Play,Avalanche ECNL G2010/11,,,La Roca FC ECNL G2010/11,,,On Time,1058626
+2026-12-12,TBD,Group Play,PacNW SC ECNL G2010/11,,,Eastside FC ECNL G2010/11,,,On Time,1058644
+2026-12-12,TBD,Group Play,Portland Thorns ECNL G2010/11,,,Oregon Surf ECNL G2010/11,,,On Time,1058645
+2026-12-12,TBD,Group Play,XF ECNL G2010/11,,,Boise Thorns ECNL G2010/11,,,On Time,1058648
+2026-12-12,09:00 AM,Group Play,Washington Premier ECNL G2010/11,,,Avalanche ECNL G2010/11,WPFC Field Complex,Field 4,On Time,1058647
+2026-12-12,11:30 AM,Group Play,Seattle United ECNL G2010/11,,,La Roca FC ECNL G2010/11,TBD,Field TBD,On Time,1058646
+2026-12-13,TBD,Group Play,XF ECNL G2010/11,,,Boise Thorns ECNL G2010/11,,,On Time,1058670
+2026-12-13,09:00 AM,Group Play,Washington Premier ECNL G2010/11,,,La Roca FC ECNL G2010/11,WPFC Field Complex,Field 3,On Time,1058669
+2026-12-13,11:30 AM,Group Play,Seattle United ECNL G2010/11,,,Avalanche ECNL G2010/11,TBD,Field TBD,On Time,1058668
+2027-01-16,TBD,Group Play,Oregon Surf ECNL G2010/11,,,Boise Thorns ECNL G2010/11,,,On Time,1058683
+2027-01-16,TBD,Group Play,PacNW SC ECNL G2010/11,,,Portland Thorns ECNL G2010/11,,,On Time,1058684
+2027-01-17,TBD,Group Play,PacNW SC ECNL G2010/11,,,Oregon Surf ECNL G2010/11,,,On Time,1058698
+2027-01-17,TBD,Group Play,Portland Thorns ECNL G2010/11,,,Boise Thorns ECNL G2010/11,,,On Time,1058699
+2027-01-17,TBD,Group Play,XF ECNL G2010/11,,,Washington Premier ECNL G2010/11,,,On Time,1058700
+2027-01-23,TBD,Group Play,PacNW SC ECNL G2010/11,,,XF ECNL G2010/11,,,On Time,1058717
+2027-01-23,09:00 AM,Group Play,Washington Premier ECNL G2010/11,,,Seattle United ECNL G2010/11,WPFC Field Complex,Field 3,On Time,1058718
+2027-01-23,01:00 PM,Group Play,Eastside FC ECNL G2010/11,,,Portland Thorns ECNL G2010/11,PRESTON PARK ATHLETIC FIELDS,Field 2,On Time,1058716
+2027-01-30,TBD,Group Play,PacNW SC ECNL G2010/11,,,Avalanche ECNL G2010/11,,,On Time,1058741
+2027-01-30,TBD,Group Play,Washington Premier ECNL G2010/11,,,Portland Thorns ECNL G2010/11,,,On Time,1058743
+2027-01-30,TBD,Group Play,XF ECNL G2010/11,,,Oregon Surf ECNL G2010/11,,,On Time,1058744
+2027-01-30,09:30 AM,Group Play,Seattle United ECNL G2010/11,,,Boise Thorns ECNL G2010/11,TBD,Field TBD,On Time,1058742
+2027-01-30,01:00 PM,Group Play,Eastside FC ECNL G2010/11,,,La Roca FC ECNL G2010/11,PRESTON PARK ATHLETIC FIELDS,Field 1,On Time,1058740
+2027-01-31,TBD,Group Play,PacNW SC ECNL G2010/11,,,La Roca FC ECNL G2010/11,,,On Time,1058768
+2027-01-31,08:00 AM,Group Play,Seattle United ECNL G2010/11,,,Portland Thorns ECNL G2010/11,TBD,Field TBD,On Time,1058769
+2027-01-31,09:00 AM,Group Play,Washington Premier ECNL G2010/11,,,Boise Thorns ECNL G2010/11,WPFC Field Complex,Field 3,On Time,1058770
+2027-01-31,11:00 AM,Group Play,Eastside FC ECNL G2010/11,,,Avalanche ECNL G2010/11,PRESTON PARK ATHLETIC FIELDS,Field 1,On Time,1058767
+2027-02-06,TBD,Group Play,Oregon Surf ECNL G2010/11,,,Portland Thorns ECNL G2010/11,,,On Time,1058782
+2027-02-07,08:00 AM,Group Play,Seattle United ECNL G2010/11,,,XF ECNL G2010/11,TBD,Field 2,On Time,1058788
+2027-02-20,TBD,Group Play,PacNW SC ECNL G2010/11,,,Washington Premier ECNL G2010/11,,,On Time,1058798
+2027-02-20,11:00 AM,Group Play,Eastside FC ECNL G2010/11,,,Boise Thorns ECNL G2010/11,PRESTON PARK ATHLETIC FIELDS,Field 1,On Time,1058797
+2027-02-21,TBD,Group Play,PacNW SC ECNL G2010/11,,,Boise Thorns ECNL G2010/11,,,On Time,1058813
+2027-02-21,TBD,Group Play,XF ECNL G2010/11,,,Portland Thorns ECNL G2010/11,,,On Time,1058814
+2027-02-21,11:00 AM,Group Play,Eastside FC ECNL G2010/11,,,Washington Premier ECNL G2010/11,PRESTON PARK ATHLETIC FIELDS,Field 1,On Time,1058812
+2027-02-27,TBD,Group Play,XF ECNL G2010/11,,,Eastside FC ECNL G2010/11,,,On Time,1058832
+2027-02-27,09:00 AM,Group Play,Washington Premier ECNL G2010/11,,,Oregon Surf ECNL G2010/11,WPFC Field Complex,Field 3,On Time,1058831
+2027-02-27,09:30 AM,Group Play,Seattle United ECNL G2010/11,,,PacNW SC ECNL G2010/11,TBD,Field 2,On Time,1058830
+2027-02-28,TBD,Group Play,Boise Thorns ECNL G2010/11,,,Portland Thorns ECNL G2010/11,,,On Time,1058848
+2027-02-28,09:00 AM,Group Play,Washington Premier ECNL G2010/11,,,XF ECNL G2010/11,WPFC Field Complex,Field 3,On Time,1058850
+2027-02-28,01:00 PM,Group Play,Eastside FC ECNL G2010/11,,,Oregon Surf ECNL G2010/11,PRESTON PARK ATHLETIC FIELDS,Field 1,On Time,1058849
+2027-03-06,TBD,Group Play,Boise Thorns ECNL G2010/11,,,Washington Premier ECNL G2010/11,,,On Time,1058872
+2027-03-06,TBD,Group Play,Oregon Surf ECNL G2010/11,,,La Roca FC ECNL G2010/11,,,On Time,1058873
+2027-03-06,TBD,Group Play,Oregon Surf ECNL G2010/11,,,Avalanche ECNL G2010/11,,,On Time,1058874
+2027-03-06,TBD,Group Play,Portland Thorns ECNL G2010/11,,,La Roca FC ECNL G2010/11,,,On Time,1058875
+2027-03-06,TBD,Group Play,Portland Thorns ECNL G2010/11,,,Avalanche ECNL G2010/11,,,On Time,1058876
+2027-03-07,TBD,Group Play,Boise Thorns ECNL G2010/11,,,Eastside FC ECNL G2010/11,,,On Time,1058905
+2027-03-07,TBD,Group Play,Oregon Surf ECNL G2010/11,,,La Roca FC ECNL G2010/11,,,On Time,1058906
+2027-03-07,TBD,Group Play,Oregon Surf ECNL G2010/11,,,Avalanche ECNL G2010/11,,,On Time,1058907
+2027-03-07,TBD,Group Play,Portland Thorns ECNL G2010/11,,,La Roca FC ECNL G2010/11,,,On Time,1058908
+2027-03-07,TBD,Group Play,Portland Thorns ECNL G2010/11,,,Avalanche ECNL G2010/11,,,On Time,1058909
+2027-03-07,TBD,Group Play,XF ECNL G2010/11,,,Seattle United ECNL G2010/11,,,On Time,1058910
+2027-03-13,TBD,Group Play,Portland Thorns ECNL G2010/11,,,Eastside FC ECNL G2010/11,,,On Time,1058939
+2027-03-13,TBD,Group Play,Avalanche ECNL G2010/11,,,Boise Thorns ECNL G2010/11,,,On Time,1058941
+2027-03-13,09:00 AM,Group Play,Washington Premier ECNL G2010/11,,,PacNW SC ECNL G2010/11,WPFC Field Complex,Field 4,On Time,1058942
+2027-03-13,09:30 AM,Group Play,Seattle United ECNL G2010/11,,,Oregon Surf ECNL G2010/11,TBD,Field 2,On Time,1058940
+2027-03-13,12:15 PM,Group Play,La Roca FC ECNL G2010/11,,,XF ECNL G2010/11,La Roca Park,Field 1,On Time,1058938
+2027-03-14,TBD,Group Play,Oregon Surf ECNL G2010/11,,,Eastside FC ECNL G2010/11,,,On Time,1058963
+2027-03-14,TBD,Group Play,Avalanche ECNL G2010/11,,,XF ECNL G2010/11,,,On Time,1058964
+2027-03-14,10:00 AM,Group Play,La Roca FC ECNL G2010/11,,,Boise Thorns ECNL G2010/11,La Roca Park,Field 1,On Time,1058962
+2027-03-20,TBD,Group Play,Boise Thorns ECNL G2010/11,,,Oregon Surf ECNL G2010/11,,,On Time,1058983
+2027-03-20,TBD,Group Play,PacNW SC ECNL G2010/11,,,Seattle United ECNL G2010/11,,,On Time,1058986
+2027-03-20,11:00 AM,Group Play,Eastside FC ECNL G2010/11,,,XF ECNL G2010/11,PRESTON PARK ATHLETIC FIELDS,Field 1,On Time,1058984
+2027-03-20,12:30 PM,Group Play,La Roca FC ECNL G2010/11,,,Avalanche ECNL G2010/11,La Roca Park,Field 1,On Time,1058985
+2027-03-21,TBD,Group Play,XF ECNL G2010/11,,,PacNW SC ECNL G2010/11,,,On Time,1059002
+2027-03-21,11:00 AM,Group Play,Eastside FC ECNL G2010/11,,,Seattle United ECNL G2010/11,PRESTON PARK ATHLETIC FIELDS,Field 1,On Time,1059001
+2027-04-10,TBD,Group Play,Oregon Surf ECNL G2010/11,,,PacNW SC ECNL G2010/11,,,On Time,1059020
+2027-04-10,TBD,Group Play,Portland Thorns ECNL G2010/11,,,Washington Premier ECNL G2010/11,,,On Time,1059021
+2027-04-10,TBD,Group Play,Avalanche ECNL G2010/11,,,Eastside FC ECNL G2010/11,,,On Time,1059022
+2027-04-10,11:15 AM,Group Play,La Roca FC ECNL G2010/11,,,Seattle United ECNL G2010/11,La Roca Park,Field 1,On Time,1059019
+2027-04-11,TBD,Group Play,Oregon Surf ECNL G2010/11,,,Washington Premier ECNL G2010/11,,,On Time,1059044
+2027-04-11,TBD,Group Play,Portland Thorns ECNL G2010/11,,,PacNW SC ECNL G2010/11,,,On Time,1059045
+2027-04-11,TBD,Group Play,Avalanche ECNL G2010/11,,,Seattle United ECNL G2010/11,,,On Time,1059046
+2027-04-11,01:15 PM,Group Play,La Roca FC ECNL G2010/11,,,Eastside FC ECNL G2010/11,La Roca Park,Field 1,On Time,1059043
+2027-04-17,TBD,Group Play,Boise Thorns ECNL G2010/11,,,PacNW SC ECNL G2010/11,,,On Time,1059073
+2027-04-17,TBD,Group Play,La Roca FC ECNL G2010/11,,,Portland Thorns ECNL G2010/11,,,On Time,1059075
+2027-04-17,TBD,Group Play,Avalanche ECNL G2010/11,,,Oregon Surf ECNL G2010/11,,,On Time,1059076
+2027-04-17,TBD,Group Play,Avalanche ECNL G2010/11,,,Portland Thorns ECNL G2010/11,,,On Time,1059077
+2027-04-17,09:00 AM,Group Play,La Roca FC ECNL G2010/11,,,Oregon Surf ECNL G2010/11,La Roca Park,Field 1,On Time,1059074
+2027-04-17,10:00 AM,Group Play,Washington Premier ECNL G2010/11,,,Eastside FC ECNL G2010/11,WPFC Field Complex,Field 4,On Time,1059078
+2027-04-18,TBD,Group Play,Boise Thorns ECNL G2010/11,,,Seattle United ECNL G2010/11,,,On Time,1059106
+2027-04-18,TBD,Group Play,La Roca FC ECNL G2010/11,,,Oregon Surf ECNL G2010/11,,,On Time,1059107
+2027-04-18,TBD,Group Play,Avalanche ECNL G2010/11,,,Oregon Surf ECNL G2010/11,,,On Time,1059109
+2027-04-18,TBD,Group Play,Avalanche ECNL G2010/11,,,Portland Thorns ECNL G2010/11,,,On Time,1059110
+2027-04-18,01:15 PM,Group Play,La Roca FC ECNL G2010/11,,,Portland Thorns ECNL G2010/11,La Roca Park,Field 2,On Time,1059108
+2027-04-24,TBD,Group Play,Oregon Surf ECNL G2010/11,,,Seattle United ECNL G2010/11,,,On Time,1059134
+2027-04-24,TBD,Group Play,Portland Thorns ECNL G2010/11,,,XF ECNL G2010/11,,,On Time,1059135
+2027-04-24,TBD,Group Play,Avalanche ECNL G2010/11,,,PacNW SC ECNL G2010/11,,,On Time,1059136
+2027-04-24,11:15 AM,Group Play,La Roca FC ECNL G2010/11,,,Washington Premier ECNL G2010/11,La Roca Park,Field 2,On Time,1059133
+2027-04-25,TBD,Group Play,Oregon Surf ECNL G2010/11,,,XF ECNL G2010/11,,,On Time,1059158
+2027-04-25,TBD,Group Play,Portland Thorns ECNL G2010/11,,,Seattle United ECNL G2010/11,,,On Time,1059159
+2027-04-25,TBD,Group Play,Avalanche ECNL G2010/11,,,Washington Premier ECNL G2010/11,,,On Time,1059160
+2027-04-25,11:15 AM,Group Play,La Roca FC ECNL G2010/11,,,PacNW SC ECNL G2010/11,La Roca Park,Field 1,On Time,1059157
+2027-05-01,TBD,Group Play,Boise Thorns ECNL G2010/11,,,La Roca FC ECNL G2010/11,,,On Time,1059184
+2027-05-01,TBD,Group Play,Boise Thorns ECNL G2010/11,,,Avalanche ECNL G2010/11,,,On Time,1059185
+2027-05-01,TBD,Group Play,Avalanche ECNL G2010/11,,,XF ECNL G2010/11,,,On Time,1059186
+2027-05-01,10:00 AM,Group Play,Seattle United ECNL G2010/11,,,Washington Premier ECNL G2010/11,TBD,Field 2,On Time,1059188
+2027-05-01,11:00 AM,Group Play,Eastside FC ECNL G2010/11,,,PacNW SC ECNL G2010/11,PRESTON PARK ATHLETIC FIELDS,Field 1,On Time,1059187
+2027-05-02,TBD,Group Play,Boise Thorns ECNL G2010/11,,,La Roca FC ECNL G2010/11,,,On Time,1059211
+2027-05-02,TBD,Group Play,Boise Thorns ECNL G2010/11,,,Avalanche ECNL G2010/11,,,On Time,1059212
+2027-05-02,TBD,Group Play,Boise Thorns ECNL G2010/11,,,XF ECNL G2010/11,,,On Time,1059213
+2027-05-02,09:30 AM,Group Play,Seattle United ECNL G2010/11,,,Eastside FC ECNL G2010/11,TBD,Field TBD,On Time,1059214

@@ -1,0 +1,47 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2024-09-21,TBD,Group Play,Ohio Premier ECNL G11,2,1,FC Pride Elite ECNL G11,,,On Time,656179
+2024-09-21,08:45 AM,Group Play,Cleveland Force SC ECNL G11,0,0,Tennessee SC ECNL G11,Victory Park,Field 2,On Time,656301
+2024-09-21,10:45 AM,Group Play,WNY Flash ECNL G11,2,0,Racing Louisville Academy ECNL G11,Flash Fields,Field A,On Time,656275
+2024-09-21,11:00 AM,Group Play,Pittsburgh Riverhounds ECNL G11,6,3,Ohio Elite Soccer Academy ECNL G11,Montour Junction Sports Complex,Field 1,On Time,656147
+2024-09-21,11:45 AM,Group Play,Internationals SC ECNL G11,5,0,FC Alliance ECNL G11,Pinnacle Sports,Field 1,On Time,656161
+2024-09-21,11:45 AM,Group Play,Kings Hammer SC ECNL G11,2,1,Indy Eleven Pro Academy ECNL G11,Warren County Sports Park,Field 1,On Time,656209
+2024-09-22,TBD,Group Play,Ohio Premier ECNL G11,1,1,Indy Eleven Pro Academy ECNL G11,,,On Time,656211
+2024-09-22,08:45 AM,Group Play,Cleveland Force SC ECNL G11,0,1,FC Alliance ECNL G11,Lost Nations Sports Park - West ,Field 1,On Time,656157
+2024-09-22,10:45 AM,Group Play,Internationals SC ECNL G11,1,4,Tennessee SC ECNL G11,Pinnacle Sports,Field 1,On Time,656305
+2024-09-22,11:00 AM,Group Play,Pittsburgh Riverhounds ECNL G11,4,4,Racing Louisville Academy ECNL G11,Montour Junction Sports Complex,Field 1,On Time,656271
+2024-09-22,11:45 AM,Group Play,Kings Hammer SC ECNL G11,5,0,FC Pride Elite ECNL G11,Warren County Sports Park,Field 1,On Time,656177
+2024-09-22,02:15 PM,Group Play,WNY Flash ECNL G11,1,0,Ohio Elite Soccer Academy ECNL G11,Sahlen's Sports Park,Field #45,On Time,656151
+2024-10-05,10:45 AM,Group Play,Cleveland Force SC ECNL G11,2,0,Kings Hammer SC ECNL G11,Victory Park,Field 2,On Time,656237
+2024-10-05,11:45 AM,Group Play,Internationals SC ECNL G11,3,1,Ohio Premier ECNL G11,Pinnacle Sports,Field 1,On Time,656253
+2024-10-06,10:45 AM,Group Play,Internationals SC ECNL G11,1,1,Kings Hammer SC ECNL G11,Pinnacle Sports,Field 1,On Time,656239
+2024-10-06,10:45 AM,Group Play,Cleveland Force SC ECNL G11,1,1,Ohio Premier ECNL G11,Lost Nations Sports Park - West ,Field 1,On Time,656251
+2024-10-19,TBD,Group Play,Ohio Premier ECNL G11,3,0,FC Alliance ECNL G11,,,On Time,656165
+2024-10-19,10:45 AM,Group Play,Kings Hammer SC ECNL G11,2,1,Tennessee SC ECNL G11,St Henry High School,Field 1,On Time,656307
+2024-10-20,TBD,Group Play,Ohio Premier ECNL G11,3,1,Tennessee SC ECNL G11,,,On Time,656309
+2024-10-20,11:00 AM,Group Play,Kings Hammer SC ECNL G11,1,0,FC Alliance ECNL G11,Miami Valley Christian ,Field 1,On Time,656163
+2024-11-02,11:45 AM,Group Play,Kings Hammer SC ECNL G11,3,0,Ohio Premier ECNL G11,Town and Country,Field 1,On Time,656255
+2024-11-02,02:15 PM,Group Play,Internationals SC ECNL G11,2,1,Cleveland Force SC ECNL G11,Pinnacle Sports,Field 1,On Time,656191
+2024-11-02,02:45 PM,Group Play,WNY Flash ECNL G11,2,0,Pittsburgh Riverhounds ECNL G11,Flash Fields,Field A,On Time,656293
+2025-03-01,09:20 AM,Group Play,WNY Flash ECNL G11,2,1,Kings Hammer SC ECNL G11,Sahlen's Sports Park,Field #45,On Time,656247
+2025-03-08,09:00 AM,Group Play,Kings Hammer SC ECNL G11,2,0,WNY Flash ECNL G11,Mt Healthy,Field 1,On Time,656323
+2025-03-08,11:45 AM,Group Play,Ohio Premier ECNL G11,1,2,Pittsburgh Riverhounds ECNL G11,The Wellington School (Turf),Field 1,On Time,656289
+2025-03-09,10:45 AM,Group Play,Kings Hammer SC ECNL G11,2,1,Pittsburgh Riverhounds ECNL G11,Ryle HS,Field 1,On Time,656287
+2025-03-09,10:45 AM,Group Play,Ohio Premier ECNL G11,1,2,WNY Flash ECNL G11,The Wellington School (Turf),Field 1,On Time,656325
+2025-03-22,09:00 AM,Group Play,Cleveland Force SC ECNL G11,1,0,WNY Flash ECNL G11,Victory Park,Field 2,On Time,656317
+2025-03-22,11:45 AM,Group Play,Internationals SC ECNL G11,0,3,Pittsburgh Riverhounds ECNL G11,Pinnacle Sports,Field 1,On Time,656285
+2025-03-23,09:00 AM,Group Play,Cleveland Force SC ECNL G11,2,2,Pittsburgh Riverhounds ECNL G11,Victory Park,Field 2,On Time,656281
+2025-03-23,10:45 AM,Group Play,Internationals SC ECNL G11,2,3,WNY Flash ECNL G11,Pinnacle Sports,Field 1,On Time,656321
+2025-03-29,12:00 PM,Group Play,Pittsburgh Riverhounds ECNL G11,1,1,WNY Flash ECNL G11,Highmark Stadium,Field 1,On Time,656327
+2025-04-05,11:00 AM,Group Play,Pittsburgh Riverhounds ECNL G11,1,1,Ohio Premier ECNL G11,Montour Junction Sports Complex,Field 1,On Time,656259
+2025-04-05,01:45 PM,Group Play,Cleveland Force SC ECNL G11,5,1,Internationals SC ECNL G11,Euclid Memorial Park,Field 2,On Time,656221
+2025-04-06,10:45 AM,Group Play,WNY Flash ECNL G11,3,1,Ohio Premier ECNL G11,Flash Fields,Field A,On Time,656261
+2025-04-26,11:45 AM,Group Play,Ohio Premier ECNL G11,5,2,Internationals SC ECNL G11,OP Training Facility,Field 1,On Time,656227
+2025-04-26,12:00 PM,Group Play,Kings Hammer SC ECNL G11,4,0,Cleveland Force SC ECNL G11,St Henry High School,Field 1,On Time,656193
+2025-04-27,10:15 AM,Group Play,Kings Hammer SC ECNL G11,3,0,Internationals SC ECNL G11,St Henry High School,Field 1,On Time,656225
+2025-04-27,10:45 AM,Group Play,Ohio Premier ECNL G11,0,1,Cleveland Force SC ECNL G11,OP Training Facility,Field 1,On Time,656195
+2025-05-03,01:00 PM,Group Play,Pittsburgh Riverhounds ECNL G11,2,3,Cleveland Force SC ECNL G11,Montour Junction Sports Complex,Field 1,On Time,656199
+2025-05-03,05:00 PM,Group Play,WNY Flash ECNL G11,1,1,Internationals SC ECNL G11,Flash Fields,Field A,On Time,656233
+2025-05-17,10:45 AM,Group Play,WNY Flash ECNL G11,1,1,Cleveland Force SC ECNL G11,Flash Fields,Field A,On Time,656201
+2025-05-17,11:45 AM,Group Play,Ohio Premier ECNL G11,1,3,Kings Hammer SC ECNL G11,The Wellington School (Turf),Field 1,On Time,656241
+2025-05-17,01:00 PM,Group Play,Pittsburgh Riverhounds ECNL G11,2,1,Internationals SC ECNL G11,Montour Junction Sports Complex,Field 1,On Time,656231
+2025-05-18,10:15 AM,Group Play,Pittsburgh Riverhounds ECNL G11,3,0,Kings Hammer SC ECNL G11,Montour Junction Sports Complex,Field 1,On Time,656245

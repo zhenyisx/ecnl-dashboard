@@ -1,0 +1,51 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2023-11-18,09:00 AM,Group Play,Tennessee Soccer Club ECNL G06/05,2,2,Ohio Premier ECNL G06/05,Richard Siegel Soccer Complex,Field 1,On Time,502186
+2023-11-18,02:30 PM,Group Play,FC Alliance ECNL G06/05,1,0,Kings Hammer SC ECNL G06/05,Hardin Valley Academy Stadium,Field 1,On Time,502170
+2023-11-18,03:00 PM,Group Play,Racing Louisville Academy ECNL G06/05,3,4,WNY Flash ECNL G06/05,Lynn Family Sports Vision & Training Facility,Field 3,On Time,502182
+2023-11-18,03:30 PM,Group Play,Ohio Elite Soccer Academy ECNL G06/05,6,0,Pittsburgh Riverhounds ECNL G06/05,Seven Hills School,Lower Field,On Time,502166
+2023-11-19,11:00 AM,Group Play,Tennessee Soccer Club ECNL G06/05,4,2,Kings Hammer SC ECNL G06/05,Richard Siegel Soccer Complex,Field 1,On Time,502210
+2023-11-19,02:30 PM,Group Play,Ohio Elite Soccer Academy ECNL G06/05,4,0,WNY Flash ECNL G06/05,Seven Hills School,Lower Field,On Time,502190
+2023-11-19,02:30 PM,Group Play,FC Alliance ECNL G06/05,2,2,Ohio Premier ECNL G06/05,Hardin Valley Academy Stadium,Field 1,On Time,502194
+2023-11-19,02:30 PM,Group Play,Racing Louisville Academy ECNL G06/05,0,0,Pittsburgh Riverhounds ECNL G06/05,Lynn Family Sports Vision & Training Facility,Field 3,On Time,502206
+2023-12-10,11:00 AM,Group Play,Racing Louisville Academy ECNL G06/05,3,6,Ohio Elite Soccer Academy ECNL G06/05,Lynn Family Sports Vision & Training Facility,Field 3,On Time,502234
+2023-12-10,04:00 PM,Group Play,FC Pride Elite ECNL G06/05,0,2,Indy Eleven Pro Academy ECNL G06/05,Grand Park,Field 1,On Time,502226
+2023-12-16,12:00 PM,Group Play,Indy Eleven Pro Academy ECNL G06/05,0,1,Ohio Premier ECNL G06/05,Grand Park,Field 2,On Time,502246
+2023-12-16,01:00 PM,Group Play,Tennessee Soccer Club ECNL G06/05,3,1,Ohio Elite Soccer Academy ECNL G06/05,Richard Siegel Soccer Complex,Field 3,On Time,502250
+2023-12-16,02:30 PM,Group Play,FC Alliance ECNL G06/05,2,0,Racing Louisville Academy ECNL G06/05,Samson Sports Complex,Field 1,On Time,502238
+2023-12-16,03:30 PM,Group Play,FC Pride Elite ECNL G06/05,2,2,Kings Hammer SC ECNL G06/05,Pride Performance Center (Turf),Field 1,On Time,502242
+2023-12-17,TBD,Group Play,Tennessee Soccer Club ECNL G06/05,4,1,Racing Louisville Academy ECNL G06/05,,,On Time,502266
+2023-12-17,10:00 AM,Group Play,Indy Eleven Pro Academy ECNL G06/05,2,1,Kings Hammer SC ECNL G06/05,Grand Park,Field 2,On Time,502262
+2023-12-17,02:30 PM,Group Play,FC Alliance ECNL G06/05,2,5,Ohio Elite Soccer Academy ECNL G06/05,Samson Sports Complex,Field 1,On Time,502254
+2023-12-17,03:30 PM,Group Play,FC Pride Elite ECNL G06/05,0,2,Ohio Premier ECNL G06/05,Pride Performance Center (Turf),Field 1,On Time,502258
+2024-02-24,11:00 AM,Group Play,Tennessee Soccer Club ECNL G06/05,1,1,FC Alliance ECNL G06/05,Richard Siegel Soccer Complex,Field 1,On Time,502318
+2024-03-09,02:30 PM,Group Play,Ohio Elite Soccer Academy ECNL G06/05,4,2,Tennessee Soccer Club ECNL G06/05,Seven Hills School,Lower Field,On Time,502270
+2024-03-09,03:00 PM,Group Play,Racing Louisville Academy ECNL G06/05,0,1,FC Alliance ECNL G06/05,Lynn Family Sports Vision & Training Facility,Field 3,On Time,502282
+2024-03-10,02:30 PM,Group Play,Ohio Elite Soccer Academy ECNL G06/05,4,1,FC Alliance ECNL G06/05,Seven Hills School,Lower Field,On Time,502286
+2024-03-10,03:00 PM,Group Play,Racing Louisville Academy ECNL G06/05,1,4,Tennessee Soccer Club ECNL G06/05,Lynn Family Sports Vision & Training Facility,Field 3,On Time,502298
+2024-03-16,03:15 PM,Group Play,FC Pride Elite ECNL G06/05,1,2,Ohio Elite Soccer Academy ECNL G06/05,Pride Performance Center (Turf),Field 1,On Time,502306
+2024-03-16,04:00 PM,Group Play,Indy Eleven Pro Academy ECNL G06/05,0,0,Racing Louisville Academy ECNL G06/05,Butler University Varsity Field,Field 1,On Time,502310
+2024-03-23,02:30 PM,Group Play,FC Alliance ECNL G06/05,0,0,Indy Eleven Pro Academy ECNL G06/05,Mayor Bob Leonard Park,Field 1,On Time,502322
+2024-03-23,03:00 PM,Group Play,Tennessee Soccer Club ECNL G06/05,4,0,FC Pride Elite ECNL G06/05,Oakland High School ,Field 1,On Time,502334
+2024-03-24,TBD,Group Play,Tennessee Soccer Club ECNL G06/05,5,0,Indy Eleven Pro Academy ECNL G06/05,,,On Time,502354
+2024-03-24,10:45 AM,Group Play,FC Alliance ECNL G06/05,3,0,FC Pride Elite ECNL G06/05,Mayor Bob Leonard Park,Field 1,On Time,502338
+2024-04-13,04:00 PM,Group Play,FC Alliance ECNL G06/05,4,6,Tennessee Soccer Club ECNL G06/05,Mayor Bob Leonard Park,Field 1,On Time,502398
+2024-04-21,10:00 AM,Group Play,FC Pride Elite ECNL G06/05,1,2,Racing Louisville Academy ECNL G06/05,Pride Performance Center (Turf),Field 1,On Time,502402
+2024-04-21,04:00 PM,Group Play,Indy Eleven Pro Academy ECNL G06/05,2,7,Ohio Elite Soccer Academy ECNL G06/05,Grand Park,Field 10,On Time,502406
+2024-04-27,10:00 AM,Group Play,FC Pride Elite ECNL G06/05,1,1,Indy Eleven Pro Academy ECNL G06/05,Grand Park Sports Campus,Field 31,On Time,502502
+2024-05-01,08:00 PM,Group Play,Racing Louisville Academy ECNL G06/05,1,0,FC Pride Elite ECNL G06/05,Lynn Family Sports Vision & Training Facility,Field 4,On Time,502474
+2024-05-04,09:00 AM,Group Play,FC Alliance ECNL G06/05,5,2,Internationals SC ECNL G06/05,Mayor Bob Leonard Park,Field 1,On Time,502454
+2024-05-04,09:30 AM,Group Play,Ohio Elite Soccer Academy ECNL G06/05,,,FC Pride Elite ECNL G06/05,Ohio Elite Training Center,Field 9,On Time,502450
+2024-05-04,03:00 PM,Group Play,Tennessee Soccer Club ECNL G06/05,2,0,Cleveland Force SC ECNL G06/05,Richard Siegel Soccer Complex,Field 1,On Time,502462
+2024-05-05,01:30 PM,Group Play,Tennessee Soccer Club ECNL G06/05,3,5,Internationals SC ECNL G06/05,Richard Siegel Soccer Complex,Field 1,On Time,502478
+2024-05-05,02:30 PM,Group Play,FC Alliance ECNL G06/05,4,0,Cleveland Force SC ECNL G06/05,Mayor Bob Leonard Park,Field 1,On Time,502470
+2024-05-05,04:00 PM,Group Play,Ohio Elite Soccer Academy ECNL G06/05,9,3,Indy Eleven Pro Academy ECNL G06/05,Ohio Elite Training Center,Field 9,On Time,502466
+2024-05-07,07:00 PM,Group Play,Racing Louisville Academy ECNL G06/05,3,0,Indy Eleven Pro Academy ECNL G06/05,Lynn Family Sports Vision & Training Facility,Field 1,On Time,502458
+2024-05-11,02:30 PM,Group Play,Ohio Elite Soccer Academy ECNL G06/05,5,1,Cleveland Force SC ECNL G06/05,Seven Hills School,Upper Field,On Time,502482
+2024-05-11,03:00 PM,Group Play,Racing Louisville Academy ECNL G06/05,1,5,Internationals SC ECNL G06/05,Lynn Family Sports Vision & Training Facility,Field 3,On Time,502486
+2024-05-12,02:30 PM,Group Play,Ohio Elite Soccer Academy ECNL G06/05,1,5,Internationals SC ECNL G06/05,Seven Hills School,Lower Field,On Time,502498
+2024-05-12,03:00 PM,Group Play,Racing Louisville Academy ECNL G06/05,4,1,Cleveland Force SC ECNL G06/05,Lynn Family Sports Vision & Training Facility,Field 3,On Time,502506
+2024-05-18,09:00 AM,Group Play,FC Pride Elite ECNL G06/05,2,2,Tennessee Soccer Club ECNL G06/05,Lawrence Soccer Complex,Field #1,On Time,502518
+2024-05-18,04:00 PM,Group Play,Indy Eleven Pro Academy ECNL G06/05,4,0,FC Alliance ECNL G06/05,Grand Park Event Center,Field 1,On Time,502522
+2024-05-19,09:00 AM,Group Play,FC Pride Elite ECNL G06/05,1,0,FC Alliance ECNL G06/05,Pride Performance Center (Turf),Field 1,On Time,502530
+2024-05-19,03:00 PM,Group Play,Indy Eleven Pro Academy ECNL G06/05,0,8,Tennessee Soccer Club ECNL G06/05,Grand Park Event Center,Field 1,On Time,502538
+2024-05-22,06:45 PM,Group Play,Ohio Elite Soccer Academy ECNL G06/05,3,2,Racing Louisville Academy ECNL G06/05,Ohio Elite Training Center,Field 9,On Time,502526

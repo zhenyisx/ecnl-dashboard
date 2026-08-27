@@ -1,0 +1,13 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2025-06-26,08:00 AM,Bracket,Mustang SC - ECNL G09,2,2,Phoenix Rising ECNL G09,Surf Sports Park,Field A,On Time,795321
+2025-06-26,08:00 AM,Bracket,NVA ECNL G09,2,1,Boise Thorns FC ECNL G09,Surf Sports Park,Field B,On Time,795322
+2025-06-26,10:10 AM,Bracket,OK Energy FC ECNL G09,6,0,Maryland United FC ECNL G09,Surf Sports Park,Field C,On Time,795319
+2025-06-26,11:40 AM,Bracket,GSA ECNL G09,4,1,Liverpool FC IA Michigan ECNL G09,Surf Sports Park,Field A,On Time,795320
+2025-06-28,11:40 AM,Bracket,OK Energy FC ECNL G09,2,2,GSA ECNL G09,Surf Sports Park,Field 02,On Time,795323
+2025-06-28,11:40 AM,Bracket,Mustang SC - ECNL G09,2,1,NVA ECNL G09,Surf Sports Park,Field 03,On Time,795324
+2025-06-28,11:40 AM,Bracket,Maryland United FC ECNL G09,0,2,Liverpool FC IA Michigan ECNL G09,Surf Sports Park,Field 04,On Time,795327
+2025-06-28,11:40 AM,Bracket,Phoenix Rising ECNL G09,2,0,Boise Thorns FC ECNL G09,Surf Sports Park,Field 05,On Time,795328
+2025-06-29,08:00 AM,Bracket,GSA ECNL G09,0,0,Mustang SC - ECNL G09,Surf Sports Park,Field 06,On Time,795325
+2025-06-29,08:00 AM,Bracket,OK Energy FC ECNL G09,3,2,NVA ECNL G09,Surf Sports Park,Field 01,On Time,795326
+2025-06-29,08:00 AM,Bracket,Maryland United FC ECNL G09,6,0,Boise Thorns FC ECNL G09,Surf Sports Park,Field 03,On Time,795330
+2025-06-29,12:40 PM,Bracket,Liverpool FC IA Michigan ECNL G09,4,0,Phoenix Rising ECNL G09,Surf Sports Park,Field 17,On Time,795329

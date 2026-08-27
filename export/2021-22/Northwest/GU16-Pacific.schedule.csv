@@ -1,0 +1,92 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2021-12-11,09:00 AM,Bracket,PacNW SC ECNL GU16,3,2,Seattle United ECNL GU16,Valley Ridge,Field 3,On Time,276940
+2022-01-15,08:15 AM,Bracket,Boise Thorns FC ECNL GU16,0,4,Eastside FC ECNL GU16,Valley Ridge Park,Field 2,On Time,276289
+2022-01-15,11:00 AM,Bracket,FC Portland ECNL GU16,0,5,Portland Thorns ECNL GU16,Liberty High School,Stadium Field,On Time,276670
+2022-01-15,02:00 PM,Bracket,PacNW SC ECNL GU16,0,2,Northwest Elite FC ECNL GU16,Valley Ridge,Field 1,On Time,276931
+2022-01-16,08:15 AM,Bracket,Eastside FC ECNL GU16,0,3,Northwest Elite FC ECNL GU16,Valley Ridge,Field 2,On Time,276616
+2022-01-16,02:00 PM,Bracket,PacNW SC ECNL GU16,1,0,Boise Thorns FC ECNL GU16,Valley Ridge,Field 1,On Time,276932
+2022-01-22,09:00 AM,Bracket,Washington Premier ECNL GU16,0,1,Utah Avalanche ECNL GU16,WPFC Field Complex,Field 3,On Time,277448
+2022-01-22,11:00 AM,Bracket,Northwest Elite FC ECNL GU16,1,2,Crossfire Premier ECNL GU16,Mountain View Champions Park,Field 3,On Time,276457
+2022-01-22,11:00 AM,Bracket,FC Portland ECNL GU16,0,5,Seattle United ECNL GU16,Liberty High School,Stadium Field,On Time,276671
+2022-01-22,01:00 PM,Bracket,Eastside FC ECNL GU16,0,2,Portland Thorns ECNL GU16,PRESTON PARK ATHLETIC FIELDS,Field 2,On Time,276617
+2022-01-22,01:00 PM,Bracket,PacNW SC ECNL GU16,1,3,La Roca FC ECNL GU16,Starfire Sports,Field 4,On Time,276933
+2022-01-23,11:00 AM,Bracket,Northwest Elite FC ECNL GU16,1,2,Seattle United ECNL GU16,Mountain View Champions Park,Field 3,On Time,276458
+2022-01-23,11:00 AM,Bracket,PacNW SC ECNL GU16,0,0,Utah Avalanche ECNL GU16,Starfire Sports,Field 3,On Time,276934
+2022-01-23,01:00 PM,Bracket,FC Portland ECNL GU16,0,5,Crossfire Premier ECNL GU16,Liberty High School,Clive Charles Field,On Time,276672
+2022-01-23,01:00 PM,Bracket,Washington Premier ECNL GU16,0,1,La Roca FC ECNL GU16,WPFC Field Complex,Field 3,On Time,277449
+2022-01-29,11:00 AM,Bracket,Boise Thorns FC ECNL GU16,0,1,Seattle United ECNL GU16,Delta Park,Field 8,On Time,276290
+2022-01-29,01:00 PM,Bracket,Portland Thorns ECNL GU16,1,1,Crossfire Premier ECNL GU16,53rd Street Fields,East,On Time,277042
+2022-01-30,09:00 AM,Bracket,Portland Thorns ECNL GU16,2,0,Seattle United ECNL GU16,Mt View Champions Park,Field 2,On Time,277043
+2022-01-30,11:00 AM,Bracket,Boise Thorns FC ECNL GU16,0,3,Crossfire Premier ECNL GU16,Delta Park,Field 8,On Time,276291
+2022-01-30,11:00 AM,Bracket,FC Portland ECNL GU16,0,8,Northwest Elite FC ECNL GU16,Liberty High School,Clive Charles Field,On Time,276673
+2022-01-30,01:00 PM,Bracket,Washington Premier ECNL GU16,2,1,Eastside FC ECNL GU16,WPFC Field Complex,Field 3,On Time,277451
+2022-02-06,11:00 AM,Bracket,Northwest Elite FC ECNL GU16,1,0,Portland Thorns ECNL GU16,Mountain View Champions Park,Field 2,On Time,276459
+2022-02-06,03:00 PM,Bracket,Eastside FC ECNL GU16,1,0,PacNW SC ECNL GU16,PRESTON PARK ATHLETIC FIELDS,Field 2,On Time,276619
+2022-02-12,09:00 AM,Bracket,Seattle United ECNL GU16,6,0,Boise Thorns FC ECNL GU16,Shoreline A/B fields,Field A,On Time,277334
+2022-02-12,11:00 AM,Bracket,Washington Premier ECNL GU16,1,2,Northwest Elite FC ECNL GU16,WPFC Field Complex,Field 3,On Time,277450
+2022-02-12,02:30 PM,Bracket,PacNW SC ECNL GU16,0,0,Eastside FC ECNL GU16,Valley Ridge,Field 1,On Time,276935
+2022-02-12,03:00 PM,Bracket,Crossfire Premier ECNL GU16,3,2,Portland Thorns ECNL GU16,Marymoor Park,#3 (Turf),On Time,276397
+2022-02-13,11:00 AM,Bracket,Eastside FC ECNL GU16,1,3,Washington Premier ECNL GU16,PRESTON PARK ATHLETIC FIELDS,Field 2,On Time,276618
+2022-02-13,01:00 PM,Bracket,Seattle United ECNL GU16,0,4,Portland Thorns ECNL GU16,Shoreline A/B fields,Field A,On Time,277335
+2022-02-13,02:00 PM,Bracket,Crossfire Premier ECNL GU16,4,0,Boise Thorns FC ECNL GU16,Marymoor Park,#3 (Turf),On Time,276398
+2022-02-19,01:00 PM,Bracket,Washington Premier ECNL GU16,2,0,FC Portland ECNL GU16,WPFC Field Complex,Field 3,On Time,277452
+2022-02-19,03:00 PM,Bracket,PacNW SC ECNL GU16,0,2,Portland Thorns ECNL GU16,North SeaTac,Field 2,On Time,276936
+2022-02-20,01:00 PM,Bracket,Washington Premier ECNL GU16,0,0,Portland Thorns ECNL GU16,WPFC Field Complex,Field 3,On Time,277453
+2022-02-20,06:00 PM,Bracket,PacNW SC ECNL GU16,3,0,FC Portland ECNL GU16,North SeaTac,Field 2,On Time,276937
+2022-03-05,11:00 AM,Bracket,Portland Thorns ECNL GU16,3,1,Eastside FC ECNL GU16,53rd Street Fields,East,On Time,277044
+2022-03-05,11:00 AM,Bracket,Washington Premier ECNL GU16,2,0,PacNW SC ECNL GU16,WPFC Field Complex,Field 3,On Time,277454
+2022-03-05,01:00 PM,Bracket,Seattle United ECNL GU16,4,0,FC Portland ECNL GU16,Shoreline A/B fields,Field A,On Time,277336
+2022-03-05,02:00 PM,Bracket,Crossfire Premier ECNL GU16,2,0,Northwest Elite FC ECNL GU16,Marymoor Park,#1 (Turf),On Time,276399
+2022-03-06,01:00 PM,Bracket,Seattle United ECNL GU16,0,1,Northwest Elite FC ECNL GU16,Shoreline A/B fields,Field A,On Time,277337
+2022-03-06,02:00 PM,Bracket,Crossfire Premier ECNL GU16,3,0,FC Portland ECNL GU16,Marymoor Park,#3 (Turf),On Time,276400
+2022-03-12,08:45 AM,Bracket,Seattle United ECNL GU16,1,2,Crossfire Premier ECNL GU16,Eagle Staff Middle School,Field 1,On Time,277333
+2022-03-12,11:00 AM,Bracket,Boise Thorns FC ECNL GU16,1,1,Real Colorado Athletico ECNL GU16,Boise Timbers|Thorns - Soccer Complex,Field 2,On Time,276292
+2022-03-12,11:00 AM,Bracket,Portland Thorns ECNL GU16,2,2,Real Colorado National ECNL GU16,Boise Timbers/Thorns Complex,Field 4,On Time,277045
+2022-03-13,09:00 AM,Bracket,Seattle United ECNL GU16,1,1,PacNW SC ECNL GU16,Shoreline Public Schools Stadium,Stadium,On Time,277339
+2022-03-13,10:00 AM,Bracket,Boise Thorns FC ECNL GU16,0,2,Real Colorado National ECNL GU16,Boise Timbers|Thorns - Soccer Complex,Field 2,On Time,276293
+2022-03-13,03:00 PM,Bracket,Crossfire Premier ECNL GU16,3,3,Washington Premier ECNL GU16,Marymoor Park,#3 (Turf),On Time,276401
+2022-03-19,11:00 AM,Bracket,Crossfire Premier ECNL GU16,1,0,PacNW SC ECNL GU16,Marymoor Park,#4 (Turf),On Time,276402
+2022-03-19,11:00 AM,Bracket,Eastside FC ECNL GU16,5,1,Boise Thorns FC ECNL GU16,PRESTON PARK ATHLETIC FIELDS,Field 2,On Time,276620
+2022-03-19,01:00 PM,Bracket,Washington Premier ECNL GU16,2,2,Seattle United ECNL GU16,WPFC Field Complex,Field 3,On Time,277447
+2022-03-20,01:00 PM,Bracket,Crossfire Premier ECNL GU16,1,0,Eastside FC ECNL GU16,Marymoor Park,#2 (Turf),On Time,276403
+2022-03-20,01:00 PM,Bracket,Washington Premier ECNL GU16,5,0,Boise Thorns FC ECNL GU16,WPFC Field Complex,Field 3,On Time,277455
+2022-03-27,01:00 PM,Bracket,Seattle United ECNL GU16,1,2,Washington Premier ECNL GU16,Jane Addams ,East/West,On Time,277338
+2022-04-09,11:00 AM,Bracket,Boise Thorns FC ECNL GU16,3,2,FC Portland ECNL GU16,Mountain View Champions Park,Field 3,On Time,276294
+2022-04-09,11:00 AM,Bracket,Portland Thorns ECNL GU16,1,2,Northwest Elite FC ECNL GU16,53rd Street Fields,West,On Time,277046
+2022-04-09,01:00 PM,Bracket,Eastside FC ECNL GU16,2,0,Seattle United ECNL GU16,PRESTON PARK ATHLETIC FIELDS,Field 2,On Time,276621
+2022-04-10,11:00 AM,Bracket,Boise Thorns FC ECNL GU16,0,3,Northwest Elite FC ECNL GU16,Portland Community College Rock Creek,Field 2,On Time,276295
+2022-04-10,11:00 AM,Bracket,Eastside FC ECNL GU16,0,1,Crossfire Premier ECNL GU16,PRESTON PARK ATHLETIC FIELDS,Field 2,On Time,276622
+2022-04-10,11:00 AM,Bracket,Portland Thorns ECNL GU16,6,0,FC Portland ECNL GU16,Mt View Champions Park,Field 3,On Time,277047
+2022-04-23,12:00 PM,Bracket,Crossfire Premier ECNL GU16,0,5,MVLA ECNL GU16,Marymoor Park,#2 (Turf),On Time,276404
+2022-04-23,02:15 PM,Bracket,Seattle United ECNL GU16,2,1,DeAnza Force ECNL GU16,Ingraham High School,South,On Time,277340
+2022-04-24,09:00 AM,Bracket,Seattle United ECNL GU16,0,2,MVLA ECNL GU16,Einstein Middle School,Field 1,On Time,277341
+2022-04-24,11:00 AM,Bracket,Crossfire Premier ECNL GU16,4,0,DeAnza Force ECNL GU16,Marymoor Park,#3 (Turf),On Time,276405
+2022-04-30,11:00 AM,Bracket,Boise Thorns FC ECNL GU16,0,1,Washington Premier ECNL GU16,Mountain View Champions Park,Field 2,On Time,276296
+2022-04-30,01:00 PM,Bracket,Portland Thorns ECNL GU16,1,2,PacNW SC ECNL GU16,53rd Street Fields,East,On Time,277048
+2022-05-01,11:00 AM,Bracket,Boise Thorns FC ECNL GU16,0,3,PacNW SC ECNL GU16,Portland Community College Rock Creek,Field 2,On Time,276297
+2022-05-01,11:00 AM,Bracket,Eastside FC ECNL GU16,3,0,FC Portland ECNL GU16,PRESTON PARK ATHLETIC FIELDS,Field 2,On Time,276674
+2022-05-01,01:00 PM,Bracket,Portland Thorns ECNL GU16,1,1,Washington Premier ECNL GU16,Mt View Champions Park,Field 2,On Time,277049
+2022-05-04,07:30 PM,Bracket,PacNW SC ECNL GU16,0,2,Crossfire Premier ECNL GU16,Starfire Sports,Field 4,On Time,276938
+2022-05-07,11:00 AM,Bracket,Boise Thorns FC ECNL GU16,0,2,Davis Legacy ECNL GU16,Boise Timbers|Thorns - Soccer Complex,Field 4,On Time,276298
+2022-05-07,12:00 PM,Bracket,Eastside FC ECNL GU16,0,4,San Juan SC ECNL GU16,BTT Soccer Complex,Field 2,On Time,276623
+2022-05-07,01:00 PM,Bracket,Portland Thorns ECNL GU16,3,0,Santa Rosa United ECNL GU16,53rd Street Fields,West,On Time,277050
+2022-05-07,01:15 PM,Bracket,Northwest Elite FC ECNL GU16,1,0,Marin FC ECNL GU16,Mountain View Champions Park,Field 2,On Time,276461
+2022-05-07,03:00 PM,Bracket,PacNW SC ECNL GU16,1,2,Washington Premier ECNL GU16,Valley Ridge,Field 1,On Time,276939
+2022-05-07,05:00 PM,Bracket,Crossfire Premier ECNL GU16,2,3,Seattle United ECNL GU16,Marymoor Park,#4 (Turf),On Time,276406
+2022-05-08,11:00 AM,Bracket,Boise Thorns FC ECNL GU16,0,3,San Juan SC ECNL GU16,Boise Timbers|Thorns - Soccer Complex,Field 2,On Time,276299
+2022-05-08,11:00 AM,Bracket,Eastside FC ECNL GU16,1,5,Davis Legacy ECNL GU16,BTT Soccer Complex,Field 4,On Time,276624
+2022-05-08,11:00 AM,Bracket,Portland Thorns ECNL GU16,2,0,Marin FC ECNL GU16,Mt View Champions Park,Field 3,On Time,277051
+2022-05-08,11:00 AM,Bracket,Washington Premier ECNL GU16,1,1,Crossfire Premier ECNL GU16,WPFC Field Complex,Field 4,On Time,277456
+2022-05-08,01:15 PM,Bracket,Northwest Elite FC ECNL GU16,2,1,Santa Rosa United ECNL GU16,THPRD Rec Center,# 2,On Time,276462
+2022-05-14,11:00 AM,Bracket,Northwest Elite FC ECNL GU16,3,1,PacNW SC ECNL GU16,Mountain View Champions Park,Field 3,On Time,276463
+2022-05-14,11:00 AM,Bracket,Portland Thorns ECNL GU16,2,0,Boise Thorns FC ECNL GU16,Boise Timbers/Thorns Complex,Field 2,On Time,277052
+2022-05-14,11:00 AM,Bracket,Seattle United ECNL GU16,2,2,Eastside FC ECNL GU16,Ingraham High School,North,On Time,277342
+2022-05-14,01:00 PM,Bracket,FC Portland ECNL GU16,0,4,Washington Premier ECNL GU16,Liberty High School,Stadium Field,On Time,276675
+2022-05-15,09:00 AM,Bracket,FC Portland ECNL GU16,0,2,PacNW SC ECNL GU16,Liberty High School,Clive Charles Field,On Time,276676
+2022-05-15,11:00 AM,Bracket,Boise Thorns FC ECNL GU16,0,4,Portland Thorns ECNL GU16,Boise Timbers|Thorns - Soccer Complex,Field 2,On Time,276300
+2022-05-15,11:00 AM,Bracket,Northwest Elite FC ECNL GU16,2,4,Washington Premier ECNL GU16,Mountain View Champions Park,Field 3,On Time,276464
+2022-05-21,11:00 AM,Bracket,Northwest Elite FC ECNL GU16,5,0,Boise Thorns FC ECNL GU16,Mountain View Champions Park,Field 2,On Time,276465
+2022-05-21,11:00 AM,Bracket,FC Portland ECNL GU16,0,5,Eastside FC ECNL GU16,Liberty High School,Stadium Field,On Time,276677
+2022-05-22,11:00 AM,Bracket,Northwest Elite FC ECNL GU16,4,2,Eastside FC ECNL GU16,Mountain View Champions Park,Field 3,On Time,276466
+2022-05-22,11:00 AM,Bracket,FC Portland ECNL GU16,0,4,Boise Thorns FC ECNL GU16,Liberty High School,Stadium Field,On Time,276678
+2022-06-05,03:15 PM,Bracket,Northwest Elite FC ECNL GU16,3,0,FC Portland ECNL GU16,THPRD Rec Center,# 4,On Time,276460
