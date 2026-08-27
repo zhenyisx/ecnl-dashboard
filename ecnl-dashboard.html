@@ -540,6 +540,129 @@
       flex-shrink: 0;
     }
 
+    /* ===== VIEW TABS (Standings | Schedule) ===== */
+    .view-tabs {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 12px;
+    }
+
+    .view-tab {
+      font-family: inherit;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 6px 14px;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+      background: var(--bg-surface);
+      color: var(--text-secondary);
+      cursor: pointer;
+      transition: background var(--transition-fast), color var(--transition-fast),
+                  border-color var(--transition-fast);
+    }
+
+    .view-tab:hover { color: var(--text-primary); border-color: var(--teal); }
+
+    .view-tab.active {
+      background: var(--teal);
+      border-color: var(--teal);
+      color: #fff;
+    }
+
+    .source-badge {
+      margin-left: 8px;
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      padding: 4px 9px;
+      border-radius: 999px;
+      border: 1px solid transparent;
+      white-space: nowrap;
+    }
+
+    .source-badge.live {
+      background: var(--teal-surface);
+      color: var(--teal);
+      border-color: var(--teal);
+    }
+
+    .source-badge.archive {
+      background: var(--gold-glow);
+      color: var(--text-primary);
+      border-color: var(--gold);
+    }
+
+    /* ===== SCHEDULE TABLE ===== */
+    .schedule-date-row td {
+      background: var(--bg-surface-alt);
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-secondary);
+      padding: 8px 12px;
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 34px;
+    }
+
+    .schedule-table td { vertical-align: middle; }
+
+    .sched-team {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      min-width: 0;
+    }
+
+    /* Home side is mirrored so both teams read inward toward the score */
+    .sched-team.reversed { flex-direction: row-reverse; text-align: right; }
+
+    .sched-team .team-name {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .sched-team.winner .team-name { font-weight: 700; }
+
+    .sched-score {
+      text-align: center;
+      font-weight: 700;
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+      padding: 0 6px;
+    }
+
+    .sched-score.upcoming {
+      font-weight: 500;
+      font-size: 12px;
+      color: var(--text-secondary);
+    }
+
+    .sched-meta {
+      font-size: 11px;
+      color: var(--text-secondary);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 180px;
+    }
+
+    .sched-status {
+      display: inline-block;
+      font-size: 10px;
+      font-weight: 700;
+      padding: 2px 7px;
+      border-radius: 999px;
+      background: var(--gold-glow);
+      color: var(--text-primary);
+      border: 1px solid var(--gold);
+      margin-left: 6px;
+    }
+
     /* ===== STANDINGS TABLE ===== */
     .standings-scroll {
       flex: 1;
@@ -1273,13 +1396,8 @@
     <div class="header-right">
       <div class="season-selector">
         <label>Season:</label>
-        <select class="season-select" id="seasonSelect" onchange="changeSeason(this.value)">
-          <option value="2025-26">2025-26</option>
-          <option value="2024-25">2024-25</option>
-          <option value="2023-24">2023-24</option>
-          <option value="2022-23">2022-23</option>
-          <option value="2021-22">2021-22</option>
-        </select>
+        <!-- Options are built from data/sources.json at startup -->
+        <select class="season-select" id="seasonSelect" onchange="changeSeason(this.value)"></select>
       </div>
       <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" title="Toggle dark mode">🌙</button>
     </div>
@@ -1356,6 +1474,11 @@
           <div class="breadcrumb" id="breadcrumb"></div>
           <div class="content-title" id="contentTitle">Select a conference</div>
           <div class="content-subtitle" id="contentSubtitle">Choose an age group and conference from the sidebar</div>
+          <div class="view-tabs" id="viewTabs" style="display:none">
+            <button class="view-tab active" id="viewTabStandings" onclick="selectView('standings')">Standings</button>
+            <button class="view-tab" id="viewTabSchedule" onclick="selectView('schedule')">Schedule</button>
+            <span class="source-badge" id="sourceBadge" style="display:none"></span>
+          </div>
         </div>
         <div class="ext-links" id="extLinks"></div>
       </div>
@@ -1367,100 +1490,108 @@
 
   <script>
     // ========== DATA ==========
-    const SEASONS = {
-      "2025-26": {
-        conferences: {
-          "Mid-Atlantic": { eventId: 3925 },
-          "Midwest": { eventId: 3926 },
-          "New England": { eventId: 3927 },
-          "North Atlantic": { eventId: 3928 },
-          "NorCal": { eventId: 3929 },
-          "Northwest": { eventId: 3930 },
-          "Ohio Valley": { eventId: 3931 },
-          "Southeast": { eventId: 3932 },
-          "Southwest": { eventId: 3933 },
-          "Texas": { eventId: 3934 }
-        }
-      },
-      "2024-25": {
-        conferences: {
-          "Mid-Atlantic": { eventId: 3157 },
-          "Midwest": { eventId: 3158 },
-          "New England": { eventId: 3159 },
-          "North Atlantic": { eventId: 3160 },
-          "NorCal": { eventId: 3161 },
-          "Northwest": { eventId: 3162 },
-          "Ohio Valley": { eventId: 3163 },
-          "Southeast": { eventId: 3164 },
-          "Southwest": { eventId: 3165 },
-          "Texas": { eventId: 3166 }
-        }
-      },
-      "2023-24": {
-        conferences: {
-          "Mid-Atlantic": { eventId: 2839 },
-          "Midwest": { eventId: 2849 },
-          "New England": { eventId: 2853 },
-          "North Atlantic": { eventId: 2850 },
-          "NorCal": { eventId: 2854 },
-          "Northwest": { eventId: 2855 },
-          "Ohio Valley": { eventId: 2856 },
-          "Southeast": { eventId: 2838 },
-          "Southwest": { eventId: 2837 },
-          "Texas": { eventId: 2857 }
-        }
-      },
-      "2022-23": {
-        conferences: {
-          "Mid-Atlantic": { eventId: 2523 },
-          "Midwest": { eventId: 2529 },
-          "New England": { eventId: 2531 },
-          "North Atlantic": { eventId: 2530 },
-          "NorCal": { eventId: 2528 },
-          "Northwest": { eventId: 2522 },
-          "Ohio Valley": { eventId: 2524 },
-          "Southeast": { eventId: 2527 },
-          "Southwest": { eventId: 2525 },
-          "Texas": { eventId: 2526 }
-        }
-      },
-      "2021-22": {
-        conferences: {
-          "Mid-Atlantic": { eventId: 2366 },
-          "Midwest": { eventId: 2369 },
-          "New England": { eventId: 2374 },
-          "North Atlantic": { eventId: 2373 },
-          "Northwest": { eventId: 2367 },
-          "Ohio Valley": { eventId: 2371 },
-          "Southeast": { eventId: 2372 },
-          "Southwest": { eventId: 2368 },
-          "Texas": { eventId: 2370 }
+    // Seasons, conferences and event IDs all come from data/sources.json — the
+    // single source of truth shared with archive.py. Add a season there, not here.
+    let SOURCES = null;
+    let SEASONS = {};          // { season -> { conferences: { name -> {eventId} } } }
+    let NATIONAL_EVENTS = {};  // { season -> { "Playoffs"|"Finals" -> {eventId} } }
+
+    async function loadSources() {
+      const resp = await fetch('data/sources.json', { cache: 'no-cache' });
+      if (!resp.ok) throw new Error(`Cannot load data/sources.json (HTTP ${resp.status})`);
+      SOURCES = await resp.json();
+
+      SEASONS = SOURCES.seasons;
+      NATIONAL_EVENTS = {};
+      for (const [season, data] of Object.entries(SEASONS)) {
+        if (data.national && Object.keys(data.national).length) {
+          NATIONAL_EVENTS[season] = data.national;
         }
       }
-    };
 
-    // National playoff/finals events per season
-    const NATIONAL_EVENTS = {
-      "2024-25": {
-        "Playoffs": { eventId: 3865 },
-        "Finals":   { eventId: 3975 }
-      }
-    };
+      // Season dropdown is built from the registry, so new seasons appear automatically
+      const sel = document.getElementById('seasonSelect');
+      sel.innerHTML = Object.keys(SEASONS)
+        .map(s => `<option value="${s}">${s}</option>`).join('');
+      // The registry's first season is the default; a saved preference or a
+      // URL hash overrides it immediately after this runs.
+      currentSeason = Object.keys(SEASONS)[0];
+    }
 
-    // Age label map — maps division names (birth years) to friendly labels
-    function getAgeLabel(divName) {
+    function publicUrl(kind, eventId, flightId) {
+      const tpl = (SOURCES && SOURCES.publicUrlTemplates && SOURCES.publicUrlTemplates[kind]) || '';
+      return tpl.replace('{eventId}', eventId).replace('{flightId}', flightId);
+    }
+
+    // Age label map — maps division names (birth years) to friendly labels.
+    // Ages are relative to the season being viewed, not to today, so historical
+    // seasons stay correctly labelled (2021-22 G2013 is U9, not U13).
+    function getAgeLabel(divName, season) {
+      // Seasons up to 2021-22 name divisions by age already ("GU13", "GU18/U19");
+      // 2022-23 onward use birth years ("G2010", "G2008/2007").
+      if (/^GU\d/.test(divName)) return divName.slice(1);
+
       const m = divName.match(/G(\d{4})/);
       if (!m) return divName;
-      const birthYear = parseInt(m[1]);
-      const currentYear = new Date().getFullYear();
-      const age = currentYear - birthYear;
+      const s = SEASONS[season || currentSeason];
+      const startYear = (s && s.startYear)
+        || parseInt((season || currentSeason).slice(0, 4))
+        || new Date().getFullYear();
+      const ageOf = birthYear => 'U' + (startYear + 1 - birthYear);
       // Handle combined groups like "G2008/2007"
       if (divName.includes('/')) {
-        const parts = divName.replace('G', '').split('/');
-        const ages = parts.map(p => 'U' + (currentYear - parseInt(p)));
-        return ages.join('/');
+        return divName.replace('G', '').split('/')
+          .map(p => ageOf(parseInt(p))).join('/');
       }
-      return `U${age}`;
+      return ageOf(parseInt(m[1]));
+    }
+
+    // Normalized age for a division, used to order age-group tabs oldest-first
+    // regardless of which naming scheme a season uses.
+    function getDivisionAge(divName, season) {
+      const mu = divName.match(/^GU(\d{1,2})/);
+      if (mu) return parseInt(mu[1]);
+      const mb = divName.match(/G(\d{4})/);
+      if (!mb) return -1;
+      const s = SEASONS[season || currentSeason];
+      const startYear = (s && s.startYear)
+        || parseInt((season || currentSeason).slice(0, 4))
+        || new Date().getFullYear();
+      return startYear + 1 - parseInt(mb[1]);
+    }
+
+    // The birth-year band recorded for a division in data/sources.json, derived
+    // by archive.py. Divisions are named by birth year in some seasons and by age
+    // in others, so the band is the one anchor that means the same thing in all
+    // of them. From 2026-27 a band spans two calendar years (school-year cohorts).
+    function getAgeGroupInfo(divName, season) {
+      const s = SEASONS[season || currentSeason];
+      return (s && s.ageGroups && s.ageGroups[divName]) || null;
+    }
+
+    // Earliest birth year in the group — sorts age groups oldest-first uniformly.
+    function getAgeGroupAnchor(divName, season) {
+      const info = getAgeGroupInfo(divName, season);
+      if (info && info.birthYears && info.birthYears.length) return info.birthYears[0];
+      // Season whose anchor has not been derived yet: fall back to the U-number
+      const age = getDivisionAge(divName, season);
+      if (age < 0) return 9999;
+      const s = SEASONS[season || currentSeason];
+      const startYear = (s && s.startYear)
+        || parseInt((season || currentSeason).slice(0, 4))
+        || new Date().getFullYear();
+      return startYear + 1 - age;
+    }
+
+    function getBirthYearText(divName, season) {
+      const info = getAgeGroupInfo(divName, season);
+      if (!info || !info.birthYears || !info.birthYears.length) return '';
+      return info.birthYears.join('/');
+    }
+
+    function sortAgeGroups(names, season) {
+      return [...names].sort((a, b) =>
+        getAgeGroupAnchor(a, season) - getAgeGroupAnchor(b, season));  // oldest first
     }
 
     // Dynamic age groups — populated from API
@@ -1474,7 +1605,8 @@
 
     // ========== STATE ==========
     let currentTab = 'conferences';   // 'conferences' | 'favorites' | 'playoffs'
-    let currentSeason = "2025-26";
+    let currentView = 'standings';    // 'standings' | 'schedule'
+    let currentSeason = null;         // set from sources.json, then saved state / URL hash
     let currentAgeGroup = null;  // set dynamically after API fetch
     let currentConference = "Mid-Atlantic";
     let eventHierarchy = {};     // cached: { eventId -> { divisions, flights } }
@@ -1488,98 +1620,92 @@
     let currentPlayoffAgeGroup = null;
     let playoffAgeGroupsCache = {};  // { "2024-25-Playoffs": [...], ... }
 
-    // ========== API CACHE / FETCH ==========
-    const CACHE_PREFIX = 'ecnl-cache-';
+    // ========== API FETCH ==========
+    // Responses are persisted to disk by proxy_server.py (archive/api/…) and
+    // served back from there when the live API is unreachable, so the page keeps
+    // no API cache of its own — localStorage is for preferences only.
+    const OLD_CACHE_PREFIX = 'ecnl-cache-';
 
-    async function fetchJSONWithCache(path) {
-      const cacheKey = CACHE_PREFIX + path;
+    // One-time cleanup of the pre-archive localStorage cache, which was unbounded
+    // and would silently blow the ~5MB quota once schedules were added.
+    function purgeLegacyCache() {
       try {
-        const cached = localStorage.getItem(cacheKey);
-        if (cached) return JSON.parse(cached);
+        const stale = [];
+        for (let i = 0; i < localStorage.length; i++) {
+          const k = localStorage.key(i);
+          if (k && (k.startsWith(OLD_CACHE_PREFIX) || k.startsWith('lastRefreshed-'))) stale.push(k);
+        }
+        stale.forEach(k => localStorage.removeItem(k));
       } catch (e) { }
-
-      const resp = await fetch('/api/' + path);
-      if (!resp.ok) throw new Error(`API error ${resp.status}`);
-      const data = await resp.json();
-
-      try { localStorage.setItem(cacheKey, JSON.stringify(data)); } catch (e) { }
-      return data;
     }
 
-    async function getEventHierarchy(eventId) {
-      if (eventHierarchy[eventId]) return eventHierarchy[eventId];
-      const data = await fetchJSONWithCache(`Event/get-event-schedule-or-standings/${eventId}`);
+    // Where the most recent response came from: 'live' | 'archive' | null
+    let lastDataSource = null;
+    let lastArchivedAt = null;
+
+    async function fetchJSON(path, { refresh = false } = {}) {
+      const url = '/api/' + path + (refresh ? '?refresh=1' : '');
+      const resp = await fetch(url, refresh ? { cache: 'reload' } : undefined);
+      if (!resp.ok) {
+        let detail = '';
+        try { detail = (await resp.json()).error || ''; } catch (e) { }
+        throw new Error(`API error ${resp.status}${detail ? ': ' + detail : ''}`);
+      }
+      const src = resp.headers.get('X-ECNL-Source');
+      if (src) {
+        lastDataSource = src;
+        lastArchivedAt = resp.headers.get('X-ECNL-Archived-At');
+      }
+      return resp.json();
+    }
+
+    async function getEventHierarchy(eventId, opts) {
+      if (eventHierarchy[eventId] && !(opts && opts.refresh)) return eventHierarchy[eventId];
+      const data = await fetchJSON(`Event/get-event-schedule-or-standings/${eventId}`, opts);
       eventHierarchy[eventId] = data.data || data;
       return eventHierarchy[eventId];
     }
 
-    async function getStandings(divId, flightId, eventId) {
-      const data = await fetchJSONWithCache(`Event/get-standings-by-div-and-flight/${divId}/${flightId}/${eventId}`);
+    async function getStandings(divId, flightId, eventId, opts) {
+      const data = await fetchJSON(`Event/get-standings-by-div-and-flight/${divId}/${flightId}/${eventId}`, opts);
       return (data.data && data.data[0]) ? data.data[0] : data.data || data;
     }
 
+    // Third path segment is a club filter; 0 means "all clubs in this flight".
+    async function getSchedule(eventId, flightId, opts) {
+      const data = await fetchJSON(`Event/get-schedules-by-flight/${eventId}/${flightId}/0`, opts);
+      return data.data || [];
+    }
+
+    // Re-fetch the current view from the live API, bypassing the proxy's archive
+    // read path and rewriting the archived copy.
     async function forceRefreshCurrentView() {
       if (!currentAgeGroup || !currentConference) return;
-
-      const conf = getSeasonData().conferences[currentConference];
-      if (!conf) return;
 
       const btn = document.getElementById('refreshBtn');
       if (btn) btn.innerHTML = `<span class="spinner" style="width:14px;height:14px;border-width:2px;display:inline-block;animation:spin 0.8s linear infinite;margin-right:6px"></span> Refreshing...`;
 
-      try {
-        const hierarchy = await getEventHierarchy(conf.eventId);
-        const divList = hierarchy.girlsDivAndFlightList || [];
-        const division = divList.find(d => d.divisionName === currentAgeGroup);
-        if (!division) return;
-
-        const flights = division.flightList || [];
-        const flightsIdsToClear = flights.map(f => f.flightID.toString());
-        const divisionIdString = division.divisionID.toString();
-        const eventIdString = conf.eventId.toString();
-
-        const keysToRemove = [];
-        for (let i = 0; i < localStorage.length; i++) {
-          const key = localStorage.key(i);
-          if (key && key.startsWith(CACHE_PREFIX)) {
-            // Only clear endpoints that match this age group and event
-            if (key.includes(eventIdString) && key.includes(divisionIdString)) {
-              if (flightsIdsToClear.some(fid => key.includes(fid))) {
-                 keysToRemove.push(key);
-              }
-            }
-          }
-        }
-        keysToRemove.forEach(k => localStorage.removeItem(k));
-
-        // Set localized last refreshed time
-        const now = new Date().toLocaleString(undefined, {
-          month: 'short', day: 'numeric', year: 'numeric',
-          hour: 'numeric', minute: '2-digit'
-        });
-        localStorage.setItem(`lastRefreshed-${eventIdString}-${divisionIdString}`, now);
-      } catch (e) { }
-
-      // Re-fetch this exact view
-      await loadStandings();
+      delete eventHierarchy[(getSeasonData().conferences[currentConference] || {}).eventId];
+      await loadCurrentView({ refresh: true });
     }
 
     // ========== HELPERS ==========
     function getSeasonData() { return SEASONS[currentSeason]; }
 
     function getStandingsUrl(eventId, flightId) {
-      return `https://public.totalglobalsports.com/public/event/${eventId}/standings/${flightId}`;
+      return publicUrl('standings', eventId, flightId);
     }
 
     function getSchedulesUrl(eventId, flightId) {
-      return `https://public.totalglobalsports.com/public/event/${eventId}/schedules/${flightId}`;
+      return publicUrl('schedules', eventId, flightId);
     }
 
     // ========== STORAGE ==========
     function saveState() {
       try {
         localStorage.setItem(STORAGE_KEY, JSON.stringify({
-          season: currentSeason, ageGroup: currentAgeGroup, conference: currentConference
+          season: currentSeason, ageGroup: currentAgeGroup,
+          conference: currentConference, view: currentView
         }));
       } catch (e) { }
     }
@@ -1591,6 +1717,7 @@
           if (SEASONS[s.season]) currentSeason = s.season;
           if (s.ageGroup) currentAgeGroup = s.ageGroup; // validated after API fetch
           if (SEASONS[currentSeason].conferences[s.conference]) currentConference = s.conference;
+          if (s.view === 'schedule' || s.view === 'standings') currentView = s.view;
         }
       } catch (e) { }
     }
@@ -1608,7 +1735,8 @@
 
     // ========== URL HASH ==========
     function pushHash() {
-      const h = `#season=${encodeURIComponent(currentSeason)}&age=${encodeURIComponent(currentAgeGroup)}&conf=${encodeURIComponent(currentConference)}`;
+      const h = `#season=${encodeURIComponent(currentSeason)}&age=${encodeURIComponent(currentAgeGroup)}&conf=${encodeURIComponent(currentConference)}` +
+        (currentView !== 'standings' ? `&view=${encodeURIComponent(currentView)}` : '');
       if (window.location.hash !== h) history.replaceState(null, '', h);
     }
 
@@ -1620,6 +1748,7 @@
       if (p.get('season') && SEASONS[p.get('season')]) { currentSeason = p.get('season'); changed = true; }
       if (p.get('age')) { currentAgeGroup = p.get('age'); changed = true; } // validated after API fetch
       if (p.get('conf') && SEASONS[currentSeason].conferences[p.get('conf')]) { currentConference = p.get('conf'); changed = true; }
+      if (p.get('view') === 'schedule' || p.get('view') === 'standings') { currentView = p.get('view'); changed = true; }
       return changed;
     }
 
@@ -1769,7 +1898,7 @@
                 <td>${rankHtml}</td>
                 <td><button class="star-btn ${isFav ? 'starred' : ''}" data-team="${team.name.replace(/"/g,'&quot;')}" onclick="event.stopPropagation();toggleFavorite(this.dataset.team)" title="Favorite">${isFav ? '★' : '☆'}</button></td>
                 <td><div class="team-cell">
-                  ${team.teamLogoURL ? `<img class="team-logo" src="${team.teamLogoURL}" alt="" loading="lazy" onerror="this.style.display='none'">` : ''}
+                  ${team.clublogo ? `<img class="team-logo" src="${team.clublogo}" alt="" loading="lazy" onerror="this.style.display='none'">` : ''}
                   <span class="team-name">${team.name}</span>
                 </div></td>
                 <td><span class="search-conf-badge">${confName}</span></td>
@@ -1843,6 +1972,9 @@
       document.getElementById('tabPlayoffs').classList.toggle('active', isPO);
       if (isFav) buildFavoritesList();
       if (isPO)  loadPlayoffsPanel();
+      // Returning to Conferences must repaint the main pane, which the
+      // Playoffs panel writes into as well.
+      if (isConf && currentAgeGroup) loadCurrentView();
     }
 
     // ========== PLAYOFFS & FINALS ==========
@@ -1859,18 +1991,33 @@
     function filterTeams(q) {
       const query = q.trim().toLowerCase();
       let visible = 0, total = 0;
+      // Schedule rows carry two team names (home and away); match either.
       document.querySelectorAll('#standingsContainer tbody tr').forEach(row => {
-        const nameEl = row.querySelector('.team-name');
-        if (!nameEl) return;
+        if (row.classList.contains('schedule-date-row')) return;
+        const nameEls = row.querySelectorAll('.team-name');
+        if (!nameEls.length) return;
         total++;
-        const match = !query || nameEl.textContent.toLowerCase().includes(query);
+        const match = !query ||
+          [...nameEls].some(el => el.textContent.toLowerCase().includes(query));
         row.style.display = match ? '' : 'none';
         if (match) visible++;
       });
+
+      // Hide a date heading when every game under it is filtered out.
+      document.querySelectorAll('#standingsContainer tr.schedule-date-row').forEach(dateRow => {
+        let anyVisible = false;
+        for (let r = dateRow.nextElementSibling; r; r = r.nextElementSibling) {
+          if (r.classList.contains('schedule-date-row')) break;
+          if (r.style.display !== 'none') { anyVisible = true; break; }
+        }
+        dateRow.style.display = anyVisible ? '' : 'none';
+      });
+
       const countEl = document.getElementById('teamFilterCount');
       if (countEl) {
+        const noun = currentView === 'schedule' ? 'game' : 'team';
         countEl.textContent = query
-          ? `${visible} of ${total} team${total !== 1 ? 's' : ''} shown`
+          ? `${visible} of ${total} ${noun}${total !== 1 ? 's' : ''} shown`
           : '';
       }
     }
@@ -1945,13 +2092,7 @@
       try {
         const hierarchy = await getEventHierarchy(evt.eventId);
         const divList = hierarchy.girlsDivAndFlightList || [];
-        const groups = divList.map(d => d.divisionName)
-          .sort((a, b) => {
-            const ya = parseInt((a.match(/G(\d{4})/) || [0, 9999])[1]);
-            const yb = parseInt((b.match(/G(\d{4})/) || [0, 9999])[1]);
-            return ya - yb;
-          });
-        playoffAgeGroupsCache[key] = groups;
+        playoffAgeGroupsCache[key] = sortAgeGroups(divList.map(d => d.divisionName));
       } catch (e) {
         playoffAgeGroupsCache[key] = [];
       }
@@ -2174,13 +2315,8 @@
       const conf = Object.values(getSeasonData().conferences)[0];
       const hierarchy = await getEventHierarchy(conf.eventId);
       const divList = hierarchy.girlsDivAndFlightList || [];
-      // Sort by birth year descending (oldest first = U17/U18 before U12)
-      const groups = divList.map(d => d.divisionName)
-        .sort((a, b) => {
-          const ya = parseInt((a.match(/G(\d{4})/) || [0, 9999])[1]);
-          const yb = parseInt((b.match(/G(\d{4})/) || [0, 9999])[1]);
-          return ya - yb; // smaller birth year = older age group = first
-        });
+      // Oldest age group first (U18/U19 before U13), whichever naming the season uses
+      const groups = sortAgeGroups(divList.map(d => d.divisionName));
       AGE_GROUPS = groups;
       AGE_LABELS = {};
       groups.forEach(ag => { AGE_LABELS[ag] = getAgeLabel(ag); });
@@ -2192,7 +2328,9 @@
       const c = document.getElementById('ageGroupTabs');
       c.innerHTML = AGE_GROUPS.map(ag => {
         const l = AGE_LABELS[ag] || ag;
-        return `<div class="age-tab ${ag === currentAgeGroup ? 'active' : ''}" onclick="selectAgeGroup('${ag}')"><span>${l}</span><br><span style="font-size:10px;font-weight:400;opacity:.7">${ag}</span></div>`;
+        const by = getBirthYearText(ag);
+        const tip = by ? ` title="${l} · birth years ${by}"` : '';
+        return `<div class="age-tab ${ag === currentAgeGroup ? 'active' : ''}"${tip} onclick="selectAgeGroup('${ag}')"><span>${l}</span><br><span style="font-size:10px;font-weight:400;opacity:.7">${ag}</span></div>`;
       }).join('');
     }
 
@@ -2296,7 +2434,7 @@
         <td>${rankHtml}</td>
         <td><button class="star-btn ${isFav ? 'starred' : ''}" data-team="${team.name.replace(/"/g, '&quot;')}" onclick="toggleFavorite(this.dataset.team)" title="Add to favorites">${isFav ? '★' : '☆'}</button></td>
         <td><div class="team-cell">
-          ${team.teamLogoURL ? `<img class="team-logo" src="${team.teamLogoURL}" alt="" loading="lazy" onerror="this.style.display='none'">` : ''}
+          ${team.clublogo ? `<img class="team-logo" src="${team.clublogo}" alt="" loading="lazy" onerror="this.style.display='none'">` : ''}
           <span class="team-name">${team.name}</span>
         </div></td>
         <td style="text-align:center">${team.gp || 0}</td>
@@ -2354,7 +2492,7 @@
             <td>${rankHtml}</td>
             <td><button class="star-btn ${isFav ? 'starred' : ''}" data-team="${team.name.replace(/"/g, '&quot;')}" onclick="toggleFavorite(this.dataset.team)" title="Add to favorites">${isFav ? '★' : '☆'}</button></td>
             <td><div class="team-cell">
-              ${team.teamLogoURL ? `<img class="team-logo" src="${team.teamLogoURL}" alt="" loading="lazy" onerror="this.style.display='none'">` : ''}
+              ${team.clublogo ? `<img class="team-logo" src="${team.clublogo}" alt="" loading="lazy" onerror="this.style.display='none'">` : ''}
               <span class="team-name">${team.name}</span>
             </div></td>
             <td style="text-align:center">${team.gp || 0}</td>
@@ -2374,24 +2512,159 @@
       return panel;
     }
 
+    // ========== SCHEDULE RENDERING ==========
+    function esc(s) {
+      return String(s == null ? '' : s)
+        .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    function formatGameDate(iso) {
+      if (!iso) return 'Date TBD';
+      // Dates arrive as local wall-clock strings ("2025-09-06T12:00:00"); parsing
+      // the date part alone avoids a timezone shift moving games across days.
+      const [y, m, d] = iso.slice(0, 10).split('-').map(Number);
+      if (!y) return 'Date TBD';
+      return new Date(y, m - 1, d).toLocaleDateString(undefined, {
+        weekday: 'short', month: 'short', day: 'numeric', year: 'numeric'
+      });
+    }
+
+    function renderScheduleTable(games, flightName, flightId, eventId) {
+      const panel = document.createElement('div');
+      panel.className = 'flight-panel';
+
+      const played = games.filter(g => g.hometeamscore != null && g.awayteamscore != null).length;
+      panel.innerHTML = `
+    <div class="flight-header">
+      <div class="flight-title"><span class="flight-dot"></span>${esc(flightName)} Flight</div>
+      <span class="flight-team-count">${games.length} game${games.length !== 1 ? 's' : ''} · ${played} played</span>
+    </div>
+    <table class="standings-table schedule-table">
+      <thead><tr>
+        <th style="width:74px">Time</th>
+        <th style="text-align:right">Home</th>
+        <th style="width:64px;text-align:center">Score</th>
+        <th>Away</th>
+        <th style="width:180px">Venue</th>
+      </tr></thead>
+      <tbody></tbody>
+    </table>`;
+
+      const tbody = panel.querySelector('tbody');
+
+      if (!games.length) {
+        tbody.innerHTML = `<tr><td colspan="5" style="padding:24px;text-align:center;color:var(--text-secondary)">
+          No games scheduled for this flight yet.</td></tr>`;
+        return panel;
+      }
+
+      const sorted = [...games].sort((a, b) =>
+        (a.gameDate || '').localeCompare(b.gameDate || '') ||
+        (a.gameTime || '').localeCompare(b.gameTime || ''));
+
+      let lastDate = null;
+      let html = '';
+      sorted.forEach(g => {
+        const dateKey = (g.gameDate || '').slice(0, 10);
+        if (dateKey !== lastDate) {
+          lastDate = dateKey;
+          html += `<tr class="schedule-date-row"><td colspan="5">${esc(formatGameDate(g.gameDate))}</td></tr>`;
+        }
+
+        const hs = g.hometeamscore, as = g.awayteamscore;
+        const isPlayed = hs != null && as != null;
+        let score;
+        if (isPlayed) {
+          const pk = (g.hometeamPKscore != null && g.awayteamPKscore != null)
+            ? ` <span style="font-weight:500;font-size:11px">(${g.hometeamPKscore}-${g.awayteamPKscore} PK)</span>` : '';
+          score = `<span class="sched-score">${hs}&ndash;${as}${pk}</span>`;
+        } else {
+          // Kickoff time already has its own column, so don't repeat it here
+          score = `<span class="sched-score upcoming">vs</span>`;
+        }
+
+        const homeWin = isPlayed && hs > as;
+        const awayWin = isPlayed && as > hs;
+        const logo = (url) => url
+          ? `<img class="team-logo" src="${esc(url)}" alt="" loading="lazy" onerror="this.style.display='none'">` : '';
+
+        const status = (g.status && g.status !== 'On Time')
+          ? `<span class="sched-status">${esc(g.status)}</span>` : '';
+
+        const venue = [g.complex, g.venue].filter(Boolean).join(' · ');
+
+        html += `
+      <tr>
+        <td class="sched-meta">${esc(g.gameTimeText || 'TBD')}</td>
+        <td><div class="sched-team reversed ${homeWin ? 'winner' : ''}">
+          ${logo(g.homeClubLogo)}<span class="team-name" title="${esc(g.homeTeam)}">${esc(g.homeTeam)}</span>
+        </div></td>
+        <td style="text-align:center">${score}</td>
+        <td><div class="sched-team ${awayWin ? 'winner' : ''}">
+          ${logo(g.awayClubLogo)}<span class="team-name" title="${esc(g.awayTeam)}">${esc(g.awayTeam)}</span>
+        </div></td>
+        <td class="sched-meta" title="${esc(venue)}">${esc(venue)}${status}</td>
+      </tr>`;
+      });
+
+      tbody.innerHTML = html;
+      return panel;
+    }
+
     // ========== MAIN LOADER ==========
-    async function loadStandings() {
+    // Shows the data's provenance: live from the API, or replayed from archive/.
+    function updateSourceBadge() {
+      const el = document.getElementById('sourceBadge');
+      if (!el) return;
+      if (!lastDataSource) { el.style.display = 'none'; return; }
+      const archived = lastDataSource === 'archive';
+      el.style.display = '';
+      el.className = 'source-badge ' + (archived ? 'archive' : 'live');
+      el.textContent = archived ? 'Archived' : 'Live';
+      el.title = archived
+        ? `Served from the local archive${lastArchivedAt ? ', saved ' + new Date(lastArchivedAt).toLocaleString() : ''} because the live API was unavailable.`
+        : 'Fetched live from the API and saved to the local archive.';
+    }
+
+    function updateViewTabsUI() {
+      const tabs = document.getElementById('viewTabs');
+      if (tabs) tabs.style.display = '';
+      const s = document.getElementById('viewTabStandings');
+      const c = document.getElementById('viewTabSchedule');
+      if (s) s.classList.toggle('active', currentView === 'standings');
+      if (c) c.classList.toggle('active', currentView === 'schedule');
+    }
+
+    function selectView(view) {
+      if (view === currentView) return;
+      currentView = view;
+      updateViewTabsUI();
+      loadCurrentView();
+    }
+
+    // Backwards-compatible entry point used by the selectors and rebuildAll.
+    function loadStandings() { return loadCurrentView(); }
+
+    async function loadCurrentView(opts = {}) {
       const conf = getSeasonData().conferences[currentConference];
       if (!conf) return;
 
       buildBreadcrumb();
+      updateViewTabsUI();
       const ageLabel = AGE_LABELS[currentAgeGroup] || currentAgeGroup;
       document.getElementById('contentTitle').textContent = `${currentConference} — ${ageLabel} (${currentAgeGroup})`;
       document.getElementById('contentSubtitle').textContent = `${currentSeason} Season`;
 
       clearTeamFilter();
 
+      const isSchedule = currentView === 'schedule';
       const container = document.getElementById('standingsContainer');
-      container.innerHTML = `<div class="loading-container"><div class="spinner"></div><div class="loading-text">Loading standings…</div></div>`;
+      container.innerHTML = `<div class="loading-container"><div class="spinner"></div><div class="loading-text">Loading ${isSchedule ? 'schedule' : 'standings'}…</div></div>`;
 
       try {
         // Fetch event hierarchy to find divisions + flights for this age group
-        const hierarchy = await getEventHierarchy(conf.eventId);
+        const hierarchy = await getEventHierarchy(conf.eventId, opts);
         const divList = hierarchy.girlsDivAndFlightList || [];
 
         // Find matching division for current age group
@@ -2405,18 +2678,10 @@
         document.getElementById('contentSubtitle').textContent =
           `${currentSeason} Season` + (flights.length > 1 ? ` · ${flights.length} flights` : '');
 
-        // Build external links and Refresh button
+        // Refresh button + the original public website links, kept as the
+        // canonical upstream source for whatever is shown here.
         const extLinks = document.getElementById('extLinks');
-        let refreshHtml = '';
-        try {
-          const lastRefreshed = localStorage.getItem(`lastRefreshed-${conf.eventId}-${division.divisionID}`);
-          const btnText = lastRefreshed ? `↻ Last refresh: ${lastRefreshed}` : `↻ Refresh Data`;
-          refreshHtml = `<button id="refreshBtn" class="refresh-btn" onclick="forceRefreshCurrentView()" title="Refresh data for this age group">
-            ${btnText}
-          </button>`;
-        } catch (e) {
-          refreshHtml = `<button id="refreshBtn" class="refresh-btn" onclick="forceRefreshCurrentView()" title="Refresh data for this age group">↻ Refresh Data</button>`;
-        }
+        const refreshHtml = `<button id="refreshBtn" class="refresh-btn" onclick="forceRefreshCurrentView()" title="Re-fetch this age group from the live API">↻ Refresh Data</button>`;
 
         extLinks.innerHTML = refreshHtml + flights.map(f => {
           const schedUrl = getSchedulesUrl(conf.eventId, f.flightID);
@@ -2426,26 +2691,35 @@
                  `<a class="open-external" href="${standUrl}" target="_blank">${EXTERNAL_ICON} ${prefix}Standings</a>`;
         }).join('');
 
-        // Fetch standings for each flight in parallel
-        const standingsPromises = flights.map(f =>
-          getStandings(division.divisionID, f.flightID, conf.eventId)
-            .then(data => ({ flight: f, data }))
-        );
-
-        const allStandings = await Promise.all(standingsPromises);
+        // Fetch every flight in parallel, then render in the flight order the API gave us
+        const results = await Promise.all(flights.map(f =>
+          (isSchedule
+            ? getSchedule(conf.eventId, f.flightID, opts)
+            : getStandings(division.divisionID, f.flightID, conf.eventId, opts)
+          ).then(data => ({ flight: f, data }))
+        ));
 
         container.innerHTML = '';
-        allStandings.forEach(({ flight, data }) => {
-          const teams = data.teamStandings || [];
-          teams.forEach((t, i) => { t._origRank = i + 1; });
-          const panel = renderStandingsTable(data, flight.flightName, flight.flightID, conf.eventId);
+        results.forEach(({ flight, data }) => {
+          let panel;
+          if (isSchedule) {
+            panel = renderScheduleTable(data || [], flight.flightName, flight.flightID, conf.eventId);
+          } else {
+            const teams = data.teamStandings || [];
+            teams.forEach((t, i) => { t._origRank = i + 1; });
+            panel = renderStandingsTable(data, flight.flightName, flight.flightID, conf.eventId);
+          }
           container.appendChild(panel);
         });
 
+        updateSourceBadge();
+
       } catch (err) {
         container.innerHTML = `<div class="error-message">
-      <strong>Error loading standings:</strong> ${err.message}<br>
-      <small>Make sure the proxy server is running (python proxy_server.py)</small>
+      <strong>Error loading ${isSchedule ? 'schedule' : 'standings'}:</strong> ${esc(err.message)}<br>
+      <small>Make sure the proxy server is running (python proxy_server.py).
+      If the live API is down, run <code>python archive.py</code> once while it is up,
+      then start the server with <code>--offline</code>.</small>
     </div>`;
       }
 
@@ -2521,6 +2795,19 @@
     (async () => {
       loadTheme();
       loadFavorites();
+      purgeLegacyCache();
+
+      try {
+        await loadSources();
+      } catch (err) {
+        document.getElementById('standingsContainer').innerHTML = `<div class="error-message">
+          <strong>Could not load the source registry:</strong> ${esc(err.message)}<br>
+          <small>data/sources.json must be served alongside this page —
+          start the app with <code>python proxy_server.py</code> rather than opening the file directly.</small>
+        </div>`;
+        return;
+      }
+
       if (!loadFromHash()) loadSavedState();
       document.getElementById('seasonSelect').value = currentSeason;
       await rebuildAll();

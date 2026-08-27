@@ -3,3 +3,7 @@ __pycache__/
 *.pyo
 .DS_Store
 Thumbs.db
+
+# archive/ and export/ are deliberately committed — they are the durable local
+# copy of the standings and schedule data, and git gives them dated history.
+*.tmp

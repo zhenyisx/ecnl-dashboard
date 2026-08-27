@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ECNL Girls Conference Standings</title>
+<style>
+  :root {
+    --ecnl-dark: #1a2332;
+    --ecnl-dark-accent: #243044;
+    --ecnl-teal: #2a9d8f;
+    --ecnl-teal-glow: rgba(42, 157, 143, 0.15);
+    --ecnl-gold: #e9c46a;
+    --ecnl-light: #f0f4f8;
+    --ecnl-white: #ffffff;
+    --ecnl-gray: #6b7280;
+    --ecnl-border: #d1d5db;
+    --sidebar-width: 260px;
+    --header-height: 60px;
+    --transition-fast: 0.18s ease;
+    --transition-med: 0.3s ease;
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
+    --shadow-md: 0 4px 12px rgba(0,0,0,0.1);
+    --shadow-lg: 0 8px 24px rgba(0,0,0,0.15);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background: var(--ecnl-light);
+    color: var(--ecnl-dark);
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  /* --- Top Header Bar --- */
+  .header {
+    background: linear-gradient(135deg, var(--ecnl-dark) 0%, var(--ecnl-dark-accent) 50%, #1e2d40 100%);
+    color: var(--ecnl-white);
+    padding: 0 24px;
+    height: var(--header-height);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.3);
+  }
+
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  /* Hamburger button — hidden on desktop */
+  .hamburger {
+    display: none;
+    background: none;
+    border: none;
+    color: var(--ecnl-white);
+    font-size: 22px;
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 6px;
+    transition: background var(--transition-fast);
+    line-height: 1;
+  }
+  .hamburger:hover { background: rgba(255,255,255,0.1); }
+
+  .header-logo {
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: var(--ecnl-gold);
+    text-shadow: 0 1px 4px rgba(233, 196, 106, 0.3);
+  }
+
+  .header-divider {
+    width: 1px;
+    height: 28px;
+    background: rgba(255,255,255,0.15);
+  }
+
+  .header-title {
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.85;
+    letter-spacing: 0.3px;
+  }
+
+  .season-selector {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .season-selector label {
+    font-size: 13px;
+    opacity: 0.7;
+  }
+
+  .season-select {
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.18);
+    color: var(--ecnl-white);
+    padding: 7px 14px;
+    border-radius: 8px;
+    font-size: 13px;
+    cursor: pointer;
+    outline: none;
+    transition: all var(--transition-fast);
+  }
+
+  .season-select:hover { background: rgba(255,255,255,0.15); border-color: rgba(255,255,255,0.3); }
+  .season-select:focus { border-color: var(--ecnl-teal); box-shadow: 0 0 0 2px var(--ecnl-teal-glow); }
+  .season-select option { background: var(--ecnl-dark); color: var(--ecnl-white); }
+
+  /* --- Layout --- */
+  .layout {
+    display: flex;
+    height: calc(100vh - var(--header-height));
+    margin-top: var(--header-height);
+  }
+
+  /* --- Sidebar overlay (mobile) --- */
+  .sidebar-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.4);
+    z-index: 49;
+    opacity: 0;
+    transition: opacity var(--transition-med);
+  }
+  .sidebar-overlay.visible {
+    display: block;
+    opacity: 1;
+  }
+
+  /* --- Sidebar --- */
+  .sidebar {
+    width: var(--sidebar-width);
+    min-width: var(--sidebar-width);
+    background: var(--ecnl-white);
+    border-right: 1px solid var(--ecnl-border);
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 0;
+    transition: transform var(--transition-med), box-shadow var(--transition-med);
+    z-index: 50;
+  }
+
+  .sidebar-section-title {
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--ecnl-gray);
+    padding: 10px 20px 6px;
+  }
+
+  .age-group-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 6px 16px 14px;
+  }
+
+  .age-tab {
+    padding: 8px 12px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid var(--ecnl-border);
+    background: var(--ecnl-white);
+    color: var(--ecnl-dark);
+    transition: all var(--transition-fast);
+    text-align: center;
+    line-height: 1.3;
+    min-width: 64px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .age-tab::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--ecnl-teal);
+    opacity: 0;
+    transition: opacity var(--transition-fast);
+    border-radius: 7px;
+    z-index: 0;
+  }
+
+  .age-tab span, .age-tab br { position: relative; z-index: 1; }
+
+  .age-tab:hover {
+    border-color: var(--ecnl-teal);
+    color: var(--ecnl-teal);
+    box-shadow: var(--shadow-sm);
+    transform: translateY(-1px);
+  }
+
+  .age-tab.active {
+    background: var(--ecnl-teal);
+    color: var(--ecnl-white);
+    border-color: var(--ecnl-teal);
+    box-shadow: 0 2px 8px rgba(42, 157, 143, 0.35);
+    transform: translateY(-1px);
+  }
+
+  .age-tab.active::after { opacity: 0; }
+
+  .conference-list { list-style: none; flex: 1; }
+
+  .conference-item {
+    padding: 11px 20px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    border-left: 3px solid transparent;
+    transition: all var(--transition-fast);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+  }
+
+  .conference-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 0;
+    background: var(--ecnl-teal-glow);
+    transition: width var(--transition-fast);
+    z-index: 0;
+  }
+
+  .conference-item:hover::before { width: 100%; }
+
+  .conference-item:hover {
+    border-left-color: var(--ecnl-teal);
+    color: var(--ecnl-teal);
+  }
+
+  .conference-item.active {
+    background: linear-gradient(90deg, rgba(42,157,143,0.1) 0%, rgba(42,157,143,0.03) 100%);
+    border-left-color: var(--ecnl-teal);
+    color: var(--ecnl-teal);
+    font-weight: 700;
+  }
+
+  .conference-item.active::before { width: 0; }
+
+  .conference-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--ecnl-border);
+    flex-shrink: 0;
+    transition: all var(--transition-fast);
+    position: relative;
+    z-index: 1;
+  }
+
+  .conference-item:hover .conference-dot { background: var(--ecnl-teal); transform: scale(1.3); }
+  .conference-item.active .conference-dot {
+    background: var(--ecnl-teal);
+    box-shadow: 0 0 6px rgba(42, 157, 143, 0.5);
+    transform: scale(1.3);
+  }
+
+  .conference-name {
+    position: relative;
+    z-index: 1;
+  }
+
+  .shortcut-hint {
+    font-size: 11px;
+    color: var(--ecnl-gray);
+    padding: 14px 20px;
+    border-top: 1px solid var(--ecnl-border);
+    margin-top: auto;
+    background: #fafbfc;
+  }
+
+  .shortcut-hint kbd {
+    background: var(--ecnl-white);
+    border: 1px solid var(--ecnl-border);
+    border-radius: 4px;
+    padding: 2px 6px;
+    font-size: 10px;
+    font-family: inherit;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+  }
+
+  /* --- Main Content --- */
+  .main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    min-width: 0;
+  }
+
+  .content-header {
+    padding: 14px 28px;
+    background: var(--ecnl-white);
+    border-bottom: 1px solid var(--ecnl-border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    gap: 16px;
+  }
+
+  .content-title {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+  }
+
+  .content-subtitle {
+    font-size: 13px;
+    color: var(--ecnl-gray);
+    margin-top: 3px;
+  }
+
+  /* External links */
+  .ext-links {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  .open-external {
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 1px solid var(--ecnl-border);
+    background: var(--ecnl-white);
+    color: var(--ecnl-dark);
+    cursor: pointer;
+    text-decoration: none;
+    transition: all var(--transition-fast);
+    white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .open-external:hover {
+    background: var(--ecnl-teal-glow);
+    border-color: var(--ecnl-teal);
+    color: var(--ecnl-teal);
+    box-shadow: var(--shadow-md);
+    transform: translateY(-1px);
+  }
+
+  .open-external:active {
+    transform: translateY(0);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .open-external svg {
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+  }
+
+  /* --- Frames area --- */
+  .frames-area {
+    flex: 1;
+    display: flex;
+    overflow: hidden;
+  }
+
+  .frame-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-width: 0;
+  }
+
+  .frame-wrapper + .frame-wrapper {
+    border-left: 2px solid var(--ecnl-border);
+  }
+
+  .frame-label {
+    padding: 7px 18px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    background: linear-gradient(180deg, #f8fafc, #f1f5f9);
+    border-bottom: 1px solid var(--ecnl-border);
+    color: var(--ecnl-gray);
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .frame-label::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--ecnl-teal);
+    opacity: 0.6;
+  }
+
+  .frames-area.single-flight .frame-label {
+    display: none;
+  }
+
+  .frame-wrapper iframe {
+    flex: 1;
+    border: none;
+    width: 100%;
+    height: 100%;
+    background: var(--ecnl-white);
+  }
+
+  /* Loading overlay */
+  .frame-loading {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, var(--ecnl-light), var(--ecnl-white));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 14px;
+    z-index: 10;
+    transition: opacity 0.4s ease;
+  }
+
+  .frame-loading.hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .spinner {
+    width: 36px;
+    height: 36px;
+    border: 3px solid var(--ecnl-border);
+    border-top-color: var(--ecnl-teal);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+  }
+
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .loading-text {
+    font-size: 12px;
+    color: var(--ecnl-gray);
+    font-weight: 500;
+  }
+
+  /* --- Search input --- */
+  .sidebar-search {
+    padding: 4px 16px 10px;
+  }
+
+  .search-input {
+    width: 100%;
+    padding: 8px 12px 8px 32px;
+    font-size: 13px;
+    border: 1px solid var(--ecnl-border);
+    border-radius: 8px;
+    background: var(--ecnl-light) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%236b7280' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3Cline x1='21' y1='21' x2='16.65' y2='16.65'/%3E%3C/svg%3E") 10px center no-repeat;
+    outline: none;
+    transition: all var(--transition-fast);
+    color: var(--ecnl-dark);
+  }
+
+  .search-input::placeholder {
+    color: var(--ecnl-gray);
+    opacity: 0.7;
+  }
+
+  .search-input:focus {
+    border-color: var(--ecnl-teal);
+    box-shadow: 0 0 0 3px var(--ecnl-teal-glow);
+    background-color: var(--ecnl-white);
+  }
+
+  .conference-item.search-hidden {
+    display: none;
+  }
+
+  .search-no-results {
+    padding: 16px 20px;
+    font-size: 12px;
+    color: var(--ecnl-gray);
+    font-style: italic;
+    display: none;
+  }
+
+  /* --- Breadcrumb --- */
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    color: var(--ecnl-gray);
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+  }
+
+  .breadcrumb-item {
+    cursor: pointer;
+    transition: color var(--transition-fast);
+    white-space: nowrap;
+  }
+
+  .breadcrumb-item:hover {
+    color: var(--ecnl-teal);
+  }
+
+  .breadcrumb-sep {
+    opacity: 0.5;
+    font-size: 10px;
+    user-select: none;
+  }
+
+  .breadcrumb-current {
+    color: var(--ecnl-dark);
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  /* ===== RESPONSIVE ===== */
+
+  /* Tablet: stack flights vertically */
+  @media (max-width: 900px) {
+    .frames-area {
+      flex-direction: column;
+    }
+    .frame-wrapper + .frame-wrapper {
+      border-left: none;
+      border-top: 2px solid var(--ecnl-border);
+    }
+    .frame-wrapper {
+      min-height: 50%;
+    }
+  }
+
+  /* Mobile: collapsible sidebar */
+  @media (max-width: 768px) {
+    .hamburger { display: block; }
+
+    .header-title { display: none; }
+    .header-divider { display: none; }
+
+    .sidebar {
+      position: fixed;
+      top: var(--header-height);
+      left: 0;
+      bottom: 0;
+      width: 280px;
+      min-width: 280px;
+      transform: translateX(-100%);
+      box-shadow: none;
+    }
+
+    .sidebar.open {
+      transform: translateX(0);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .layout { margin-left: 0; }
+
+    .content-header {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 12px 16px;
+    }
+
+    .ext-links { justify-content: flex-start; }
+  }
+
+  @media (max-width: 480px) {
+    .header { padding: 0 12px; }
+    .header-logo { font-size: 18px; }
+    .season-select { padding: 5px 8px; font-size: 12px; }
+    .content-header { padding: 10px 12px; }
+    .content-title { font-size: 15px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-left">
+    <button class="hamburger" onclick="toggleSidebar()" aria-label="Toggle menu">&#9776;</button>
+    <div class="header-logo">ECNL</div>
+    <div class="header-divider"></div>
+    <div class="header-title">Girls Conference Standings Dashboard</div>
+  </div>
+  <div class="season-selector">
+    <label>Season:</label>
+    <select class="season-select" id="seasonSelect" onchange="changeSeason(this.value)">
+      <option value="2025-26">2025-26</option>
+    </select>
+  </div>
+</div>
+
+<div class="sidebar-overlay" id="sidebarOverlay" onclick="toggleSidebar()"></div>
+
+<div class="layout">
+  <div class="sidebar" id="sidebar">
+    <div class="sidebar-section-title">Age Group</div>
+    <div class="age-group-tabs" id="ageGroupTabs"></div>
+
+    <div class="sidebar-section-title" style="margin-top: 4px;">Conference</div>
+    <div class="sidebar-search">
+      <input type="text" class="search-input" id="confSearch" placeholder="Filter conferences…" oninput="filterConferences(this.value)">
+    </div>
+    <ul class="conference-list" id="conferenceList"></ul>
+    <div class="search-no-results" id="searchNoResults">No conferences match</div>
+
+    <div class="shortcut-hint">
+      <kbd>&larr;</kbd> <kbd>&rarr;</kbd> Age groups &nbsp;
+      <kbd>&uarr;</kbd> <kbd>&darr;</kbd> Conferences
+    </div>
+  </div>
+
+  <div class="main">
+    <div class="content-header">
+      <div>
+        <div class="breadcrumb" id="breadcrumb"></div>
+        <div class="content-title" id="contentTitle">Select a conference</div>
+        <div class="content-subtitle" id="contentSubtitle">Choose an age group and conference from the sidebar</div>
+      </div>
+      <div class="ext-links" id="extLinks"></div>
+    </div>
+
+    <div class="frames-area" id="framesArea"></div>
+  </div>
+</div>
+
+<script>
+// ========== DATA ==========
+const SEASONS = {
+  "2025-26": {
+    conferences: {
+      "Mid-Atlantic":  { eventId: 3925, ageGroups: {
+        "G2008/2007": [{flight:"ECNL", sid:32621}], "G2009": [{flight:"ECNL", sid:32623}],
+        "G2010": [{flight:"ECNL", sid:32625}], "G2011": [{flight:"ECNL", sid:32622}],
+        "G2012": [{flight:"ECNL", sid:32624}], "G2013": [{flight:"ECNL", sid:32626}]
+      }},
+      "Midwest":  { eventId: 3926, ageGroups: {
+        "G2008/2007": [{flight:"ECNL", sid:32627}], "G2009": [{flight:"ECNL", sid:32629}],
+        "G2010": [{flight:"ECNL", sid:32632}], "G2011": [{flight:"ECNL", sid:32628}],
+        "G2012": [{flight:"ECNL", sid:32630}], "G2013": [{flight:"ECNL", sid:32631}]
+      }},
+      "New England":  { eventId: 3927, ageGroups: {
+        "G2008/2007": [{flight:"ECNL", sid:32633}], "G2009": [{flight:"ECNL", sid:32635}],
+        "G2010": [{flight:"ECNL", sid:32638}], "G2011": [{flight:"ECNL", sid:32634}],
+        "G2012": [{flight:"ECNL", sid:32636}], "G2013": [{flight:"ECNL", sid:32637}]
+      }},
+      "North Atlantic":  { eventId: 3928, ageGroups: {
+        "G2008/2007": [{flight:"ECNL", sid:32639}], "G2009": [{flight:"ECNL", sid:32641}],
+        "G2010": [{flight:"ECNL", sid:32643}], "G2011": [{flight:"ECNL", sid:32640}],
+        "G2012": [{flight:"ECNL", sid:32642}], "G2013": [{flight:"ECNL", sid:32644}]
+      }},
+      "NorCal":  { eventId: 3929, ageGroups: {
+        "G2008/2007": [{flight:"ECNL", sid:32895}], "G2009": [{flight:"ECNL", sid:32897}],
+        "G2010": [{flight:"ECNL", sid:32899}], "G2011": [{flight:"ECNL", sid:32896}],
+        "G2012": [{flight:"ECNL", sid:32898}], "G2013": [{flight:"ECNL", sid:32900}]
+      }},
+      "Northwest":  { eventId: 3930, ageGroups: {
+        "G2008/2007": [{flight:"ECNL", sid:32901}], "G2009": [{flight:"ECNL", sid:32903}],
+        "G2010": [{flight:"ECNL", sid:32905}], "G2011": [{flight:"ECNL", sid:32902}],
+        "G2012": [{flight:"ECNL", sid:32904}], "G2013": [{flight:"ECNL", sid:32906}]
+      }},
+      "Ohio Valley":  { eventId: 3931, ageGroups: {
+        "G2008/2007": [{flight:"North", sid:32910}, {flight:"South", sid:32916}],
+        "G2009":      [{flight:"North", sid:32912}, {flight:"South", sid:32918}],
+        "G2010":      [{flight:"North", sid:32914}, {flight:"South", sid:32920}],
+        "G2011":      [{flight:"North", sid:32911}, {flight:"South", sid:32917}],
+        "G2012":      [{flight:"ECNL",  sid:36470}],
+        "G2013":      [{flight:"ECNL",  sid:36469}]
+      }},
+      "Southeast":  { eventId: 3932, ageGroups: {
+        "G2008/2007": [{flight:"ECNL", sid:32922}], "G2009": [{flight:"ECNL", sid:32924}],
+        "G2010": [{flight:"ECNL", sid:32926}], "G2011": [{flight:"ECNL", sid:32923}],
+        "G2012": [{flight:"ECNL", sid:32925}], "G2013": [{flight:"ECNL", sid:32927}]
+      }},
+      "Southwest":  { eventId: 3933, ageGroups: {
+        "G2008/2007": [{flight:"ECNL", sid:32928}], "G2009": [{flight:"ECNL", sid:32930}],
+        "G2010": [{flight:"ECNL", sid:32932}], "G2011": [{flight:"ECNL", sid:32929}],
+        "G2012": [{flight:"ECNL", sid:32931}], "G2013": [{flight:"ECNL", sid:32933}]
+      }},
+      "Texas":  { eventId: 3934, ageGroups: {
+        "G2008/2007": [{flight:"ECNL", sid:32934}], "G2009": [{flight:"ECNL", sid:32936}],
+        "G2010": [{flight:"ECNL", sid:32938}], "G2011": [{flight:"ECNL", sid:32935}],
+        "G2012": [{flight:"ECNL", sid:32937}], "G2013": [{flight:"ECNL", sid:32939}]
+      }}
+    }
+  }
+};
+
+const AGE_LABELS = {
+  "G2008/2007": "U17/U18", "G2009": "U16", "G2010": "U15",
+  "G2011": "U14", "G2012": "U13", "G2013": "U12"
+};
+
+const AGE_GROUPS = ["G2008/2007", "G2009", "G2010", "G2011", "G2012", "G2013"];
+
+const EXTERNAL_ICON = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3H3.5A1.5 1.5 0 0 0 2 4.5v8A1.5 1.5 0 0 0 3.5 14h8A1.5 1.5 0 0 0 13 12.5V10"/><path d="M9 2h5v5"/><path d="M14 2 7 9"/></svg>`;
+
+// ========== STATE ==========
+let currentSeason = "2025-26";
+let currentAgeGroup = "G2009";
+let currentConference = "Mid-Atlantic";
+
+const STORAGE_KEY = 'ecnl-dash-state';
+
+// ========== HELPERS ==========
+function getSeasonData() { return SEASONS[currentSeason]; }
+
+function getStandingsUrl(eventId, sid) {
+  return `https://public.totalglobalsports.com/public/event/${eventId}/standings/${sid}`;
+}
+
+// ========== LOCAL STORAGE ==========
+function saveState() {
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify({
+      season: currentSeason,
+      ageGroup: currentAgeGroup,
+      conference: currentConference
+    }));
+  } catch(e) { /* localStorage unavailable */ }
+}
+
+function loadSavedState() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(STORAGE_KEY));
+    if (saved) {
+      if (SEASONS[saved.season]) currentSeason = saved.season;
+      if (AGE_GROUPS.includes(saved.ageGroup)) currentAgeGroup = saved.ageGroup;
+      const data = SEASONS[currentSeason];
+      if (data && data.conferences[saved.conference]) currentConference = saved.conference;
+    }
+  } catch(e) { /* ignore */ }
+}
+
+// ========== URL HASH ROUTING ==========
+function stateToHash() {
+  return `#season=${encodeURIComponent(currentSeason)}&age=${encodeURIComponent(currentAgeGroup)}&conf=${encodeURIComponent(currentConference)}`;
+}
+
+function pushHash() {
+  const newHash = stateToHash();
+  if (window.location.hash !== newHash) {
+    history.replaceState(null, '', newHash);
+  }
+}
+
+function loadFromHash() {
+  const hash = window.location.hash.slice(1);
+  if (!hash) return false;
+  const params = new URLSearchParams(hash);
+  let changed = false;
+  const season = params.get('season');
+  const age = params.get('age');
+  const conf = params.get('conf');
+  if (season && SEASONS[season]) { currentSeason = season; changed = true; }
+  if (age && AGE_GROUPS.includes(age)) { currentAgeGroup = age; changed = true; }
+  if (conf && SEASONS[currentSeason] && SEASONS[currentSeason].conferences[conf]) {
+    currentConference = conf; changed = true;
+  }
+  return changed;
+}
+
+window.addEventListener('hashchange', () => {
+  if (loadFromHash()) {
+    document.getElementById('seasonSelect').value = currentSeason;
+    rebuildAll();
+  }
+});
+
+// ========== SIDEBAR TOGGLE (MOBILE) ==========
+function toggleSidebar() {
+  const sidebar = document.getElementById('sidebar');
+  const overlay = document.getElementById('sidebarOverlay');
+  const isOpen = sidebar.classList.toggle('open');
+  if (isOpen) {
+    overlay.classList.add('visible');
+  } else {
+    overlay.classList.remove('visible');
+  }
+}
+
+function closeSidebarIfMobile() {
+  if (window.innerWidth <= 768) {
+    document.getElementById('sidebar').classList.remove('open');
+    document.getElementById('sidebarOverlay').classList.remove('visible');
+  }
+}
+
+// ========== SEARCH / FILTER ==========
+function filterConferences(query) {
+  const q = query.trim().toLowerCase();
+  const items = document.querySelectorAll('.conference-item');
+  let visibleCount = 0;
+  items.forEach(item => {
+    const name = (item.getAttribute('data-conf') || '').toLowerCase();
+    const match = !q || name.includes(q);
+    item.classList.toggle('search-hidden', !match);
+    if (match) visibleCount++;
+  });
+  document.getElementById('searchNoResults').style.display = visibleCount === 0 ? 'block' : 'none';
+}
+
+// ========== SIDEBAR BUILDERS ==========
+function buildAgeGroupTabs() {
+  const container = document.getElementById('ageGroupTabs');
+  container.innerHTML = AGE_GROUPS.map(ag => {
+    const label = AGE_LABELS[ag] || ag;
+    const active = ag === currentAgeGroup ? 'active' : '';
+    return `<div class="age-tab ${active}" onclick="selectAgeGroup('${ag}')"><span>${label}</span><br><span style="font-size:10px;font-weight:400;opacity:0.7">${ag}</span></div>`;
+  }).join('');
+}
+
+function buildConferenceList() {
+  const container = document.getElementById('conferenceList');
+  const names = Object.keys(getSeasonData().conferences);
+  container.innerHTML = names.map(name => {
+    const active = name === currentConference ? 'active' : '';
+    return `<li class="conference-item ${active}" onclick="selectConference('${name}')" data-conf="${name}">
+      <span class="conference-dot"></span><span class="conference-name">${name}</span>
+    </li>`;
+  }).join('');
+  // Re-apply any active search filter
+  const searchVal = document.getElementById('confSearch').value;
+  if (searchVal) filterConferences(searchVal);
+}
+
+// ========== SCROLL INTO VIEW ==========
+function scrollActiveConferenceIntoView() {
+  const activeItem = document.querySelector('.conference-item.active');
+  if (activeItem) {
+    activeItem.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+}
+
+// ========== BREADCRUMB ==========
+function buildBreadcrumb() {
+  const ageLabel = AGE_LABELS[currentAgeGroup] || currentAgeGroup;
+  const bc = document.getElementById('breadcrumb');
+  bc.innerHTML =
+    `<span class="breadcrumb-item" onclick="document.getElementById('seasonSelect').focus()">${currentSeason}</span>` +
+    `<span class="breadcrumb-sep">›</span>` +
+    `<span class="breadcrumb-item" onclick="void(0)">${ageLabel}</span>` +
+    `<span class="breadcrumb-sep">›</span>` +
+    `<span class="breadcrumb-current">${currentConference}</span>`;
+}
+
+// ========== MAIN CONTENT LOADER ==========
+function loadStandings() {
+  const data = getSeasonData();
+  const conf = data.conferences[currentConference];
+  if (!conf) return;
+
+  const flights = conf.ageGroups[currentAgeGroup] || [];
+  if (!flights.length) return;
+
+  const ageLabel = AGE_LABELS[currentAgeGroup] || currentAgeGroup;
+  const multiFlights = flights.length > 1;
+
+  // Update breadcrumb + header title
+  buildBreadcrumb();
+  document.getElementById('contentTitle').textContent =
+    `${currentConference} — ${ageLabel} (${currentAgeGroup})`;
+  document.getElementById('contentSubtitle').textContent =
+    `${currentSeason} Season` + (multiFlights ? ` · ${flights.length} flights` : '');
+
+  // Build "Open in new tab" links — one per flight, with icon
+  const extLinks = document.getElementById('extLinks');
+  extLinks.innerHTML = flights.map(f => {
+    const url = getStandingsUrl(conf.eventId, f.sid);
+    const label = multiFlights ? `${f.flight}` : `Open in new tab`;
+    return `<a class="open-external" href="${url}" target="_blank">${EXTERNAL_ICON} ${label}</a>`;
+  }).join('');
+
+  // Build frames area
+  const framesArea = document.getElementById('framesArea');
+  framesArea.className = 'frames-area' + (multiFlights ? '' : ' single-flight');
+
+  framesArea.innerHTML = flights.map((f, i) => {
+    const url = getStandingsUrl(conf.eventId, f.sid);
+    return `
+      <div class="frame-wrapper">
+        <div class="frame-label">${f.flight} Flight</div>
+        <div class="frame-loading" id="loading-${i}">
+          <div class="spinner"></div>
+          <div class="loading-text">Loading ${f.flight}…</div>
+        </div>
+        <iframe src="${url}" onload="hideLoading(${i})"></iframe>
+      </div>`;
+  }).join('');
+
+  // Persist state
+  saveState();
+  pushHash();
+}
+
+function hideLoading(index) {
+  const overlay = document.getElementById(`loading-${index}`);
+  if (overlay) setTimeout(() => overlay.classList.add('hidden'), 200);
+}
+
+// ========== REBUILD ALL ==========
+function rebuildAll() {
+  buildAgeGroupTabs();
+  buildConferenceList();
+  loadStandings();
+}
+
+// ========== SELECTORS ==========
+function selectAgeGroup(ag) {
+  currentAgeGroup = ag;
+  buildAgeGroupTabs();
+  loadStandings();
+  closeSidebarIfMobile();
+}
+
+function selectConference(name) {
+  currentConference = name;
+  buildConferenceList();
+  loadStandings();
+  scrollActiveConferenceIntoView();
+  closeSidebarIfMobile();
+}
+
+function changeSeason(season) {
+  currentSeason = season;
+  rebuildAll();
+}
+
+// ========== KEYBOARD NAVIGATION ==========
+document.addEventListener('keydown', (e) => {
+  if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT') return;
+  const confNames = Object.keys(getSeasonData().conferences);
+  const confIndex = confNames.indexOf(currentConference);
+  const agIndex = AGE_GROUPS.indexOf(currentAgeGroup);
+  switch(e.key) {
+    case 'ArrowLeft':  e.preventDefault(); if (agIndex > 0) selectAgeGroup(AGE_GROUPS[agIndex - 1]); break;
+    case 'ArrowRight': e.preventDefault(); if (agIndex < AGE_GROUPS.length - 1) selectAgeGroup(AGE_GROUPS[agIndex + 1]); break;
+    case 'ArrowUp':    e.preventDefault(); if (confIndex > 0) selectConference(confNames[confIndex - 1]); break;
+    case 'ArrowDown':  e.preventDefault(); if (confIndex < confNames.length - 1) selectConference(confNames[confIndex + 1]); break;
+  }
+});
+
+// ========== INIT ==========
+// Priority: URL hash > localStorage > defaults
+if (!loadFromHash()) {
+  loadSavedState();
+}
+document.getElementById('seasonSelect').value = currentSeason;
+rebuildAll();
+</script>
+</body>
+</html>
