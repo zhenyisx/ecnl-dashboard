@@ -9,8 +9,8 @@ date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchI
 2026-08-29,10:00 AM,Group Play,Davis Legacy ECNL G2008/09,0,3,MVLA ECNL G2008/09,Davis Legacy Soccer Complex,Field 12,On Time,1094409
 2026-08-29,10:00 AM,Group Play,Placer United ECNL G2008/09,1,0,Santa Rosa United ECNL G2008/09,Placer Valley Soccer Complex,Field 5,On Time,1094427
 2026-08-29,01:00 PM,Group Play,Pleasanton RAGE ECNL G2008/09,0,2,San Juan SC ECNL G2008/09,Val Vista,Field 3,On Time,1094433
-2026-08-29,03:00 PM,Group Play,Marin FC ECNL G2008/09,,,Bay Area Surf - ECNL G2008/09,College of Marin,Stadium,On Time,1094415
-2026-08-30,TBD,Group Play,Bay Area Surf - ECNL G2008/09,,,Santa Rosa United ECNL G2008/09,,,On Time,1094439
+2026-08-29,03:00 PM,Group Play,Marin FC ECNL G2008/09,2,4,Bay Area Surf - ECNL G2008/09,College of Marin,Stadium,On Time,1094415
+2026-08-30,TBD,Group Play,Bay Area Surf - ECNL G2008/09,3,0,Santa Rosa United ECNL G2008/09,,,On Time,1094439
 2026-08-30,09:00 AM,Group Play,Force (CA) ECNL G2008/09,3,0,Placer United ECNL G2008/09,De Anza College,Soccer Field,On Time,1094451
 2026-08-30,09:00 AM,Group Play,San Juan SC ECNL G2008/09,9,0,Stanislaus Surf - ECNL G2008/09,Tiemann Law Firm Fields at San Juan Soccer Complex,White Field,On Time,1094469
 2026-08-30,10:00 AM,Group Play,Davis Legacy ECNL G2008/09,3,1,Pleasanton RAGE ECNL G2008/09,Davis Legacy Soccer Complex,Field 12,On Time,1094445
@@ -34,9 +34,9 @@ date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchI
 2026-09-20,12:00 PM,Group Play,COSC ECNL G2008/09,,,MVLA ECNL G2008/09,Edison High School Fields,field 1,On Time,1094553
 2026-09-20,01:00 PM,Group Play,Pleasanton RAGE ECNL G2008/09,,,Marin FC ECNL G2008/09,Val Vista,Field 3,On Time,1094571
 2026-09-26,TBD,Group Play,Force (CA) ECNL G2008/09,,,Bay Area Surf - ECNL G2008/09,,,On Time,1094589
-2026-09-26,TBD,Group Play,Mustang SC ECNL G2008/09,,,Stanislaus Surf - ECNL G2008/09,,,On Time,1094601
 2026-09-26,TBD,Group Play,MVLA ECNL G2008/09,,,Santa Rosa United ECNL G2008/09,,,On Time,1094607
 2026-09-26,09:00 AM,Group Play,Marin FC ECNL G2008/09,,,Davis Legacy ECNL G2008/09,College of Marin,Stadium,On Time,1094595
+2026-09-26,09:00 AM,Group Play,Mustang SC ECNL G2008/09,,,Stanislaus Surf - ECNL G2008/09,Provident Field @ MSC, Upper,On Time,1094601
 2026-09-26,10:00 AM,Group Play,COSC ECNL G2008/09,,,San Juan SC ECNL G2008/09,Edison High School Fields,field 1,On Time,1094583
 2026-09-26,10:00 AM,Group Play,Placer United ECNL G2008/09,,,Pleasanton RAGE ECNL G2008/09,Placer Valley Soccer Complex,Field 5,On Time,1094613
 2026-09-27,TBD,Group Play,Bay Area Surf - ECNL G2008/09,,,Placer United ECNL G2008/09,,,On Time,1094619

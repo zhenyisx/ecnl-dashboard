@@ -1,7 +1,7 @@
 date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
-2026-12-12,TBD,Group Play,Indy Eleven ECNL G2009/10,,,FC Pride Elite ECNL G2009/10,,,On Time,1132873
 2026-12-12,TBD,Group Play,Tennessee SC ECNL G2009/10,,,FC Alliance TN ECNL G2009/10,,,On Time,1132876
 2026-12-12,11:00 AM,Group Play,Racing Louisville Academy ECNL G2009/10,,,Ohio Elite SA ECNL G2009/10,Lynn Family Sports Vision & Training Facility,Field 3,On Time,1132870
+2026-12-12,12:00 PM,Group Play,Indy Eleven ECNL G2009/10,,,FC Pride Elite ECNL G2009/10,Grand Park ,Field 6,On Time,1132873
 2026-12-13,11:00 AM,Group Play,Racing Louisville Academy ECNL G2009/10,,,FC Pride Elite ECNL G2009/10,Lynn Family Sports Vision & Training Facility,Field 3,On Time,1132882
 2027-02-13,TBD,Group Play,Tennessee SC ECNL G2009/10,,,Ohio Elite SA ECNL G2009/10,,,On Time,1132885
 2027-02-13,TBD,Group Play,FC Alliance TN ECNL G2009/10,,,Racing Louisville Academy ECNL G2009/10,,,On Time,1132888
@@ -34,9 +34,9 @@ date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchI
 2027-04-24,TBD,Group Play,FC Pride Elite ECNL G2009/10,,,Internationals SC ECNL G2009/2010,,,On Time,1133044
 2027-04-25,TBD,Group Play,FC Pride Elite ECNL G2009/10,,,Cleveland Force SC ECNL G2009/10,,,On Time,1133059
 2027-04-25,TBD,Group Play,Indy Eleven ECNL G2009/10,,,Internationals SC ECNL G2009/2010,,,On Time,1133062
-2027-05-01,TBD,Group Play,Ohio Elite SA ECNL G2009/10,,,FC Pride Elite ECNL G2009/10,,,On Time,1133086
 2027-05-01,TBD,Group Play,FC Alliance TN ECNL G2009/10,,,Tennessee SC ECNL G2009/10,,,On Time,1133092
 2027-05-01,11:00 AM,Group Play,Racing Louisville Academy ECNL G2009/10,,,Indy Eleven ECNL G2009/10,Lynn Family Sports Vision & Training Facility,Field 2,On Time,1133089
+2027-05-01,01:30 PM,Group Play,Ohio Elite SA ECNL G2009/10,,,FC Pride Elite ECNL G2009/10,Ohio Elite Training Center,Field 9,On Time,1133086
 2027-05-08,TBD,Group Play,Indy Eleven ECNL G2009/10,,,Ohio Elite SA ECNL G2009/10,,,On Time,1133107
 2027-05-08,TBD,Group Play,FC Pride Elite ECNL G2009/10,,,Racing Louisville Academy ECNL G2009/10,,,On Time,1133110
 2027-05-09,TBD,Group Play,Indy Eleven ECNL G2009/10,,,Racing Louisville Academy ECNL G2009/10,,,On Time,1133119

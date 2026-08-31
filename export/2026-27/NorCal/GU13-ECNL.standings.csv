@@ -1,13 +1,13 @@
 rank,team,club,teamID,gp,w,l,d,pts,ppg,gf,ga,gd
-1,Mustang SC ECNL G2013/14,Mustang Soccer,103790,2,2,0,0,6,3.0,8,2,6
+1,Mustang SC ECNL G2013/14,Mustang Soccer,103790,3,3,0,0,9,3.0,10,3,7
 2,Bay Area Surf - ECNL G2013/14,Bay Area Surf,135939,2,2,0,0,6,3.0,5,1,4
-3,Placer United ECNL G2013/14,Placer United Soccer Club,106267,3,2,0,1,7,2.33,7,2,5
-4,San Juan SC ECNL G2013/14,San Juan Soccer Club,111781,2,1,0,1,4,2.0,7,2,5
-5,MVLA ECNL G2013/14,MVLA,97182,2,1,0,1,4,2.0,6,1,5
-6,COSC ECNL G2013/14,California Odyssey Soccer Club,116964,2,1,1,0,3,1.5,3,1,2
-7,Santa Rosa United ECNL G2013/14,Santa Rosa United Soccer,132201,3,1,2,0,3,1.0,1,6,-5
-8,Marin FC ECNL G2013/14,Marin FC,114298,2,0,1,1,1,0.5,2,4,-2
-9,Davis Legacy ECNL G2013/14,Davis Legacy Soccer Club,126188,2,0,1,1,1,0.5,1,4,-3
+3,San Juan SC ECNL G2013/14,San Juan Soccer Club,111781,3,2,0,1,7,2.33,12,2,10
+4,Placer United ECNL G2013/14,Placer United Soccer Club,106267,3,2,0,1,7,2.33,7,2,5
+5,MVLA ECNL G2013/14,MVLA,97182,3,1,1,1,4,1.33,7,3,4
+6,Davis Legacy ECNL G2013/14,Davis Legacy Soccer Club,126188,3,1,1,1,4,1.33,5,4,1
+7,Marin FC ECNL G2013/14,Marin FC,114298,3,1,1,1,4,1.33,4,4,0
+8,Santa Rosa United ECNL G2013/14,Santa Rosa United Soccer,132201,3,1,2,0,3,1.0,1,6,-5
+9,COSC ECNL G2013/14,California Odyssey Soccer Club,116964,3,1,2,0,3,1.0,3,3,0
 10,Force (CA) ECNL G2013/14,Force,112400,3,0,2,1,1,0.33,2,6,-4
-11,Pleasanton RAGE ECNL G2013/14,Pleasanton Rage,55311,1,0,1,0,0,0.0,0,5,-5
-12,Stanislaus Surf - ECNL G2013/14,Stanislaus Surf Soccer Club,82861,2,0,2,0,0,0.0,1,9,-8
+11,Pleasanton RAGE ECNL G2013/14,Pleasanton Rage,55311,2,0,2,0,0,0.0,0,9,-9
+12,Stanislaus Surf - ECNL G2013/14,Stanislaus Surf Soccer Club,82861,3,0,3,0,0,0.0,1,14,-13

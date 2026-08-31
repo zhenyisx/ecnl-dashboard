@@ -1,18 +1,17 @@
 date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
-2026-09-12,TBD,Group Play,Phoenix Rising FC ECNL G2013/14,,,Arizona Arsenal ECNL G2013/14,,,On Time,1085354
 2026-09-12,09:00 AM,Group Play,Pateadores Soccer Club ECNL G2013/14,,,Slammers FC HB Koge ECNL G2013/14,Orange County Great Park,Field 8,On Time,1085348
 2026-09-12,11:00 AM,Group Play,San Diego Surf ECNL G2013/14,,,Utah Royals FC-AZ ECNL G2013/14,Surf Sports Park,Field 3,On Time,1085366
 2026-09-12,01:00 PM,Group Play,So Cal Blues ECNL G2013/14,,,Sporting California USA ECNL G2013/14,OC Great Park,Field 22,On Time,1085372
 2026-09-12,03:00 PM,Group Play,Beach Futbol Club (CA) ECNL G2013/14,,,LAFC So Cal ECNL G2013/14,Long Beach City College - Liberal Arts Campus,Field 2,On Time,1085336
 2026-09-12,05:20 PM,Group Play,Eagles SC ECNL G2013/14,,,Legends FC (CA) ECNL G2013/14,Pleasant Valley Fields,Field 14,On Time,1085342
 2026-09-12,05:45 PM,Group Play,Rebels SC ECNL G2013/14,,,Legends FC Del Mar ECNL G2013/14,Monte Vista High School,Stadium,On Time,1085360
-2026-09-13,TBD,Group Play,LV Heat Surf ECNL G2013/14,,,LA Breakers FC ECNL G2013/14,,,On Time,1085492
+2026-09-13,10:30 AM,Group Play,LV Heat Surf ECNL G2013/14,,,LA Breakers FC ECNL G2013/14,Heritage Park Sports Complex,FIeld 1,On Time,1085492
 2026-09-13,12:30 PM,Group Play,SLAMMERS FC ECNL G2013/14,,,Utah Royals FC-AZ ECNL G2013/14,Arroyo Park,Field 1,On Time,1085378
 2026-09-19,TBD,Group Play,LAFC So Cal ECNL G2013/14,,,Rebels SC ECNL G2013/14,,,On Time,1085396
 2026-09-19,08:00 AM,Group Play,Phoenix Rising FC ECNL G2013/14,,,LV Heat Surf ECNL G2013/14,PRFC Youth Soccer Facility,Field 1,On Time,1085414
 2026-09-19,09:00 AM,Group Play,LA Breakers FC ECNL G2013/14,,,Beach Futbol Club (CA) ECNL G2013/14,Bell Gardens Sports Complex,Field 3,On Time,1085390
 2026-09-19,01:00 PM,Group Play,Legends FC (CA) ECNL G2013/14,,,So Cal Blues ECNL G2013/14,Silverlakes Complex,Field 23,On Time,1085402
-2026-09-19,05:15 PM,Group Play,Legends FC Del Mar ECNL G2013/14,,,SLAMMERS FC ECNL G2013/14,Canyon Crest Academy,Stadium,On Time,1085408
+2026-09-19,01:45 PM,Group Play,Legends FC Del Mar ECNL G2013/14,,,SLAMMERS FC ECNL G2013/14,Canyon Crest Academy,Stadium,On Time,1085408
 2026-09-19,05:15 PM,Group Play,Sporting California USA ECNL G2013/14,,,Slammers FC HB Koge ECNL G2013/14,San Bernardino Soccer Complex,Field 1,On Time,1085420
 2026-09-19,05:20 PM,Group Play,Eagles SC ECNL G2013/14,,,Pateadores Soccer Club ECNL G2013/14,Pleasant Valley Fields,Field 14,On Time,1085384
 2026-09-20,09:00 AM,Group Play,Utah Royals FC-AZ ECNL G2013/14,,,LV Heat Surf ECNL G2013/14,Bell Road Sports Complex,Field 16,On Time,1085426
@@ -30,7 +29,7 @@ date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchI
 2026-10-03,01:00 PM,Group Play,Pateadores Soccer Club ECNL G2013/14,,,Rebels SC ECNL G2013/14,Great Park,Field 8,On Time,1085498
 2026-10-03,05:15 PM,Group Play,Legends FC Del Mar ECNL G2013/14,,,So Cal Blues ECNL G2013/14,Orange Glen High School,Stadium,On Time,1085486
 2026-10-03,05:20 PM,Group Play,Eagles SC ECNL G2013/14,,,Sporting California USA ECNL G2013/14,Pleasant Valley Fields,Field 14,On Time,1085480
-2026-10-04,TBD,Group Play,LV Heat Surf ECNL G2013/14,,,SLAMMERS FC ECNL G2013/14,,,On Time,1085666
+2026-10-04,08:30 AM,Group Play,LV Heat Surf ECNL G2013/14,,,SLAMMERS FC ECNL G2013/14,Heritage Park Sports Complex,Field 5,On Time,1085666
 2026-10-04,12:00 PM,Group Play,Phoenix Rising FC ECNL G2013/14,,,LAFC So Cal ECNL G2013/14,PRFC Youth Soccer Facility,Field 1,On Time,1085516
 2026-10-17,TBD,Group Play,Eagles SC ECNL G2013/14,,,Legends FC Del Mar ECNL G2013/14,,,On Time,1085522
 2026-10-17,08:30 AM,Group Play,Slammers FC HB Koge ECNL G2013/14,,,LA Breakers FC ECNL G2013/14,Saddleback College,Turf Field,On Time,1085552
@@ -45,7 +44,7 @@ date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchI
 2026-10-24,01:00 PM,Group Play,LA Breakers FC ECNL G2013/14,,,LAFC So Cal ECNL G2013/14,Bell Gardens Sports Complex,Field 4,On Time,1085570
 2026-10-24,01:00 PM,Group Play,Legends FC (CA) ECNL G2013/14,,,Rebels SC ECNL G2013/14,Silverlakes Complex,Field 23,On Time,1085576
 2026-10-24,01:00 PM,Group Play,Pateadores Soccer Club ECNL G2013/14,,,LV Heat Surf ECNL G2013/14,Silverlakes Sports Complex,Field 14,On Time,1085582
-2026-10-25,TBD,Group Play,So Cal Blues ECNL G2013/14,,,LV Heat Surf ECNL G2013/14,,,On Time,1085600
+2026-10-25,09:00 AM,Group Play,So Cal Blues ECNL G2013/14,,,LV Heat Surf ECNL G2013/14,OC Great Park,Field 22,On Time,1085600
 2026-10-25,09:00 AM,Group Play,Utah Royals FC-AZ ECNL G2013/14,,,Legends FC Del Mar ECNL G2013/14,Bell Road Sports Complex,Field 15,On Time,1085606
 2026-10-31,08:30 AM,Group Play,Slammers FC HB Koge ECNL G2013/14,,,LAFC So Cal ECNL G2013/14,Saddleback College,Turf Field,On Time,1085642
 2026-10-31,11:00 AM,Group Play,Beach Futbol Club (CA) ECNL G2013/14,,,Legends FC Del Mar ECNL G2013/14,El Camino College,Stadium,On Time,1085612
@@ -64,12 +63,13 @@ date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchI
 2026-11-21,TBD,Group Play,Arizona Arsenal ECNL G2013/14,,,San Diego Surf ECNL G2013/14,,,On Time,1085708
 2026-11-21,TBD,Group Play,Beach Futbol Club (CA) ECNL G2013/14,,,Rebels SC ECNL G2013/14,,,On Time,1085714
 2026-11-21,TBD,Group Play,LAFC So Cal ECNL G2013/14,,,So Cal Blues ECNL G2013/14,,,On Time,1085720
-2026-11-21,TBD,Group Play,LV Heat Surf ECNL G2013/14,,,Sporting California USA ECNL G2013/14,,,On Time,1085738
 2026-11-21,08:00 AM,Group Play,Legends FC Del Mar ECNL G2013/14,,,Pateadores Soccer Club ECNL G2013/14,Miramesa High School ,Field 1 - Stadium,On Time,1085732
 2026-11-21,08:30 AM,Group Play,SLAMMERS FC ECNL G2013/14,,,Eagles SC ECNL G2013/14,Saddleback College,Turf Field,On Time,1085744
+2026-11-21,12:00 PM,Group Play,LV Heat Surf ECNL G2013/14,,,Sporting California USA ECNL G2013/14,Heritage Park Sports Complex,Field 10,On Time,1085738
 2026-11-21,01:00 PM,Group Play,Legends FC (CA) ECNL G2013/14,,,LA Breakers FC ECNL G2013/14,Silverlakes Complex,Field 2,On Time,1085726
 2026-11-22,TBD,Group Play,Arizona Arsenal ECNL G2013/14,,,Utah Royals FC-AZ ECNL G2013/14,,,On Time,1085750
 2026-11-22,TBD,Group Play,Phoenix Rising FC ECNL G2013/14,,,San Diego Surf ECNL G2013/14,,,On Time,1085756
+2027-01-23,09:00 AM,Group Play,Phoenix Rising FC ECNL G2013/14,,,Arizona Arsenal ECNL G2013/14,PRFC Youth Soccer Facility,Field 1,On Time,1085354
 2027-03-20,TBD,Group Play,Beach Futbol Club (CA) ECNL G2013/14,,,Eagles SC ECNL G2013/14,,,On Time,1085762
 2027-03-20,TBD,Group Play,LAFC So Cal ECNL G2013/14,,,Arizona Arsenal ECNL G2013/14,,,On Time,1085774
 2027-03-20,TBD,Group Play,Legends FC (CA) ECNL G2013/14,,,Pateadores Soccer Club ECNL G2013/14,,,On Time,1085780
