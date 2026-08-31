@@ -1,13 +1,13 @@
 rank,team,club,teamID,gp,w,l,d,pts,ppg,gf,ga,gd
-1,Force (CA) ECNL G2008/09,Force,45841,1,1,0,0,3,3.0,6,0,6
-2,MVLA ECNL G2008/09,MVLA,33438,1,1,0,0,3,3.0,3,0,3
-3,COSC ECNL G2008/09,California Odyssey Soccer Club,95560,1,1,0,0,3,3.0,3,2,1
-4,San Juan SC ECNL G2008/09,San Juan Soccer Club,31488,1,1,0,0,3,3.0,2,1,1
-5,Davis Legacy ECNL G2008/09,Davis Legacy Soccer Club,60301,1,1,0,0,3,3.0,1,0,1
-6,Bay Area Surf - ECNL G2008/09,Bay Area Surf,69035,0,0,0,0,0,0.0,0,0,0
-7,Pleasanton RAGE ECNL G2008/09,Pleasanton Rage,39256,0,0,0,0,0,0.0,0,0,0
-8,Santa Rosa United ECNL G2008/09,Santa Rosa United Soccer,132206,1,0,1,0,0,0.0,2,3,-1
-9,Placer United ECNL G2008/09,Placer United Soccer Club,68831,1,0,1,0,0,0.0,1,2,-1
-10,Mustang SC ECNL G2008/09,Mustang Soccer,31328,1,0,1,0,0,0.0,0,1,-1
-11,Stanislaus Surf - ECNL G2008/09,Stanislaus Surf Soccer Club,62306,1,0,1,0,0,0.0,0,3,-3
-12,Marin FC ECNL G2008/09,Marin FC,56277,1,0,1,0,0,0.0,0,6,-6
+1,San Juan SC ECNL G2008/09,San Juan Soccer Club,31488,3,3,0,0,9,3.0,13,1,12
+2,Force (CA) ECNL G2008/09,Force,45841,3,3,0,0,9,3.0,12,0,12
+3,MVLA ECNL G2008/09,MVLA,33438,2,2,0,0,6,3.0,6,0,6
+4,Davis Legacy ECNL G2008/09,Davis Legacy Soccer Club,60301,3,2,1,0,6,2.0,4,4,0
+5,Marin FC ECNL G2008/09,Marin FC,56277,2,1,1,0,3,1.5,4,8,-4
+6,COSC ECNL G2008/09,California Odyssey Soccer Club,95560,3,1,1,1,4,1.33,6,7,-1
+7,Placer United ECNL G2008/09,Placer United Soccer Club,68831,3,1,2,0,3,1.0,2,5,-3
+8,Stanislaus Surf - ECNL G2008/09,Stanislaus Surf Soccer Club,62306,3,0,2,1,1,0.33,1,13,-12
+9,Bay Area Surf - ECNL G2008/09,Bay Area Surf,69035,0,0,0,0,0,0.0,0,0,0
+10,Santa Rosa United ECNL G2008/09,Santa Rosa United Soccer,132206,2,0,2,0,0,0.0,2,4,-2
+11,Pleasanton RAGE ECNL G2008/09,Pleasanton Rage,39256,2,0,2,0,0,0.0,1,5,-4
+12,Mustang SC ECNL G2008/09,Mustang Soccer,31328,2,0,2,0,0,0.0,0,4,-4

@@ -1,4 +1,7 @@
 date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2026-11-21,12:30 PM,Group Play,WNY Flash ECNL G2009/10,,,FC Alliance TN ECNL G2009/10,Flash Fields,Field A,On Time,1133065
+2026-11-22,12:00 PM,Group Play,Pittsburgh Riverhounds ECNL G2009/10,,,FC Alliance TN ECNL G2009/10,Highmark Stadium,Field 1,On Time,1133050
+2026-11-22,12:30 PM,Group Play,WNY Flash ECNL G2009/10,,,Tennessee SC ECNL G2009/10,Flash Fields,Field A,On Time,1133047
 2026-12-12,TBD,Group Play,Internationals SC ECNL G2009/2010,,,Cleveland Force SC ECNL G2009/10,,,On Time,1132861
 2026-12-12,TBD,Group Play,Pittsburgh Riverhounds ECNL G2009/10,,,WNY Flash ECNL G2009/10,,,On Time,1132864
 2026-12-12,TBD,Group Play,Ohio Premier ECNL G2009/10,,,GTFC Impact ECNL G2009/10,,,On Time,1132867
@@ -28,11 +31,8 @@ date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchI
 2027-04-18,TBD,Group Play,Internationals SC ECNL G2009/2010,,,Racing Louisville Academy ECNL G2009/10,,,On Time,1133032
 2027-04-18,TBD,Group Play,Pittsburgh Riverhounds ECNL G2009/10,,,Indy Eleven ECNL G2009/10,,,On Time,1133038
 2027-04-18,11:30 AM,Group Play,WNY Flash ECNL G2009/10,,,FC Pride Elite ECNL G2009/10,Flash Fields,Field A,On Time,1133035
-2027-04-24,TBD,Group Play,WNY Flash ECNL G2009/10,,,Tennessee SC ECNL G2009/10,,,On Time,1133047
-2027-04-24,TBD,Group Play,Pittsburgh Riverhounds ECNL G2009/10,,,FC Alliance TN ECNL G2009/10,,,On Time,1133050
 2027-04-24,TBD,Group Play,GTFC Impact ECNL G2009/10,,,Racing Louisville Academy ECNL G2009/10,,,On Time,1133053
 2027-04-24,TBD,Group Play,Ohio Premier ECNL G2009/10,,,Ohio Elite SA ECNL G2009/10,,,On Time,1133056
-2027-04-25,TBD,Group Play,WNY Flash ECNL G2009/10,,,FC Alliance TN ECNL G2009/10,,,On Time,1133065
 2027-04-25,TBD,Group Play,Pittsburgh Riverhounds ECNL G2009/10,,,Tennessee SC ECNL G2009/10,,,On Time,1133068
 2027-04-25,TBD,Group Play,GTFC Impact ECNL G2009/10,,,Ohio Elite SA ECNL G2009/10,,,On Time,1133071
 2027-04-25,TBD,Group Play,Ohio Premier ECNL G2009/10,,,Racing Louisville Academy ECNL G2009/10,,,On Time,1133074

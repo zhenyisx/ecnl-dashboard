@@ -1,17 +1,17 @@
 rank,team,club,teamID,gp,w,l,d,pts,ppg,gf,ga,gd
-1,Sting Black ECNL G2013/14,Sting Soccer Club,111690,0,0,0,0,0,0.0,0,0,0
-2,Sting Royal ECNL G2013/14,Sting Soccer Club,131001,0,0,0,0,0,0.0,0,0,0
-3,Albion Hurricanes FC ECNL G2013/14,Albion Hurricanes FC,69768,0,0,0,0,0,0.0,0,0,0
-4,FC Westlake ECNL G2013/14,FC Westlake ,131271,0,0,0,0,0,0.0,0,0,0
-5,Colorado Storm ECNL G2013/14,Colorado Storm,132370,0,0,0,0,0,0.0,0,0,0
-6,Challenge SC ECNL G2013/14,Challenge SC,129343,0,0,0,0,0,0.0,0,0,0
-7,Real Colorado Athletico ECNL G2013/14,Real Colorado,127617,0,0,0,0,0,0.0,0,0,0
+1,Colorado Storm ECNL G2013/14,Colorado Storm,132370,1,1,0,0,3,3.0,4,0,4
+2,Real Colorado National ECNL G2013/14,Real Colorado,108897,1,1,0,0,3,3.0,3,0,3
+3,Sting Black ECNL G2013/14,Sting Soccer Club,111690,0,0,0,0,0,0.0,0,0,0
+4,Sting Royal ECNL G2013/14,Sting Soccer Club,131001,0,0,0,0,0,0.0,0,0,0
+5,Albion Hurricanes FC ECNL G2013/14,Albion Hurricanes FC,69768,0,0,0,0,0,0.0,0,0,0
+6,FC Westlake ECNL G2013/14,FC Westlake ,131271,0,0,0,0,0,0.0,0,0,0
+7,Challenge SC ECNL G2013/14,Challenge SC,129343,0,0,0,0,0,0.0,0,0,0
 8,FC Dallas Youth ECNL G2013/14,FC Dallas Youth,96490,0,0,0,0,0,0.0,0,0,0
 9,DKSC ECNL G2013/14,DKSC,131839,0,0,0,0,0,0.0,0,0,0
 10,SOLAR SC ECNL G2013/14,Solar SC,69973,0,0,0,0,0,0.0,0,0,0
-11,Real Colorado National ECNL G2013/14,Real Colorado,108897,0,0,0,0,0,0.0,0,0,0
-12,Colorado Rush ECNL G2013/14,Colorado Rush,132180,0,0,0,0,0,0.0,0,0,0
-13,West Side Alliance ECNL G2013/14,West Side Alliance SC,129323,0,0,0,0,0,0.0,0,0,0
-14,Lonestar ATX Red ECNL G2013/14,Lonestar ATX,132704,0,0,0,0,0,0.0,0,0,0
-15,Dallas Texans ECNL G2013/14,Dallas Texans,134490,0,0,0,0,0,0.0,0,0,0
-16,OK Energy FC ECNL G2013/14,Oklahoma Energy FC,94445,0,0,0,0,0,0.0,0,0,0
+11,West Side Alliance ECNL G2013/14,West Side Alliance SC,129323,0,0,0,0,0,0.0,0,0,0
+12,Lonestar ATX Red ECNL G2013/14,Lonestar ATX,132704,0,0,0,0,0,0.0,0,0,0
+13,Dallas Texans ECNL G2013/14,Dallas Texans,134490,0,0,0,0,0,0.0,0,0,0
+14,OK Energy FC ECNL G2013/14,Oklahoma Energy FC,94445,0,0,0,0,0,0.0,0,0,0
+15,Colorado Rush ECNL G2013/14,Colorado Rush,132180,1,0,1,0,0,0.0,0,3,-3
+16,Real Colorado Athletico ECNL G2013/14,Real Colorado,127617,1,0,1,0,0,0.0,0,4,-4

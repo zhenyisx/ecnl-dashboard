@@ -1,54 +1,76 @@
 # ECNL Girls Conference Standings Dashboard
 
-A standings **and schedule** dashboard for ECNL (Elite Clubs National League) Girls conferences,
-built as a single-page HTML app backed by a lightweight Python proxy server.
+A standings **and schedule** dashboard for ECNL (Elite Clubs National League) Girls
+conferences — a single static HTML page over a self-refreshing local archive of the data.
 
-Everything it fetches is mirrored to disk, so the dashboard keeps working from local
-files if the upstream API or website ever goes away.
+Everything is mirrored to disk, so the dashboard keeps working from local files if the
+upstream API or website ever goes away.
 
 ## Features
 
-- **Conference Standings** — All 10 ECNL conferences across 5 seasons (2021-22 through 2025-26), per-flight tables
+- **Conference Standings** — All 10 ECNL conferences across 6 seasons (2021-22 through 2026-27), per-flight tables
 - **Schedules** — Full fixtures and results in-app: date, kickoff time, venue, both teams, final score. No longer just an outbound link
-- **Offline archive** — Every API response is saved under `archive/`; if the live API is unreachable the proxy serves the archived copy automatically, and the page shows an **Archived** badge
+- **Fully static** — no backend at runtime; deploys to any static host for free, and works offline once loaded
+- **Self-refreshing** — a scheduled job updates the data on match days and keeps the fixture calendar current
 - **CSV exports** — Human-readable standings and schedule tables under `export/`, openable in Excel
 - **Playoffs & Finals** — Group stage standings for the national Playoffs event
 - **★ My Teams** — Star any team to track them in a personal favorites list
 - **Age group navigation** — Tabs populated from the API; keyboard arrow-key navigation
 - **Dark mode**, and **deep links** (season, age group, conference, and view in the URL hash)
 
-## Setup
+## How it works
 
-### 1. Start the server
+The site is **fully static**. `archive.py` pre-fetches every API response into
+`public/archive/api/**.json`, and the page reads those files directly — it never
+calls the API from the browser (which it couldn't anyway: the API sends no CORS
+headers). A scheduled GitHub Action keeps the data current.
 
-```bash
-python proxy_server.py
-```
+`public/` is simultaneously the Cloudflare Pages output directory and the local
+server root, so **the hosted site and your local copy are the same files** with no
+build step between them.
 
-Serves on **port 5000**, proxying API calls to `https://api.athleteone.com` and
-archiving every response it receives.
-
-### 2. Open the dashboard
-
-[http://localhost:5000/ecnl-dashboard.html](http://localhost:5000/ecnl-dashboard.html)
-
-### 3. Build the offline archive
-
-Browsing archives whatever you look at. To capture everything in one pass:
+## Run it locally
 
 ```bash
-python archive.py                      # newest season
-python archive.py --season 2024-25
-python archive.py --all                # every season (~1,200 requests, ~10 min)
+cd public && python -m http.server 8000     # any static server works
 ```
 
-Then confirm the archive is complete by running with no network access at all:
+Then open [http://localhost:8000/](http://localhost:8000/). No backend needed.
+
+Or use `python proxy_server.py` (port 5000) if you also want `?live=1`, which
+routes data requests through a live API proxy for debugging.
+
+## Refresh the data
 
 ```bash
-python proxy_server.py --offline
+python archive.py --refresh        # what the scheduled workflow runs
 ```
 
-Commit `archive/` and `export/` to git — that is what makes the data durable.
+The refresh is **driven by the fixture calendar**, not a clock. Of 288 days in a
+season only 81 have games, and 99.7% of those are Sat/Sun — so on most days there
+is provably nothing to fetch:
+
+| Run | Work done |
+|---|---|
+| Non-match day, not the sweep hour | exits in seconds, **0 requests** |
+| Sweep hour (daily) | all flight schedules, rebuilding the calendar |
+| Match day | the flights that played, every 2 h |
+
+Standings are only refetched where a **result actually changed** — schedule
+payloads carry scores, so a schedule fetch collects results too, and standings
+cannot move unless a score did.
+
+Useful flags:
+
+```bash
+python archive.py --refresh --sweep                    # force the all-flights sweep
+python archive.py --refresh --dry-run --date 2026-09-12  # test a given day
+python archive.py --season 2026-27                     # full crawl of one season
+python archive.py --all                                # every season (~1,200 requests)
+```
+
+Commit `public/archive/` and `export/` — that is what makes the data durable, and
+pushing to `main` is what deploys.
 
 ## Adding a season or conference
 
@@ -73,15 +95,24 @@ The season dropdown rebuilds itself from the registry, so no HTML edit is needed
 
 | Path | What it is |
 |---|---|
-| `ecnl-dashboard.html` | The whole app — HTML, CSS and JS in one file |
-| `data/sources.json` | Season → conference → event ID registry, with provenance |
-| `proxy_server.py` | Static server + API proxy + write-through archive + fallback |
-| `archive.py` | Bulk crawler: archive mirror, CSV exports, manifest |
-| `ecnl_api.py` | Shared API/archive helpers used by both scripts |
-| `archive/api/…` | Raw API responses, keyed by endpoint path (what offline mode replays) |
-| `archive/manifest.json` | Index tying event IDs back to season/conference/flight |
-| `export/<season>/<conf>/` | `*.standings.csv`, `*.schedule.csv`, `_all.standings.csv` |
+| **`public/`** | **Everything the site serves** — Pages output dir and local server root |
+| `public/index.html` | The whole app — HTML, CSS and JS in one file |
+| `public/data/sources.json` | Season → conference → event ID registry, refresh policy, birth-year anchor |
+| `public/archive/api/…` | Raw API responses keyed by endpoint path — what the site reads |
+| `public/archive/match-days.json` | Fixture calendar that drives the refresh schedule |
+| `public/archive/refresh-state.json` | When the data was last refreshed (powers "Updated 3h ago") |
+| `public/archive/manifest.json` | Index tying event IDs back to season/conference/flight |
+| `archive.py` | Crawler: match-day refresh, bulk backfill, CSV exports, `--verify` |
+| `ecnl_api.py` | Shared API/archive helpers |
+| `proxy_server.py` | Local static server, plus the `?live=1` API proxy |
+| `export/<season>/<conf>/` | CSVs — not published; `*.standings.csv`, `*.schedule.csv` |
+| `.github/workflows/refresh.yml` | The 2-hourly scheduled refresh |
 | `ecnl-standings.html` | Deprecated first version, kept for reference |
+
+## Deploying
+
+Cloudflare Pages: connect the repo, production branch `main`, **build command:
+none**, **build output directory: `public`**. Pushing to `main` deploys.
 
 ## Data Sources
 
@@ -142,3 +173,8 @@ season, and shows it on hover over an age-group tab. It refreshes on each
 - The page keeps no API cache of its own — `localStorage` holds only your
   preferences (theme, favorites, last view). The on-disk archive replaces the old
   localStorage cache, which was unbounded and silently hit the browser's ~5 MB quota.
+- Freshness comes from `public/archive/refresh-state.json`, not file timestamps.
+  A git checkout resets every file's mtime, so an mtime-based check would make CI
+  believe the archive was just written and skip all work.
+- Some games are never scored upstream — 14 from 2025-26 are still blank — so the
+  missing-results chase is capped by `refresh.pending.maxPendingAgeDays`.

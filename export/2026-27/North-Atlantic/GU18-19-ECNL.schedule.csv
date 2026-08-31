@@ -1,6 +1,6 @@
 date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
 2027-03-07,TBD,Group Play,PDA White ECNL G2008/09,,,HEX FC Bucks ECNL G2008/09,,,On Time,1072542
-2027-03-09,08:00 PM,Group Play,PDA Blue ECNL G2008/09,,,PDA White ECNL G2008/09,,,On Time,1072690
+2027-03-09,06:45 PM,Group Play,PDA Blue ECNL G2008/09,,,PDA White ECNL G2008/09,PDA Main Complex,Field 5,On Time,1072690
 2027-03-20,TBD,Group Play,Bethesda SC ECNL G2008/09,,,FC DELCO ECNL G2008/09,,,On Time,1072550
 2027-03-20,TBD,Group Play,Penn Fusion Soccer Academy ECNL G2008/09,,,PDA Blue ECNL G2008/09,,,On Time,1072554
 2027-03-20,TBD,Group Play,PDA White ECNL G2008/09,,,Match Fit Surf ECNL G2008/09,,,On Time,1072558
@@ -43,4 +43,4 @@ date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchI
 2027-05-15,TBD,Group Play,Penn Fusion Soccer Academy ECNL G2008/09,,,Match Fit Surf ECNL G2008/09,,,On Time,1072714
 2027-05-15,03:00 PM,Group Play,PDA Blue ECNL G2008/09,,,Philadelphia Ukrainian Nationals ECNL G2008/09,PDA Main Complex,Field 5,On Time,1072706
 2027-05-16,TBD,Group Play,HEX FC Bucks ECNL G2008/09,,,Pipeline SC ECNL G2008/09,,,On Time,1072718
-2027-05-22,05:00 PM,Group Play,PDA Blue ECNL G2008/09,,,Match Fit Surf ECNL G2008/09,PDA Main Complex,Field 5,On Time,1072586
+2027-05-22,01:00 PM,Group Play,PDA Blue ECNL G2008/09,,,Match Fit Surf ECNL G2008/09,PDA Main Complex,Field 5,On Time,1072586

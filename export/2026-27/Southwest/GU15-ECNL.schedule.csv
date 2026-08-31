@@ -16,7 +16,6 @@ date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchI
 2026-09-19,01:45 PM,Group Play,Sporting California USA ECNL G2011/12,,,Slammers FC HB Koge ECNL G2011/12,San Bernardino Soccer Complex,Field 1,On Time,1085418
 2026-09-19,02:00 PM,Group Play,Eagles SC ECNL G2011/12,,,Pateadores Soccer Club ECNL G2011/12,Pleasant Valley Fields,Field 14,On Time,1085382
 2026-09-20,01:00 PM,Group Play,Utah Royals FC-AZ ECNL G2011/12,,,LV Heat Surf ECNL G2011/12,Bell Road Sports Complex,Field 16,On Time,1085424
-2026-09-26,TBD,Group Play,LAFC So Cal ECNL G2011/12,,,Eagles SC ECNL G2011/12,,,On Time,1085436
 2026-09-26,08:30 AM,Group Play,SLAMMERS FC ECNL G2011/12,,,Arizona Arsenal ECNL G2011/12,Arroyo Park,Field 1,On Time,1085454
 2026-09-26,10:00 AM,Group Play,Phoenix Rising FC ECNL G2011/12,,,Utah Royals FC-AZ ECNL G2011/12,PRFC Youth Soccer Facility,Field 1,On Time,1085442
 2026-09-26,10:00 AM,Group Play,Sporting California USA ECNL G2011/12,,,San Diego Surf ECNL G2011/12,San Bernardino Soccer Complex,Field 1,On Time,1085460
@@ -24,6 +23,7 @@ date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchI
 2026-09-26,11:00 AM,Group Play,LA Breakers FC ECNL G2011/12,,,Pateadores Soccer Club ECNL G2011/12,Bell Gardens Sports Complex,Field 3,On Time,1085430
 2026-09-27,TBD,Group Play,LV Heat Surf ECNL G2011/12,,,Legends FC (CA) ECNL G2011/12,,,On Time,1085622
 2026-09-27,09:00 AM,Group Play,Beach Futbol Club (CA) ECNL G2011/12,,,Arizona Arsenal ECNL G2011/12,El Camino College,Stadium,On Time,1085466
+2026-09-27,06:15 PM,Group Play,LAFC So Cal ECNL G2011/12,,,Eagles SC ECNL G2011/12,Oak Park High School,Stadium,On Time,1085436
 2026-10-03,09:00 AM,Group Play,Beach Futbol Club (CA) ECNL G2011/12,,,Legends FC (CA) ECNL G2011/12,El Camino College,Stadium,On Time,1085472
 2026-10-03,09:00 AM,Group Play,Pateadores Soccer Club ECNL G2011/12,,,Rebels SC ECNL G2011/12,Great Park,Field 8,On Time,1085496
 2026-10-03,11:45 AM,Group Play,Slammers FC HB Koge ECNL G2011/12,,,San Diego Surf ECNL G2011/12,Saddleback College,Turf Field,On Time,1085502
@@ -33,11 +33,11 @@ date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchI
 2026-10-04,TBD,Group Play,LV Heat Surf ECNL G2011/12,,,SLAMMERS FC ECNL G2011/12,,,On Time,1085664
 2026-10-04,10:00 AM,Group Play,Phoenix Rising FC ECNL G2011/12,,,LAFC So Cal ECNL G2011/12,PRFC Youth Soccer Facility,Field 1,On Time,1085514
 2026-10-17,TBD,Group Play,Eagles SC ECNL G2011/12,,,Legends FC Del Mar ECNL G2011/12,,,On Time,1085520
-2026-10-17,TBD,Group Play,SLAMMERS FC ECNL G2011/12,,,Beach Futbol Club (CA) ECNL G2011/12,,,On Time,1085544
 2026-10-17,11:45 AM,Group Play,Slammers FC HB Koge ECNL G2011/12,,,LA Breakers FC ECNL G2011/12,Saddleback College,Turf Field,On Time,1085550
 2026-10-17,12:45 PM,Group Play,Rebels SC ECNL G2011/12,,,Arizona Arsenal ECNL G2011/12,Monte Vista High School,Stadium,On Time,1085532
 2026-10-17,01:00 PM,Group Play,Legends FC (CA) ECNL G2011/12,,,Sporting California USA ECNL G2011/12,Silverlakes Complex,Field 23,On Time,1085526
 2026-10-17,01:00 PM,Group Play,San Diego Surf ECNL G2011/12,,,So Cal Blues ECNL G2011/12,Surf Sports Park,Field 6,On Time,1085538
+2026-10-17,01:30 PM,Group Play,SLAMMERS FC ECNL G2011/12,,,Beach Futbol Club (CA) ECNL G2011/12,Silver Lakes Sports Complex (Norco),Field 22,On Time,1085544
 2026-10-18,11:00 AM,Group Play,Legends FC Del Mar ECNL G2011/12,,,Arizona Arsenal ECNL G2011/12,Scripps Ranch High School,Field 1,On Time,1085556
 2026-10-24,TBD,Group Play,Eagles SC ECNL G2011/12,,,San Diego Surf ECNL G2011/12,,,On Time,1085562
 2026-10-24,TBD,Group Play,Phoenix Rising FC ECNL G2011/12,,,Legends FC Del Mar ECNL G2011/12,,,On Time,1085586

@@ -1,0 +1,78 @@
+name: Refresh ECNL data
+
+# Runs every 2 hours, but archive.py decides what each run actually does:
+#   - non-match day, not the sweep hour -> exits in seconds, zero API calls
+#   - sweep hour (see refresh.sweep.atUtcHour in public/data/sources.json)
+#     -> refreshes every flight's schedule, rebuilding the fixture calendar
+#   - match day -> refreshes the flights that played
+# Standings are only refetched where a result actually changed.
+#
+# Pushing to main triggers the Cloudflare Pages deploy.
+
+on:
+  schedule:
+    # Keep in sync with refresh.matchDay.everyHours in public/data/sources.json.
+    # GitHub delays cron under load, so treat this as approximate.
+    - cron: "0 */2 * * *"
+  workflow_dispatch:
+    inputs:
+      sweep:
+        description: "Force the all-flights schedule sweep"
+        type: boolean
+        default: false
+      force:
+        description: "Ignore the minIntervalMinutes rate guard"
+        type: boolean
+        default: false
+
+# Never let two refreshes run at once — they would both commit.
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # archive.py is stdlib-only, so there is nothing to install.
+      - name: Refresh data
+        id: refresh
+        continue-on-error: true
+        run: |
+          python archive.py --refresh \
+            ${{ inputs.sweep && '--sweep' || '' }} \
+            ${{ inputs.force && '--force' || '' }}
+
+      - name: Show refresh state
+        if: always()
+        run: cat public/archive/refresh-state.json || echo "(no state file written)"
+
+      # Commit whatever was fetched, even if some requests failed, so partial
+      # progress is never lost.
+      - name: Commit changed data
+        if: always()
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No data changed; nothing to commit."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "data: refresh $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
+
+      - name: Fail if the refresh reported errors
+        if: steps.refresh.outcome == 'failure'
+        run: |
+          echo "archive.py reported failures - see the Refresh data step."
+          exit 1

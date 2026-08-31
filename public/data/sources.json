@@ -1,0 +1,587 @@
+{
+  "_comment": "Source registry for the ECNL Girls dashboard. Single source of truth for which TGS/AthleteOne event IDs back each season+conference. Read by ecnl-dashboard.html at startup and by archive.py. Add a season by adding a key under `seasons`, then run: python archive.py --verify --season <key>",
+  "updated": "2026-08-27",
+  "apiBase": "https://api.athleteone.com/api",
+  "endpoints": {
+    "hierarchy": "Event/get-event-schedule-or-standings/{eventId}",
+    "standings": "Event/get-standings-by-div-and-flight/{divisionId}/{flightId}/{eventId}",
+    "schedule": "Event/get-schedules-by-flight/{eventId}/{flightId}/0",
+    "brackets": "Event/get-flight-brackets-by-flight/{eventId}/{flightId}",
+    "eventDetails": "Event/get-event-details-by-eventID/{eventId}"
+  },
+  "refresh": {
+    "_comment": "Drives `archive.py --refresh`. Only activeSeason is ever fetched; past seasons are final. everyHours documents intent - the cron in .github/workflows/refresh.yml is the real schedule, so keep them in sync.",
+    "activeSeason": "2026-27",
+    "matchDay": { "everyHours": 2, "lookbackDays": 2, "timezonePaddingDays": 1 },
+    "sweep": { "daily": true, "atUtcHour": 6 },
+    "pending": { "maxPendingAgeDays": 21 },
+    "minIntervalMinutes": 90
+  },
+
+  "publicUrlTemplates": {
+    "_comment": "Original public website links, preserved alongside the archived data. TGS is migrating to app.athleteone.com; change the host here in one place if public.totalglobalsports.com retires.",
+    "standings": "https://public.totalglobalsports.com/public/event/{eventId}/standings/{flightId}",
+    "schedules": "https://public.totalglobalsports.com/public/event/{eventId}/schedules/{flightId}",
+    "eventHome": "https://public.totalglobalsports.com/public/event/{eventId}/schedules-standings"
+  },
+  "seasons": {
+    "2026-27": {
+      "startYear": 2026,
+      "_note": "Divisions are named by age this season (GU13 … GU18/19), as in 2021-22, rather than by birth year.",
+      "conferences": {
+        "Mid-Atlantic": {
+          "eventId": 4263,
+          "eventName": "ECNL Girls Mid-Atlantic 2026-27"
+        },
+        "Midwest": {
+          "eventId": 4264,
+          "eventName": "ECNL Girls Midwest 2026-27"
+        },
+        "New England": {
+          "eventId": 4265,
+          "eventName": "ECNL Girls New England 2026-27"
+        },
+        "North Atlantic": {
+          "eventId": 4266,
+          "eventName": "ECNL Girls North Atlantic 2026-27"
+        },
+        "NorCal": {
+          "eventId": 4267,
+          "eventName": "ECNL Girls Northern Cal 2026-27"
+        },
+        "Northwest": {
+          "eventId": 4268,
+          "eventName": "ECNL Girls Northwest 2026-27"
+        },
+        "Ohio Valley": {
+          "eventId": 4269,
+          "eventName": "ECNL Girls Ohio Valley 2026-27"
+        },
+        "Southeast": {
+          "eventId": 4270,
+          "eventName": "ECNL Girls Southeast 2026-27"
+        },
+        "Southwest": {
+          "eventId": 4271,
+          "eventName": "ECNL Girls Southwest 2026-27"
+        },
+        "Texas": {
+          "eventId": 4272,
+          "eventName": "ECNL Girls Texas 2026-27"
+        }
+      },
+      "national": {},
+      "ageGroups": {
+        "GU18/19": {
+          "u": 18,
+          "birthYears": [
+            2008,
+            2009
+          ],
+          "source": "team-names"
+        },
+        "GU17": {
+          "u": 17,
+          "birthYears": [
+            2009,
+            2010
+          ],
+          "source": "team-names"
+        },
+        "GU16": {
+          "u": 16,
+          "birthYears": [
+            2010,
+            2011
+          ],
+          "source": "team-names"
+        },
+        "GU15": {
+          "u": 15,
+          "birthYears": [
+            2011,
+            2012
+          ],
+          "source": "team-names"
+        },
+        "GU14": {
+          "u": 14,
+          "birthYears": [
+            2012,
+            2013
+          ],
+          "source": "team-names"
+        },
+        "GU13": {
+          "u": 13,
+          "birthYears": [
+            2013,
+            2014
+          ],
+          "source": "team-names"
+        }
+      }
+    },
+    "2025-26": {
+      "startYear": 2025,
+      "conferences": {
+        "Mid-Atlantic": {
+          "eventId": 3925,
+          "eventName": "ECNL Girls Mid-Atlantic 2025-26"
+        },
+        "Midwest": {
+          "eventId": 3926,
+          "eventName": "ECNL Girls Midwest 2025-26"
+        },
+        "New England": {
+          "eventId": 3927,
+          "eventName": "ECNL Girls New England 2025-26"
+        },
+        "North Atlantic": {
+          "eventId": 3928,
+          "eventName": "ECNL Girls North Atlantic 2025-26"
+        },
+        "NorCal": {
+          "eventId": 3929,
+          "eventName": "ECNL Girls Northern Cal 2025-26"
+        },
+        "Northwest": {
+          "eventId": 3930,
+          "eventName": "ECNL Girls Northwest 2025-26"
+        },
+        "Ohio Valley": {
+          "eventId": 3931,
+          "eventName": "ECNL Girls Ohio Valley 2025-26"
+        },
+        "Southeast": {
+          "eventId": 3932,
+          "eventName": "ECNL Girls Southeast 2025-26"
+        },
+        "Southwest": {
+          "eventId": 3933,
+          "eventName": "ECNL Girls Southwest 2025-26"
+        },
+        "Texas": {
+          "eventId": 3934,
+          "eventName": "ECNL Girls Texas 2025-26"
+        }
+      },
+      "national": {},
+      "ageGroups": {
+        "G2008/2007": {
+          "u": 18,
+          "birthYears": [
+            2007,
+            2008
+          ],
+          "source": "division-name"
+        },
+        "G2009": {
+          "u": 17,
+          "birthYears": [
+            2009
+          ],
+          "source": "division-name"
+        },
+        "G2010": {
+          "u": 16,
+          "birthYears": [
+            2010
+          ],
+          "source": "division-name"
+        },
+        "G2011": {
+          "u": 15,
+          "birthYears": [
+            2011
+          ],
+          "source": "division-name"
+        },
+        "G2012": {
+          "u": 14,
+          "birthYears": [
+            2012
+          ],
+          "source": "division-name"
+        },
+        "G2013": {
+          "u": 13,
+          "birthYears": [
+            2013
+          ],
+          "source": "division-name"
+        }
+      }
+    },
+    "2024-25": {
+      "startYear": 2024,
+      "conferences": {
+        "Mid-Atlantic": {
+          "eventId": 3157,
+          "eventName": "ECNL Girls Mid-Atlantic 2024-25"
+        },
+        "Midwest": {
+          "eventId": 3158,
+          "eventName": "ECNL Girls Midwest 2024-25"
+        },
+        "New England": {
+          "eventId": 3159,
+          "eventName": "ECNL Girls New England 2024-25"
+        },
+        "North Atlantic": {
+          "eventId": 3160,
+          "eventName": "ECNL Girls North Atlantic 2024-25"
+        },
+        "NorCal": {
+          "eventId": 3161,
+          "eventName": "ECNL Girls Northern Cal 2024-25"
+        },
+        "Northwest": {
+          "eventId": 3162,
+          "eventName": "ECNL Girls Northwest 2024-25"
+        },
+        "Ohio Valley": {
+          "eventId": 3163,
+          "eventName": "ECNL Girls Ohio Valley 2024-25"
+        },
+        "Southeast": {
+          "eventId": 3164,
+          "eventName": "ECNL Girls Southeast 2024-25"
+        },
+        "Southwest": {
+          "eventId": 3165,
+          "eventName": "ECNL Girls Southwest 2024-25"
+        },
+        "Texas": {
+          "eventId": 3166,
+          "eventName": "ECNL Girls Texas 2024-25"
+        }
+      },
+      "national": {
+        "Playoffs": {
+          "eventId": 3865,
+          "eventName": "ECNL Girls National Playoffs"
+        },
+        "Finals": {
+          "eventId": 3975,
+          "eventName": "ECNL Girls National Finals"
+        }
+      },
+      "ageGroups": {
+        "G2007/2006": {
+          "u": 18,
+          "birthYears": [
+            2006,
+            2007
+          ],
+          "source": "division-name"
+        },
+        "G2008": {
+          "u": 17,
+          "birthYears": [
+            2008
+          ],
+          "source": "division-name"
+        },
+        "G2009": {
+          "u": 16,
+          "birthYears": [
+            2009
+          ],
+          "source": "division-name"
+        },
+        "G2010": {
+          "u": 15,
+          "birthYears": [
+            2010
+          ],
+          "source": "division-name"
+        },
+        "G2011": {
+          "u": 14,
+          "birthYears": [
+            2011
+          ],
+          "source": "division-name"
+        },
+        "G2012": {
+          "u": 13,
+          "birthYears": [
+            2012
+          ],
+          "source": "division-name"
+        }
+      }
+    },
+    "2023-24": {
+      "startYear": 2023,
+      "conferences": {
+        "Mid-Atlantic": {
+          "eventId": 2839,
+          "eventName": "ECNL Girls Mid-Atlantic 2023-24"
+        },
+        "Midwest": {
+          "eventId": 2849,
+          "eventName": "ECNL Girls Midwest 2023-24"
+        },
+        "New England": {
+          "eventId": 2853,
+          "eventName": "ECNL Girls New England 2023-24"
+        },
+        "North Atlantic": {
+          "eventId": 2850,
+          "eventName": "ECNL Girls North Atlantic 2023-24"
+        },
+        "NorCal": {
+          "eventId": 2854,
+          "eventName": "ECNL Girls Northern Cal 2023-24"
+        },
+        "Northwest": {
+          "eventId": 2855,
+          "eventName": "ECNL Girls Northwest 2023-24"
+        },
+        "Ohio Valley": {
+          "eventId": 2856,
+          "eventName": "ECNL Girls Ohio Valley 2023-24"
+        },
+        "Southeast": {
+          "eventId": 2838,
+          "eventName": "ECNL Girls Southeast 2023-24"
+        },
+        "Southwest": {
+          "eventId": 2837,
+          "eventName": "ECNL Girls Southwest 2023-24"
+        },
+        "Texas": {
+          "eventId": 2857,
+          "eventName": "ECNL Girls Texas 2023-24"
+        }
+      },
+      "national": {},
+      "ageGroups": {
+        "G2006/2005": {
+          "u": 18,
+          "birthYears": [
+            2005,
+            2006
+          ],
+          "source": "division-name"
+        },
+        "G2007": {
+          "u": 17,
+          "birthYears": [
+            2007
+          ],
+          "source": "division-name"
+        },
+        "G2008": {
+          "u": 16,
+          "birthYears": [
+            2008
+          ],
+          "source": "division-name"
+        },
+        "G2009": {
+          "u": 15,
+          "birthYears": [
+            2009
+          ],
+          "source": "division-name"
+        },
+        "G2010": {
+          "u": 14,
+          "birthYears": [
+            2010
+          ],
+          "source": "division-name"
+        },
+        "G2011": {
+          "u": 13,
+          "birthYears": [
+            2011
+          ],
+          "source": "division-name"
+        }
+      }
+    },
+    "2022-23": {
+      "startYear": 2022,
+      "conferences": {
+        "Mid-Atlantic": {
+          "eventId": 2523,
+          "eventName": "ECNL Girls Mid-Atlantic 2022-23"
+        },
+        "Midwest": {
+          "eventId": 2529,
+          "eventName": "ECNL Girls Midwest 2022-23"
+        },
+        "New England": {
+          "eventId": 2531,
+          "eventName": "ECNL Girls New England 2022-23"
+        },
+        "North Atlantic": {
+          "eventId": 2530,
+          "eventName": "ECNL Girls North Atlantic 2022-23"
+        },
+        "NorCal": {
+          "eventId": 2528,
+          "eventName": "ECNL Girls Norcal 2022-23"
+        },
+        "Northwest": {
+          "eventId": 2522,
+          "eventName": "ECNL Girls Northwest 2022-23"
+        },
+        "Ohio Valley": {
+          "eventId": 2524,
+          "eventName": "ECNL Girls Ohio Valley 2022-23"
+        },
+        "Southeast": {
+          "eventId": 2527,
+          "eventName": "ECNL Girls Southeast 2022-23"
+        },
+        "Southwest": {
+          "eventId": 2525,
+          "eventName": "ECNL Girls Southwest 2022-23"
+        },
+        "Texas": {
+          "eventId": 2526,
+          "eventName": "ECNL Girls Texas 2022-23"
+        }
+      },
+      "national": {},
+      "ageGroups": {
+        "G2005/2004": {
+          "u": 18,
+          "birthYears": [
+            2004,
+            2005
+          ],
+          "source": "division-name"
+        },
+        "G2006": {
+          "u": 17,
+          "birthYears": [
+            2006
+          ],
+          "source": "division-name"
+        },
+        "G2007": {
+          "u": 16,
+          "birthYears": [
+            2007
+          ],
+          "source": "division-name"
+        },
+        "G2008": {
+          "u": 15,
+          "birthYears": [
+            2008
+          ],
+          "source": "division-name"
+        },
+        "G2009": {
+          "u": 14,
+          "birthYears": [
+            2009
+          ],
+          "source": "division-name"
+        },
+        "G2010": {
+          "u": 13,
+          "birthYears": [
+            2010
+          ],
+          "source": "division-name"
+        }
+      }
+    },
+    "2021-22": {
+      "startYear": 2021,
+      "_note": "No NorCal conference this season.",
+      "conferences": {
+        "Mid-Atlantic": {
+          "eventId": 2366,
+          "eventName": "ECNL Girls Mid-Atlantic Conference 2021-22"
+        },
+        "Midwest": {
+          "eventId": 2369,
+          "eventName": "ECNL Girls Midwest Conference 2021-22"
+        },
+        "New England": {
+          "eventId": 2374,
+          "eventName": "ECNL Girls New England Conference 2021-22"
+        },
+        "North Atlantic": {
+          "eventId": 2373,
+          "eventName": "ECNL Girls North Atlantic Conference 2021-22"
+        },
+        "Northwest": {
+          "eventId": 2367,
+          "eventName": "ECNL Girls Northwest Conference 2021-22"
+        },
+        "Ohio Valley": {
+          "eventId": 2371,
+          "eventName": "ECNL Girls Ohio Valley Conference 2021-22"
+        },
+        "Southeast": {
+          "eventId": 2372,
+          "eventName": "ECNL Girls Southeast Conference 2021-22"
+        },
+        "Southwest": {
+          "eventId": 2368,
+          "eventName": "ECNL Girls Southwest Conference 2021-22"
+        },
+        "Texas": {
+          "eventId": 2370,
+          "eventName": "ECNL Girls Texas Conference 2021-22"
+        }
+      },
+      "national": {},
+      "ageGroups": {
+        "GU18/U19": {
+          "u": 18,
+          "birthYears": [
+            2003,
+            2004
+          ],
+          "source": "computed"
+        },
+        "GU17": {
+          "u": 17,
+          "birthYears": [
+            2005
+          ],
+          "source": "computed"
+        },
+        "GU16": {
+          "u": 16,
+          "birthYears": [
+            2006
+          ],
+          "source": "computed"
+        },
+        "GU15": {
+          "u": 15,
+          "birthYears": [
+            2007
+          ],
+          "source": "computed"
+        },
+        "GU14": {
+          "u": 14,
+          "birthYears": [
+            2008
+          ],
+          "source": "computed"
+        },
+        "GU13": {
+          "u": 13,
+          "birthYears": [
+            2009
+          ],
+          "source": "computed"
+        }
+      }
+    }
+  }
+}

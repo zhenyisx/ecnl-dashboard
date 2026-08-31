@@ -1,22 +1,28 @@
 """
 ECNL Dashboard archiver (zero-dependency).
 
-Crawls every event listed in data/sources.json and writes:
-  archive/api/<endpoint-path>.json   raw API mirror (what the dashboard reads offline)
-  export/<season>/<conference>/*.csv human-readable standings & schedules
-  archive/manifest.json              index tying event IDs back to season/conference
+Crawls the events listed in public/data/sources.json and writes:
+  public/archive/api/<endpoint-path>.json   raw API mirror (what the site serves)
+  public/archive/match-days.json            fixture calendar driving the refresh
+  public/archive/refresh-state.json         when data was last refreshed
+  export/<season>/<conference>/*.csv        human-readable standings & schedules
+  public/archive/manifest.json              index tying event IDs to season/conference
 
-Usage:
-    python archive.py --verify --all              check every event ID resolves (no data fetch)
-    python archive.py                             archive the newest season
-    python archive.py --season 2024-25
-    python archive.py --season 2024-25 --conference Texas
-    python archive.py --all                       archive every season (~1200+ requests)
-    python archive.py --all --force               ignore the freshness check
+Scheduled use (what the GitHub workflow runs every 2h):
+    python archive.py --refresh               match-day driven; no-ops on quiet days
+    python archive.py --refresh --sweep       force the all-flights schedule sweep
+    python archive.py --refresh --dry-run --date 2026-09-12    test a given day
+
+Manual/bulk use:
+    python archive.py --verify --all          check every event ID resolves
+    python archive.py --season 2026-27        full crawl of one season
+    python archive.py --all                   every season (~1200+ requests)
+    python archive.py --all --force           ignore the freshness check
 """
 
 import argparse
 import csv
+import datetime
 import json
 import os
 import sys
@@ -310,6 +316,328 @@ def save_sources(sources):
     os.replace(tmp, api.SOURCES_PATH)
 
 
+# ---------- match-day driven refresh ----------
+#
+# Schedules carry scores as well as fixtures, so one schedule fetch collects
+# both. Standings is the only endpoint needing a separate call, and it can only
+# move if a score moved — so it is gated behind a diff.
+
+def fetch_json(path, stats):
+    """Fetch and archive, ignoring the mtime freshness check.
+
+    Refresh mode must never trust mtime: a CI checkout resets every file's mtime
+    to clone time, which would make everything look fresh and silently skip all
+    work. refresh-state.json is the authority instead.
+    """
+    raw = api.fetch_api_raw(path)
+    data = json.loads(raw)  # validate before writing
+    api.write_archive(path, raw)
+    stats.fetched += 1
+    time.sleep(DELAY)
+    return data
+
+
+def season_flights(sources, season):
+    """Every flight in a season, from the archived hierarchies.
+
+    Yields dicts with the conference, event, division and flight identifiers.
+    """
+    out = []
+    for conf, ev in (sources["seasons"][season].get("conferences") or {}).items():
+        eid = ev.get("eventId")
+        if not eid:
+            continue
+        raw, _ = api.read_archive(api.p_hierarchy(eid))
+        if not raw:
+            continue
+        try:
+            divs = json.loads(raw)["data"]["girlsDivAndFlightList"] or []
+        except (ValueError, KeyError, TypeError):
+            continue
+        for d in divs:
+            for f in d.get("flightList") or []:
+                out.append({
+                    "conference": conf,
+                    "eventId": eid,
+                    "divisionID": d.get("divisionID"),
+                    "divisionName": d.get("divisionName"),
+                    "flightID": f.get("flightID"),
+                    "flightName": f.get("flightName"),
+                    "key": api.flight_key(eid, f.get("flightID")),
+                })
+    return out
+
+
+def archived_games(event_id, flight_id):
+    raw, _ = api.read_archive(api.p_schedule(event_id, flight_id))
+    if not raw:
+        return []
+    try:
+        return json.loads(raw).get("data") or []
+    except ValueError:
+        return []
+
+
+def build_match_days(sources, season, flights):
+    """Rebuild the fixture calendar from the archived schedules."""
+    days = {}
+    for fl in flights:
+        for g in archived_games(fl["eventId"], fl["flightID"]):
+            d = api.game_date(g)
+            if not d:
+                continue
+            entry = days.setdefault(d, {"games": 0, "flights": []})
+            entry["games"] += 1
+            if fl["key"] not in entry["flights"]:
+                entry["flights"].append(fl["key"])
+    return {
+        "season": season,
+        "generatedAt": api.iso_now(),
+        "days": dict(sorted(days.items())),
+    }
+
+
+def results_signature(games):
+    """Score state of a flight; changes only when a result is entered or edited."""
+    return sorted(
+        (g.get("matchID"), g.get("hometeamscore"), g.get("awayteamscore"),
+         g.get("hometeamPKscore"), g.get("awayteamPKscore"), api.game_date(g))
+        for g in games
+    )
+
+
+def pending_result_flights(flights, today, max_age_days):
+    """Flights with a past game still missing a score, within the chase window.
+
+    The cap matters: 14 games from 2025-26 have been unscored for nearly a year.
+    Without it they would trigger standings refreshes forever.
+    """
+    out = {}
+    for fl in flights:
+        n = 0
+        for g in archived_games(fl["eventId"], fl["flightID"]):
+            d = api.game_date(g)
+            if not d or d >= today.isoformat() or api.has_score(g):
+                continue
+            age = (today - datetime.date.fromisoformat(d)).days
+            if 0 < age <= max_age_days:
+                n += 1
+        if n:
+            out[fl["key"]] = n
+    return out
+
+
+def flights_playing(calendar, flights, today, lookback_days):
+    """Flights with a game in [today - lookback, today]."""
+    want = set()
+    for i in range(lookback_days + 1):
+        d = (today - datetime.timedelta(days=i)).isoformat()
+        want.update((calendar.get("days", {}).get(d) or {}).get("flights") or [])
+    return {fl["key"] for fl in flights if fl["key"] in want}
+
+
+def is_match_day(calendar, today, padding_days):
+    """True if today, or any of the previous `padding_days`, has fixtures.
+
+    gameDate is a local wall-clock string with no timezone while cron runs in
+    UTC, and teams span Pacific to Eastern — an 8pm Saturday kickoff in
+    California is 03:00 Sunday UTC. The padding absorbs that.
+    """
+    for i in range(padding_days + 1):
+        d = (today - datetime.timedelta(days=i)).isoformat()
+        if (calendar.get("days") or {}).get(d):
+            return True
+    return False
+
+
+def export_flight_csv(sources, season, fl):
+    """Regenerate one flight's standings/schedule CSVs from the archive."""
+    base = os.path.join(api.EXPORT_DIR, api.slug(season), api.slug(fl["conference"]))
+    stem = f"{api.slug(fl['divisionName'])}-{api.slug(fl['flightName'])}"
+
+    raw, _ = api.read_archive(api.p_standings(fl["divisionID"], fl["flightID"], fl["eventId"]))
+    if raw:
+        try:
+            payload = json.loads(raw).get("data")
+            block = payload[0] if isinstance(payload, list) and payload else (payload or {})
+            rows = standings_rows(block.get("teamStandings") or [])
+            if rows:
+                write_csv(os.path.join(base, stem + ".standings.csv"), STANDINGS_COLUMNS, rows)
+        except (ValueError, AttributeError, TypeError):
+            pass
+
+    rows = schedule_rows(archived_games(fl["eventId"], fl["flightID"]))
+    if rows:
+        write_csv(os.path.join(base, stem + ".schedule.csv"), SCHEDULE_COLUMNS, rows)
+
+
+def refresh_policy(sources):
+    p = sources.get("refresh") or {}
+    md = p.get("matchDay") or {}
+    return {
+        "activeSeason": p.get("activeSeason") or next(iter(sources["seasons"])),
+        "everyHours": md.get("everyHours", 2),
+        "lookbackDays": md.get("lookbackDays", 2),
+        "timezonePaddingDays": md.get("timezonePaddingDays", 1),
+        "sweepDaily": (p.get("sweep") or {}).get("daily", True),
+        "sweepAtUtcHour": (p.get("sweep") or {}).get("atUtcHour", 6),
+        "maxPendingAgeDays": (p.get("pending") or {}).get("maxPendingAgeDays", 21),
+        "minIntervalMinutes": p.get("minIntervalMinutes", 90),
+    }
+
+
+def cmd_refresh(sources, args):
+    """Match-day driven incremental refresh. Returns a process exit code."""
+    pol = refresh_policy(sources)
+    season = pol["activeSeason"]
+    if season not in sources["seasons"]:
+        print(f"Active season {season!r} is not in the registry.")
+        return 2
+
+    today = (datetime.date.fromisoformat(args.date) if args.date
+             else datetime.datetime.now(datetime.timezone.utc).date())
+    now_hour = (args.at_hour if args.at_hour is not None
+                else datetime.datetime.now(datetime.timezone.utc).hour)
+    state = api.load_refresh_state()
+
+    # Rate guard, so a manual re-run or a duplicated cron cannot hammer the API.
+    last = state.get("updatedAt")
+    if last and not args.force and not args.date:
+        try:
+            prev = datetime.datetime.strptime(last, "%Y-%m-%dT%H:%M:%SZ") \
+                .replace(tzinfo=datetime.timezone.utc)
+            mins = (datetime.datetime.now(datetime.timezone.utc) - prev).total_seconds() / 60
+            if mins < pol["minIntervalMinutes"]:
+                print(f"Last run was {mins:.0f} min ago "
+                      f"(< minIntervalMinutes={pol['minIntervalMinutes']}). Nothing to do.")
+                return 0
+        except ValueError:
+            pass
+
+    flights = season_flights(sources, season)
+    if not flights:
+        print(f"No archived hierarchy for {season}; run: python archive.py --season {season}")
+        return 2
+
+    calendar = api.load_match_days()
+    if calendar.get("season") != season:
+        calendar = build_match_days(sources, season, flights)
+
+    # A sweep is just the run that lands on the configured hour — or the first
+    # run of a day that has not swept yet, so a missed cron self-heals.
+    swept_on = state.get("lastSweepDate")
+    due_by_hour = pol["sweepDaily"] and now_hour >= pol["sweepAtUtcHour"]
+    sweep = bool(args.sweep or (due_by_hour and swept_on != today.isoformat()))
+
+    match_day = is_match_day(calendar, today, pol["timezonePaddingDays"])
+    pending = pending_result_flights(flights, today, pol["maxPendingAgeDays"])
+
+    # ---- candidate set ----
+    candidates = set()
+    if sweep:
+        candidates |= {fl["key"] for fl in flights}
+    if match_day:
+        candidates |= flights_playing(calendar, flights, today, pol["lookbackDays"])
+    candidates |= set(pending)
+
+    reason = ", ".join(filter(None, [
+        "sweep" if sweep else "",
+        "match day" if match_day else "",
+        f"{len(pending)} flights with pending results" if pending else "",
+    ])) or "nothing due"
+    print(f"{today}  {season}  [{reason}]  -> {len(candidates)} of {len(flights)} flights")
+
+    if not candidates:
+        print("Non-match day, no sweep due, no pending results. No network calls.")
+        return 0
+    if args.dry_run:
+        for fl in sorted((f for f in flights if f["key"] in candidates),
+                         key=lambda f: (f["conference"], f["divisionName"])):
+            print(f"  would refresh {fl['conference']:15} {fl['divisionName']:12} {fl['flightName']}")
+        return 0
+
+    stats = Stats()
+    started = time.time()
+    standings_refreshed = 0
+    touched = set()
+
+    # Hierarchies change rarely; refresh them only on a sweep, to catch new flights.
+    if sweep:
+        for conf, ev in (sources["seasons"][season].get("conferences") or {}).items():
+            try:
+                fetch_json(api.p_hierarchy(ev["eventId"]), stats)
+            except api.ApiError as e:
+                stats.fail(f"{season}/{conf}: hierarchy: {e}")
+        flights = season_flights(sources, season) or flights
+
+    by_key = {fl["key"]: fl for fl in flights}
+    for key in sorted(candidates):
+        fl = by_key.get(key)
+        if not fl:
+            continue
+        label = f"{fl['conference']}/{fl['divisionName']}/{fl['flightName']}"
+
+        before = results_signature(archived_games(fl["eventId"], fl["flightID"]))
+        try:
+            payload = fetch_json(api.p_schedule(fl["eventId"], fl["flightID"]), stats)
+        except api.ApiError as e:
+            stats.fail(f"{label}: schedule: {e}")
+            continue
+        games = payload.get("data") or []
+        after = results_signature(games)
+        touched.add(key)
+
+        # Standings cannot move unless a result did — so only refetch when the
+        # score signature actually changed, or when we have no standings at all.
+        have_standings = api.read_archive(
+            api.p_standings(fl["divisionID"], fl["flightID"], fl["eventId"]))[0] is not None
+        if after != before or not have_standings:
+            try:
+                fetch_json(api.p_standings(fl["divisionID"], fl["flightID"], fl["eventId"]), stats)
+                standings_refreshed += 1
+            except api.ApiError as e:
+                stats.fail(f"{label}: standings: {e}")
+
+    # Keep the CSV exports in step with the JSON we just refreshed. Local work
+    # only, no API cost.
+    for key in sorted(touched):
+        fl = by_key.get(key)
+        if fl:
+            export_flight_csv(sources, season, fl)
+
+    # Rebuild the calendar from whatever is now on disk.
+    calendar = build_match_days(sources, season, flights)
+    api.write_json_file(api.MATCH_DAYS_PATH, calendar)
+
+    still_pending = pending_result_flights(flights, today, pol["maxPendingAgeDays"])
+    elapsed = time.time() - started
+    api.write_json_file(api.REFRESH_STATE_PATH, {
+        "updatedAt": api.iso_now(),
+        "activeSeason": season,
+        "runDate": today.isoformat(),
+        "sweep": sweep,
+        "matchDay": match_day,
+        "lastSweepDate": today.isoformat() if sweep else swept_on,
+        "flightsConsidered": len(flights),
+        "flightsRefreshed": len(candidates),
+        "standingsRefreshed": standings_refreshed,
+        "requests": stats.fetched,
+        "failed": stats.failed,
+        "durationSeconds": round(elapsed, 1),
+        "pendingResultFlights": len(still_pending),
+        "pendingResultGames": sum(still_pending.values()),
+    })
+
+    print(f"{stats.fetched} requests ({standings_refreshed} standings), "
+          f"{stats.failed} failed, {elapsed:.0f}s. "
+          f"Pending results: {sum(still_pending.values())} games "
+          f"in {len(still_pending)} flights.")
+    if stats.errors:
+        for e in stats.errors[:10]:
+            print(f"  - {e}")
+    return 1 if stats.failed else 0
+
+
 def load_manifest():
     if os.path.exists(api.MANIFEST_PATH):
         try:
@@ -340,6 +668,15 @@ def main():
                     help="Re-fetch even if the archived copy is less than 12h old.")
     ap.add_argument("--no-update-sources", action="store_true",
                     help="Do not write derived age-group birth years back to data/sources.json.")
+    ap.add_argument("--refresh", action="store_true",
+                    help="Match-day driven incremental refresh of the active season "
+                         "(what the scheduled workflow runs).")
+    ap.add_argument("--sweep", action="store_true",
+                    help="With --refresh: force the all-flights schedule sweep.")
+    ap.add_argument("--date", metavar="YYYY-MM-DD",
+                    help="With --refresh: pretend today is this date (for testing).")
+    ap.add_argument("--at-hour", type=int, metavar="H",
+                    help="With --refresh: pretend the current UTC hour is H (for testing).")
     args = ap.parse_args()
 
     try:
@@ -347,6 +684,9 @@ def main():
     except (OSError, ValueError) as e:
         print(f"Could not read {api.SOURCES_PATH}: {e}")
         return 2
+
+    if args.refresh:
+        return cmd_refresh(sources, args)
 
     season_keys = list(sources["seasons"].keys())
     if args.all:

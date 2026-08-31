@@ -1,17 +1,17 @@
 rank,team,club,teamID,gp,w,l,d,pts,ppg,gf,ga,gd
-1,Albion Hurricanes FC ECNL G2009/10,Albion Hurricanes FC,59340,0,0,0,0,0,0.0,0,0,0
-2,Challenge SC ECNL G2009/10,Challenge SC,129339,0,0,0,0,0,0.0,0,0,0
-3,Colorado Rush ECNL G2009/10,Colorado Rush,94985,0,0,0,0,0,0.0,0,0,0
-4,Colorado Storm ECNL G2009/10,Colorado Storm,69485,0,0,0,0,0,0.0,0,0,0
+1,Real Colorado National ECNL G2009/10,Real Colorado,69251,1,1,0,0,3,3.0,3,0,3
+2,Colorado Storm ECNL G2009/10,Colorado Storm,69485,1,1,0,0,3,3.0,2,0,2
+3,Albion Hurricanes FC ECNL G2009/10,Albion Hurricanes FC,59340,0,0,0,0,0,0.0,0,0,0
+4,Challenge SC ECNL G2009/10,Challenge SC,129339,0,0,0,0,0,0.0,0,0,0
 5,Dallas Texans ECNL G2009/10,Dallas Texans,134485,0,0,0,0,0,0.0,0,0,0
 6,DKSC ECNL G2009/10,DKSC,68923,0,0,0,0,0,0.0,0,0,0
 7,FC Dallas Youth ECNL G2009/10,FC Dallas Youth,46266,0,0,0,0,0,0.0,0,0,0
 8,FC Westlake ECNL G2009/10,FC Westlake ,131276,0,0,0,0,0,0.0,0,0,0
 9,Lonestar ATX Red ECNL G2009/10,Lonestar ATX,132697,0,0,0,0,0,0.0,0,0,0
 10,OK Energy FC ECNL G2009/10,Oklahoma Energy FC,61013,0,0,0,0,0,0.0,0,0,0
-11,Real Colorado Athletico ECNL G2009/10,Real Colorado,69250,0,0,0,0,0,0.0,0,0,0
-12,Real Colorado National ECNL G2009/10,Real Colorado,69251,0,0,0,0,0,0.0,0,0,0
-13,SOLAR SC ECNL G2009/10,Solar SC,66050,0,0,0,0,0,0.0,0,0,0
-14,Sting Black ECNL G2009/10,Sting Soccer Club,48667,0,0,0,0,0,0.0,0,0,0
-15,Sting Royal ECNL G2009/10,Sting Soccer Club,68974,0,0,0,0,0,0.0,0,0,0
-16,West Side Alliance ECNL G2009/10,West Side Alliance SC,110467,0,0,0,0,0,0.0,0,0,0
+11,SOLAR SC ECNL G2009/10,Solar SC,66050,0,0,0,0,0,0.0,0,0,0
+12,Sting Black ECNL G2009/10,Sting Soccer Club,48667,0,0,0,0,0,0.0,0,0,0
+13,Sting Royal ECNL G2009/10,Sting Soccer Club,68974,0,0,0,0,0,0.0,0,0,0
+14,West Side Alliance ECNL G2009/10,West Side Alliance SC,110467,0,0,0,0,0,0.0,0,0,0
+15,Real Colorado Athletico ECNL G2009/10,Real Colorado,69250,1,0,1,0,0,0.0,0,2,-2
+16,Colorado Rush ECNL G2009/10,Colorado Rush,94985,1,0,1,0,0,0.0,0,3,-3

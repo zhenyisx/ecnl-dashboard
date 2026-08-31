@@ -1,17 +1,17 @@
 rank,team,club,teamID,gp,w,l,d,pts,ppg,gf,ga,gd
-1,Alabama FC ECNL G2010/11,Alabama FC,81762,0,0,0,0,0,0.0,0,0,0
-2,Athletic Club Florida ECNL G2010/11,Athletic Club Florida,46727,0,0,0,0,0,0.0,0,0,0
-3,Atlanta Fire United ECNL G2010/11,Atlanta Fire United,79893,0,0,0,0,0,0.0,0,0,0
-4,CESA Liberty ECNL G2010/11,Carolina Elite Soccer Academy,65585,0,0,0,0,0,0.0,0,0,0
-5,Concorde Fire Platinum ECNL G2010/11,Concorde Fire ,81340,0,0,0,0,0,0.0,0,0,0
-6,Concorde Fire Premier ECNL G2010/11,Concorde Fire ,81344,0,0,0,0,0,0.0,0,0,0
-7,Florida Kraze Krush ECNL G2010/11,Florida Kraze Krush,34957,0,0,0,0,0,0.0,0,0,0
-8,Florida Premier FC ECNL G2010/11,Florida Premier FC,69294,0,0,0,0,0,0.0,0,0,0
-9,GSA ECNL G2010/11,Gwinnett Soccer Academy,131498,0,0,0,0,0,0.0,0,0,0
-10,Jacksonville FC ECNL G2010/11,Jacksonville FC,81133,0,0,0,0,0,0.0,0,0,0
-11,Seminole United ECNL G2010/11,Seminole United,80370,0,0,0,0,0,0.0,0,0,0
-12,South Carolina United ECNL G2010/11,South Carolina United FC,78158,0,0,0,0,0,0.0,0,0,0
-13,Sporting SA JAX ECNL G2010/11,Sporting SA,65960,0,0,0,0,0,0.0,0,0,0
-14,Tampa Bay United ECNL G2010/11,Tampa Bay United,69067,0,0,0,0,0,0.0,0,0,0
-15,Team Boca ECNL G2010/11,Team Boca,131997,0,0,0,0,0,0.0,0,0,0
-16,United Futbol Academy ECNL G2010/11,United Futbol Academy,78164,0,0,0,0,0,0.0,0,0,0
+1,Concorde Fire Platinum ECNL G2010/11,Concorde Fire ,81340,2,2,0,0,6,3.0,8,2,6
+2,Atlanta Fire United ECNL G2010/11,Atlanta Fire United,79893,2,2,0,0,6,3.0,6,1,5
+3,Team Boca ECNL G2010/11,Team Boca,131997,2,2,0,0,6,3.0,6,1,5
+4,GSA ECNL G2010/11,Gwinnett Soccer Academy,131498,2,1,0,1,4,2.0,3,0,3
+5,Alabama FC ECNL G2010/11,Alabama FC,81762,2,1,0,1,4,2.0,2,0,2
+6,Florida Kraze Krush ECNL G2010/11,Florida Kraze Krush,34957,2,1,0,1,4,2.0,2,0,2
+7,Athletic Club Florida ECNL G2010/11,Athletic Club Florida,46727,2,1,1,0,3,1.5,8,5,3
+8,CESA Liberty ECNL G2010/11,Carolina Elite Soccer Academy,65585,2,1,1,0,3,1.5,5,4,1
+9,Concorde Fire Premier ECNL G2010/11,Concorde Fire ,81344,2,1,1,0,3,1.5,3,2,1
+10,Sporting SA JAX ECNL G2010/11,Sporting SA,65960,2,1,1,0,3,1.5,3,3,0
+11,Jacksonville FC ECNL G2010/11,Jacksonville FC,81133,2,1,1,0,3,1.5,2,4,-2
+12,Florida Premier FC ECNL G2010/11,Florida Premier FC,69294,2,0,1,1,1,0.5,1,2,-1
+13,United Futbol Academy ECNL G2010/11,United Futbol Academy,78164,2,0,2,0,0,0.0,1,4,-3
+14,Seminole United ECNL G2010/11,Seminole United,80370,2,0,2,0,0,0.0,0,5,-5
+15,Tampa Bay United ECNL G2010/11,Tampa Bay United,69067,2,0,2,0,0,0.0,1,9,-8
+16,South Carolina United ECNL G2010/11,South Carolina United FC,78158,2,0,2,0,0,0.0,1,10,-9

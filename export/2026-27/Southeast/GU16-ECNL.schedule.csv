@@ -1,20 +1,20 @@
 date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
-2026-08-29,09:00 AM,Group Play,United Futbol Academy ECNL G2010/11,,,Sporting SA JAX ECNL G2010/11,Fowler Park,Field 7,On Time,1069946
-2026-08-29,11:00 AM,Group Play,Concorde Fire Premier ECNL G2010/11,,,Florida Kraze Krush ECNL G2010/11,Georgia Sports Park ,field 5,On Time,1069934
-2026-08-29,11:00 AM,Group Play,Alabama FC ECNL G2010/11,,,Seminole United ECNL G2010/11,Dunnavant Valley Fields (DVF),Field # 5,On Time,1069938
-2026-08-29,11:00 AM,Group Play,Atlanta Fire United ECNL G2010/11,,,Jacksonville FC ECNL G2010/11,Pinecrest Academy,Turf,On Time,1069942
-2026-08-29,11:00 AM,Group Play,Concorde Fire Platinum ECNL G2010/11,,,Florida Premier FC ECNL G2010/11,Georgia Sports Park ,field 4,On Time,1069950
-2026-08-29,11:00 AM,Group Play,GSA ECNL G2010/11,,,Tampa Bay United ECNL G2010/11,GSA East,#3,On Time,1069954
-2026-08-29,11:00 AM,Group Play,South Carolina United ECNL G2010/11,,,Athletic Club Florida ECNL G2010/11,Southeastern Freight Lines Complex,Field 3,On Time,1069958
-2026-08-29,11:00 AM,Group Play,CESA Liberty ECNL G2010/11,,,Team Boca ECNL G2010/11,Mesa Soccer Complex,Field 4,On Time,1069962
-2026-08-30,09:00 AM,Group Play,Alabama FC ECNL G2010/11,,,Florida Kraze Krush ECNL G2010/11,Dunnavant Valley Fields (DVF),Field # 5,On Time,1069966
-2026-08-30,09:00 AM,Group Play,Concorde Fire Premier ECNL G2010/11,,,Seminole United ECNL G2010/11,Georgia Sports Park ,field 6,On Time,1069970
-2026-08-30,09:00 AM,Group Play,United Futbol Academy ECNL G2010/11,,,Jacksonville FC ECNL G2010/11,Fowler Park,Field 7,On Time,1069974
-2026-08-30,09:00 AM,Group Play,GSA ECNL G2010/11,,,Florida Premier FC ECNL G2010/11,GSA South,#7,On Time,1069982
-2026-08-30,09:00 AM,Group Play,CESA Liberty ECNL G2010/11,,,Athletic Club Florida ECNL G2010/11,Mesa Soccer Complex,Field 4,On Time,1069990
-2026-08-30,11:00 AM,Group Play,Atlanta Fire United ECNL G2010/11,,,Sporting SA JAX ECNL G2010/11,Pinecrest Academy,Turf,On Time,1069978
-2026-08-30,11:00 AM,Group Play,Concorde Fire Platinum ECNL G2010/11,,,Tampa Bay United ECNL G2010/11,Georgia Sports Park ,field 4,On Time,1069986
-2026-08-30,11:00 AM,Group Play,South Carolina United ECNL G2010/11,,,Team Boca ECNL G2010/11,Southeastern Freight Lines Complex,Field 3,On Time,1069994
+2026-08-29,09:00 AM,Group Play,United Futbol Academy ECNL G2010/11,1,2,Sporting SA JAX ECNL G2010/11,Fowler Park,Field 7,On Time,1069946
+2026-08-29,11:00 AM,Group Play,Concorde Fire Premier ECNL G2010/11,0,2,Florida Kraze Krush ECNL G2010/11,Georgia Sports Park ,field 5,On Time,1069934
+2026-08-29,11:00 AM,Group Play,Alabama FC ECNL G2010/11,2,0,Seminole United ECNL G2010/11,Dunnavant Valley Fields (DVF),Field # 5,On Time,1069938
+2026-08-29,11:00 AM,Group Play,Atlanta Fire United ECNL G2010/11,4,0,Jacksonville FC ECNL G2010/11,Pinecrest Academy,Turf,On Time,1069942
+2026-08-29,11:00 AM,Group Play,Concorde Fire Platinum ECNL G2010/11,2,1,Florida Premier FC ECNL G2010/11,Georgia Sports Park ,field 4,On Time,1069950
+2026-08-29,11:00 AM,Group Play,GSA ECNL G2010/11,3,0,Tampa Bay United ECNL G2010/11,GSA East,#3,On Time,1069954
+2026-08-29,11:00 AM,Group Play,South Carolina United ECNL G2010/11,0,6,Athletic Club Florida ECNL G2010/11,Southeastern Freight Lines Complex,Field 3,On Time,1069958
+2026-08-29,11:00 AM,Group Play,CESA Liberty ECNL G2010/11,0,2,Team Boca ECNL G2010/11,Mesa Soccer Complex,Field 4,On Time,1069962
+2026-08-30,09:00 AM,Group Play,Alabama FC ECNL G2010/11,0,0,Florida Kraze Krush ECNL G2010/11,Dunnavant Valley Fields (DVF),Field # 5,On Time,1069966
+2026-08-30,09:00 AM,Group Play,Concorde Fire Premier ECNL G2010/11,3,0,Seminole United ECNL G2010/11,Georgia Sports Park ,field 6,On Time,1069970
+2026-08-30,09:00 AM,Group Play,United Futbol Academy ECNL G2010/11,0,2,Jacksonville FC ECNL G2010/11,Fowler Park,Field 7,On Time,1069974
+2026-08-30,09:00 AM,Group Play,GSA ECNL G2010/11,0,0,Florida Premier FC ECNL G2010/11,GSA East,#3,On Time,1069982
+2026-08-30,09:00 AM,Group Play,CESA Liberty ECNL G2010/11,5,2,Athletic Club Florida ECNL G2010/11,Mesa Soccer Complex,Field 4,On Time,1069990
+2026-08-30,11:00 AM,Group Play,Atlanta Fire United ECNL G2010/11,2,1,Sporting SA JAX ECNL G2010/11,Pinecrest Academy,Turf,On Time,1069978
+2026-08-30,11:00 AM,Group Play,Concorde Fire Platinum ECNL G2010/11,6,1,Tampa Bay United ECNL G2010/11,Georgia Sports Park ,field 4,On Time,1069986
+2026-08-30,11:00 AM,Group Play,South Carolina United ECNL G2010/11,1,4,Team Boca ECNL G2010/11,Southeastern Freight Lines Complex,Field 3,On Time,1069994
 2026-09-12,11:00 AM,Group Play,Seminole United ECNL G2010/11,,,Sporting SA JAX ECNL G2010/11,Seminole,Field 6,On Time,1069998
 2026-09-13,11:00 AM,Group Play,Florida Kraze Krush ECNL G2010/11,,,Jacksonville FC ECNL G2010/11,Central Winds,Field C,On Time,1070002
 2026-09-19,09:00 AM,Group Play,Concorde Fire Platinum ECNL G2010/11,,,Sporting SA JAX ECNL G2010/11,Georgia Sports Park ,field 4,On Time,1070018
@@ -41,7 +41,6 @@ date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchI
 2026-09-26,11:00 AM,Group Play,Tampa Bay United ECNL G2010/11,,,Concorde Fire Premier ECNL G2010/11,Ed Radice Sports Complex,Field 5,On Time,1070090
 2026-09-26,11:00 AM,Group Play,Athletic Club Florida ECNL G2010/11,,,Concorde Fire Platinum ECNL G2010/11,Nob Hill Soccer Park,Field 2,On Time,1070094
 2026-09-26,11:00 AM,Group Play,Team Boca ECNL G2010/11,,,GSA ECNL G2010/11,SPANISH RIVER SPORTS COMPLEX,Field S2 #2,On Time,1070098
-2026-09-27,TBD,Group Play,Team Boca ECNL G2010/11,,,Concorde Fire Platinum ECNL G2010/11,,,On Time,1070130
 2026-09-27,10:30 AM,Group Play,Jacksonville FC ECNL G2010/11,,,CESA Liberty ECNL G2010/11,Patton Park,Field 3,On Time,1070110
 2026-09-27,10:30 AM,Group Play,Florida Premier FC ECNL G2010/11,,,Concorde Fire Premier ECNL G2010/11,Starkey Ranch District Park,Field 7,On Time,1070118
 2026-09-27,11:00 AM,Group Play,Florida Kraze Krush ECNL G2010/11,,,Atlanta Fire United ECNL G2010/11,Central Winds,Field C,On Time,1070102
@@ -49,6 +48,7 @@ date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchI
 2026-09-27,11:00 AM,Group Play,Sporting SA JAX ECNL G2010/11,,,South Carolina United ECNL G2010/11,Veterans Park,Field 1,On Time,1070114
 2026-09-27,11:00 AM,Group Play,Tampa Bay United ECNL G2010/11,,,Alabama FC ECNL G2010/11,Ed Radice Sports Complex,Field 5,On Time,1070122
 2026-09-27,01:00 PM,Group Play,Athletic Club Florida ECNL G2010/11,,,GSA ECNL G2010/11,Nob Hill Soccer Park,Field 1,On Time,1070126
+2026-09-27,01:00 PM,Group Play,Team Boca ECNL G2010/11,,,Concorde Fire Platinum ECNL G2010/11,SPANISH RIVER SPORTS COMPLEX,Field S2 #2,On Time,1070130
 2026-10-04,01:00 PM,Group Play,Seminole United ECNL G2010/11,,,Jacksonville FC ECNL G2010/11,Seminole,Field 6,On Time,1070134
 2026-10-17,09:00 AM,Group Play,Florida Premier FC ECNL G2010/11,,,CESA Liberty ECNL G2010/11,Starkey Ranch District Park,Field 9,On Time,1070154
 2026-10-17,11:00 AM,Group Play,Florida Kraze Krush ECNL G2010/11,,,Concorde Fire Platinum ECNL G2010/11,Central Winds,Field C,On Time,1070138
@@ -70,7 +70,7 @@ date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchI
 2026-10-24,11:00 AM,Group Play,Concorde Fire Platinum ECNL G2010/11,,,Concorde Fire Premier ECNL G2010/11,Georgia Sports Park ,field 4,On Time,1070206
 2026-10-24,11:00 AM,Group Play,United Futbol Academy ECNL G2010/11,,,CESA Liberty ECNL G2010/11,Fowler Park,Field 7,On Time,1070210
 2026-10-24,01:00 PM,Group Play,Atlanta Fire United ECNL G2010/11,,,South Carolina United ECNL G2010/11,Scott Hudgens Park,Field 6,On Time,1070214
-2026-10-25,09:00 AM,Group Play,GSA ECNL G2010/11,,,Concorde Fire Premier ECNL G2010/11,GSA South,#7,On Time,1070222
+2026-10-25,09:00 AM,Group Play,GSA ECNL G2010/11,,,Concorde Fire Premier ECNL G2010/11,GSA East,#3,On Time,1070222
 2026-10-25,09:00 AM,Group Play,Atlanta Fire United ECNL G2010/11,,,CESA Liberty ECNL G2010/11,Pinecrest Academy,Turf,On Time,1070230
 2026-10-25,11:00 AM,Group Play,Concorde Fire Platinum ECNL G2010/11,,,Alabama FC ECNL G2010/11,Georgia Sports Park ,field 3,On Time,1070218
 2026-10-25,01:00 PM,Group Play,United Futbol Academy ECNL G2010/11,,,South Carolina United ECNL G2010/11,Fowler Park,Field 6,On Time,1070226

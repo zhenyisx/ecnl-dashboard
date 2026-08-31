@@ -1,14 +1,14 @@
 date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
-2026-08-29,08:00 AM,Group Play,Gretna Elite Academy ECNL G2010/11,,,FC Wisconsin ECNL G2010/11,Pinnacle Bank Soccer Complex ( Gretna Soccer Compl,Field 1,On Time,1067682
-2026-08-29,10:00 AM,Group Play,Michigan Hawks ECNL G2010/11,,,Michigan Hawks Magic ECNL G2010/11,St. Joe's Sports Dome,St. Joe's Dome,On Time,1067698
-2026-08-29,11:00 AM,Group Play,Chicago Inter ECNL G2010/11,,,Missouri Rush ECNL G2010/11,Chicago Inter Complex,Field 2,On Time,1067678
-2026-08-29,11:00 AM,Group Play,Liverpool FC MI ECNL G2010/11,,,St. Louis Scott Gallagher Green ECNL G2010/11,Avondale High School,Auxiliary,On Time,1067694
-2026-08-29,01:00 PM,Group Play,Sporting Iowa ECNL G2010/11,,,Rockford Raptors FC ECNL G2010/11,Hy-Vee Multiplex,White #2,On Time,1067686
-2026-08-29,01:00 PM,Group Play,Nationals SC ECNL G2010/11,,,St. Louis Scott Gallagher Navy ECNL G2010/11,Royal Oak High School,Field 1,On Time,1067690
-2026-08-30,08:15 AM,Group Play,Nationals SC ECNL G2010/11,,,St. Louis Scott Gallagher Green ECNL G2010/11,Total Soccer Wixom,Dome,On Time,1067710
-2026-08-30,09:00 AM,Group Play,Sporting Iowa ECNL G2010/11,,,FC Wisconsin ECNL G2010/11,Hy-Vee Multiplex,White #2,On Time,1067702
-2026-08-30,10:00 AM,Group Play,Gretna Elite Academy ECNL G2010/11,,,Rockford Raptors FC ECNL G2010/11,Pinnacle Bank Soccer Complex ( Gretna Soccer Compl,Field 1,On Time,1067706
-2026-08-30,11:00 AM,Group Play,Liverpool FC MI ECNL G2010/11,,,St. Louis Scott Gallagher Navy ECNL G2010/11,Oakland University Upper Fields,South,On Time,1067714
+2026-08-29,08:00 AM,Group Play,Gretna Elite Academy ECNL G2010/11,0,0,FC Wisconsin ECNL G2010/11,Pinnacle Bank Soccer Complex ( Gretna Soccer Compl,Field 1,On Time,1067682
+2026-08-29,10:00 AM,Group Play,Michigan Hawks ECNL G2010/11,5,0,Michigan Hawks Magic ECNL G2010/11,St. Joe's Sports Dome,St. Joe's Dome,On Time,1067698
+2026-08-29,11:00 AM,Group Play,Chicago Inter ECNL G2010/11,1,0,Missouri Rush ECNL G2010/11,Chicago Inter Complex,Field 2,On Time,1067678
+2026-08-29,11:00 AM,Group Play,Liverpool FC MI ECNL G2010/11,0,1,St. Louis Scott Gallagher Green ECNL G2010/11,Avondale High School,Auxiliary,On Time,1067694
+2026-08-29,01:00 PM,Group Play,Sporting Iowa ECNL G2010/11,3,1,Rockford Raptors FC ECNL G2010/11,Hy-Vee Multiplex,White #2,On Time,1067686
+2026-08-29,01:00 PM,Group Play,Nationals SC ECNL G2010/11,2,0,St. Louis Scott Gallagher Navy ECNL G2010/11,Royal Oak High School,Field 1,On Time,1067690
+2026-08-30,08:15 AM,Group Play,Nationals SC ECNL G2010/11,5,0,St. Louis Scott Gallagher Green ECNL G2010/11,Total Soccer Wixom,Dome,On Time,1067710
+2026-08-30,09:00 AM,Group Play,Sporting Iowa ECNL G2010/11,4,0,FC Wisconsin ECNL G2010/11,Hy-Vee Multiplex,White #2,On Time,1067702
+2026-08-30,10:00 AM,Group Play,Gretna Elite Academy ECNL G2010/11,2,1,Rockford Raptors FC ECNL G2010/11,Pinnacle Bank Soccer Complex ( Gretna Soccer Compl,Field 1,On Time,1067706
+2026-08-30,11:00 AM,Group Play,Liverpool FC MI ECNL G2010/11,0,2,St. Louis Scott Gallagher Navy ECNL G2010/11,Oakland University Upper Fields,South,On Time,1067714
 2026-09-05,11:00 AM,Group Play,Liverpool FC MI ECNL G2010/11,,,Michigan Hawks Magic ECNL G2010/11,UWM Sports Complex,Field 1,On Time,1067726
 2026-09-05,12:00 PM,Group Play,Michigan Hawks ECNL G2010/11,,,Missouri Rush ECNL G2010/11,Schoolcraft Turf,SC Turf,On Time,1067730
 2026-09-05,01:00 PM,Group Play,Kansas City Athletics ECNL G2010/11,,,Eclipse Select Soccer Club ECNL G2010/11,KC Current Training Facility,Field 8,On Time,1067718

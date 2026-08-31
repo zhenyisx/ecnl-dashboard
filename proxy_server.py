@@ -27,7 +27,9 @@ from urllib.parse import urlparse, parse_qs
 import ecnl_api as api
 
 PORT = 5000
-SERVE_DIR = os.path.dirname(os.path.abspath(__file__))
+# Serve public/ — the same directory Cloudflare Pages serves — so the local site
+# and the hosted site are byte-identical. The Python tooling stays outside it.
+SERVE_DIR = api.PUBLIC_DIR
 
 OFFLINE = False
 
@@ -145,8 +147,9 @@ def main():
     OFFLINE = args.offline
 
     mode = "OFFLINE (archive only)" if OFFLINE else "live + write-through archive"
-    print(f"\n  ECNL Dashboard Proxy Server — {mode}")
-    print(f"  http://localhost:{args.port}/ecnl-dashboard.html")
+    print(f"\n  ECNL Dashboard — serving {os.path.relpath(SERVE_DIR, api.ROOT)}/  ({mode})")
+    print(f"  http://localhost:{args.port}/")
+    print(f"  The page reads static archive JSON by default; add ?live=1 to use the proxy.")
     if not os.path.isdir(api.ARCHIVE_API_DIR):
         print(f"  note: no archive yet — run `python archive.py` to build one")
     print(f"  Press Ctrl+C to stop\n")

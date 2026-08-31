@@ -1,12 +1,12 @@
 date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
-2026-08-29,11:00 AM,Group Play,Chicago Inter ECNL G2012/13,,,Missouri Rush ECNL G2012/13,Chicago Inter Complex,Field 1,On Time,1083676
-2026-08-29,11:00 AM,Group Play,Sporting Iowa ECNL G2012/13,,,Rockford Raptors FC ECNL G2012/13,Hy-Vee Multiplex,White #1,On Time,1083680
-2026-08-29,01:00 PM,Group Play,Liverpool FC MI ECNL G2012/13,,,St. Louis Scott Gallagher Green ECNL G2012/13,Avondale High School,Auxiliary,On Time,1083684
-2026-08-29,01:40 PM,Group Play,Michigan Hawks ECNL G2012/13,,,Michigan Hawks Magic ECNL G2012/13,St. Joe's Sports Dome,St. Joe's Dome,On Time,1083686
-2026-08-29,04:40 PM,Group Play,Nationals SC ECNL G2012/13,,,St. Louis Scott Gallagher Navy ECNL G2012/13,Royal Oak High School,Field 1,On Time,1083682
-2026-08-30,10:15 AM,Group Play,Nationals SC ECNL G2012/13,,,St. Louis Scott Gallagher Green ECNL G2012/13,Total Soccer Wixom,Dome,On Time,1083692
-2026-08-30,11:00 AM,Group Play,Sporting Iowa ECNL G2012/13,,,FC Wisconsin ECNL G2012/13,Hy-Vee Multiplex,White #1,On Time,1083688
-2026-08-30,01:00 PM,Group Play,Liverpool FC MI ECNL G2012/13,,,St. Louis Scott Gallagher Navy ECNL G2012/13,Oakland University Upper Fields,North,On Time,1083694
+2026-08-29,11:00 AM,Group Play,Chicago Inter ECNL G2012/13,7,0,Missouri Rush ECNL G2012/13,Chicago Inter Complex,Field 1,On Time,1083676
+2026-08-29,11:00 AM,Group Play,Sporting Iowa ECNL G2012/13,0,2,Rockford Raptors FC ECNL G2012/13,Hy-Vee Multiplex,White #1,On Time,1083680
+2026-08-29,01:00 PM,Group Play,Liverpool FC MI ECNL G2012/13,1,1,St. Louis Scott Gallagher Green ECNL G2012/13,Avondale High School,Auxiliary,On Time,1083684
+2026-08-29,01:40 PM,Group Play,Michigan Hawks ECNL G2012/13,5,0,Michigan Hawks Magic ECNL G2012/13,St. Joe's Sports Dome,St. Joe's Dome,On Time,1083686
+2026-08-29,04:40 PM,Group Play,Nationals SC ECNL G2012/13,1,2,St. Louis Scott Gallagher Navy ECNL G2012/13,Royal Oak High School,Field 1,On Time,1083682
+2026-08-30,10:15 AM,Group Play,Nationals SC ECNL G2012/13,0,0,St. Louis Scott Gallagher Green ECNL G2012/13,Total Soccer Wixom,Dome,On Time,1083692
+2026-08-30,11:00 AM,Group Play,Sporting Iowa ECNL G2012/13,0,0,FC Wisconsin ECNL G2012/13,Hy-Vee Multiplex,White #1,On Time,1083688
+2026-08-30,01:00 PM,Group Play,Liverpool FC MI ECNL G2012/13,1,6,St. Louis Scott Gallagher Navy ECNL G2012/13,Oakland University Upper Fields,North,On Time,1083694
 2026-09-05,01:00 PM,Group Play,Liverpool FC MI ECNL G2012/13,,,Michigan Hawks Magic ECNL G2012/13,UWM Sports Complex,Field 1,On Time,1083700
 2026-09-05,03:40 PM,Group Play,Michigan Hawks ECNL G2012/13,,,Missouri Rush ECNL G2012/13,Schoolcraft Turf,SC Turf,On Time,1083702
 2026-09-06,12:00 PM,Group Play,Michigan Hawks Magic ECNL G2012/13,,,Missouri Rush ECNL G2012/13,Jaycee Park,Jaycee Turf,On Time,1083712

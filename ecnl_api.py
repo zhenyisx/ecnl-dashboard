@@ -14,10 +14,19 @@ import urllib.error
 import urllib.request
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
-SOURCES_PATH = os.path.join(ROOT, "data", "sources.json")
-ARCHIVE_DIR = os.path.join(ROOT, "archive")
+
+# Everything the public site serves lives under public/ — it is simultaneously
+# the Cloudflare Pages output directory and the local server root, so the hosted
+# and local versions are the same files with no build step between them.
+PUBLIC_DIR = os.path.join(ROOT, "public")
+SOURCES_PATH = os.path.join(PUBLIC_DIR, "data", "sources.json")
+ARCHIVE_DIR = os.path.join(PUBLIC_DIR, "archive")
 ARCHIVE_API_DIR = os.path.join(ARCHIVE_DIR, "api")
 MANIFEST_PATH = os.path.join(ARCHIVE_DIR, "manifest.json")
+MATCH_DAYS_PATH = os.path.join(ARCHIVE_DIR, "match-days.json")
+REFRESH_STATE_PATH = os.path.join(ARCHIVE_DIR, "refresh-state.json")
+
+# Not served: CSV exports and the Python tooling stay outside public/.
 EXPORT_DIR = os.path.join(ROOT, "export")
 
 # Override to point at a different host, or at an unreachable one to exercise
@@ -184,6 +193,61 @@ def p_event_details(event_id):
 
 
 # ---------- misc ----------
+
+# ---------- match-day calendar & refresh state ----------
+#
+# The refresh is driven by the fixture calendar rather than a blind clock:
+# 81 of 288 days in a season have games, and 99.7% of those are Sat/Sun, so on
+# most days there is provably nothing to fetch.
+#
+# Schedule payloads carry scores as well as fixtures, so fetching a schedule
+# also collects results; standings is the only endpoint needing a separate call.
+
+def read_json_file(path, default=None):
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except (OSError, ValueError):
+        return default
+
+
+def write_json_file(path, obj):
+    """Atomically write JSON, creating parent directories as needed."""
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    tmp = path + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(obj, f, indent=2, ensure_ascii=False)
+        f.write("\n")
+    os.replace(tmp, path)
+
+
+def flight_key(event_id, flight_id):
+    """Stable identifier for a flight within the calendar."""
+    return f"{event_id}/{flight_id}"
+
+
+def game_date(game):
+    """The YYYY-MM-DD portion of a game's local wall-clock date, or None."""
+    d = (game or {}).get("gameDate") or ""
+    return d[:10] or None
+
+
+def has_score(game):
+    return (game or {}).get("hometeamscore") is not None \
+        and (game or {}).get("awayteamscore") is not None
+
+
+def load_match_days():
+    return read_json_file(MATCH_DAYS_PATH, {"days": {}}) or {"days": {}}
+
+
+def load_refresh_state():
+    return read_json_file(REFRESH_STATE_PATH, {}) or {}
+
+
+def iso_now():
+    return time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
+
 
 # ---------- age groups / birth-year anchor ----------
 #
