@@ -1,0 +1,14 @@
+# Cloudflare Workers Static Assets config.
+#
+# There is no Worker script — this is an assets-only deployment, so every
+# request is served straight from public/ as a static file. Static asset
+# requests don't count against Workers request limits.
+#
+# public/ is also the local server root (see proxy_server.py), so what is
+# deployed here is byte-identical to what runs locally.
+
+name = "ecnl-dashboard"
+compatibility_date = "2026-08-31"
+
+[assets]
+directory = "./public"
