@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-08-31T23:39:37Z",
+  "updatedAt": "2026-09-01T04:06:09Z",
   "activeSeason": "2026-27",
-  "runDate": "2026-08-31",
+  "runDate": "2026-09-01",
   "sweep": false,
-  "matchDay": true,
+  "matchDay": false,
   "lastSweepDate": "2026-08-31",
   "flightsConsidered": 65,
-  "flightsRefreshed": 28,
-  "standingsRefreshed": 2,
-  "requests": 30,
+  "flightsRefreshed": 3,
+  "standingsRefreshed": 0,
+  "requests": 3,
   "failed": 0,
-  "durationSeconds": 13.1,
+  "durationSeconds": 1.5,
   "pendingResultFlights": 3,
   "pendingResultGames": 3
 }
