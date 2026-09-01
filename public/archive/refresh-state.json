@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T16:14:36Z",
+  "updatedAt": "2026-09-01T20:43:22Z",
   "activeSeason": "2026-27",
   "runDate": "2026-09-01",
   "sweep": false,
@@ -10,7 +10,7 @@
   "standingsRefreshed": 0,
   "requests": 3,
   "failed": 0,
-  "durationSeconds": 2.4,
+  "durationSeconds": 1.6,
   "pendingResultFlights": 3,
   "pendingResultGames": 3
 }
