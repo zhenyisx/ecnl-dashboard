@@ -32,15 +32,15 @@ date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchI
 2026-09-27,01:00 PM,Group Play,Real Colorado National ECNL G2009/10,,,Albion Hurricanes FC ECNL G2009/10,Real Colorado Soccer Complex,RCSC 1,On Time,1073560
 2026-10-03,11:00 AM,Group Play,FC Westlake ECNL G2009/10,,,Real Colorado Athletico ECNL G2009/10,Onion Creek Soccer Complex,Field 7,On Time,1073524
 2026-10-03,11:00 AM,Group Play,Dallas Texans ECNL G2009/10,,,Colorado Storm ECNL G2009/10,Beacon Park,field 5,On Time,1073590
-2026-10-03,01:00 PM,Group Play,Lonestar ATX Red ECNL G2009/10,,,Colorado Rush ECNL G2009/10,St. Andrew's Episcopal School,Field 1,On Time,1073518
-2026-10-03,01:00 PM,Group Play,SOLAR SC ECNL G2009/10,,,Real Colorado National ECNL G2009/10,OAK GROVE ,Field 1,On Time,1073596
+2026-10-03,01:00 PM,Group Play,Lonestar ATX Red ECNL G2009/10,,,Colorado Rush ECNL G2009/10,Burger Activity Center,Field 2,On Time,1073518
+2026-10-03,01:00 PM,Group Play,SOLAR SC ECNL G2009/10,,,Real Colorado National ECNL G2009/10,Dragon Stadium,Field 1,On Time,1073596
 2026-10-03,03:00 PM,Group Play,DKSC ECNL G2009/10,,,Albion Hurricanes FC ECNL G2009/10,Clark East Field,Field 1,On Time,1073626
 2026-10-03,03:00 PM,Group Play,Sting Black ECNL G2009/10,,,Challenge SC ECNL G2009/10,Sting National Training Center,TBD,On Time,1073632
+2026-10-04,09:00 AM,Group Play,SOLAR SC ECNL G2009/10,,,Colorado Storm ECNL G2009/10,Dragon Stadium,Field 1,On Time,1073602
 2026-10-04,11:00 AM,Group Play,FC Westlake ECNL G2009/10,,,Colorado Rush ECNL G2009/10,Westlake High School,Field 1 & 2,On Time,1073566
 2026-10-04,11:00 AM,Group Play,Dallas Texans ECNL G2009/10,,,Real Colorado National ECNL G2009/10,Beacon Park,field 5,On Time,1073608
 2026-10-04,11:00 AM,Group Play,Sting Black ECNL G2009/10,,,Albion Hurricanes FC ECNL G2009/10,Sting National Training Center,TBD,On Time,1073650
 2026-10-04,01:00 PM,Group Play,Lonestar ATX Red ECNL G2009/10,,,Real Colorado Athletico ECNL G2009/10,Burger Activity Center,Field 2,On Time,1073572
-2026-10-04,01:00 PM,Group Play,SOLAR SC ECNL G2009/10,,,Colorado Storm ECNL G2009/10,OAK GROVE ,Field 1,On Time,1073602
 2026-10-04,03:00 PM,Group Play,DKSC ECNL G2009/10,,,Challenge SC ECNL G2009/10,Clark East Field,Field 1,On Time,1073656
 2026-10-11,01:00 PM,Group Play,SOLAR SC ECNL G2009/10,,,Dallas Texans ECNL G2009/10,OAK GROVE ,Field 1,On Time,1073662
 2026-10-17,11:00 AM,Group Play,Albion Hurricanes FC ECNL G2009/10,,,OK Energy FC ECNL G2009/10,Campbell Road Sports Park,Field 1,On Time,1073680
@@ -55,8 +55,8 @@ date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchI
 2026-10-18,11:00 AM,Group Play,Dallas Texans ECNL G2009/10,,,FC Westlake ECNL G2009/10,Beacon Park,field 5,On Time,1073734
 2026-10-18,11:00 AM,Group Play,FC Dallas Youth ECNL G2009/10,,,Sting Royal ECNL G2009/10,Toyota Soccer Center,Field 11,On Time,1073746
 2026-10-18,11:15 AM,Group Play,Real Colorado National ECNL G2009/10,,,Sting Black ECNL G2009/10,Real Colorado Soccer Complex,RCSC Grass,On Time,1073710
-2026-10-18,01:00 PM,Group Play,SOLAR SC ECNL G2009/10,,,Lonestar ATX Red ECNL G2009/10,OAK GROVE ,Field 1,On Time,1073740
 2026-10-18,01:30 PM,Group Play,Colorado Storm ECNL G2009/10,,,DKSC ECNL G2009/10,Regis University,West Turf,On Time,1073704
+2026-10-18,03:00 PM,Group Play,SOLAR SC ECNL G2009/10,,,Lonestar ATX Red ECNL G2009/10,OAK GROVE ,Field 1,On Time,1073740
 2026-10-24,TBD,Group Play,Colorado Rush ECNL G2009/10,,,Sting Royal ECNL G2009/10,,,On Time,1073752
 2026-10-24,09:00 AM,Group Play,Real Colorado Athletico ECNL G2009/10,,,FC Dallas Youth ECNL G2009/10,Real Colorado Soccer Complex,RCSC Grass,On Time,1073758
 2026-10-24,09:00 AM,Group Play,Lonestar ATX Red ECNL G2009/10,,,FC Westlake ECNL G2009/10,Burger Activity Center,Stadium Field 1,On Time,1073764
