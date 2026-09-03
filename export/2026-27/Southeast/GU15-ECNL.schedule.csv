@@ -94,7 +94,6 @@ date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchI
 2026-12-12,11:00 AM,Group Play,Alabama FC ECNL G2011/12,,,Concorde Fire Premier ECNL G2011/12,Dunnavant Valley Fields (DVF),Field # 5,On Time,1070297
 2026-12-12,11:00 AM,Group Play,Concorde Fire Platinum ECNL G2011/12,,,GSA ECNL G2011/12,Georgia Sports Park ,field 4,On Time,1070305
 2026-12-13,01:00 PM,Group Play,South Carolina United ECNL G2011/12,,,CESA Liberty ECNL G2011/12,Southeastern Freight Lines Complex,Field 2,On Time,1070309
-2027-03-06,TBD,Group Play,Team Boca ECNL G2011/12,,,Florida Premier FC ECNL G2011/12,,,On Time,1070313
 2027-03-06,11:00 AM,Group Play,Athletic Club Florida ECNL G2011/12,,,Tampa Bay United ECNL G2011/12,Nob Hill Soccer Park,Field 1,On Time,1070317
 2027-03-07,09:00 AM,Group Play,Athletic Club Florida ECNL G2011/12,,,Florida Premier FC ECNL G2011/12,Nob Hill Soccer Park,Field 1,On Time,1070325
 2027-03-13,08:30 AM,Group Play,Jacksonville FC ECNL G2011/12,,,Florida Premier FC ECNL G2011/12,Patton Park,Stadium,On Time,1070337
@@ -105,12 +104,13 @@ date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchI
 2027-03-14,09:00 AM,Group Play,Florida Kraze Krush ECNL G2011/12,,,Athletic Club Florida ECNL G2011/12,Central Winds,Field C,On Time,1070345
 2027-03-14,09:00 AM,Group Play,Sporting SA JAX ECNL G2011/12,,,Florida Premier FC ECNL G2011/12,Veterans Park,Field 1,On Time,1070357
 2027-03-14,01:00 PM,Group Play,Seminole United ECNL G2011/12,,,Team Boca ECNL G2011/12,Seminole,Field 6,On Time,1070349
+2027-03-20,09:00 AM,Group Play,Team Boca ECNL G2011/12,,,Florida Premier FC ECNL G2011/12,Fau Glades,Fau Glades-South #2,On Time,1070313
 2027-03-21,09:00 AM,Group Play,Team Boca ECNL G2011/12,,,Tampa Bay United ECNL G2011/12,Fau Glades,Fau Glades-South #2,On Time,1070321
-2027-04-03,TBD,Group Play,Sporting SA JAX ECNL G2011/12,,,Athletic Club Florida ECNL G2011/12,,,On Time,1070373
 2027-04-03,09:00 AM,Group Play,Tampa Bay United ECNL G2011/12,,,Seminole United ECNL G2011/12,Ed Radice Sports Complex,Field 6,On Time,1070365
 2027-04-03,02:00 PM,Group Play,Florida Premier FC ECNL G2011/12,,,Florida Kraze Krush ECNL G2011/12,Starkey Ranch District Park,Field 8,On Time,1070361
 2027-04-04,12:30 PM,Group Play,Florida Premier FC ECNL G2011/12,,,Seminole United ECNL G2011/12,Starkey Ranch District Park,Field 8,On Time,1070381
 2027-04-04,01:00 PM,Group Play,Tampa Bay United ECNL G2011/12,,,Florida Kraze Krush ECNL G2011/12,Ed Radice Sports Complex,Field 6,On Time,1070377
+2027-04-10,09:00 AM,Group Play,Sporting SA JAX ECNL G2011/12,,,Athletic Club Florida ECNL G2011/12,Veterans Park,Field 1,On Time,1070373
 2027-04-10,09:00 AM,Group Play,Seminole United ECNL G2011/12,,,Florida Kraze Krush ECNL G2011/12,Seminole,Field 5,On Time,1070393
 2027-04-10,10:30 AM,Group Play,Jacksonville FC ECNL G2011/12,,,Team Boca ECNL G2011/12,Patton Park,Stadium,On Time,1070369
 2027-04-11,08:30 AM,Group Play,Jacksonville FC ECNL G2011/12,,,Athletic Club Florida ECNL G2011/12,Patton Park,Field 3,On Time,1070385

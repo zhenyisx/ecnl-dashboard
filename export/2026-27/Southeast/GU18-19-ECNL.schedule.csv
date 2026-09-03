@@ -1,5 +1,5 @@
 date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
-2026-08-29,09:00 AM,Group Play,Atlanta Fire United ECNL G2008/09,0,5,Jacksonville FC ECNL G2008/09,Pinecrest Academy,Turf,On Time,1069944
+2026-08-29,09:00 AM,Group Play,Atlanta Fire United ECNL G2008/09,3,2,Jacksonville FC ECNL G2008/09,Pinecrest Academy,Turf,On Time,1069944
 2026-08-29,09:00 AM,Group Play,GSA ECNL G2008/09,3,0,Tampa Bay United ECNL G2008/09,GSA East,#1,On Time,1069956
 2026-08-29,09:00 AM,Group Play,South Carolina United ECNL G2008/09,1,7,Athletic Club Florida ECNL G2008/09,Southeastern Freight Lines Complex,Field 3,On Time,1069960
 2026-08-29,11:00 AM,Group Play,United Futbol Academy ECNL G2008/09,5,0,Sporting SA JAX ECNL G2008/09,Fowler Park,Field 7,On Time,1069948
@@ -94,7 +94,6 @@ date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchI
 2026-12-12,11:00 AM,Group Play,Concorde Fire Platinum ECNL G2008/09,,,GSA ECNL G2008/09,Georgia Sports Park ,field 3,On Time,1070308
 2026-12-12,01:00 PM,Group Play,Alabama FC ECNL G2008/09,,,Concorde Fire Premier ECNL G2008/09,Dunnavant Valley Fields (DVF),Field # 2,On Time,1070300
 2026-12-13,01:00 PM,Group Play,South Carolina United ECNL G2008/09,,,CESA Liberty ECNL G2008/09,Southeastern Freight Lines Complex,Field 3,On Time,1070312
-2027-03-06,TBD,Group Play,Team Boca ECNL G2008/09,,,Florida Premier FC ECNL G2008/09,,,On Time,1070316
 2027-03-06,09:00 AM,Group Play,Athletic Club Florida ECNL G2008/09,,,Tampa Bay United ECNL G2008/09,Nob Hill Soccer Park,Field 1,On Time,1070320
 2027-03-07,11:00 AM,Group Play,Athletic Club Florida ECNL G2008/09,,,Florida Premier FC ECNL G2008/09,Nob Hill Soccer Park,Field 1,On Time,1070328
 2027-03-13,09:00 AM,Group Play,Sporting SA JAX ECNL G2008/09,,,Tampa Bay United ECNL G2008/09,Veterans Park,Field 1,On Time,1070344
@@ -105,12 +104,13 @@ date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchI
 2027-03-14,11:00 AM,Group Play,Sporting SA JAX ECNL G2008/09,,,Florida Premier FC ECNL G2008/09,Veterans Park,Field 2,On Time,1070360
 2027-03-14,12:30 PM,Group Play,Jacksonville FC ECNL G2008/09,,,Tampa Bay United ECNL G2008/09,Patton Park,Stadium,On Time,1070356
 2027-03-14,01:00 PM,Group Play,Florida Kraze Krush ECNL G2008/09,,,Athletic Club Florida ECNL G2008/09,Central Winds,Field B,On Time,1070348
+2027-03-20,01:00 PM,Group Play,Team Boca ECNL G2008/09,,,Florida Premier FC ECNL G2008/09,Fau Glades,Fau Glades-South #2,On Time,1070316
 2027-03-21,01:00 PM,Group Play,Team Boca ECNL G2008/09,,,Tampa Bay United ECNL G2008/09,Fau Glades,Fau Glades-South #2,On Time,1070324
-2027-04-03,TBD,Group Play,Sporting SA JAX ECNL G2008/09,,,Athletic Club Florida ECNL G2008/09,,,On Time,1070376
 2027-04-03,12:00 PM,Group Play,Florida Premier FC ECNL G2008/09,,,Florida Kraze Krush ECNL G2008/09,Starkey Ranch District Park,Field 9,On Time,1070364
 2027-04-03,01:00 PM,Group Play,Tampa Bay United ECNL G2008/09,,,Seminole United ECNL G2008/09,Ed Radice Sports Complex,Field 5,On Time,1070368
 2027-04-04,10:30 AM,Group Play,Florida Premier FC ECNL G2008/09,,,Seminole United ECNL G2008/09,Starkey Ranch District Park,Field 8,On Time,1070384
 2027-04-04,11:00 AM,Group Play,Tampa Bay United ECNL G2008/09,,,Florida Kraze Krush ECNL G2008/09,Ed Radice Sports Complex,Field 6,On Time,1070380
+2027-04-10,11:00 AM,Group Play,Sporting SA JAX ECNL G2008/09,,,Athletic Club Florida ECNL G2008/09,Veterans Park,Field 2,On Time,1070376
 2027-04-10,11:00 AM,Group Play,Seminole United ECNL G2008/09,,,Florida Kraze Krush ECNL G2008/09,Seminole,Field 5,On Time,1070396
 2027-04-10,02:30 PM,Group Play,Jacksonville FC ECNL G2008/09,,,Team Boca ECNL G2008/09,Patton Park,Stadium,On Time,1070372
 2027-04-11,11:00 AM,Group Play,Sporting SA JAX ECNL G2008/09,,,Team Boca ECNL G2008/09,Veterans Park,Field 2,On Time,1070392

@@ -82,9 +82,9 @@ date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchI
 2027-03-14,11:00 AM,Group Play,United Futbol Academy ECNL G2013/14,,,CESA Liberty ECNL G2013/14,Fowler Park,Field 7,On Time,1069851
 2027-03-14,12:30 PM,Group Play,Jacksonville FC ECNL G2013/14,,,Tampa Bay United ECNL G2013/14,Patton Park,Field 3,On Time,1069847
 2027-03-14,01:00 PM,Group Play,Concorde Fire Platinum ECNL G2013/14,,,Alabama FC ECNL G2013/14,Georgia Sports Park ,field 4,On Time,1069855
-2027-03-20,TBD,Group Play,Team Boca ECNL G2013/14,,,Florida Premier FC ECNL G2013/14,,,On Time,1069861
 2027-03-20,TBD,Group Play,Atlanta Fire United ECNL G2013/14,,,United Futbol Academy ECNL G2013/14,,,On Time,1069865
 2027-03-20,TBD,Group Play,CESA Liberty ECNL G2013/14,,,South Carolina United ECNL G2013/14,,,On Time,1069867
+2027-03-20,09:00 AM,Group Play,Team Boca ECNL G2013/14,,,Florida Premier FC ECNL G2013/14,Fau Glades,Fau Glades-South #2,On Time,1069861
 2027-03-20,11:00 AM,Group Play,Athletic Club Florida ECNL G2013/14,,,Tampa Bay United ECNL G2013/14,Nob Hill Soccer Park,Field 2,On Time,1069859
 2027-03-20,12:00 PM,Group Play,Concorde Fire Platinum ECNL G2013/14,,,GSA ECNL G2013/14,Georgia Sports Park ,field 4,On Time,1069869
 2027-03-20,01:00 PM,Group Play,Alabama FC ECNL G2013/14,,,Concorde Fire Premier ECNL G2013/14,Dunnavant Valley Fields (DVF),Field # 2,On Time,1069863
@@ -94,6 +94,7 @@ date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchI
 2027-04-03,11:00 AM,Group Play,Athletic Club Florida ECNL G2013/14,,,Team Boca ECNL G2013/14,Nob Hill Soccer Park,Field 2,On Time,1069881
 2027-04-04,09:00 AM,Group Play,Tampa Bay United ECNL G2013/14,,,Florida Kraze Krush ECNL G2013/14,Ed Radice Sports Complex,Field 5,On Time,1069905
 2027-04-10,TBD,Group Play,GSA ECNL G2013/14,,,United Futbol Academy ECNL G2013/14,,,On Time,1069897
+2027-04-10,09:00 AM,Group Play,Sporting SA JAX ECNL G2013/14,,,Athletic Club Florida ECNL G2013/14,Veterans Park,Field 2,On Time,1069901
 2027-04-10,10:30 AM,Group Play,Jacksonville FC ECNL G2013/14,,,Team Boca ECNL G2013/14,Patton Park,Field 3,On Time,1069899
 2027-04-10,11:00 AM,Group Play,Seminole United ECNL G2013/14,,,Florida Kraze Krush ECNL G2013/14,Seminole,Field 6,On Time,1069875
 2027-04-10,11:00 AM,Group Play,Tampa Bay United ECNL G2013/14,,,Seminole United ECNL G2013/14,Ed Radice Sports Complex,Field 9,On Time,1069889
@@ -101,7 +102,6 @@ date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchI
 2027-04-10,12:00 PM,Group Play,Concorde Fire Platinum ECNL G2013/14,,,Atlanta Fire United ECNL G2013/14,Georgia Sports Park ,field 3,On Time,1069895
 2027-04-10,01:00 PM,Group Play,Alabama FC ECNL G2013/14,,,South Carolina United ECNL G2013/14,Dunnavant Valley Fields (DVF),Field # 5,On Time,1069891
 2027-04-10,01:30 PM,Group Play,Florida Premier FC ECNL G2013/14,,,Florida Kraze Krush ECNL G2013/14,Wiregrass Ranch Sports Campus,Field 3 ,On Time,1069887
-2027-04-11,TBD,Group Play,Sporting SA JAX ECNL G2013/14,,,Athletic Club Florida ECNL G2013/14,,,On Time,1069901
 2027-04-11,TBD,Group Play,United Futbol Academy ECNL G2013/14,,,Concorde Fire Platinum ECNL G2013/14,,,On Time,1069911
 2027-04-11,TBD,Group Play,GSA ECNL G2013/14,,,Atlanta Fire United ECNL G2013/14,,,On Time,1069913
 2027-04-11,08:30 AM,Group Play,Florida Premier FC ECNL G2013/14,,,Seminole United ECNL G2013/14,Wiregrass Ranch Sports Campus,Field 3 ,On Time,1069903
