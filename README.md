@@ -13,7 +13,7 @@ upstream API or website ever goes away.
 - **Fully static** — no backend at runtime; deploys to any static host for free, and works offline once loaded
 - **Self-refreshing** — a scheduled job updates the data on match days and keeps the fixture calendar current
 - **CSV exports** — Human-readable standings and schedule tables under `export/`, openable in Excel
-- **Playoffs & Finals** — Group stage standings for the national Playoffs event
+- **Playoffs & Finals** — National post-season per age group and competition (Champions League, North American Cup, Showcase Cup, Showcase Games): knockout brackets drawn as trees, cup and consolation brackets, group tables where a group stage exists, round-tagged schedules, and a format note per competition
 - **★ My Teams** — Star any team to track them in a personal favorites list
 - **Age group navigation** — Tabs populated from the API; keyboard arrow-key navigation
 - **Dark mode**, and **deep links** (season, age group, conference, and view in the URL hash)
@@ -91,6 +91,44 @@ hardcoded in the HTML.
 
 The season dropdown rebuilds itself from the registry, so no HTML edit is needed.
 
+## National playoffs
+
+A season's post-season events live under `national` in `data/sources.json`, keyed
+by the stage name shown in the sidebar. 2024-25 had separate `Playoffs` and
+`Finals` events; 2025-26 has one combined event, so its row reads
+`"Playoffs & Finals"` and the stage selector is hidden.
+
+```json
+"national": {
+  "Playoffs & Finals": {
+    "eventId": 4251,
+    "eventName": "ECNL Girls National Playoffs and Finals",
+    "location": "Redmond, WA",
+    "startDate": "2026-07-11", "endDate": "2026-07-17",
+    "tierLabels": { "Friendlies": "Showcase Games" },
+    "tierNotes":  { "Champions League": "32 teams seeded by conference PPG …" }
+  }
+}
+```
+
+- `startDate`/`endDate` gate the refresh: the event's flights join the match-day
+  refresh from a week before it starts until two weeks after it ends, then drop out.
+- `tierLabels` renames TGS flight names for display; `tierNotes` is the collapsible
+  "Format" text under each competition, taken from ECNL's post-season structure doc.
+
+**Brackets are derived from the schedule, not from TGS's bracket HTML.** Knockout
+flights have no standings, but every game carries both team IDs, scores, PK scores
+and a game number. The page follows each team's lineage — losing in round *r* of a
+bracket moves it into that round's losers bracket — which reproduces the main
+bracket, the Champions League Cup (day-one losers) and the consolation games without
+any template. A game that ended level with no PK score recorded is settled from the
+next game each team plays. TGS's bracket HTML is archived for durability only.
+
+Not included: the U18/19 National Finals is a separate TGS event (St. Louis, June)
+and can be added as a second `national` entry when its event ID is known. The
+2024-25 Finals event (3975) publishes no games through the API, so that bracket
+ends at the round played at the Playoffs event.
+
 ## Layout
 
 | Path | What it is |
@@ -128,7 +166,7 @@ Endpoints used (all unauthenticated):
 | Divisions & flights for an event | `Event/get-event-schedule-or-standings/{eventId}` |
 | Standings | `Event/get-standings-by-div-and-flight/{divisionId}/{flightId}/{eventId}` |
 | Schedule | `Event/get-schedules-by-flight/{eventId}/{flightId}/0` |
-| Bracket HTML | `Event/get-flight-brackets-by-flight/{eventId}/{flightId}` |
+| Bracket HTML (archived, not rendered) | `Event/get-brackets-design-by-eventID-and-flightID/{eventId}/{flightId}` |
 | Event name (for `--verify`) | `Event/get-event-details-by-eventID/{eventId}` |
 
 ## Season Coverage
@@ -136,7 +174,7 @@ Endpoints used (all unauthenticated):
 | Season  | Conferences | Division naming | Birth years per group | Playoffs | Finals |
 |---------|-------------|-----------------|-----------------------|----------|--------|
 | 2026-27 | 10          | age (`GU15`)         | two (`2011/2012`) | —   | —      |
-| 2025-26 | 10          | birth year (`G2011`) | one               | —   | —      |
+| 2025-26 | 10          | birth year (`G2011`) | one               | ✅ event 4251 (combined Playoffs & Finals, U13–U17) | ↑ same event |
 | 2024-25 | 10          | birth year | one | ✅ event 3865 | ✅ event 3975 |
 | 2023-24 | 10          | birth year | one | —        | —      |
 | 2022-23 | 10          | birth year | one | —        | —      |

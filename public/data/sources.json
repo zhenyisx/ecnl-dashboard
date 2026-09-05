@@ -166,7 +166,24 @@
           "eventName": "ECNL Girls Texas 2025-26"
         }
       },
-      "national": {},
+      "national": {
+        "Playoffs & Finals": {
+          "eventId": 4251,
+          "eventName": "ECNL Girls National Playoffs and Finals",
+          "location": "Redmond, WA",
+          "startDate": "2026-07-11",
+          "endDate": "2026-07-17",
+          "tierLabels": {
+            "Friendlies": "Showcase Games"
+          },
+          "tierNotes": {
+            "Champions League": "32 teams (30 automatic qualifiers + 2 wild cards), seeded 1–32 by conference PPG; first-round opponents never share a conference. Day-one losers play the Champions League Cup. Ties go straight to PKs, except the Final: 2×10 min extra time first. 3 games guaranteed.",
+            "North American Cup": "16 teams seeded 33–48 by conference PPG. 16-team knockout with losers brackets; 3 games guaranteed.",
+            "Showcase Cup": "16 teams seeded 49–64 by conference PPG (15 automatic + wild cards from New England, Northwest, NorCal). 16-team knockout with losers brackets; 3 games guaranteed.",
+            "Friendlies": "Showcase Games: 28 U16–U17 teams selected by interest and conference PPG play three showcase games. No title at stake."
+          }
+        }
+      },
       "ageGroups": {
         "G2008/2007": {
           "u": 18,

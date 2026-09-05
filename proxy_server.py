@@ -154,7 +154,9 @@ def main():
         print(f"  note: no archive yet — run `python archive.py` to build one")
     print(f"  Press Ctrl+C to stop\n")
 
-    server = http.server.HTTPServer(("", args.port), ProxyHandler)
+    # Threaded: browsers open several connections at once for the JSON fetches,
+    # and a single-threaded server would serve them one at a time.
+    server = http.server.ThreadingHTTPServer(("", args.port), ProxyHandler)
     try:
         server.serve_forever()
     except KeyboardInterrupt:

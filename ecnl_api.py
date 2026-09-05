@@ -188,6 +188,15 @@ def p_brackets(event_id, flight_id):
     return f"Event/get-flight-brackets-by-flight/{event_id}/{flight_id}"
 
 
+def p_brackets_design(event_id, flight_id):
+    """Every named bracket for a flight (main, cup, consolations) as HTML.
+
+    A superset of p_brackets, which returns only the first one. Archived for
+    durability; the dashboard derives brackets from the schedule instead.
+    """
+    return f"Event/get-brackets-design-by-eventID-and-flightID/{event_id}/{flight_id}"
+
+
 def p_event_details(event_id):
     return f"Event/get-event-details-by-eventID/{event_id}"
 

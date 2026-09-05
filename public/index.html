@@ -957,6 +957,178 @@
       }
     }
 
+    /* ===== BRACKETS (playoffs) ===== */
+    .bracket-wrap { width: 100%; min-width: 0; }
+
+    .champion-banner {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 12px 16px;
+      margin-bottom: 14px;
+      background: var(--gold-glow);
+      border: 1px solid var(--gold);
+      border-radius: var(--radius-md);
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .champion-banner span {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-secondary);
+    }
+
+    .bracket {
+      display: flex;
+      gap: 18px;
+      align-items: stretch;
+      overflow-x: auto;
+      padding-bottom: 8px;
+    }
+
+    .bracket-round {
+      display: flex;
+      flex-direction: column;
+      flex: 0 0 230px;
+      min-width: 230px;
+    }
+
+    .bracket-round-title {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-secondary);
+      padding: 0 0 8px;
+    }
+
+    .bracket-round-games {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      flex: 1;
+      gap: 10px;
+    }
+
+    .bracket-match {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-sm);
+      padding: 6px 9px;
+    }
+
+    .bracket-match.tbd { opacity: 0.55; border-style: dashed; box-shadow: none; }
+
+    .bracket-team {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 3px 2px;
+      font-size: 12.5px;
+      border-radius: 4px;
+    }
+
+    .bracket-team .team-name {
+      flex: 1;
+      min-width: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .bracket-team.winner { font-weight: 700; color: var(--teal); }
+    .bracket-team.hit { background: var(--teal-glow); }
+
+    .bracket-score {
+      font-variant-numeric: tabular-nums;
+      font-weight: 700;
+      min-width: 16px;
+      text-align: right;
+    }
+
+    .bracket-meta {
+      font-size: 10px;
+      color: var(--text-secondary);
+      margin-top: 3px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    /* Cup / consolation brackets: collapsed lists under the main tree */
+    .bracket-sub {
+      margin-top: 14px;
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+    }
+
+    .bracket-sub summary {
+      cursor: pointer;
+      padding: 10px 14px;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .bracket-sub-meta {
+      margin-left: 8px;
+      font-size: 11px;
+      font-weight: 500;
+      color: var(--text-secondary);
+    }
+
+    .bracket-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 10px;
+      padding: 0 14px 12px;
+    }
+
+    .bracket-list .bracket-round-title { grid-column: 1 / -1; padding-top: 8px; }
+
+    .format-note {
+      margin-top: 10px;
+      max-width: 720px;
+      font-size: 12px;
+      color: var(--text-secondary);
+    }
+
+    .format-note summary {
+      cursor: pointer;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--teal);
+    }
+
+    .format-note div { padding: 6px 0 0 4px; line-height: 1.5; }
+
+    .sched-tag {
+      font-size: 10px;
+      font-weight: 600;
+      color: var(--teal);
+      white-space: normal;
+      line-height: 1.2;
+      margin-top: 2px;
+    }
+
+    @media (max-width: 768px) {
+      .bracket { flex-direction: column; overflow-x: visible; gap: 12px; }
+      .bracket-round { flex: none; min-width: 0; }
+      .bracket-round-games { gap: 8px; }
+      .bracket-round-title {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        padding: 6px 0;
+        background: var(--bg-body);
+      }
+      .bracket-list { grid-template-columns: 1fr; }
+    }
+
     /* ===== PLAYOFFS & FINALS ===== */
     .stage-tabs {
       display: flex;
@@ -1113,48 +1285,6 @@
 
     .group-standings-table tbody tr:hover {
       background: var(--row-hover);
-    }
-
-    .bracket-banner {
-      margin: 16px 0 0;
-      padding: 14px 20px;
-      background: var(--teal-surface);
-      border: 1px solid var(--teal);
-      border-radius: var(--radius-md);
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 16px;
-    }
-
-    .bracket-banner-text {
-      font-size: 13px;
-      font-weight: 600;
-      color: var(--teal);
-    }
-
-    .bracket-banner-sub {
-      font-size: 11px;
-      color: var(--text-secondary);
-      margin-top: 2px;
-    }
-
-    .bracket-link {
-      padding: 8px 16px;
-      font-size: 12px;
-      font-weight: 700;
-      border-radius: var(--radius-sm);
-      background: var(--teal);
-      color: #fff;
-      text-decoration: none;
-      transition: all var(--transition-fast);
-      white-space: nowrap;
-      flex-shrink: 0;
-    }
-
-    .bracket-link:hover {
-      opacity: 0.85;
-      transform: translateY(-1px);
     }
 
     .no-national-events {
@@ -1407,13 +1537,23 @@
       </div>
 
       <div id="playoffsPanel" style="display:none;flex:1;overflow-y:auto;flex-direction:column;">
-        <div class="sidebar-section-title">Stage</div>
-        <div class="stage-tabs">
-          <button class="stage-tab active" id="stagePlayoffs" onclick="selectStage('Playoffs')">Playoffs</button>
-          <button class="stage-tab" id="stageFinals" onclick="selectStage('Finals')">Finals</button>
+        <!-- Stages come from the registry's `national` keys (e.g. Playoffs / Finals,
+             or a single combined event); the row is hidden when there is only one. -->
+        <div id="stageSection">
+          <div class="sidebar-section-title">Stage</div>
+          <div class="stage-tabs" id="stageTabs"></div>
         </div>
         <div class="sidebar-section-title" style="margin-top:4px;">Age Group</div>
         <div id="playoffAgeGroupTabs" class="playoff-age-group-tabs"></div>
+        <div class="sidebar-section-title" style="margin-top:4px;">Competition</div>
+        <ul class="conference-list" id="playoffTierList"></ul>
+
+        <div class="sidebar-section-title" style="margin-top:4px;">Find a Team</div>
+        <div class="sidebar-search">
+          <input type="text" class="search-input" id="playoffTeamSearch" placeholder="Highlight a team…"
+            oninput="filterTeams(this.value)">
+        </div>
+        <div class="team-filter-count" id="playoffTeamFilterCount"></div>
       </div>
 
       <div class="shortcut-hint">
@@ -1432,6 +1572,10 @@
             <button class="view-tab active" id="viewTabStandings" onclick="selectView('standings')">Standings</button>
             <button class="view-tab" id="viewTabSchedule" onclick="selectView('schedule')">Schedule</button>
           </div>
+          <details class="format-note" id="formatNote" style="display:none">
+            <summary>ⓘ Format</summary>
+            <div id="formatNoteText"></div>
+          </details>
         </div>
         <div class="ext-links" id="extLinks"></div>
       </div>
@@ -1569,8 +1713,9 @@
     let currentSortAsc = true;
     let favorites = new Set();   // Set of "teamName" strings
     // Playoffs state
-    let currentPlayoffStage = 'Playoffs';
+    let currentPlayoffStage = null;      // a key of the season's `national` map, e.g. "Playoffs & Finals"
     let currentPlayoffAgeGroup = null;
+    let currentPlayoffTier = null;       // flightID of the selected competition (Champions League, …)
     let playoffAgeGroupsCache = {};  // { "2024-25-Playoffs": [...], ... }
 
     // ========== DATA FETCH ==========
@@ -1650,6 +1795,14 @@
       return (data.data && data.data[0]) ? data.data[0] : data.data || data;
     }
 
+    // Every standings block for a flight. Playoff flights with a group stage
+    // return one block per group; knockout flights return none at all.
+    async function getStandingsBlocks(divId, flightId, eventId, opts) {
+      const data = await fetchJSON(`Event/get-standings-by-div-and-flight/${divId}/${flightId}/${eventId}`, opts);
+      const blocks = Array.isArray(data.data) ? data.data : (data.data ? [data.data] : []);
+      return blocks.filter(b => b && (b.teamStandings || []).length);
+    }
+
     // Third path segment is a club filter; 0 means "all clubs in this flight".
     async function getSchedule(eventId, flightId, opts) {
       const data = await fetchJSON(`Event/get-schedules-by-flight/${eventId}/${flightId}/0`, opts);
@@ -1672,7 +1825,9 @@
       try {
         localStorage.setItem(STORAGE_KEY, JSON.stringify({
           season: currentSeason, ageGroup: currentAgeGroup,
-          conference: currentConference, view: currentView
+          conference: currentConference, view: currentView,
+          tab: currentTab, stage: currentPlayoffStage,
+          playoffAgeGroup: currentPlayoffAgeGroup, tier: currentPlayoffTier
         }));
       } catch (e) { }
     }
@@ -1685,6 +1840,10 @@
           if (s.ageGroup) currentAgeGroup = s.ageGroup; // validated after API fetch
           if (SEASONS[currentSeason].conferences[s.conference]) currentConference = s.conference;
           if (s.view === 'schedule' || s.view === 'standings') currentView = s.view;
+          if (s.tab === 'playoffs' && NATIONAL_EVENTS[currentSeason]) currentTab = 'playoffs';
+          if (s.stage) currentPlayoffStage = s.stage;              // validated in buildStageTabs
+          if (s.playoffAgeGroup) currentPlayoffAgeGroup = s.playoffAgeGroup;
+          if (s.tier) currentPlayoffTier = Number(s.tier) || null;
         }
       } catch (e) { }
     }
@@ -1702,8 +1861,12 @@
 
     // ========== URL HASH ==========
     function pushHash() {
-      const h = `#season=${encodeURIComponent(currentSeason)}&age=${encodeURIComponent(currentAgeGroup)}&conf=${encodeURIComponent(currentConference)}` +
-        (currentView !== 'standings' ? `&view=${encodeURIComponent(currentView)}` : '');
+      const e = encodeURIComponent;
+      const view = currentView !== 'standings' ? `&view=${e(currentView)}` : '';
+      const h = currentTab === 'playoffs'
+        ? `#tab=playoffs&season=${e(currentSeason)}&stage=${e(currentPlayoffStage || '')}` +
+          `&age=${e(currentPlayoffAgeGroup || '')}&tier=${e(currentPlayoffTier || '')}${view}`
+        : `#season=${e(currentSeason)}&age=${e(currentAgeGroup)}&conf=${e(currentConference)}${view}`;
       if (window.location.hash !== h) history.replaceState(null, '', h);
     }
 
@@ -1713,14 +1876,25 @@
       const p = new URLSearchParams(hash);
       let changed = false;
       if (p.get('season') && SEASONS[p.get('season')]) { currentSeason = p.get('season'); changed = true; }
+      if (p.get('view') === 'schedule' || p.get('view') === 'standings') { currentView = p.get('view'); changed = true; }
+      if (p.get('tab') === 'playoffs' && NATIONAL_EVENTS[currentSeason]) {
+        currentTab = 'playoffs';
+        if (p.get('stage')) currentPlayoffStage = p.get('stage');     // validated in buildStageTabs
+        if (p.get('age')) currentPlayoffAgeGroup = p.get('age');       // validated in loadPlayoffsPanel
+        if (p.get('tier')) currentPlayoffTier = Number(p.get('tier')) || null;
+        return true;
+      }
+      currentTab = 'conferences';
       if (p.get('age')) { currentAgeGroup = p.get('age'); changed = true; } // validated after API fetch
       if (p.get('conf') && SEASONS[currentSeason].conferences[p.get('conf')]) { currentConference = p.get('conf'); changed = true; }
-      if (p.get('view') === 'schedule' || p.get('view') === 'standings') { currentView = p.get('view'); changed = true; }
       return changed;
     }
 
     window.addEventListener('hashchange', () => {
-      if (loadFromHash()) { document.getElementById('seasonSelect').value = currentSeason; rebuildAll(); }
+      if (!loadFromHash()) return;
+      document.getElementById('seasonSelect').value = currentSeason;
+      if (currentTab === 'playoffs') switchTab('playoffs');
+      else { switchTab('conferences'); rebuildAll(); }
     });
 
     // ========== THEME ==========
@@ -1980,18 +2154,36 @@
         dateRow.style.display = anyVisible ? '' : 'none';
       });
 
-      const countEl = document.getElementById('teamFilterCount');
-      if (countEl) {
-        const noun = currentView === 'schedule' ? 'game' : 'team';
-        countEl.textContent = query
-          ? `${visible} of ${total} ${noun}${total !== 1 ? 's' : ''} shown`
-          : '';
+      // Bracket cards are not table rows: highlight matches instead of hiding,
+      // so the shape of the bracket stays readable.
+      let hits = 0;
+      const teamEls = document.querySelectorAll('#standingsContainer .bracket-team');
+      teamEls.forEach(el => {
+        const hit = !!query && el.textContent.toLowerCase().includes(query);
+        el.classList.toggle('hit', hit);
+        if (hit) hits++;
+      });
+
+      let text = '';
+      if (query) {
+        if (!total && teamEls.length) {
+          text = `${hits} match${hits !== 1 ? 'es' : ''} highlighted`;
+        } else {
+          const noun = currentView === 'schedule' ? 'game' : 'team';
+          text = `${visible} of ${total} ${noun}${total !== 1 ? 's' : ''} shown`;
+        }
       }
+      ['teamFilterCount', 'playoffTeamFilterCount'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.textContent = text;
+      });
     }
 
     function clearTeamFilter() {
-      const el = document.getElementById('teamSearch');
-      if (el) el.value = '';
+      ['teamSearch', 'playoffTeamSearch'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.value = '';
+      });
       filterTeams('');
       // Silently reset global search UI (loadStandings is already handling the navigation)
       globalSearchActive = false;
@@ -2004,14 +2196,41 @@
       if (gStatus) gStatus.textContent = '';
     }
 
-    function updateStageTabsUI() {
+    function currentNationalEvent() {
       const natEvents = getNationalEventsForSeason();
-      const stBtn     = document.getElementById('stagePlayoffs');
-      const stFinBtn  = document.getElementById('stageFinals');
-      if (!stBtn || !stFinBtn) return;
-      stFinBtn.style.display = (natEvents && natEvents['Finals']) ? '' : 'none';
-      stBtn.classList.toggle('active',    currentPlayoffStage === 'Playoffs');
-      stFinBtn.classList.toggle('active', currentPlayoffStage === 'Finals');
+      return (natEvents && currentPlayoffStage) ? natEvents[currentPlayoffStage] || null : null;
+    }
+
+    // Display name for a TGS flight, e.g. "Friendlies" -> "Showcase Games".
+    function tierLabel(evt, flightName) {
+      const labels = (evt && evt.tierLabels) || {};
+      return labels[flightName] || flightName;
+    }
+
+    // Stage tabs are whatever keys the season's `national` map has. One key
+    // (a combined Playoffs & Finals event) hides the row entirely.
+    function buildStageTabs() {
+      const keys = Object.keys(getNationalEventsForSeason() || {});
+      if (!currentPlayoffStage || !keys.includes(currentPlayoffStage)) currentPlayoffStage = keys[0] || null;
+      const c = document.getElementById('stageTabs');
+      const section = document.getElementById('stageSection');
+      if (c) {
+        c.innerHTML = keys.map(k =>
+          `<button class="stage-tab ${k === currentPlayoffStage ? 'active' : ''}" data-stage="${esc(k)}" onclick="selectStage(this.dataset.stage)">${esc(k)}</button>`
+        ).join('');
+      }
+      if (section) section.style.display = keys.length > 1 ? '' : 'none';
+    }
+
+    function buildPlayoffTierList(flights) {
+      const evt = currentNationalEvent();
+      const c = document.getElementById('playoffTierList');
+      if (!c) return;
+      c.innerHTML = flights.map(f =>
+        `<li class="conference-item ${f.flightID === currentPlayoffTier ? 'active' : ''}" data-flight="${f.flightID}" onclick="selectPlayoffTier(Number(this.dataset.flight))">
+          <span class="conference-dot"></span><span>${esc(tierLabel(evt, f.flightName))}</span>
+        </li>`
+      ).join('');
     }
 
     async function loadPlayoffsPanel() {
@@ -2023,6 +2242,11 @@
         document.getElementById('contentTitle').textContent = 'Playoffs & Finals';
         document.getElementById('contentSubtitle').textContent = 'No events available for this season';
         document.getElementById('extLinks').innerHTML = '';
+        document.getElementById('viewTabs').style.display = 'none';
+        document.getElementById('formatNote').style.display = 'none';
+        document.getElementById('stageTabs').innerHTML = '';
+        document.getElementById('playoffAgeGroupTabs').innerHTML = '';
+        document.getElementById('playoffTierList').innerHTML = '';
         document.getElementById('standingsContainer').innerHTML = `
           <div class="no-national-events">
             <div class="no-national-events-icon">🏆</div>
@@ -2032,10 +2256,7 @@
         return;
       }
 
-      // Make sure the current stage has an event; fall back to Playoffs
-      if (!natEvents[currentPlayoffStage]) currentPlayoffStage = 'Playoffs';
-
-      updateStageTabsUI();
+      buildStageTabs();
       await loadPlayoffAgeGroups();
 
       const key = getPlayoffCacheKey();
@@ -2044,7 +2265,7 @@
         currentPlayoffAgeGroup = groups[0] || null;
       }
       buildPlayoffAgeGroupTabs();
-      await loadPlayoffStandings();
+      await loadPlayoffFlight();
     }
 
     async function loadPlayoffAgeGroups() {
@@ -2078,185 +2299,404 @@
     function selectStage(stage) {
       currentPlayoffStage = stage;
       currentPlayoffAgeGroup = null;
-      updateStageTabsUI();
+      currentPlayoffTier = null;
+      buildStageTabs();
       loadPlayoffAgeGroups().then(() => {
         const key = getPlayoffCacheKey();
         const groups = key ? (playoffAgeGroupsCache[key] || []) : [];
         currentPlayoffAgeGroup = groups[0] || null;
         buildPlayoffAgeGroupTabs();
-        loadPlayoffStandings();
+        loadPlayoffFlight();
       });
     }
 
     function selectPlayoffAgeGroup(ag) {
       currentPlayoffAgeGroup = ag;
       buildPlayoffAgeGroupTabs();
-      loadPlayoffStandings();
+      loadPlayoffFlight();
     }
 
-    async function loadPlayoffStandings() {
-      const natEvents = getNationalEventsForSeason();
-      if (!natEvents) return;
-      const evt = natEvents[currentPlayoffStage];
+    function selectPlayoffTier(flightId) {
+      currentPlayoffTier = flightId;
+      loadPlayoffFlight();
+      closeSidebarIfMobile();
+    }
+
+    function formatShortDate(iso) {
+      const [y, m, d] = (iso || '').slice(0, 10).split('-').map(Number);
+      if (!y) return '';
+      return new Date(y, m - 1, d).toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
+    }
+
+    function formatDateRange(start, end) {
+      if (!start) return '';
+      const a = formatShortDate(start), b = end ? formatShortDate(end) : '';
+      const year = start.slice(0, 4);
+      return b && b !== a ? `${a} – ${b}, ${year}` : `${a}, ${year}`;
+    }
+
+    // ---- Bracket derivation ----
+    // A knockout flight has no standings; its structure is recovered from the
+    // schedule alone by following each team's lineage. A team starts on the
+    // main path ''. Losing in round r of path p moves it to path p+'L'+r — so
+    // day-one losers of the Champions League form path 'L1' (the Champions
+    // League Cup), round-two losers form 'L2', and so on. A game's bracket is
+    // the path its two teams share, and its round is one more than the round
+    // either team last played in that path.
+    function bracketName(path, flightName, tierName) {
+      if (path === '') return tierName;
+      const isCL = /champions league/i.test(flightName || '');
+      if (path === 'L1') return isCL ? 'Champions League Cup' : 'Round 1 Losers';
+      if (path === 'L2') return 'Round 2 Losers · Consolation';
+      if (path === 'L1L1') return isCL ? 'Cup Consolation' : 'Round 1 Losers from Losers Bracket';
+      const m = path.match(/^(.*)L(\d+)$/);
+      return m ? `Losers of ${bracketName(m[1], flightName, tierName)} R${m[2]}` : path;
+    }
+
+    function gameWinner(g) {
+      const hs = g.hometeamscore, as = g.awayteamscore;
+      if (hs == null || as == null) return null;
+      if (hs !== as) return hs > as ? 'home' : 'away';
+      const hp = g.hometeamPKscore, ap = g.awayteamPKscore;
+      if (hp != null && ap != null && hp !== ap) return hp > ap ? 'home' : 'away';
+      return null;
+    }
+
+    function buildBrackets(games, flightName, tierName) {
+      const sorted = [...games].sort((a, b) =>
+        (a.gameDate || '').localeCompare(b.gameDate || '') ||
+        (a.gameTime || '').localeCompare(b.gameTime || '') ||
+        (a.gamenumber || 0) - (b.gamenumber || 0));
+
+      const teamState = new Map();   // teamID -> { path, round, pending }
+      const paths = new Map();       // path -> [{ game, round, winner, path }]
+      const fresh = () => ({ path: '', round: 0, pending: null });
+      const sideOf = (entry, id) => entry.game.hometeamID === id ? 'home' : 'away';
+
+      // A drawn game whose penalty result was never entered has no winner in
+      // the data. Both teams keep their pre-game position with `pending` set,
+      // and whichever plays next reveals the result: an opponent still on the
+      // same path means it advanced, an opponent in that round's losers
+      // bracket means it dropped down.
+      function settle(entry, winnerSide) {
+        entry.winner = winnerSide;
+        [entry.game.hometeamID, entry.game.awayteamID].forEach((id, i) => {
+          const s = teamState.get(id);
+          if (!s || s.pending !== entry) return;
+          const won = (winnerSide === 'home') === (i === 0);
+          teamState.set(id, won
+            ? { path: entry.path, round: entry.round, pending: null }
+            : { path: entry.path + 'L' + entry.round, round: 0, pending: null });
+        });
+      }
+
+      sorted.forEach(g => {
+        const ids = [g.hometeamID, g.awayteamID];
+        let st = ids.map(id => teamState.get(id) || fresh());
+
+        st.forEach((s, i) => {
+          if (!s.pending) return;
+          const o = st[1 - i];
+          if (o.pending) return;                         // both open: handled below
+          const me = sideOf(s.pending, ids[i]);
+          if (o.path === s.path && o.round === s.round) settle(s.pending, me);
+          else if (o.path === s.path + 'L' + s.round) settle(s.pending, me === 'home' ? 'away' : 'home');
+          else {
+            console.warn(`bracket: cannot settle GM#${s.pending.game.gamenumber}; assuming it advanced`);
+            settle(s.pending, me);
+          }
+        });
+        st = ids.map(id => teamState.get(id) || fresh());
+        st.forEach((s, i) => {
+          if (!s.pending) return;
+          console.warn(`bracket: unresolved draw GM#${s.pending.game.gamenumber}; assuming it advanced`);
+          settle(s.pending, sideOf(s.pending, ids[i]));
+        });
+        st = ids.map(id => teamState.get(id) || fresh());
+
+        let path = st[0].path;
+        if (st[0].path !== st[1].path) {
+          // Shouldn't happen in a well-formed bracket; prefer the shallower path.
+          console.warn('bracket: teams on different paths', g.gamenumber, st[0].path, st[1].path);
+          path = st[0].path.length <= st[1].path.length ? st[0].path : st[1].path;
+        }
+        const round = 1 + Math.max(
+          st[0].path === path ? st[0].round : 0,
+          st[1].path === path ? st[1].round : 0);
+        const winner = gameWinner(g);
+        const entry = { game: g, round, winner, path };
+        if (!paths.has(path)) paths.set(path, []);
+        paths.get(path).push(entry);
+
+        ids.forEach((id, i) => {
+          if (id == null) return;
+          if (winner == null) teamState.set(id, { path, round, pending: entry });
+          else if ((winner === 'home') === (i === 0)) teamState.set(id, { path, round, pending: null });
+          else teamState.set(id, { path: path + 'L' + round, round: 0, pending: null });
+        });
+      });
+
+      const list = [...paths.entries()].map(([path, entries]) => {
+        const byRound = new Map();
+        entries.forEach(e => { if (!byRound.has(e.round)) byRound.set(e.round, []); byRound.get(e.round).push(e); });
+        const rounds = [...byRound.keys()].sort((a, b) => a - b).map(n => ({
+          n, games: byRound.get(n).sort((x, y) => (x.game.gamenumber || 0) - (y.game.gamenumber || 0))
+        }));
+        const teams = rounds.length ? 2 * rounds[0].games.length : 0;
+        const single = path !== '' && rounds.length === 1;   // one-off consolation games
+        rounds.forEach(r => {
+          const n = r.games.length;
+          r.name = single ? (n === 1 ? 'Consolation' : 'Consolation games')
+            : n === 1 ? 'Final' : n === 2 ? 'Semifinals' : n === 4 ? 'Quarterfinals' : `Round of ${n * 2}`;
+        });
+        const last = rounds[rounds.length - 1];
+        const finalEntry = (path === '' && last && last.games.length === 1) ? last.games[0] : null;
+        const champion = finalEntry && finalEntry.winner
+          ? (finalEntry.winner === 'home' ? finalEntry.game.homeTeam : finalEntry.game.awayTeam) : null;
+        return { path, name: bracketName(path, flightName, tierName), teams, rounds, champion, isMain: path === '' };
+      }).sort((a, b) => a.path.length - b.path.length || a.path.localeCompare(b.path));
+
+      const tagByMatch = new Map();
+      list.forEach(b => b.rounds.forEach(r => r.games.forEach(e =>
+        tagByMatch.set(e.game.matchID, b.isMain ? r.name : `${b.name} · ${r.name}`))));
+
+      const main = list.find(b => b.isMain);
+      return { list, tagByMatch, champion: main ? main.champion : null };
+    }
+
+    // ---- Bracket rendering ----
+    function bracketMatchCard(e) {
+      if (!e) {
+        return `<div class="bracket-match tbd">
+          <div class="bracket-team"><span class="team-name">TBD</span></div>
+          <div class="bracket-team"><span class="team-name">TBD</span></div></div>`;
+      }
+      const g = e.game;
+      const hs = g.hometeamscore, as = g.awayteamscore;
+      const played = hs != null && as != null;
+      const logo = url => url
+        ? `<img class="team-logo" src="${esc(url)}" alt="" loading="lazy" onerror="this.style.display='none'">` : '';
+      const team = (name, url, score, win) =>
+        `<div class="bracket-team ${win ? 'winner' : ''}">${logo(url)}<span class="team-name" title="${esc(name)}">${esc(name)}</span><span class="bracket-score">${played ? score : ''}</span></div>`;
+      const pk = (g.hometeamPKscore != null && g.awayteamPKscore != null)
+        ? `<div class="bracket-meta">PKs ${g.hometeamPKscore}–${g.awayteamPKscore}</div>`
+        : (played && hs === as && e.winner)
+          ? `<div class="bracket-meta">Decided on penalties (score not published)</div>` : '';
+      const when = [g.gamenumber ? `GM#${g.gamenumber}` : '', formatShortDate(g.gameDate), g.gameTimeText, g.complex]
+        .filter(Boolean).join(' · ');
+      return `<div class="bracket-match" data-gm="${g.gamenumber || ''}">
+        ${team(g.homeTeam, g.homeClubLogo, hs, e.winner === 'home')}
+        ${team(g.awayTeam, g.awayClubLogo, as, e.winner === 'away')}
+        ${pk}<div class="bracket-meta" title="${esc(when)}">${esc(when)}</div></div>`;
+    }
+
+    function renderBracketTree(b) {
+      const el = document.createElement('div');
+      el.className = 'bracket';
+      // Draw every round the bracket size implies, so an in-progress bracket
+      // still shows the rounds still to come as TBD slots.
+      const expected = Math.max(b.rounds.length, Math.round(Math.log2(Math.max(b.teams, 2))));
+      let html = '';
+      for (let i = 0; i < expected; i++) {
+        const r = b.rounds[i];
+        const nGames = r ? r.games.length : Math.max(1, Math.round(b.teams / Math.pow(2, i + 1)));
+        const name = r ? r.name
+          : nGames === 1 ? 'Final' : nGames === 2 ? 'Semifinals' : nGames === 4 ? 'Quarterfinals' : `Round of ${nGames * 2}`;
+        html += `<div class="bracket-round"><div class="bracket-round-title">${esc(name)}</div><div class="bracket-round-games">`;
+        if (r) html += r.games.map(bracketMatchCard).join('');
+        else for (let k = 0; k < nGames; k++) html += bracketMatchCard(null);
+        html += `</div></div>`;
+      }
+      el.innerHTML = html;
+      return el;
+    }
+
+    function renderBrackets(brackets) {
+      const wrap = document.createElement('div');
+      wrap.className = 'bracket-wrap';
+      const main = brackets.list.find(b => b.isMain);
+      if (main) {
+        if (main.champion) {
+          wrap.innerHTML = `<div class="champion-banner">🏆 <span>Champion</span>${esc(main.champion)}</div>`;
+        }
+        wrap.appendChild(renderBracketTree(main));
+      }
+      brackets.list.filter(b => !b.isMain).forEach(b => {
+        const games = b.rounds.reduce((n, r) => n + r.games.length, 0);
+        const d = document.createElement('details');
+        d.className = 'bracket-sub';
+        d.innerHTML = `<summary>${esc(b.name)}<span class="bracket-sub-meta">${b.teams} teams · ${games} game${games !== 1 ? 's' : ''}</span></summary>`;
+        const body = document.createElement('div');
+        body.className = 'bracket-list';
+        body.innerHTML = b.rounds.map(r =>
+          `<div class="bracket-round-title">${esc(r.name)}</div>` + r.games.map(bracketMatchCard).join('')
+        ).join('');
+        d.appendChild(body);
+        wrap.appendChild(d);
+      });
+      return wrap;
+    }
+
+    // Group-stage cards: one per standings block (TGS returns one block per group).
+    function renderGroupCards(blocks) {
+      const grid = document.createElement('div');
+      grid.className = 'group-grid';
+      blocks.forEach((data, gi) => {
+        const teams = data.teamStandings || [];
+        const title = data.flightGroupName || `Group ${String.fromCharCode(65 + gi)}`;
+        const card = document.createElement('div');
+        card.className = 'group-card';
+        card.innerHTML = `
+          <div class="group-card-header"><div class="group-card-title">${esc(title)}</div></div>
+          <table class="group-standings-table">
+            <thead><tr>
+              <th>#</th><th></th><th>Team</th>
+              <th>GP</th><th>W</th><th>L</th><th>D</th><th>PTS</th><th>GD</th>
+            </tr></thead>
+            <tbody></tbody>
+          </table>`;
+        const tbody = card.querySelector('tbody');
+        tbody.innerHTML = teams.map((team, i) => {
+          const rank = i + 1;
+          const gd = team.goaldifferential || 0;
+          const gdStr = gd > 0 ? `+${gd}` : `${gd}`;
+          const gdClass = gd > 0 ? 'gd-positive' : gd < 0 ? 'gd-negative' : '';
+          const isFav = favorites.has(team.name);
+          const rankHtml = rank <= 3
+            ? `<span class="rank-badge rank-${rank}">${rank}</span>`
+            : `<span style="padding-left:4px;font-weight:600;color:var(--text-secondary)">${rank}</span>`;
+          return `<tr>
+            <td>${rankHtml}</td>
+            <td><button class="star-btn ${isFav ? 'starred' : ''}" data-team="${esc(team.name)}" onclick="toggleFavorite(this.dataset.team)" title="Favorite">${isFav ? '★' : '☆'}</button></td>
+            <td><span class="team-name" style="max-width:150px;display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${esc(team.name)}">${esc(team.name)}</span></td>
+            <td>${team.gp || 0}</td>
+            <td style="font-weight:600">${team.wins || 0}</td>
+            <td>${team.losses || 0}</td>
+            <td>${team.draws || 0}</td>
+            <td class="stat-highlight">${team.standingpoints || 0}</td>
+            <td class="${gdClass}">${gdStr}</td>
+          </tr>`;
+        }).join('');
+        grid.appendChild(card);
+      });
+      return grid;
+    }
+
+    // One loader for every playoff flight. What gets drawn depends on the data:
+    //   several standings blocks -> group cards      (2024-25 group stage)
+    //   games typed "Bracket"    -> bracket tree      (knockouts)
+    //   otherwise                -> a standings table (Showcase Games)
+    // The Schedule view always works, with each row tagged by bracket + round.
+    async function loadPlayoffFlight() {
+      const evt = currentNationalEvent();
       if (!evt) return;
 
       const ageLabel = currentPlayoffAgeGroup ? getAgeLabel(currentPlayoffAgeGroup) : '';
-      document.getElementById('breadcrumb').innerHTML =
-        `<span>${currentSeason}</span><span class="breadcrumb-sep">›</span>` +
-        `<span>Playoffs & Finals</span><span class="breadcrumb-sep">›</span>` +
-        `<span>${currentPlayoffStage}</span>` +
-        (currentPlayoffAgeGroup
-          ? `<span class="breadcrumb-sep">›</span><span class="breadcrumb-current">${ageLabel}</span>`
-          : '');
-      document.getElementById('contentTitle').textContent =
-        currentPlayoffAgeGroup
-          ? `${currentPlayoffStage} — ${ageLabel} (${currentPlayoffAgeGroup})`
-          : `${currentPlayoffStage}`;
-      document.getElementById('contentSubtitle').textContent = `${currentSeason} Season · National Event`;
-      document.getElementById('extLinks').innerHTML = '';
-
       const container = document.getElementById('standingsContainer');
+      const noteEl = document.getElementById('formatNote');
+      noteEl.style.display = 'none';
 
       if (!currentPlayoffAgeGroup) {
+        document.getElementById('contentTitle').textContent = currentPlayoffStage || 'Playoffs & Finals';
+        document.getElementById('contentSubtitle').textContent = `${currentSeason} Season · National Event`;
+        document.getElementById('extLinks').innerHTML = '';
+        document.getElementById('viewTabs').style.display = 'none';
         container.innerHTML = `
           <div class="no-national-events">
             <div class="no-national-events-icon">📋</div>
             <div class="no-national-events-text">Select an Age Group</div>
-            <div class="no-national-events-sub">Choose an age group from the sidebar to view standings</div>
+            <div class="no-national-events-sub">Choose an age group from the sidebar</div>
           </div>`;
         return;
       }
 
       clearTeamFilter();
-      container.innerHTML = `<div class="loading-container"><div class="spinner"></div><div class="loading-text">Loading ${currentPlayoffStage} standings…</div></div>`;
+      container.innerHTML = `<div class="loading-container"><div class="spinner"></div><div class="loading-text">Loading ${esc(currentPlayoffStage)}…</div></div>`;
 
       try {
         const hierarchy = await getEventHierarchy(evt.eventId);
-        const divList = hierarchy.girlsDivAndFlightList || [];
-        const division = divList.find(d => d.divisionName === currentPlayoffAgeGroup);
-
+        const division = (hierarchy.girlsDivAndFlightList || []).find(d => d.divisionName === currentPlayoffAgeGroup);
         if (!division) {
-          container.innerHTML = `<div class="error-message">No data found for ${ageLabel} in ${currentPlayoffStage}</div>`;
+          container.innerHTML = `<div class="error-message">No data found for ${esc(ageLabel)} in ${esc(currentPlayoffStage)}</div>`;
           return;
         }
 
         const flights = division.flightList || [];
+        if (!flights.some(f => f.flightID === currentPlayoffTier)) {
+          currentPlayoffTier = flights.length ? flights[0].flightID : null;
+        }
+        buildPlayoffTierList(flights);
+        const flight = flights.find(f => f.flightID === currentPlayoffTier);
+        if (!flight) {
+          container.innerHTML = `<div class="error-message">No competitions found for ${esc(ageLabel)}</div>`;
+          return;
+        }
+        const tierName = tierLabel(evt, flight.flightName);
 
-        // Classify flights: group stage vs bracket/knockout
-        const groupFlights   = flights.filter(f => /^Group [A-Za-z]/.test(f.flightName.trim()));
-        const bracketFlights = flights.filter(f => !/^Group [A-Za-z]/.test(f.flightName.trim()));
-        const isGroupStage   = groupFlights.length > 1;
-        const flightsToFetch = isGroupStage ? groupFlights : flights;
+        const [blocks, games] = await Promise.all([
+          getStandingsBlocks(division.divisionID, flight.flightID, evt.eventId).catch(() => []),
+          getSchedule(evt.eventId, flight.flightID).catch(() => []),
+        ]);
+        const bracketGames = games.filter(g => g.type === 'Bracket');
+        const brackets = bracketGames.length ? buildBrackets(bracketGames, flight.flightName, tierName) : null;
 
-        const standingsData = await Promise.all(
-          flightsToFetch.map(f =>
-            getStandings(division.divisionID, f.flightID, evt.eventId)
-              .then(data => ({ flight: f, data }))
-              .catch(() => ({ flight: f, data: null }))
-          )
-        );
+        // Header
+        document.getElementById('breadcrumb').innerHTML =
+          `<span>${esc(currentSeason)}</span><span class="breadcrumb-sep">›</span>` +
+          `<span>${esc(currentPlayoffStage)}</span><span class="breadcrumb-sep">›</span>` +
+          `<span>${esc(ageLabel)}</span><span class="breadcrumb-sep">›</span>` +
+          `<span class="breadcrumb-current">${esc(tierName)}</span>`;
+        document.getElementById('contentTitle').textContent = `${tierName} — ${ageLabel} (${currentPlayoffAgeGroup})`;
+        document.getElementById('contentSubtitle').textContent =
+          [`${currentSeason} · National Event`, evt.location, formatDateRange(evt.startDate, evt.endDate)]
+            .filter(Boolean).join(' · ') + freshnessText();
+        updateViewTabsUI(brackets ? 'Bracket' : 'Standings');
 
-        // Populate extLinks with per-flight Schedules + Standings buttons
-        const extLinks = document.getElementById('extLinks');
-        if (isGroupStage) {
-          // Group stage: bracket link in header; each card has its own sched/stand links
-          const tgsUrlHeader = `https://public.totalglobalsports.com/public/event/${evt.eventId}/schedules-standings`;
-          extLinks.innerHTML = `<a class="open-external" href="${tgsUrlHeader}" target="_blank">${EXTERNAL_ICON} View Brackets on TGS</a>`;
-        } else {
-          // Single flights: per-flight Schedules + Standings buttons
-          extLinks.innerHTML = flightsToFetch.map(f => {
-            const schedUrl = getSchedulesUrl(evt.eventId, f.flightID);
-            const standUrl = getStandingsUrl(evt.eventId, f.flightID);
-            const prefix = flightsToFetch.length > 1 ? f.flightName + ' ' : '';
-            return `<a class="open-external" href="${schedUrl}" target="_blank">${EXTERNAL_ICON} ${prefix}Schedules</a>` +
-                   `<a class="open-external" href="${standUrl}" target="_blank">${EXTERNAL_ICON} ${prefix}Standings</a>`;
-          }).join('');
+        const notes = evt.tierNotes || {};
+        const note = notes[flight.flightName] || notes[tierName];
+        if (note) {
+          document.getElementById('formatNoteText').textContent = note;
+          noteEl.style.display = '';
+          noteEl.open = false;
         }
 
+        document.getElementById('extLinks').innerHTML =
+          `<a class="open-external" href="${getSchedulesUrl(evt.eventId, flight.flightID)}" target="_blank">${EXTERNAL_ICON} Schedule</a>` +
+          `<a class="open-external" href="${getStandingsUrl(evt.eventId, flight.flightID)}" target="_blank">${EXTERNAL_ICON} Standings</a>` +
+          `<a class="open-external" href="${publicUrl('eventHome', evt.eventId, flight.flightID)}" target="_blank">${EXTERNAL_ICON} Brackets on TGS</a>`;
+
+        // Body
         container.innerHTML = '';
-
-        if (isGroupStage) {
-          // Render as compact group cards grid
-          const grid = document.createElement('div');
-          grid.className = 'group-grid';
-
-          standingsData.forEach(({ flight, data }) => {
-            if (!data) return;
-            const teams = data.teamStandings || [];
-            const schedUrl = getSchedulesUrl(evt.eventId, flight.flightID);
-            const standUrl = getStandingsUrl(evt.eventId, flight.flightID);
-            const card = document.createElement('div');
-            card.className = 'group-card';
-            card.innerHTML = `
-              <div class="group-card-header">
-                <div class="group-card-title">${flight.flightName}</div>
-                <div class="group-card-links">
-                  <a class="group-card-link" href="${schedUrl}" target="_blank">${EXTERNAL_ICON} Sched</a>
-                  <a class="group-card-link" href="${standUrl}" target="_blank">${EXTERNAL_ICON} Stand</a>
-                </div>
-              </div>
-              <table class="group-standings-table">
-                <thead><tr>
-                  <th>#</th><th></th><th>Team</th>
-                  <th>GP</th><th>W</th><th>L</th><th>D</th><th>PTS</th><th>GD</th>
-                </tr></thead>
-                <tbody></tbody>
-              </table>`;
-            const tbody = card.querySelector('tbody');
-            teams.forEach((team, i) => {
-              const rank = i + 1;
-              const gd = team.goaldifferential || 0;
-              const gdStr = gd > 0 ? `+${gd}` : `${gd}`;
-              const gdClass = gd > 0 ? 'gd-positive' : gd < 0 ? 'gd-negative' : '';
-              const isFav = favorites.has(team.name);
-              const rankHtml = rank <= 3
-                ? `<span class="rank-badge rank-${rank}">${rank}</span>`
-                : `<span style="padding-left:4px;font-weight:600;color:var(--text-secondary)">${rank}</span>`;
-              tbody.innerHTML += `<tr>
-                <td>${rankHtml}</td>
-                <td><button class="star-btn ${isFav ? 'starred' : ''}" data-team="${team.name.replace(/"/g, '&quot;')}" onclick="toggleFavorite(this.dataset.team)" title="Favorite">${isFav ? '★' : '☆'}</button></td>
-                <td><span class="team-name" style="max-width:150px;display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${team.name}</span></td>
-                <td>${team.gp || 0}</td>
-                <td style="font-weight:600">${team.wins || 0}</td>
-                <td>${team.losses || 0}</td>
-                <td>${team.draws || 0}</td>
-                <td class="stat-highlight">${team.standingpoints || 0}</td>
-                <td class="${gdClass}">${gdStr}</td>
-              </tr>`;
-            });
-            grid.appendChild(card);
-          });
-          container.appendChild(grid);
-
-          // Bracket banner below the group grid
-          const tgsUrl = `https://public.totalglobalsports.com/public/event/${evt.eventId}/schedules-standings`;
-          const banner = document.createElement('div');
-          banner.className = 'bracket-banner';
-          banner.innerHTML = `
-            <div>
-              <div class="bracket-banner-text">🏆 Knockout Brackets</div>
-              <div class="bracket-banner-sub">Bracket results are rendered by TGS — not available via API</div>
-            </div>
-            <a class="bracket-link" href="${tgsUrl}" target="_blank">View Brackets on TGS ↗</a>`;
-          container.appendChild(banner);
-
+        if (currentView === 'schedule') {
+          const tagFor = brackets ? (g => brackets.tagByMatch.get(g.matchID) || '') : null;
+          container.appendChild(renderScheduleTable(games, tierName, flight.flightID, evt.eventId, tagFor));
         } else {
-          // Finals or single-flight: reuse existing renderStandingsTable
-          standingsData.forEach(({ flight, data }) => {
-            if (!data) return;
-            const teams = data.teamStandings || [];
-            teams.forEach((t, i) => { t._origRank = i + 1; });
-            const panel = renderStandingsTable(data, flight.flightName, flight.flightID, evt.eventId);
-            container.appendChild(panel);
-          });
+          if (blocks.length > 1) container.appendChild(renderGroupCards(blocks));
+          if (brackets) container.appendChild(renderBrackets(brackets));
+          if (blocks.length <= 1 && !brackets) {
+            const data = blocks[0] || { teamStandings: [] };
+            (data.teamStandings || []).forEach((t, i) => { t._origRank = i + 1; });
+            if (!(data.teamStandings || []).length && !games.length) {
+              container.innerHTML = `<div class="no-national-events">
+                <div class="no-national-events-icon">📋</div>
+                <div class="no-national-events-text">No results yet</div>
+                <div class="no-national-events-sub">Nothing has been published for ${esc(tierName)} — ${esc(ageLabel)}.</div>
+              </div>`;
+            } else {
+              container.appendChild(renderStandingsTable(data, tierName, flight.flightID, evt.eventId));
+            }
+          }
         }
-
       } catch (err) {
+        console.error(err);
         container.innerHTML = `<div class="error-message">
-          <strong>Couldn't load the ${currentPlayoffStage} standings.</strong><br>
+          <strong>Couldn't load ${esc(currentPlayoffStage)}.</strong><br>
           <small>Please try again shortly.</small>
         </div>`;
       }
+
+      saveState();
+      pushHash();
     }
 
     function filterConferences(q) {
@@ -2497,7 +2937,9 @@
       });
     }
 
-    function renderScheduleTable(games, flightName, flightId, eventId) {
+    // `rowTag(game)` optionally returns a label printed under the kickoff time,
+    // used by playoff brackets to show the round ("Quarterfinals", "CL Cup · Final").
+    function renderScheduleTable(games, flightName, flightId, eventId, rowTag) {
       const panel = document.createElement('div');
       panel.className = 'flight-panel';
 
@@ -2560,10 +3002,11 @@
           ? `<span class="sched-status">${esc(g.status)}</span>` : '';
 
         const venue = [g.complex, g.venue].filter(Boolean).join(' · ');
+        const tag = rowTag ? rowTag(g) : '';
 
         html += `
       <tr>
-        <td class="sched-meta">${esc(g.gameTimeText || 'TBD')}</td>
+        <td class="sched-meta">${esc(g.gameTimeText || 'TBD')}${tag ? `<div class="sched-tag">${esc(tag)}</div>` : ''}</td>
         <td><div class="sched-team reversed ${homeWin ? 'winner' : ''}">
           ${logo(g.homeClubLogo)}<span class="team-name" title="${esc(g.homeTeam)}">${esc(g.homeTeam)}</span>
         </div></td>
@@ -2580,20 +3023,26 @@
     }
 
     // ========== MAIN LOADER ==========
-    function updateViewTabsUI() {
+    // `firstLabel` renames the first tab: "Standings" for tables, "Bracket" for knockouts.
+    function updateViewTabsUI(firstLabel) {
       const tabs = document.getElementById('viewTabs');
       if (tabs) tabs.style.display = '';
       const s = document.getElementById('viewTabStandings');
       const c = document.getElementById('viewTabSchedule');
-      if (s) s.classList.toggle('active', currentView === 'standings');
+      if (s) {
+        s.classList.toggle('active', currentView === 'standings');
+        s.textContent = firstLabel || 'Standings';
+      }
       if (c) c.classList.toggle('active', currentView === 'schedule');
     }
 
     function selectView(view) {
       if (view === currentView) return;
       currentView = view;
-      updateViewTabsUI();
-      loadCurrentView();
+      const s = document.getElementById('viewTabStandings');
+      updateViewTabsUI(s ? s.textContent : undefined);
+      if (currentTab === 'playoffs') loadPlayoffFlight();
+      else loadCurrentView();
     }
 
     // Backwards-compatible entry point used by the selectors and rebuildAll.
@@ -2604,7 +3053,8 @@
       if (!conf) return;
 
       buildBreadcrumb();
-      updateViewTabsUI();
+      updateViewTabsUI('Standings');
+      document.getElementById('formatNote').style.display = 'none';
       const ageLabel = AGE_LABELS[currentAgeGroup] || currentAgeGroup;
       document.getElementById('contentTitle').textContent = `${currentConference} — ${ageLabel} (${currentAgeGroup})`;
       document.getElementById('contentSubtitle').textContent = `${currentSeason} Season${freshnessText()}`;
@@ -2698,7 +3148,8 @@
       currentSeason = season;
       eventHierarchy = {};
       currentPlayoffAgeGroup = null;
-      currentPlayoffStage = 'Playoffs';
+      currentPlayoffTier = null;
+      currentPlayoffStage = null;   // resolved from the season's national events
 
       if (currentTab === 'playoffs') {
         await loadPlayoffsPanel();
@@ -2759,7 +3210,17 @@
 
       if (!loadFromHash()) loadSavedState();
       document.getElementById('seasonSelect').value = currentSeason;
-      await rebuildAll();
+      if (currentTab === 'playoffs') {
+        // Build the conference sidebar so switching back is instant, but land on Playoffs.
+        await loadAgeGroupsForSeason();
+        if (!currentAgeGroup || !AGE_GROUPS.includes(currentAgeGroup)) currentAgeGroup = AGE_GROUPS[0] || null;
+        if (!getSeasonData().conferences[currentConference]) currentConference = Object.keys(getSeasonData().conferences)[0];
+        buildAgeGroupTabs();
+        buildConferenceList();
+        switchTab('playoffs');
+      } else {
+        await rebuildAll();
+      }
     })();
   </script>
 </body>

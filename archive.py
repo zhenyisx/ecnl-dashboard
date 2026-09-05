@@ -248,11 +248,14 @@ def archive_event(sources, season_key, kind, name, event, stats, force, dry_run)
                 stats.fail(f"{label} {div_name}/{flight_name}: schedule: {e}")
                 print(f"    ! schedule {div_name}/{flight_name}: {e}")
 
-            # Brackets, for national playoff/finals events only
+            # Brackets, for national playoff/finals events only. The design
+            # endpoint returns every named bracket (main, cup, consolations).
             if kind == "national":
                 try:
-                    get_json(api.p_brackets(eid, flight_id), stats, force)
-                    record["brackets"] = True
+                    payload = api.unwrap(get_json(api.p_brackets_design(eid, flight_id), stats, force))
+                    names = [b.get("bracketName") for b in payload if isinstance(b, dict)] \
+                        if isinstance(payload, list) else []
+                    record["brackets"] = [n for n in names if n]
                 except api.ApiError as e:
                     print(f"    - no brackets for {div_name}/{flight_name}: {e}")
 
@@ -337,13 +340,38 @@ def fetch_json(path, stats):
     return data
 
 
-def season_flights(sources, season):
+def national_event_active(event, today, before_days=7, after_days=14):
+    """Include a national (playoffs/finals) event in the refresh only around
+    its dates: from a week before it starts to two weeks after it ends, so
+    late-entered results are still picked up. Events without dates are
+    always included."""
+    start = event.get("startDate")
+    end = event.get("endDate")
+    if not start or not end:
+        return True
+    try:
+        s = datetime.date.fromisoformat(start) - datetime.timedelta(days=before_days)
+        e = datetime.date.fromisoformat(end) + datetime.timedelta(days=after_days)
+    except ValueError:
+        return True
+    return s <= today <= e
+
+
+def season_flights(sources, season, today=None):
     """Every flight in a season, from the archived hierarchies.
 
-    Yields dicts with the conference, event, division and flight identifiers.
+    Conference events are always included; national events only within their
+    date window (see national_event_active). Each dict carries the event's
+    kind, name, division and flight identifiers.
     """
+    today = today or datetime.datetime.now(datetime.timezone.utc).date()
+    season_data = sources["seasons"][season]
+    events = [("conference", n, ev) for n, ev in (season_data.get("conferences") or {}).items()]
+    events += [("national", n, ev) for n, ev in (season_data.get("national") or {}).items()
+               if national_event_active(ev, today)]
+
     out = []
-    for conf, ev in (sources["seasons"][season].get("conferences") or {}).items():
+    for kind, name, ev in events:
         eid = ev.get("eventId")
         if not eid:
             continue
@@ -357,7 +385,8 @@ def season_flights(sources, season):
         for d in divs:
             for f in d.get("flightList") or []:
                 out.append({
-                    "conference": conf,
+                    "kind": kind,
+                    "conference": name,
                     "eventId": eid,
                     "divisionID": d.get("divisionID"),
                     "divisionName": d.get("divisionName"),
