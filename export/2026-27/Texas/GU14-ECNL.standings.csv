@@ -1,17 +1,17 @@
 rank,team,club,teamID,gp,w,l,d,pts,ppg,gf,ga,gd
-1,Colorado Storm ECNL G2012/13,Colorado Storm,111254,1,1,0,0,3,3.0,2,0,2
-2,Real Colorado National ECNL G2012/13,Real Colorado,99152,1,1,0,0,3,3.0,1,0,1
-3,Albion Hurricanes FC ECNL G2012/13,Albion Hurricanes FC,71431,0,0,0,0,0,0.0,0,0,0
-4,Challenge SC ECNL G2012/13,Challenge SC,129342,0,0,0,0,0,0.0,0,0,0
+1,Colorado Storm ECNL G2012/13,Colorado Storm,111254,2,2,0,0,6,3.0,5,0,5
+2,Real Colorado National ECNL G2012/13,Real Colorado,99152,2,2,0,0,6,3.0,4,1,3
+3,Challenge SC ECNL G2012/13,Challenge SC,129342,1,1,0,0,3,3.0,3,1,2
+4,Colorado Rush ECNL G2012/13,Colorado Rush,90652,2,1,1,0,3,1.5,3,1,2
 5,Dallas Texans ECNL G2012/13,Dallas Texans,134489,0,0,0,0,0,0.0,0,0,0
 6,DKSC ECNL G2012/13,DKSC,114045,0,0,0,0,0,0.0,0,0,0
 7,FC Dallas Youth ECNL G2012/13,FC Dallas Youth,115991,0,0,0,0,0,0.0,0,0,0
-8,FC Westlake ECNL G2012/13,FC Westlake ,131272,0,0,0,0,0,0.0,0,0,0
-9,Lonestar ATX Red ECNL G2012/13,Lonestar ATX,132703,0,0,0,0,0,0.0,0,0,0
-10,OK Energy FC ECNL G2012/13,Oklahoma Energy FC,80828,0,0,0,0,0,0.0,0,0,0
-11,SOLAR SC ECNL G2012/13,Solar SC,59794,0,0,0,0,0,0.0,0,0,0
-12,Sting Black ECNL G2012/13,Sting Soccer Club,82159,0,0,0,0,0,0.0,0,0,0
-13,Sting Royal ECNL G2012/13,Sting Soccer Club,111849,0,0,0,0,0,0.0,0,0,0
-14,West Side Alliance ECNL G2012/13,West Side Alliance SC,78763,0,0,0,0,0,0.0,0,0,0
-15,Colorado Rush ECNL G2012/13,Colorado Rush,90652,1,0,1,0,0,0.0,0,1,-1
-16,Real Colorado Athletico ECNL G2012/13,Real Colorado,99153,1,0,1,0,0,0.0,0,2,-2
+8,OK Energy FC ECNL G2012/13,Oklahoma Energy FC,80828,0,0,0,0,0,0.0,0,0,0
+9,SOLAR SC ECNL G2012/13,Solar SC,59794,0,0,0,0,0,0.0,0,0,0
+10,Sting Black ECNL G2012/13,Sting Soccer Club,82159,0,0,0,0,0,0.0,0,0,0
+11,Sting Royal ECNL G2012/13,Sting Soccer Club,111849,0,0,0,0,0,0.0,0,0,0
+12,West Side Alliance ECNL G2012/13,West Side Alliance SC,78763,0,0,0,0,0,0.0,0,0,0
+13,FC Westlake ECNL G2012/13,FC Westlake ,131272,1,0,1,0,0,0.0,1,3,-2
+14,Albion Hurricanes FC ECNL G2012/13,Albion Hurricanes FC,71431,1,0,1,0,0,0.0,0,3,-3
+15,Lonestar ATX Red ECNL G2012/13,Lonestar ATX,132703,1,0,1,0,0,0.0,0,3,-3
+16,Real Colorado Athletico ECNL G2012/13,Real Colorado,99153,2,0,2,0,0,0.0,1,5,-4

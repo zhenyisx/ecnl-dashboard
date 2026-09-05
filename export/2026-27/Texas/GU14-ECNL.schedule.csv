@@ -1,10 +1,10 @@
 date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
 2026-08-30,11:15 AM,Group Play,Colorado Storm ECNL G2012/13,2,0,Real Colorado Athletico ECNL G2012/13,Regis University,Middle Turf,On Time,1073407
 2026-08-30,01:30 PM,Group Play,Real Colorado National ECNL G2012/13,1,0,Colorado Rush ECNL G2012/13,Real Colorado Soccer Complex,RCSC 1,On Time,1073413
-2026-09-05,09:00 AM,Group Play,Real Colorado National ECNL G2012/13,,,FC Westlake ECNL G2012/13,Real Colorado Soccer Complex,RCSC 1,On Time,1073425
-2026-09-05,11:00 AM,Group Play,Albion Hurricanes FC ECNL G2012/13,,,Colorado Rush ECNL G2012/13,Campbell Road Sports Park,Field 2,On Time,1073431
-2026-09-05,11:00 AM,Group Play,Challenge SC ECNL G2012/13,,,Real Colorado Athletico ECNL G2012/13,Burroughs Park,Field 2,On Time,1073437
-2026-09-05,12:15 PM,Group Play,Colorado Storm ECNL G2012/13,,,Lonestar ATX Red ECNL G2012/13,Regis University,Middle Turf,On Time,1073419
+2026-09-05,09:00 AM,Group Play,Real Colorado National ECNL G2012/13,3,1,FC Westlake ECNL G2012/13,Real Colorado Soccer Complex,RCSC 1,On Time,1073425
+2026-09-05,11:00 AM,Group Play,Albion Hurricanes FC ECNL G2012/13,0,3,Colorado Rush ECNL G2012/13,Campbell Road Sports Park,Field 2,On Time,1073431
+2026-09-05,11:00 AM,Group Play,Challenge SC ECNL G2012/13,3,1,Real Colorado Athletico ECNL G2012/13,Burroughs Park,Field 2,On Time,1073437
+2026-09-05,12:15 PM,Group Play,Colorado Storm ECNL G2012/13,3,0,Lonestar ATX Red ECNL G2012/13,Regis University,Middle Turf,On Time,1073419
 2026-09-06,09:00 AM,Group Play,Colorado Storm ECNL G2012/13,,,FC Westlake ECNL G2012/13,Stargate Charter School,Field 1,On Time,1073443
 2026-09-06,10:15 AM,Group Play,Challenge SC ECNL G2012/13,,,Colorado Rush ECNL G2012/13,Burroughs Park,Field 2,On Time,1073455
 2026-09-06,11:00 AM,Group Play,Albion Hurricanes FC ECNL G2012/13,,,Real Colorado Athletico ECNL G2012/13,Campbell Road Sports Park,Field 2,On Time,1073461

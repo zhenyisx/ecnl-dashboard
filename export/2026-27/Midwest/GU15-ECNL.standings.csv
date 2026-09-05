@@ -1,17 +1,17 @@
 rank,team,club,teamID,gp,w,l,d,pts,ppg,gf,ga,gd
-1,Michigan Hawks ECNL G2011/12,Michigan Hawks,134166,1,1,0,0,3,3.0,6,0,6
+1,Michigan Hawks ECNL G2011/12,Michigan Hawks,134166,2,2,0,0,6,3.0,9,0,9
 2,Nationals SC ECNL G2011/12,Nationals,94349,2,2,0,0,6,3.0,5,0,5
 3,Eclipse Select Soccer Club ECNL G2011/12,Eclipse Select Soccer Club,136037,1,1,0,0,3,3.0,2,1,1
-4,Missouri Rush ECNL G2011/12,Missouri Rush,114380,1,1,0,0,3,3.0,1,0,1
-5,Gretna Elite Academy ECNL G2011/12,Gretna Elite Academy,131831,3,2,0,1,7,2.33,8,0,8
-6,Rockford Raptors FC ECNL G2011/12,Rockford Raptors FC,134302,2,1,1,0,3,1.5,2,3,-1
-7,St. Louis Scott Gallagher Navy ECNL G2011/12,St. Louis Scott Gallagher,134850,2,1,1,0,3,1.5,1,2,-1
+4,Gretna Elite Academy ECNL G2011/12,Gretna Elite Academy,131831,3,2,0,1,7,2.33,8,0,8
+5,Rockford Raptors FC ECNL G2011/12,Rockford Raptors FC,134302,2,1,1,0,3,1.5,2,3,-1
+6,St. Louis Scott Gallagher Navy ECNL G2011/12,St. Louis Scott Gallagher,134850,2,1,1,0,3,1.5,1,2,-1
+7,Missouri Rush ECNL G2011/12,Missouri Rush,114380,2,1,1,0,3,1.5,1,3,-2
 8,Sporting Iowa ECNL G2011/12,Sporting Iowa Central,79780,3,1,1,1,4,1.33,1,2,-1
-9,Liverpool FC MI ECNL G2011/12,Liverpool FC-IA Michigan,94483,2,0,1,1,1,0.5,3,4,-1
-10,St. Louis Scott Gallagher Green ECNL G2011/12,St. Louis Scott Gallagher,134851,2,0,1,1,1,0.5,3,6,-3
-11,MN Thunder Academy ECNL G2011/12,Minnesota Thunder Academy,134412,0,0,0,0,0,0.0,0,0,0
-12,Sporting Blue Valley ECNL G2011/12,Sporting Blue Valley,131581,0,0,0,0,0,0.0,0,0,0
-13,Kansas City Athletics ECNL G2011/12,KC Athletics,95580,1,0,1,0,0,0.0,1,2,-1
-14,Chicago Inter ECNL G2011/12,Chicago Inter,127991,1,0,1,0,0,0.0,0,1,-1
-15,FC Wisconsin ECNL G2011/12,FC Wisconsin Girls,79684,2,0,2,0,0,0.0,0,6,-6
-16,Michigan Hawks Magic ECNL G2011/12,Michigan Hawks,134170,1,0,1,0,0,0.0,0,6,-6
+9,Sporting Blue Valley ECNL G2011/12,Sporting Blue Valley,131581,1,0,0,1,1,1.0,1,1,0
+10,Liverpool FC MI ECNL G2011/12,Liverpool FC-IA Michigan,94483,3,0,1,2,2,0.67,5,6,-1
+11,Chicago Inter ECNL G2011/12,Chicago Inter,127991,2,0,1,1,1,0.5,1,2,-1
+12,St. Louis Scott Gallagher Green ECNL G2011/12,St. Louis Scott Gallagher,134851,2,0,1,1,1,0.5,3,6,-3
+13,Michigan Hawks Magic ECNL G2011/12,Michigan Hawks,134170,2,0,1,1,1,0.5,2,8,-6
+14,MN Thunder Academy ECNL G2011/12,Minnesota Thunder Academy,134412,0,0,0,0,0,0.0,0,0,0
+15,Kansas City Athletics ECNL G2011/12,KC Athletics,95580,1,0,1,0,0,0.0,1,2,-1
+16,FC Wisconsin ECNL G2011/12,FC Wisconsin Girls,79684,2,0,2,0,0,0.0,0,6,-6

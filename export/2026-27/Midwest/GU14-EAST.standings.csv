@@ -1,9 +1,9 @@
 rank,team,club,teamID,gp,w,l,d,pts,ppg,gf,ga,gd
-1,Rockford Raptors FC ECNL G2012/13,Rockford Raptors FC,134301,2,2,0,0,6,3.0,8,1,7
-2,Chicago Inter ECNL G2012/13,Chicago Inter,127994,1,1,0,0,3,3.0,7,0,7
+1,Chicago Inter ECNL G2012/13,Chicago Inter,127994,2,2,0,0,6,3.0,12,0,12
+2,Rockford Raptors FC ECNL G2012/13,Rockford Raptors FC,134301,2,2,0,0,6,3.0,8,1,7
 3,Michigan Hawks ECNL G2012/13,Michigan Hawks,134178,1,1,0,0,3,3.0,5,0,5
-4,Nationals SC ECNL G2012/13,Nationals,115103,2,0,1,1,1,0.5,1,2,-1
-5,FC Wisconsin ECNL G2012/13,FC Wisconsin Girls,82513,2,0,1,1,1,0.5,0,2,-2
-6,Liverpool FC MI ECNL G2012/13,Liverpool FC-IA Michigan,104671,2,0,1,1,1,0.5,2,7,-5
-7,Eclipse Select Soccer Club ECNL G2012/13,Eclipse Select Soccer Club,136036,0,0,0,0,0,0.0,0,0,0
-8,Michigan Hawks Magic ECNL G2012/13,Michigan Hawks,134182,1,0,1,0,0,0.0,0,5,-5
+4,Liverpool FC MI ECNL G2012/13,Liverpool FC-IA Michigan,104671,3,1,1,1,4,1.33,5,8,-3
+5,Eclipse Select Soccer Club ECNL G2012/13,Eclipse Select Soccer Club,136036,1,0,0,1,1,1.0,1,1,0
+6,Nationals SC ECNL G2012/13,Nationals,115103,2,0,1,1,1,0.5,1,2,-1
+7,FC Wisconsin ECNL G2012/13,FC Wisconsin Girls,82513,2,0,1,1,1,0.5,0,2,-2
+8,Michigan Hawks Magic ECNL G2012/13,Michigan Hawks,134182,2,0,2,0,0,0.0,1,8,-7

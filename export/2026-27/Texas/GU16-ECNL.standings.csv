@@ -1,17 +1,17 @@
 rank,team,club,teamID,gp,w,l,d,pts,ppg,gf,ga,gd
 1,Colorado Storm ECNL G2010/11,Colorado Storm,72334,1,1,0,0,3,3.0,2,0,2
-2,Real Colorado National ECNL G2010/11,Real Colorado,81431,1,1,0,0,3,3.0,1,0,1
-3,Albion Hurricanes FC ECNL G2010/11,Albion Hurricanes FC,40463,0,0,0,0,0,0.0,0,0,0
-4,Challenge SC ECNL G2010/11,Challenge SC,129340,0,0,0,0,0,0.0,0,0,0
-5,Dallas Texans ECNL G2010/11,Dallas Texans,134487,0,0,0,0,0,0.0,0,0,0
-6,DKSC ECNL G2010/11,DKSC,81104,0,0,0,0,0,0.0,0,0,0
-7,FC Dallas Youth ECNL G2010/11,FC Dallas Youth,63889,0,0,0,0,0,0.0,0,0,0
-8,FC Westlake ECNL G2010/11,FC Westlake ,131274,0,0,0,0,0,0.0,0,0,0
-9,Lonestar ATX Red ECNL G2010/11,Lonestar ATX,132699,0,0,0,0,0,0.0,0,0,0
-10,OK Energy FC ECNL G2010/11,Oklahoma Energy FC,80774,0,0,0,0,0,0.0,0,0,0
-11,SOLAR SC ECNL G2010/11,Solar SC,81882,0,0,0,0,0,0.0,0,0,0
-12,Sting Black ECNL G2010/11,Sting Soccer Club,80765,0,0,0,0,0,0.0,0,0,0
-13,Sting Royal ECNL G2010/11,Sting Soccer Club,80240,0,0,0,0,0,0.0,0,0,0
-14,West Side Alliance ECNL G2010/11,West Side Alliance SC,110468,0,0,0,0,0,0.0,0,0,0
-15,Colorado Rush ECNL G2010/11,Colorado Rush,95046,1,0,1,0,0,0.0,0,1,-1
-16,Real Colorado Athletico ECNL G2010/11,Real Colorado,81521,1,0,1,0,0,0.0,0,2,-2
+2,FC Westlake ECNL G2010/11,FC Westlake ,131274,1,1,0,0,3,3.0,2,0,2
+3,Real Colorado Athletico ECNL G2010/11,Real Colorado,81521,2,1,1,0,3,1.5,3,4,-1
+4,Real Colorado National ECNL G2010/11,Real Colorado,81431,2,1,1,0,3,1.5,1,2,-1
+5,Albion Hurricanes FC ECNL G2010/11,Albion Hurricanes FC,40463,1,0,0,1,1,1.0,0,0,0
+6,Colorado Rush ECNL G2010/11,Colorado Rush,95046,2,0,1,1,1,0.5,0,1,-1
+7,Dallas Texans ECNL G2010/11,Dallas Texans,134487,0,0,0,0,0,0.0,0,0,0
+8,DKSC ECNL G2010/11,DKSC,81104,0,0,0,0,0,0.0,0,0,0
+9,FC Dallas Youth ECNL G2010/11,FC Dallas Youth,63889,0,0,0,0,0,0.0,0,0,0
+10,Lonestar ATX Red ECNL G2010/11,Lonestar ATX,132699,0,0,0,0,0,0.0,0,0,0
+11,OK Energy FC ECNL G2010/11,Oklahoma Energy FC,80774,0,0,0,0,0,0.0,0,0,0
+12,SOLAR SC ECNL G2010/11,Solar SC,81882,0,0,0,0,0,0.0,0,0,0
+13,Sting Black ECNL G2010/11,Sting Soccer Club,80765,0,0,0,0,0,0.0,0,0,0
+14,Sting Royal ECNL G2010/11,Sting Soccer Club,80240,0,0,0,0,0,0.0,0,0,0
+15,West Side Alliance ECNL G2010/11,West Side Alliance SC,110468,0,0,0,0,0,0.0,0,0,0
+16,Challenge SC ECNL G2010/11,Challenge SC,129340,1,0,1,0,0,0.0,2,3,-1

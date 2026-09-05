@@ -10,10 +10,10 @@ date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchI
 2026-08-30,12:15 PM,Group Play,Nationals SC ECNL G2011/12,3,0,St. Louis Scott Gallagher Green ECNL G2011/12,Total Soccer Wixom,Dome,On Time,1067709
 2026-08-30,01:00 PM,Group Play,Sporting Iowa ECNL G2011/12,1,0,FC Wisconsin ECNL G2011/12,Hy-Vee Multiplex,White #1,On Time,1067701
 2026-09-05,09:50 AM,Group Play,Gretna Elite Academy ECNL G2011/12,0,0,Sporting Iowa ECNL G2011/12,Pinnacle Bank Soccer Complex ( Gretna Soccer Compl,Field 2,On Time,1067733
-2026-09-05,11:00 AM,Group Play,Sporting Blue Valley ECNL G2011/12,,,Chicago Inter ECNL G2011/12,Pinnacle National Development Center,West,On Time,1067721
-2026-09-05,11:00 AM,Group Play,Liverpool FC MI ECNL G2011/12,,,Michigan Hawks Magic ECNL G2011/12,UWM Sports Complex,Field 3,On Time,1067725
+2026-09-05,11:00 AM,Group Play,Sporting Blue Valley ECNL G2011/12,1,1,Chicago Inter ECNL G2011/12,Pinnacle National Development Center,West,On Time,1067721
+2026-09-05,11:00 AM,Group Play,Liverpool FC MI ECNL G2011/12,2,2,Michigan Hawks Magic ECNL G2011/12,UWM Sports Complex,Field 3,On Time,1067725
 2026-09-05,11:30 AM,Group Play,St. Louis Scott Gallagher Green ECNL G2011/12,,,St. Louis Scott Gallagher Navy ECNL G2011/12,SLSG Creve Coeur Facility,Field 2,On Time,1067737
-2026-09-05,01:50 PM,Group Play,Michigan Hawks ECNL G2011/12,,,Missouri Rush ECNL G2011/12,Schoolcraft Turf,SC Turf,On Time,1067729
+2026-09-05,01:50 PM,Group Play,Michigan Hawks ECNL G2011/12,3,0,Missouri Rush ECNL G2011/12,Schoolcraft Turf,SC Turf,On Time,1067729
 2026-09-05,03:00 PM,Group Play,Kansas City Athletics ECNL G2011/12,1,2,Eclipse Select Soccer Club ECNL G2011/12,KC Current Training Facility,Field 8,On Time,1067717
 2026-09-06,09:00 AM,Group Play,Kansas City Athletics ECNL G2011/12,,,Chicago Inter ECNL G2011/12,KC Current Training Facility,Field 2,On Time,1067741
 2026-09-06,10:00 AM,Group Play,Michigan Hawks Magic ECNL G2011/12,,,Missouri Rush ECNL G2011/12,Jaycee Park,Jaycee Turf,On Time,1067749
