@@ -1,8 +1,8 @@
 rank,team,club,teamID,gp,w,l,d,pts,ppg,gf,ga,gd
 1,Colorado Storm ECNL G2011/12,Colorado Storm,71847,1,1,0,0,3,3.0,3,0,3
-2,Real Colorado National ECNL G2011/12,Real Colorado,95108,1,1,0,0,3,3.0,2,0,2
-3,Albion Hurricanes FC ECNL G2011/12,Albion Hurricanes FC,81918,0,0,0,0,0,0.0,0,0,0
-4,Challenge SC ECNL G2011/12,Challenge SC,129341,0,0,0,0,0,0.0,0,0,0
+2,Challenge SC ECNL G2011/12,Challenge SC,129341,1,1,0,0,3,3.0,3,1,2
+3,Albion Hurricanes FC ECNL G2011/12,Albion Hurricanes FC,81918,1,1,0,0,3,3.0,2,0,2
+4,Real Colorado National ECNL G2011/12,Real Colorado,95108,1,1,0,0,3,3.0,2,0,2
 5,Dallas Texans ECNL G2011/12,Dallas Texans,134488,0,0,0,0,0,0.0,0,0,0
 6,DKSC ECNL G2011/12,DKSC,81105,0,0,0,0,0,0.0,0,0,0
 7,FC Dallas Youth ECNL G2011/12,FC Dallas Youth,94652,0,0,0,0,0,0.0,0,0,0
@@ -13,5 +13,5 @@ rank,team,club,teamID,gp,w,l,d,pts,ppg,gf,ga,gd
 12,Sting Black ECNL G2011/12,Sting Soccer Club,116000,0,0,0,0,0,0.0,0,0,0
 13,Sting Royal ECNL G2011/12,Sting Soccer Club,59609,0,0,0,0,0,0.0,0,0,0
 14,West Side Alliance ECNL G2011/12,West Side Alliance SC,111175,0,0,0,0,0,0.0,0,0,0
-15,Colorado Rush ECNL G2011/12,Colorado Rush,95047,1,0,1,0,0,0.0,0,2,-2
-16,Real Colorado Athletico ECNL G2011/12,Real Colorado,95110,1,0,1,0,0,0.0,0,3,-3
+15,Colorado Rush ECNL G2011/12,Colorado Rush,95047,2,0,2,0,0,0.0,0,4,-4
+16,Real Colorado Athletico ECNL G2011/12,Real Colorado,95110,2,0,2,0,0,0.0,1,6,-5

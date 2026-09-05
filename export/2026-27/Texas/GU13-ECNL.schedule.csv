@@ -1,8 +1,8 @@
 date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
 2026-08-30,09:00 AM,Group Play,Colorado Storm ECNL G2013/14,4,0,Real Colorado Athletico ECNL G2013/14,Regis University,Middle Turf,On Time,1073408
 2026-08-30,09:00 AM,Group Play,Real Colorado National ECNL G2013/14,3,0,Colorado Rush ECNL G2013/14,Real Colorado Soccer Complex,RCSC 1,On Time,1073414
-2026-09-05,09:00 AM,Group Play,Albion Hurricanes FC ECNL G2013/14,,,Colorado Rush ECNL G2013/14,Campbell Road Sports Park,Field 1,On Time,1073432
-2026-09-05,09:00 AM,Group Play,Challenge SC ECNL G2013/14,,,Real Colorado Athletico ECNL G2013/14,Burroughs Park,Field 2,On Time,1073438
+2026-09-05,09:00 AM,Group Play,Albion Hurricanes FC ECNL G2013/14,1,1,Colorado Rush ECNL G2013/14,Campbell Road Sports Park,Field 1,On Time,1073432
+2026-09-05,09:00 AM,Group Play,Challenge SC ECNL G2013/14,3,1,Real Colorado Athletico ECNL G2013/14,Burroughs Park,Field 2,On Time,1073438
 2026-09-05,10:00 AM,Group Play,Colorado Storm ECNL G2013/14,,,Lonestar ATX Red ECNL G2013/14,Regis University,Middle Turf,On Time,1073420
 2026-09-05,11:15 AM,Group Play,Real Colorado National ECNL G2013/14,,,FC Westlake ECNL G2013/14,Real Colorado Soccer Complex,RCSC 1,On Time,1073426
 2026-09-06,08:30 AM,Group Play,Challenge SC ECNL G2013/14,,,Colorado Rush ECNL G2013/14,Burroughs Park,Field 2,On Time,1073456
