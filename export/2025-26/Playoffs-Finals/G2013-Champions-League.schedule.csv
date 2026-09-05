@@ -1,0 +1,55 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2026-07-11,08:00 AM,Bracket,Concorde Fire Platinum ECNL G13,2,1,Placer United ECNL G2012/13,60 Acres Park,Field #01,On Time,1046837
+2026-07-11,08:40 AM,Bracket,Pittsburgh Riverhounds ECNL G2012/13,3,1,FSA FC ECNL G13,60 Acres Park,Field #03,On Time,1046836
+2026-07-11,10:00 AM,Bracket,Sting Black ECNL G2012/13,3,2,Arlington Soccer ECNL G13,60 Acres Park,Field #24,On Time,1046824
+2026-07-11,10:00 AM,Bracket,SLSG Navy ECNL G13,1,2,Matchfit Surf ECNL G2012/13,60 Acres Park,Field #09,On Time,1046827
+2026-07-11,10:20 AM,Bracket,Florida Premier FC - ECNL G13,4,0,Michigan Hawks ECNL G13,60 Acres Park,Field #22,On Time,1046825
+2026-07-11,10:40 AM,Bracket,PDA Blue ECNL G13,1,2,Real Colorado National ECNL G13,60 Acres Park,Field #12,On Time,1046826
+2026-07-11,12:20 PM,Bracket,San Juan SC - ECNL G13,2,2,So Cal Blues ECNL G13,60 Acres Park,Field #02,On Time,1046828
+2026-07-11,12:20 PM,Bracket,Sting Royal ECNL G2012/13,4,3,San Diego Surf - ECNL G13,60 Acres Park,Field #10,On Time,1046829
+2026-07-11,02:00 PM,Bracket,Legends FC - ECNL G13,1,0,Nationals SC-Nationals G13 ECNL,60 Acres Park,Field #05,On Time,1046831
+2026-07-11,02:00 PM,Bracket,Fairfax Virginia Union -G13,5,0,Tennessee SC ECNL G13,60 Acres Park,Field #01,On Time,1046832
+2026-07-11,02:00 PM,Bracket,Beach FC (CA) ECNL G13,0,1,MVLA ECNL G13,60 Acres Park,Field #19,On Time,1046833
+2026-07-11,02:20 PM,Bracket,Ohio Premier ECNL G2012/13,0,1,XF Academy ECNL G13,60 Acres Park,Field #04,On Time,1046830
+2026-07-11,04:00 PM,Bracket,World Class FC ECNL G2012-13,2,4,Eclipse Select SC ECNL G13,60 Acres Park,Field #01,On Time,1046834
+2026-07-11,04:00 PM,Bracket,Florida Krush ECNL G13,2,0,FC Dallas Youth ECNL G2012/13,60 Acres Park,Field #05,On Time,1046835
+2026-07-11,04:20 PM,Bracket,Slammers FC HB Koge ECNL G13,1,0,GSA ECNL G13,60 Acres Park,Field #04,On Time,1046838
+2026-07-11,04:40 PM,Bracket,Portland Thorns ECNL G13,2,0,Charlotte SA ECNL G13,60 Acres Park,Field #03,On Time,1046839
+2026-07-13,08:00 AM,Bracket,Sting Black ECNL G2012/13,2,2,Florida Premier FC - ECNL G13,60 Acres Park,Field #13,On Time,1046840
+2026-07-13,08:00 AM,Bracket,Real Colorado National ECNL G13,1,4,Matchfit Surf ECNL G2012/13,60 Acres Park,Field #09,On Time,1046841
+2026-07-13,08:00 AM,Bracket,Arlington Soccer ECNL G13,1,1,Michigan Hawks ECNL G13,60 Acres Park,Field #05,On Time,1046855
+2026-07-13,08:00 AM,Bracket,PDA Blue ECNL G13,1,1,SLSG Navy ECNL G13,60 Acres Park,Field #01,On Time,1046856
+2026-07-13,08:20 AM,Bracket,San Juan SC - ECNL G13,2,1,Sting Royal ECNL G2012/13,60 Acres Park,Field #02,On Time,1046842
+2026-07-13,08:20 AM,Bracket,So Cal Blues ECNL G13,2,2,San Diego Surf - ECNL G13,60 Acres Park,Field #04,On Time,1046857
+2026-07-13,10:00 AM,Bracket,XF Academy ECNL G13,0,2,Legends FC - ECNL G13,60 Acres Park,Field #13,On Time,1046843
+2026-07-13,10:00 AM,Bracket,Slammers FC HB Koge ECNL G13,1,1,Portland Thorns ECNL G13,60 Acres Park,Field #09,On Time,1046847
+2026-07-13,10:00 AM,Bracket,Ohio Premier ECNL G2012/13,1,2,Nationals SC-Nationals G13 ECNL,60 Acres Park,Field #05,On Time,1046858
+2026-07-13,10:00 AM,Bracket,GSA ECNL G13,2,2,Charlotte SA ECNL G13,60 Acres Park,Field #01,On Time,1046862
+2026-07-13,10:20 AM,Bracket,Fairfax Virginia Union -G13,2,0,MVLA ECNL G13,60 Acres Park,Field #10,On Time,1046844
+2026-07-13,10:20 AM,Bracket,Eclipse Select SC ECNL G13,1,2,Florida Krush ECNL G13,60 Acres Park,Field #14,On Time,1046845
+2026-07-13,10:20 AM,Bracket,Tennessee SC ECNL G13,1,3,Beach FC (CA) ECNL G13,60 Acres Park,Field #02,On Time,1046859
+2026-07-13,10:20 AM,Bracket,World Class FC ECNL G2012-13,3,6,FC Dallas Youth ECNL G2012/13,60 Acres Park,Field #04,On Time,1046860
+2026-07-13,12:00 PM,Bracket,Pittsburgh Riverhounds ECNL G2012/13,0,5,Concorde Fire Platinum ECNL G13,60 Acres Park,Field #09,On Time,1046846
+2026-07-13,12:00 PM,Bracket,FSA FC ECNL G13,1,0,Placer United ECNL G2012/13,60 Acres Park,Field #01,On Time,1046861
+2026-07-14,08:00 AM,Bracket,Florida Premier FC - ECNL G13,2,7,Real Colorado National ECNL G13,60 Acres Park,Field #09,On Time,1046874
+2026-07-14,08:00 AM,Bracket,Sting Royal ECNL G2012/13,1,0,XF Academy ECNL G13,60 Acres Park,Field #24,On Time,1046875
+2026-07-14,08:20 AM,Bracket,MVLA ECNL G13,2,0,Eclipse Select SC ECNL G13,60 Acres Park,Field #22,On Time,1046876
+2026-07-14,12:20 PM,Bracket,Sting Black ECNL G2012/13,4,0,Matchfit Surf ECNL G2012/13,60 Acres Park,Field #18,On Time,1046848
+2026-07-14,12:20 PM,Bracket,Arlington Soccer ECNL G13,0,3,PDA Blue ECNL G13,60 Acres Park,Field #20,On Time,1046863
+2026-07-14,02:00 PM,Bracket,San Juan SC - ECNL G13,1,1,Legends FC - ECNL G13,60 Acres Park,Field #13,On Time,1046849
+2026-07-14,02:00 PM,Bracket,So Cal Blues ECNL G13,3,0,Nationals SC-Nationals G13 ECNL,60 Acres Park,Field #15,On Time,1046864
+2026-07-14,02:20 PM,Bracket,Fairfax Virginia Union -G13,1,2,Florida Krush ECNL G13,60 Acres Park,Field #10,On Time,1046850
+2026-07-14,02:20 PM,Bracket,Beach FC (CA) ECNL G13,2,3,FC Dallas Youth ECNL G2012/13,60 Acres Park,Field #14,On Time,1046865
+2026-07-14,02:40 PM,Bracket,FSA FC ECNL G13,1,1,Charlotte SA ECNL G13,60 Acres Park,Field #12,On Time,1046866
+2026-07-14,04:00 PM,Bracket,San Diego Surf - ECNL G13,2,2,Ohio Premier ECNL G2012/13,60 Acres Park,Field #09,On Time,1046871
+2026-07-14,04:00 PM,Bracket,Tennessee SC ECNL G13,0,1,World Class FC ECNL G2012-13,60 Acres Park,Field #13,On Time,1046872
+2026-07-14,04:40 PM,Bracket,Concorde Fire Platinum ECNL G13,0,2,Slammers FC HB Koge ECNL G13,60 Acres Park,Field #17,On Time,1046851
+2026-07-14,04:40 PM,Bracket,Michigan Hawks ECNL G13,3,0,GSA ECNL G13,60 Acres Park,Field #07,On Time,1046870
+2026-07-14,04:40 PM,Bracket,Placer United ECNL G2012/13,2,4,SLSG Navy ECNL G13,60 Acres Park,Field #11,On Time,1046873
+2026-07-14,06:40 PM,Bracket,Pittsburgh Riverhounds ECNL G2012/13,0,1,Portland Thorns ECNL G13,60 Acres Park,Field #12,On Time,1046877
+2026-07-16,08:00 AM,Bracket,Florida Krush ECNL G13,2,4,Slammers FC HB Koge ECNL G13,60 Acres Park,Field #15,On Time,1046853
+2026-07-16,08:00 AM,Bracket,PDA Blue ECNL G13,2,2,So Cal Blues ECNL G13,60 Acres Park,Field #16,On Time,1046867
+2026-07-16,08:00 AM,Bracket,FC Dallas Youth ECNL G2012/13,5,0,FSA FC ECNL G13,60 Acres Park,Field #17,On Time,1046868
+2026-07-16,08:30 AM,Bracket,Sting Black ECNL G2012/13,2,1,Legends FC - ECNL G13,60 Acres Park,Field #14,On Time,1046852
+2026-07-17,08:00 AM,Bracket,PDA Blue ECNL G13,0,1,FC Dallas Youth ECNL G2012/13,60 Acres Park,Field #11,On Time,1046869
+2026-07-17,10:20 AM,Bracket,Sting Black ECNL G2012/13,0,4,Slammers FC HB Koge ECNL G13,60 Acres Park,Field #11,On Time,1046854

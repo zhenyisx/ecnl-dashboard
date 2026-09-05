@@ -1,0 +1,26 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2026-07-12,08:00 AM,Bracket,Portland Thorns ECNL G10,3,0,Tampa Bay United ECNL G2009/10,60 Acres Park,Field #15,On Time,1047612
+2026-07-12,08:00 AM,Bracket,So Cal Blues ECNL G10,1,0,Select ECNL G10,60 Acres Park,Field #19,On Time,1047615
+2026-07-12,08:20 AM,Bracket,Sting Black ECNL G2009/10,1,1,Michigan Hawks Magic ECNL G10,60 Acres Park,Field #18,On Time,1047613
+2026-07-12,10:00 AM,Bracket,Eagles SC ECNL G10,0,1,Chicago Inter Soccer ECNL G10,60 Acres Park,Field #01,On Time,1047614
+2026-07-12,12:20 PM,Bracket,Utah Avalanche ECNL G10,3,1,San Juan SC ECNL G10,60 Acres Park,Field #10,On Time,1047616
+2026-07-12,12:20 PM,Bracket,Arlington Soccer ECNL G10,2,2,Challenge SC ECNL G10,60 Acres Park,Field #14,On Time,1047617
+2026-07-12,12:40 PM,Bracket,WNY Flash ECNL G10,3,6,Bethesda SC ECNL G10,60 Acres Park,Field #11,On Time,1047618
+2026-07-12,12:40 PM,Bracket,Connecticut FC United ECNL G10,5,0,South Carolina United ECNL G10,60 Acres Park,Field #12,On Time,1047619
+2026-07-13,02:00 PM,Bracket,Bethesda SC ECNL G10,1,1,Connecticut FC United ECNL G10,60 Acres Park,Field #15,On Time,1047623
+2026-07-13,02:00 PM,Bracket,WNY Flash ECNL G10,2,0,South Carolina United ECNL G10,60 Acres Park,Field #19,On Time,1047630
+2026-07-13,04:00 PM,Bracket,Portland Thorns ECNL G10,1,0,Michigan Hawks Magic ECNL G10,60 Acres Park,Field #09,On Time,1047620
+2026-07-13,04:00 PM,Bracket,Tampa Bay United ECNL G2009/10,0,2,Sting Black ECNL G2009/10,60 Acres Park,Field #01,On Time,1047627
+2026-07-13,04:20 PM,Bracket,Chicago Inter Soccer ECNL G10,2,4,So Cal Blues ECNL G10,60 Acres Park,Field #18,On Time,1047621
+2026-07-13,04:20 PM,Bracket,Eagles SC ECNL G10,0,0,Select ECNL G10,60 Acres Park,Field #02,On Time,1047628
+2026-07-13,04:40 PM,Bracket,Utah Avalanche ECNL G10,0,1,Arlington Soccer ECNL G10,60 Acres Park,Field #11,On Time,1047622
+2026-07-13,04:40 PM,Bracket,San Juan SC ECNL G10,2,2,Challenge SC ECNL G10,60 Acres Park,Field #08,On Time,1047629
+2026-07-15,10:00 AM,Bracket,Portland Thorns ECNL G10,2,2,So Cal Blues ECNL G10,60 Acres Park,Field #15,On Time,1047624
+2026-07-15,10:30 AM,Bracket,Arlington Soccer ECNL G10,1,1,Connecticut FC United ECNL G10,60 Acres Park,Field #16,On Time,1047625
+2026-07-15,12:00 PM,Bracket,Sting Black ECNL G2009/10,0,0,Select ECNL G10,60 Acres Park,Field #01,On Time,1047631
+2026-07-15,12:00 PM,Bracket,Utah Avalanche ECNL G10,1,2,Chicago Inter Soccer ECNL G10,60 Acres Park,Field #03,On Time,1047633
+2026-07-15,12:00 PM,Bracket,Tampa Bay United ECNL G2009/10,2,3,Eagles SC ECNL G10,60 Acres Park,Field #07,On Time,1047635
+2026-07-15,12:00 PM,Bracket,San Juan SC ECNL G10,2,1,South Carolina United ECNL G10,60 Acres Park,Field #19,On Time,1047636
+2026-07-15,12:30 PM,Bracket,Challenge SC ECNL G10,2,2,WNY Flash ECNL G10,60 Acres Park,Field #02,On Time,1047632
+2026-07-15,02:30 PM,Bracket,Michigan Hawks Magic ECNL G10,3,0,Bethesda SC ECNL G10,60 Acres Park,Field #08,On Time,1047634
+2026-07-16,10:00 AM,Bracket,So Cal Blues ECNL G10,1,0,Arlington Soccer ECNL G10,60 Acres Park,Field #13,On Time,1047626

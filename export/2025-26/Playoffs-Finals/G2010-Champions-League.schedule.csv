@@ -1,0 +1,55 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2026-07-11,08:00 AM,Bracket,San Diego Surf ECNL G10,3,2,Mustang SC ECNL G10,60 Acres Park,Field #15,On Time,1047289
+2026-07-11,08:00 AM,Bracket,Ohio Premier ECNL G2009/10,3,3,XF Academy ECNL G10,60 Acres Park,Field #19,On Time,1047298
+2026-07-11,08:00 AM,Bracket,Charlotte SA ECNL G10,4,0,Kansas City Athletics ECNL G2009/10,60 Acres Park,Field #13,On Time,1047301
+2026-07-11,08:20 AM,Bracket,FC Stars Blue ECNL G2010/11,1,2,Legends FC ECNL G10,60 Acres Park,Field #10,On Time,1047290
+2026-07-11,08:20 AM,Bracket,Eastside FC ECNL G10,1,3,PDA Blue ECNL G10,60 Acres Park,Field #18,On Time,1047297
+2026-07-11,08:40 AM,Bracket,Real Colorado National ECNL G10,4,1,Tennessee SC ECNL G10,60 Acres Park,Field #08,On Time,1047302
+2026-07-11,10:20 AM,Bracket,Concorde Fire Platinum ECNL G10,0,3,FC Dallas Youth ECNL G2009/10,60 Acres Park,Field #10,On Time,1047288
+2026-07-11,10:40 AM,Bracket,VDA ECNL G10,2,2,Beach FC (CA) ECNL G10,60 Acres Park,Field #07,On Time,1047287
+2026-07-11,12:00 PM,Bracket,SOLAR SC ECNL G10,2,1,SLSG Navy ECNL G10,60 Acres Park,Field #13,On Time,1047300
+2026-07-11,12:20 PM,Bracket,GSA ECNL G10,0,2,Sting Austin ECNL G10,60 Acres Park,Field #14,On Time,1047292
+2026-07-11,12:20 PM,Bracket,Penn Fusion SA ECNL G10,2,1,NC Courage ECNL G10,60 Acres Park,Field #18,On Time,1047295
+2026-07-11,12:20 PM,Bracket,FC Pride Elite ECNL G10,1,2,Slammers FC HB Koge ECNL G10,60 Acres Park,Field #20,On Time,1047296
+2026-07-11,12:40 PM,Bracket,Michigan Hawks ECNL G10,1,1,LA Breakers FC ECNL G10,60 Acres Park,Field #11,On Time,1047291
+2026-07-11,12:40 PM,Bracket,MVLA ECNL G09/10,3,1,Nationals Soccer Club - Nationals ECNL G10,60 Acres Park,Field #12,On Time,1047299
+2026-07-11,02:00 PM,Bracket,Bay Area Surf - ECNL G10,2,0,Atlanta Fire United ECNL G10,60 Acres Park,Field #13,On Time,1047293
+2026-07-11,02:40 PM,Bracket,FL Premier FC - ECNL G10,2,1,World Class FC ECNL G2009-10,60 Acres Park,Field #08,On Time,1047294
+2026-07-12,02:00 PM,Bracket,VDA ECNL G10,1,1,FC Dallas Youth ECNL G2009/10,60 Acres Park,Field #15,On Time,1047303
+2026-07-12,02:00 PM,Bracket,Penn Fusion SA ECNL G10,0,0,Slammers FC HB Koge ECNL G10,60 Acres Park,Field #21,On Time,1047307
+2026-07-12,02:00 PM,Bracket,Beach FC (CA) ECNL G10,2,3,Concorde Fire Platinum ECNL G10,60 Acres Park,Field #19,On Time,1047318
+2026-07-12,02:00 PM,Bracket,NC Courage ECNL G10,1,1,FC Pride Elite ECNL G10,60 Acres Park,Field #24,On Time,1047322
+2026-07-12,02:20 PM,Bracket,San Diego Surf ECNL G10,2,1,Legends FC ECNL G10,60 Acres Park,Field #14,On Time,1047304
+2026-07-12,02:20 PM,Bracket,PDA Blue ECNL G10,2,2,Ohio Premier ECNL G2009/10,60 Acres Park,Field #18,On Time,1047308
+2026-07-12,02:20 PM,Bracket,Mustang SC ECNL G10,0,2,FC Stars Blue ECNL G2010/11,60 Acres Park,Field #20,On Time,1047319
+2026-07-12,02:20 PM,Bracket,Eastside FC ECNL G10,1,2,XF Academy ECNL G10,60 Acres Park,Field #10,On Time,1047323
+2026-07-12,04:00 PM,Bracket,MVLA ECNL G09/10,1,1,SOLAR SC ECNL G10,60 Acres Park,Field #21,On Time,1047309
+2026-07-12,04:00 PM,Bracket,Charlotte SA ECNL G10,0,1,Real Colorado National ECNL G10,60 Acres Park,Field #24,On Time,1047310
+2026-07-12,04:00 PM,Bracket,Nationals Soccer Club - Nationals ECNL G10,0,3,SLSG Navy ECNL G10,60 Acres Park,Field #09,On Time,1047324
+2026-07-12,04:00 PM,Bracket,Kansas City Athletics ECNL G2009/10,0,1,Tennessee SC ECNL G10,60 Acres Park,Field #05,On Time,1047325
+2026-07-12,06:00 PM,Bracket,Michigan Hawks ECNL G10,2,0,Sting Austin ECNL G10,60 Acres Park,Field #21,On Time,1047305
+2026-07-12,06:00 PM,Bracket,Bay Area Surf - ECNL G10,2,1,FL Premier FC - ECNL G10,60 Acres Park,Field #24,On Time,1047306
+2026-07-12,06:00 PM,Bracket,LA Breakers FC ECNL G10,1,3,GSA ECNL G10,60 Acres Park,Field #09,On Time,1047320
+2026-07-12,06:00 PM,Bracket,Atlanta Fire United ECNL G10,2,3,World Class FC ECNL G2009-10,60 Acres Park,Field #19,On Time,1047321
+2026-07-14,08:40 AM,Bracket,MVLA ECNL G09/10,0,1,Real Colorado National ECNL G10,60 Acres Park,Field #16,On Time,1047314
+2026-07-14,08:40 AM,Bracket,SLSG Navy ECNL G10,0,0,Tennessee SC ECNL G10,60 Acres Park,Field #17,On Time,1047329
+2026-07-14,10:00 AM,Bracket,FC Dallas Youth ECNL G2009/10,0,0,San Diego Surf ECNL G10,60 Acres Park,Field #19,On Time,1047311
+2026-07-14,10:00 AM,Bracket,Concorde Fire Platinum ECNL G10,1,5,FC Stars Blue ECNL G2010/11,60 Acres Park,Field #21,On Time,1047326
+2026-07-14,10:20 AM,Bracket,Michigan Hawks ECNL G10,2,0,Bay Area Surf - ECNL G10,60 Acres Park,Field #14,On Time,1047312
+2026-07-14,10:20 AM,Bracket,GSA ECNL G10,2,2,World Class FC ECNL G2009-10,60 Acres Park,Field #10,On Time,1047327
+2026-07-14,10:40 AM,Bracket,Penn Fusion SA ECNL G10,1,0,Ohio Premier ECNL G2009/10,60 Acres Park,Field #11,On Time,1047313
+2026-07-14,10:40 AM,Bracket,FC Pride Elite ECNL G10,2,0,XF Academy ECNL G10,60 Acres Park,Field #12,On Time,1047328
+2026-07-14,10:40 AM,Bracket,Beach FC (CA) ECNL G10,3,4,Mustang SC ECNL G10,60 Acres Park,Field #03,On Time,1047333
+2026-07-14,02:00 PM,Bracket,LA Breakers FC ECNL G10,6,1,Atlanta Fire United ECNL G10,60 Acres Park,Field #05,On Time,1047334
+2026-07-14,04:00 PM,Bracket,Sting Austin ECNL G10,3,0,FL Premier FC - ECNL G10,60 Acres Park,Field #24,On Time,1047338
+2026-07-14,04:20 PM,Bracket,NC Courage ECNL G10,5,4,Kansas City Athletics ECNL G2009/10,60 Acres Park,Field #10,On Time,1047335
+2026-07-14,04:20 PM,Bracket,Nationals Soccer Club - Nationals ECNL G10,3,0,Eastside FC ECNL G10,60 Acres Park,Field #14,On Time,1047336
+2026-07-14,06:20 PM,Bracket,VDA ECNL G10,1,0,Legends FC ECNL G10,60 Acres Park,Field #15,On Time,1047337
+2026-07-14,06:40 PM,Bracket,Slammers FC HB Koge ECNL G10,2,1,PDA Blue ECNL G10,60 Acres Park,Field #08,On Time,1047339
+2026-07-14,06:40 PM,Bracket,SOLAR SC ECNL G10,2,1,Charlotte SA ECNL G10,60 Acres Park,Field #07,On Time,1047340
+2026-07-15,10:00 AM,Bracket,FC Dallas Youth ECNL G2009/10,1,3,Michigan Hawks ECNL G10,60 Acres Park,Field #13,On Time,1047315
+2026-07-15,10:00 AM,Bracket,FC Stars Blue ECNL G2010/11,2,2,World Class FC ECNL G2009-10,60 Acres Park,Field #11,On Time,1047330
+2026-07-15,10:30 AM,Bracket,Penn Fusion SA ECNL G10,0,1,Real Colorado National ECNL G10,60 Acres Park,Field #14,On Time,1047316
+2026-07-15,10:30 AM,Bracket,FC Pride Elite ECNL G10,0,1,Tennessee SC ECNL G10,60 Acres Park,Field #12,On Time,1047331
+2026-07-17,09:30 AM,Bracket,World Class FC ECNL G2009-10,2,0,Tennessee SC ECNL G10,60 Acres Park,Field #16,On Time,1047332
+2026-07-17,11:30 AM,Bracket,Michigan Hawks ECNL G10,1,3,Real Colorado National ECNL G10,60 Acres Park,Field #12,On Time,1047317

@@ -1,0 +1,33 @@
+rank,team,club,teamID,gp,w,l,d,pts,ppg,gf,ga,gd,division,flight
+1,Eastside FC ECNL G09,Eastside FC (WA),59855,3,3,0,0,9,3.0,8,2,6,G2009,Friendlies
+2,Michigan Hawks Magic ECNL G09,Michigan Hawks,54823,3,2,0,1,7,2.33,12,6,6,G2009,Friendlies
+3,Utah Avalanche ECNL G09,Utah Avalanche,58149,3,2,0,1,7,2.33,9,4,5,G2009,Friendlies
+4,Chicago Inter Soccer ECNL G09,Chicago Inter,69850,3,2,0,1,7,2.33,8,5,3,G2009,Friendlies
+5,Missouri Rush ECNL G2008/09,Missouri Rush,114377,3,2,1,0,6,2.0,5,2,3,G2009,Friendlies
+6,LAFC So Cal ECNL G09,LAFC So Cal,59866,3,2,1,0,6,2.0,6,6,0,G2009,Friendlies
+7,Utah Royals FC AZ ECNL G2008/09,Utah Royals FC - AZ,56530,3,2,1,0,6,2.0,6,6,0,G2009,Friendlies
+8,Boise Thorns FC ECNL G2008/09,Boise Timbers | Thorns,59556,3,1,1,1,4,1.33,4,4,0,G2009,Friendlies
+9,Placer United ECNL G2008/09,Placer United Soccer Club,68831,3,1,2,0,3,1.0,3,5,-2,G2009,Friendlies
+10,Mustang SC ECNL G09,Mustang Soccer,31328,3,0,1,2,2,0.67,2,3,-1,G2009,Friendlies
+11,Oregon Surf ECNL G09,Oregon Surf SC,90907,3,0,2,1,1,0.33,2,5,-3,G2009,Friendlies
+12,Pleasanton RAGE ECNL G2008/09,Pleasanton Rage,39256,3,0,2,1,1,0.33,2,6,-4,G2009,Friendlies
+13,Sporting CA USA ECNL G09,Sporting California USA,59459,3,0,3,0,0,0.0,4,9,-5,G2009,Friendlies
+14,PacNW SC ECNL G2008/09,PacNW,46755,3,0,3,0,0,0.0,7,15,-8,G2009,Friendlies
+1,Boise Thorns FC ECNL G2009/10,Boise Timbers | Thorns,69320,3,3,0,0,9,3.0,8,3,5,G2010,Friendlies
+2,Washington Premier ECNL G10,Washington Premier FC,68860,3,2,0,1,7,2.33,9,2,7,G2010,Friendlies
+3,Pleasanton RAGE ECNL G2009/10,Pleasanton Rage,44309,3,2,0,1,7,2.33,10,4,6,G2010,Friendlies
+4,LV Heat Surf ECNL G2009/10,LV Heat Surf SC ,42984,3,2,0,1,7,2.33,9,5,4,G2010,Friendlies
+5,Oregon Surf ECNL G10,Oregon Surf SC,90908,3,2,1,0,6,2.0,5,5,0,G2010,Friendlies
+6,Cleveland Force SC ECNL G10,Cleveland Force SC,46986,3,1,0,2,5,1.67,6,5,1,G2010,Friendlies
+7,LAFC So Cal ECNL G10,LAFC So Cal,65560,3,1,0,2,5,1.67,4,3,1,G2010,Friendlies
+8,COSC ECNL G10,California Odyssey Soccer Club,64375,3,1,1,1,4,1.33,8,7,1,G2010,Friendlies
+9,Colorado Rapids ECNL G10,Colorado Storm,69485,3,1,1,1,4,1.33,5,5,0,G2010,Friendlies
+10,Gretna Elite Academy - ECNL G10,Gretna Elite Academy,60717,3,1,1,1,4,1.33,4,4,0,G2010,Friendlies
+11,Dallas Texans - ECNL G10,Dallas Texans,69269,3,1,1,1,4,1.33,5,7,-2,G2010,Friendlies
+12,Legends FC San Diego ECNL G10,Legends FC - Del Mar,64321,3,1,2,0,3,1.0,7,8,-1,G2010,Friendlies
+13,FC Wisconsin ECNL G10,FC Wisconsin Girls,68013,3,1,2,0,3,1.0,5,7,-2,G2010,Friendlies
+14,CESA Liberty ECNL G2010/11,Carolina Elite Soccer Academy,65585,3,1,2,0,3,1.0,2,6,-4,G2010,Friendlies
+15,Fairfax VA Union ECNL G10,Fairfax Virginia Union,96996,3,0,2,1,1,0.33,8,10,-2,G2010,Friendlies
+16,Placer United ECNL G2009/10,Placer United Soccer Club,68832,3,0,2,1,1,0.33,2,4,-2,G2010,Friendlies
+17,United Futbol Academy - ECNL G10,United Futbol Academy,65981,3,0,2,1,1,0.33,4,9,-5,G2010,Friendlies
+18,Arizona Arsenal ECNL G10,Arizona Arsenal Soccer Club,65042,3,0,3,0,0,0.0,4,11,-7,G2010,Friendlies

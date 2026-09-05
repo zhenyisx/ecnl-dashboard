@@ -1,0 +1,55 @@
+date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchID
+2026-07-11,08:00 AM,Bracket,SOLAR SC ECNL G11,1,0,CESA Liberty ECNL G2011/12,60 Acres Park,Field #24,On Time,1047233
+2026-07-11,08:00 AM,Bracket,Bay Area Surf - ECNL G11,1,3,Sting Austin ECNL G11,60 Acres Park,Field #09,On Time,1047247
+2026-07-11,08:20 AM,Bracket,Michigan Hawks ECNL G11,3,0,FC DELCO ECNL G11,60 Acres Park,Field #22,On Time,1047248
+2026-07-11,08:40 AM,Bracket,Nationals Soccer Club - Nationals ECNL G11,1,0,GSA ECNL G11,60 Acres Park,Field #12,On Time,1047234
+2026-07-11,10:00 AM,Bracket,Portland Thorns ECNL G11,1,3,Richmond United ECNL G11,60 Acres Park,Field #13,On Time,1047239
+2026-07-11,10:20 AM,Bracket,Cleveland Force SC ECNL G11,0,1,So Cal Blues ECNL G11,60 Acres Park,Field #20,On Time,1047240
+2026-07-11,12:00 PM,Bracket,Arlington Soccer ECNL G11,6,0,Ohio Elite SA ECNL G11,60 Acres Park,Field #15,On Time,1047245
+2026-07-11,12:40 PM,Bracket,XF Academy ECNL G11,1,2,FC Dallas Youth ECNL G2010/11,60 Acres Park,Field #17,On Time,1047235
+2026-07-11,12:40 PM,Bracket,Bethesda SC ECNL G11,2,2,Legends FC ECNL G11,60 Acres Park,Field #08,On Time,1047236
+2026-07-11,12:40 PM,Bracket,Ohio Premier ECNL G2010/11,2,2,Real Colorado National ECNL G11,60 Acres Park,Field #07,On Time,1047246
+2026-07-11,02:20 PM,Bracket,MVLA ECNL G10/11,3,0,SUSA FC ECNL G2010/11,60 Acres Park,Field #20,On Time,1047237
+2026-07-11,02:20 PM,Bracket,Concorde Fire Platinum ECNL G11,3,1,SLAMMERS FC ECNL G11,60 Acres Park,Field #18,On Time,1047241
+2026-07-11,02:20 PM,Bracket,Utah Avalanche ECNL G11,1,1,Kansas City Athletics ECNL G2010/11,60 Acres Park,Field #22,On Time,1047242
+2026-07-11,02:40 PM,Bracket,San Diego Surf ECNL G11,2,4,Mustang SC ECNL G11,60 Acres Park,Field #17,On Time,1047238
+2026-07-11,02:40 PM,Bracket,FC Stars Blue ECNL G2011/12,3,1,Eclipse Select SC ECNL G11,60 Acres Park,Field #16,On Time,1047243
+2026-07-11,02:40 PM,Bracket,Slammers FC HB Koge ECNL G11,1,6,Charlotte SA ECNL G11,60 Acres Park,Field #11,On Time,1047244
+2026-07-12,12:00 PM,Bracket,MVLA ECNL G10/11,2,2,Mustang SC ECNL G11,60 Acres Park,Field #05,On Time,1047251
+2026-07-12,12:00 PM,Bracket,SUSA FC ECNL G2010/11,1,5,San Diego Surf ECNL G11,60 Acres Park,Field #01,On Time,1047266
+2026-07-12,02:00 PM,Bracket,Richmond United ECNL G11,1,1,So Cal Blues ECNL G11,60 Acres Park,Field #13,On Time,1047252
+2026-07-12,02:00 PM,Bracket,Sting Austin ECNL G11,1,2,Michigan Hawks ECNL G11,60 Acres Park,Field #01,On Time,1047256
+2026-07-12,02:00 PM,Bracket,Portland Thorns ECNL G11,1,2,Cleveland Force SC ECNL G11,60 Acres Park,Field #09,On Time,1047267
+2026-07-12,02:40 PM,Bracket,SOLAR SC ECNL G11,0,1,Nationals Soccer Club - Nationals ECNL G11,60 Acres Park,Field #17,On Time,1047249
+2026-07-12,02:40 PM,Bracket,CESA Liberty ECNL G2011/12,1,1,GSA ECNL G11,60 Acres Park,Field #03,On Time,1047264
+2026-07-12,02:40 PM,Bracket,Bay Area Surf - ECNL G11,1,2,FC DELCO ECNL G11,60 Acres Park,Field #07,On Time,1047271
+2026-07-12,04:20 PM,Bracket,XF Academy ECNL G11,2,2,Bethesda SC ECNL G11,60 Acres Park,Field #18,On Time,1047265
+2026-07-12,04:40 PM,Bracket,FC Dallas Youth ECNL G2010/11,0,1,Legends FC ECNL G11,60 Acres Park,Field #11,On Time,1047250
+2026-07-12,06:20 PM,Bracket,Concorde Fire Platinum ECNL G11,1,1,Kansas City Athletics ECNL G2010/11,60 Acres Park,Field #14,On Time,1047253
+2026-07-12,06:20 PM,Bracket,FC Stars Blue ECNL G2011/12,1,1,Charlotte SA ECNL G11,60 Acres Park,Field #18,On Time,1047254
+2026-07-12,06:20 PM,Bracket,SLAMMERS FC ECNL G11,2,2,Utah Avalanche ECNL G11,60 Acres Park,Field #02,On Time,1047268
+2026-07-12,06:20 PM,Bracket,Eclipse Select SC ECNL G11,0,0,Slammers FC HB Koge ECNL G11,60 Acres Park,Field #04,On Time,1047269
+2026-07-12,06:40 PM,Bracket,Arlington Soccer ECNL G11,1,0,Real Colorado National ECNL G11,60 Acres Park,Field #11,On Time,1047255
+2026-07-12,06:40 PM,Bracket,Ohio Elite SA ECNL G11,1,0,Ohio Premier ECNL G2010/11,60 Acres Park,Field #16,On Time,1047270
+2026-07-14,10:20 AM,Bracket,SOLAR SC ECNL G11,1,2,Richmond United ECNL G11,60 Acres Park,Field #18,On Time,1047283
+2026-07-14,10:40 AM,Bracket,Mustang SC ECNL G11,2,3,So Cal Blues ECNL G11,60 Acres Park,Field #16,On Time,1047258
+2026-07-14,10:40 AM,Bracket,San Diego Surf ECNL G11,3,2,Cleveland Force SC ECNL G11,60 Acres Park,Field #17,On Time,1047273
+2026-07-14,12:00 PM,Bracket,Nationals Soccer Club - Nationals ECNL G11,3,1,Legends FC ECNL G11,60 Acres Park,Field #13,On Time,1047257
+2026-07-14,12:00 PM,Bracket,CESA Liberty ECNL G2011/12,1,1,Bethesda SC ECNL G11,60 Acres Park,Field #15,On Time,1047272
+2026-07-14,12:00 PM,Bracket,MVLA ECNL G10/11,1,5,FC Dallas Youth ECNL G2010/11,60 Acres Park,Field #24,On Time,1047284
+2026-07-14,12:00 PM,Bracket,Kansas City Athletics ECNL G2010/11,2,1,Sting Austin ECNL G11,60 Acres Park,Field #19,On Time,1047285
+2026-07-14,12:00 PM,Bracket,Real Colorado National ECNL G11,2,1,Charlotte SA ECNL G11,60 Acres Park,Field #21,On Time,1047286
+2026-07-14,12:20 PM,Bracket,Concorde Fire Platinum ECNL G11,2,1,FC Stars Blue ECNL G2011/12,60 Acres Park,Field #14,On Time,1047259
+2026-07-14,12:20 PM,Bracket,SLAMMERS FC ECNL G11,1,4,Eclipse Select SC ECNL G11,60 Acres Park,Field #10,On Time,1047274
+2026-07-14,12:40 PM,Bracket,Arlington Soccer ECNL G11,0,1,Michigan Hawks ECNL G11,60 Acres Park,Field #11,On Time,1047260
+2026-07-14,12:40 PM,Bracket,Ohio Elite SA ECNL G11,3,0,FC DELCO ECNL G11,60 Acres Park,Field #12,On Time,1047275
+2026-07-14,04:20 PM,Bracket,Utah Avalanche ECNL G11,0,1,Slammers FC HB Koge ECNL G11,60 Acres Park,Field #18,On Time,1047281
+2026-07-14,04:20 PM,Bracket,Ohio Premier ECNL G2010/11,2,2,Bay Area Surf - ECNL G11,60 Acres Park,Field #20,On Time,1047282
+2026-07-14,06:00 PM,Bracket,GSA ECNL G11,0,2,XF Academy ECNL G11,60 Acres Park,Field #09,On Time,1047279
+2026-07-14,06:20 PM,Bracket,SUSA FC ECNL G2010/11,1,0,Portland Thorns ECNL G11,60 Acres Park,Field #10,On Time,1047280
+2026-07-15,12:00 PM,Bracket,Nationals Soccer Club - Nationals ECNL G11,0,2,So Cal Blues ECNL G11,60 Acres Park,Field #13,On Time,1047261
+2026-07-15,12:00 PM,Bracket,Bethesda SC ECNL G11,0,4,San Diego Surf ECNL G11,60 Acres Park,Field #11,On Time,1047276
+2026-07-15,12:30 PM,Bracket,Concorde Fire Platinum ECNL G11,0,0,Michigan Hawks ECNL G11,60 Acres Park,Field #14,On Time,1047262
+2026-07-15,12:30 PM,Bracket,Eclipse Select SC ECNL G11,5,3,Ohio Elite SA ECNL G11,60 Acres Park,Field #12,On Time,1047277
+2026-07-17,08:40 AM,Bracket,San Diego Surf ECNL G11,1,2,Eclipse Select SC ECNL G11,60 Acres Park,Field #13,On Time,1047278
+2026-07-17,11:00 AM,Bracket,So Cal Blues ECNL G11,2,0,Concorde Fire Platinum ECNL G11,60 Acres Park,Field #13,On Time,1047263
