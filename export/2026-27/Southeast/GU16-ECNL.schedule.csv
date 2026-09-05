@@ -34,10 +34,10 @@ date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchI
 2026-09-20,01:00 PM,Group Play,GSA ECNL G2010/11,,,Sporting SA JAX ECNL G2010/11,Rabbit Hill Park,Field 1,On Time,1070050
 2026-09-20,01:00 PM,Group Play,Alabama FC ECNL G2010/11,,,Athletic Club Florida ECNL G2010/11,Dunnavant Valley Fields (DVF),Field #3,On Time,1070062
 2026-09-26,09:00 AM,Group Play,Florida Kraze Krush ECNL G2010/11,,,United Futbol Academy ECNL G2010/11,Central Winds,Field B,On Time,1070070
+2026-09-26,09:00 AM,Group Play,Sporting SA JAX ECNL G2010/11,,,CESA Liberty ECNL G2010/11,Veterans Park,Field 1,On Time,1070082
 2026-09-26,09:00 AM,Group Play,Florida Premier FC ECNL G2010/11,,,Alabama FC ECNL G2010/11,Starkey Ranch District Park,Field 7,On Time,1070086
 2026-09-26,10:30 AM,Group Play,Jacksonville FC ECNL G2010/11,,,South Carolina United ECNL G2010/11,Patton Park,Stadium,On Time,1070078
 2026-09-26,11:00 AM,Group Play,Seminole United ECNL G2010/11,,,Atlanta Fire United ECNL G2010/11,Seminole,Field 6,On Time,1070074
-2026-09-26,11:00 AM,Group Play,Sporting SA JAX ECNL G2010/11,,,CESA Liberty ECNL G2010/11,Veterans Park,Field 1,On Time,1070082
 2026-09-26,11:00 AM,Group Play,Tampa Bay United ECNL G2010/11,,,Concorde Fire Premier ECNL G2010/11,Ed Radice Sports Complex,Field 5,On Time,1070090
 2026-09-26,11:00 AM,Group Play,Athletic Club Florida ECNL G2010/11,,,Concorde Fire Platinum ECNL G2010/11,Nob Hill Soccer Park,Field 2,On Time,1070094
 2026-09-26,11:00 AM,Group Play,Team Boca ECNL G2010/11,,,GSA ECNL G2010/11,SPANISH RIVER SPORTS COMPLEX,Field S2 #2,On Time,1070098
@@ -71,7 +71,7 @@ date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchI
 2026-10-24,11:00 AM,Group Play,United Futbol Academy ECNL G2010/11,,,CESA Liberty ECNL G2010/11,Fowler Park,Field 7,On Time,1070210
 2026-10-24,01:00 PM,Group Play,Atlanta Fire United ECNL G2010/11,,,South Carolina United ECNL G2010/11,Scott Hudgens Park,Field 6,On Time,1070214
 2026-10-25,09:00 AM,Group Play,GSA ECNL G2010/11,,,Concorde Fire Premier ECNL G2010/11,GSA East,#3,On Time,1070222
-2026-10-25,09:00 AM,Group Play,Atlanta Fire United ECNL G2010/11,,,CESA Liberty ECNL G2010/11,Pinecrest Academy,Turf,On Time,1070230
+2026-10-25,09:00 AM,Group Play,Atlanta Fire United ECNL G2010/11,,,CESA Liberty ECNL G2010/11,Scott Hudgens Park,Field 5,On Time,1070230
 2026-10-25,11:00 AM,Group Play,Concorde Fire Platinum ECNL G2010/11,,,Alabama FC ECNL G2010/11,Georgia Sports Park ,field 3,On Time,1070218
 2026-10-25,01:00 PM,Group Play,United Futbol Academy ECNL G2010/11,,,South Carolina United ECNL G2010/11,Fowler Park,Field 6,On Time,1070226
 2026-11-01,01:00 PM,Group Play,Atlanta Fire United ECNL G2010/11,,,United Futbol Academy ECNL G2010/11,Pinecrest Academy,Turf,On Time,1070302
@@ -91,8 +91,8 @@ date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchI
 2026-11-22,09:00 AM,Group Play,GSA ECNL G2010/11,,,Atlanta Fire United ECNL G2010/11,GSA East,#3,On Time,1070294
 2026-11-22,11:00 AM,Group Play,South Carolina United ECNL G2010/11,,,Alabama FC ECNL G2010/11,Southeastern Freight Lines Complex,Field 3,On Time,1070282
 2026-11-22,01:00 PM,Group Play,CESA Liberty ECNL G2010/11,,,Concorde Fire Premier ECNL G2010/11,Mesa Soccer Complex,Field 1,On Time,1070286
+2026-12-12,12:00 PM,Group Play,Concorde Fire Platinum ECNL G2010/11,,,GSA ECNL G2010/11,Georgia Sports Park ,field 4,On Time,1070306
 2026-12-12,01:00 PM,Group Play,Alabama FC ECNL G2010/11,,,Concorde Fire Premier ECNL G2010/11,Dunnavant Valley Fields (DVF),Field # 5,On Time,1070298
-2026-12-12,01:00 PM,Group Play,Concorde Fire Platinum ECNL G2010/11,,,GSA ECNL G2010/11,Georgia Sports Park ,field 4,On Time,1070306
 2026-12-13,11:00 AM,Group Play,South Carolina United ECNL G2010/11,,,CESA Liberty ECNL G2010/11,Southeastern Freight Lines Complex,Field 3,On Time,1070310
 2027-03-06,09:00 AM,Group Play,Athletic Club Florida ECNL G2010/11,,,Tampa Bay United ECNL G2010/11,Nob Hill Soccer Park,Field 2,On Time,1070318
 2027-03-07,11:00 AM,Group Play,Athletic Club Florida ECNL G2010/11,,,Florida Premier FC ECNL G2010/11,Nob Hill Soccer Park,Field 2,On Time,1070326

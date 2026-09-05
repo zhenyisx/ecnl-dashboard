@@ -69,7 +69,7 @@ date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchI
 2027-04-10,11:15 AM,Group Play,La Roca FC ECNL G2010/11,,,Seattle United ECNL G2010/11,La Roca Park,Field 1,On Time,1059019
 2027-04-11,TBD,Group Play,Oregon Surf ECNL G2010/11,,,Washington Premier ECNL G2010/11,,,On Time,1059044
 2027-04-11,TBD,Group Play,Portland Thorns ECNL G2010/11,,,PacNW SC ECNL G2010/11,,,On Time,1059045
-2027-04-11,TBD,Group Play,Avalanche ECNL G2010/11,,,Seattle United ECNL G2010/11,,,On Time,1059046
+2027-04-11,11:15 AM,Group Play,Avalanche ECNL G2010/11,,,Seattle United ECNL G2010/11,St. Joseph Catholic High School,Turf Field,On Time,1059046
 2027-04-11,01:15 PM,Group Play,La Roca FC ECNL G2010/11,,,Eastside FC ECNL G2010/11,La Roca Park,Field 1,On Time,1059043
 2027-04-17,TBD,Group Play,Boise Thorns ECNL G2010/11,,,PacNW SC ECNL G2010/11,,,On Time,1059073
 2027-04-17,TBD,Group Play,La Roca FC ECNL G2010/11,,,Portland Thorns ECNL G2010/11,,,On Time,1059075
@@ -79,9 +79,9 @@ date,time,type,homeTeam,homeScore,awayScore,awayTeam,complex,venue,status,matchI
 2027-04-17,10:00 AM,Group Play,Washington Premier ECNL G2010/11,,,Eastside FC ECNL G2010/11,WPFC Field Complex,Field 4,On Time,1059078
 2027-04-18,TBD,Group Play,Boise Thorns ECNL G2010/11,,,Seattle United ECNL G2010/11,,,On Time,1059106
 2027-04-18,TBD,Group Play,La Roca FC ECNL G2010/11,,,Oregon Surf ECNL G2010/11,,,On Time,1059107
-2027-04-18,TBD,Group Play,Avalanche ECNL G2010/11,,,Oregon Surf ECNL G2010/11,,,On Time,1059109
 2027-04-18,TBD,Group Play,Avalanche ECNL G2010/11,,,Portland Thorns ECNL G2010/11,,,On Time,1059110
 2027-04-18,01:15 PM,Group Play,La Roca FC ECNL G2010/11,,,Portland Thorns ECNL G2010/11,La Roca Park,Field 2,On Time,1059108
+2027-04-18,01:30 PM,Group Play,Avalanche ECNL G2010/11,,,Oregon Surf ECNL G2010/11,St. Joseph Catholic High School,Grass Field,On Time,1059109
 2027-04-24,TBD,Group Play,Oregon Surf ECNL G2010/11,,,Seattle United ECNL G2010/11,,,On Time,1059134
 2027-04-24,TBD,Group Play,Portland Thorns ECNL G2010/11,,,XF ECNL G2010/11,,,On Time,1059135
 2027-04-24,TBD,Group Play,Avalanche ECNL G2010/11,,,PacNW SC ECNL G2010/11,,,On Time,1059136
