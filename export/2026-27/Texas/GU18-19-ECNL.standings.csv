@@ -4,14 +4,14 @@ rank,team,club,teamID,gp,w,l,d,pts,ppg,gf,ga,gd
 3,Dallas Texans ECNL G2008/09,Dallas Texans,134483,2,1,0,1,4,2.0,6,4,2
 4,Colorado Storm ECNL G2008/09,Colorado Storm,59850,2,1,0,1,4,2.0,5,4,1
 5,Lonestar ATX Red ECNL G2008/09,Lonestar ATX,132696,1,0,0,1,1,1.0,2,2,0
-6,Albion Hurricanes FC ECNL G2008/09,Albion Hurricanes FC,39582,2,0,1,1,1,0.5,2,5,-3
-7,DKSC ECNL G2008/09,DKSC,47082,0,0,0,0,0,0.0,0,0,0
-8,FC Dallas Youth ECNL G2008/09,FC Dallas Youth,58541,0,0,0,0,0,0.0,0,0,0
-9,OK Energy FC ECNL G2008/09,Oklahoma Energy FC,59502,0,0,0,0,0,0.0,0,0,0
-10,Sting Black ECNL G2008/09,Sting Soccer Club,59553,0,0,0,0,0,0.0,0,0,0
-11,Sting Royal ECNL G2008/09,Sting Soccer Club,68973,0,0,0,0,0,0.0,0,0,0
-12,West Side Alliance ECNL G2008/09,West Side Alliance SC,110465,0,0,0,0,0,0.0,0,0,0
-13,Real Colorado Athletico ECNL G2008/09,Real Colorado,58634,1,0,1,0,0,0.0,2,3,-1
-14,FC Westlake ECNL G2008/09,FC Westlake ,131277,1,0,1,0,0,0.0,1,2,-1
-15,Colorado Rush ECNL G2008/09,Colorado Rush,94982,1,0,1,0,0,0.0,0,1,-1
-16,Challenge SC ECNL G2008/09,Challenge SC,129337,2,0,2,0,0,0.0,2,10,-8
+6,Real Colorado Athletico ECNL G2008/09,Real Colorado,58634,2,0,1,1,1,0.5,3,4,-1
+7,Albion Hurricanes FC ECNL G2008/09,Albion Hurricanes FC,39582,2,0,1,1,1,0.5,2,5,-3
+8,Challenge SC ECNL G2008/09,Challenge SC,129337,3,0,2,1,1,0.33,3,11,-8
+9,DKSC ECNL G2008/09,DKSC,47082,0,0,0,0,0,0.0,0,0,0
+10,FC Dallas Youth ECNL G2008/09,FC Dallas Youth,58541,0,0,0,0,0,0.0,0,0,0
+11,OK Energy FC ECNL G2008/09,Oklahoma Energy FC,59502,0,0,0,0,0,0.0,0,0,0
+12,Sting Black ECNL G2008/09,Sting Soccer Club,59553,0,0,0,0,0,0.0,0,0,0
+13,Sting Royal ECNL G2008/09,Sting Soccer Club,68973,0,0,0,0,0,0.0,0,0,0
+14,West Side Alliance ECNL G2008/09,West Side Alliance SC,110465,0,0,0,0,0,0.0,0,0,0
+15,FC Westlake ECNL G2008/09,FC Westlake ,131277,1,0,1,0,0,0.0,1,2,-1
+16,Colorado Rush ECNL G2008/09,Colorado Rush,94982,1,0,1,0,0,0.0,0,1,-1
