@@ -161,8 +161,21 @@ browser where it isn't a favorite.
 
 ## Deploying
 
-Cloudflare Pages: connect the repo, production branch `main`, **build command:
-none**, **build output directory: `public`**. Pushing to `main` deploys.
+The site is a Cloudflare Worker serving static assets (`wrangler.toml` at the repo
+root: no script, `[assets] directory = "./public"`). It is built by Cloudflare's Git
+integration on the **NextOneTwoLabs** Cloudflare account: repository
+`NextOneTwoLabs/ecnl-dashboard`, branch `main`, build command empty, deploy command
+`npx wrangler deploy`. Pushing to `main` — including the scheduled data commits —
+redeploys.
+
+- **Canonical URL:** `https://ecnl-dashboard.nextonetwo.workers.dev`
+- **Old URL:** `https://ecnl-dashboard.zhenyisx.workers.dev` is a permanent redirect,
+  served by the tiny Worker in [`redirect/`](redirect/) from the original personal
+  account. Deep-link fragments survive the redirect.
+
+The `workers.dev` subdomain belongs to the Cloudflare account, not to GitHub — moving
+the repository between GitHub owners does not change the URL, but Cloudflare's GitHub
+App must be installed on the new owner for builds to continue.
 
 ## Data Sources
 

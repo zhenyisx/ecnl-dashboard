@@ -1,0 +1,13 @@
+# The redirect Worker that replaces the site in the OLD (personal) Cloudflare
+# account, so ecnl-dashboard.zhenyisx.workers.dev keeps working as a 301 to
+# ecnl-dashboard.nextonetwo.workers.dev.
+#
+# Deploy from this directory, authenticated to the personal account:
+#     cd redirect && npx wrangler deploy
+# or paste worker.js into the dashboard's "Edit code" for that Worker.
+#
+# The Worker name matches the existing one so the deploy replaces it in place.
+
+name = "ecnl-dashboard"
+main = "worker.js"
+compatibility_date = "2026-08-31"
