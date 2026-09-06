@@ -1,6 +1,6 @@
 rank,team,club,teamID,gp,w,l,d,pts,ppg,gf,ga,gd
-1,Challenge SC ECNL G2011/12,Challenge SC,129341,1,1,0,0,3,3.0,3,1,2
-2,Albion Hurricanes FC ECNL G2011/12,Albion Hurricanes FC,81918,1,1,0,0,3,3.0,2,0,2
+1,Albion Hurricanes FC ECNL G2011/12,Albion Hurricanes FC,81918,2,2,0,0,6,3.0,6,1,5
+2,Challenge SC ECNL G2011/12,Challenge SC,129341,1,1,0,0,3,3.0,3,1,2
 3,Lonestar ATX Red ECNL G2011/12,Lonestar ATX,132702,1,1,0,0,3,3.0,2,1,1
 4,Real Colorado National ECNL G2011/12,Real Colorado,95108,2,1,0,1,4,2.0,4,2,2
 5,Colorado Storm ECNL G2011/12,Colorado Storm,71847,2,1,1,0,3,1.5,4,2,2
@@ -14,4 +14,4 @@ rank,team,club,teamID,gp,w,l,d,pts,ppg,gf,ga,gd
 13,Sting Royal ECNL G2011/12,Sting Soccer Club,59609,0,0,0,0,0,0.0,0,0,0
 14,West Side Alliance ECNL G2011/12,West Side Alliance SC,111175,0,0,0,0,0,0.0,0,0,0
 15,Colorado Rush ECNL G2011/12,Colorado Rush,95047,2,0,2,0,0,0.0,0,4,-4
-16,Real Colorado Athletico ECNL G2011/12,Real Colorado,95110,2,0,2,0,0,0.0,1,6,-5
+16,Real Colorado Athletico ECNL G2011/12,Real Colorado,95110,3,0,3,0,0,0.0,2,10,-8

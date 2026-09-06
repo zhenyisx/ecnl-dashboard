@@ -1,17 +1,17 @@
 rank,team,club,teamID,gp,w,l,d,pts,ppg,gf,ga,gd
-1,Colorado Storm ECNL G2013/14,Colorado Storm,132370,2,2,0,0,6,3.0,8,1,7
-2,Real Colorado National ECNL G2013/14,Real Colorado,108897,2,2,0,0,6,3.0,5,0,5
-3,Challenge SC ECNL G2013/14,Challenge SC,129343,1,1,0,0,3,3.0,3,1,2
-4,Albion Hurricanes FC ECNL G2013/14,Albion Hurricanes FC,69768,1,0,0,1,1,1.0,1,1,0
-5,Colorado Rush ECNL G2013/14,Colorado Rush,132180,2,0,1,1,1,0.5,1,4,-3
-6,Sting Black ECNL G2013/14,Sting Soccer Club,111690,0,0,0,0,0,0.0,0,0,0
-7,Sting Royal ECNL G2013/14,Sting Soccer Club,131001,0,0,0,0,0,0.0,0,0,0
-8,FC Dallas Youth ECNL G2013/14,FC Dallas Youth,96490,0,0,0,0,0,0.0,0,0,0
-9,DKSC ECNL G2013/14,DKSC,131839,0,0,0,0,0,0.0,0,0,0
-10,SOLAR SC ECNL G2013/14,Solar SC,69973,0,0,0,0,0,0.0,0,0,0
-11,West Side Alliance ECNL G2013/14,West Side Alliance SC,129323,0,0,0,0,0,0.0,0,0,0
-12,Dallas Texans ECNL G2013/14,Dallas Texans,134490,0,0,0,0,0,0.0,0,0,0
-13,OK Energy FC ECNL G2013/14,Oklahoma Energy FC,94445,0,0,0,0,0,0.0,0,0,0
-14,FC Westlake ECNL G2013/14,FC Westlake ,131271,1,0,1,0,0,0.0,0,2,-2
-15,Lonestar ATX Red ECNL G2013/14,Lonestar ATX,132704,1,0,1,0,0,0.0,1,4,-3
-16,Real Colorado Athletico ECNL G2013/14,Real Colorado,127617,2,0,2,0,0,0.0,1,7,-6
+1,Real Colorado National ECNL G2013/14,Real Colorado,108897,3,3,0,0,9,3.0,7,0,7
+2,Colorado Storm ECNL G2013/14,Colorado Storm,132370,3,2,1,0,6,2.0,8,2,6
+3,Albion Hurricanes FC ECNL G2013/14,Albion Hurricanes FC,69768,2,1,0,1,4,2.0,4,1,3
+4,Challenge SC ECNL G2013/14,Challenge SC,129343,2,1,0,1,4,2.0,5,3,2
+5,FC Westlake ECNL G2013/14,FC Westlake ,131271,2,1,1,0,3,1.5,1,2,-1
+6,Colorado Rush ECNL G2013/14,Colorado Rush,132180,3,0,1,2,2,0.67,3,6,-3
+7,Sting Black ECNL G2013/14,Sting Soccer Club,111690,0,0,0,0,0,0.0,0,0,0
+8,Sting Royal ECNL G2013/14,Sting Soccer Club,131001,0,0,0,0,0,0.0,0,0,0
+9,FC Dallas Youth ECNL G2013/14,FC Dallas Youth,96490,0,0,0,0,0,0.0,0,0,0
+10,DKSC ECNL G2013/14,DKSC,131839,0,0,0,0,0,0.0,0,0,0
+11,SOLAR SC ECNL G2013/14,Solar SC,69973,0,0,0,0,0,0.0,0,0,0
+12,West Side Alliance ECNL G2013/14,West Side Alliance SC,129323,0,0,0,0,0,0.0,0,0,0
+13,Dallas Texans ECNL G2013/14,Dallas Texans,134490,0,0,0,0,0,0.0,0,0,0
+14,OK Energy FC ECNL G2013/14,Oklahoma Energy FC,94445,0,0,0,0,0,0.0,0,0,0
+15,Lonestar ATX Red ECNL G2013/14,Lonestar ATX,132704,2,0,2,0,0,0.0,1,6,-5
+16,Real Colorado Athletico ECNL G2013/14,Real Colorado,127617,3,0,3,0,0,0.0,1,10,-9
