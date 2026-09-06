@@ -1,12 +1,12 @@
 rank,team,club,teamID,gp,w,l,d,pts,ppg,gf,ga,gd
-1,SOLAR SC ECNL G2008/09,Solar SC,59562,2,2,0,0,6,3.0,9,0,9
-2,Real Colorado National ECNL G2008/09,Real Colorado,58631,2,2,0,0,6,3.0,3,1,2
+1,Real Colorado National ECNL G2008/09,Real Colorado,58631,3,3,0,0,9,3.0,11,1,10
+2,SOLAR SC ECNL G2008/09,Solar SC,59562,2,2,0,0,6,3.0,9,0,9
 3,Dallas Texans ECNL G2008/09,Dallas Texans,134483,2,1,0,1,4,2.0,6,4,2
 4,FC Westlake ECNL G2008/09,FC Westlake ,131277,2,1,1,0,3,1.5,4,4,0
 5,Colorado Storm ECNL G2008/09,Colorado Storm,59850,3,1,1,1,4,1.33,7,7,0
-6,Lonestar ATX Red ECNL G2008/09,Lonestar ATX,132696,1,0,0,1,1,1.0,2,2,0
-7,Real Colorado Athletico ECNL G2008/09,Real Colorado,58634,2,0,1,1,1,0.5,3,4,-1
-8,Albion Hurricanes FC ECNL G2008/09,Albion Hurricanes FC,39582,2,0,1,1,1,0.5,2,5,-3
+6,Real Colorado Athletico ECNL G2008/09,Real Colorado,58634,3,0,1,2,2,0.67,4,5,-1
+7,Albion Hurricanes FC ECNL G2008/09,Albion Hurricanes FC,39582,3,0,1,2,2,0.67,3,6,-3
+8,Lonestar ATX Red ECNL G2008/09,Lonestar ATX,132696,2,0,1,1,1,0.5,2,10,-8
 9,Challenge SC ECNL G2008/09,Challenge SC,129337,3,0,2,1,1,0.33,3,11,-8
 10,DKSC ECNL G2008/09,DKSC,47082,0,0,0,0,0,0.0,0,0,0
 11,FC Dallas Youth ECNL G2008/09,FC Dallas Youth,58541,0,0,0,0,0,0.0,0,0,0

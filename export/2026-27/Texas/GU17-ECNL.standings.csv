@@ -1,8 +1,8 @@
 rank,team,club,teamID,gp,w,l,d,pts,ppg,gf,ga,gd
-1,Real Colorado National ECNL G2009/10,Real Colorado,69251,3,3,0,0,9,3.0,6,0,6
-2,Albion Hurricanes FC ECNL G2009/10,Albion Hurricanes FC,59340,2,2,0,0,6,3.0,6,0,6
-3,Challenge SC ECNL G2009/10,Challenge SC,129339,1,1,0,0,3,3.0,6,1,5
-4,Colorado Storm ECNL G2009/10,Colorado Storm,69485,2,2,0,0,6,3.0,5,0,5
+1,Colorado Storm ECNL G2009/10,Colorado Storm,69485,3,3,0,0,9,3.0,9,1,8
+2,Challenge SC ECNL G2009/10,Challenge SC,129339,2,2,0,0,6,3.0,9,3,6
+3,Real Colorado National ECNL G2009/10,Real Colorado,69251,3,3,0,0,9,3.0,6,0,6
+4,Albion Hurricanes FC ECNL G2009/10,Albion Hurricanes FC,59340,2,2,0,0,6,3.0,6,0,6
 5,Dallas Texans ECNL G2009/10,Dallas Texans,134485,0,0,0,0,0,0.0,0,0,0
 6,DKSC ECNL G2009/10,DKSC,68923,0,0,0,0,0,0.0,0,0,0
 7,FC Dallas Youth ECNL G2009/10,FC Dallas Youth,46266,0,0,0,0,0,0.0,0,0,0
@@ -11,7 +11,7 @@ rank,team,club,teamID,gp,w,l,d,pts,ppg,gf,ga,gd
 10,Sting Black ECNL G2009/10,Sting Soccer Club,48667,0,0,0,0,0,0.0,0,0,0
 11,Sting Royal ECNL G2009/10,Sting Soccer Club,68974,0,0,0,0,0,0.0,0,0,0
 12,West Side Alliance ECNL G2009/10,West Side Alliance SC,110467,0,0,0,0,0,0.0,0,0,0
-13,FC Westlake ECNL G2009/10,FC Westlake ,131276,1,0,1,0,0,0.0,0,1,-1
+13,FC Westlake ECNL G2009/10,FC Westlake ,131276,2,0,2,0,0,0.0,1,5,-4
 14,Lonestar ATX Red ECNL G2009/10,Lonestar ATX,132697,2,0,2,0,0,0.0,0,5,-5
-15,Colorado Rush ECNL G2009/10,Colorado Rush,94985,2,0,2,0,0,0.0,0,6,-6
+15,Colorado Rush ECNL G2009/10,Colorado Rush,94985,3,0,3,0,0,0.0,2,9,-7
 16,Real Colorado Athletico ECNL G2009/10,Real Colorado,69250,3,0,3,0,0,0.0,1,11,-10
