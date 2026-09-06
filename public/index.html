@@ -957,6 +957,114 @@
       }
     }
 
+    /* ===== MY TEAMS (team summary) ===== */
+    .team-stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 10px;
+      width: 100%;
+      margin-bottom: 16px;
+    }
+
+    .stat-card {
+      min-width: 0;
+      padding: 10px 12px;
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .stat-card.wide { grid-column: span 2; }
+
+    .stat-label {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-secondary);
+    }
+
+    .stat-value {
+      margin-top: 2px;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 1.2;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .stat-of { font-size: 13px; font-weight: 500; color: var(--text-secondary); }
+
+    .stat-sub {
+      margin-top: 2px;
+      font-size: 11px;
+      color: var(--text-secondary);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .form-chips { display: flex; gap: 4px; margin-top: 6px; }
+
+    .form-chip {
+      width: 24px;
+      height: 24px;
+      border-radius: 6px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 11px;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .form-chip.w { background: var(--teal); }
+    .form-chip.d { background: #8c96a3; }
+    .form-chip.l { background: #d9534f; }
+
+    .summary-stack { display: flex; flex-direction: column; gap: 20px; width: 100%; min-width: 0; }
+    .summary-stack .flight-panel { min-width: 0; flex: none; }
+
+    .team-row-highlight td { background: var(--teal-glow) !important; }
+    .team-row-highlight td:first-child { box-shadow: inset 3px 0 0 var(--teal); }
+
+    .fav-item { align-items: flex-start; }
+    .fav-name { display: block; }
+    .fav-meta { display: block; margin-top: 1px; font-size: 10.5px; font-weight: 400; color: var(--text-secondary); }
+
+    .team-title-logo {
+      width: 28px;
+      height: 28px;
+      object-fit: contain;
+      vertical-align: middle;
+      margin-right: 8px;
+    }
+
+    .postseason-note {
+      width: 100%;
+      margin-top: 8px;
+      padding: 12px 16px;
+      background: var(--gold-glow);
+      border: 1px solid var(--gold);
+      border-radius: var(--radius-md);
+    }
+
+    .postseason-title {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-secondary);
+    }
+
+    .postseason-outcome { margin-top: 3px; font-size: 14px; font-weight: 700; }
+
+    @media (max-width: 768px) {
+      .team-stats { grid-template-columns: repeat(2, 1fr); }
+    }
+
     /* ===== BRACKETS (playoffs) ===== */
     .bracket-wrap { width: 100%; min-width: 0; }
 
@@ -1827,7 +1935,8 @@
           season: currentSeason, ageGroup: currentAgeGroup,
           conference: currentConference, view: currentView,
           tab: currentTab, stage: currentPlayoffStage,
-          playoffAgeGroup: currentPlayoffAgeGroup, tier: currentPlayoffTier
+          playoffAgeGroup: currentPlayoffAgeGroup, tier: currentPlayoffTier,
+          favorite: currentFavorite
         }));
       } catch (e) { }
     }
@@ -1841,6 +1950,8 @@
           if (SEASONS[currentSeason].conferences[s.conference]) currentConference = s.conference;
           if (s.view === 'schedule' || s.view === 'standings') currentView = s.view;
           if (s.tab === 'playoffs' && NATIONAL_EVENTS[currentSeason]) currentTab = 'playoffs';
+          if (s.tab === 'favorites' && favorites.size) currentTab = 'favorites';
+          if (s.favorite && favorites.has(s.favorite)) currentFavorite = s.favorite;
           if (s.stage) currentPlayoffStage = s.stage;              // validated in buildStageTabs
           if (s.playoffAgeGroup) currentPlayoffAgeGroup = s.playoffAgeGroup;
           if (s.tier) currentPlayoffTier = Number(s.tier) || null;
@@ -1848,14 +1959,32 @@
       } catch (e) { }
     }
 
+    // Favourites persist as records — the name plus the IDs that locate the
+    // team (event/division/flight/team) so the summary page can find its
+    // standings and schedule. Older entries were bare names; they load as
+    // {name} and are resolved against the archive the first time they're opened.
+    let favoriteMeta = new Map();   // name -> record
+    let currentFavorite = null;     // name of the favourite shown in My Teams
+
     function saveFavorites() {
-      try { localStorage.setItem(FAVORITES_KEY, JSON.stringify([...favorites])); } catch (e) { }
+      try {
+        const list = [...favorites].map(n => favoriteMeta.get(n) || { name: n });
+        localStorage.setItem(FAVORITES_KEY, JSON.stringify(list));
+      } catch (e) { }
     }
 
     function loadFavorites() {
       try {
         const f = JSON.parse(localStorage.getItem(FAVORITES_KEY));
-        if (f) favorites = new Set(f);
+        if (!Array.isArray(f)) return;
+        favorites = new Set();
+        favoriteMeta = new Map();
+        f.forEach(item => {
+          const rec = typeof item === 'string' ? { name: item } : (item && item.name ? item : null);
+          if (!rec) return;
+          favorites.add(rec.name);
+          favoriteMeta.set(rec.name, rec);
+        });
       } catch (e) { }
     }
 
@@ -1863,9 +1992,13 @@
     function pushHash() {
       const e = encodeURIComponent;
       const view = currentView !== 'standings' ? `&view=${e(currentView)}` : '';
+      const fav = currentFavorite ? favoriteMeta.get(currentFavorite) : null;
       const h = currentTab === 'playoffs'
         ? `#tab=playoffs&season=${e(currentSeason)}&stage=${e(currentPlayoffStage || '')}` +
           `&age=${e(currentPlayoffAgeGroup || '')}&tier=${e(currentPlayoffTier || '')}${view}`
+        : currentTab === 'favorites'
+        ? `#tab=teams&season=${e(currentSeason)}` +
+          (fav && fav.teamID ? `&team=${e(fav.teamID)}` : '') + (fav ? `&name=${e(fav.name)}` : '')
         : `#season=${e(currentSeason)}&age=${e(currentAgeGroup)}&conf=${e(currentConference)}${view}`;
       if (window.location.hash !== h) history.replaceState(null, '', h);
     }
@@ -1877,6 +2010,19 @@
       let changed = false;
       if (p.get('season') && SEASONS[p.get('season')]) { currentSeason = p.get('season'); changed = true; }
       if (p.get('view') === 'schedule' || p.get('view') === 'standings') { currentView = p.get('view'); changed = true; }
+      if (p.get('tab') === 'teams') {
+        currentTab = 'favorites';
+        const teamID = Number(p.get('team')) || null;
+        const name = p.get('name') || null;
+        let rec = [...favoriteMeta.values()].find(r => (teamID && r.teamID === teamID) || (name && r.name === name));
+        if (!rec && (teamID || name)) {
+          // Not one of this browser's favourites: show it anyway, resolved from the archive.
+          rec = { name: name || `Team ${teamID}`, teamID: teamID || undefined };
+          favorites.add(rec.name); favoriteMeta.set(rec.name, rec);
+        }
+        currentFavorite = rec ? rec.name : null;
+        return true;
+      }
       if (p.get('tab') === 'playoffs' && NATIONAL_EVENTS[currentSeason]) {
         currentTab = 'playoffs';
         if (p.get('stage')) currentPlayoffStage = p.get('stage');     // validated in buildStageTabs
@@ -1893,7 +2039,7 @@
     window.addEventListener('hashchange', () => {
       if (!loadFromHash()) return;
       document.getElementById('seasonSelect').value = currentSeason;
-      if (currentTab === 'playoffs') switchTab('playoffs');
+      if (currentTab === 'playoffs' || currentTab === 'favorites') switchTab(currentTab);
       else { switchTab('conferences'); rebuildAll(); }
     });
 
@@ -2037,7 +2183,7 @@
               row.title = `Go to ${confName}`;
               row.innerHTML = `
                 <td>${rankHtml}</td>
-                <td><button class="star-btn ${isFav ? 'starred' : ''}" data-team="${team.name.replace(/"/g,'&quot;')}" onclick="event.stopPropagation();toggleFavorite(this.dataset.team)" title="Favorite">${isFav ? '★' : '☆'}</button></td>
+                <td>${starButton(team)}</td>
                 <td><div class="team-cell">
                   ${team.clublogo ? `<img class="team-logo" src="${team.clublogo}" alt="" loading="lazy" onerror="this.style.display='none'">` : ''}
                   <span class="team-name">${team.name}</span>
@@ -2111,7 +2257,7 @@
       document.getElementById('tabConferences').classList.toggle('active', isConf);
       document.getElementById('tabFavorites').classList.toggle('active', isFav);
       document.getElementById('tabPlayoffs').classList.toggle('active', isPO);
-      if (isFav) buildFavoritesList();
+      if (isFav) openFavoritesTab();
       if (isPO)  loadPlayoffsPanel();
       // Returning to Conferences must repaint the main pane, which the
       // Playoffs panel writes into as well.
@@ -2538,7 +2684,7 @@
     }
 
     // Group-stage cards: one per standings block (TGS returns one block per group).
-    function renderGroupCards(blocks) {
+    function renderGroupCards(blocks, highlightTeamID) {
       const grid = document.createElement('div');
       grid.className = 'group-grid';
       blocks.forEach((data, gi) => {
@@ -2565,9 +2711,9 @@
           const rankHtml = rank <= 3
             ? `<span class="rank-badge rank-${rank}">${rank}</span>`
             : `<span style="padding-left:4px;font-weight:600;color:var(--text-secondary)">${rank}</span>`;
-          return `<tr>
+          return `<tr class="${highlightTeamID && team.teamID === highlightTeamID ? 'team-row-highlight' : ''}">
             <td>${rankHtml}</td>
-            <td><button class="star-btn ${isFav ? 'starred' : ''}" data-team="${esc(team.name)}" onclick="toggleFavorite(this.dataset.team)" title="Favorite">${isFav ? '★' : '☆'}</button></td>
+            <td>${starButton(team)}</td>
             <td><span class="team-name" style="max-width:150px;display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${esc(team.name)}">${esc(team.name)}</span></td>
             <td>${team.gp || 0}</td>
             <td style="font-weight:600">${team.wins || 0}</td>
@@ -2761,6 +2907,82 @@
         `<span class="breadcrumb-current">${currentConference}</span>`;
     }
 
+    // ========== FAVORITES ==========
+    // Every star button carries the IDs that locate its team, so a favourite
+    // is captured with full context the moment it is starred.
+    function starButton(team) {
+      const isFav = favorites.has(team.name);
+      const d = (k, v) => v == null || v === '' ? '' : ` data-${k}="${esc(v)}"`;
+      return `<button class="star-btn ${isFav ? 'starred' : ''}" data-team="${esc(team.name)}"` +
+        d('team-id', team.teamID) + d('club-id', team.clubID) + d('club', team.clubName) +
+        d('event', team.eventID) + d('div', team.divisionID) + d('div-name', team.division) +
+        d('flight', team.flightID) + d('logo', team.clublogo) +
+        ` onclick="event.stopPropagation(); toggleFavorite(this)" title="${isFav ? 'Remove from My Teams' : 'Add to My Teams'}">${isFav ? '★' : '☆'}</button>`;
+    }
+
+    function recordFromButton(btn) {
+      const ds = btn.dataset;
+      const num = v => (v == null || v === '') ? undefined : Number(v);
+      return {
+        name: ds.team, teamID: num(ds.teamId), clubID: num(ds.clubId), clubName: ds.club || undefined,
+        eventID: num(ds.event), divisionID: num(ds.div), divisionName: ds.divName || undefined,
+        flightID: num(ds.flight), logo: ds.logo || undefined,
+      };
+    }
+
+    // `arg` is the star button (adds with context) or a name (sidebar remove).
+    function toggleFavorite(arg) {
+      const rec = typeof arg === 'string' ? (favoriteMeta.get(arg) || { name: arg }) : recordFromButton(arg);
+      const name = rec.name;
+      if (!name) return;
+      if (favorites.has(name)) {
+        favorites.delete(name);
+        favoriteMeta.delete(name);
+        if (currentFavorite === name) currentFavorite = null;
+      } else {
+        favorites.add(name);
+        favoriteMeta.set(name, rec);
+      }
+      saveFavorites();
+      document.querySelectorAll('#standingsContainer .star-btn').forEach(btn => {
+        const n = btn.dataset.team;
+        btn.classList.toggle('starred', favorites.has(n));
+        btn.textContent = favorites.has(n) ? '★' : '☆';
+      });
+      if (currentTab === 'favorites') {
+        buildFavoritesList();
+        if (!currentFavorite) openFavoritesTab();
+      }
+    }
+
+    // Season + conference (or national stage) that an event ID belongs to.
+    function eventContext(eventID) {
+      for (const [season, data] of Object.entries(SEASONS)) {
+        for (const [name, ev] of Object.entries(data.conferences || {})) {
+          if (ev.eventId === eventID) return { season, name, kind: 'conference', event: ev };
+        }
+        for (const [name, ev] of Object.entries(data.national || {})) {
+          if (ev.eventId === eventID) return { season, name, kind: 'national', event: ev };
+        }
+      }
+      return null;
+    }
+
+    function favoriteLabel(rec) {
+      const ctx = rec.eventID ? eventContext(rec.eventID) : null;
+      if (!ctx) return rec.eventID ? `event ${rec.eventID}` : 'not located yet';
+      const age = rec.divisionName ? getAgeLabel(rec.divisionName, ctx.season) : '';
+      return [ctx.season, ctx.name, age].filter(Boolean).join(' · ');
+    }
+
+    function sortedFavorites() {
+      return [...favorites].map(n => favoriteMeta.get(n) || { name: n }).sort((a, b) => {
+        const sa = (a.eventID && eventContext(a.eventID) || {}).season || '';
+        const sb = (b.eventID && eventContext(b.eventID) || {}).season || '';
+        return sb.localeCompare(sa) || a.name.localeCompare(b.name);
+      });
+    }
+
     function buildFavoritesList() {
       const c = document.getElementById('favoritesList');
       const empty = document.getElementById('favoritesEmpty');
@@ -2770,31 +2992,277 @@
         return;
       }
       empty.style.display = 'none';
-      c.innerHTML = [...favorites].sort().map(name =>
-        `<li class="conference-item" onclick="void(0)" style="cursor:default;">
-      <button class="star-btn starred" onclick="toggleFavorite('${name.replace(/'/g, "\\'")}'); buildFavoritesList();" title="Remove">★</button>
-      <span>${name}</span>
-    </li>`
+      c.innerHTML = sortedFavorites().map(rec =>
+        `<li class="conference-item fav-item ${rec.name === currentFavorite ? 'active' : ''}" data-fav="${esc(rec.name)}" onclick="selectFavorite(this.dataset.fav)">
+          <button class="star-btn starred" data-fav="${esc(rec.name)}" onclick="event.stopPropagation(); toggleFavorite(this.dataset.fav)" title="Remove from My Teams">★</button>
+          <span><span class="fav-name">${esc(rec.name)}</span><span class="fav-meta">${esc(favoriteLabel(rec))}</span></span>
+        </li>`
       ).join('');
     }
 
-    // ========== FAVORITES ==========
-    function toggleFavorite(teamName) {
-      if (favorites.has(teamName)) favorites.delete(teamName);
-      else favorites.add(teamName);
-      saveFavorites();
-      // Re-render current standings to update star states
+    function selectFavorite(name) {
+      if (!favorites.has(name)) return;
+      currentFavorite = name;
+      buildFavoritesList();
+      loadTeamSummary(favoriteMeta.get(name) || { name });
+      closeSidebarIfMobile();
+    }
+
+    // Entry point for the My Teams tab: show the current favourite, else the first.
+    function openFavoritesTab() {
+      buildFavoritesList();
+      document.getElementById('viewTabs').style.display = 'none';
+      document.getElementById('formatNote').style.display = 'none';
+      if (!favorites.size) {
+        currentFavorite = null;
+        document.getElementById('breadcrumb').innerHTML =
+          `<span>${esc(currentSeason)}</span><span class="breadcrumb-sep">›</span><span class="breadcrumb-current">My Teams</span>`;
+        document.getElementById('contentTitle').textContent = 'My Teams';
+        document.getElementById('contentSubtitle').textContent = 'Star a team in any standings table to follow it here';
+        document.getElementById('extLinks').innerHTML = '';
+        document.getElementById('standingsContainer').innerHTML = `
+          <div class="no-national-events">
+            <div class="no-national-events-icon">☆</div>
+            <div class="no-national-events-text">No teams yet</div>
+            <div class="no-national-events-sub">Click the ★ next to any team in a standings table, then it appears here with its rank and schedule.</div>
+          </div>`;
+        saveState(); pushHash();
+        return;
+      }
+      const name = (currentFavorite && favorites.has(currentFavorite)) ? currentFavorite : sortedFavorites()[0].name;
+      currentFavorite = name;
+      buildFavoritesList();
+      loadTeamSummary(favoriteMeta.get(name) || { name });
+      resolveAllFavorites();
+    }
+
+    // Older favourites were saved by name only; locate them in the background
+    // so the sidebar can show their season and conference.
+    let resolvingAll = false;
+    async function resolveAllFavorites() {
+      if (resolvingAll) return;
+      resolvingAll = true;
+      try {
+        for (const rec of sortedFavorites()) {
+          if (favoriteResolved(rec) || !favorites.has(rec.name)) continue;
+          if (await resolveFavorite(rec) && currentTab === 'favorites') buildFavoritesList();
+        }
+      } finally { resolvingAll = false; }
+    }
+
+    // "Bay Area Surf - ECNL G2011/12" -> "Bay Area Surf"
+    function shortTeamName(n) {
+      const s = String(n || '').replace(/\s*[-–]?\s*ECNL\b.*$/i, '').trim();
+      return s || n || '';
+    }
+
+    function favoriteResolved(rec) {
+      return !!(rec && rec.eventID && rec.divisionID && rec.flightID && (rec.teamID || rec.name));
+    }
+
+    // Fill in the IDs for a favourite saved by name only (or a deep-linked
+    // teamID) by scanning archived standings, this season first.
+    async function resolveFavorite(rec) {
+      if (favoriteResolved(rec)) return true;
+      const seasons = [currentSeason, ...Object.keys(SEASONS).filter(s => s !== currentSeason)];
+      for (const season of seasons) {
+        const confs = Object.entries(SEASONS[season].conferences || {});
+        const hits = await Promise.all(confs.map(async ([confName, conf]) => {
+          try {
+            const h = await getEventHierarchy(conf.eventId);
+            for (const d of (h.girlsDivAndFlightList || [])) {
+              for (const f of (d.flightList || [])) {
+                const data = await getStandings(d.divisionID, f.flightID, conf.eventId).catch(() => null);
+                const teams = (data && data.teamStandings) || [];
+                const t = teams.find(x => rec.teamID ? x.teamID === rec.teamID : x.name === rec.name);
+                if (t) return { t, d, f, conf };
+              }
+            }
+          } catch (e) { }
+          return null;
+        }));
+        const hit = hits.find(Boolean);
+        if (hit) {
+          Object.assign(rec, {
+            name: hit.t.name, teamID: hit.t.teamID, clubID: hit.t.clubID, clubName: hit.t.clubName,
+            eventID: hit.conf.eventId, divisionID: hit.d.divisionID, divisionName: hit.d.divisionName,
+            flightID: hit.f.flightID, logo: hit.t.clublogo || rec.logo,
+          });
+          if (favorites.has(rec.name)) { favoriteMeta.set(rec.name, rec); saveFavorites(); }
+          return true;
+        }
+      }
+      return false;
+    }
+
+    function resultFor(g, teamID) {
+      if (g.hometeamscore == null || g.awayteamscore == null) return null;
+      const w = gameWinner(g);
+      if (!w) return 'D';
+      const home = g.hometeamID === teamID;
+      return (w === 'home') === home ? 'W' : 'L';
+    }
+
+    function statCard(label, value, sub, extraClass) {
+      return `<div class="stat-card ${extraClass || ''}"><div class="stat-label">${esc(label)}</div>` +
+        `<div class="stat-value">${value}</div>${sub ? `<div class="stat-sub" title="${esc(sub)}">${esc(sub)}</div>` : ''}</div>`;
+    }
+
+    // The My Teams summary: rank + stat strip + full table (team highlighted),
+    // the team's own games, and its post-season games when it played any.
+    async function loadTeamSummary(rec) {
       const container = document.getElementById('standingsContainer');
-      container.querySelectorAll('.star-btn').forEach(btn => {
-        const n = btn.dataset.team;
-        btn.classList.toggle('starred', favorites.has(n));
-        btn.textContent = favorites.has(n) ? '★' : '☆';
-      });
+      document.getElementById('viewTabs').style.display = 'none';
+      document.getElementById('formatNote').style.display = 'none';
+      document.getElementById('extLinks').innerHTML = '';
+      document.getElementById('breadcrumb').innerHTML =
+        `<span>${esc(currentSeason)}</span><span class="breadcrumb-sep">›</span><span>My Teams</span>` +
+        `<span class="breadcrumb-sep">›</span><span class="breadcrumb-current">${esc(rec.name || 'Team')}</span>`;
+      document.getElementById('contentTitle').textContent = rec.name || 'Team';
+      document.getElementById('contentSubtitle').textContent = 'Locating team…';
+      clearTeamFilter();
+      container.innerHTML = `<div class="loading-container"><div class="spinner"></div><div class="loading-text">Loading ${esc(rec.name || 'team')}…</div></div>`;
+
+      try {
+        const found = await resolveFavorite(rec);
+        if (!found) {
+          document.getElementById('contentSubtitle').textContent = 'Not found in the archived seasons';
+          container.innerHTML = `<div class="error-message">
+            <strong>Couldn't find "${esc(rec.name)}" in any archived season.</strong><br>
+            <small>The team may have been renamed. Star it again from its current standings table.</small>
+          </div>`;
+          return;
+        }
+
+        if (currentTab === 'favorites') buildFavoritesList();   // record may just have been resolved
+        const ctx = eventContext(rec.eventID) || { season: currentSeason, name: '', kind: 'conference' };
+        if (ctx.season !== currentSeason) {
+          currentSeason = ctx.season;
+          document.getElementById('seasonSelect').value = currentSeason;
+        }
+
+        const hierarchy = await getEventHierarchy(rec.eventID);
+        const division = (hierarchy.girlsDivAndFlightList || []).find(d => d.divisionID === rec.divisionID);
+        const flight = ((division && division.flightList) || []).find(f => f.flightID === rec.flightID);
+        const divisionName = (division && division.divisionName) || rec.divisionName || '';
+        const flightName = (flight && flight.flightName) || '';
+        const ageLabel = divisionName ? getAgeLabel(divisionName, ctx.season) : '';
+
+        const [standings, games] = await Promise.all([
+          getStandings(rec.divisionID, rec.flightID, rec.eventID),
+          getSchedule(rec.eventID, rec.flightID).catch(() => []),
+        ]);
+        const teams = standings.teamStandings || [];
+        teams.forEach((t, i) => { t._origRank = i + 1; });
+        const idx = teams.findIndex(t => rec.teamID ? t.teamID === rec.teamID : t.name === rec.name);
+        const row = idx >= 0 ? teams[idx] : null;
+        const teamID = row ? row.teamID : rec.teamID;
+
+        const mine = games.filter(g => g.hometeamID === teamID || g.awayteamID === teamID)
+          .sort((a, b) => (a.gameDate || '').localeCompare(b.gameDate || '') || (a.gameTime || '').localeCompare(b.gameTime || ''));
+        const played = mine.filter(g => g.hometeamscore != null && g.awayteamscore != null);
+        const form = played.slice(-5).map(g => resultFor(g, teamID));
+        const next = mine.find(g => g.hometeamscore == null || g.awayteamscore == null);
+
+        // Header
+        document.getElementById('breadcrumb').innerHTML =
+          `<span>${esc(ctx.season)}</span><span class="breadcrumb-sep">›</span><span>My Teams</span>` +
+          `<span class="breadcrumb-sep">›</span><span class="breadcrumb-current">${esc(rec.name)}</span>`;
+        const logo = rec.logo || (row && row.clublogo);
+        document.getElementById('contentTitle').innerHTML =
+          (logo ? `<img class="team-title-logo" src="${esc(logo)}" alt="" onerror="this.style.display='none'">` : '') + esc(rec.name);
+        document.getElementById('contentSubtitle').textContent =
+          [ctx.name, ageLabel ? `${ageLabel} (${divisionName})` : divisionName, flightName ? `${flightName} flight` : '']
+            .filter(Boolean).join(' · ') + freshnessText();
+        document.getElementById('extLinks').innerHTML =
+          `<a class="open-external" href="${getSchedulesUrl(rec.eventID, rec.flightID)}" target="_blank">${EXTERNAL_ICON} Schedules</a>` +
+          `<a class="open-external" href="${getStandingsUrl(rec.eventID, rec.flightID)}" target="_blank">${EXTERNAL_ICON} Standings</a>`;
+
+        // Stat strip
+        const gd = row ? (row.goaldifferential || 0) : 0;
+        const nextText = next
+          ? `${formatShortDate(next.gameDate)} · ${next.hometeamID === teamID ? 'vs' : 'at'} ${shortTeamName(next.hometeamID === teamID ? next.awayTeam : next.homeTeam)}`
+          : (mine.length ? 'Season complete' : 'No fixtures published');
+        const nextSub = next ? [next.gameTimeText, next.complex, next.venue].filter(Boolean).join(' · ') : '';
+        const formHtml = form.length
+          ? `<div class="form-chips">${form.map(r => `<span class="form-chip ${r.toLowerCase()}">${r}</span>`).join('')}</div>`
+          : `<div class="stat-sub">No games played yet</div>`;
+        const strip = `<div class="team-stats">` +
+          statCard('Rank', row ? `${idx + 1}<span class="stat-of"> of ${teams.length}</span>` : '—', row ? `${ctx.name} · ${ageLabel}` : 'Not in this table') +
+          statCard('Points', row ? (row.standingpoints || 0) : '—', row ? `${row.gp || 0} played · ${(row.ppg || 0).toFixed(2)} PPG` : '') +
+          statCard('Record', row ? `${row.wins || 0}-${row.draws || 0}-${row.losses || 0}` : '—', 'W-D-L') +
+          statCard('Goals', row ? `${row.goalsfor || 0}–${row.goalsagainst || 0}` : '—', row ? `${gd > 0 ? '+' : ''}${gd} goal difference` : '') +
+          `<div class="stat-card"><div class="stat-label">Form · last ${form.length || 5}</div>${formHtml}</div>` +
+          statCard('Next game', esc(nextText), nextSub, 'wide') +
+          `</div>`;
+
+        container.innerHTML = strip;
+        // Panels stack vertically here (the default container wraps them side by side,
+        // which squeezes the standings columns).
+        const stack = document.createElement('div');
+        stack.className = 'summary-stack';
+        container.appendChild(stack);
+
+        // Standings with the team's row highlighted
+        if (teams.length) {
+          stack.appendChild(renderStandingsTable(standings, flightName, rec.flightID, rec.eventID, teamID));
+        }
+
+        // The team's own games
+        const short = shortTeamName(rec.name);
+        stack.appendChild(renderScheduleTable(mine, flightName, rec.flightID, rec.eventID, null, `${short} · all games`));
+
+        // Post-season, if the team appears in a national event of this season
+        for (const [stage, evt] of Object.entries(NATIONAL_EVENTS[ctx.season] || {})) {
+          if (!evt.eventId || evt.eventId === rec.eventID) continue;
+          try {
+            const nh = await getEventHierarchy(evt.eventId);
+            const nd = (nh.girlsDivAndFlightList || []).find(d => d.divisionName === divisionName);
+            if (!nd) continue;
+            for (const f of (nd.flightList || [])) {
+              const sched = await getSchedule(evt.eventId, f.flightID).catch(() => []);
+              const ours = sched.filter(g => g.hometeamID === teamID || g.awayteamID === teamID);
+              if (!ours.length) continue;
+              const tier = tierLabel(evt, f.flightName);
+              const bracketGames = sched.filter(g => g.type === 'Bracket');
+              const brackets = bracketGames.length ? buildBrackets(bracketGames, f.flightName, tier) : null;
+              let outcome = '';
+              if (brackets) {
+                const main = brackets.list.find(b => b.isMain);
+                const reached = b => b.rounds.filter(r => r.games.some(e => e.game.hometeamID === teamID || e.game.awayteamID === teamID)).map(r => r.name);
+                if (brackets.champion === rec.name) outcome = `🏆 ${tier} Champion`;
+                else if (main && reached(main).length) outcome = `Reached the ${reached(main).slice(-1)[0]} of the ${tier}`;
+                const cup = brackets.list.find(b => b.path === 'L1');
+                if (cup && reached(cup).length) outcome += `${outcome ? ' · ' : ''}${cup.name}: ${reached(cup).slice(-1)[0]}`;
+              }
+              // Fetch everything first so the section appears in one piece.
+              const blocks = await getStandingsBlocks(nd.divisionID, f.flightID, evt.eventId).catch(() => []);
+              const myBlock = blocks.find(b => (b.teamStandings || []).some(t => t.teamID === teamID));
+              const panel = document.createElement('div');
+              panel.className = 'postseason-note';
+              panel.innerHTML = `<div class="postseason-title">${esc(stage)} · ${esc(evt.eventName || '')}</div>` +
+                (outcome ? `<div class="postseason-outcome">${esc(outcome)}</div>` : '');
+              stack.appendChild(panel);
+              if (myBlock) stack.appendChild(renderGroupCards([myBlock], teamID));
+              stack.appendChild(renderScheduleTable(ours, f.flightName, f.flightID, evt.eventId,
+                brackets ? (g => brackets.tagByMatch.get(g.matchID) || '') : null, `${tier} · ${short}`));
+            }
+          } catch (e) { console.warn('post-season lookup failed', e); }
+        }
+      } catch (err) {
+        console.error(err);
+        container.innerHTML = `<div class="error-message"><strong>Couldn't load this team.</strong><br><small>Please try again shortly.</small></div>`;
+      }
+
+      saveState();
+      pushHash();
     }
 
     // ========== STANDINGS RENDERING ==========
-    function renderStandingsTable(standings, flightName, flightId, eventId) {
+    // `highlightTeamID` marks one row (the My Teams summary); it survives re-sorting.
+    function renderStandingsTable(standings, flightName, flightId, eventId, highlightTeamID) {
       const teams = standings.teamStandings || standings;
+      const rowClass = team => (highlightTeamID && team.teamID === highlightTeamID) ? ' class="team-row-highlight"' : '';
       const panel = document.createElement('div');
       panel.className = 'flight-panel';
 
@@ -2837,9 +3305,9 @@
         }
 
         tbody.innerHTML += `
-      <tr>
+      <tr${rowClass(team)}>
         <td>${rankHtml}</td>
-        <td><button class="star-btn ${isFav ? 'starred' : ''}" data-team="${team.name.replace(/"/g, '&quot;')}" onclick="toggleFavorite(this.dataset.team)" title="Add to favorites">${isFav ? '★' : '☆'}</button></td>
+        <td>${starButton(team)}</td>
         <td><div class="team-cell">
           ${team.clublogo ? `<img class="team-logo" src="${team.clublogo}" alt="" loading="lazy" onerror="this.style.display='none'">` : ''}
           <span class="team-name">${team.name}</span>
@@ -2895,9 +3363,9 @@
             else rankHtml = `<span style="padding-left:8px;font-weight:600;color:var(--text-secondary)">${rank}</span>`;
 
             tbody.innerHTML += `
-          <tr>
+          <tr${rowClass(team)}>
             <td>${rankHtml}</td>
-            <td><button class="star-btn ${isFav ? 'starred' : ''}" data-team="${team.name.replace(/"/g, '&quot;')}" onclick="toggleFavorite(this.dataset.team)" title="Add to favorites">${isFav ? '★' : '☆'}</button></td>
+            <td>${starButton(team)}</td>
             <td><div class="team-cell">
               ${team.clublogo ? `<img class="team-logo" src="${team.clublogo}" alt="" loading="lazy" onerror="this.style.display='none'">` : ''}
               <span class="team-name">${team.name}</span>
@@ -2939,14 +3407,14 @@
 
     // `rowTag(game)` optionally returns a label printed under the kickoff time,
     // used by playoff brackets to show the round ("Quarterfinals", "CL Cup · Final").
-    function renderScheduleTable(games, flightName, flightId, eventId, rowTag) {
+    function renderScheduleTable(games, flightName, flightId, eventId, rowTag, title) {
       const panel = document.createElement('div');
       panel.className = 'flight-panel';
 
       const played = games.filter(g => g.hometeamscore != null && g.awayteamscore != null).length;
       panel.innerHTML = `
     <div class="flight-header">
-      <div class="flight-title"><span class="flight-dot"></span>${esc(flightName)} Flight</div>
+      <div class="flight-title"><span class="flight-dot"></span>${title ? esc(title) : esc(flightName) + ' Flight'}</div>
       <span class="flight-team-count">${games.length} game${games.length !== 1 ? 's' : ''} · ${played} played</span>
     </div>
     <table class="standings-table schedule-table">
@@ -3153,6 +3621,13 @@
 
       if (currentTab === 'playoffs') {
         await loadPlayoffsPanel();
+      } else if (currentTab === 'favorites') {
+        // A favourite is bound to its own season; choosing another season
+        // means browsing that season, so go to Conferences.
+        switchTab('conferences');
+        currentConference = Object.keys(getSeasonData().conferences)[0];
+        currentAgeGroup = null;
+        await rebuildAll();
       } else {
         // Reset conference to first available for the new season
         currentConference = Object.keys(getSeasonData().conferences)[0];
@@ -3210,14 +3685,14 @@
 
       if (!loadFromHash()) loadSavedState();
       document.getElementById('seasonSelect').value = currentSeason;
-      if (currentTab === 'playoffs') {
-        // Build the conference sidebar so switching back is instant, but land on Playoffs.
+      if (currentTab === 'playoffs' || currentTab === 'favorites') {
+        // Build the conference sidebar so switching back is instant, but land on the saved tab.
         await loadAgeGroupsForSeason();
         if (!currentAgeGroup || !AGE_GROUPS.includes(currentAgeGroup)) currentAgeGroup = AGE_GROUPS[0] || null;
         if (!getSeasonData().conferences[currentConference]) currentConference = Object.keys(getSeasonData().conferences)[0];
         buildAgeGroupTabs();
         buildConferenceList();
-        switchTab('playoffs');
+        switchTab(currentTab);
       } else {
         await rebuildAll();
       }

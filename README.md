@@ -14,7 +14,7 @@ upstream API or website ever goes away.
 - **Self-refreshing** — a scheduled job updates the data on match days and keeps the fixture calendar current
 - **CSV exports** — Human-readable standings and schedule tables under `export/`, openable in Excel
 - **Playoffs & Finals** — National post-season per age group and competition (Champions League, North American Cup, Showcase Cup, Showcase Games): knockout brackets drawn as trees, cup and consolation brackets, group tables where a group stage exists, round-tagged schedules, and a format note per competition
-- **★ My Teams** — Star any team to track them in a personal favorites list
+- **★ My Teams** — Star any team; each favorite opens a summary page: rank, points, record, goals, last-5 form and next game, the full table with the team highlighted, the team's own fixtures and results, and its post-season games when it played any
 - **Age group navigation** — Tabs populated from the API; keyboard arrow-key navigation
 - **Dark mode**, and **deep links** (season, age group, conference, and view in the URL hash)
 
@@ -128,6 +128,18 @@ Not included: the U18/19 National Finals is a separate TGS event (St. Louis, Jun
 and can be added as a second `national` entry when its event ID is known. The
 2024-25 Finals event (3975) publishes no games through the API, so that bracket
 ends at the round played at the Playoffs event.
+
+## My Teams
+
+Favorites are stored in the browser (`localStorage`) as records — the team name plus
+the IDs that locate it (`eventID`, `divisionID`, `flightID`, `teamID`) — captured from
+the standings row when the ★ is clicked. A favorite therefore belongs to one team in
+one season; clicking it switches the season selector to that season. Favorites saved
+by the earlier version (name only) are located by scanning the archived standings the
+first time My Teams is opened, and upgraded in place.
+
+`#tab=teams&season=2026-27&team=<teamID>` deep-links to a team's summary even in a
+browser where it isn't a favorite.
 
 ## Layout
 
