@@ -162,16 +162,23 @@ browser where it isn't a favorite.
 ## Deploying
 
 The site is a Cloudflare Worker serving static assets (`wrangler.toml` at the repo
-root: no script, `[assets] directory = "./public"`). It is built by Cloudflare's Git
-integration on the **NextOneTwoLabs** Cloudflare account: repository
-`NextOneTwoLabs/ecnl-dashboard`, branch `main`, build command empty, deploy command
-`npx wrangler deploy`. Pushing to `main` — including the scheduled data commits —
-redeploys.
+root: `[assets] directory = "./public"`, plus a ten-line `worker.js` that only
+redirects the `workers.dev` hostname). It is built by Cloudflare's Git integration
+on the **NextOneTwoLabs** Cloudflare account: repository `NextOneTwoLabs/ecnl-dashboard`,
+branch `main`, build command empty, deploy command `npx wrangler deploy`. Pushing to
+`main` — including the scheduled data commits — redeploys.
 
-- **Canonical URL:** `https://ecnl-dashboard.nextonetwolabs.workers.dev`
-- **Old URL:** `https://ecnl-dashboard.zhenyisx.workers.dev` is a permanent redirect,
-  served by the tiny Worker in [`redirect/`](redirect/) from the original personal
-  account. Deep-link fragments survive the redirect.
+- **Canonical URL:** `https://ecnl.nextonetwo.com` — a custom domain attached to the
+  Worker (the `nextonetwo.com` zone lives in the same Cloudflare account, so DNS and
+  the certificate are managed automatically).
+- `https://ecnl-dashboard.nextonetwolabs.workers.dev` permanently redirects there
+  (`worker.js`, which runs ahead of the assets for `/` only, so page views cost one
+  Worker request and every other file is a free static asset).
+- `https://ecnl-dashboard.zhenyisx.workers.dev` — the original address — also
+  redirects there, served by the tiny Worker in [`redirect/`](redirect/) from the
+  original personal account.
+
+Deep-link `#` fragments survive both redirects.
 
 The `workers.dev` subdomain belongs to the Cloudflare account, not to GitHub — moving
 the repository between GitHub owners does not change the URL, but Cloudflare's GitHub

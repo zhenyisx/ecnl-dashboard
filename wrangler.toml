@@ -1,14 +1,19 @@
-# Cloudflare Workers Static Assets config.
+# Cloudflare Workers config for the site.
 #
-# There is no Worker script — this is an assets-only deployment, so every
-# request is served straight from public/ as a static file. Static asset
-# requests don't count against Workers request limits.
+# The site is the static files in public/ — the same directory the local
+# server serves, so the deployed site is byte-identical to a local run. The
+# tiny worker.js only redirects the workers.dev address to the canonical
+# custom domain; it runs ahead of the assets for "/" alone, so everything
+# else is served as free static assets without invoking the Worker.
 #
-# public/ is also the local server root (see proxy_server.py), so what is
-# deployed here is byte-identical to what runs locally.
+# Canonical address: https://ecnl.nextonetwo.com  (custom domain, attached to
+# this Worker in the Cloudflare dashboard under Settings -> Domains & Routes).
 
 name = "ecnl-dashboard"
+main = "worker.js"
 compatibility_date = "2026-08-31"
 
 [assets]
 directory = "./public"
+binding = "ASSETS"
+run_worker_first = ["/"]
