@@ -168,7 +168,7 @@ integration on the **NextOneTwoLabs** Cloudflare account: repository
 `npx wrangler deploy`. Pushing to `main` — including the scheduled data commits —
 redeploys.
 
-- **Canonical URL:** `https://ecnl-dashboard.nextonetwo.workers.dev`
+- **Canonical URL:** `https://ecnl-dashboard.nextonetwolabs.workers.dev`
 - **Old URL:** `https://ecnl-dashboard.zhenyisx.workers.dev` is a permanent redirect,
   served by the tiny Worker in [`redirect/`](redirect/) from the original personal
   account. Deep-link fragments survive the redirect.

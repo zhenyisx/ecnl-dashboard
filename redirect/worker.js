@@ -10,7 +10,7 @@
 export default {
   fetch(request) {
     const url = new URL(request.url);
-    url.hostname = 'ecnl-dashboard.nextonetwo.workers.dev';
+    url.hostname = 'ecnl-dashboard.nextonetwolabs.workers.dev';
     return Response.redirect(url.toString(), 301);
   },
 };
